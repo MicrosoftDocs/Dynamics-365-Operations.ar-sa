@@ -1,6 +1,6 @@
 ---
 title: إنشاء مجموعات اتفاقيات الخدمة
-description: يوفر هذا الموضوع إجراءً يوضح كيفية إنشاء مجموعات اتفاقيات الخدمة.
+description: يوفر هذا المقال إجراءً يوضح كيفية إنشاء مجموعات اتفاقيات الخدمة.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b849de86f5c2cb89d584df607a4d7662606fa9d6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9d94dfe38a6aef765bb1089908827275c00b3dc9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889475"
 ---
 # <a name="create-service-agreement-groups"></a>إنشاء مجموعات اتفاقيات الخدمة 
 
@@ -37,7 +37,7 @@ ms.locfileid: "8677271"
 > [!NOTE]
 > إذا تم تحديد مجموعة اتفاقية خدمة في حقل **مجموعة اتفاقيات الخدمة** في صفحة **محددات إدارة الخدمة**، فسوف يقترح البرنامج هذه المجموعة لكافة اتفاقيات الخدمة الجديدة التي تقوم بإنشائها.
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [نظرة عامة على اتفاقية الخدمة](service-agreement-groups.md)
 

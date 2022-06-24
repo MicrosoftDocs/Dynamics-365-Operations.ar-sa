@@ -1,6 +1,6 @@
 ---
 title: تطبيق إعدادات المخزون
-description: يتناول هذا الموضوع إعدادات المخزون ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
+description: يتناول هذا المقال إعدادات المخزون ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: df1d1283a7692336906550169bc77104a9118779
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909547"
 ---
 # <a name="apply-inventory-settings"></a>تطبيق إعدادات المخزون
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع إعدادات المخزون ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال إعدادات المخزون ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
 
 تحدد إعدادات المخزون ما إذا كان ينبغي فحص المخزون قبل إضافة المنتجات إلى سلة التسوق. وهي تحدد أيضًا رسائل ترويج البضائع المرتبطة بالمخزون، مثل "في المخزون" و "بقي عدد قليل فقط." وتضمن هذه الإعدادات عدم إمكانية شراء منتج عندما ينفد من المخزون.
 

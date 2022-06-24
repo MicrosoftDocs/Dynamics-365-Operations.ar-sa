@@ -1,6 +1,6 @@
 ---
 title: إقران موقع Dynamics 365 Commerce بقناة عبر الإنترنت
-description: يشرح هذا الموضوع كيفية ربط موقع Microsoft Dynamics 365 Commerce الخاص بك بواحد أو أكثر من المتاجر عبر الإنترنت.
+description: يشرح هذا المقال كيفية ربط موقع Microsoft Dynamics 365 Commerce الخاص بك بواحد أو أكثر من المتاجر عبر الإنترنت.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878663"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>إقران موقع Dynamics 365 Commerce بقناة عبر الإنترنت
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيفية ربط موقع Microsoft Dynamics 365 Commerce الخاص بك بواحد أو أكثر من المتاجر عبر الإنترنت. 
+يشرح هذا المقال كيفية ربط موقع Microsoft Dynamics 365 Commerce الخاص بك بواحد أو أكثر من المتاجر عبر الإنترنت. 
 
 بعد قيامك بتوفير بيئة التجارة الإلكترونية لـ Dynamics 365 Commerce الخاصة بك باستخدام مدخل Microsoft Dynamics Lifecycle Services (LCS)، تُصبح جاهزًا لإنشاء موقعك الأول للتجارة الإلكترونية. وكجزء من إنشاء الموقع الأولي، قم بربط الموقع مع متجر عبر الإنترنت تم إنشاؤه مسبقًا. تربط هذه الخطوة الموقع بقناة على الإنترنت وتتيح للموقع عرض ‏‫التدرج الهرمي للتنقل والمنتجات والفئات والأسعار وخيارات الشحن وكل ما قمت بتحديده في المتجر عبر الإنترنت.
 

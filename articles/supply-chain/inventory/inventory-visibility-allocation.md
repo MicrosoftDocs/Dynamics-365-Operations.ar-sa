@@ -1,8 +1,8 @@
 ---
-title: تخصيص المخزون لرؤية المخزون
-description: يشرح هذا الموضوع كيفية إعداد واستخدام ميزة تخصيص المخزون، والتي تتيح لك تخصيص مخزون مخصص لضمان قدرتك على تلبية أكثر القنوات أو العملاء ربحية.
+title: توزيع مخزون Inventory Visibility
+description: يشرح هذا المقال كيفية إعداد واستخدام ميزة تخصيص المخزون، والتي تتيح لك تخصيص مخزون مخصص لضمان قدرتك على تلبية أكثر القنوات أو العملاء ربحية.
 author: yufeihuang
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 4293ead4ccfc9ba04e8b9da437134b4e97569026
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852494"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>تخصيص المخزون لرؤية المخزون
 
@@ -98,7 +98,7 @@ ms.locfileid: "8786939"
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>أضف مقاييس مادية أخرى إلى المقياس المحسوب المتاح للتخصيص
 
-لاستخدام التخصيص، يجب عليك إعداد المقياس المحسوب المتاح للتخصيص (`@iv`.`@available_to_allocate`). على سبيل المثال، لديك مصدر بيانات `fno` ومقياس `onordered`، ومصدر بيانات `pos` ومقياس `inbound`، وتريد إجراء تخصيص متاح لمجموع `fno.onordered` و`pos.inbound`. في هذه الحالة، يجب أن يحتوي `@iv.@available_to_allocate` على `pos.inbound` و`fno.onordered` في المعادلة. وفيما يلي مثال على ذلك:
+لاستخدام التخصيص، يجب عليك إعداد المقياس المحسوب المتاح للتخصيص (`@iv.@available_to_allocate`). على سبيل المثال، لديك مصدر بيانات `fno` ومقياس `onordered`، ومصدر بيانات `pos` ومقياس `inbound`، وتريد إجراء تخصيص متاح لمجموع `fno.onordered` و`pos.inbound`. في هذه الحالة، يجب أن يحتوي `@iv.@available_to_allocate` على `pos.inbound` و`fno.onordered` في المعادلة. وفيما يلي مثال على ذلك:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
 
@@ -110,11 +110,12 @@ ms.locfileid: "8786939"
 
 على سبيل المثال، إذا كنت تستخدم أربعة أسماء مجموعات وقمت بتعيينها إلى \[`channel`، `customerGroup`، `region`، `orderType`\]، ستكون هذه الأسماء صالحة للطلبات المتعلقة بالتخصيص عند استدعاء واجهة برمجة تطبيقات تحديث التكوين.
 
-### <a name="allcoation-using-tips"></a>نصائح استخدام التخصيص
+### <a name="allocation-using-tips"></a>نصائح استخدام التخصيص
 
-- لكل منتج، يجب أن تستخدم وظيفة التخصيص في نفس مستوى الأبعاد وفقًا للتسلسل الهرمي لفهرس المنتج الذي قمت بتعيينه في [تكوين التدرج الهرمي لفهرس المنتجات](inventory-visibility-configuration.md#index-configuration). على سبيل المثال، التدرج الهرمي للفهرس هو الموقع، المكان، اللون، الحجم. إذا قمت بتخصيص بعض الكمية لمنتج واحد في مستوى الموقع والمكان واللون. في المرة التالية التي تستخدمها للتخصيص، يجب أيضًا أن تكون في الموقع أو المكان أو مستوى اللون، إذا كنت تستخدم الموقع أو المكان أو اللون أو مستوى الحجم أو الموقع أو مستوى المكان، فلن تكون البيانات متسقة.
+- لكل منتج، يجب أن تستخدم وظيفة التخصيص في نفس *مستوى الأبعاد* وفقًا للتسلسل الهرمي لفهرس المنتج الذي قمت بتعيينه [في تكوين التدرج الهرمي لفهرس المنتجات.](inventory-visibility-configuration.md#index-configuration). علي سبيل المثال ، لنفترض ان التسلسل الهرمي للفهرس هو \[`Site`و `Location`و `Color`و `Size`\]. إذا قمت بتوزيع بعض الكمية لمنتج واحد في مستوي \[`Site`البعد، `Location`و `Color`\] ، فانه في المرة التالية التي ترغب في تخصيص هذا المنتج فيها ، يجب عليك أيضا التخصيص علي نفس المستوي و \[`Site`و `Location`و `Color`\] إذا كنت تستخدم المستوي \[`Site`أو `Location`و `Color`و `Size`\] أو \[`Site`و `Location`\] ، فان البيانات لن تكون متناسقة.
 - لن يؤثر تغيير اسم مجموعة التخصيص على البيانات المحفوظة في الخدمة.
 - يجب أن يتم التخصيص بعد أن يكون للمنتج الكمية الموجبة المتاحة.
+- لتخصيص منتجات من مجموعه مستوي *توزيع عاليه الجودة* إلى مجموعه فرعيه ، استخدم واجهه برمجه التطبيقات `Reallocate` الAPI. علي سبيل المثال، لديك التدرج الهرمي \[`channel`و `customerGroup`و `region`و `orderType`\]و الذي تريد تخصيص بعض المنتجات من مجموعه \[التوزيع عبر الإنترنت ، فب\] مجموعه \[التخصيص الفرعية عبر الإنترنت ، فب ، EU\] ، استخدم `Reallocate` الAPI لنقل الكمية. في حاله استخدام واجهه برمجه التطبيقات `Allocate` (API) ، سيتم تخصيص الكمية من الوعاء العام الظاهري.
 
 ### <a name="using-the-allocation-api"></a><a name="using-allocation-api"></a>استخدام واجهة برمجة تطبيقات التخصيص
 

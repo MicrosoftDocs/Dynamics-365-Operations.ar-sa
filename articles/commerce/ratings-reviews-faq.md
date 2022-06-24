@@ -1,6 +1,6 @@
 ---
 title: الأسئلة المتداولة حول التقييمات والمراجعات
-description: يوفر هذا الموضوع إجابات للأسئلة المتداولة حل تقييمات ومراجعات Microsoft Dynamics 365 Commerce.
+description: يوفر هذا المقال إجابات للأسئلة المتداولة حل تقييمات ومراجعات Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 09/02/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f8d79697aaf17e2860d2c47e7d1bf6b4352f0089
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3aef1135aa03d221e403fe1b5f7dce08bc9885d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909518"
 ---
 # <a name="ratings-and-reviews-faq"></a>الأسئلة المتداولة حول التقييمات والمراجعات
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع إجابات للأسئلة المتداولة حل تقييمات ومراجعات Microsoft Dynamics 365 Commerce.
+يوفر هذا المقال إجابات للأسئلة المتداولة حل تقييمات ومراجعات Microsoft Dynamics 365 Commerce.
 
 ### <a name="how-do-i-hide-the-ratings-refiner-that-appears-on-search-results-and-category-pages-if-my-e-commerce-site-doesnt-use-the-ratings-and-reviews-solution"></a>كيف يمكنني إخفاء مدقق التصنيفات الذي يظهر في صفحات نتائج البحث والفئات إذا كان موقع التجارة الإلكترونية الخاص بي لا يستخدم حل التقييمات والمراجعات؟
 

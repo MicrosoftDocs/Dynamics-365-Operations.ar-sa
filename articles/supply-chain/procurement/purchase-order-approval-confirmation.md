@@ -1,6 +1,6 @@
 ---
-title: اعتماد أوامر الشراء وتأكيدها
-description: يصف هذا الموضوع الحالات التي يمر بها أمر الشراء بعد إنشائه، وتأثير تمكين إدارة التغييرات في أوامر الشراء.
+title: الموافقة على أوامر الشراء وتأكيدها
+description: يصف هذا المقال الحالات التي يمر بها أمر الشراء بعد إنشائه، وتأثير تمكين إدارة التغييرات في أوامر الشراء.
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676991"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907366"
 ---
-# <a name="approve-and-confirm-purchase-orders"></a>اعتماد وتأكيد أوامر الشراء
+# <a name="approve-and-confirm-purchase-orders"></a>الموافقة على أوامر الشراء وتأكيدها
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الحالات التي يمر بها أمر الشراء بعد إنشائه، وتأثير تمكين إدارة التغييرات في أوامر الشراء.
+يصف هذا المقال الحالات التي يمر بها أمر الشراء بعد إنشائه، وتأثير تمكين إدارة التغييرات في أوامر الشراء.
 
 يحتاج أمر الشراء، بعد إنشائه، إلى المرور عبر عملية الموافقة. وبعد أن يوافق المورّد على الأمر، يتم تعيين أمر الشراء إلى الحالة **مؤكد**.
 

@@ -1,6 +1,6 @@
 ---
 title: إنشاء صفحات التجارة الإلكترونية الديناميكية استنادًا إلى معلمات عنوان URL
-description: يوضح هذا الموضوع كيفية إعداد صفحة تجارة إلكترونية في Microsoft Dynamics 365 Commerce التي يمكنها خدمة المحتوى الديناميكي، استنادا إلى معلمات URL.
+description: يوضح هذا المقال كيفية إعداد صفحة تجارة إلكترونية في Microsoft Dynamics 365 Commerce التي يمكنها خدمة المحتوى الديناميكي، استنادا إلى معلمات URL.
 author: StuHarg
 ms.date: 05/27/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: 3443dad9ead40b59da994c56e22fe2599f4bac82
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811021"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884653"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>إنشاء صفحات التجارة الإلكترونية الديناميكية استنادًا إلى معلمات عنوان URL
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد صفحة تجارة إلكترونية في Microsoft Dynamics 365 Commerce التي يمكنها خدمة المحتوى الديناميكي، استنادا إلى معلمات URL.
+يوضح هذا المقال كيفية إعداد صفحة تجارة إلكترونية في Microsoft Dynamics 365 Commerce التي يمكنها خدمة المحتوى الديناميكي، استنادا إلى معلمات URL.
 
 يمكن تكوين صفحة التجارة الإلكترونية لخدمه محتوى مختلف، استنادا إلى شريحة في مسار URL. لذلك، تعرف الصفحة كصفحة ديناميكية. يتم استخدام الشريحة كمعلمة لاسترداد محتوى الصفحة. على سبيل المثال، يمكن تعيين صفحة يتم إنشاؤها في منشئ الموقع وتسميتها **blog\_viewer** إلى عنوان URL `https://fabrikam.com/blog`. يمكن استخدام هذه الصفحة بعد ذلك لإظهار محتوى مختلف، استنادا إلى الشريحة الأخيرة في مسار URL. على سبيل المثال، الشريحة الأخيرة في عنوان URL `https://fabrikam.com/blog/article-1` هي **article-1**.
 

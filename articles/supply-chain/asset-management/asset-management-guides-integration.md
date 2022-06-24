@@ -1,6 +1,6 @@
 ---
 title: تكامل Dynamics 365 Supply Chain Management (إدارة الأصول) مع Dynamics 365 Guides
-description: يوضح هذا الموضوع كيفية تكامل الوحدة النمطية لإداره الأصول في Microsoft  Dynamics 365 Supply Chain Management مع Dynamics 365 Guides للاستفادة من دلائل الحقيقة المختلطة في مهام سير عمل الخدمات اليومية والصيانة.
+description: يوضح هذا المقال كيفية تكامل الوحدة النمطية لإداره الأصول في Microsoft  Dynamics 365 Supply Chain Management مع Dynamics 365 Guides للاستفادة من دلائل الحقيقة المختلطة في مهام سير عمل الخدمات اليومية والصيانة.
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875673"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>تكامل Dynamics 365 Supply Chain Management (إدارة الأصول) مع Dynamics 365 Guides
 
@@ -47,7 +47,7 @@ ms.locfileid: "7568245"
 
 لإقران دليل بقالب قائمه فحص صيانة، اتبع الخطوات التالية.
 
-1. قم بإنشاء دليل باستخدام تطبيق Dynamics 365 Guides للكمبيوتر الشخصي وتطبيق HoloLens. لمزيد من المعلومات حول كيفية إنشاء دليل، راجع المواضيع التالية:
+1. قم بإنشاء دليل باستخدام تطبيق Dynamics 365 Guides للكمبيوتر الشخصي وتطبيق HoloLens. لمزيد من المعلومات حول كيفية إنشاء دليل، راجع المقالات التالية:
 
     - [استخدام تطبيق الكمبيوتر الشخصي لإنشاء دليل](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [استخدام تطبيق HoloLens لوضع الهولوغرام الخاصة بك](/dynamics365/mixed-reality/guides/hololens-app-overview)

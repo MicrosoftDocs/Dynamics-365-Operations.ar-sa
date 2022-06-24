@@ -1,6 +1,6 @@
 ---
 title: الاختلافات بين التخطيط الرئيسي المضمن وتحسين التخطيط
-description: يسرد هذا الموضوع الميزات التي لا يدعمها تحسين التخطيط بعد وغير المدرجة في صفحة تحليل "تحسين التخطيط".
+description: يسرد هذا المقال الميزات التي لا يدعمها تحسين التخطيط بعد وغير المدرجة في صفحة تحليل "تحسين التخطيط".
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897563"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>الاختلافات بين التخطيط الرئيسي المضمن وتحسين التخطيط
 
 [!include [banner](../../includes/banner.md)]
 
-قد تختلف نتائج تحسين التخطيط عن النتائج من محرك التخطيط الرئيسي المضمن. يمكن أن تحدث الاختلافات بسبب الميزات المعلقة. يسرد هذا الموضوع الميزات التي لا يدعمها تحسين التخطيط بعد وغير المدرجة في صفحة **[تحليل "تحسين التخطيط"](planning-optimization-fit-analysis.md)**].
+قد تختلف نتائج تحسين التخطيط عن النتائج من محرك التخطيط الرئيسي المضمن. يمكن أن تحدث الاختلافات بسبب الميزات المعلقة. يسرد هذا المقال الميزات التي لا يدعمها تحسين التخطيط بعد وغير المدرجة في صفحة **[تحليل "تحسين التخطيط"](planning-optimization-fit-analysis.md)**].
 
 | الميزة | السلوك الحالي في تحسين التخطيط |
 |---|---|

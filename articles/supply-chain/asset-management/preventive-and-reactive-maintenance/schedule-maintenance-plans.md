@@ -1,6 +1,6 @@
 ---
 title: خطط الصيانة المجدولة
-description: يشرح هذا الموضوع كيفية جدولة خطط الصيانة في إدارة الأصول.
+description: يشرح هذا المقال كيفية جدولة خطط الصيانة في إدارة الأصول.
 author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd5192f727c83c017148405fb1b3ee587c118542450d46b5822d86cd1676d8fd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fc9212d0945c05af9dbc054a5a1d2bf7b996b93f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857971"
 ---
 # <a name="schedule-maintenance-plans"></a>خطط الصيانة المجدولة
 

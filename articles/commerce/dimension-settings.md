@@ -1,6 +1,6 @@
 ---
 title: تطبيق إعدادات العرض لأبعاد المنتج
-description: يغطي هذا الموضوع إعدادات العرض الخاصة بأبعاد المنتج ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
+description: يغطي هذا المقال إعدادات العرض الخاصة بأبعاد المنتج ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/28/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80a0861c51ea14ddb6bce02d757667adac34e740cd04311e26211d9bdbae4ed8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d7575e205a9732259b00e424f66eeadfe8c659ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716212"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899165"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>تطبيق إعدادات العرض لأبعاد المنتج
 
 [!include [banner](includes/banner.md)]
 
 
-يغطي هذا الموضوع إعدادات العرض الخاصة بأبعاد المنتج ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
+يغطي هذا المقال إعدادات العرض الخاصة بأبعاد المنتج ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
 
 يدعم Dynamics 365 Commerce أبعاد الحجم والنمط واللون لتمييز متغيرات المنتج. عادة ما تظهر الأبعاد كقيم نصية، مثل "الصغيرة" و"المتوسطة" و"الكبيرة" للأحجام و"أسود" و"بني" للألوان. ومع ذلك، إذا كان أحد المنتجات يدعم العديد من الاختلافات، قد يكون من الصعب استعراض متغيرات المنتجات، لأن التحديدات المتعددة مطلوبة لعرض الصورة لكل متغير منتج. ولتسهيل استعراض متغيرات المنتجات، فإن الإصدار 10.0.20 من Commerce يمكنه استخدام الصور والرموز السداسية العشرية لإظهار الأبعاد على شكل عينات ألوان.
 

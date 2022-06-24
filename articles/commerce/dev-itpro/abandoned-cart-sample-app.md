@@ -1,6 +1,6 @@
 ---
 title: كشف العربات المهجورة وإرسال الإخطارات للعملاء
-description: يصف هذا الموضوع كيفية تخصيص تطبيق نموذج موصل سلة التسوق المتروكة في Microsoft Dynamics 365 Commerce لاكتشاف عربات التسوق المتروكة وإرسال إعلامات بريد إلكتروني تذكير للعملاء.
+description: يصف هذا المقال كيفية تخصيص تطبيق نموذج موصل سلة التسوق المتروكة في Microsoft Dynamics 365 Commerce لاكتشاف عربات التسوق المتروكة وإرسال إعلامات بريد إلكتروني تذكير للعملاء.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899200"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>كشف العربات المهجورة وإرسال الإخطارات للعملاء
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفية تخصيص تطبيق نموذج موصل سلة التسوق المتروكة في Microsoft Dynamics 365 Commerce لاكتشاف عربات التسوق المتروكة وإرسال إعلامات بريد إلكتروني تذكير للعملاء.
+يصف هذا المقال كيفية تخصيص تطبيق نموذج موصل سلة التسوق المتروكة في Microsoft Dynamics 365 Commerce لاكتشاف عربات التسوق المتروكة وإرسال إعلامات بريد إلكتروني تذكير للعملاء.
 
 تعد القدرة على استرداد الإيرادات والاحتفاظ بالعملاء من خلال إعلامات سلة التسوق المتروكة قدرة مهمة يدعمها Dynamics 365 Commerce. ومن خلال تخصيص نموذج الموصل الذي يسبق التجارة لسله التسوق، يمكن لبائعي التجزئة الوصول إلى كرتس التسوق علي خادم البيع بالتجزئة الذي لم يتم تعديله خلال الإطار الزمني الذي يحدده البائعون. ويمكن استرداد تلك الكرتسات بعد ذلك، وأوجمينتيد مع بيانات المنتج والعميل، والتي يتم تمريرها إلى موفر تسويق بريد الكتروني لجهة خارجيه والذي يمكنه إنشاء إخطارات البريد الكتروني وإرسال رسائل العملاء اليهم.
 

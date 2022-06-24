@@ -1,6 +1,6 @@
 ---
 title: عملية المخزون الداخلية في نقطة البيع
-description: يصف هذا الموضوع إمكانيات عملية المخزون الداخلية لنقطة البيع (POS).
+description: يصف هذا المقال إمكانيات عملية المخزون الداخلية لنقطة البيع (POS).
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858872"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>عملية المخزون الداخلية في نقطة البيع
 
@@ -215,7 +215,7 @@ ms.locfileid: "6741772"
 
 وبعد أن تكون المستندات في الحالة **مطلوبة**، يكون مرئيًا على علامة التبويب **نشط**. ومع ذلك، لا يمكن استلامها بعد بواسطة المتجر أو المستودع الداخلي. بعد أن يقوم المستودع الداخلي بشحن بعض أو كل أوامر التحويل، فإن المتجر أو المستودع الداخلي يمكنه ترحيل الإيصالات في نقطة البيع. عندما يقوم الجانب الداخلي بمعالجة مستندات أمر التحويل، فإنه يتم تحديث الحالة من **مطلوب** إلى **تم الشحن‬** أو **‏‫تم الشحن جزئيًا‬**. بعدما تكون المستندات في الحالة **تم الشحن** أو **تم الشحن جزئيًا** يمكن للمتجر أو المستودع الداخلي ترحيل الإيصالات مقابلها باستخدام عملية استلام العملية الداخلية
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [عملية المخزون الخارجية في نقطة البيع](pos-outbound-inventory-operation.md)
 

@@ -1,6 +1,6 @@
 ---
 title: أقل من فئات حمولة الشاحنات (LTL)
-description: يشرح هذا الموضوع ما هي فئات أقل من حمولة الشاحنة (LTL) ويصف كيفية إعدادها في Microsoft Dynamics 365 Supply Chain Management.
+description: يشرح هذا المقال ما هي فئات أقل من حمولة الشاحنة (LTL) ويصف كيفية إعدادها في Microsoft Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857188"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>أقل من فئات حمولة الشاحنات (LTL)
 
@@ -33,7 +33,7 @@ ms.locfileid: "8678055"
 - حدد متطلبات التعبئة لكل فئة LTL عن طريق التحقق من معايير LTL الدولية. بهذه الطريقة، فإنك تضمن حماية منتجاتك جيدًا وشحنها بأمان.
 - احصل على تقديرات شحن دقيقة، بناءً على فئة الشحن LTL لكل منتج.
 
-يصف هذا الموضوع كيفية إنشاء فئات LTL في Microsoft Dynamics 365 Supply Chain Management.
+يصف هذا المقال كيفية إنشاء فئات LTL في Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>إنشاء فئة LTL
 

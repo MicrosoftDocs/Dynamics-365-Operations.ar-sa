@@ -1,6 +1,6 @@
 ---
 title: الموافقة على الموردين لفئات تدبير محددة
-description: يوضح هذا الموضوع كيفية الموافقة على المورّدين لفئات تدبير معينة في Dynamics 365 Supply Chain Management.
+description: يوضح هذا المقال كيفية الموافقة على المورّدين لفئات تدبير معينة في Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4247833a011704a9e3c83ad4a2b464ee49d6b3f5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bb6861c1cfbc7702fae74b4aa97fe618b50ac0bb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670177"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903974"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>الموافقة على الموردين لفئات تدبير محددة
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية الموافقة على المورّدين لفئات تدبير معينة في Dynamics 365 Supply Chain Management. عندما يتم إنشاء طلب شراء، قد يكون من الضروري تحديد مورّد مفضل أو معتمد، بحسب الطريقة التي تم بها إعداد سياسات الشراء. يوضح هذا الإجراء كيفية تحديد أحد المورّدين كمورّد مفضل أو معتمد لفئة تدبير معينة. عادة ما يتم تنفيذ هذه المهمة بواسطة موظف تدبير محترف. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.
+يوضح هذا المقال كيفية الموافقة على المورّدين لفئات تدبير معينة في Dynamics 365 Supply Chain Management. عندما يتم إنشاء طلب شراء، قد يكون من الضروري تحديد مورّد مفضل أو معتمد، بحسب الطريقة التي تم بها إعداد سياسات الشراء. يوضح هذا الإجراء كيفية تحديد أحد المورّدين كمورّد مفضل أو معتمد لفئة تدبير معينة. عادة ما يتم تنفيذ هذه المهمة بواسطة موظف تدبير محترف. يمكنك تنفيذ هذا الإجراء في شركة بيانات العرض التوضيحي USMF.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > التدبير والتوريد > المورّدون‬ > كافة المورّدين‬**.
 2. حدد المورّد الذي تريد تعيينه كمورّد مفضل أو معتمد لفئة ما.

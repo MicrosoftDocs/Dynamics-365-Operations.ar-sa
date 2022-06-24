@@ -1,6 +1,6 @@
 ---
 title: دعم Inventory Visibility لأصناف WHS
-description: يصف هذا الموضوع دعم رؤية المخزون للأصناف التي تم تمكينها لعمليات المستودعات المتقدمة (أصناف WHS).
+description: يصف هذا المقال دعم رؤية المخزون للأصناف التي تم تمكينها لعمليات المستودعات المتقدمة (أصناف WHS).
 author: yufeihuang
 ms.date: 03/10/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: cfbff05697f4159cb74d110887b8029f28fbf96b
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: ec2254d6cf203216acea88fdfb54ad491abdeb49
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895659"
 ---
 # <a name="inventory-visibility-support-for-whs-items"></a>دعم Inventory Visibility لأصناف WHS
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع دعم رؤية المخزون للأصناف التي تم تمكينها لعمليات المستودعات المتقدمة (أصناف WHS). تسمى الميزة التي تضيف هذه القدرة إلى رؤية المخزون *Advanced WHS*.
+يصف هذا المقال دعم رؤية المخزون للأصناف التي تم تمكينها لعمليات المستودعات المتقدمة (أصناف WHS). تسمى الميزة التي تضيف هذه القدرة إلى رؤية المخزون *Advanced WHS*.
 
 ## <a name="whs-items"></a>أصناف WHS
 

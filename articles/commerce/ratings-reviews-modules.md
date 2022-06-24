@@ -1,6 +1,6 @@
 ---
 title: وحدات التقييمات والمراجعات
-description: يغطي هذا الموضوع الوحدات النمطية للتقييمات والمراجعات المستخدمة على صفحات تفاصيل المنتجات في Microsoft Dynamics 365 Commerce.
+description: يغطي هذا المقال الوحدات النمطية للتقييمات والمراجعات المستخدمة على صفحات تفاصيل المنتجات في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 66ee2d4185cad45b70b19fb474c64ae77a2868e835b20d5275e21610c0150370
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5829ccf9fad78e8669f5109d6c15e71af2ca768
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894400"
 ---
-# <a name="ratings-and-reviews-modules"></a>الوحدات النمطية للتقييمات والمراجعات
+# <a name="ratings-and-reviews-modules"></a>وحدات التقييمات والمراجعات
 
 [!include [banner](includes/banner.md)]
 
-يغطي هذا الموضوع الوحدات النمطية للتقييمات والمراجعات المستخدمة على صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
+يغطي هذا المقال الوحدات النمطية للتقييمات والمراجعات المستخدمة على صفحات تفاصيل المنتجات في (PDPs) Microsoft Dynamics 365 Commerce.
 
 تساعد التقييمات والمراجعات على مواقع التجارة الإلكترونية العملاء على التعرف على المنتجات قبل اتخاذ قرار الشراء، كما تعد بمثابة آلية لجمع ملاحظات العميل‬ بشأن هذه المنتجات. 
 

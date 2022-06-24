@@ -1,6 +1,6 @@
 ---
-title: تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات B2B
-description: يوضح هذا الموضوع كيفيه تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات (B2B).
+title: تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية B2B
+description: يوضح هذا المقال كيفيه تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات (B2B).
 author: josaw1
 ms.date: 01/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 18dc138693dc9fb0e8cf8727de77b5f8584cde79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 034441f8f712c676dbcc89f0009361d0a4a65721
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690185"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876995"
 ---
-# <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات B2B
+# <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية B2B
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات (B2B).
+يوضح هذا المقال كيفيه تعيين حدود كمية المنتج لمواقع التجارة الإلكترونية بين الشركات (B2B).
 
 تحتوي معظم المنتجات على وحدى قياس تحدد التجميع الخاص بها. ويؤثر التجميع على كيفية بيع المنتجات. قد يكون لبعض المنتجات تجميع إضافي للكميات. يحدد هذا التجميع ما إذا كان من الممكن بيع المنتجات كوحدات فردية أو كمضاعفات، وما إذا كان هناك حد أدنى أو أقصى لكمية الأمر الذي يجب اتباعه.
 

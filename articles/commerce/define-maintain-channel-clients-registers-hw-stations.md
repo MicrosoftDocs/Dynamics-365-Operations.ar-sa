@@ -1,6 +1,6 @@
 ---
 title: توصيل الأجهزة الطرفية بنقطة البيع (POS)
-description: يتناول هذا الموضوع كيفية توصيل الأجهزة الطرفية بنقطة البيع بالتجزئة.
+description: يتناول هذا المقال كيفية توصيل الأجهزة الطرفية بنقطة Retail POS.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370941"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897098"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>توصيل الأجهزة الطرفية بنقطة البيع (POS)
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع كيفية توصيل الأجهزة الطرفية بنقطة البيع بالتجزئة.
+يتناول هذا المقال كيفية توصيل الأجهزة الطرفية بنقطة Retail POS.
 
 > [!NOTE]
 > للحصول على إرشادات تثبيت معينة، راجع [تكوين محطة أجهزة Retail وتثبيتها](retail-hardware-station-configuration-installation.md) و[تكوين وتثبيت وتنشيط نقطة البيع الحديثة (MPOS)](retail-modern-pos-device-activation.md).
@@ -157,7 +157,7 @@ ms.locfileid: "8370941"
 
 #### <a name="hardware-profiles"></a>ملفات تعريف الأجهزة
 
-تم شرح ملفات تعريف الأجهزة كمكون لإعداد العميل سابقًا في هذا الموضوع. يتم تعيين ملفات تعريف الأجهزة مباشرة إلى سجل POS أو إلى محطة أجهزة مشتركة، ويتم استخدامها لتحديد أنواع الأجهزة التي يستخدمها سجل نقاط البيع أو محطة الأجهزة. وتُستخدم أيضًا ملفات تعريف الأجهزة لتحديد إعدادات التحويل النقدي الإلكتروني (EFT) التي يتم استخدامها للاتصال بمجموعة تطوير برامج الدفع.
+تم شرح ملفات تعريف الأجهزة كمكون لإعداد العميل سابقًا في هذه المقالة. يتم تعيين ملفات تعريف الأجهزة مباشرة إلى سجل POS أو إلى محطة أجهزة مشتركة، ويتم استخدامها لتحديد أنواع الأجهزة التي يستخدمها سجل نقاط البيع أو محطة الأجهزة. وتُستخدم أيضًا ملفات تعريف الأجهزة لتحديد إعدادات التحويل النقدي الإلكتروني (EFT) التي يتم استخدامها للاتصال بمجموعة تطوير برامج الدفع.
 
 #### <a name="visual-profiles"></a>ملفات التعريف المرئية
 

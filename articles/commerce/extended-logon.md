@@ -1,6 +1,6 @@
 ---
 title: إعداد إمكانية تسجيل الدخول الموسع واستخدامها
-description: يصف هذا الموضوع كيفية إعداد إمكانية تسجيل الدخول الموسع واستخدامها لتطبيق نقطة البيع (POS) لـ Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال كيفية إعداد إمكانية تسجيل الدخول الموسع واستخدامها لتطبيق نقطة البيع (POS) لـ Microsoft Dynamics 365 Commerce.
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491429"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884301"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>إعداد إمكانية تسجيل الدخول الموسع واستخدامها
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية إعداد إمكانية تسجيل الدخول الموسع واستخدامها لتطبيق نقطة البيع (POS) لـ Microsoft Dynamics 365 Commerce.
+يصف هذا المقال كيفية إعداد إمكانية تسجيل الدخول الموسع واستخدامها لتطبيق نقطة البيع (POS) لـ Microsoft Dynamics 365 Commerce.
 
 توفر Cloud POS (CPOS) و Modern POS (MPOS) إمكانية تسجيل دخول موسع تتيح للعاملين في متاجر البيع بالتجزئة تسجيل الدخول إلى تطبيق POS عن طريق مسح رمز شريطي أو تمرير بطاقة باستخدام قارئ شريط مغناطيسي (MSR).
 

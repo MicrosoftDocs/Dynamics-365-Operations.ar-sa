@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd8ba10441c1300c913827122c09741c58a42973
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: af1e443078b6a7832388b38f2b99a438af461ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844284"
 ---
 # <a name="work-with-customer-service-overview"></a>نظرة عامة على العمل مع خدمة العملاء
 
@@ -41,7 +41,7 @@ ms.locfileid: "8677047"
 
   - اتفاقيات مستوى الخدمة التي تدعم قاعدة العملاء المتنوعة
 
-توفر الموضوعات الواردة في هذا القسم نظرة عامة على العملية التجارية لخدمة العملاء وكل مكون في العملية التجارية. كما تسرد أيضًا النماذج المرتبطة بكل مكوِّن عملية تجارية وتناقش المهام المرتبطة بكل مكوِّن عملية تجارية.
+توفر المقال الواردة في هذا القسم نظرة عامة على العملية التجارية لخدمة العملاء وكل مكون في العملية التجارية. كما تسرد أيضًا النماذج المرتبطة بكل مكوِّن عملية تجارية وتناقش المهام المرتبطة بكل مكوِّن عملية تجارية.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: إنشاء دفتر عناوين جديد
-description: يوضح هذا الموضوع كيفية إنشاء دفاتر عناوين في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا المقال كيفية إنشاء دفاتر عناوين في Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 01/27/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f28e9d301b0a3c30f903ccc32e785ae09f0d702f3625f5febe03817ba44046ce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7bee4999255e063da946d38561146f5beb98dbc8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889358"
 ---
 # <a name="create-new-address-book"></a>إنشاء دفتر عناوين جديد
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إنشاء دفتر عناوين جديد في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية إنشاء دفتر عناوين جديد في Microsoft Dynamics 365 Commerce.
 
 يتم استخدام دفاتر العناوين في التجارة لأسباب مختلفه، بما في ذلك تخزين قوائم العملاء وقوائم الموظفين لأحدي القنوات. يمكن استخدام دفاتر العناوين لقناه واحده أو مشتركه بين القنوات.
 

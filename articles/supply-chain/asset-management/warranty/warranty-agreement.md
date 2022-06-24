@@ -1,6 +1,6 @@
 ---
 title: اتفاقيات الضمان
-description: يشرح هذا الموضوع اتفاقيات الضمان في إدارة الأصول.
+description: يشرح هذا المقال اتفاقيات الضمان في إدارة الأصول.
 author: johanhoffmann
 ms.date: 08/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8269b9f2084ddd0f69039044c29978ce7940270d5b569456f7a0bfca0a6f1f0b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32e5ba8bf87d7bcd30e7f1493540317764d347ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864016"
 ---
 # <a name="warranty-agreements"></a>اتفاقيات الضمان
 

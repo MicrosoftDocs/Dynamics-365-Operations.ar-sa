@@ -1,6 +1,6 @@
 ---
 title: العمل باستخدام الأجزاء
-description: يوضح هذا الموضوع سبب وقت وكيفية استخدام الأجزاء في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا المقال سبب وقت وكيفية استخدام الأجزاء في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 02/03/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 98cb1fba158ea99427d2068ca49b257cb5290de3
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896810"
 ---
 # <a name="work-with-fragments"></a>العمل باستخدام الأجزاء 
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع سبب وقت وكيفية استخدام الأجزاء في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال سبب وقت وكيفية استخدام الأجزاء في Microsoft Dynamics 365 Commerce.
 
 تسمح الأجزاء بتجربة تأليف مركزية لتكوينات الوحدة النمطية التي يجب إعادة استخدامها في الموقع الخاص بك. على سبيل المثال، غالبًا ما يتم تكوين الرؤوس والتذييلات والشعارات كأجزاء، لأنه تتم مشاركتها عبر العديد من الصفحات. يمكنك اعتبار الأجزاء كصفحات ويب مصغرة يمكن إدراجها في صفحات أخرى على موقعك. تحتوي الأجزاء على دورة حياة خاصة بها. بمعنى آخر، يتم إنشاءها والإشارة إليها وتحديثها وحذفها ككيانات مستقلة في أدوات التأليف.
 

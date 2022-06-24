@@ -1,6 +1,6 @@
 ---
 title: إدارة وحدات القياس
-description: يصف هذا الموضوع كيفية تحديد وحدة قياس، وتوفير ترجمات للوحدة ووصفها، وتحديد قواعد التحويل للوحدات ذات الصلة.
+description: يصف هذا المقال كيفية تحديد وحدة قياس، وتوفير ترجمات للوحدة ووصفها، وتحديد قواعد التحويل للوحدات ذات الصلة.
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863900"
 ---
 # <a name="manage-units-of-measure"></a>إدارة وحدات القياس
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية تحديد وحدة قياس، وتوفير ترجمات للوحدة ووصفها، وتحديد قواعد التحويل للوحدات ذات الصلة.
+يصف هذا المقال كيفية تحديد وحدة قياس، وتوفير ترجمات للوحدة ووصفها، وتحديد قواعد التحويل للوحدات ذات الصلة.
 
 ## <a name="open-the-units-page"></a>فتح صفحة الوحدات
 
 لإنشاء وحدات القياس المتوفرة في نظامك والعمل معها، انتقل إلى **إدارة المؤسسة \> الإعداد \> الوحدات \> الوحدات**.
 
-تصف الأقسام المتبقية من هذا الموضوع ما يمكنك القيام به في صفحة **الوحدات**.
+تصف الأقسام المتبقية من هذا المقال ما يمكنك القيام به في صفحة **الوحدات**.
 
 ## <a name="create-standard-units-and-conversions"></a>إنشاء الوحدات القياسية والتحويلات
 

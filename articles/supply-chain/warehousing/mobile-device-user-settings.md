@@ -1,6 +1,6 @@
 ---
 title: إعدادات مستخدم الجهاز المحمول
-description: يوضح هذا الموضوع كيفيه أداره إعدادات مستخدم الجهاز المحمول للعاملين في المستودع.
+description: يوضح هذا المقال كيفيه أداره إعدادات مستخدم الجهاز المحمول للعاملين في المستودع.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882333"
 ---
 # <a name="mobile-device-user-settings"></a>إعدادات مستخدم الجهاز المحمول
 
@@ -41,7 +41,7 @@ ms.locfileid: "8103703"
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>تشغيل ميزة إعدادات مستخدم الجهاز المحمول أو إيقاف تشغيلها
 
-لاستخدام الوظيفة التي ورد وصفها في هذا الموضوع، يجب أن تكون الميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+لاستخدام الوظيفة التي ورد وصفها في هذا المقال، يجب أن تكون الميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>إنشاء إعدادات المستخدم وإدارتها
 

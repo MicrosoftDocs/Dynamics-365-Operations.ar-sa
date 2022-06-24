@@ -1,6 +1,6 @@
 ---
 title: جدولة طباعة بطاقات الموجة أثناء الموجة
-description: يوضح هذا الموضوع كيفية إعداد وظيفة طباعة تسمية الموجة المستندة إلى المهام واستخدامها.
+description: يوضح هذا المقال كيفية إعداد وظيفة طباعة تسمية الموجة المستندة إلى المهام واستخدامها.
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889446"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>جدولة طباعة بطاقات الموجة أثناء الموجة
 
@@ -30,7 +30,7 @@ ms.locfileid: "7920139"
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>تشغيل ميزة طباعة تسمية الموجة المستندة إلى المهام في إدارة الميزات
 
-لاستخدام الميزات الموضحة في هذا الموضوع، يجب تشغيلها للنظام الخاص بك. استخدم مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات في الأمر التالي:
+لاستخدام الميزات الموضحة في هذا المقال، يجب تشغيلها للنظام الخاص بك. استخدم مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات في الأمر التالي:
 
 1. *طباعة تسمية الموجة* – هذه الميزة مطلوبة لتمكين أسلوب معالجة الموجة لطباعة بطاقة الموجة.
 1. *حظر العمل على مستوى المؤسسة‬* – هذه الميزة مطلوبة لكل من التكوين اليدوي والتلقائي لإنشاء العمل المجدول. (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى.)

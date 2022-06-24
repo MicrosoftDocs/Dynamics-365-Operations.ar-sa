@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على إدارة النقل
-description: يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Supply Chain Management.
+description: يقدم هذا المقال نظرة عامة حول وظائف إدارة النقل في Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897447"
 ---
 # <a name="transportation-management-overview"></a>نظرة عامة على إدارة النقل
 
 [!include [banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة حول وظائف إدارة النقل في Supply Chain Management.
+يقدم هذا المقال نظرة عامة حول وظائف إدارة النقل في Supply Chain Management.
 
 تسمح لك إدارة النقل باستخدام وسائل النقل الخاص بالشركة، وتسمح لك أيضًا بتحديد المورّدين وحلول التوجيه للأوامر الواردة والصادرة. على سبيل المثال، يمكنك تعريف أسرع الطرق أو المعدل الأقل تكلفة لشحنة ما. يصف الجدول التالي السيناريوهات الأساسية لاستخدام إدارة النقل.
 

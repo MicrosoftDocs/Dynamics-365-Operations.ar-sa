@@ -1,6 +1,6 @@
 ---
 title: تثبيت الوظيفة الإضافية لذكاء IoT في LCS
-description: يشرح هذه الموضوع تثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS).
+description: يشرح هذه المقال تثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS).
 author: johanhoffmann
 ms.date: 07/07/2020
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 12ffa71dc1c2badaffdc2e419a47d855635016f2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 52fe4c4a79378aca5f1e64c8b3f4fa85199c9911
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887475"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>تثبيت الوظيفة الإضافية لذكاء IoT في LCS
 
 [!include [banner](../../includes/banner.md)]
 
-يشرح هذه الموضوع تثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS). لاحظ أنه لا يمكن تثبيت الوظائف الإضافية على بيئة عرض/تجريبية. قبل أن تتمكن من تثبيت الوظيفة الإضافية، يجب [إنشاء موارد Azure](iot-azure-setup.md).
+يشرح هذه المقال تثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS). لاحظ أنه لا يمكن تثبيت الوظائف الإضافية على بيئة عرض/تجريبية. قبل أن تتمكن من تثبيت الوظيفة الإضافية، يجب [إنشاء موارد Azure](iot-azure-setup.md).
 
 يمكنك اعداد ذكاء IoT وتكوينه دون كتابه إيه تعليمه برمجيه. وهذه هي الخطوات الاساسيه.
 
 1. [اعداد موارد Azure](iot-azure-setup.md) – إنشاء مركز IoT وذاكره تخزين مؤقت Redis ومخزن مفتاح يمكن الوصول اليه من Supply Chain Management.
 2. [تنسيقات مخطط الرسائل لمركز IoT](iot-schema-format.md) – قم بتكوين أجهزتك لإرسال رسائل إلى مركز IoT، وتعريف تنسيق الرسالة منهج كائن JavaScript (JSON).
 3. في أداره الميزات ، قم بتمكين علامة الخاصية ذكاء IoT.
-4. قم بتثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS) – قم بتثبيت الوظيفة الإضافية في LCS، وقم بتكوين أسرار Azure (كما ورد في هذا الموضوع).
+4. قم بتثبيت الوظيفة الإضافية لذكاء IoT في Microsoft Dynamics Lifecycle Services (LCS) – قم بتثبيت الوظيفة الإضافية في LCS، وقم بتكوين أسرار Azure (كما ورد في هذا المقال).
 5. [اعداد المقاييس](iot-metrics-setup.md) – اعداد المقاييس في Supply Chain Management.
 6. [اعداد السيناريو](iot-scenario-setup.md) – قم باعداد السيناريوهات في Supply Chain Management.
 

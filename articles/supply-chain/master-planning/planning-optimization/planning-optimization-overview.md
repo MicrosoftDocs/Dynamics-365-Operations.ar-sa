@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على تحسين التخطيط‬
-description: يقدم هذا الموضوع نظرة عامة على وظيفة تحسين التخطيط.
+description: يقدم هذا المقال نظرة عامة على وظيفة تحسين التخطيط.
 author: t-benebo
 ms.date: 10/31/2019
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 7a44de70eeed4a32af47cd5ab636cac74400a2ac
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 302c92c48765d1c2faddd65c6c6a18ddfd56c71e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469075"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890991"
 ---
 # <a name="planning-optimization-overview"></a>نظرة عامة على تحسين التخطيط‬
 

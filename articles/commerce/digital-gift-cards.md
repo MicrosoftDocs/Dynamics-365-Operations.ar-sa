@@ -1,6 +1,6 @@
 ---
 title: بطاقات الهدايا الرقمية في التجارة الإلكترونية
-description: يصف هذا الموضوع كيفية عمل بطاقات الهدايا الرقمية في تنفيذ التجارة الإلكترونية لـ Microsoft Dynamics 365 Commerce. كما يوفر نظرة عامة على الخطوات الهامة للتكوين.
+description: يصف هذا المقال كيفية عمل بطاقات الهدايا الرقمية في تنفيذ التجارة الإلكترونية لـ Microsoft Dynamics 365 Commerce. كما يوفر نظرة عامة على الخطوات الهامة للتكوين.
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884894"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>بطاقات الهدايا الرقمية في التجارة الإلكترونية
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية عمل بطاقات الهدايا الرقمية في تنفيذ التجارة الإلكترونية لـ Microsoft Dynamics 365 Commerce. كما يوفر نظرة عامة على الخطوات الهامة للتكوين.
+يصف هذا المقال كيفية عمل بطاقات الهدايا الرقمية في تنفيذ التجارة الإلكترونية لـ Microsoft Dynamics 365 Commerce. كما يوفر نظرة عامة على الخطوات الهامة للتكوين.
 
 في Dynamics 365 Commerce، يتبع شراء بطاقات الهدايا الرقمية نفس سير العمل مثل شراء المنتجات الأخرى في النظام. لا يلزم تكوين أي وحدات نمطية إضافية. في حالة إضافة العديد من بطاقات الهدايا إلى سلة التسوق، لا يتم تجميع أصناف بطاقة الهدايا في بند مبيعات واحد. وهذا السلوك مطلوب نظرا لأنه تتم فوترة كل بند مبيعات عن طريق استخدام رقم بطاقة هدايا منفصل.
 

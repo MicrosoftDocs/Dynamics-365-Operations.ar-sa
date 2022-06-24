@@ -1,6 +1,6 @@
 ---
 title: إرشادات النشر لعينة تكامل وحدة التحكم في السويد (قديمة)
-description: يوفر هذا الموضوع إرشادات لنشر نموذج تكامل وحدة التحكم للسويد من Retail SDK
+description: يوفر هذا المقال إرشادات لنشر نموذج تكامل وحدة التحكم للسويد من Retail SDK
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: b8d60f32d986dec6bb26d78ebdfe8cee3a6b688a
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870537"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>إرشادات النشر لعينة تكامل وحدة التحكم في السويد (قديمة)
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع إرشادات لنشر نموذج تكامل وحدة التحكم للسويد من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK) على جهاز ظاهري للمطور (VM) في Microsoft Dynamics ‏Lifecycle Services ‏(LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل وحدة التحكم للسويد](emea-swe-fi-sample.md). 
+يوفر هذا المقال إرشادات لنشر نموذج تكامل وحدة التحكم للسويد من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK) على جهاز ظاهري للمطور (VM) في Microsoft Dynamics ‏Lifecycle Services ‏(LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل وحدة التحكم للسويد](emea-swe-fi-sample.md). 
 
-تعد عينة التكامل المالي للسويد جزءًا من Retail SDK. للحصول على مزيد من المعلومات حول كيفية تثبيت واستخدام SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). يتكون هذا النموذج من ملحقات Commerce Runtime (CRT)، محطة الأجهزة ونقطة البيع (POS). لتشغيل هذا النموذج، يجب تعديل مشاريع CRT ومحطة الأجهزة ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا الموضوع. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Azure DevOps حيث لم يتم تغيير أي ملفات حتى الآن.
+تعد عينة التكامل المالي للسويد جزءًا من Retail SDK. للحصول على مزيد من المعلومات حول كيفية تثبيت واستخدام SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). يتكون هذا النموذج من ملحقات Commerce Runtime (CRT)، محطة الأجهزة ونقطة البيع (POS). لتشغيل هذا النموذج، يجب تعديل مشاريع CRT ومحطة الأجهزة ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Azure DevOps حيث لم يتم تغيير أي ملفات حتى الآن.
 
 ## <a name="development-environment"></a>بيئة التطوير
 
@@ -257,7 +257,7 @@ ms.locfileid: "8077028"
 1. قم بتحديث مكونات نقاط البيع ومحطة الأجهزة، وقم بتعطيل الامتدادات التي تمثل أجزاء من العينة السابقة، وقم بتمكين امتدادات العينة الحالية.
 
     > [!NOTE]
-    > اعتمادًا على نوع البيئة، يمكنك العثور على مزيد من التفاصيل الفنية حول عملية الترحيل إما في قسم [الترحيل في بيئة التطوير](#migration-in-a-development-environment) أو قسم [ الترحيل في بيئة الإنتاج](#migration-in-a-production-environment) في هذا الموضوع.
+    > اعتمادًا على نوع البيئة، يمكنك العثور على مزيد من التفاصيل الفنية حول عملية الترحيل إما في قسم [الترحيل في بيئة التطوير](#migration-in-a-development-environment) أو قسم [ الترحيل في بيئة الإنتاج](#migration-in-a-production-environment) في هذا المقال.
 
 ### <a name="migration-in-a-development-environment"></a>الترحيل في بيئة تطوير
 

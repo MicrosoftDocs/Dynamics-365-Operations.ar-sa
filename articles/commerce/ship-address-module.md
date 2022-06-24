@@ -1,6 +1,6 @@
 ---
-title: الوحدة النمطية لعنوان الشحن
-description: يتناول هذا الموضوع الوحدة النمطية لعنوان الشحن ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
+title: وحدة عنوان الشحن
+description: يتناول هذا المقال الوحدة النمطية لعنوان الشحن ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 02/11/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 30baef62e03cdaa766133efc4b182c61da3dc7b67e077d80716a035f0b5e40e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e30e639b7ba1c0caaf72fa66d13f80d04c2e861c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882186"
 ---
-# <a name="shipping-address-module"></a>الوحدة النمطية لعنوان الشحن
+# <a name="shipping-address-module"></a>وحدة عنوان الشحن
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الوحدة النمطية لعنوان الشحن ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال الوحدة النمطية لعنوان الشحن ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 
 تسمح الوحدة النمطية لعنوان الشحن للعملاء بإضافة أو تحديد عنوان الشحن لأحد الأوامر أثناء سير مهام السداد مع الخروج. إذا قام العميل بتسجيل الدخول، فسوف يتم عرض أي عناوين تم حفظها في وقت سابق لهذا العميل، ويمكن للعميل الاختيار من بينها. ويُمكن للعميل أيضًا إضافة عنوان جديد. يتم استخدام الوحدة النمطية لعنوان الشحن لكافة الأصناف في الأمر التي تتطلب الشحن.
 

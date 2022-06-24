@@ -1,6 +1,6 @@
 ---
 title: الخصومات المستندة إلى طريقة الدفع
-description: يقدم هذا الموضوع نظرة عامة حول الوظيفة التي تتيح لبائعي التجزئة تكوين خصومات لأنواع معينة من طرق الدفع.
+description: يقدم هذا المقال نظرة عامة حول الوظيفة التي تتيح لبائعي التجزئة تكوين خصومات لأنواع معينة من طرق الدفع.
 author: bebeale
 ms.date: 10/30/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 52b9510b2c22157aec27b865115273064bb0e803443306ea20468b93a2ea3ca7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d67819fce0fb0002ffd85324cb24aea2d2abdabb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871571"
 ---
 # <a name="tender-based-discounts"></a>الخصومات المستندة إلى طريقة الدفع
 

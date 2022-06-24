@@ -1,6 +1,6 @@
 ---
 title: فوتره للصيانة علي أصول مملوكه للعملاء
-description: يوضح هذا الموضوع كيفيه إنشاء ومعالجه وعمل الصيانة الخاصة بالمواد التي يتم القيام بها في الأصول الخاصة بالعملاء.
+description: يوضح هذا المقال كيفيه إنشاء ومعالجه وعمل الصيانة الخاصة بالمواد التي يتم القيام بها في الأصول الخاصة بالعملاء.
 author: johanhoffmann
 ms.date: 01/28/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a48e681da1801ef3c0d1c9c03cebaa5eecd37d76349a7b1c3cfe53e892fae489
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887678"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>فوتره للصيانة علي أصول مملوكه للعملاء
 

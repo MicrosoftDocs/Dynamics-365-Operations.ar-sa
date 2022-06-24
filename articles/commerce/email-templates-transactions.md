@@ -1,6 +1,6 @@
 ---
-title: إنشاء قوالب بريد إلكتروني لأحداث الحركات
-description: يوضح هذا الموضوع كيفية إنشاء قوالب بريد إلكتروني وتحميلها وتكوينها لأحداث الحركات في Microsoft Dynamics 365 Commerce.
+title: إنشاء قوالب بريد إلكتروني لأحداث المعاملات
+description: يوضح هذا المقال كيفية إنشاء قوالب بريد إلكتروني وتحميلها وتكوينها لأحداث الحركات في Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910540"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>إنشاء قوالب بريد إلكتروني لأحداث المعاملات
 
 [!include [banner](includes/banner.md)]
 
 
-يوضح هذا الموضوع كيفية إنشاء قوالب بريد إلكتروني وتحميلها وتكوينها لأحداث الحركات في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية إنشاء قوالب بريد إلكتروني وتحميلها وتكوينها لأحداث الحركات في Microsoft Dynamics 365 Commerce.
 
-يوفر Dynamics 365 Commerce حلا جاهزا لإرسال رسائل البريد الكتروني التي تقوم بتنبيه العملاء حول احداث المعاملات. علي سبيل المثال ، يمكن إرسال رسائل البريد الكتروني عند وضع أمر ما ، يكون جاهزا للالتقاط ، أو تم شحنه. يصف هذا الموضوع الخطوات الخاصة بإنشاء قوالب البريد الإلكتروني المستخدمة لإرسال رسائل بريد إلكتروني للحركات وتحميلها وتكوينها.
+يوفر Dynamics 365 Commerce حلا جاهزا لإرسال رسائل البريد الكتروني التي تقوم بتنبيه العملاء حول احداث المعاملات. علي سبيل المثال ، يمكن إرسال رسائل البريد الكتروني عند وضع أمر ما ، يكون جاهزا للالتقاط ، أو تم شحنه. يصف هذا المقال الخطوات الخاصة بإنشاء قوالب البريد الإلكتروني المستخدمة لإرسال رسائل بريد إلكتروني للحركات وتحميلها وتكوينها.
 
 ## <a name="notification-types"></a>أنواع الإخطار
 

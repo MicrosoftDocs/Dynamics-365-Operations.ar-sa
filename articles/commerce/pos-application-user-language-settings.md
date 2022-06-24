@@ -1,6 +1,6 @@
 ---
 title: تطبيق نقطة البيع (POS) وإعدادات لغة المستخدم
-description: يصف هذا الموضوع كيفية تغيير إعدادات اللغة في نقطة البيع الحديثة (MPOS) ونقاط بيع المجموعة.
+description: يصف هذا المقال كيفية تغيير إعدادات اللغة في نقطة البيع الحديثة (MPOS) ونقاط بيع المجموعة.
 author: jblucher
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 099d16f63e03ecbc8bf911fe4385b35fac7c67f763c17379cdc6b6229abdea16
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 15490885b5ce366edbab669893f3c3e36585f308
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863337"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>تطبيق نقطة البيع (POS) وإعدادات لغة المستخدم
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية تغيير إعدادات اللغة في نقطة البيع الحديثة (MPOS) ونقاط بيع المجموعة.
+يصف هذا المقال كيفية تغيير إعدادات اللغة في نقطة البيع الحديثة (MPOS) ونقاط بيع المجموعة.
 
 ## <a name="overview"></a>نظرة عامة
 ‏‫تدعم ‏‫نقطة البيع الحديثة (MPOS) ونقطة بيع المجموعة البيئات التي يمكن أن تختلف بها إعدادات اللغة والتحويلات بين المتجر وإعدادات المستخدم. على سبيل المثال، يمكن أن يكون المتجر موجوداً في منطقة حيث تكون اللغة الإنجليزية الأكثر شيوعًا للعملاء، ولكن بعض العاملين يفضلون استخدام التطبيق بالترجمات الفرنسية.‬

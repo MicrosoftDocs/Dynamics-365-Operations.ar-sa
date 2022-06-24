@@ -1,6 +1,6 @@
 ---
-title: ‬‏‫إنشاء فترات زمنية لالتقاط العميل وتحديثها
-description: يوضح هذا الموضوع كيفية إنشاء فترات زمنية لالتقاط العميل وتكوينها وتحديثها في المراكز الرئيسية لـ Commerce.
+title: إنشاء فترات زمنية لاستلام العميل للمنتجات وتحديثها
+description: يوضح هذا المقال كيفية إنشاء فترات زمنية لالتقاط العميل وتكوينها وتحديثها في Commerce headquarters.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882223"
 ---
-# <a name="create-and-update-time-slots-for-customer-pickup"></a>‬‏‫إنشاء فترات زمنية لالتقاط العميل وتحديثها
+# <a name="create-and-update-time-slots-for-customer-pickup"></a>إنشاء فترات زمنية لاستلام العميل للمنتجات وتحديثها
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إنشاء فترات زمنية لالتقاط العميل وتكوينها وتحديثها في المراكز الرئيسية لـ Commerce.
+يوضح هذا المقال كيفية إنشاء فترات زمنية لالتقاط العميل وتكوينها وتحديثها في Commerce headquarters.
 
 تتيح ميزة الفترة الزمنية لبائعي التجزئة طريقة لتحديد فترة زمنية للبنود التي تم تشغيل انتقاء وضع التسليم للعميل لها. تتيح الفترات الزمنية لتجار البيع بالتجزئة تحديد الأيام والأوقات التي يمكن فيها التقاط الأوامر من المتجر. ويمكن لتجار التجزئة أيضًا تحديد عدد الأوامر التي يمكن التقاطها خلال فترة معينة. وبهذه الطريقة، يمكن لتجار البيع بالتجزئة تحديد عدد الأوامر التي يمكن التقاطها في يوم معين وفي وقت معين. وتكون النتيجة هي تجربة ذات جودة أفضل لعملائهم.
 

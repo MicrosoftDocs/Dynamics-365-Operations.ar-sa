@@ -1,6 +1,6 @@
 ---
-title: الوحدة النمطية للعرض السريع
-description: يتناول هذا الموضوع وحدات العرض السريع ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+title: وحدة عرض السريع
+description: يتناول هذا المقال وحدات العرض السريع ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5ba42806d8f77f41ab9c5cf5e26b20ecb647aadf
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: e9066357fda4f5d91c547622ac64d8c4eef253ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847565"
 ---
-# <a name="quick-view-module"></a>الوحدة النمطية للعرض السريع
+# <a name="quick-view-module"></a>وحدة عرض السريع
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع وحدات العرض السريع ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال وحدات العرض السريع ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
 تتيح الوحدة النمطية للعرض السريع للمستخدمين عرض معلومات المنتج سريعًا عند استعراضهم للمنتجات في صفحة قائمة، وإضافة منتج أو أكثر إلى سلة التسوق من صفحة القائمة، دون الحاجة إلى الانتقال إلى صفحة تفاصيل المنتج (PDP). توفر الوحدة النمطية للعرض السريع نظرة عامة حول معلومات المنتج التي يتطلبها المستخدمون لإجراء قرار "إضافة إلى عربة التسوق". كما توفر أيضًا ارتباطًا إلى صفحة تفاصيل المنتج (PDP)، بحيث يمكن للمستخدمين عرض تفاصيل المنتج الإضافية وخيارات الشراء.
 

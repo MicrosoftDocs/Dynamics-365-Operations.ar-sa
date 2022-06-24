@@ -1,6 +1,6 @@
 ---
 title: إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج
-description: يقدم هذا الموضوع دليلا حول كيفيه تمكين وظيفة تسجيل النقد لترجمة Microsoft Dynamics 365 Commerce للنرويج.
+description: يقدم هذا المقال دليلا حول كيفيه تمكين وظيفة تسجيل النقد لترجمة Microsoft Dynamics 365 Commerce للنرويج.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077130"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899057"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج
 
 [!include[banner](../includes/banner.md)]
 
-يقدم هذا الموضوع دليلا حول كيفيه تمكين وظيفة تسجيل النقد لترجمة Microsoft Dynamics 365 Commerce للنرويج. تتكون الترجمة من عده ملحقات من المكونات. تتيح لك هذه الملحقات تنفيذ إجراءات مثل طباعة الحقول المخصصة على الإيصالات، وتسجيل أحداث تدقيق إضافية، ومعاملات المبيعات، ومعاملات الدفع في نقاط البيع (POS)، وتوقيع معاملات المبيعات رقميًا، وطباعة التقارير بالتنسيقات المحلية. لمزيد من المعلومات حول الترجمة الخاصة بالنرويج، راجع [وظيفة تسجيل النقد للنرويج](./emea-nor-cash-registers.md). لمزيد من المعلومات حول كيفية تكوين Commerce للنرويج، راجع [إعداد Commerce للنرويج](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+يقدم هذا المقال دليلا حول كيفيه تمكين وظيفة تسجيل النقد لترجمة Microsoft Dynamics 365 Commerce للنرويج. تتكون الترجمة من عده ملحقات من المكونات. تتيح لك هذه الملحقات تنفيذ إجراءات مثل طباعة الحقول المخصصة على الإيصالات، وتسجيل أحداث تدقيق إضافية، ومعاملات المبيعات، ومعاملات الدفع في نقاط البيع (POS)، وتوقيع معاملات المبيعات رقميًا، وطباعة التقارير بالتنسيقات المحلية. لمزيد من المعلومات حول الترجمة الخاصة بالنرويج، راجع [وظيفة تسجيل النقد للنرويج](./emea-nor-cash-registers.md). لمزيد من المعلومات حول كيفية تكوين Commerce للنرويج، راجع [إعداد Commerce للنرويج](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 > [!WARNING]
 > وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لوظيفة الترجمة هذه. يجب استخدام إصدار عينه التوقيع الرقمي للنرويج في الإصدار السابق من مجموعه تطوير برامج Retail (VM) علي الجهاز الظاهري (VM) للمطور في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع للسجلات النقدية للنرويج (قديم)](./emea-nor-loc-deployment-guidelines.md).

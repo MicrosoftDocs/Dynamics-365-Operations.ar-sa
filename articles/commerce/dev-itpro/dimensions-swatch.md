@@ -1,6 +1,6 @@
 ---
 title: تكوين قيم أبعاد المنتج لتظهر كعينات ألوان
-description: يصف هذا الموضوع كيفية تكوين قيم أبعاد المنتجات كعينات ألوان في مركز Microsoft Dynamics 365 Commerce الرئيسي.
+description: يصف هذا المقال كيفية تكوين قيم أبعاد المنتجات كعينات ألوان في Microsoft Dynamics 365 Commerce headquarters.
 author: anupamar-ms
 ms.date: 08/02/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a21e02a8e5aacfa5251b9b7bcbc451fa886d37f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892642"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>تكوين قيم أبعاد المنتج لتظهر كعينات ألوان
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية تكوين قيم أبعاد المنتجات كعينات ألوان في مركز Microsoft Dynamics 365 Commerce الرئيسي. لمزيد من المعلومات حول أبعاد المنتجات، راجع [أبعاد المنتجات](../../supply-chain/pim/product-dimensions.md).
+يصف هذا المقال كيفية تكوين قيم أبعاد المنتجات كعينات ألوان في Microsoft Dynamics 365 Commerce headquarters. لمزيد من المعلومات حول أبعاد المنتجات، راجع [أبعاد المنتجات](../../supply-chain/pim/product-dimensions.md).
 
 يدعم Dynamics 365 Commerce استخدام أبعاد الحجم والنمط واللون لتمثيل متغيرات المنتج. تتضمن أبعاد المنتج أسماء مألوفة تظهر في صفحات تفاصيل المنتج (PDP) بحيث يمكن تحديد متغيرات المنتج. تتضمن أمثلة هذه الأسماء المألوفة "الصغير" و "المتوسط" و "الكبير" للأحجام و"الأسود" و"البني" للألوان. ومع ذلك، إذا كان أحد المنتجات يدعم العديد من الاختلافات، ستكون التحديدات المتعددة مطلوبة لعرض الصورة لكل متغير منتج. وبالتالي، يمكن أن يكون استعراض وتحديد متغيرات المنتج أمرًا بطيئًا ومملاً بالنسبة للعملاء.
 

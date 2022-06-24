@@ -1,6 +1,6 @@
 ---
-title: تكوين عدة مستأجرين B2C في بيئة Commerce
-description: يوضح هذا الموضوع متى وكيفية إعداد عدة مستأجري متاجرة بين عمل ومستهلك (B2C) لكل قناة Microsoft Azure Active Directory (Azure AD) لمصادقة المستخدم في بيئة Dynamics 365 Commerce مخصصة.
+title: تكوين مستأجرين متعددين متاجرة عمل-مستهلك في بيئة Commerce
+description: يوضح هذا المقال متى وكيفية إعداد عدة مستأجري متاجرة بين عمل ومستهلك (B2C) لكل قناة Microsoft Azure Active Directory (Azure AD) لمصادقة المستخدم في بيئة Dynamics 365 Commerce مخصصة.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890559"
 ---
-# <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>تكوين عدة مستأجرين B2C في بيئة Commerce
+# <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>تكوين مستأجرين متعددين متاجرة عمل-مستهلك في بيئة Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع متى وكيفية إعداد عدة مستأجري متاجرة بين عمل ومستهلك (B2C) لكل قناة Microsoft Azure Active Directory (Azure AD) لمصادقة المستخدم في بيئة Dynamics 365 Commerce مخصصة.
+يوضح هذا المقال متى وكيفية إعداد عدة مستأجري متاجرة بين عمل ومستهلك (B2C) لكل قناة Microsoft Azure Active Directory (Azure AD) لمصادقة المستخدم في بيئة Dynamics 365 Commerce مخصصة.
 
 يستخدم Dynamics 365 Commerce خدمة الهوية عبر السحابة Azure AD B2C لدعم بيانات اعتماد المستخدم وتدفقات المصادقة. بإمكان المستخدمين استخدام تدفقات المصادقة للتسجيل، وتسجيل الدخول، وإعادة تعيين كلمه المرور. يقوم Azure AD B2C بتخزين معلومات المصادقة الحساسة للمستخدم، مثل اسم المستخدم وكلمة المرور. ويكون سجل المستخدمين فريدًا لكل مستأجر B2C، ويستخدم إما بيانات اعتماد اسم المستخدم (عنوان البريد إلكتروني) أو بيانات اعتماد موفر الهوية الاجتماعية.
 

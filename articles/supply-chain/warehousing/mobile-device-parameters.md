@@ -1,6 +1,6 @@
 ---
 title: معلمات الجهاز المحمول العمومية
-description: يشرح هذا الموضوع كيفية إعداد إعدادات الجهاز المحمول في صفحة معلمات إدارة المستودعات.
+description: يشرح هذا المقال كيفية إعداد إعدادات الجهاز المحمول في صفحة معلمات إدارة المستودعات.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847748"
 ---
 # <a name="global-mobile-device-parameters"></a>معلمات الجهاز المحمول العمومية
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية اعداد معلمات إدارة المستودعات العمومية التي تؤثر على كيفية تفاعل النظام مع الأجهزة المحمولة.
+يشرح هذا المقال كيفية اعداد معلمات إدارة المستودعات العمومية التي تؤثر على كيفية تفاعل النظام مع الأجهزة المحمولة.
 
 لمزيد من المعلومات حول كيفية إعداد العاملين في المستودع، راجع [إدارة عامل المستودع](manage-warehouse-workers.md). للحصول على مزيد من المعلومات حول التعامل مع لوحة الترخيص على الأجهزة المحمولة، راجع [استلام لوحة الترخيص من خلال تطبيق Warehouse Management للأجهزة المحمولة](warehousing-mobile-device-app-license-plate-receiving.md). لمزيد من المعلومات حول عمليات الجرد الدوري، راجع [الجرد الدوري](cycle-counting.md) و[سيناريوهات أمثلة عن الجرد الدوري](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>فتح صفحة معلمات إدارة المستودعات
 
-لفتح صفحة **معلمات إدارة المستودعات**، انتقل إلى **إدارة المستودعات \> إعداد \> معلمات إدارة المستودعات**. يمكنك بعد ذلك تعيين الحقول التي تتعلق بعمل الجهاز المحمول، كما هو موضح في القسم التالي من هذا الموضوع.
+لفتح صفحة **معلمات إدارة المستودعات**، انتقل إلى **إدارة المستودعات \> إعداد \> معلمات إدارة المستودعات**. يمكنك بعد ذلك تعيين الحقول التي تتعلق بعمل الجهاز المحمول، كما هو موضح في القسم التالي من هذا المقال.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>علامة التبويب السريعة "الجهاز المحمول" على علامة التبويب "عام"
 

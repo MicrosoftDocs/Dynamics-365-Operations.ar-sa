@@ -1,6 +1,6 @@
 ---
 title: إنشاء موقع تجارة إلكترونية
-description: يوضح هذا الموضوع الخطوات والمعلومات المطلوبة لإنشاء موقع جديد للتجارة الإلكترونية في منشئ مواقع Dynamics 365 Commerce.
+description: يوضح هذا المقال الخطوات والمعلومات المطلوبة لإنشاء موقع جديد للتجارة الإلكترونية في منشئ مواقع Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 03/10/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
-ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
+ms.openlocfilehash: b4ac8d1b930c89bf330a2332c0b510dadb92e51f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "8402765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855759"
 ---
 # <a name="create-an-e-commerce-site"></a>إنشاء موقع تجارة إلكترونية
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع الخطوات والمعلومات المطلوبة لإنشاء موقع جديد للتجارة الإلكترونية في منشئ مواقع Dynamics 365 Commerce.
+يوضح هذا المقال الخطوات والمعلومات المطلوبة لإنشاء موقع جديد للتجارة الإلكترونية في منشئ مواقع Dynamics 365 Commerce.
 
 عندما تقوم بترخيص إمكانات Dynamics 365 Commerce ، سيتم تزويد منشئ المواقع بموقع بدء يمكنك استخدامه كأساس لموقعك الخاص. مع ذلك، إذا أردت البدء من البداية أو إذا كنت تريد إنشاء موقع ثان، ستحتاج إلى إنشاء موقع جديد في بيئة تأليف الموقع. 
 

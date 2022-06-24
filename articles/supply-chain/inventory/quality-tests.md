@@ -1,6 +1,6 @@
 ---
 title: اختبارات إدارة الجودة
-description: يوضح هذا الموضوع كيفيه إنشاء اختبارات يمكن استخدامها لأوامر الجودة في Microsoft Dynamics 365 Supply Chain Management.
+description: يوضح هذا المقال كيفيه إنشاء اختبارات يمكن استخدامها لأوامر الجودة في Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c10b67f86fc29b5e8c08081a9b789d4f42c24cf4
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac67ee97a4890c646daefa6b09feae25c4f15d0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857594"
 ---
 # <a name="quality-management-tests"></a>اختبارات إدارة الجودة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه إنشاء اختبارات يمكن استخدامها لأوامر الجودة في Microsoft Dynamics 365 Supply Chain Management.
+يوضح هذا المقال كيفيه إنشاء اختبارات يمكن استخدامها لأوامر الجودة في Microsoft Dynamics 365 Supply Chain Management.
 
 يمكنك استخدام صفحة **الاختبارات** لتحديد الاختبارات الفردية وعرضها والتي تحدد ما إذا كانت منتجاتك تفي بمواصفات الجودة أم لا. ويمكنك تعيين واحد أو أكثر من الاختبارات الفردية لمجموعة اختبار. وفي هذه الحالة، يمكنك أيضًا تحديد المعلومات الخاصة بالاختبار، مثل قيم القياس المقبولة. يتم استخدام قيم القياس للاختبارات الكمية. بالنسبة لاختبارات الجودة، يتم استخدام متغيرات الاختبار.
 

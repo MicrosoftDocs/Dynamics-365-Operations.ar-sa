@@ -1,6 +1,6 @@
 ---
 title: الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة
-description: يوضح هذا الموضوع خطوات الإعداد للحفاظ على التكاليف للأصناف المصنعة.
+description: يوضح هذا المقال خطوات الإعداد للحفاظ على التكاليف للأصناف المصنعة.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d42f61bcd44e89f0563c8f7450a1cdd6fd0e3ce
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 423da8022faf8066c5aa524c49c5071d0871de04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886004"
 ---
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>الإعداد للاحتفاظ بالتكاليف القياسية للأصناف المصنعة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع خطوات الإعداد للحفاظ على التكاليف للأصناف المصنعة. تختلف الخطوات الخاصة بالأصناف المصنعة اختلافًا طفيفًا عن الخطوات الخاصة بالأصناف التي تم شراؤها.
+يوضح هذا المقال خطوات الإعداد للحفاظ على التكاليف للأصناف المصنعة. تختلف الخطوات الخاصة بالأصناف المصنعة اختلافًا طفيفًا عن الخطوات الخاصة بالأصناف التي تم شراؤها.
 
 وقد تؤثر النهج المعينة للأصناف المصنعة على عمليات حساب التكاليف للأصناف المصنعة الرئيسية. للإعداد للاحتفاظ بالتكاليف للأصناف المصنعة، اتبع الخطوات التالية.
 
@@ -63,7 +63,7 @@ ms.locfileid: "8679124"
 
 إذا أردت استخدام معلومات التوجيه لأغراض التكلفة، يلزم وجود خطوات إعداد إضافية. فمثلاً، يجب أن تكون فئات التكلفة التي يتم تعيينها لعمليات التوجيه صحيحة وكاملة.
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [استهلاك أصول التكلفة الثابتة لصنف مصنّع](amortize-constant-costs-manufactured-item.md)
 

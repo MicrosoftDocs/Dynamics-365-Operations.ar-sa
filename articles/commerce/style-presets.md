@@ -1,6 +1,6 @@
 ---
 title: العمل باستخدام نمط الإعدادات المسبقة
-description: يصف هذا الموضوع كيفية استخدام الإعدادات المسبقة لأنماط الموقع في منشئ الموقع في Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال كيفية استخدام الإعدادات المسبقة لأنماط الموقع في منشئ الموقع في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 63e11b718a2b5221c722a11de3a8df6d9d0e3d6b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 0a06052ab29502c57a2ad5a25e5bec870585ef4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900350"
 ---
 # <a name="work-with-style-presets"></a>العمل باستخدام نمط الإعدادات المسبقة
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية استخدام الإعدادات المسبقة لأنماط الموقع في منشئ الموقع في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال كيفية استخدام الإعدادات المسبقة لأنماط الموقع في منشئ الموقع في Microsoft Dynamics 365 Commerce.
 
 الإعداد المسبق للنمط هو مجموعة مخزنة من جميع قيم النمط القابلة للاستخدام في نسق نمط. ويمكن استخدامه لتغيير شكل أحد المواقع على الفور من منشئ الموقع. تسمح الإعدادات المسبقة للأنماط للمؤلفين في منشئ الموقع في Commerce بتغيير مجموعة من قيم الأنماط في موقعهم ومعاينتها وتنشيطها، من دون استخدام أوراق الأنماط المتتالية (CSS) أو نشر النُسق. تعتبر أنماط الخطوط وأنماط الأزرار وألوان الموقع أمثلة نموذجية عن متغيرات الأنماط التي يمكن إدارتها عبر الإعدادات المسبقة للأنماط.
 

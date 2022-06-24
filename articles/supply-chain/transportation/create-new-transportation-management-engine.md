@@ -1,6 +1,6 @@
 ---
 title: إنشاء محرك إدارة نقل جديد
-description: يوضح هذا الموضوع كيفيه إنشاء محرك أداره نقل جديد في Dynamics 365 Supply Chain Management.
+description: يوضح هذا المقال كيفيه إنشاء محرك أداره نقل جديد في Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857246"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>إنشاء محرك إدارة نقل جديد
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه إنشاء محرك أداره نقل جديد في Dynamics 365 Supply Chain Management. 
+يوضح هذا المقال كيفيه إنشاء محرك أداره نقل جديد في Dynamics 365 Supply Chain Management. 
 
 تقوم محركات إدارة النقل (TMS) بتعريف المنطق المستخدم لإنشاء ومعالجه معدلات النقل في إدارة النقل. توفر Supply Chain Management عده أنواع مختلفه من المشغلات التي تقوم بحساب معلمات مختلفه ، مثل الأسعار وأوقات الانتقال وعدد المناطق التي سيتم تقاطعها اثناء النقل. يوضح هذا المقال كيفيه استخدام بيئة تطوير Visual Studio Microsoft مع أدوات تطوير Supply Chain Management لإنشاء ونشر مشغل TMS جديد ومن ثم كيفيه اعداد المشغل في عمليات لمزيد من المعلومات حول المحركات ، راجع [محركات أداره النقل](transportation-management-engines.md).
 

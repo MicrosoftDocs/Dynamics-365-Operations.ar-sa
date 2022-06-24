@@ -1,6 +1,6 @@
 ---
 title: التخطيط المستند إلى الأولوية
-description: يصف هذا الموضوع ميزة التخطيط حسب الأولوية لـ Microsoft Dynamics 365 Supply Chain Management.
+description: يصف هذا المقال ميزة التخطيط حسب الأولوية لـ Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: bdca7ef99716cebee5c4eb41d1e51793b9468dd4
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468289"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873800"
 ---
 # <a name="priority-based-planning"></a>التخطيط المستند إلى الأولوية
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع ميزة التخطيط حسب الأولوية لـ Microsoft Dynamics 365 Supply Chain Management. تضيف الميزة دعمًا للتخطيط الذي يحركه الطلب، والذي يعد خطوة واحدة في تخطيط متطلبات المواد حسب الطلب (DDMRP). يمكّن التخطيط المستند إلى الأولوية "تحسين التخطيط" من إنشاء أوامر مخططة مدفوعة بأولويات التخطيط بدلاً من تواريخ المتطلبات.
+يصف هذا المقال ميزة التخطيط حسب الأولوية لـ Microsoft Dynamics 365 Supply Chain Management. تضيف الميزة دعمًا للتخطيط الذي يحركه الطلب، والذي يعد خطوة واحدة في تخطيط متطلبات المواد حسب الطلب (DDMRP). يمكّن التخطيط المستند إلى الأولوية "تحسين التخطيط" من إنشاء أوامر مخططة مدفوعة بأولويات التخطيط بدلاً من تواريخ المتطلبات.
 
 يتيح لك التخطيط المستند إلى الأولوية تحديد أولويات أوامر التزويد لضمان إعطاء الأولوية للطلب العاجل على الطلب الأقل أهمية. على سبيل المثال، سيتم إعطاء الأولوية لأمر تجديد المخزون على أمر التزويد القياسي لإعادة الملء. يمكن للنظام تقسيم الطلبات الكبيرة تلقائيًا إلى أوامر منفصلة أصغر حيث يتم تجميع بنود الأمر حسب الأولوية. يمكنه بعد ذلك معالجة جميع الطلبات ذات الأولوية العالية أولاً.
 

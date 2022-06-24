@@ -1,6 +1,6 @@
 ---
-title: مستويات خدمة الأصول
-description: يشرح هذا الموضوع مستويات الأصول في إدارة الأصول.
+title: مستويات خدمة الأصل
+description: يشرح هذا المقال مستويات الأصول في إدارة الأصول.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908674"
 ---
-# <a name="asset-service-levels"></a>مستويات خدمة الأصول
+# <a name="asset-service-levels"></a>مستويات خدمة الأصل
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-يشرح هذا الموضوع مستويات الأصول في إدارة الأصول. ترتبط مستويات خدمة الأصول بالأصول، ويتم نقلها إلى طلبات الصيانة وأوامر العمل. وتُستخدم لحساب أولوية أوامر العمل أثناء جدولة أوامر العمل. يمكن تغيير مستويات خدمة الأصول، إذا كانت التغييرات مطلوبة.
+يشرح هذا المقال مستويات الأصول في إدارة الأصول. ترتبط مستويات خدمة الأصول بالأصول، ويتم نقلها إلى طلبات الصيانة وأوامر العمل. وتُستخدم لحساب أولوية أوامر العمل أثناء جدولة أوامر العمل. يمكن تغيير مستويات خدمة الأصول، إذا كانت التغييرات مطلوبة.
 
 لمزيد من المعلومات حول الإعداد المرتبط بحساب درجات التقييم لجدولة أمر العمل، راجع [معلمات إدارة الأصول](../setup-for-objects/enterprise-asset-management-parameters.md). يجب إعداد سجل افتراضي واحد على الأقل لمستوى خدمة الأصول. يتم استخدام هذا السجل الافتراضي في حالة عدم العثور على تطابق آخر أثناء جدولة أمر العمل.
 

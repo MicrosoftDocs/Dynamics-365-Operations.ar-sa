@@ -1,6 +1,6 @@
 ---
 title: عينة تكامل خدمة التسجيل المالي لألمانيا
-description: يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي لألمانيا في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي لألمانيا في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867748"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>عينة تكامل خدمة التسجيل المالي لألمانيا
 
 [!include[banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي لألمانيا في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة على عينة التكامل المالي لألمانيا في Microsoft Dynamics 365 Commerce.
 
 للوفاء بالمتطلبات المالية المحلية لسجلات النقد في ألمانيا، تتضمن وظيفة Microsoft Dynamics 365 Commerce لألمانيا عينة تكامل لنقطة البيع (POS) مع خدمة تسجيل مالية خارجية. ويقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). وهو يستند إلى حل [EFR (السجل المالي الإلكتروني)](https://www.efsta.eu/de/fiskalloesungen/deutschland) من [EFSTA](https://www.efsta.eu/de/) ويقوم بتمكين الاتصال بخدمة EFR من خلال بروتوكول HTTPS. يجب استضافة خدمة EFR إما على محطة أجهزة البيع بالتجزئة أو على كمبيوتر منفصل يمكن توصيله من محطة الأجهزة. يتم توفير العينة في شكل كود المصدر وهي جزء من مجموعة تطوير برامج البيع بالتجزئة (SDK).
 

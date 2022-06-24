@@ -1,6 +1,6 @@
 ---
 title: تكوين الدفعات السريعة لـ PayPal
-description: يصف هذا الموضوع كيفية تكوين الدفعات السريعة لـ PayPal لتمكين إمكانات السداد الأسرع في Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال كيفية تكوين الدفعات السريعة لـ PayPal لتمكين إمكانات السداد الأسرع في Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905272"
 ---
 # <a name="configure-express-payments-for-paypal"></a>تكوين الدفعات السريعة لـ PayPal
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفية تكوين الدفعات السريعة لـ PayPal لتمكين إمكانات السداد الأسرع في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال كيفية تكوين الدفعات السريعة لـ PayPal لتمكين إمكانات السداد الأسرع في Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>المصطلحات الأساسية
 
@@ -28,7 +28,7 @@ ms.locfileid: "8743559"
 |---|---|
 | محفظة PayPal | تجربة العميل والتكامل المدعومان من موصل PayPal. ويعرف أيضًا بزر PayPal. |
 | المحفظة | نوع دفع لا يتضمن خصائص الدفع التقليدية، مثل نطاق رقم التعريف البنكي (BIN) وتاريخ انتهاء الصلاحية، والتي يتم استخدامها للتمييز بين أنواع بطاقات الائتمان والخصم. |
-| الدفع السريع | وحدة Commerce تدعم سلوك السداد السريع عند استخدام طرق الدفع المدعومة. يغطي هذا الموضوع استخدام وحدة الدفع السريع مع PayPal. |
+| الدفع السريع | وحدة Commerce تدعم سلوك السداد السريع عند استخدام طرق الدفع المدعومة. يغطي هذا المقال استخدام وحدة الدفع السريع مع PayPal. |
 
 يقدم Dynamics 365 Commerce تكاملاً جاهزًا لمحفظة PayPal. عند تكوين Dynamics 365 Payment Connector لـ PayPal، يظهر زر PayPal كطريقة دفع قابلة للتحديد أثناء سداد الطلب عبر الإنترنت. وعندما يختار المستخدمون PayPal، يتم توجيههم لإكمال دفعتهم مباشرةً من خلال PayPal ثم يتم إعادتهم إلى واجهة المتجر عبر الإنترنت لإكمال طلبهم. يتيح سداد سلة التسوق في PayPal للعملاء استخدام معلومات حساب الدفع الخاصة بهم لملء نموذج السداد مسبقًا، حتى يتمكنوا من إكمال عملية السداد بسرعة أكبر.
 

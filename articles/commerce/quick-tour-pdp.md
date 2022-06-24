@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على صفحات تفاصيل المنتج
-description: يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة حول صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986191"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884275"
 ---
 # <a name="product-details-pages-overview"></a>نظرة عامة على صفحات تفاصيل المنتج
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة حول صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة حول صفحات تفاصيل المنتجات (PDP) في Microsoft Dynamics 365 Commerce.
 
 يقدم الملف بتنسيق PDP معلومات مفصلة عن منتج ويُتيح للعملاء تحديد خيارات المنتج مثل الحجم والنمط واللون. يجب أن يعمل ملف بتنسيق PDP على إظهار كافة معلومات المنتج التي يطلبها العميل لاتخاذ قرار شراء.
 
@@ -35,9 +35,9 @@ ms.locfileid: "7986191"
 
 ## <a name="header-and-footer-modules"></a>وحدات الرؤوس والتذييلات
 
-يحتوي ملف بتنسيق PDF على رأس يعرض كافة فئات المنتجات والصفحات الأخرى التي يرغب بائع التجزئة في أن يقوم العملاء باستعراضها. يوجد أسفل الصفحة تذييل يحتوي على ارتباطات سريعة إلى العديد من الموضوعات التي قد تهم العملاء.
+يحتوي ملف بتنسيق PDF على رأس يعرض كافة فئات المنتجات والصفحات الأخرى التي يرغب بائع التجزئة في أن يقوم العملاء باستعراضها. يوجد أسفل الصفحة تذييل يحتوي على ارتباطات سريعة إلى العديد من المقالات التي قد تهم العملاء.
 
-## <a name="buy-box-module"></a>الوحدة النمطية لصندوق الشراء
+## <a name="buy-box-module"></a>وحدة صندوق الشراء
 
 الوحدة النمطية الهامه علي PDP هي الوحدة النمطية لمربع الشراء ، والتي تظهر كاول عنصر في الجزء الرئيسي من الصفحة. تعرض الوحدة النمطية لصندوق الشراء معلومات هامه حول المنتج ، مثل اسم المنتج ووصف المنتج وسعر المنتج وصور المنتجات وتصنيفات المنتجات.
 

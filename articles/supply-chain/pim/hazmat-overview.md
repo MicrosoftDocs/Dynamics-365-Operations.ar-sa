@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على المواد الخطرة
-description: يستعرض هذا الموضوع نظرة عامة حول الميزات المتعلقة بمناولة المواد الخطرة وتوثيقها في أثناء إدارة معلومات المنتج وإدارة المستودع.
+description: يستعرض هذا المقال نظرة عامة حول الميزات المتعلقة بمناولة المواد الخطرة وتوثيقها في أثناء إدارة معلومات المنتج وإدارة المستودع.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905794"
 ---
 # <a name="hazardous-materials-overview"></a>نظرة عامة على المواد الخطرة
 
@@ -50,7 +50,7 @@ ms.locfileid: "7986266"
 
 توفر كل مجموعة من اللوائح قوائم قياسية للبضائع الخطرة والأكواد المرجعية. بالتالي، توفر Supply Chain Management جدولاً مرجعيًا للرموز المشتركة في تلك القوائم. وتحتوي كل قائمة أيضًا على بعض الأكواد الفريدة التي يمكن تحديدها.
 
-لمزيد من المعلومات حول كيفية إعداد اللوائح والقيم الخاصة بالمواد الخطرة، وكيفية تعيين القيم للمنتجات ذات الصلة، راجع الموضوعات التالية:
+لمزيد من المعلومات حول كيفية إعداد اللوائح والقيم الخاصة بالمواد الخطرة، وكيفية تعيين القيم للمنتجات ذات الصلة، راجع المقالات التالية:
 
 - [إعداد المواد الخطرة](hazmat-setup.md)
 - [المواد الخطرة في المنتجات والأوامر والشحنات والأحمال](hazmat-items.md)

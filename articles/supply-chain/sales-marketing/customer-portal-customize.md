@@ -1,6 +1,6 @@
 ---
 title: تخصيص مدخل العميل واستخدامه
-description: يشرح هذا الموضوع كيفية تخصيص مدخل العميل بعد إضافته إلى نظامك.
+description: يشرح هذا المقال كيفية تخصيص مدخل العميل بعد إضافته إلى نظامك.
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063483"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878863"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>تخصيص مدخل العميل واستخدامه
 
 [!include [banner](../includes/banner.md)]
 
 
-يشرح هذا الموضوع مختلف الصفحات الجاهزة المتوفرة في مدخل العميل. وهو يشرح العمل الذي تقوم به الصفحات وكيف يمكن تخصيصها.
+يشرح هذا المقال مختلف الصفحات الجاهزة المتوفرة في مدخل العميل. وهو يشرح العمل الذي تقوم به الصفحات وكيف يمكن تخصيصها.
 
 يقدم مدخل العميل بعض صفحات الويب والإجراءات الجاهزة. يوفر مخطط الموقع التالي نظرة عامة على صفحات الويب والإجراءات هذه، والأدوار التي يمكنها تنفيذ الإجراءات.
 
@@ -32,16 +32,16 @@ ms.locfileid: "8063483"
 
 ## <a name="typical-customizations"></a>عمليات التخصيص النموذجية
 
-ستساعدك المواضيع التالية في التعرف على الأساسيات حول مداخل Power Apps وكيف يمكنك تخصيص المداخل:
+ستساعدك المقالات التالية في التعرف على الأساسيات حول مداخل Power Apps وكيف يمكنك تخصيص المداخل:
 
-- [استخدام القوالب](/powerapps/maker/portals/work-with-templates) – يوفر هذا الموضوع نظرة عامة حول كيفية عمل مداخل Power Apps وكيف يمكنك إجراء عمليات تخصيص بسيطة للمداخل.
-- [إدارة محتوى المدخل](/dynamics365/portals/manage-portal-content) – يشرح هذا الموضوع كيفية إدارة وتخصيص المحتوى الذي تعرضه في مدخلك.
-- [تحرير CSS](/powerapps/maker/portals/edit-css) – يساعدك هذا الموضوع على اجراء المزيد من عمليات التخصيص المعقدة لواجهة المستخدم (UI) في مدخلك.
-- [إنشاء نسق لمدخلك](/dynamics365/portals/create-theme) – يساعدك هذا الموضوع على إنشاء نسق لواجهة المستخدم في مدخلك.
-- [إنشاء محتوى المدخل وعرضه بسهولة](/dynamics365/portals/create-expose-portal-content) – يساعدك هذا الموضوع على إدارة البيانات والجداول الأساسية التي تستخدمها لمدخلك.
-- [تكوين جهة اتصال لاستخدامها على مدخل](/powerapps/maker/portals/configure/configure-contacts) – يشرح هذا الموضوع كيفية إنشاء أدوار المستخدمين وتخصيصها، وكيفية عمل الأمان والمصادقة في مداخل Power Apps.
-- [تكوين الملاحظات لنماذج الجدول ونماذج الويب على المداخل](/powerapps/maker/portals/configure-notes)– يشرح هذا الموضوع كيفية إضافة مستندات ومساحة تخزين إضافية إلى مدخلك.
-- [معالجة الأخطاء لموقع ويب للدخل](/powerapps/maker/portals/admin/view-portal-error-log) – يشرح هذا الموضوع كيفية عرض سجلات أخطاء المدخل وتخزينها في حساب مخزن البيانات الثنائية كبيرة الحجم في Microsoft Azure.
+- [استخدام القوالب](/powerapps/maker/portals/work-with-templates) – يوفر هذا المقال نظرة عامة حول كيفية عمل مداخل Power Apps وكيف يمكنك إجراء عمليات تخصيص بسيطة للمداخل.
+- [إدارة محتوى المدخل](/dynamics365/portals/manage-portal-content) – يشرح هذا المقال كيفية إدارة وتخصيص المحتوى الذي تعرضه في مدخلك.
+- [تحرير CSS](/powerapps/maker/portals/edit-css) – يساعدك هذا المقال على اجراء المزيد من عمليات التخصيص المعقدة لواجهة المستخدم (UI) في مدخلك.
+- [إنشاء نسق لمدخلك](/dynamics365/portals/create-theme) – يساعدك هذا المقال على إنشاء نسق لواجهة المستخدم في مدخلك.
+- [إنشاء محتوى المدخل وعرضه بسهولة](/dynamics365/portals/create-expose-portal-content) – يساعدك هذا المقال على إدارة البيانات والجداول الأساسية التي تستخدمها لمدخلك.
+- [تكوين جهة اتصال لاستخدامها على مدخل](/powerapps/maker/portals/configure/configure-contacts) – يشرح هذا المقال كيفية إنشاء أدوار المستخدمين وتخصيصها، وكيفية عمل الأمان والمصادقة في مداخل Power Apps.
+- [تكوين الملاحظات لنماذج الجدول ونماذج الويب على المداخل](/powerapps/maker/portals/configure-notes)– يشرح هذا المقال كيفية إضافة مستندات ومساحة تخزين إضافية إلى مدخلك.
+- [معالجة الأخطاء لموقع ويب للدخل](/powerapps/maker/portals/admin/view-portal-error-log) – يشرح هذا المقال كيفية عرض سجلات أخطاء المدخل وتخزينها في حساب مخزن البيانات الثنائية كبيرة الحجم في Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>تخصيص عملية إنشاء الأوامر
 

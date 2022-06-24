@@ -1,6 +1,6 @@
 ---
 title: تسجيل الاستهلاك
-description: يوضح هذا الموضوع كيفية تسجيل الاستهلاك في إدارة الأصول.
+description: يوضح هذا المقال كيفية تسجيل الاستهلاك في إدارة الأصول.
 author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886033"
 ---
 # <a name="register-consumption"></a>تسجيل الاستهلاك
 
@@ -90,7 +90,7 @@ ms.locfileid: "6765555"
 - *تسجيلات الأصناف:* تُضاف أولاً الأبعاد المالية من رأس دفتر اليومية، في حال وجودها. ثم تُضاف الأبعاد المالية من مشروع أمر العمل ذي الصلة. بعد ذلك، تُضاف الأبعاد المالية من الموقع. وأخيرًا، تُضاف الأبعاد المالية من الصنف.
 
 >[!NOTE]
->بالنسبة إلى كافة أنواع التسجيلات الثلاثة، يتم التحقق من صحة تركيبة الأبعاد المالية، ويتم تجاهل التركيبات غير الصالحة. هذا هو الإعداد القياسي مع تطبيقات Finance and Operations الأخرى.
+>بالنسبة إلى كافة أنواع التسجيلات الثلاثة، يتم التحقق من صحة تركيبة الأبعاد المالية، ويتم تجاهل التركيبات غير الصالحة. وهذا هو الإعداد القياسي في تطبيقات Finance and Operations الأخرى.
 
 
 

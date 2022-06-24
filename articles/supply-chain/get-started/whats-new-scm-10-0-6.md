@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في الإصدار 10.0.6 من Dynamics 365 Supply Chain Management (نوفمبر 2019)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.6 من Dynamics 365 Supply Chain Management.
+description: تصف هذه المقالة الميزات الجديدة أو المتغيرة في 10.0.6. Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 10/28/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 87bcda25b89135e052a5a883b816ea0bb430479a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8c97e4e5544c49d2e6a13b34061abfbf50e2932a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844427"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1006-november-2019"></a>ما الجديد أو المتغير في الإصدار 10.0.6 من Dynamics 365 Supply Chain Management (نوفمبر 2019)
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.6 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هو 10.0.234، وهو يتوفر كما يلي: بينما يقع تاريخ التوفر العام في نوفمبر، تكون الميزات الجديدة متوفرة للإصدار المبكر في أكتوبر. لمزيد من المعلومات حول الإصدار 10.0.6، راجع [موارد إضافية](whats-new-scm-10-0-6.md#additional-resources).
+يصف هذا المقال الميزات الجديدة أو المتغيرة في 10.0.6. Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هو 10.0.234، وهو يتوفر كما يلي: بينما يقع تاريخ التوفر العام في نوفمبر، تكون الميزات الجديدة متوفرة للإصدار المبكر في أكتوبر. لمزيد من المعلومات حول الإصدار 10.0.6، راجع [موارد إضافية](whats-new-scm-10-0-6.md#additional-resources).
 
 ## <a name="product-configuration-models-v2-data-entity"></a>كيان البيانات V2 لنماذج تكوين المنتجات
 
@@ -60,12 +60,12 @@ ms.locfileid: "7568889"
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
-يوضح الموضوع [الميزات التي تمت ازالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) الميزات التي تمت أو تتم جدولتها لإزالتها أو إهمالها لـ Supply Chain Management.
+يوضح المقال [الميزات التي تمت ازالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) الميزات التي تمت أو تتم جدولتها لإزالتها أو إهمالها لـ Supply Chain Management.
 
 - لم تعد ميزة *تمت الإزالة* متوفرة في المنتج.
 - لا توجد ميزة *المهملة* في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.
 
-قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
+قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في المقال [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
 

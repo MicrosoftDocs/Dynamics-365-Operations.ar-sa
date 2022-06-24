@@ -1,6 +1,6 @@
 ---
 title: التكامل مع أنظمة تنفيذ التصنيع التابعة لجهات خارجية
-description: يشرح هذا الموضوع كيف يمكنك دمج Microsoft Dynamics 365 Supply Chain Management مع نظام تنفيذ التصنيع لجهة خارجية (MES).
+description: يشرح هذا المقال كيف يمكنك دمج Microsoft Dynamics 365 Supply Chain Management مع نظام تنفيذ التصنيع لجهة خارجية (MES).
 author: johanhoffmann
 ms.date: 10/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: c7633ba32f9265aa0fd8f702552f48dbf675375d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 208ed2d6c8b411d12888966d9c175730e828eb44
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860627"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>التكامل مع أنظمة تنفيذ التصنيع التابعة لجهات خارجية
 
@@ -238,7 +238,7 @@ ms.locfileid: "8678676"
 
 ## <a name="other-production-information"></a>معلومات الإنتاج الأخرى
 
-تدعم الرسائل الإجراءات أو الأحداث التي تحدث في ورشة العمل. تتم معالجتها باستخدام إطار عمل تكامل MES الموضح في هذا الموضوع. يفترض التصميم أن المعلومات المرجعية الأخرى التي سيتم مشاركتها مع MES (مثل المعلومات المتعلقة بالمنتج، أو فاتورة المواد أو المسار (مع أوقات الإعداد والتكوين المحددة) المستخدمة في أمر إنتاج معين) سيتم استردادها من النظام باستخدام [كيانات البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) عبر نقل الملفات أو OData.
+تدعم الرسائل الإجراءات أو الأحداث التي تحدث في ورشة العمل. تتم معالجتها باستخدام إطار عمل تكامل MES الموضح في هذا المقال. يفترض التصميم أن المعلومات المرجعية الأخرى التي سيتم مشاركتها مع MES (مثل المعلومات المتعلقة بالمنتج، أو فاتورة المواد أو المسار (مع أوقات الإعداد والتكوين المحددة) المستخدمة في أمر إنتاج معين) سيتم استردادها من النظام باستخدام [كيانات البيانات](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) عبر نقل الملفات أو OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>تلقي ملاحظات حول حالة الرسالة
 
@@ -251,7 +251,7 @@ ms.locfileid: "8678676"
 
 في هذه الحالات، يمكنك الاستفادة من ميزة التنبيه القياسية في Supply Chain Management. للحصول على معلومات حول كيفية عمل التنبيهات القياسية، راجع الموارد التالية:
 
-- موضوع التعليمات: [نظرة عامة على التنبيهات](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
+- مقال التعليمات: [نظرة عامة على التنبيهات](../../fin-ops-core/fin-ops/get-started/alerts-overview.md)
 - الفيديو: [خيارات قواعد التنبيهات في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=cpzimwOjicM&ab_channel=MicrosoftDynamics365)
 
 على سبيل المثال، يمكنك إعداد التنبيهات التالية لتقديم ملاحظات حول حالة الرسالة:

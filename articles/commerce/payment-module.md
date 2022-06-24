@@ -1,6 +1,6 @@
 ---
-title: الوحدة النمطية للدفع
-description: يتناول هذا الموضوع الوحدة النمطية للدفع ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
+title: وحدة للدفع
+description: يتناول هذا المقال الوحدة النمطية للدفع ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 04/12/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: ba95386143ca830aeb1b50b31b4bbd2b54f53a40
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: a89ca5dd4f46611e75faccd3213028750fa48d35
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565719"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850265"
 ---
-# <a name="payment-module"></a>الوحدة النمطية للدفع
+# <a name="payment-module"></a>وحدة للدفع
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع الوحدة النمطية للدفع ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال الوحدة النمطية للدفع ويشرح كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 
 تتيح الوحدة النمطية للدفع للعملاء بتسديد قيمة الأوامر باستخدام بطاقة الائتمان أو بطاقة الخصم. يتم توفير سلامة الدفع لهذه الوحدة النمطية باستخدام موصل دفع Dynamics 365 لـ Adyen‬. للحصول على معلومات حول كيفية إعداد وتكوين موصل الدفع، راجع [موصل دفع Dynamics 365 لـ Adyen‬](dev-itpro/adyen-connector.md).  
 

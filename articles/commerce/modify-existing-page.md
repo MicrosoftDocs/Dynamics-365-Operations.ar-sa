@@ -1,6 +1,6 @@
 ---
 title: تعديل صفحة موقع موجودة
-description: يصف هذا الموضوع كيفية تعديل صفحة موقع موجودة في Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال كيفية تعديل صفحة موقع موجودة في Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ceffb07afc8287e975f48696a059d3cd4ad20ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848853"
 ---
 # <a name="modify-an-existing-site-page"></a>تعديل صفحة موقع موجودة
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية تعديل صفحة موقع موجودة في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال كيفية تعديل صفحة موقع موجودة في Microsoft Dynamics 365 Commerce.
 
 عندما تكون مضطرًا لتعديل صفحة، تكون الخطوة الأولي هي فتحها في محرر الصفحة. انتقل إلى الموقع الذي يحتوي على الصفحة الخاصة بك، ثم في قائمة الصفحات، ابحث عن الصفحة التي تريدها. إذا لم تتمكن من العثور على الصفحة، يمكنك استخدام وظيفة البحث المتعمق لأداه التأليف. إما أن تكتب اسم الصفحة بالضبط، أو تكتب الأحرف الأولى منها ثم علامة (\*). تظهر قائمة من الصفحات المصفاة. يمكنك استخدام هذه القائمة للعثور على الصفحة التي تريدها. بعد العثور علي الصفحة الصحيحة، حدد اسم الصفحة لفتح الصفحة في محرر الصفحة.
 

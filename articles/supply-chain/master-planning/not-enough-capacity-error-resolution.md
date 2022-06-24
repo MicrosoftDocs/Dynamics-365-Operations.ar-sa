@@ -1,6 +1,6 @@
 ---
 title: تم إصلاح خطأ محرك الجدولة والسعة المحدودة 'لا يمكن العثور على القدرة الكافية'
-description: يوفر هذا الموضوع معلومات حول الأسباب والحلول الخاصة بخطأ 'تعذر جدولة أمر الإنتاج %1'. إصلاح خطأ محرك الجدولة 'لا يمكن العثور على القدرة الكافية'.
+description: يوفر هذا المقال معلومات حول الأسباب والحلول الخاصة بخطأ 'تعذر جدولة أمر الإنتاج %1'. إصلاح خطأ محرك الجدولة 'لا يمكن العثور على القدرة الكافية'.
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469830"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891020"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>إصلاح خطأ محرك الجدولة "لا يمكن العثور على القدرة الكافية"
 
@@ -26,7 +26,7 @@ ms.locfileid: "8469830"
 
 > تعذرت جدولة أمر الإنتاج %1. يتعذر العثور على قدرة كافية.
 
-هناك أسباب عديدة لاحتمال فشل محرك الجدولة وإصدار رسالة الخطأ هذه. يوفر هذا الموضوع إرشادات تساعدك في العثور على السبب الأساسي للخطأ ويقلل من حدوثه.
+هناك أسباب عديدة لاحتمال فشل محرك الجدولة وإصدار رسالة الخطأ هذه. يوفر هذا المقال إرشادات تساعدك في العثور على السبب الأساسي للخطأ ويقلل من حدوثه.
 
 ## <a name="review-the-applicable-resources"></a>راجع الموارد القابلة للتطبيق
 

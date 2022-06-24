@@ -1,6 +1,6 @@
 ---
 title: تخطيط الأحمال والشحنات باستخدام أداة تخطيط الحِمل
-description: يوضح هذا الموضوع كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات.
+description: يوضح هذا المقال كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات.
 author: Mirzaab
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d641ece709d36d8f3ee29cde47918154835a5bb9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8ad9c91051c1a1140661c93d7c5e86a78de5ec3f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877323"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>تخطيط الأحمال والشحنات باستخدام أداة تخطيط الحِمل
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات. كشرط مسبق، سنقوم بإنشاء أمر المبيعات أولاً. يمثل هذا الإجراء جزءًا من العمل اليومي لمنسق النقل. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
+يوضح هذا المقال كيفية استخدام منضدة تخطيط الحمل لإنشاء حمل لأمر مبيعات. كشرط مسبق، سنقوم بإنشاء أمر المبيعات أولاً. يمثل هذا الإجراء جزءًا من العمل اليومي لمنسق النقل. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي USMF.
 
 
 ## <a name="create-a-sales-order"></a>إنشاء أمر مبيعات

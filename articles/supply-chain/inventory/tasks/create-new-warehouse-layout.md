@@ -1,6 +1,6 @@
 ---
 title: إنشاء تخطيط مستودع جديد
-description: يصف هذا الموضوع كيفية إعداد المعلومات حول المواقع في مستودع.
+description: يصف هذا المقال كيفية إعداد المعلومات حول المواقع في مستودع.
 author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 143648e5317e6dce1b1a76a96d6069abe5d0e351
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859303"
 ---
 # <a name="create-a-new-warehouse-layout"></a>إنشاء تخطيط مستودع جديد
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية إعداد المعلومات حول المواقع في مستودع. ينطبق هذا فقط على المستودعات التي تم إنشاؤها باستخدام "التخزين الأساسي" في الوحدة النمطية لإدارة المخزون، وليس على المستودعات التي تم إنشاؤها في الوحدة النمطية لإدارة المستودعات. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.
+يصف هذا المقال كيفية إعداد المعلومات حول المواقع في مستودع. ينطبق هذا فقط على المستودعات التي تم إنشاؤها باستخدام "التخزين الأساسي" في الوحدة النمطية لإدارة المخزون، وليس على المستودعات التي تم إنشاؤها في الوحدة النمطية لإدارة المستودعات. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التوضيحي USMF أو باستخدام بياناتك الخاصة.
 
 
 ## <a name="set-the-default-location-capacity"></a>تعيين سعة الموقع الافتراضي

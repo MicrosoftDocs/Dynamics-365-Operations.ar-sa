@@ -1,6 +1,6 @@
 ---
 title: مزامنة المنتجات مباشرةً من Supply Chain Management إلى المنتجات في Sales‎‎
-description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة المنتجات من Dynamics 365 Supply Chain Management إلى Dynamics 365 Sales.
+description: يناقش هذا المقال القوالب والمهام الأساسية التي يتم استخدامها لمزامنة المنتجات من Dynamics 365 Supply Chain Management إلى Dynamics 365 Sales.
 author: Henrikan
 ms.date: 06/10/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: dd84f96a5597c480648ae30b6d0274e15d750ff6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 5195368f3de12c7e361905c3cca442067e39e000
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855950"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>مزامنة المنتجات مباشرةً من Supply Chain Management إلى المنتجات في Sales‎‎
 
@@ -32,7 +32,7 @@ ms.locfileid: "8062453"
 > [!NOTE]
 > قبل أن تتمكن من استخدام حل العميل المتوقع إلى النقدية، يجب عليك الاطلاع على [تكامل البيانات في Microsoft Dataverse للتطبيقات‏‎](/powerapps/administrator/data-integrator).
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة المنتجات مباشرة من Dynamics 365 Supply Chain Management إلى Dynamics 365 Sales.
+يناقش هذا المقال القوالب والمهام الأساسية التي يتم استخدامها لمزامنة المنتجات مباشرة من Dynamics 365 Supply Chain Management إلى Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>تدفق البيانات في حل العميل المتوقع إلى النقدية
 
@@ -107,7 +107,7 @@ ms.locfileid: "8062453"
 ![تعيين القالب في موحد البيانات.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [العميل المتوقع إلى النقدية](prospect-to-cash.md)
 

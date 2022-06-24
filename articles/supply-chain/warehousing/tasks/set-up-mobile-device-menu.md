@@ -1,6 +1,6 @@
 ---
 title: إعداد عنصر قائمة جهاز محمول لإكمال عمل من النوع "أمر الشراء"
-description: يوضح هذا الموضوع كيفية إعداد عنصر قائمة جهاز محمول.
+description: يوضح هذا المقال كيفية إعداد عنصر قائمة جهاز محمول.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565084"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882275"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>إعداد عنصر قائمة جهاز محمول لإكمال عمل من النوع "أمر الشراء"
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد عنصر قائمة جهاز محمول. في هذا المثال، يتم استخدام عنصر القائمة لتنفيذ عمل من النوع "أمر الشراء". تحدد فئة العمل المرتبطة بعنصر القائمة العمل الصالح. ويمكنك استخدام هذا الدليل في شركة بيانات العرض التوضيحي USMF. يقوم مدير المستودع عادةً بتنفيذ هذا الإجراء.
+يوضح هذا المقال كيفية إعداد عنصر قائمة جهاز محمول. في هذا المثال، يتم استخدام عنصر القائمة لتنفيذ عمل من النوع "أمر الشراء". تحدد فئة العمل المرتبطة بعنصر القائمة العمل الصالح. ويمكنك استخدام هذا الدليل في شركة بيانات العرض التوضيحي USMF. يقوم مدير المستودع عادةً بتنفيذ هذا الإجراء.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>إنشاء عنصر قائمة جهاز محمول

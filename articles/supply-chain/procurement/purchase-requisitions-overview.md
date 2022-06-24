@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على طلب الشراء
-description: يوضح هذا الموضوع سير عمل طلب الشراء والحالات المختلفة التي يمكن أن يكون بها طلب شراء.
+description: توضح هذه المقالة سير عمل طلب الشراء ومختلف حالات طلب الشراء.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6524229800233d1bfdf54a11afc122990eed9d3
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a7430e18779dc2c37f74e6d25c95836f4fbc435d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905736"
 ---
 # <a name="purchase-requisition-overview"></a>نظرة عامة على طلب الشراء
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع سير عمل طلب الشراء والحالات المختلفة التي يمكن أن يكون بها طلب شراء.
+توضح هذه المقالة سير عمل طلب الشراء ومختلف حالات طلب الشراء.
 
 استنادًا إلى إعداد مؤسستك، يمكنك إنشاء طلبات شراء للمنتجات التي تستخدمها مؤسستك. ويعتبر طلب الشراء مستندًا داخليًا حيث يخول قسم الشراء ليقوم بشراء الأصناف أو الخدمات.  
 

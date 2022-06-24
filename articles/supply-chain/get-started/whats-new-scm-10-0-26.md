@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management‏ 10.0.26‏ (مايو 2022)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.26 من Microsoft Dynamics 365 Supply Chain Management.
+description: يصف هذا المقال الميزات الجديدة أو المتغيرة في 10.0.26. Microsoft Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 03/01/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 0724045824f39f316c8b3dbb06a48eb6ca6dbef3
-ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
+ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8625240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850746"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management‏ 10.0.26‏ (مايو 2022)
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.26 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1192، وهو يتوفر كما يلي
+يصف هذا المقالا الميزات الجديدة أو المتغيرة في إصدار 10.0.26 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1192، وهو يتوفر كما يلي
 
 - **معاينة الإصدار:** مارس 2022
 - **التوفر العام للإصدار (تحديث ذاتي):** إبريل 2022
@@ -29,7 +29,7 @@ ms.locfileid: "8625240"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يسرد الجدول التالي الميزات المضمنة في هذا الإصدار. قد نقوم بتحديث هذا الموضوع ليشمل الميزات التي تم إدراجها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+يسرد الجدول التالي الميزات المضمنة في هذا الإصدار. قد نقوم بتحديث هذا المقال ليشمل الميزات التي تم إدراجها في البناء بعد أن يتم نشر هذا المقال في البداية.
 
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
@@ -56,11 +56,11 @@ ms.locfileid: "8625240"
 
 ## <a name="new-and-updated-documentation-resources"></a>موارد وثائق جديده ومحدثه
 
-لقد قمنا مؤخرا باضافه موضوعات التعليمات التالية أو تحديثها بشكل ملحوظ. ليس بالضرورة أن تكون هذه الموضوعات مرتبطة بالميزات الجديدة التي تمت إضافتها لهذا الإصدار، كما هو موضح في الأقسام السابقة. ومع ذلك، قد تساعدك في الحصول على مزيد من الميزات الموجودة.
+لقد قمنا مؤخرا بإضافة مقالات التعليمات التالية أو تحديثها بشكل ملحوظ. ليس بالضرورة أن تكون هذه المقالات مرتبطة بالميزات الجديدة التي تمت إضافتها لهذا الإصدار، كما هو موضح في الأقسام السابقة. ومع ذلك، قد تساعدك في الحصول على مزيد من الميزات الموجودة.
 
-| منطقة الميزة | الموضوعات الجديدة أو المحدثة |
+| منطقة الميزة | المقالات الجديدة أو المحدثة |
 |---|---|
-| إدارة التكلفة | تمت إضافة الأمثلة والرسوم البيانية المحدثة إلى كل من الموضوعات التالية:<ul><li>[ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز](../cost-management/fifo-physical-value-marking.md)</li><li>[نموذج المخزون ما يرد أخيرًا يصرف أولاً‬ (LIFO) مع القيمة الفعلية والعلامات](../cost-management/lifo-physical-value-marking.md)</li><li>[تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](../cost-management/lifo-date-physical-value-marking.md)</li><li>[المتوسط المتحرك لسعر التكلفة](../cost-management/running-average-cost-price.md)</li><li>[المتوسط المرجح مع القيمة الفعلية ووضع العلامات](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
+| إدارة التكلفة | تمت إضافة الأمثلة والرسوم البيانية المحدثة إلى كل من المقالات التالية:<ul><li>[ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز](../cost-management/fifo-physical-value-marking.md)</li><li>[نموذج المخزون ما يرد أخيرًا يصرف أولاً‬ (LIFO) مع القيمة الفعلية والعلامات](../cost-management/lifo-physical-value-marking.md)</li><li>[تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](../cost-management/lifo-date-physical-value-marking.md)</li><li>[المتوسط المتحرك لسعر التكلفة](../cost-management/running-average-cost-price.md)</li><li>[المتوسط المرجح مع القيمة الفعلية ووضع العلامات](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
 | التدبير وتحديد الموارد | [اختلافات في البيانات في بنود أمر الشراء](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>الموارد الإضافية
@@ -81,12 +81,12 @@ ms.locfileid: "8625240"
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
-يوضح الموضوع [الميزات التي تمت ازالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) الميزات التي تمت أو تتم جدولتها لإزالتها أو إهمالها لـ Supply Chain Management.
+يوضح المقال [الميزات التي تمت ازالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) الميزات التي تمت أو تتم جدولتها لإزالتها أو إهمالها لـ Supply Chain Management.
 
 - لم تعد ميزة *تمت الإزالة* متوفرة في المنتج.
 - لا توجد ميزة *المهملة* في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.
 
-قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
+قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في المقال [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
 

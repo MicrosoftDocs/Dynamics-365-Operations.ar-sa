@@ -1,6 +1,6 @@
 ---
-title: إنشاء مجموعات أذونات نقطة البيع
-description: يوضح هذا الموضوع كيفية إنشاء مجموعة أذونات نقطة البيع‬.
+title: " إنشاء مجموعات أذونات نقطة البيع"
+description: يوضح هذا المقال كيفية إنشاء مجموعة أذونات نقطة البيع‬.
 author: scott-tucker
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 009f311dd00f48edb8c0f6622f0a5107881ab2ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762286"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905414"
 ---
-# <a name="create-pos-permission-groups"></a>إنشاء مجموعات أذونات نقطة البيع
+# <a name="create-pos-permission-groups"></a> إنشاء مجموعات أذونات نقطة البيع
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إنشاء مجموعة أذونات نقطة البيع‬. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT.‬ هذه المهمة محددة لدور إدارة عمليات التجارة.
+يوضح هذا المقال كيفية إنشاء مجموعة أذونات نقطة البيع‬. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذه المهمة هي USRT.‬ هذه المهمة محددة لدور إدارة عمليات التجارة.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > البيع بالتجزئة والتجارة > الموظفون > مجموعات الأذونات**.
 2. حدد **جديد**.

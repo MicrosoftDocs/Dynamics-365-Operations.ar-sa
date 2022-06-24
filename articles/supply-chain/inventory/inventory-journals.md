@@ -1,6 +1,6 @@
 ---
 title: دفاتر يومية المخزون
-description: يوضح هذا الموضوع كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
+description: توضح هذه المقالة كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
 author: yufeihuang
 ms.date: 04/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9370e495bf16ed638646843faaf0ff599fe1abc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c0ac9146c44b08698f8f9d15a3610bf0b7cea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573959"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849405"
 ---
 # <a name="inventory-journals"></a>دفاتر يومية المخزون
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
+توضح هذه المقالة كيفية استخدام دفاتر يومية المخزون لترحيل أنواع مختلفة من حركات المخزون الفعلية.
 
 تُستخدم دفاتر يومية المخزون في Supply Chain Management لترحيل حركات المخزون الفعلية من مختلف الأنواع، مثل ترحيل عمليات الإصدار والاستلام، وحركات المخزون، وإنشاء قائمة مكونات الصنف (BOMs)، وتسوية المخزون الفعلي. وتُستخدم كافة دفاتر يومية المخزون هذه بطريقة مماثلة، ولكن يتم تقسيمها إلى أنواع مختلفة.
 

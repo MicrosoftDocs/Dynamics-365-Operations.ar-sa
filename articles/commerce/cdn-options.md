@@ -1,6 +1,6 @@
 ---
 title: خيارات تنفيذ شبكة تسليم المحتويات
-description: يراجع هذا الموضوع الخيارات المختلفة لتطبيق شبكة تسليم المحتوى (CDN) التي يمكن استخدامها مع بيئات Microsoft Dynamics 365 Commerce. تتضمن هذه الخيارات المثيلات الأصلية المقدمة من Commerce لـ Azure Front Door والمثيلات المملوكة للعملاء الخاصة بـ Azure Front Door
+description: يراجع هذا المقال الخيارات المختلفة لتطبيق شبكة تسليم المحتوى (CDN) التي يمكن استخدامها مع بيئات Microsoft Dynamics 365 Commerce. تتضمن هذه الخيارات المثيلات الأصلية المقدمة من Commerce لـ Azure Front Door والمثيلات المملوكة للعملاء الخاصة بـ Azure Front Door
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884407"
 ---
 # <a name="content-delivery-network-implementation-options"></a>خيارات تنفيذ شبكة تسليم المحتويات
 
 [!include [banner](includes/banner.md)]
 
-يراجع هذا الموضوع الخيارات المختلفة لتطبيق شبكة تسليم المحتوى (CDN) التي يمكن استخدامها مع بيئات Microsoft Dynamics 365 Commerce. تتضمن هذه الخيارات المثيلات الأصلية المقدمة من Commerce لـ Azure Front Door والمثيلات المملوكة للعملاء الخاصة بـ Azure Front Door
+يراجع هذا المقال الخيارات المختلفة لتطبيق شبكة تسليم المحتوى (CDN) التي يمكن استخدامها مع بيئات Microsoft Dynamics 365 Commerce. تتضمن هذه الخيارات المثيلات الأصلية المقدمة من Commerce لـ Azure Front Door والمثيلات المملوكة للعملاء الخاصة بـ Azure Front Door
 
 يتوفر لدي عملاء Commerce العديد من الخيارات عندما يفكرون في أي خدمة CDN يمكن استخدامها مع بيئة Commerce الخاصة بهم. تم إصدار Commerce مع دعم أساسي من Azure Front Door التي تغطي متطلبات المضيف الأساسية والمخصصة للمجال. بالنسبة للشركات التي ترغب في مزيد من التحكم وإمكانات أمان أكثر تحديدا، مثل جدار حماية تطبيق ويب (WAF)، قد يكون أفضل خيار هو استخدام المثيل الذي يملكه العميل من Azure Front Door أو CDN خارجية.
 

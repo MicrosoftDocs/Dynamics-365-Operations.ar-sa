@@ -1,6 +1,6 @@
 ---
 title: إنشاء مرتجعات في نقطة البيع.
-description: يصف هذا الموضوع كيفية بدء المرتجعات لحركات الدفع نقدًا والاستلام فورًا‬‬‏‫ أو أوامر العملاء في تطبيق نقطة بيع Microsoft Dynamics 365 Commerce (POS).
+description: يصف هذا المقال كيفية بدء المرتجعات لحركات الدفع نقدًا والاستلام فورًا‬‬‏‫ أو أوامر العملاء في تطبيق نقطة بيع Microsoft Dynamics 365 Commerce (POS).
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856988"
 ---
 # <a name="create-returns-in-pos"></a>إنشاء مرتجعات في نقطة البيع.
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية بدء المرتجعات لحركات الدفع نقدًا والاستلام فورًا‬‬‏‫ أو أوامر العملاء في تطبيق نقطة بيع Microsoft Dynamics 365 Commerce (POS).
+يصف هذا المقال كيفية بدء المرتجعات لحركات الدفع نقدًا والاستلام فورًا‬‬‏‫ أو أوامر العملاء في تطبيق نقطة بيع Microsoft Dynamics 365 Commerce (POS).
 
 > [!NOTE]
 > في Commerce الإصدار 10.0.20 والإصدارات الأحدث، تتوفر ميزة جديدة تسمى **تجربة معالجة الإرجاع الموحدة في نقطة البيع**. توفر هذه الميزة عملية إرجاع أكثر تناسقًا وموحدة في نقطة البيع، بغض النظر عن نوع الحركة (حركات الدفع نقدًا والاستلام فورًا‬‬‏‫ أو أمر العميل) أو القناة الأصلية التي تم إنشاء أمر التوريد بها. نوصي بأن تقوم جميع المؤسسات بتشغيل هذه الميزة الجديدة للمساعدة في تحسين الموثوقية بشكل عام لمعالجة الإرجاع من خلال نقطة البيع.

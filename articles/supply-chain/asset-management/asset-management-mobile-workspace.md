@@ -1,6 +1,6 @@
 ---
 title: استخدام مساحة العمل المحمولة للأصل
-description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "إدارة الأصول".
+description: يوفر هذا المقال معلومات حول مساحة العمل المحمولة إدارة الأصول.
 author: johanhoffmann
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d7e68cbe1132547fea5c72458a93b1a449a67c86
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902129"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>استخدام مساحة العمل المحمولة للأصل
 
 [!include [banner](../../includes/banner.md)]
 [!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **إدارة الأصول**. تُتيح مساحة العمل هذه للمستخدمين عرض وإنشاء طلبات الصيانة وأوامر العمل. ويُمكن للمستخدمين أيضًا عرض مهام أمر العمل المُعينة في تقويم أو طريقة عرض القائمة. ويُمكن أيضًا عرض الأصول ومواقع العمل والبحث عنها.
+يوفر هذا المقال معلومات حول **إدارة الأصول** مساحة العمل المحمولة. تُتيح مساحة العمل هذه للمستخدمين عرض وإنشاء طلبات الصيانة وأوامر العمل. ويُمكن للمستخدمين أيضًا عرض مهام أمر العمل المُعينة في تقويم أو طريقة عرض القائمة. ويُمكن أيضًا عرض الأصول ومواقع العمل والبحث عنها.
 
 ## <a name="overview"></a>نظرة عامة
 

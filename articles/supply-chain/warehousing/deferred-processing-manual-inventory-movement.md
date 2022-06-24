@@ -1,6 +1,6 @@
 ---
 title: المعالجة المؤجلة لحركة المخزون اليدوية
-description: يصف هذا الموضوع كيفية استخدام المعالجة المؤجلة لحركة المخزون اليدوية في Microsoft Dynamics 365 Supply Chain Management.
+description: يصف هذا المقال كيفية استخدام المعالجة المؤجلة لحركة المخزون اليدوية في Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863726"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>المعالجة المؤجلة لحركة المخزون اليدوية
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفية استخدام المعالجة المؤجلة لحركة المخزون اليدوية في Microsoft Dynamics 365 Supply Chain Management.
+يصف هذا المقال كيفية استخدام المعالجة المؤجلة لحركة المخزون اليدوية في Microsoft Dynamics 365 Supply Chain Management.
 
 تتيح المعالجة المؤجلة لعمال المستودعات الاستمرار في القيام بأعمال أخرى أثناء معالجة عملية الوضع في الخلفية. تعد المعالجة المؤجلة مفيدة عندما يكون للخادم زيادات عرضية أو غير مخطط لها في وقت المعالجة، وقد يؤثر وقت المعالجة المتزايد على إنتاجية العامل. تمت الآن إضافة نوع عمل *حركة المخزون* إلى مجموعة أنواع العمل التي تدعمها هذه الميزة.
 

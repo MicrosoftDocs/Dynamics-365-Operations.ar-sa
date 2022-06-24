@@ -1,6 +1,6 @@
 ---
 title: إخفاء أوضاع التسليم بدون ناقل من خيارات الشحنة في نقطة البيع
-description: يصف هذا الموضوع خيار التكوين الذي يمكنه منع أوضاع التسليم بدون ناقل من الظهور للتحديد عند إنشاء أوامر الشحن في التطبيق عند نقطه البيع (POS).
+description: يصف هذا المقال خيار التكوين الذي يمكنه منع أوضاع التسليم بدون ناقل من الظهور للتحديد عند إنشاء أوامر الشحن في التطبيق عند نقطه البيع (POS).
 author: hhainesms
 ms.date: 10/24/2019
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 4d885aa7ab3b4daaebb1fa8378562d86cc153270ea166b495bf3381fae826773
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 469e6ebb8afed26a6bf25f4c9c3ab8f7f4ac78ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896995"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>إخفاء أوضاع التسليم بدون ناقل من خيارات الشحن في نقطة البيع
 
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع خيار التكوين المتاح لتطبيق نقطه البيع (POS). يقوم خيار التكوين هذا بتغيير سلوك تحديد وضع التسليم عند إنشاء أوامر الشحن في نقطه البيع (POS).
+يصف هذا المقال خيار التكوين المتاح لتطبيق نقطه البيع (POS). يقوم خيار التكوين هذا بتغيير سلوك تحديد وضع التسليم عند إنشاء أوامر الشحن في نقطه البيع (POS).
 
 عندما يقوم المستخدمون بإنشاء أوامر شحن عميل في نقطه البيع (POS)، يمكنهم تحديد وضع التسليم للشحنة. تتوفر هذه الوظيفة بغض النظر عما إذا كان الأمر يتم شحنه بالكامل أو إذا كانت البنود المحددة فقط.
 

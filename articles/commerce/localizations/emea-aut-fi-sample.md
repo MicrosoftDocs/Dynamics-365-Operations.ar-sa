@@ -1,6 +1,6 @@
 ---
 title: عينة تكامل خدمة التسجيل المالي للنمسا
-description: يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي في النمسا في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي في النمسا في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 099c3630d035ea673342d8345cd8f65dbd6db6a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873348"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>عينة تكامل خدمة التسجيل المالي للنمسا
 
 [!include[banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي في النمسا في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة على عينة التكامل المالي في النمسا في Microsoft Dynamics 365 Commerce.
 
 للوفاء بالمتطلبات المالية المحلية لسجلات النقد في النمسا، تتضمن وظيفة Dynamics 365 Retail للنمسا عينة تكامل لنقطة البيع (POS) مع خدمة تسجيل مالية خارجية. ويقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). وهو يستند إلى حل [EFR (السجل المالي الإلكتروني)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) من [EFSTA](https://www.efsta.eu/at/) ويقوم بتمكين الاتصال بخدمة EFR من خلال بروتوكول HTTPS. يجب استضافة خدمة EFR إما على محطة أجهزة البيع بالتجزئة أو على جهاز منفصل يمكن توصيله من محطة الأجهزة. يتم توفير العينة في شكل كود المصدر وهي جزء من مجموعة تطوير برامج البيع بالتجزئة (SDK).
 

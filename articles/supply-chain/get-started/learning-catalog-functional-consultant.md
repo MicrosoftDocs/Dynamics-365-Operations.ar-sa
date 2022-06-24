@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 296cee4c5da82d8bfcab298a5a2a13d982f8f808
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 05f2f11408dac93faa8f71cb0396893c03cdb6a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672083"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851873"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>كتالوج التعلّم للمستشارين الوظيفيين في Dynamics 365 Supply Chain Management
 
@@ -68,7 +68,7 @@ ms.locfileid: "8672083"
 | [الدورة MB-300T01-A: السمات المشتركة الأساسية لـ Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | تتناول هذه الدورة التدريبية السمات المشتركة الأساسية لـ Microsoft Dynamics 365 for Finance and Operations. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | يوم واحد  |
 | [الدورة MB-300T02-A: التكوين الأساسي في Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | تتناول هذه الدورة مهام التكون الأساسية لـ Microsoft Dynamics 365 for Finance and Operations. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | يوم واحد  |
 | [الدورة MB-300T03-A: ترحيل البيانات والإعداد للانتقال للوضع المباشر باستخدام Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T03) | تناقش هذه الدورة ترحيل البيانات والإعداد للانتقال للعرض المباشر لـ Microsoft Dynamics 365 for Finance and Operations. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | يوم واحد  |
-| [الصفحة الرئيسية لتنفيذ دورة الحياة](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | توضح هذه الموضوعات البرامج والأدوات والعمليات المتاحة المتعلقة بتنفيذ دورة حياة مشروع Microsoft Dynamics 365 for Finance and Operations الخاصة بك. | الوثائق | |
+| [الصفحة الرئيسية لتنفيذ دورة الحياة](/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/implementation-lifecycle) | توضح هذه المقالات البرامج والأدوات والعمليات المتاحة المتعلقة بتنفيذ دورة حياة مشروع Microsoft Dynamics 365 for Finance and Operations الخاصة بك. | الوثائق | |
 
 ## <a name="migration-and-upgrade"></a>الترقية والترحيل<a name="migration"></a>
 
@@ -104,8 +104,8 @@ ms.locfileid: "8672083"
 | [تكوين والعمل باستخدام إدارة النقل في Dynamics 365 Supply Chain Management](/learn/paths/configure-work-transportation-mgmt-dyn365-supply-chain-mgmt/) | تساعد وحدة إدارة النقل في Dynamics 365 Supply Chain Management للعثور على أفضل طريقة فعالة لتسليم البضائع إلى العملاء. تحسب إدارة النقل الطريقة الأسرع والأقل تكلفة لتسليم البضائع وتتيح لك التعرف على حلول الموردين والتوجيه للأوامر الواردة والصادرة. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | ثلاث ساعات |
 | [تطبيق المستودع للأجهزة المحمولة (VIR816PAL) ](https://community.dynamics.com/365/b/techtalks/posts/warehousing-mobile-app-march-22-2017) | سوف يتناول هذا الحديث التقني بالمناقشة نظم التخزين المتقدمة في Dynamics 365 for Operations وما يحمله المستقبل لواجهة تطبيقات الأجهزة المحمولة للمستودع المتقدمة. سوف نفوم بفحص تطبيقات الأجهزة المحمولة الجديدة التي تم إصدارها وكيفية مقارنتها بـ WMDP القديمة. سوف نتعرف ما هو المطلوب لتثبيت وتكون وتشغيل تطبيق المحمول هذا، وكيف يُمكن استخدامه للاستفادة من عمليات التنفيذ. | التسجيل المجاني لمؤتمر ويب | 54 دقائق |
 | [تعاون المورد (DYN327PAL) ](https://community.dynamics.com/365/b/techtalks/posts/vendor-collaboration-july-25-2017) | يوفر هذا الحديث التقني استعراض لميزة تعاون المورد بما في ذلك استهلاك الإجابة من ميزة المورد المضمنة في إصدار يوليو (إصدار الربيع). | التسجيل المجاني لمؤتمر ويب | 58 دقائق |
-| [عملية ترحيل الأصناف والمستودعات لاستخدام إدارة المستودع المتقدمة (DYN316PAL) ](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | في هذا الحديث التقني، سوف نُعرفك على كيفية ترحيل إعداد المستودع الحالي والأصناف ذات الحركات المفتوحة إلى إدارة المستودع المتقدمة، باستخدام الإمكانات الجديدة لتغيير مجموعة بُعد التخزين للأصناف وتمكين المستودعات لاستخدام عمليات إدارة المستودعات المتقدمة. | التسجيل المجاني لمؤتمر ويب | 54 دقائق |
-| [الصفحة الرئيسية لإدارة سلسة التوريد](/dynamics365/unified-operations/supply-chain/) | يوفر هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations. | الوثائق | |
+| [عملية ترحيل الأصناف والمستودعات لاستخدام إدارة المستودع المتقدمة (DYN316PAL) ](https://community.dynamics.com/365/b/techtalks/posts/item-and-warehouse-migration-process-to-use-advanced-warehouse-management-june-27-2017) | في هذا الحديث التقني، سوف نُعرفك على كيفية ترحيل إعداد المستودع الحالي والأصناف ذات الحركات المفتوحة إلى إدارة المستودع المتقدمة، باستخدام الإمكانات الجديدة لتغيير مجموعة بُعد التخزين للأصناف وتمكين المستودعات لاستخدام عمليات إدارة المستودعات المتقدمة. | التسجيل المجاني لمؤتمر ويب | 54 دقيقة |
+| [الصفحة الرئيسية لإدارة سلسة التوريد](/dynamics365/unified-operations/supply-chain/) | يوفر هذا المقال قائمة بمقالات التعليمات وغيرها من الموارد لميزات إدارة سلسلة التوريد في Microsoft Dynamics 365 for Finance and Operations. | الوثائق | |
 | [تزويد الطلب لانتقاء المواد الخام (DYN333PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/demand-replenishment-for-raw-material-picking-september-28-2017) | وسوف يُغطي هذا الحديث التقني موضوعات انتقاء المواد الخام وتزويد الطلب لانتقاء المادة الخام. | التسجيل المجاني لمؤتمر ويب | 38 دقائق |
 | [الدورة MB-330T01-A: تكوين واستخدام Supply Chain management في Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T01) | تتناول هذه الدورة كيفية تكوين supply chain management واستخدامه في Dynamics 365 for Finance and Operations. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | 2 يومًا |
 | [الدورة MB-330T02-A: استخدام إدارة الجودة والتجارة بين الشركات الشقيقة والتخطيط الرئيسي في Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-330T02) | تُناقش هذه الدورة كيفية استخدام إدارة الجودة والتجارة بين الشركات الشقيقة والتخطيط الرئيسي في Dynamics 365 for Finance and Operations. | توجيه المُدرب شخصيًا أو في تدريب على الإنترنت، تختلف التكلفة حسب المنطقة والشريك. | يوم واحد  |

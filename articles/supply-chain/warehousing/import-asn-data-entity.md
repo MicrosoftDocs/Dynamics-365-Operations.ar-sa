@@ -1,6 +1,6 @@
 ---
 title: استيراد إخطارات ASN الواردة عبر كيان البيانات V3
-description: يوضح هذا الموضوع كيفية إدارة استيراد إشعارات الشحن المقدم (ASN) الواردة من خلال كيان بيانات ASN الوارد.
+description: يوضح هذا المقال كيفية إدارة استيراد إشعارات الشحن المقدم (ASN) الواردة من خلال كيان بيانات ASN الوارد.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740127"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907105"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>استيراد إخطارات ASN الواردة عبر كيان البيانات V3
 
@@ -26,7 +26,7 @@ ms.locfileid: "8740127"
 
 يمكن أن تساعد إشعارات شحن المقدم (ASN) العاملين في المستودع على معرفة ما يصل إليه. وبالتالي، يمكنهم تجهيزها. بالإضافة إلى ذلك، يمكن لعاملي المستودع استخدام ASN لمطابقة تفاصيل الشحنة بأمر الشراء المرتبط الذي تم إنشاؤه سابقًا.
 
-يقدم هذا الموضوع مجموعة من السيناريوهات التي تظهر من خلال الأمثلة كيفية التعامل مع ملفات ASN.
+يقدم هذا المقال مجموعة من السيناريوهات التي تظهر من خلال الأمثلة كيفية التعامل مع ملفات ASN.
 
 > [!IMPORTANT]
 > لا ينطبق استيراد *ASN الوارد* إلا على الأصناف التي يتم تمكينها في إدارة المستودعات المتقدمة (WMS). قبل استلام ASN، يجب تسجيل أمر الشراء في النظام مقابل المورد الذي يقوم بإرسال ASN.

@@ -1,6 +1,6 @@
 ---
 title: إنشاء مواقع عمل
-description: يشرح هذا الموضوع كيفية إنشاء موقع عمل في إدارة الأصول.
+description: يشرح هذا المقال كيفية إنشاء موقع عمل في إدارة الأصول.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5dd5ea59b27c594752ff82428723f3afe555b5f2426a812c70e10b968c920a5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869709"
 ---
 # <a name="create-functional-locations"></a>إنشاء مواقع عمل
 
@@ -28,7 +28,7 @@ ms.locfileid: "6767522"
 
  
 
-يشرح هذا الموضوع كيفية إنشاء موقع عمل في إدارة الأصول.
+يشرح هذا المقال كيفية إنشاء موقع عمل في إدارة الأصول.
 
 عند إنشاء بنية موقع العمل، يجب أن تدرك أنه لا يمكنك نقل موقع العمل من موقعه الأصلي، بعد إنشائه. وهذا يعني أنه يجب عليك مراجعة بنية مواقع العمل بتانٍ قبل بدء إنشائها في إدارة الأصول. إذا لم يعجبك موقع العمل، يمكنك حذفه، شريطة ألا يكون قد تم استخدامه بعد.
 

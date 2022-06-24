@@ -1,6 +1,6 @@
 ---
 title: تصنيف منتج استخدام التدرجات الهرمية للفئات
-description: يصف هذا الموضوع كيفية تصنيف منتج باستخدام التدرجات الهرمية للفئات.
+description: يصف هذا المقال كيفية تصنيف منتج باستخدام التدرجات الهرمية للفئات.
 author: t-benebo
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857a9e69e63216f22a4e75d9606ef6ceb77f1dbc
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29b1d7dc66e50822694a20235be096431e228ce6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862616"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>تصنيف منتج استخدام التدرجات الهرمية للفئات
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية تصنيف منتج باستخدام التدرجات الهرمية للفئات. استخدم التدرجات الهرمية للفئات لتصنيف المنتجات للتصدير أو التدبير أو المبيعات أو أغراض أخرى. عادة ما يتم تنفيذ هذه المهمة من قبل مدير المنتج. يستخدم المثال رقم المنتج M0009 في بيانات العرض التوضيحي لشركة USMF.‬
+يصف هذا المقال كيفية تصنيف منتج باستخدام التدرجات الهرمية للفئات. استخدم التدرجات الهرمية للفئات لتصنيف المنتجات للتصدير أو التدبير أو المبيعات أو أغراض أخرى. عادة ما يتم تنفيذ هذه المهمة من قبل مدير المنتج. يستخدم المثال رقم المنتج M0009 في بيانات العرض التوضيحي لشركة USMF.‬
 
 1. انتقل إلى **إدارة معلومات المنتج‬ \> المنتجات \> المنتجات الصادرة**.
 1. في القائمة، قم بالبحث عن السجل المطلوب وحدده.

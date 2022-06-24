@@ -1,6 +1,6 @@
 ---
 title: إدارة المستخدمين والأدوار في التجارة الإلكترونية
-description: يشرح هذا الموضوع كيفية منح المستخدمين صلاحية الوصول إلى بيئة التأليف لموقع Microsoft Dynamics 365 Commerce .
+description: يشرح هذا المقال كيفية منح المستخدمين صلاحية الوصول إلى بيئة التأليف لموقع Microsoft Dynamics 365 Commerce .
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868951"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>إدارة المستخدمين والأدوار في التجارة الإلكترونية
 
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيفية منح المستخدمين صلاحية الوصول إلى بيئة التأليف لموقع Microsoft Dynamics 365 Commerce .
+يشرح هذا المقال كيفية منح المستخدمين صلاحية الوصول إلى بيئة التأليف لموقع Microsoft Dynamics 365 Commerce .
 
 للمساعدة في التحكم في وصول المستخدم ومنح الإذن للمستخدمين لتنفيذ مهام معينة، تستخدم بيئة تأليف المواقع مجموعات الأمان التي تقوم بإنشاءها في Microsoft Azure Active Directory (Azure AD). تقوم أولاً بتعيين مجموعة أمان جديدة أو موجودة من Azure AD لكل دور في بيئة التأليف. ثم قم بمنح الأذونات أو إبطالها للمستخدمين الفرديين إما بإضافة هؤلاء المستخدمين إلى مجموعة أمان مناسبة أو إزالتهم من مجموعة أمان.
 
@@ -50,7 +50,7 @@ ms.locfileid: "6715396"
 
 ## <a name="administrator-role"></a>دور المسؤول
 
-عند تقوم بإنشاء موقع جديد في Commerce، تتم مطالبتك بتوفير مجموعة أمان لدور **المسؤول**. راجع الجدول السابق في هذا الموضوع للحصول على نظرة عامة حول الأذونات التي يمنحها هذا الدور.
+عند تقوم بإنشاء موقع جديد في Commerce، تتم مطالبتك بتوفير مجموعة أمان لدور **المسؤول**. راجع الجدول السابق في هذا المقال للحصول على نظرة عامة حول الأذونات التي يمنحها هذا الدور.
 
 ## <a name="add-or-update-security-groups"></a>إضافة مجموعات الأمان أو تحديثها
 

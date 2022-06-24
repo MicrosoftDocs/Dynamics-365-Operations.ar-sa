@@ -1,6 +1,6 @@
 ---
 title: أنواع التشخيص لحالات عدم المطابقة
-description: يوضح هذا الموضوع كيفيه استخدام وإنشاء أنواع التشخيصات التي يمكن استخدامها مع حالات عدم التوافق.
+description: يوضح هذا المقال كيفيه استخدام وإنشاء أنواع التشخيصات التي يمكن استخدامها مع حالات عدم التوافق.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edaa3a8b5c6446f039f33589166d832dcd9d0b9a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 87b7a051f807c9faab3169d2672d47f663892225
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852436"
 ---
 # <a name="diagnostic-types-for-nonconformances"></a>أنواع التشخيص لحالات عدم المطابقة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه استخدام وإنشاء أنواع التشخيصات التي يمكن استخدامها مع حالات عدم التوافق.
+يوضح هذا المقال كيفيه استخدام وإنشاء أنواع التشخيصات التي يمكن استخدامها مع حالات عدم التوافق.
 
 يمكنك استخدام صفحة **أنواع التشخيص** لتحديد تصنيف إجراءات التشخيص. وبعد ذلك، عندما تقوم بإنشاء تصحيح لعدم توافق، فانك تقوم بتحديد تشخيص. يحدد التصحيح نوع إجراء التشخيص الذي ينبغي القيام به لحالة عدم مطابقة معتمدة، وكذلك الشخص الذي ينبغي عليه القيام بالإجراء. ويحدد أيضًا تاريخ الاكتمال المطلوب وتاريخ الاكتمال المخطط له.
 

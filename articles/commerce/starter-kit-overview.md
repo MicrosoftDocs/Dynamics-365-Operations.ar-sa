@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على مكتبة الوحدات
-description: يقدم هذا الموضوع نظرة عامة على مكتبة الوحدات النمطية في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة على مكتبة الوحدات النمطية في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dbf3754136de62b72938742b7cd4cb3d56532f8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882160"
 ---
 # <a name="module-library-overview"></a>نظرة عامة على مكتبة الوحدات
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على مكتبة الوحدات النمطية في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة على مكتبة الوحدات النمطية في Microsoft Dynamics 365 Commerce.
 
 تُعد مكتبة الوحدات النمطية في Dynamics 365 Commerce مجموعة من الوحدات النمطية التي يمكن استخدامها لإنشاء موقع ويب خاص بالتجارة الإلكترونية. تحتوي الوحدات النمطية على كل من جوانب واجهة المستخدم (UI) وجوانب السلوك الوظيفية.
 

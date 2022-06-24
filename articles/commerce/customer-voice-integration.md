@@ -1,6 +1,6 @@
 ---
 title: دمج Customer Voice في صفحات موقع التجارة الإلكترونية
-description: يوضح هذا الموضوع كيفيه دمج Microsoft Dynamics 365 Customer Voice في صفحات موقع التجارة الإلكترونية في Dynamics 365 Commerce.
+description: يوضح هذا المقال كيفيه دمج Microsoft Dynamics 365 Customer Voice في صفحات موقع التجارة الإلكترونية في Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850320"
 ---
 # <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>دمج Customer Voice في صفحات موقع التجارة الإلكترونية
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه دمج Microsoft Dynamics 365 Customer Voice في صفحات موقع التجارة الإلكترونية في Dynamics 365 Commerce.
+يوضح هذا المقال كيفيه دمج Microsoft Dynamics 365 Customer Voice في صفحات موقع التجارة الإلكترونية في Dynamics 365 Commerce.
 
 يمكنك دمج [Customer Voice](https://dynamics.microsoft.com/customer-voice/overview/) في موقع التجارة الإلكترونية لجمع وتحليل وتتبع ملاحظات العملاء في الوقت الفعلي. ولبدء عملية الدمج ، يجب عليك إنشاء حساب وتحديد قالب مشروع Customer Voice لنوع الملاحظات التي تريد جمعها.
 
@@ -37,7 +37,7 @@ ms.locfileid: "8767937"
 1. حدد قالب المشروع لنوع الملاحظات التي تريد جمعها، ثم حدد **التالي**.
 1. في علامة التبويب **إرسال**، ضمن **اختيار تنسيق التضمين**، حدد تنسيق تضمين. يظهر حقل **التعليمات البرمجية المضمنة** التعليمات البرمجية التي يجب تضمينه في منشئ الموقع في Commerce.
 
-تستخدم الأمثلة الموجودة في هذا الموضوع قالب مشروع **استطلاع العميل الدوري** وتنسيق تضمين **الزر**.
+تستخدم الأمثلة الموجودة في هذا المقال قالب مشروع **استطلاع العميل الدوري** وتنسيق تضمين **الزر**.
 
 يبين الشكل التوضيحي التالي المقدم كمثال صفحة قالب مشروع **استطلاع العميل الدوري**، حيث تم تحديد خيار تنسيق التضمين **الزر**، وتظهر التعليمة البرمجية المراد تضمينها لهذا الخيار في حقل **التعليمات البرمجية المضمنة**. هناك ثلاثة إجراءات منفصلة مطلوبة لتضمين التعليمات البرمجية المتوفرة في صفحات الموقع، كما هو موضح في الأقسام التالية.
 

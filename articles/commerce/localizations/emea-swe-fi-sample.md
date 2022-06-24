@@ -1,6 +1,6 @@
 ---
 title: عينة تكامل وحدة التحكم للسويد
-description: يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي للسويد في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي للسويد في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077003"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885392"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>عينة تكامل وحدة التحكم للسويد
 
 [!include [banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي للسويد في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة على عينة التكامل المالي للسويد في Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > يؤدي هذا النموذج في وظيفة التكامل المالي إلى استبدال [النموذج السابق لتكامل نقطه البيع بوحدات التحكم الخاصة بالسويد](retail-sdk-control-unit-sample.md). لا يستفيد النموذج السابق من [إطار عمل التكامل المالي](./fiscal-integration-for-retail-channel.md) وسيصبح قديمًا في التحديثات اللاحقة. للحصول علي معلومات حول كيفيه الترحيل من النموذج السابق إلى النموذج الذي يتوافق مع Dynamics 365 Commerce، الإصدار **10.0.22 وما قبله**، راجع [الترحيل من نموذج التكامل السابق](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample).
@@ -83,7 +83,7 @@ ms.locfileid: "8077003"
 
 بالنسبة لكل تنسيق إيصال مطلوب، قم بتغيير قيمة حقل **سلوك الطباعة** إلى **الطباعة دائمًا**.
 
-في مصمم تنسيق الإيصال، أضف الحقول المخصصة التالية إلى قسم **التذييل**. لاحظ ان أسماء الحقول تتوافق مع نصوص اللغة التي قمت بتحديدها في المقطع السابق بهذا الموضوع.
+في مصمم تنسيق الإيصال، أضف الحقول المخصصة التالية إلى قسم **التذييل**. لاحظ ان أسماء الحقول تتوافق مع نصوص اللغة التي قمت بتحديدها في المقطع السابق بهذا المقال.
 
 - **رمز التحكم في التسجيل** – يقوم هذا الحقل بطباعه التعليمات البرمجية للتحكم.
 - **جهاز التسجيل** – يقوم هذا الحقل بطباعه رقم التصنيع الخاص بوحدة التحكم.

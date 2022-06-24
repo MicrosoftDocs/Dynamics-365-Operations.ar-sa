@@ -1,6 +1,6 @@
 ---
-title: ‏‫العمل باستخدام ملفات التجاوز في CSS .
-description: يصف هذا الموضوع لماذا، ومتى، وكيفية استخدام ملفات التجاوز الخاصة بأوراق الأنماط المتتالية (CSS) في Microsoft Dynamics 365 Commerce.
+title: العمل مع ملفات تجاوز CSS
+description: يصف هذا  المقال لماذا، ومتى، وكيفية استخدام ملفات التجاوز الخاصة بأوراق الأنماط المتتالية (CSS) في Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964594"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892850"
 ---
 # <a name="work-with-css-override-files"></a>العمل مع ملفات تجاوز CSS
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع لماذا، ومتى، وكيفية استخدام ملفات التجاوز الخاصة بأوراق الأنماط المتتالية (CSS) في Microsoft Dynamics 365 Commerce.
+يصف هذا  المقال لماذا، ومتى، وكيفية استخدام ملفات التجاوز الخاصة بأوراق الأنماط المتتالية (CSS) في Microsoft Dynamics 365 Commerce.
 
 يجب دائمًا معالجة أنماط الموقع الدائمة من خلال سمة الموقع. توفر المظاهر إعدادات CSS وإعدادات النمط للوحدات النمطية في أي صفحة من موقعك. يتم إنشاء السمات باستخدام مجموعة تطوير البرامج (SDK) الخاصة بـ Dynamics 365 Commerce عبر الإنترنت، ويتم نشرها على مواقع الويب الخاصة بك من خلال Microsoft Dynamics Lifecycle Services (LCS). تساعد قدرات تصحيح السمات وتكوينات واجهة الوحدة النمطية في SDK مطوري المواقع على إنشاء حزم تصميم موقع قابلة للتخصيص ومتماسكة. عند نشر حزم التصميم هذه على موقع ما، يمكن لمؤلفي الموقع التركيز على إنشاء محتوى وتحريره ونشره بدلاً من تطوير الموقع.
 

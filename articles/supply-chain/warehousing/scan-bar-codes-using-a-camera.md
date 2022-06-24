@@ -1,6 +1,6 @@
 ---
-title: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق إدارة المستودع للأجهزة المحمولة
-description: يشرح هذا الموضوع كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة لمسح الرموز الشريطية باستخدام كاميرا على جهاز محمول.
+title: مسح الأكواد الشريطية باستخدام كاميرا في تطبيق Warehouse Management للأجهزة المحمولة
+description: يشرح هذا المقال كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة لمسح الرموز الشريطية باستخدام كاميرا على جهاز محمول.
 author: Mirzaab
 ms.date: 01/03/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: cc58d88865fea17e0e27463b25e2ba815ee1a5b1
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8459ea6912328fa589b92f1731551f56df89c11b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862326"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>مسح الأكواد الشريطية باستخدام كاميرا في تطبيق إدارة المستودع للأجهزة المحمولة
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>مسح الأكواد الشريطية باستخدام كاميرا في تطبيق Warehouse Management للأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة لمسح الرموز الشريطية باستخدام كاميرا على جهاز محمول.
+يشرح هذا المقال كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة لمسح الرموز الشريطية باستخدام كاميرا على جهاز محمول.
 
 ## <a name="setup"></a>الإعداد
 

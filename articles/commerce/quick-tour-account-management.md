@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على صفحات إدارة الحسابات
-description: يقدم هذا الموضوع نظرة عامة حول صفحات إدارة الحسابات في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة حول صفحات إدارة الحسابات في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984509"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868873"
 ---
 # <a name="account-management-pages-overview"></a>نظرة عامة على صفحات إدارة الحسابات
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة حول صفحات إدارة الحسابات في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة حول صفحات إدارة الحسابات في Microsoft Dynamics 365 Commerce.
 
 تتيح صفحات إدارة الحساب للعملاء عرض المعلومات المتعلقة بحساباتهم وأوامرهم. تتضمن صفحات إدارة الحساب الصفحة المنتقل إليها لإدارة الحساب وصفحات ملف تعريف المستخدم والعناوين ومحفوظات الطلب وتفاصيل الطلب ونقاط الولاء وقائمة الأمنيات.
 

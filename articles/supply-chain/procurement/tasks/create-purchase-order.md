@@ -1,6 +1,6 @@
 ---
 title: إنشاء أمر شراء
-description: يوضح هذا الموضوع كيفية إنشاء أمر شراء يدويًا.
+description: يوضح هذا المقال كيفية إنشاء أمر شراء يدويًا.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2fd627b9874b3e3f7aad71fb2970ddcc333a608
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677383"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856066"
 ---
 # <a name="create-a-purchase-order"></a>إنشاء أمر شراء
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إنشاء أمر شراء يدويًا. إن الأمر أكثر نموذجية لأوامر الشراء ليتم إنشائها تلقائيًا كنتيجة للتخطيط الأساسي والتسليم المباشر والعمليات الأخرى. وعادة ما يتم إنشاء أوامر الشراء عن طريق وكيل شراء. يمكن استخدام المثال المعروض هنا في شركة بيانات العرض التوضيحي USMf باستخدام القيم المقترحة في ملاحظات على الخطوات المختلفة.
+يوضح هذا المقال كيفية إنشاء أمر شراء يدويًا. إن الأمر أكثر نموذجية لأوامر الشراء ليتم إنشائها تلقائيًا كنتيجة للتخطيط الأساسي والتسليم المباشر والعمليات الأخرى. وعادة ما يتم إنشاء أوامر الشراء عن طريق وكيل شراء. يمكن استخدام المثال المعروض هنا في شركة بيانات العرض التوضيحي USMf باستخدام القيم المقترحة في ملاحظات على الخطوات المختلفة.
 
 
 ## <a name="create-the-purchase-order-header"></a>قم بإنشاء عنوان أمر الشراء

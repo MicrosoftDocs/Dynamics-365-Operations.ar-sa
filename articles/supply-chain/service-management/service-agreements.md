@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 559f4571a60ea8ec048b291e3b6a0a93e8bc9d44
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: cf28619e66fa5d3e86bdbb3838dc7f711916bcec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905591"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>نظرة عامة على تطوير وإنشاء اتفاقات الخدمات
 
@@ -72,7 +72,7 @@ ms.locfileid: "8677691"
 -  ما إذا تم إيقاف بند أم لا. في حالة إيقاف بند، سيتعذر عليك إنشاء أوامر خدمة لذلك الصنف.
 -  إعدادات المشروع، مثل الفئة وخاصية البند.
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [إنشاء اتفاقيات خدمات](create-service-agreements.md)
 

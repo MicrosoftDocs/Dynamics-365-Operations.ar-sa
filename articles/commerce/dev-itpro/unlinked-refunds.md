@@ -1,6 +1,6 @@
 ---
 title: العملية المستردة غير المرتبطة بموصل الدفع Dynamics 365 Commerce لـ Adyen
-description: يصف هذا الموضوع كيفيه عمل المبالغ المستردة غير المرتبطة عند استخدام موصل الدفع Microsoft Dynamics 365 لـ Adyen.
+description: يصف هذا المقال كيفيه عمل المبالغ المستردة غير المرتبطة عند استخدام موصل الدفع Microsoft Dynamics 365 لـ Adyen.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885187"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>العملية المستردة غير المرتبطة بموصل الدفع Dynamics 365 Commerce لـ Adyen
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفيه عمل المبالغ المستردة غير المرتبطة عند استخدام [موصل الدفع Microsoft Dynamics 365 Payment Connector لـ Adyen](adyen-connector.md). كما يقوم بمراجعه امكانيه معالجه الاسترداد مقابل طريقه الدفع الجديدة في نقطه البيع (POS) أو مركز الاتصال.
+يصف هذا المقال كيفيه عمل المبالغ المستردة غير المرتبطة [Microsoft Dynamics 365عند استخدام موصل الدفع](adyen-connector.md) لـ Adye. كما يقوم بمراجعه امكانيه معالجه الاسترداد مقابل طريقه الدفع الجديدة في نقطه البيع (POS) أو مركز الاتصال.
 
 يدعم موصل Dynamics 365 الخاص بالأديين القدرة علي معالجه المبالغ المستردة باستخدام طريقه دفع مختلفه عن تلك التي تم استخدامها للحركة الاصليه. علي الرغم من اننا نوصي باستخدام [المبالغ المستردة المرتبطة](linked-refunds.md) لمعالجه الاسترداد مقابل طريقه الدفع الاصليه التي تم توفيرها ، الا انه يجب المبالغ المستردة لطريقه مختلفه في بعض وحدات السيناريو. علي سبيل المثال ، قد تكون البطاقة التي تم استخدامها للدفع الأصلي منتهية الصلاحية أو مفقوده ، أو ربما قام المستخدم بإلغاءها.
 

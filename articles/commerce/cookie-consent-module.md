@@ -1,6 +1,6 @@
 ---
-title: الوحدة النمطية للموافقة على ملف تعريف الارتباط
-description: يتناول هذا الموضوع الوحدات النمطية للموافقة على ملف تعريف الارتباط ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+title: وحدة الموافقة على ملف تعريف الارتباط
+description: يتناول هذا المقال الوحدات النمطية للموافقة على ملف تعريف الارتباط ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 43f18a0963d84d486c8077bde1dad50fdd4fe85beb95dc8b22ae2f3ee724ba0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 514f54ea6ff05dc3e0885f21af176453dd604848
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878573"
 ---
-# <a name="cookie-consent-module"></a>الوحدة النمطية للموافقة على ملف تعريف الارتباط
+# <a name="cookie-consent-module"></a>وحدة الموافقة على ملف تعريف الارتباط
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع الوحدات النمطية للموافقة على ملف تعريف الارتباط ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال الوحدات النمطية للموافقة على ملف تعريف الارتباط ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
 تطالب الوحدة النمطية للموافقة على ملف تعريف الارتباط المستخدمين بتوفير موافقة صريحة على السماح بملفات تعريف الارتباط لأي ميزة أو وحدة نمطية تتعقب ملفات تعريف ارتباط المستعرض. تكون الموافقة مطلوبة في المرة الأولى التي يقوم فيها مستخدم موقع باستعراض موقع في جلسة عمل مستعرض جديدة. عند تلقي الموافقة، يتم تعقبها ولن تتم مطالبة مستخدم الموقع بإعطاء الموافقة مرة أخرى. لمزيد من المعلومات، راجع [التوافق مع ملف تعريف الارتباط](cookie-compliance.md).
 

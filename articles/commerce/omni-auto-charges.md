@@ -1,6 +1,6 @@
 ---
 title: التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات
-description: يصف هذا الموضوع القدرات المتعلقة بإدارة تكاليف الأوامر الأخرى لأوامر قناة Commerce باستخدام ميزات التكاليف التلقائية المتقدمة.
+description: يصف هذا المقال القدرات المتعلقة بإدارة تكاليف الأوامر الأخرى لأوامر قناة Commerce باستخدام ميزات التكاليف التلقائية المتقدمة.
 author: hhaines
 ms.date: 03/24/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 412f5befa255d12914444b57918f14ab51243bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851121"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>التكاليف التلقائية المتقدمة ‬للقناة متعددة الاتجاهات
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع معلومات حول تكوين ونشر ميزات التكاليف التلقائية المتقدمة التي تتوفر في الإصدار 10.0 من Dynamics 365 for Retail.
+يوفر هذا المقال معلومات حول تكوين ونشر ميزات التكاليف التلقائية المتقدمة التي تتوفر في الإصدار 10.0 من Dynamics 365 for Retail.
 
 عند تمكين ميزات التكاليف التلقائية المتقدمة، بإمكان الأوامر التي تم إنشاؤها في قناة Commerce معتمدة (نقطة البيع (POS) ومركز الاتصال وعبر الإنترنت) الاستفادة من تكوينات [التكاليف التلقائية](/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) المحددة في تطبيق ERP للتكاليف المرتبطة على مستوى الرأس والبنود.
 

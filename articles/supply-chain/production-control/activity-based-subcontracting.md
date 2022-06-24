@@ -1,6 +1,6 @@
 ---
 title: التعاقد من الباطن المستند إلى النشاط
-description: يصف هذا الموضوع، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing.
+description: يصف هذا المقال، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566781"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890730"
 ---
 # <a name="activity-based-subcontracting"></a>التعاقد من الباطن المستند إلى النشاط
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing.
+يصف هذا المقال، بشكل مفصل، كيفية استخدام الأنشطة المتعاقد عليها من الباطن في تدفق الإنتاج من أجل lean manufacturing.
 
 في Microsoft Dynamics 365 Supply Chain Management، هناك طريقتان للتعاقد من الباطن: أوامر الإنتاج وlean manufacturing. في طريقة lean manufacturing، يتم تصميم عمل التعاقد من الباطن كخدمة مرتبطة بنشاط تدفق الإنتاج. تم تقديم نوع خاص من نوع مجموعة التكاليف‬ يسمى **إسناد مباشر** ولم تعد خدمات التعاقد من الباطن جزءًا من قائمة مكونات الصنف. تم دمج محاسبة التكاليف للعمل المتعاقد عليه من الباطن بشكل كامل في حل تكلفة lean manufacturing.
 

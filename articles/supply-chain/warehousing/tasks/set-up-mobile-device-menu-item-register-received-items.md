@@ -1,6 +1,6 @@
 ---
 title: إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
-description: يركز هذا الموضوع على إعداد عنصر قائمة جهاز محمول.
+description: يركز هذا المقال على إعداد عنصر قائمة جهاز محمول.
 author: Mirzaab
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b59a78ef98215bec7610fe17ed56e6fc287004c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882304"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>إعداد صنف قائمة الأجهزة المحمولة لتسجيل الأصناف المستلمة
 
 [!include [banner](../../includes/banner.md)]
 
-يركز هذا الموضوع على إعداد عنصر قائمة جهاز محمول. يتم استخدام عنصر القائمة هذا لتسجيل استلام الأصناف المطلوبة عن طريق أوامر الشراء. 
+يركز هذا المقال على إعداد عنصر قائمة جهاز محمول. يتم استخدام عنصر القائمة هذا لتسجيل استلام الأصناف المطلوبة عن طريق أوامر الشراء. 
 
 ويمكنك استخدام هذا الدليل في شركة بيانات العرض التوضيحي USMF. هذا الإجراء مخصص لمدير المستودعات.
 

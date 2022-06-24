@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891136"
 ---
 # <a name="cost-management-home-page"></a>الصفحة الرئيسية لإدارة التكلفة
 
@@ -53,7 +53,7 @@ ms.locfileid: "8672475"
 
 #### <a name="white-paper"></a>مستند تقني
 
-يصف المستند التقني [حساب قائمة مكونات الصنف باستخدام كشف التكاليف](https://www.microsoft.com/download/details.aspx?id=101937) كيفية إعداد كشف تكاليف يتضمن التصنيع والمواد، ومدى تأثير الإعداد على نتائج حساب قائمة مكونات الصنف. وهو يوفر وحدات سيناريو ملموسة بالإضافة إلى بيانات تُظهر تأثير مختلف الإعدادات والتكوينات، من أجل توضيح هذه المواضيع بشكل أفضل.
+يصف المستند التقني [حساب قائمة مكونات الصنف باستخدام كشف التكاليف](https://www.microsoft.com/download/details.aspx?id=101937) كيفية إعداد كشف تكاليف يتضمن التصنيع والمواد، ومدى تأثير الإعداد على نتائج حساب قائمة مكونات الصنف. وهو يوفر وحدات سيناريو ملموسة بالإضافة إلى بيانات تُظهر تأثير مختلف الإعدادات والتكوينات، من أجل توضيح هذه المقالات بشكل أفضل.
 
 #### <a name="blogs"></a>المدونات
 

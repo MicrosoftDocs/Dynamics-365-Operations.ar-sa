@@ -1,6 +1,6 @@
 ---
 title: إعداد الرحلة متعددة المراحل
-description: يصف هذا الموضوع كيفية إعداد الرحلات متعددة المراحل لوحدة التكلفة المستلمة.
+description: يصف هذا المقال كيفية إعداد الرحلات متعددة المراحل لوحدة التكلفة المستلمة.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c65a3d3971593ccf832a6af3c8c27d56a68b46c8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: dcb536c03d09d51b247d9060d87db64e2b80383b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905823"
 ---
 # <a name="multi-leg-journey-setup"></a>إعداد الرحلة متعددة المراحل
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية إعداد الرحلات متعددة المراحل لوحدة **التكلفة المستلمة**.
+يصف هذا المقال كيفية إعداد الرحلات متعددة المراحل **لوحدة التكلفة** المستلمة.
 
 ## <a name="legs"></a>الشُعب‬
 

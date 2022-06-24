@@ -1,6 +1,6 @@
 ---
 title: تمكين معالجة وضع التسليم المتسق في قنوات التجارة الإلكترونية
-description: يصف هذا الموضوع كيفية تمكين المعالجة المتسق لوضع التسليم لمعالجة المشكلات المحتملة المتعلقة بتدفقات الرسوم في قنوات التجارة الإلكترونية في Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال كيفية تمكين المعالجة المتسق لوضع التسليم لمعالجة المشكلات المحتملة المتعلقة بتدفقات الرسوم في قنوات التجارة الإلكترونية في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885575"
 ---
 # <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>تمكين معالجة وضع التسليم المتسق في قنوات التجارة الإلكترونية 
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية تمكين المعالجة المتسق لوضع التسليم لمعالجة المشكلات المحتملة المتعلقة بتدفقات الرسوم في قنوات التجارة الإلكترونية في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال كيفية تمكين المعالجة المتسق لوضع التسليم لمعالجة المشكلات المحتملة المتعلقة بتدفقات الرسوم في قنوات التجارة الإلكترونية في Microsoft Dynamics 365 Commerce.
 
 في Dynamics 365 Commerce، لا يتم تطبيق الرسوم غير الموزعة على مستوى الرأس بشكل افتراضي في قنوات التجارة الإلكترونية. قد يسبب هذا السلوك أحدي المشكلتين التاليتين أو كلتاهما في قنوات التجارة الكترونيه:
 

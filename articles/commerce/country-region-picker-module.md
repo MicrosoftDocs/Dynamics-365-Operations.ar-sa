@@ -1,6 +1,6 @@
 ---
 title: الوحدة النمطية لمنتقي البلد/المنطقة
-description: يصف هذا الموضوع الوحدة النمطية لمنطقي البلد/المنطقة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال الوحدة النمطية لمنطقي البلد/المنطقة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 04/06/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 9c20e614053b7a79cf962990dbd13ca0f45d5a00
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: d20b3be008a37b1c86e6fefe0ccc90c581e18340
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861982"
 ---
 # <a name="countryregion-picker-module"></a>الوحدة النمطية لمنتقي البلد/المنطقة
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع الوحدة النمطية لمنطقي البلد/المنطقة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال الوحدة النمطية لمنطقي البلد/المنطقة ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 
 تستخدم الوحدة النمطية لمنتقي البلد/المنطقة ميزة [الكشف عن المواقع الجغرافية وإعادة التوجيه](geo-detection-redirection.md) في Dynamics 365 Commerce لإظهار المواقع الموصي بها للعملاء الذين يقومون بطلب عنوان URL لموقع تجارة إلكترونية غير مرتبط بالبلد أو المنطقة الخاصة بهم.
 

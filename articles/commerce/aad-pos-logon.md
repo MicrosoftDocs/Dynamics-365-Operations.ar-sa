@@ -1,6 +1,6 @@
 ---
 title: تكوين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
-description: يشرح هذا الموضوع كيفيه تكوين Azure Active Directory كأسلوب المصادقة في نقطة بيع Microsoft Dynamics 365 Commerce.
+description: يشرح هذا المقال كيفيه تكوين Azure Active Directory كأسلوب المصادقة في نقطة بيع Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853918"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>تكوين مصادقة Azure Active Directory لتسجيل الدخول إلى نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيفية تكوين Azure Active Directory (Azure AD) كأسلوب المصادقة في نقطة البيع (POS) في Microsoft Dynamics 365 Commerce.
+يشرح هذا المقال كيفية تكوين Azure Active Directory (Azure AD) كأسلوب المصادقة في نقطة البيع (POS) Microsoft Dynamics 365 Commerce.
 
-يريد تجار التجزئة الذين يستخدمون Dynamics 365 Commerce جنبًا إلى جنب مع خدمات سحابة Microsoft الأخرى مثل Microsoft Azure، وMicrosoft 365، وMicrosoft Teams غالبًا استخدام Azure AD للإدارة المركزية لبيانات اعتماد المستخدم لتجربة تسجيل دخول آمنة وسلسة عبر التطبيقات. لاستخدام مصادقة Azure AD لنقطة بيع Commerce، يجب أولاً تكوين Azure AD كأسلوب المصادقة في إدارة Commerce.
+يريد تجار التجزئة الذين يستخدمون Dynamics 365 Commerce جنبًا إلى جنب مع خدمات سحابة Microsoft الأخرى مثل، Microsoft Azureو Microsoft 365و Microsoft Teams غالبًا استخدام Azure AD للإدارة المركزية لبيانات اعتماد المستخدم لتجربة تسجيل دخول آمنة وسلسة عبر التطبيقات. لاستخدام مصادقة Azure AD لنقطة بيع Commerce، يجب أولاً تكوين Azure AD كأسلوب المصادقة في إدارة Commerce.
 
 ## <a name="configure-pos-authentication-method"></a>تكوين أسلوب مصادقة POS
 

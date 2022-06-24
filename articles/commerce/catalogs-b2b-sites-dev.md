@@ -1,6 +1,6 @@
 ---
-title: تأثير قابلية توسعة كتالوجات Commerce لعمليات تخصيص B2B
-description: يصف هذا الموضوع تأثير قابلية التوسعة لميزة كتالوجات Commerce لـ B2B في Microsoft Dynamics 365 Commerce.
+title: تأثير قابلية توسع كتالوجات Commerce لتخصيصات B2B
+description: يصف هذا المقال تأثير قابلية التوسعة لميزة كتالوجات Commerce لـ B2B في Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849005"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>تأثير قابلية توسعة كتالوجات Commerce لعمليات تخصيص B2B
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>تأثير قابلية توسع كتالوجات Commerce لتخصيصات B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-يصف هذا الموضوع تأثير قابلية التوسعة لميزة **كتالوجات Commerce لـ B2B** في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال تأثير قابلية التوسعة لميزة **كتالوجات Commerce** لـ B2B في Microsoft Dynamics 365 Commerce.
 
 إذا كنت مهتمًا بتوسيع سياق الكتالوج ليشمل سيناريوهات مخصصة، فقد يلزم تحديث تخصيصاتك. يتبع هذا التحديث العملية القياسية التي يجب على العملاء اتباعها، لأن تخصيصاتهم قد لا تدعم تلقائيًا أحدث الميزات بعد إتمام الترقيات. إذا تضمنت تخصيصاتك أي ميزة جديدة أو إصلاحات للأخطاء في تجاربها، فمن المستحسن تحديث كود التخصيص وفقًا لذلك. يشبه هذا التحديث التغييرات التي من المحتمل أن تكون Microsoft قد أدخلتها على التعليمات البرمجية الأساسية.
 

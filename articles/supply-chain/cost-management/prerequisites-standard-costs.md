@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على المتطلبات الأساسية للتكاليف القياسية
-description: يوضح هذا الموضوع الخطوات الأساسية لاستخدام التكاليف المعيارية.
+description: يوضح هذا المقال الخطوات الأساسية لاستخدام التكاليف المعيارية.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895775"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>نظرة عامة على المتطلبات الأساسية للتكاليف القياسية
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع الخطوات الأساسية لاستخدام التكاليف المعيارية. تعتمد الخطوات التالية على عمليات الشركة. على سبيل المثال، تختلف الخطوات لبيئة غير التصنيع، بيئة تصنيع لا تستخدم التوجيهات، وبيئة التصنيع التي تستخدم التوجيهات. 
+يوضح هذا المقال الخطوات الأساسية لاستخدام التكاليف المعيارية. تعتمد الخطوات التالية على عمليات الشركة. على سبيل المثال، تختلف الخطوات لبيئة غير التصنيع، بيئة تصنيع لا تستخدم التوجيهات، وبيئة التصنيع التي تستخدم التوجيهات. 
 
 لإعداد التكاليف المعيارية، اتبع هذه الخطوات:
 
@@ -65,7 +65,7 @@ ms.locfileid: "8672307"
 ويتعين على العملاء الذين يرغبون في تغيير الأصناف الحالية الخاصة بهم إلى نموذج مخزون تكلفة معيارية استخدام صفحة **عمليات تحويل التكلفة المعيارية**.
 
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [نظرة عامة حول تحويل التكاليف القياسية](standard-cost-conversion-overview.md)
 

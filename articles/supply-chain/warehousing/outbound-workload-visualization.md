@@ -1,6 +1,6 @@
 ---
 title: مرئيات حمل العمل الصادر
-description: يوفر هذا الموضوع معلومات حول مرئيات حمل العمل الصادرة تتيح هذه الوظيفة لمديري المستودع والمشرفين إنشاء مخططات حمل عمل مخصصه يمكن استخدامها لمراقبه تقدم العمل الحالي والمبلغ المتبقي منه. يمكن لمديري المستودع إنشاء طرق عرض متعددة وإعداد التحديث التلقائي كما يتطلب.
+description: يوفر هذا المقال معلومات حول مرئيات حمل العمل الصادرة تتيح هذه الوظيفة لمديري المستودع والمشرفين إنشاء مخططات حمل عمل مخصصه يمكن استخدامها لمراقبه تقدم العمل الحالي والمبلغ المتبقي منه. يمكن لمديري المستودع إنشاء طرق عرض متعددة وإعداد التحديث التلقائي كما يتطلب.
 author: Mirzaab
 ms.date: 08/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851322"
 ---
 # <a name="outbound-workload-visualization"></a>مرئيات حمل العمل الصادر
 

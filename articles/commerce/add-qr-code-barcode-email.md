@@ -1,6 +1,6 @@
 ---
 title: إضافة رمز استجابة سريعة (QR) أو رمز شريطي إلى رسائل البريد الكتروني للمعاملات والإيصالات
-description: يوضح هذا الموضوع كيفية إدراج رموز QR والرموز الشريطية التي تمثل معرفات الأوامر في رسائل البريد الإلكتروني للحركات والإيصالات في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا المقال كيفية إدراج رموز QR والرموز الشريطية التي تمثل معرفات الأوامر في رسائل البريد الإلكتروني للحركات والإيصالات في Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688955"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872874"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>إضافة رمز استجابة سريعة (QR) أو رمز شريطي إلى رسائل البريد الكتروني للمعاملات والإيصالات
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إدراج رموز QR والرموز الشريطية التي تمثل معرفات الأوامر في رسائل البريد الإلكتروني للحركات والإيصالات في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية إدراج رموز QR والرموز الشريطية التي تمثل معرفات الأوامر في رسائل البريد الإلكتروني للحركات والإيصالات في Microsoft Dynamics 365 Commerce.
 
 يمكنك بسهولة تضمين رموز QR والرموز الشريطية في رسائل البريد الكتروني للمعاملات للمساعدة في تسريع عملية البحث عن الأوامر في بيئة بيع بالتجزئة. لادراج رموز QR والرموز الشريطية في رسائل البريد الكتروني، استخدم علامة **\<img\>** من HTML التي تتطلب صورة رمز QR أو رمز شريطي من خدمة الإنشاء والعرض. لا توفر Microsoft هذه الخدمة. ومع ذلك، يوجد العديد من الخدمات المجانية أو غير المكلفة التي يمكنها تقديم رموز QR أو الرموز الشريطية التي يتم إنشاؤها ديناميكيًا بناء على القيمة التي يتم تمريرها في سلسلة الاستعلام.
 

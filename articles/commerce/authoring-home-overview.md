@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على صفحة التأليف
-description: يقدم هذا الموضوع نظرة عامة على صفحة التأليف في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة على صفحة التأليف في Microsoft Dynamics 365 Commerce.
 author: brendans
 ms.date: 10/31/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bc8cdbc0a521f3aa444a3af0d0230f8567729694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854994"
 ---
 # <a name="authoring-page-overview"></a>نظرة عامة على صفحة التأليف
 
   
  [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على صفحة التأليف في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة على صفحة التأليف في Microsoft Dynamics 365 Commerce.
 
 يمكن إنشاء مواقع ويب لدعم احتياجات الأعمال المختلفة. يُمكنها أن تُمثل النشاط التجاري بأكمله، أو تقدم قناة واحدة للنشاط التجاري، أو تستهدف جمهورًا معينًا أو شريحة معينة من الجمهور. على سبيل المثال، قد يكون لدى الشركة المصنعة للملابس موقع ويب يعرض جميع العلامات التجارية التي تمتلكها. قد يكون لدى الشركة المصنعة للملابس نفسها موقع ويب منفصل لكل علامة من هذه العلامات التجارية، وكذلك مجموعة من المواقع التي تتميز بالأزياء الفاخرة والأزياء الليلية/الخارجية وأزياء الأطفال.
 

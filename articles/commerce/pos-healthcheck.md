@@ -1,6 +1,6 @@
 ---
-title: فحص سلامة الأجهزة الطرفية والخدمات في نقطة البيع
-description: يقدم هذا الموضوع نظرة عامة على عملية فحص السلامة في نقطة البيع (POS).
+title: التحقق من سلامة الأجهزة الطرفية وخدمات نقطة البيع
+description: يقدم هذا المقال نظرة عامة على عملية فحص السلامة في نقطة البيع (POS).
 author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 44fd4b6246d3d7947527416c2b8b447bd64f179f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863311"
 ---
-# <a name="health-check-for-pos-peripherals-and-services"></a>فحص سلامة الأجهزة الطرفية والخدمات في نقطة البيع
+# <a name="health-check-for-pos-peripherals-and-services"></a>التحقق من سلامة الأجهزة الطرفية وخدمات نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع عملية فحص السلامة في نقطة البيع (POS).
+يصف هذا المقال عملية فحص السلامة في نقطة البيع (POS).
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -39,7 +39,7 @@ ms.locfileid: "7779862"
 | الفصل الدراسي | ‏‏الوصف |
 |---|---|
 | الجهاز الطرفي | أي جهاز يستخدمه تطبيق نقطة البيع لتسهيل الحركات والعمليات الأخرى في المتجر. تتضمن الأمثلة أدراج النقدية والماسحات الضوئية للكود الشريطي ووحدات الدفع الطرفية. |
-| الخدمة | في هذا الموضوع، تعد الخدمة تطبيقًا إضافيًا يعتمد عليه تطبيق البيع لتنفيذ الحركات والعمليات اليومية. تشتمل الأمثلة على التطبيقات التي تساعد في حسابات الضرائب أو الشحن. |
+| الخدمة | في هذا المقال، تعد الخدمة تطبيقًا إضافيًا يعتمد عليه تطبيق البيع لتنفيذ الحركات والعمليات اليومية. تشتمل الأمثلة على التطبيقات التي تساعد في حسابات الضرائب أو الشحن. |
 
 ## <a name="health-check-operation"></a>عملية فحص السلامة
 

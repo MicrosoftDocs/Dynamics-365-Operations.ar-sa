@@ -1,6 +1,6 @@
 ---
 title: الرقم التسلسلي للإرجاع-المنتجات المتحكمة في نقطة البيع
-description: يصف هذا الموضوع قدرات التحقق من صحة الأصناف المتسلسلة كجزء من عملية الإرجاع في تطبيق نقطة البيع (POS) Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال قدرات التحقق من صحة الأصناف المتسلسلة كجزء من عملية الإرجاع في تطبيق نقطة البيع (POS) Microsoft Dynamics 365 Commerce.
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860311"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>الرقم التسلسلي للإرجاع–المنتجات المتحكمة في نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع قدرات التحقق من صحة الأصناف المتسلسلة كجزء من عملية الإرجاع في تطبيق نقطة البيع (POS) Microsoft Dynamics 365 Commerce.
+يصف هذا المقال قدرات التحقق من صحة الأصناف المتسلسلة كجزء من عملية الإرجاع في تطبيق نقطة البيع (POS) Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > في Commerce الإصدار 10.0.20 والإصدارات الأحدث، تتوفر ميزة جديدة تسمى **تجربة معالجة الإرجاع الموحدة في نقطة البيع**. لاستخدام التحقق من صحة الرقم المسلسل أثناء معالجة أمر الإرجاع في نقطة البيع، يجب تشغيل هذه الميزة. للحصول على معلومات حول القدرات الأخرى التي تقدمها هذه الميزة عند تشغيلها، راجع [(إنشاء مرتجعات في نقطة البيع)](POS-returns.md).

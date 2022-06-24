@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a61e501d843e220259f9e26aac4309e6902d7a22
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a9ff9cb71b08d94e45e82c2b8f81550c9f8aba64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897737"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>كتالوج التعلم لمسؤولي Dynamics 365 Supply Chain Management
 
@@ -42,7 +42,7 @@ ms.locfileid: "8669646"
 | [ترحيل والبدء الفوري لتطبيقات التمويل والعمليات](/learn/paths/migrate-data-go-live-finance-operations/) | بصفتك مستشارًا وظيفيًا، يجب عليك فهم كيفية إعداد بيانات عميلك للترحيل والعمل باستخدام إدارة البيانات وتنفيذ اختبارات قبول المستخدم للانتقال للعرض المباشر باستخدام تطبيقات التمويل والعمليات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
 | [العمل باستخدام التحليلات والتقارير في Finance and Operations](/learn/modules/work-with-analytics-reporting-in-dynamics-365-finance-ops/) | يُمكن لقادة الأعمال اتخاذ قرارات هامة في شركتهم إذا كانت لديهم رؤية دقيقة وواضحة بالبيانات المالية والتشغيلية الأساسية. فبدون إمكانية رؤية البيانات، يُصبح قادة الأعمال في تحدي يصل إلى مهمة مستحيلة. باستخدام التحليلات وإعداد التقارير في تطبيقات التمويل والعمليات، يمكنك تمكين كل مستخدم أعمال، وفقًا لحقوق الأمان الخاصة به، للحصول على الرؤى التي يحتاجون إليها لاتخاذ هذه القرارات المهمة. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 1.5 ساعات |
 | [إدارة مشروع تنفيذ لـ Finance and Operations](/learn/paths/implement-finance-operations/) | تعرف على أهم العناصر وأفضل الممارسات لإدارة مشروع تنفيذ Finance and Operations بنجاح. من الخطوة الأولى التي تقوم فيها بتخطيط وتصميم منهجية المشروع الخاصة بك، استخدم خدمات FastTrack واستراتيجية التطوير وإدارة البيانات وغيرها، لتحظى بأفضل الطرق لصيانة العمليات ومراقبتها بعد الانتقال للعرض المباشر. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 11.5 ساعات |
-| [الصفحة الرئيسية لإدارة النظام](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | يُشير هذا الموضوع إلى المحتوى الخاص بمسؤولي النظام لـ Microsoft Dynamics 365 for Finance and Operations. سوف يساعدك هذا المحتوى على تكوين النظام بحيث يعمل بطريقة سلسة وفعالة لمؤسستك. | الوثائق | |
+| [الصفحة الرئيسية لإدارة النظام](/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | يُشير هذا المقال إلى المحتوى الخاص بمسؤولي النظام لـ Microsoft Dynamics 365 for Finance and Operations. سوف يساعدك هذا المحتوى على تكوين النظام بحيث يعمل بطريقة سلسة وفعالة لمؤسستك. | الوثائق | |
 | [Finance and Operations: مقدمة إلى Dynamics 365 (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | يوفر FastTrack خدمة إعداد لكل مشروع من مشاريع Dynamics 365 for Finance and Operations. في هذا الحديث التقني، سوف نشرح عملية الإعداد ونستعرض محتوى جلسة الإعداد معك، ونكشف لك عن كيفية جعل عملية الإعداد أكثر فعالية وملائمة في المستقبل القريب؟. تُعد هذه الجلسة وثيقة الصلة بكل شخص يعمل مع العملاء في المراحل المبكرة لمشروع، ما بين مرحلة إنهاء موضوع الترخيص وبدء مشروع التنفيذ. | التسجيل المجاني لمؤتمر ويب | 62 دقائق |
 | [النشر المحلي (بيانات الأعمال المحلية) (DYN382PAL2)](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | الرجاء الانضمام لهذا الحديث التقني للحصول على نظرة عامة بخصوص خيار النشر المحلي لـ Dynamics 365 for Finance and Operations، Enterprise Edition. في هذه الجلسة، سوف نستعرض هندسة الحل الخاص بالنشر المحلي وأوجه ALM ومتطلبات النظام وكيفية توفير مشروع Life Cycle Services. | التسجيل المجاني لمؤتمر ويب | 48 دقائق |
 | [نسخ إلى الكيان القانوني (DYN383PAL)](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | في هذه الجلسة، سوف نناقش الميزة الجديدة في إطار عمل إدارة البيانات والنسخ إلى كيان قانوني. سوف نستعرض أولًا بإيجاز الميزات الجديدة المُضافة إلى إطار عمل إدارة البيانات والنظام الأساسي 8 لمساحة العمل والقوالب ومشاريع البيانات، ثم ننتقل إلى مناقشة الوظيفة الإضافة المضافة للنسخ إلى كيان قانوني. | التسجيل المجاني لمؤتمر ويب | 54 دقيقة |

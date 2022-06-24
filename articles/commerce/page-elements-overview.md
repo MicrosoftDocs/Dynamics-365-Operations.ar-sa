@@ -1,6 +1,6 @@
 ---
 title: مصطلحات نموذج الصفحة
-description: يصف هذا الموضوع العناصر المتعددة التي يتم استخدامها في موقع Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال العناصر المتعددة التي يتم استخدامها في موقع Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c5ec6dfd9147fd5e054303b4fd612caef78b7467d7f6f4850e46fcc9fb1346f2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91a5cd47ea900b8b3b94368676031fd57bc58f47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891948"
 ---
 # <a name="page-model-glossary"></a>مصطلحات نموذج الصفحة
 
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع العناصر المتعددة التي يتم استخدامها في موقع Microsoft Dynamics 365 Commerce.
+يصف هذا المقال العناصر المتعددة التي يتم استخدامها في موقع Microsoft Dynamics 365 Commerce.
 
 ## <a name="page-element-definitions"></a>تعريفات عناصر الصفحة
 

@@ -1,6 +1,6 @@
 ---
 title: المعلمات التي لا يستخدمها تحسين التخطيط
-description: يسرد هذا الموضوع المعلمات التي لا يراعيها تحسين التخطيط حاليًا أثناء التشغيل.
+description: يسرد هذا المقال المعلمات التي لا يراعيها تحسين التخطيط حاليًا أثناء التشغيل.
 author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3791ac804b78a20d0051881a83cb075e56ec8639
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907337"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>المعلمات التي لا يستخدمها تحسين التخطيط
 
 [!include [banner](../../includes/banner.md)]
 
-يسرد هذا الموضوع المعلمات التي لا يراعيها تحسين التخطيط حاليًا أثناء التشغيل. قد تقوم خدمة التخطيط بتخطى معلمة بسبب عدم دعم الوظيفة ذات الصلة على سبيل المثال. بدلاً من ذلك، قد تصبح المعلمة مهملة بسبب التغييرات الوظيفية.
+يسرد هذا المقال المعلمات التي لا يراعيها تحسين التخطيط حاليًا أثناء التشغيل. قد تقوم خدمة التخطيط بتخطى معلمة بسبب عدم دعم الوظيفة ذات الصلة على سبيل المثال. بدلاً من ذلك، قد تصبح المعلمة مهملة بسبب التغييرات الوظيفية.
 
 تسرد الأقسام التالية المعلمات التي لا يستخدمها تحسين التخطيط في صفحات معينة. وتوضح أيضا سبب عدم استخدام كل معلمة.
 

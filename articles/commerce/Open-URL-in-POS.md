@@ -1,6 +1,6 @@
 ---
 title: فتح عنوان URL في نقطة البيع
-description: يوفر هذا الموضوع نظرة عامة حول التحسينات التي تم إدخالها على وظيفة البحث عن المنتجات والعملاء في  Dynamics 365 Commerce.
+description: يوفر هذا المقال نظرة عامة حول التحسينات التي تم إدخالها على وظيفة البحث عن المنتجات والعملاء في Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 01/28/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 529908df866c71ea84d90bbb5d46b23311ed74d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853952"
 ---
 # <a name="open-url-in-pos"></a>فتح عنوان URL في نقطة البيع
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع كيفية تكوين زر في نقطة بيع (POS) Dynamics 365 Commerce لفتح عنوان URL. لا تتطلب هذه الميزة تخصيصات الأكواد، ويمكن لأي شخص لا يتمتع بدور مطور تكوينها. 
+يتناول هذا المقال كيفية تكوين زر في نقطة بيع (POS) Dynamics 365 Commerce لفتح عنوان URL. لا تتطلب هذه الميزة تخصيصات الأكواد، ويمكن لأي شخص لا يتمتع بدور مطور تكوينها. 
 
 تسمح هذه الميزة بتكوين زر في نقطة بيع، باستخدام مصمم شبكة الزر لفتح عنوان URL. وفي الوقت الحالي، هذه الميزة مدعومة في التكوينات التالية:
 

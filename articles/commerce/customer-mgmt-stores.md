@@ -1,6 +1,6 @@
 ---
 title: إدارة العملاء في المتاجر
-description: يشرح هذا الموضوع كيف يمكن لبائعي التجزئة تمكين إمكانات إدارة العملاء في نقطة البيع (POS) في Microsoft Dynamics 365 Commerce.
+description: يشرح هذا المقال كيف يمكن لبائعي التجزئة تمكين إمكانات إدارة العملاء في نقطة البيع (POS) في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863477"
 ---
 # <a name="customer-management-in-stores"></a>إدارة العملاء في المتاجر
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيف يمكن لبائعي التجزئة تمكين إمكانات إدارة العملاء في نقطة البيع (POS) في Microsoft Dynamics 365 Commerce.
+يشرح هذا المقال كيف يمكن لبائعي التجزئة تمكين إمكانات إدارة العملاء في نقطة البيع (POS) في Microsoft Dynamics 365 Commerce.
 
 من الضروري أن يقوم موظفو المتجر بإنشاء سجلات العملاء وتحريرها في نقطة البيع. بهذه الطريقة، يمكنهم التقاط أي تحديثات لمعلومات العملاء مثل عنوان البريد الإلكتروني ورقم الهاتف والعنوان. تعتبر هذه المعلومات مفيدة في الأنظمه اللاحقة مثل التسويق، نظرا لأن فعالية هذه الأنظمة تعتمد على دقه بيانات العملاء الخاصة بها.
 

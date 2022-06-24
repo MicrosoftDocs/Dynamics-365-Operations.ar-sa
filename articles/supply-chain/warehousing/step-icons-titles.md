@@ -1,6 +1,6 @@
 ---
 title: تعيين رموز وعناوين الخطوة لتطبيق الأجهزة المحمولة لـ Warehouse Management
-description: يصف هذا الموضوع كيفية تعيين رموز وعناوين الخطوات لتدفقات المهام الجديدة أو المخصصة لتطبيق الأجهزة المحمولة لـ Warehouse Management.
+description: يصف هذا المقال كيفية تعيين رموز وعناوين الخطوات لتدفقات المهام الجديدة أو المخصصة لتطبيق الأجهزة المحمولة لـ Warehouse Management.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103303"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890585"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>تعيين رموز وعناوين الخطوة لتطبيق الأجهزة المحمولة لـ Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفية تعيين رموز وعناوين الخطوات لتدفقات المهام الجديدة أو المخصصة لتطبيق الأجهزة المحمولة لـ Warehouse Management.
+يصف هذا المقال كيفية تعيين رموز وعناوين الخطوات لتدفقات المهام الجديدة أو المخصصة لتطبيق الأجهزة المحمولة لـ Warehouse Management.
 
 توضح التوضيحات التالية كيفية ظهور رموز وعناوين الخطوات في تطبيق الأجهزة المحمولة لـ Warehouse Management.
 
@@ -29,7 +29,7 @@ ms.locfileid: "8103303"
 
 ## <a name="turn-this-feature-on-or-off"></a>تشغيل هذه الميزة أو إيقاف تشغيلها
 
-لاستخدام الوظيفة التي ورد وصفها في هذا الموضوع، يجب أن تكون الميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+لاستخدام الوظيفة التي ورد وصفها في هذا المقال، يجب أن تكون الميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* قيد التشغيل في النظام. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.25، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *إعدادات المستخدم والأيقونات وعناوين الخطوات لتطبيق المستودع الجديد‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>معرفات الخطوات القياسية والفئات والرموز
 
@@ -39,7 +39,7 @@ ms.locfileid: "8103303"
 
 يسرد الجدول التالي كل معرف خطوة متوفر حاليًا، وفئة الخطوة المقابلة له. يتم استخدام اسم عنصر التحكم الخاص بحقل الإدخال الأساسي كمعرف للخطوة.
 
-للحصول على مثال يوضح كيفية استخدام معرفات الخطوات هذه وفئاتها، راجع تطبيق الأسلوب `WHSMobileAppStepInfoBuilder.stepId()` في [المثال: تعيين رموز وعناوين الخطوات للقسم تدفق مخصص](#example) لاحقًا في هذا الموضوع.
+للحصول على مثال يوضح كيفية استخدام معرفات الخطوات هذه وفئاتها، راجع تطبيق الأسلوب `WHSMobileAppStepInfoBuilder.stepId()` في [المثال: تعيين رموز وعناوين الخطوات للقسم تدفق مخصص](#example) لاحقًا في هذا المقال.
 
 | معرف الخطوة | فئة الخطوة |
 |-|-|
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 يتم تخزين معرف رمز الخطوة في عضو الفئة `defaultStepIcon`، ويتم تخزين عنوان الخطوة في عضو الفئة `defaultStepTitle`.
 
-لتعيين رمز خطوة، قم بتعيين `defaultStepIcon` لأحد معرفات الرموز التي يتم سردها في القسم [رموز الخطوات المتوفرة](#step-icons) سابقًا في هذا الموضوع.
+لتعيين رمز خطوة، قم بتعيين `defaultStepIcon` لأحد معرفات الرموز التي يتم سردها في القسم [رموز الخطوات المتوفرة](#step-icons) سابقًا في هذا المقال.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>استخدام رمز خطوة قياسية أو مخصصة وعنوان لإدخال الوزن
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-ثم تقوم بعد ذلك بإنشاء فئة خطوة للخطوة `NewWeight`. يجب أن يتشابه الرمز مع الرمز الخاص بالمثال `ContainerId` الذي تم إظهاره سابقًا في هذا الموضوع.
+ثم تقوم بعد ذلك بإنشاء فئة خطوة للخطوة `NewWeight`. يجب أن يتشابه الرمز مع الرمز الخاص بالمثال `ContainerId` الذي تم إظهاره سابقًا في هذا المقال.
 
 #### <a name="override-the-stepinfo-method"></a>منع أسلوب stepInfo()
 

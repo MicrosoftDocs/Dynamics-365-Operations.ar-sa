@@ -1,6 +1,6 @@
 ---
-title: عملية المخزون الخارجية في نقطه البيع
-description: يصف هذا الموضوع إمكانيات عمليه المخزون الخارجية لنقطه البيع (POS).
+title: عملية المخزون الخارجية في نقطة البيع
+description: يصف هذا المقال إمكانيات عمليه المخزون الخارجية لنقطه البيع (POS).
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850213"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>عملية المخزون الخارجية في نقطة البيع
 
@@ -187,7 +187,7 @@ ms.locfileid: "7581126"
 
 يتم نقل أوامر التحويل المشحونة بالكامل إلى علامة التبويب **إكمال** لقائمة مستندات **العملية الخارجية**. هناك، تظل مرئية للمستخدمين في المخزن أو المستودع الخارجي، في وضع القراءة فقط، لسبعة أيام.
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [عملية المخزون الداخلية في نقطه البيع](pos-inbound-inventory-operation.md)
 

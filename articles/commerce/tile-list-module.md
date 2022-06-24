@@ -1,6 +1,6 @@
 ---
 title: وحدة القائمة المتجانبة
-description: يتناول هذا الموضوع وحدات القوائم المتجانبة ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+description: يتناول هذا المقال وحدات القوائم المتجانبة ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dd714f29fe2f9acd459be7bda1c0bfac65b72cb0
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 44eb9b82ef9625734c7fe5ccba85207d9f210a00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905388"
 ---
 # <a name="tile-list-module"></a>وحدة القائمة المتجانبة
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع وحدات القوائم المتجانبة ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال وحدات القوائم المتجانبة ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
 الوحدة النمطية للقائمة المتجانبة عبارة عن مجموعة من الإطارات المتجانبة في عرض دوار. وهي تُستخدم لتسويق فئات المنتجات أو العلامات التجارية للمنتجات من خلال الصور والنصوص. على سبيل المثال، يمكن لبائع التجزئة إضافة وحدة نمطية قائمة متجانبة إلى الصفحة الرئيسية لموقع التجارة الإلكترونية للترويج لكافة الفئات الأعلى مبيعًا.
 

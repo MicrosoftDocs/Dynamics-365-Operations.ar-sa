@@ -1,6 +1,6 @@
 ---
 title: عينة تكامل طابعة الضرائب المحصلة لبولندا
-description: يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي لبولندا في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي لبولندا في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076826"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876939"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>عينة تكامل طابعة الضرائب المحصلة لبولندا
 
 [!include[banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي لبولندا في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة على عينة التكامل المالي لبولندا في Microsoft Dynamics 365 Commerce.
 
 تتضمن وظيفة Dynamics 365 Commerce لبولندا نموذجًا لتكامل نقطة البيع (POS) مع طابعة مالية. يقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) ويدعم بروتوكول POSNET THERMAL HD 2.02 للطابعات المالية من شركة [Posnet Polska S.A.](https://www.posnet.com.pl) يتيح النموذج الاتصال بطابعة مالية متصلة عبر منفذ COM باستخدام برنامج تشغيل أصلي. تم تنفيذه واختباره باستخدام محاكي برمجي قدمته Posnet للطابعة المالية Posnet Thermal HD FV EJ. يتم توفير العينة في شكل كود المصدر وهي جزء من مجموعة تطوير برامج البيع بالتجزئة (SDK).
 

@@ -1,6 +1,6 @@
 ---
 title: تمكين إعلامات إيداع العملاء في نقطة البيع (POS)
-description: يوضح هذا الموضوع كيفيه تمكين إعلامات إيداع العملاء في نقطة بيع Microsoft Dynamics 365 Commerce (POS).
+description: يوضح هذا المقال كيفيه تمكين إعلامات إيداع العملاء في نقطة بيع Microsoft Dynamics 365 Commerce (POS).
 author: bicyclingfool
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 95b4e3a1750cf072db919492f7445e87654701da
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ae53657c95128eae793f670bd9dbc31d9fac0fe4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885135"
 ---
 # <a name="enable-customer-check-in-notifications-in-point-of-sale-pos"></a>تمكين إعلامات إيداع العملاء في نقطة البيع (POS)
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه تمكين إعلامات إيداع العملاء في نقطة بيع Microsoft Dynamics 365 Commerce (POS).
+يوضح هذا المقال كيفيه تمكين إعلامات إيداع العملاء في نقطة بيع Microsoft Dynamics 365 Commerce (POS).
 
 في رسائل البريد الإلكتروني الخاصة بـ "الطلب جاهز للاستلام"، يمكن للمؤسسات توفير رابط أو زر يسمح للعملاء بإخطار المتجر بأنهم موجودون في المبنى وينتظرون إحضار الحزمة الخاصة بهم إليهم. يتلقى العملاء بعد ذلك تأكيدًا لتسجيل الوصول، ويتلقى المتجر إشعارًا كمهمة في تطبيق نقطة البيع الخاص به. تعمل هذه المهمة كمطالبة بمساعد المبيعات لتسليم الأمر إلى سيارة العميل. لذلك، لا يتعين على العميل الدخول إلى المتجر.
 
@@ -70,7 +70,7 @@ ms.locfileid: "7983151"
 1. قم بإيداع الصفحة ولكن لا تقم بنشرها.
 1. قم بإضافة الارتباط التالي إلى قالب البريد الإلكتروني الذي يتم استدعاؤه بواسطة نوع إخطار اكتمال التعبئة لوضع التسليم الشامل. لمزيد من المعلومات، راجع [إنشاء قوالب بريد إلكتروني لأحداث المعاملات](email-templates-transactions.md).
 
-    - **بالنسبة لبيئات ما قبل الإنتاج (UAT):** أضف أجزاء من تعليمات برمجية من القسم [‏‫تكوين قالب البريد الإلكتروني للحركات‬](#configure-the-transactional-email-template) سابقًا في هذا الموضوع.
+    - **بالنسبة لبيئات ما قبل الإنتاج (UAT):** أضف أجزاء من تعليمات برمجية من القسم [‏‫تكوين قالب البريد الإلكتروني للحركات‬](#configure-the-transactional-email-template) سابقًا في هذا المقال.
     - **بالنسبة لبيئات التشغيل:** أضف التعليمات البرمجية التالية التي تم التعليق عليها بحيث لا يتأثر العملاء الموجودين.
 
         `<!-- https://[DOMAIN]/[CHECK_IN_PAGE]?channelReferenceId=%confirmationid%&channelId=%pickupchannelid%&packingSlipId=%packingslipid%&preview=inprogress -->`

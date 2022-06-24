@@ -1,6 +1,6 @@
 ---
 title: إدارة حاويات الشحن
-description: يصف هذا الموضوع كيفيه العمل مع حاويات الشحن. تُستخدم حاويات الشحن لتجميع البضائع المجمعة فعليًا معًا. يتم استخدامها أيضًا في الحالات التي يجب فيها تقاسم التكاليف فقط عبر هذه السلع، عادةً لأنهم معًا ماديًا.
+description: يصف هذا المقال كيفيه العمل مع حاويات الشحن. تُستخدم حاويات الشحن لتجميع البضائع المجمعة فعليًا معًا. يتم استخدامها أيضًا في الحالات التي يجب فيها تقاسم التكاليف فقط عبر هذه السلع، عادةً لأنهم معًا ماديًا.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac88f8e3b8cf305a5bd247e7ed6b14b23ad85499
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906142"
 ---
 # <a name="manage-shipping-containers"></a>إدارة حاويات الشحن
 
@@ -142,7 +142,7 @@ ms.locfileid: "8686758"
 
 ### <a name="information-on-the-shipping-container-fasttab"></a>معلومات عن علامة التبويب السريع حاوية الشحن
 
-تعرض علامة التبويب السريع **حاوية الشحن** في طريقة عرض **البنود** معلومات حول السجل. تظهر معظم هذه المعلومات أيضًا في طريقة عرض **الرأس**، كما هو موضح سابقًا في هذا الموضوع.
+تعرض علامة التبويب السريع **حاوية الشحن** في طريقة عرض **البنود** معلومات حول السجل. تظهر معظم هذه المعلومات أيضًا في طريقة عرض **الرأس**، كما هو موضح سابقًا في هذا المقال.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>المعلومات والأزرار في علامة التبويب السريع البنود
 

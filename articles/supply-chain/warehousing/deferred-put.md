@@ -1,6 +1,6 @@
 ---
 title: المعالجة المؤجلة لعمل المستودع
-description: يصف هذا الموضوع الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع المتوفرة في Dynamics 365 Supply Chain Management.
+description: يصف هذا المقال الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع المتوفرة في Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899284"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>المعالجة المؤجلة لعمل المستودع
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع متوفرة في Dynamics 365 Supply Chain Management.
+يصف هذا المقال الوظيفة التي تجعل المعالجة المؤجلة لعمليات الوضع في عمل المستودع متوفرة في Dynamics 365 Supply Chain Management.
 
 تتيح وظيفة المعالجة المؤجلة لعمال المستودع الاستمرار في تنفيذ عمل آخر أثناء معالجة عمليه الوضع في الخلفية. تكون المعالجة المؤجلة مفيدة عند الحاجة لمعالجة العديد من بنود العمل ويمكن أن يسمح العامل بمعالجة هذا العمل بشكل غير متزامن. ويعد ذلك مفيدا أيضًا عندما يمكن أن يكون لدى الخادم زيادة مؤقته أو غير مخططة في وقت المعالجة، وقد يؤثر وقت المعالجة المتزايد على إنتاجية المستخدم.
 

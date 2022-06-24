@@ -1,6 +1,6 @@
 ---
-title: استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة
-description: يوضح هذا الموضوع كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة للأجهزة المحمولة‬ لدعم استخدام عملية استلام لوحة الترخيص لاستلام المخزون الفعلي.
+title: استلام لوحة الترخيص‬ عبر تطبيق Warehouse Management للأجهزة المحمولة
+description: يوضح هذا المقال كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة للأجهزة المحمولة‬ لدعم استخدام عملية استلام لوحة الترخيص لاستلام المخزون الفعلي.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906989"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>استلام لوحة الترخيص‬ عبر تطبيق إدارة المستودع للأجهزة المحمولة
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>استلام لوحة الترخيص‬ عبر تطبيق Warehouse Management للأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة‬ بحيث يدعم استخدام عملية استلام لوحة الترخيص لاستلام المخزون الفعلي.
+يوضح هذا المقال كيفية إعداد تطبيق إدارة المستودع للأجهزة المحمولة‬ بحيث يدعم استخدام عملية استلام لوحة الترخيص لاستلام المخزون الفعلي.
 
 يمكنك استخدام هذه الوظيفة لتسجيل استلام المخزون الوارد المرتبط بإشعار شحن مسبق (ASN) بسرعة. ينشئ النظام بشكل تلقائي إشعار ASN عند استخدام عمليات إدارة المستودعات لشحن أمر تحويل. بالنسبة إلى عملية أمر الشراء، يمكن تسجيل ASN يدويًا أو يمكن استيراده تلقائيًا باستخدام عمليات كيان بيانات ASN الواردة.
 

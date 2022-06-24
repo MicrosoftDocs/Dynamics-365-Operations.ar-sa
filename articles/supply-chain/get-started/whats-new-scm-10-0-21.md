@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.21 (أكتوبر 2021)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.21 من Dynamics 365 Supply Chain Management.
+description: تصف هذه المقالة الميزات الجديدة أو المتغيرة في 10.0.21. Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 10/28/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: a78b4c37bfca9fedbd46cd8a16b47bd4444fbfee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8739376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849521"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.21 (أكتوبر 2021)
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.21 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.960، وهو يتوفر كما يلي
+تصف هذا المقالات الميزات الجديدة أو المتغيرة في إصدار 10.0.21 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.960، وهو يتوفر كما يلي
 
 - **إصدار أولي الإصدار:** أغسطس 2021
 - **التوفر العام للإصدار (تحديث ذاتي):** سبتمبر 2021
@@ -119,9 +119,9 @@ ms.locfileid: "8739376"
 
 ## <a name="new-and-updated-documentation-resources"></a>موارد وثائق جديده ومحدثه
 
-لقد قمنا مؤخرا باضافه موضوعات التعليمات التالية أو تحديثها بشكل ملحوظ. ليس بالضرورة ان تكون مرتبطة بالميزات الجديدة المضافة لهذا الإصدار ، كما هو موضح في القسم السابق ، ولكن قد يساعدك ذلك علي الحصول علي مزيد من الميزات الموجودة.
+لقد قمنا مؤخرا بإضافة مقالات التعليمات التالية أو تحديثها بشكل ملحوظ. ليس بالضرورة ان تكون مرتبطة بالميزات الجديدة المضافة لهذا الإصدار ، كما هو موضح في القسم السابق ، ولكن قد يساعدك ذلك علي الحصول علي مزيد من الميزات الموجودة.
 
-| منطقة الميزة | الموضوعات الجديدة أو المحدثة |
+| منطقة الميزة | المقالات الجديدة أو المحدثة |
 |---|---|
 | التخطيط الرئيسي | [التنبؤات بالمخزون](../master-planning/inventory-forecast.md) |
 | التخطيط الرئيسي | [المعلمات غير المستخدمة في تحسين التخطيط](../master-planning/planning-optimization/not-used-parameters.md) |
@@ -153,12 +153,12 @@ ms.locfileid: "8739376"
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
-يوضح الموضوع [الميزات التي تمت ازالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) الميزات التي تمت أو تتم جدولتها لإزالتها أو إهمالها لـ Supply Chain Management.
+يوضح المقال [الميزات التي تمت ازالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) الميزات التي تمت أو تتم جدولتها لإزالتها أو إهمالها لـ Supply Chain Management.
 
 - لم تعد ميزة *تمت الإزالة* متوفرة في المنتج.
 - لا توجد ميزة *المهملة* في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.
 
-قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
+قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في المقال [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
 

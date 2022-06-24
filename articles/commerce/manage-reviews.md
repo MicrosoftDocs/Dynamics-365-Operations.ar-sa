@@ -1,6 +1,6 @@
 ---
 title: إدارة التقييمات والمراجعات
-description: يشرح هذا الموضوع كيفية إدارة التقييمات والمراجعات في أداة إنشاء مواقع Microsoft Dynamics 365 Commerce .
+description: يشرح هذا المقال كيفية إدارة التقييمات والمراجعات في أداة إنشاء مواقع Microsoft Dynamics 365 Commerce .
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968217"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881313"
 ---
 # <a name="manage-ratings-and-reviews"></a>إدارة التقييمات والمراجعات
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إدارة التقييمات والمراجعات في أداة إنشاء مواقع Microsoft Dynamics 365 Commerce .
+يشرح هذا المقال كيفية إدارة التقييمات والمراجعات في أداة إنشاء مواقع Microsoft Dynamics 365 Commerce .
 
 Dynamics 365 Commerce يستخدم Microsoft Azure Cognitive Service للإشراف تلقائيًا على مرجعة النصوص عن طريق تنقيح الكلمات البذيئة. بالاضافه إلى ذلك، يمكن للمشرفين استخدام أدة إنشاء مواقع Dynamics 365 Commerce لتنفيذ المهام اليدوية التالية:
 

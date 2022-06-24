@@ -1,6 +1,6 @@
 ---
 title: استراتيجية الحلول لتكوين المنتج
-description: يوضح هذا الموضوع كيفية استخدام استراتيجية الحلول لتحسين أداء تكوين المنتج.
+description: يوضح هذا المقال كيفية استخدام استراتيجية الحلول لتحسين أداء تكوين المنتج.
 author: t-benebo
 ms.date: 02/19/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 76ad64c19fe088ec85fafba4a3276a4d8c23a18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565677"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852349"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>استراتيجية الحلول لتكوين المنتج
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية استخدام استراتيجية الحلول لتحسين أداء تكوين المنتج.
+يوضح هذا المقال كيفية استخدام استراتيجية الحلول لتحسين أداء تكوين المنتج.
 
 تم تقديم مفهوم استراتيجيات الحلول أولاً في التحديث التراكمي 7 (CU7) لـ Microsoft Dynamics AX 2012 R2. وتم توسيعه في التحديث التراكمي 8 (CU8) لكل من Microsoft Dynamics AX 2012 R3 وMicrosoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.
 

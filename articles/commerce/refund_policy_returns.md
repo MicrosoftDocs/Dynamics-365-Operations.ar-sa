@@ -1,6 +1,6 @@
 ---
-title: إنشاء سياسة المرتجعات والمبالغ المستردة لقناه وتحديثها
-description: يوضح هذا الموضوع كيفيه اعداد النهج المرتجعات والمبالغ المستردة لقناه.
+title: إنشاء وتحديث سياسة للمرتجعات والمبالغ المستردة لقناة
+description: يوضح هذا المقال كيفيه اعداد النهج المرتجعات والمبالغ المستردة لقناه.
 author: ShalabhjainMSFT
 ms.date: 07/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
-ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.openlocfilehash: 54dd19134aea68f73de51086fbaa096961447b62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7388923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873294"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>إنشاء وتحديث سياسة للمرتجعات والمبالغ المستردة لقناة
 
@@ -27,7 +27,7 @@ ms.locfileid: "7388923"
 
 يقوم سياسة إرجاع القناة في Dynamics 365 Commerce بتمكين بائعي التجزئة من تعيين عمليات تنفيذ يستطيع فيها مقدمو الدفعات معالجه إرجاع علي جهاز نقطه بيع (POS).  
 
-يوضح هذا الموضوع الخطوات اللازمة لإعداد سياسة المرتجعات والمبالغ المستردة لقناه.
+يوضح هذا المقال الخطوات اللازمة لإعداد سياسة المرتجعات والمبالغ المستردة لقناه.
 
 نطاق السياسة محدود حاليا بتعيين مقدمي الدفع الذي يمكن السماح بهم لأحدي القنةات. تستند القائمة "مسموح" علي طرق الدفع المستخدمة لاجراء الشراء. على سبيل المثال:
 

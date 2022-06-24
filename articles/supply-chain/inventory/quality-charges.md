@@ -1,6 +1,6 @@
 ---
 title: رسوم عمليات عدم المطابقة
-description: يوضح هذا الموضوع كيفيه إنشاء مصاريف الجودة التي يمكن استخدامها مع العمليات الخاصة بعدم التوافق.
+description: يوضح هذا المقال كيفيه إنشاء مصاريف الجودة التي يمكن استخدامها مع العمليات الخاصة بعدم التوافق.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850717"
 ---
 # <a name="charges-for-nonconformance-operations"></a>رسوم عمليات عدم المطابقة
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفيه إنشاء مصاريف الجودة التي يمكن استخدامها مع العمليات الخاصة بعدم التوافق.
+يوضح هذا المقال كيفيه إنشاء مصاريف الجودة التي يمكن استخدامها مع العمليات الخاصة بعدم التوافق.
 
 يمكنك استخدام صفحة **رسوم الجودة** لتحديد أنواع الرسوم التي يمكن إضافتها إلى عمليات عدم المطابقة. تمكنك المصاريف من تتبع التفاصيل المتعلقة بالرسوم أو الرسوم التي تدين بها إلى أحد العملاء للمنتجات غير المتوافقة، أو التي يمتلكها المورد بالنسبة للمنتجات غير المتوافقة التي تلقيتها. ويمكن أيضا استخدام المصاريف لتتبع التكاليف المطلوبة للموردين أو الخدمات الخارجية لاجراء أحدي العمليات.
 

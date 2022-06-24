@@ -1,6 +1,6 @@
 ---
 title: النطاقات في Dynamics 365 Commerce
-description: يصف هذا الموضوع كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
+description: يصف هذا المقال كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848944"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>النطاقات في Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
+يصف هذا المقال كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
 
-المجالات هي عناوين ويب تُستخدم للانتقال إلى مواقع Dynamics 365 Commerce في مستعرض الويب. يمكنك التحكم في إدارة مجالك مع موفر خادم اسم مجال (DNS) تختاره. يُشار إلى المجالات عبر منشئ المواقع في Dynamics 365 Commerce لتنسيق كيفية الوصول إلى الموقع عند نشره. يراجع هذا الموضوع كيفية التعامل مع المجالات والإشارة اليها عبر دورة حياة تطوير موقع Commerce وتشغيله.
+المجالات هي عناوين ويب تُستخدم للانتقال إلى مواقع Dynamics 365 Commerce في مستعرض الويب. يمكنك التحكم في إدارة مجالك مع موفر خادم اسم مجال (DNS) تختاره. يُشار إلى المجالات عبر منشئ المواقع في Dynamics 365 Commerce لتنسيق كيفية الوصول إلى الموقع عند نشره. يراجع هذا المقال كيفية التعامل مع المجالات والإشارة اليها عبر دورة حياة تطوير موقع Commerce وتشغيله.
 
 > [!NOTE]
 > اعتبارًا من 6 مايو 2022، سيتم تزويد جميع البيئات التي نشأت في Dynamics 365 Commerce بواسطة المجال `.dynamics365commerce.ms`، مما يؤدي إلى استبدال نمط `.commerce.dynamics.com` السابق. ستستمر البيئات الموجودة التي يتم تزويدها بواسطة المحال `.commerce.dynamics.com` في العمل.

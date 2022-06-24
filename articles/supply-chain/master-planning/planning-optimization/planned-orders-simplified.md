@@ -1,6 +1,6 @@
 ---
 title: تم تبسيط الأوامر المخططة
-description: يشرج هذا الموضوع كيفية عرض الأوامر المخططة وإدارتها وتأكيدها باستخدام صفحة الأوامر المخططة المبسطة.
+description: يشرج هذا المقال كيفية عرض الأوامر المخططة وإدارتها وتأكيدها باستخدام صفحة الأوامر المخططة المبسطة.
 author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: b039aa5481b835d3523b86c4ea88afff6a96ba8b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5f207fa1edb11d05910e22732cf54e100e4e3489
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887359"
 ---
 # <a name="planned-orders-simplified"></a>تم تبسيط الأوامر المخططة
 
 [!include [banner](../../includes/banner.md)]
 
-يشرج هذا الموضوع كيفية عرض الأوامر المخططة وإدارتها وتأكيدها باستخدام صفحة **الأوامر المخططة المبسطة**.
+يشرج هذا المقال كيفية عرض الأوامر المخططة وإدارتها وتأكيدها باستخدام صفحة **الأوامر المخططة المبسطة** .
 
 تُعد صفحة **الأوامر المخططة المبسطة** إصدارًا مبسطًا من صفحة **الأوامر المخططة**. إنها توفر خيارات أقل ولكن يمكن العمل معها بشكل أسرع عندما يقتصر عملك على مراجعة الأوامر المخططة والموافقة عليها وتأكيدها.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>تشغيل هذه الميزة في نظامك
 
-إذا لم يتضمن نظامك الميزات التي ورد وصفها في هذا الموضوع، فانتقل إلى [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)، وقم بتشغيل ميزة *الأوامر المخططة المبسطة*.
+إذا لم يتضمن نظامك الميزات التي ورد وصفها في هذا المقال، فانتقل إلى [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)، وقم بتشغيل ميزة *الأوامر المخططة المبسطة*.
 
 ## <a name="view-manage-and-firm-planned-orders"></a>عرض الأوامر المخططة وإدارتها وتأكيدها
 

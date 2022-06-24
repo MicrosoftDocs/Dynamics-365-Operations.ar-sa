@@ -1,6 +1,6 @@
 ---
 title: تحليلات Commerce (إصدار أولي)
-description: يشرح هذا الموضوع كيفية تثبيت إمكانية التحليل واستخدامها في Microsoft Dynamics 365 Commerce.
+description: يشرح هذا المقال كيفية تثبيت إمكانية التحليل واستخدامها في Microsoft Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 02/24/2022
 audience: Application user
@@ -8,18 +8,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: 9ffa0affa0b80af65dd2aa37ef2fe969752ae332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8549997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887156"
 ---
 # <a name="commerce-analytics-preview"></a>تحليلات Commerce (إصدار أولي)
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تثبيت تحليلات Commerce (إصدار أولي)، وإمكانية التحليل الوظيفي المضمن في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية تثبيت تحليلات Commerce (إصدار أولي)، وإمكانية التحليل الوظيفي المضمن في Microsoft Dynamics 365 Commerce.
 
 ## <a name="commerce-analytics-preview-live-demo"></a>عرض توضيحي مباشر لتحليلات Commerce (إصدار أولي)
 

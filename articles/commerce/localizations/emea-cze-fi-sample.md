@@ -1,6 +1,6 @@
 ---
 title: عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬
-description: يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي في جمهورية التشيك في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي في جمهورية التشيك في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-4-1
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 1c764de42f727bb72adbb8b015745599f428656e
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: d255b03242a4cb7a72cef1e8e6fab901ecf953e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910488"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬
 
 [!include[banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي في جمهورية التشيك في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة على عينة التكامل المالي في جمهورية التشيك في Microsoft Dynamics 365 Commerce.
 
 للوفاء بالمتطلبات المالية المحلية لسجلات النقد في جمهورية التشيك، تتضمن وظيفة Dynamics 365 Commerce لجمهورية التشيك عينة تكامل لنقطة البيع (POS) مع خدمة تسجيل مالية خارجية. ويقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). وهو يستند إلى حل [EFR (السجل المالي الإلكتروني)](https://efsta.org/sicherheitsloesungen/) من [EFSTA](https://efsta.org/) ويقوم بتمكين الاتصال بخدمة EFR من خلال بروتوكول HTTPS. تضمن خدمة EFR التسجيل الإلكتروني للمبيعات (EET - Elektronická Directory tržeb)، أي النقل عبر الإنترنت لبيانات المبيعات إلى خدمة الويب المالية للسلطات الضريبية.
 

@@ -1,6 +1,6 @@
 ---
 title: إعداد فِرَق الإرسال
-description: يوضح هذا الموضوع كيفية إنشاء فريق إرسال.
+description: يوضح هذا المقال كيفية إنشاء فريق إرسال.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 742cb79076662e9595b98bb7acf91ffed5e0ac82
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2051ccdbe5786a347c1eba5bd36a0d6c77ad72a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675588"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847835"
 ---
 # <a name="set-up-dispatch-teams"></a>إعداد فِرَق الإرسال 
 
 [!include [banner](../includes/banner.md)]
 
 
-يوضح هذا الموضوع كيفية إنشاء فريق إرسال. بعد إنشاء فريق إرسال، يمكنك تعيين العمال للفريق. عند إنشاء أمر خدمة، يمكنك بعد ذلك ربط عضو في فريق الإرسال بنشاط في أمر الخدمة.
+يوضح هذا المقال كيفية إنشاء فريق إرسال. بعد إنشاء فريق إرسال، يمكنك تعيين العمال للفريق. عند إنشاء أمر خدمة، يمكنك بعد ذلك ربط عضو في فريق الإرسال بنشاط في أمر الخدمة.
 
 1.  انقر فوق **إدارة الخدمة** \> **الإعداد** \> **فرق الإرسال**.
 

@@ -1,6 +1,6 @@
 ---
 title: حاويات الشحن
-description: يوضح هذا الموضوع كيفية إعداد حاويات الشحن للوحدة المنطقية التكلفة شاملة التفريغ.
+description: يوضح هذا المقال كيفية إعداد حاويات الشحن للوحدة المنطقية التكلفة شاملة التفريغ.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860831"
 ---
 # <a name="shipping-container-setup"></a>إعداد حاوية الشحن
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد حاويات الشحن لوحدة **التكلفة المستلمة**.
+يوضح هذا المقال كيفية إعداد حاويات الشحن للوحدة المنطقية **التكلفة شاملة** التفريغ.
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>إعداد أنواع حاويات الشحن
 
@@ -53,7 +53,7 @@ ms.locfileid: "8690543"
 | الحقل | الوصف |
 |---|---|
 | حاوية الشحن | أدخل اسم/رقم تعريف فريد لحاوية الشحن. |
-| نوع حاوية الشحن | حدد نوع حاوية الشحن. لمزيد من المعلومات، راجع قسم [إعداد أنواع حاويات الشحن](#shipping-container-types) مبكرًا في هذا الموضوع. |
+| نوع حاوية الشحن | حدد نوع حاوية الشحن. لمزيد من المعلومات، راجع قسم [إعداد أنواع حاويات الشحن](#shipping-container-types) مبكرًا في هذا المقال . |
 
 > [!NOTE]
 > - إعداد حاوية الشحن اختياري. عادةً، لن تستخدمه إلا إذا كانت شركتك تمتلك حاويات الشحن الخاصة بها أو غالبًا ما تعيد استخدام نفس حاويات الشحن.

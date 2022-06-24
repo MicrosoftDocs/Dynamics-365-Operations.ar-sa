@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaa6c2d02077d8ee73c1fabbcd52681fc94e24d8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d0fe1c48d4f19f344262fdd2fa9f07afd8affa68
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882420"
 ---
 # <a name="copy-service-templates-lines"></a>نسخ بنود قوالب خدمة 
 
@@ -52,7 +52,7 @@ ms.locfileid: "8674942"
 
 لقد تم الآن نسخ بنود قالب الخدمة إلى أمر الخدمة، مع كائن الخدمة المرفق وعلاقات مهمة الخدمة. 
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [قوالب الخدمة](service-template.md)
 

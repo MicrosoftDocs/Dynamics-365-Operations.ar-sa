@@ -1,6 +1,6 @@
 ---
 title: إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
-description: يصف هذا الموضوع الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر.
+description: يصف هذا المقال الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719862"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873268"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>إنشاء كشوف حسابات لمتجر بيع بالتجزئة وحسابها وترحيلها
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر. هناك أيضا وظائف دفعية والتي يمكن تكوينها لنفس المهام. يمكن العثور على الخطوات لتكوين الوظائف الدفعية وتشغيلها في مواضيع أخرى. لإكمال هذا الإجراء، يجب أن يكون لديك حركات تم إكمالها في نقطة البيع ثم سحبها إلى Dynamics 365 Commerce. ويستخدم هذا التسجيل شركة USRT في بيانات العرض التوضيحي.
+يصف هذا المقال الخطوات اليدوية لإنشاء كشف حساب وحسابه وترحيله لمتجر. هناك أيضا وظائف دفعية والتي يمكن تكوينها لنفس المهام. يمكن العثور على الخطوات لتكوين الوظائف الدفعية وتشغيلها في مقالات أخرى. لإكمال هذا الإجراء، يجب أن يكون لديك حركات تم إكمالها في نقطة البيع ثم سحبها إلى Dynamics 365 Commerce. ويستخدم هذا التسجيل شركة USRT في بيانات العرض التوضيحي.
 
 1. حدد **ماليات المتجر** من الصفحة الرئيسية.
 2. حدد **كشف حساب جديد**.

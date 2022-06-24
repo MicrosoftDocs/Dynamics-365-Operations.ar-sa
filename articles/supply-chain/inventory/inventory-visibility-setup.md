@@ -2,7 +2,7 @@
 title: تثبيت الوظيفة الإضافية لرؤية المخزون
 description: يوضح هذا الموضوع كيفيه تثبيت الوظيفة الإضافية لرؤية المخزون لـ Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a49f35211f30cdb76104cc5be78f5b114320a228
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062640"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895688"
 ---
-# <a name="install-and-set-up-inventory-visibility"></a>تثبيت إعداد رؤية المخزون
+# <a name="install-and-set-up-inventory-visibility"></a>تثبيت Inventory Visibility وإعداده
 
 [!include [banner](../includes/banner.md)]
 
-
 يوضح هذا الموضوع كيفيه تثبيت الوظيفة الإضافية لرؤية المخزون لـ Microsoft Dynamics 365 Supply Chain Management.
 
-يجب عليك استخدام Microsoft Dynamics Lifecycle Services (LCS) لتثبيت الوظيفة الإضافية لرؤية المخزون. LCS عبارة عن مدخل تعاون يوفر بيئة ومجموعه من الخدمات المحدثة بشكل منتظم والتي تساعدك علي أداره دوره حياه التطبيقات الخاصة بتطبيقات finance and operations الخاصة بك.
+يجب عليك استخدام Microsoft Dynamics Lifecycle Services (LCS) لتثبيت الوظيفة الإضافية لرؤية المخزون. LCS عبارة عن مدخل تعاون يوفر بيئة ومجموعه من الخدمات المحدثة بشكل منتظم والتي تساعدك علي أداره دوره حياه التطبيقات الخاصة بتطبيقات finance and operations الخاصة بك. للحصول على مزيد من المعلومات، راجع [موارد Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-للحصول على مزيد من المعلومات، راجع [موارد Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+> [!TIP]
+> نوصي بالانضمام إلى مجموعة مستخدمي الوظيفة الإضافية لرؤية المخزون، حيث يمكنك العثور على أدلة مفيدة، والحصول على آخر التحديثات الخاصة بنا، ونشر أية أسئلة قد تكون لدينا بشأن استخدام رؤية المخزون. للانضمام، الرجاء إرسال بريد إلكتروني إلى رؤية المخزون فريق المنتجات على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) وتضمين معرف بيئة Supply Chain Management.
 
 ## <a name="inventory-visibility-prerequisites"></a>المتطلبات الأساسية لرؤية المخزون
 
@@ -44,6 +44,9 @@ ms.locfileid: "8062640"
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>تثبيت الوظيفة الإضافية لرؤية المخزون
 
 قبل تثبيت الوظيفة الإضافية، قم بتسجيل تطبيق وإضافة سر عميل إلى Azure Active Directory (Azure AD) ضمن اشتراك Azure. للحصول على إرشادات، راجع [تسجيل تطبيق](/azure/active-directory/develop/quickstart-register-app) و[إضافة سر عميل](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). تأكد من تدوين ملاحظة بشأن قيم **معرف التطبيق (العميل)**، و **سر العميل**، و **معرف المستأجر**، لأنك ستحتاج إليها لاحقًا.
+
+> [!IMPORTANT]
+> إذا كان لديك أكثر من بيئة LCS، فقم بإنشاء تطبيق Azure AD مختلف لكل منهم. في حالة استخدام نفس معرف التطبيق ومعرف المستاجر لتثبيت الوظيفة الإضافية لرؤية المخزون لبيئات مختلفة، ستحدث مشكلة في الرمز المميز للبيئات الأقدم. نتيجة لذلك، سيكون التثبيت الأخير فقط صالحًا.
 
 بعد تسجيل تطبيق وإضافة سر عميل إلى Azure AD، اتبع الخطوات التالية لتثبيت الوظيفة الإضافية "رؤية المخزون".
 
@@ -72,11 +75,18 @@ ms.locfileid: "8062640"
 1. حدد **تثبيت**. تظهر حاله الوظيفة الإضافية باعتبارها **قيد التثبيت**. عند اكتمال التثبيت، قم بتحديث الصفحة. يجب تغيير الحالة إلى **تم التثبيت**.
 1. في Dataverse، حدد قسم **التطبيقات** في جزء التنقل الأيمن، وتحقق من تثبيت **رؤية المخزون** في Power Apps بطريقة ناجحة. إذا لم يظهر قسم **التطبيقات**، فاتصل بفريق منتج رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
-> [!TIP]
-> نوصي بالانضمام إلى مجموعة مستخدمي الوظيفة الإضافية لرؤية المخزون، حيث يمكنك العثور على أدلة مفيدة، والحصول على آخر التحديثات الخاصة بنا، ونشر أية أسئلة قد تكون لدينا بشأن استخدام رؤية المخزون. للانضمام، الرجاء إرسال بريد إلكتروني إلى رؤية المخزون فريق المنتجات على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) وتضمين معرف بيئة Supply Chain Management.
-
-> [!IMPORTANT]
-> إذا كان لديك أكثر من بيئة LCS، فقم بإنشاء تطبيق Azure AD مختلف لكل بيئة. في حالة استخدام نفس معرف التطبيق ومعرف المستاجر لتثبيت الوظيفة الإضافية لرؤية المخزون لبيئات مختلفة، ستحدث مشكلة في الرمز المميز للبيئات الأقدم. سيكون آخر رمز تم تثبيته صالحاً فقط.
+> [!NOTE]
+> وفي حاله استغراق أكثر من ساعة للتثبيت من الصفحة LCS ، فمن المحتمل ان يكون حساب المستخدم الخاص بك يفتقد اذن لتثبيت حلول في البيئة Dataverse. اتبع هذه الخطوات لحل المشكلة:
+>
+> 1. قم بإلغاء عملية تثبيت الوظيفة الإضافية لرؤية المخزون من صفحة LCS.
+> 1. قم بتسجيل الدخول إلى مركز [Microsoft 365الاداره ](https://admin.microsoft.com)والتاكد من ان حساب المستخدم الذي تريد استخدامه لتثبيت الوظيفة الاضافيه تم تعيين ترخيص " Dynamics 365 Unified Operationsالخطة" له. قم بتعيين الترخيص إذا لزم الأمر.
+> 1. تسجيل الدخول إلى [Power Platformمركز ](https://admin.powerplatform.microsoft.com)الاداره باستخدام حساب المستخدم ذي الصلة. ثم قم بتثبيت الوظيفة الإضافية لرؤية المخزون عن طريق القيام بالخطوات التالية:
+>     1. حدد البيئة التي تريد تثبيت الوظيفة الإضافية فيها.
+>     1. حدد **تطبيقات Dynamics 365**.
+>     1. حدد **تثبيت التطبيق**.
+>     1. حدد **رؤية المخزون**
+>
+> 1. بعد اكتمال التثبيت ، انتقل إلى صفحه LCS وحاول أعاده تثبيت الوظيفة الاضافيه لرؤية **المخزون**.
 
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>إزالة تثبيت الوظيفة الإضافية لرؤية المخزون
 

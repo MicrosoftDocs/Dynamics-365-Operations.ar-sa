@@ -1,6 +1,6 @@
 ---
 title: وحدة الحاوية
-description: يتناول هذا الموضوع وحدات الحاوية ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+description: يتناول هذا المقال وحدات الحاوية ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa4bf7523acee06e91f0ebb983dd8777dec4bac5
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 4406b6ee998f3094e5a8a36d4f721839ffb427e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867830"
 ---
 # <a name="container-module"></a>وحدة الحاوية
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع وحدات الحاوية ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال وحدات الحاوية ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
 وحدة الحاوية هي وحدة تستضيف الوحدات الأخرى داخلها. يتمثل الغرض الأساسي من وحدة الحاوية في تعريف تخطيط الوحدات الموجودة فيها، من خلال الخصائص التي تم تعيينها لها. على سبيل المثال، يُمكن أن تظهر هذه الوحدات بجوار بعضها في تخطيط ذو عمودين أو ثلاثة أعمدة أو أربعة أعمدة أو ستة أعمدة. ويُمكن أيضًا أن تكون محدودة بعرض الحاوية أو يُمكنها ملء الشاشة. ويُمكن أيضًا إضافة عنوان لكل وحدة حاوية.
 

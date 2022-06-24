@@ -1,6 +1,6 @@
 ---
 title: استهداف الأجهزة والسوق وتحديد الموقع الجغرافي
-description: يصف هذا الموضوع كيفية إنشاء الجماهير والأهداف وتحريرها وإدارتها في منشئ مواقع Microsoft Dynamics 365 Commerce باستخدام معلومات الجهاز والسوق والموقع الجغرافي.
+description: يصف هذا المقال كيفية إنشاء الجماهير والأهداف وتحريرها وإدارتها في منشئ مواقع Microsoft Dynamics 365 Commerce باستخدام معلومات الجهاز والسوق والموقع الجغرافي.
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881647"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>استهداف الأجهزة والسوق وتحديد الموقع الجغرافي
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية إنشاء الجماهير والأهداف وتحريرها وإدارتها في منشئ مواقع Microsoft Dynamics 365 Commerce باستخدام معلومات الجهاز والسوق والموقع الجغرافي.
+يصف هذا المقال كيفية إنشاء الجماهير والأهداف وتحريرها وإدارتها في منشئ مواقع Microsoft Dynamics 365 Commerce باستخدام معلومات الجهاز والسوق والموقع الجغرافي.
 
 يتيح لك Dynamics 365 Commerce تخصيص أشكال مختلفة من محتوى صفحتك (المعروف باسم *الأهداف*) لمجموعات معينة من العملاء (تعرف باسم *الجماهير*) للمساعدة في زيادة تفاعل المستخدمين ورضاهم. يمكنك إنشاء جمهور أو هدف أولا. ومع ذلك، تتطلب تجربة استهداف ناجحة كلا هذين العنصرين.
 

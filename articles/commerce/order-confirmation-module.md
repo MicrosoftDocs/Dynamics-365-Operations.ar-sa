@@ -1,6 +1,6 @@
 ---
 title: الوحدة النمطية لتأكيد الأمر
-description: يغطي هذا الموضوع الوحدات النمطية لتأكيد الأمر ويصف كيفية إستخدامها في Microsoft Dynamics 365 Commerce.
+description: يغطي هذا المقال الوحدات النمطية لتأكيد الأمر ويصف كيفية إستخدامها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e74ffbdfe57f9220cc9ed85edae4270409165b41
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 994ec92abc53efeb240bca5dc8d67aabb45fbe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845768"
 ---
 # <a name="order-confirmation-module"></a>الوحدة النمطية لتأكيد الأمر
 
 [!include [banner](includes/banner.md)]
 
-يغطي هذا الموضوع الوحدات النمطية لتأكيد الأمر ويصف كيفية إستخدامها في Microsoft Dynamics 365 Commerce.
+يغطي هذا المقال الوحدات النمطية لتأكيد الأمر ويصف كيفية إستخدامها في Microsoft Dynamics 365 Commerce.
 
 تُستخدم وحدة تأكيد الأمر لإظهار تفاصيل تأكيد الأمر بعد إنشاء أحد الأوامر. ويعرض معرف تأكيد الأمر ومعلومات جهة الاتصال الخاصة بالأمر وتفاصيل الأمر الأخرى، مثل الأصناف التي تم شراؤها وخيارات الالتقاط وطريقة الشحن.
 

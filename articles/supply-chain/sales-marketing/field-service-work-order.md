@@ -1,6 +1,6 @@
 ---
 title: مزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management
-description: يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management.
+description: يناقش هذا المقال القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860511"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>مزامنة أوامر العمل في Field Service مع أوامر المبيعات في Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061299"
 
 
 
-يناقش هذا الموضوع القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Dynamics 365 Field Service إلى أوامر المبيعات في Dynamics 365 Supply Chain Management.
+يناقش هذا المقال القوالب والمهام الأساسية التي يتم استخدامها لمزامنة أوامر العمل في Dynamics 365 Field Service إلى أوامر المبيعات في Dynamics 365 Supply Chain Management.
 
 [![مزامنة عمليات الأعمال بين Supply Chain Management وField Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,9 +165,9 @@ ms.locfileid: "8061299"
 
 بشكل افتراضي، يقوم التعيين بتحديد أصل المبيعات لنوه أصل مبيعات **تكامل أمر العمل** لجميع أوامر المبيعات التي تم إنشاؤها من أوامر العمل. قد يفيد هذا السلوك عندما تتعامل مع أمر المبيعات في Supply Chain Management. يجب أن تتأكد من أنه لا تتم مزامنة أوامر المبيعات التي تنشأ من أوامر العمل مرة أخرى لـ Field Service كأوامر عمل.
 
-للحصول على مزيد من التفاصيل حول كيفية إنشاء إعداد أصل المبيعات الصحيح في Supply Chain Management، راجع قسم "إعداد الشروط المسبقة والتعيين" في هذا الموضوع.
+للحصول على مزيد من التفاصيل حول كيفية إنشاء إعداد أصل المبيعات الصحيح في Supply Chain Management، راجع قسم "إعداد الشروط المسبقة والتعيين" في هذا المقال.
 
-### <a name="status"></a>الحالة
+### <a name="status"></a>Status
 
 عند إنشاء أمر المبيعات من أمر عمل، يظهر حقل **حالة أمر العمل الخارجي** في علامة التبويب **الإعداد** في عنوان أمر المبيعات. يعرض هذا الحقل حالة النظام من أمر العمل في Field Service، للمساعدة في تعقب حالة أمر العمل الذي تمت مزامنة لأوامر المبيعات في Supply Chain Management. كما يمكن لهذا الحقل أن يساعد المستخدم على تحديد الوقت الذي ينبغي فيه شحن أمر المبيعات أو فوترته.
 

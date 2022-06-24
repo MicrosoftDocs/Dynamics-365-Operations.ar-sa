@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675364"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846202"
 ---
 # <a name="compare-item-prices-storage-report"></a>تقرير مقارنة تخزين أسعار الأصناف
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تشغيل تقرير **مقارنة تخزين أسعار الصنف** وتوفير المخرجات رقميًا، إما كصفحة تفاعلية في Dynamics 365 Supply Chain Management، أو كمستند مصدّر في أية تنسيقات متعددة.
+يوضح هذا المقال كيفية تشغيل تقرير **مقارنة تخزين أسعار الصنف** وتوفير المخرجات رقميًا، إما كصفحة تفاعلية في Dynamics 365 Supply Chain Management، أو كمستند مصدّر في أية تنسيقات متعددة.
 
 عندما تقوم بعرض التقرير في المستعرض، يتم تسوية الأعمدة والأرصدة التجميعية بشكل حيوي، وذلك وفقًا للتخطيط الذي تم تكوينه. يمكنك فرز النتائج وتصفيتها والتنقل لأسفل إلى البيانات وغير ذلك.
 

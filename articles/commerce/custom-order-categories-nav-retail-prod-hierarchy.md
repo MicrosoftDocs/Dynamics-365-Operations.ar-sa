@@ -1,6 +1,6 @@
 ---
-title: تغيير ترتيب الفرز لكيانات الترويج للبضائع
-description: يشرح هذا الموضوع المفاهيم المرتبطة بالتحكم في ترتيب عرض كيانات مختلفة المرتبطة بالترويج للبضائع في Dynamics 365 Commerce.
+title: تغيير ترتيب الفرز لكيانات ترويج البضائع
+description: يشرح هذا المقال المفاهيم المرتبطة بالتحكم في ترتيب عرض كيانات مختلفة المرتبطة بالترويج للبضائع في Dynamics 365 Commerce.
 author: josaw1
 ms.date: 08/05/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 4e7a7bd42b0ef72ae6bc3f52a8857602b6282907
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847644"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>تغيير ترتيب الفرز لكيانات الترويج للبضائع
 
@@ -29,7 +29,7 @@ ms.locfileid: "7779532"
 
 يعتبر اكتشاف المنتجات بالنسبة إلى بائعي التجزئة أداة أساسية لتفاعلات العملاء عبر جميع القنوات. بإمكان وظائف مختلفة أن تساعد العملاء على اكتشاف المنتجات بسهوله. على سبيل المثال، يمكنهم استعراض الفئات والبحث والتصفية.
 
-يشرح هذا الموضوع المفاهيم المرتبطة بالتحكم في ترتيب عرض كيانات مختلفة المرتبطة بالترويج للبضائع. كما يشرح كيفية تغيير ترتيب الفرز.
+يشرح هذا المقال المفاهيم المرتبطة بالتحكم في ترتيب عرض كيانات مختلفة المرتبطة بالترويج للبضائع. كما يشرح كيفية تغيير ترتيب الفرز.
 
 ## <a name="overview"></a>نظرة عامة
 

@@ -1,6 +1,6 @@
 ---
 title: تكوين التسلسلات الرقمية لتدفقات المستودع
-description: يوفر هذا الموضوع نظرة عامة حول الوظيفة التي توفر ملحقات تسلسلات رقمية لمعرفات لوحات الترخيص ومعرفات تسمية الموجة ومعرفات الحاوية ومعرفات بوليصة الشحن.
+description: يوفر هذا المقال نظرة عامة حول الوظيفة التي توفر ملحقات تسلسلات رقمية لمعرفات لوحات الترخيص ومعرفات تسمية الموجة ومعرفات الحاوية ومعرفات بوليصة الشحن.
 author: Mirzaab
 ms.date: 06/10/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 20438ed3e34775a6312508595bcd32b16a37a81d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 62530c8ffc8be8d3bae562708872ba8eb00fa9cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847777"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>تكوين التسلسلات الرقمية لتدفقات المستودع
 

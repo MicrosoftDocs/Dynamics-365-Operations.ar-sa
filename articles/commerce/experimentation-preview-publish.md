@@ -1,30 +1,24 @@
 ---
 title: معاينه التجربة ونشرها
-description: يوضح هذا الموضوع كيفيه معاينه التجربة ونشرها من Dynamics 365 Commerce.
+description: يوضح هذا المقالات كيفيه معاينه التجربة ونشرها من Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740373"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946122"
 ---
 # <a name="preview-and-publish-an-experiment"></a>معاينه التجربة ونشرها
 
-يصف هذا الموضوع كيفيه معاينه التجربة الخاصة بك ونشرها في Dynamics 365 Commerce بعد قيامك [بتوصيل التجربة وتحرير التباينات الخاصة بك](experimentation-connect-edit.md). يوضح الرسم التخطيطي التالي كافة الخطوات المتضمنة في اعداد وتشغيل تجربه علي أحد مواقع التجارة الالكترونيه في Dynamics 365 Commerce. وتتم تغطيه الخطوات الاضافيه في موضوعات منفصلة.
+يصف هذا المقال كيفيه معاينه التجربة الخاصة بك ونشرها في Dynamics 365 Commerce بعد قيامك [بتوصيل التجربة وتحرير التباينات الخاصة بك](experimentation-connect-edit.md). يوضح الرسم التخطيطي التالي كافة الخطوات المتضمنة في اعداد وتشغيل تجربه علي أحد مواقع التجارة الالكترونيه في Dynamics 365 Commerce. وتتم تغطيه الخطوات الاضافيه في مقالات منفصلة.
 
 [ ![رحلة مستخدم التجربة - المعاينه والنشر.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -51,6 +45,10 @@ ms.locfileid: "6740373"
 - لا تتوفر التجارب المتصلة بالصفحات الموجودة في موقع مباشر للصفحات الموجودة في نشر المجموعات والعكس بالعكس. بالمثل، لا تتوفر الصفحات التي يتم تشغيل التجارب عليها في موقع مباشر لتجارب أخرى في مجموعات النشر والعكس.
 - عند نشر مجموعه نشر أو جدولتها، يتم نشر كافة المحتويات الموجودة في مجموعه النشر، بغض النظر عما إذا كان هناك تجربه مقترنة بمجموعه النشر.
 - ونظرا لاستمرار استمرار مجموعه النشر بعد نشرها إلى موقع مباشر ، ستستمر الاكسبيريمينتس في مجموعه النشر أيضا. لذلك، لن تتمكن من اقران التجارب الأخرى بنفس الصفحة أو الجزء. لتجنب هذا القيد، قم بحذف إيه مجموعات نشر تحتوي على تجارب مستمرة. بالمثل، إذا كنت ترغب في حذف تجربه في موقع مباشر موجود أيضا في مجموعه نشر، فقم بحذفه من مجموعة النشر أولا.
+
+### <a name="force-variations-for-testing"></a>فرض التباينات للاختبار
+
+بمجرد ان يكون التجربة في حاله بقاء، يمكنك إلحاق معرف التجربة ومعرف التباين بالصفحة الافتراضية لمحدد موقع المعلومات (URL) الافتراضي لفرض تباين للاختبار أو التنفيذ التلقائي. علي سبيل المثال ، إذا كان محدد موقع المعلومات (URL) الخاص بالصفحة الافتراضية هو `https://fabrikam.com/modern/homepage` ، فيمكنك فرض تباين مع url مثل `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464` يمكنك الحصول علي معرف التجربة ومعرف التباين لتباين تجربتك من URL الخاص بالمعاينة في **العرض الموضح** أعلاه.
 
 ## <a name="previous-step"></a>الخطوة السابقة
 [الاتصال بتجربة وتحريرها](experimentation-connect-edit.md)

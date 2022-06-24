@@ -1,6 +1,6 @@
 ---
 title: طريقة توزيع التكلفة الإجمالية
-description: يوفر هذا الموضوع إرشادات لاستخدام إجمالي توزيع التكلفة (TCA). إن إجمالي توزيع التكلفة عبارة عن أسلوب لحساب التكلفة بين صنف مركب لأمر دُفعة والمنتجات المساعدة التي يتم تعريفها للمعادلة.
+description: توفر هذه المقالة إرشادات لاستخدام إجمالي توزيع التكلفة (TCA). إن إجمالي توزيع التكلفة عبارة عن أسلوب لحساب التكلفة بين صنف مركب لأمر دُفعة والمنتجات المساعدة التي يتم تعريفها للمعادلة.
 author: JennySong-SH
 ms.date: 04/15/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 948b2e91f8ab8ffe8d704159b60a281391e5bd6c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 213db8303c27934050f5b414a67f6e510486dc94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862674"
 ---
 # <a name="total-cost-allocation-method"></a>طريقة توزيع التكلفة الإجمالية
 

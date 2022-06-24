@@ -1,6 +1,6 @@
 ---
 title: وحدة منتقي الموقع
-description: يتناول هذا الموضوع وحدة منتقي الموقع ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+description: يتناول هذا المقال وحدة منتقي الموقع ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/04/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef7753658f878fdf76c6a6beb82ce54e9c12e212
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884593"
 ---
 # <a name="site-picker-module"></a>وحدة منتقي الموقع
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع وحدة منتقي الموقع ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال وحدة منتقي الموقع ويصف كيفية إضافتها إلى صفحات الموقع في Microsoft Dynamics 365 Commerce.
 
 عندما يكون للشركة مواقع مختلفه عبر الأسواق والمناطق والإعدادات المحلية، فان مستخدمي الموقع يحتاجون إلى طريقة سهلة للتبديل بين المواقع وتحديد موقع التسوق المفضل لديهم. لاحتواء هذا السيناريو ، تسمح وحدة منتقي الموقع للمستخدمين بالاستعراض عبر مواقع متعددة. يوصى أيضًا باستخدام منتقي المواقع عند تنفيذ [الكشف الجغرافي وإعادة التوجيه](geo-detection-redirection.md) لموقع التجارة الإلكترونية الخاص بك، بحيث يكون لدى العملاء طريقة لتجاوز تفضيل الموقع الذي يشيرون إليه باستخدام وحدة [منتقي البلد/المنطقة](country-region-picker-module.md). 
 

@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
-description: يوفر هذا الموضوع نظرة عامة على صفحة الفئة الافتراضية المنتقل إليها وصفحة نتائج البحث في Dynamics 365 Commerce.
+description: يوفر هذا المقال نظرة عامة على صفحة الفئة الافتراضية المنتقل إليها وصفحة نتائج البحث في Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881842"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع نظرة عامة على الصفحة المتنقل إليها للفئة الافتراضية وصفحة نتائج البحث في التجارة الإلكترونية في Microsoft Dynamics 365 Commerce.
+يوفر هذا المقال نظرة عامة على الصفحة المتنقل إليها للفئة الافتراضية وصفحة نتائج البحث في التجارة الإلكترونية في Microsoft Dynamics 365 Commerce.
 
 ## <a name="default-category-landing-page"></a>صفحة الفئة الافتراضية المنتقل إليها
 
@@ -32,7 +32,7 @@ ms.locfileid: "7982424"
 
 ![صفحة الفئة الافتراضية المنتقل إليها.](./media/SimpleCategoryLandingDressCategory.png)
 
-في أعلى الصفحة يوجد عنوان يعرض جميع فئات المنتجات والصفحات الأخرى التي صنّفها مدير البضائع. يتم إجراء التكوين كجزء من تكوين التدرج الهرمي للتنقل في القناة. يوجد أسفل الصفحة تذييل يتضمن ارتباطات سريعة لمختلف الموضوعات التي قد يهتم بها المتسوق.
+في أعلى الصفحة يوجد عنوان يعرض جميع فئات المنتجات والصفحات الأخرى التي صنّفها مدير البضائع. يتم إجراء التكوين كجزء من تكوين التدرج الهرمي للتنقل في القناة. يوجد أسفل الصفحة تذييل يتضمن ارتباطات سريعة لمختلف المقالات التي قد يهتم بها المتسوق.
 
 تعتبر المكونات التالية أساسية لفئة:
 

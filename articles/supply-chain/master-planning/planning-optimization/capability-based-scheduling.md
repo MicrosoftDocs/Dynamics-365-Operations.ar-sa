@@ -1,6 +1,6 @@
 ---
 title: الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة
-description: يصف هذا الموضوع تحديد الموارد اثناء جدولة سعة غير محدودة عند تحدد القدرات كمتطلبات موارد لإحدى العمليات.
+description: يصف هذا المقال تحديد الموارد اثناء جدولة سعة غير محدودة عند تحدد القدرات كمتطلبات موارد لإحدى العمليات.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d1ecdfdbdd605fca953e799ec3f6a82d244bc9f7
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469774"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847951"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة
 
 [!include [banner](../../includes/banner.md)]
 
-ومن خلال تحديد متطلبات الموارد لعملية في مسار إنتاج، فأنت تحدد ما هو مطلوب لتنفيذ هذه العملية. على سبيل المثال، قد تتطلب إحدى العمليات موردًا محددًا أو مجموعة موارد محددة أو مجموعة من المهارات أو القدرات. يصف هذا الموضوع تحديد الموارد اثناء جدولة سعة غير محدودة عند تحدد القدرات كمتطلبات موارد لإحدى العمليات.
+ومن خلال تحديد متطلبات الموارد لعملية في مسار إنتاج، فأنت تحدد ما هو مطلوب لتنفيذ هذه العملية. على سبيل المثال، قد تتطلب إحدى العمليات موردًا محددًا أو مجموعة موارد محددة أو مجموعة من المهارات أو القدرات. يصف هذا المقال تحديد الموارد اثناء جدولة سعة غير محدودة عند تحدد القدرات كمتطلبات موارد لإحدى العمليات.
 
 ## <a name="turn-on-the-capability-based-scheduling-feature"></a>تشغيل ميزة الجدولة القائمة على القدرات
 

@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12206661c20c3029ca61c75f728fbd915706477be6f6ebf7abe8366ebda8980b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e85756a2b7cdd3627c7a3fffa8dc97e0db13641a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884780"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> إنشاء الأبعاد المالية لسجلات نقاط البيع وتكوين قيم الأبعاد في السجلات
 
 [!include [banner](../includes/banner.md)]
 
-يتناول هذا الإجراء إنشاء أبعاد مالية لسجلات نقطة البيع، ويوضح كيفية تكوين قيم الأبعاد المالية في السجلات. لا يتضمن هذا الإجراء خطوات أخرى ذات صلة، مثل إنشاء مجموعات الأبعاد وبُنى الحسابات. يمكن العثور على هذه المهام في مواضيع أخرى. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USRT.
+يتناول هذا الإجراء إنشاء أبعاد مالية لسجلات نقطة البيع، ويوضح كيفية تكوين قيم الأبعاد المالية في السجلات. لا يتضمن هذا الإجراء خطوات أخرى ذات صلة، مثل إنشاء مجموعات الأبعاد وبُنى الحسابات. يمكن العثور على هذه المهام في مقالات أخرى. يستخدم هذا التسجيل شركة بيانات العرض التوضيحي USRT.
 
 1. انتقل إلى دفتر الأستاذ العام > دليل الحسابات > الأبعاد > الأبعاد المالية.
 2. انقر فوق "جديد".

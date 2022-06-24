@@ -1,6 +1,6 @@
 ---
-title: نصائح رؤية المخزون
-description: يوفر هذا الموضوع تلميحات قليله يجب وضعها في الاعتبار عند اعداد الوظيفة الاضافيه لرؤية المخزون واستخدامها.
+title: تلميحات حول Inventory Visibility
+description: يوفر هذا المقال تلميحات قليله يجب وضعها في الاعتبار عند اعداد الوظيفة الاضافيه لرؤية المخزون واستخدامها.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1f6ade36ac184a3c8bf790fc0d899ea01d90c8d2
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885946"
 ---
 # <a name="inventory-visibility-tips"></a>نصائح رؤية المخزون
 
@@ -34,5 +34,6 @@ ms.locfileid: "7952405"
 - إذا قمت بإضافة قياس أو أكثر من القياسات الجديدة إلى بيئة Supply Chain Management، فيجب أيضًا إضافتها في رؤية المخزون. ومع ذلك، يجب أن تأتي كافة تغييرات الكمية للمقاييس الجديدة من بيئة Supply Chain Management.
 - يتكون [تكوين القسم](inventory-visibility-configuration.md#partition-configuration) حاليًا من بعدين أساسيين (`SiteId` و`LocationId`) اللذين يشيران إلى كيفية توزيع البيانات. يمكن للعمليات التي تتم تحت نفس القسم تقديم أداء أعلى بتكلفة أقل. يتضمن الحل تكوين هذا القسم بشكل افتراضي. لذلك، *لا يتعين عليك تحديده بنفسك*. لا تقم بتخصيص تكوين القسم الافتراضي. إذا قمت بحذفه أو تغييره، فمن المحتمل ان تتسبب في حدوث خطا غير متوقع.
 - يجب عدم تعريف الأبعاد الأساسية التي تم تعريفها في تكوين القسم في [تكوين التدرج الهرمي لفهرس المنتجات](inventory-visibility-configuration.md#index-configuration).
+- تكوين [ التسلسل الهرمي لمؤشر المنتج لديك](inventory-visibility-configuration.md#index-configuration) يجب أن يتضمن تسلسلًا هرميًا واحدًا على الأقل للفهرس (على سبيل المثال ، يحتوي على البعد الأساسي `Empty`)وإلا ستفشل الاستعلامات مع الخطأ "لا يوجد تسلسل هرمي فهرس.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

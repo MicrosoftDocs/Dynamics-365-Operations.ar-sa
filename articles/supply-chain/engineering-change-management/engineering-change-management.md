@@ -1,6 +1,6 @@
 ---
 title: أداره التغييرات للمنتجات الهندسية
-description: يوفر هذا الموضوع معلومات حول إدارة التغييرات الهندسية. توفر أداره التغييرات الهندسية عمليات مركبه لأداره التغييرات للمنتجات الهندسية، بدءا من اقتراح، وطلب، واجراء تغييرات، ولمراجعه التغييرات واعتمادها، وتقدير تاثيرها علي الحركات الموجودة، ومتابعتها.
+description: يوفر هذا المقال معلومات حول إدارة التغييرات الهندسية. توفر أداره التغييرات الهندسية عمليات مركبه لأداره التغييرات للمنتجات الهندسية، بدءا من اقتراح، وطلب، واجراء تغييرات، ولمراجعه التغييرات واعتمادها، وتقدير تاثيرها علي الحركات الموجودة، ومتابعتها.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849579"
 ---
 # <a name="manage-changes-to-engineering-products"></a>أداره التغييرات للمنتجات الهندسية
 

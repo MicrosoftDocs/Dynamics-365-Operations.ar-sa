@@ -1,6 +1,6 @@
 ---
 title: إنشاء طلب يستخدم طلب عرض أسعار
-description: يوضح هذا الموضوع كيفية إضافة معلومات السعر والمورّد إلى طلب شراء من عملية طلب عرض الأسعار.
+description: يوضح هذا المقال كيفية إضافة معلومات السعر والمورّد إلى طلب شراء من عملية طلب عرض الأسعار.
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78092205c1a1d149b4dc202e085871d1fe46c4ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675110"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846000"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>إنشاء طلب يستخدم طلب عرض أسعار
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إضافة معلومات السعر والمورّد إلى طلب شراء من عملية طلب عرض الأسعار. يمكن استخدام المثال المعروض في هذا الدليل في شركة بيانات العرض التوضيحي USMF، ويجب أن تسجل دخولك كمسؤول لإكمال كافة الخطوات. يقوم أخصائيو التدبير عادةً بتنفيذ المهام الموجودة في هذا الدليل.
+يوضح هذا المقال كيفية إضافة معلومات السعر والمورّد إلى طلب شراء من عملية طلب عرض الأسعار. يمكن استخدام المثال المعروض في هذا الدليل في شركة بيانات العرض التوضيحي USMF، ويجب أن تسجل دخولك كمسؤول لإكمال كافة الخطوات. يقوم أخصائيو التدبير عادةً بتنفيذ المهام الموجودة في هذا الدليل.
 
 
 ## <a name="create-a-requisition"></a>إنشاء طلب

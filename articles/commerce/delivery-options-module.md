@@ -1,6 +1,6 @@
 ---
-title: الوحدة النمطية لخيارات التسليم
-description: يتناول هذا الموضوع الوحدات النمطية لخيارات التسليم ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
+title: وحدة خيارات التسليم
+description: يتناول هذا المقال الوحدات النمطية لخيارات التسليم ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 02/24/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9b9a7ad05974b98511cfc582af62c19c5fb4dbf5
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 554a17cf1c90f7fdaa20de74c3f6726910ab815d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894548"
 ---
-# <a name="delivery-options-module"></a>الوحدة النمطية لخيارات التسليم
+# <a name="delivery-options-module"></a>وحدة خيارات التسليم
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع الوحدات النمطية لخيارات التسليم ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال الوحدات النمطية لخيارات التسليم ويصف كيفية تكوينها في Microsoft Dynamics 365 Commerce.
 
 تتيح الوحدات النمطية لخيارات التسليم للعملاء تحديد وضع التسليم مثل الشحن أو الاستلام لطلباتهم عبر الإنترنت. عنوان الشحن مطلوب لتحديد طريقة التسليم. إذا تغيّر عنوان الشحن، فيجب البحث عن خيارات التسليم مرة أخرى. إذا تضمن الأمر أصنافًا سيتم استلامها في المتجر فقط، فسيتم إخفاء هذه الوحدة النمطية بشكل تلقائي.
 

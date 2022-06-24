@@ -1,6 +1,6 @@
 ---
 title: تطبيق إضافة منتج إلى إعدادات السلة
-description: يتناول هذا الموضوع إعدادات "إضافة منتج سلة التسوق" ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
+description: يتناول هذا المقال إعدادات "إضافة منتج سلة التسوق" ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866020"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>تطبيق إضافة منتج إلى إعدادات السلة
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع إعدادات **إضافة منتج سلة التسوق** ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال إعدادات **إضافة منتج سلة التسوق** ويصف كيفية تطبيقها في Microsoft Dynamics 365 Commerce.
 
 يتم دعم مهام سير العمل المختلفة عند إضافة منتج إلى سلة التسوق الموجودة في موقع التجارة الإلكترونية في Dynamics 365 Commerce. على سبيل المثال، قد يتم أخذ مستخدم الموقع إلى صفحة سلة التسوق. بدلاً من ذلك، قد يبقي المستخدم في الصفحة الحالية ولكن يتلقى إخطارًا يؤكد أنه تمت إضافة المنتج إلى سلة التسوق.
 

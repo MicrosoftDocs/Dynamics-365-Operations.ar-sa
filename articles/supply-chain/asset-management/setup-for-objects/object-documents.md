@@ -1,6 +1,6 @@
 ---
-title: مستندات الأصول
-description: يشرح هذا الموضوع مستندات الأصول في إدارة الأصول.
+title: مستندات الأصل
+description: يشرح هذا المقال مستندات الأصول في إدارة الأصول.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899458"
 ---
-# <a name="asset-documents"></a>مستندات الأصول
+# <a name="asset-documents"></a>مستندات الأصل
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-يشرح هذا الموضوع مستندات الأصول في إدارة الأصول.
+يشرح هذا المقال مستندات الأصول في إدارة الأصول.
 
 في إدارة الأصول، يمكنك إعداد المستندات بحيث تكون مرتبطة تلقائيًا بأنواع الوظائف أو الشركات المصنعة للأصول أو أنواع الأصول أو الأصول، على سبيل المثال. تكون هذه الوظيفة مفيدة عند إصدار نسخ مستندات محدثة. وفي هذه الحالة، يجب عليك فقط وضع المستند المحدّث في الموقع القياسي الذي تستخدمه لمستندات Supply chain Management، وإرفاق المستند بسجل مستند الأصل الذي قمت بإنشائه. بعد ذلك، يمكن الوصول إلى المستند المحدث من بنود قائمة **كل الأصول** و **الأصول‏‎ النشطة** و **أصولي النشطة** و **جميع أوامر العمل** و **وظائف أوامر العمل النشطة**. تستخدم عملية إرفاق المستندات بسجل مستندات الأصول النظام القياسي للتعامل مع المستندات.
 

@@ -1,6 +1,6 @@
 ---
 title: إعداد سيناريو لذكاء IoT
-description: يوضح هذا الموضوع كيفية تكوين سيناريوهات لذكاء IoT في Microsoft Dynamics 365 Supply Chain Management.
+description: يوضح هذا المقال كيفية تكوين سيناريوهات لذكاء IoT في Microsoft Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dddc282ef3e479d524b1dfa0c60091cad1c231e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3172bdb81e00d20c5b1d1f3f8e4299ca69c59434
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889595"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>إعداد سيناريو لذكاء IoT
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تكوين سيناريوهات لذكاء IoT في Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
+يوضح هذا المقال كيفية تكوين سيناريوهات لذكاء IoT في Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
-في هذا الموضوع، ستقوم بتكوين سيناريو **وقت تعطل المعدات** لإنشاء إخطاء في Supply Chain Management عند تعطل أحد الأجهزة. يبين هذا الموضوع أيضًا كيفية تكوين سيناريو **جودة المنتج** بحيث يتم إنشاء اخطار إذا كانت سمة أحد الأصناف خارج نطاق محدد، وكيفية تكوين سيناريو‏‎ **تأخيرات الإنتاج** بحيث يتم إنشاء اخطار إذا كان صافي الإنتاج أقل من قيمة الحد.
+في هذا المقال، ستقوم بتكوين سيناريو **وقت تعطل المعدات** لإنشاء إخطاء في Supply Chain Management عند تعطل أحد الأجهزة. يبين هذا المقال أيضًا كيفية تكوين سيناريو **جودة المنتج** بحيث يتم إنشاء اخطار إذا كانت سمة أحد الأصناف خارج نطاق محدد، وكيفية تكوين سيناريو‏‎ **تأخيرات الإنتاج** بحيث يتم إنشاء اخطار إذا كان صافي الإنتاج أقل من قيمة الحد.
 
 ## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>تكوين سيناريو تعطل المعدات في Supply Chain Management
 

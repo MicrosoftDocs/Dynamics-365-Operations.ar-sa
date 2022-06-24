@@ -1,6 +1,6 @@
 ---
 title: لا يتم إرسال البريد الإلكتروني الترحيبي عند إنشاء عملاء جدد
-description: يوفر هذا الموضوع إرشادات استكشاف الأخطاء وإصلاحها التي يمكن أن تساعد في حالة عدم إرسال إشعار بريد إلكتروني ترحيبي عند إنشاء عميل جديد في Microsoft Dynamics 365 Commerce.
+description: يوفر هذا المقال إرشادات استكشاف الأخطاء وإصلاحها التي يمكن أن تساعد في حالة عدم إرسال إشعار بريد إلكتروني ترحيبي عند إنشاء عميل جديد في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 1a4faf6cd189f69232e7f9ab8d0e79b320cfe2d9
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 8e95b33d4b8a9af13c613ab89dd33de6b4934694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853673"
 ---
 # <a name="welcome-email-is-not-sent-when-new-customers-are-created"></a>لا يتم إرسال البريد الإلكتروني الترحيبي عند إنشاء عملاء جدد
 
 [!include [banner](../../includes/banner.md)]
 
-يوفر هذا الموضوع إرشادات استكشاف الأخطاء وإصلاحها التي يمكن أن تساعد في حالة عدم إرسال إشعار بريد إلكتروني ترحيبي عند إنشاء عميل جديد في Microsoft Dynamics 365 Commerce.
+يوفر هذا المقال إرشادات استكشاف الأخطاء وإصلاحها التي يمكن أن تساعد في حالة عدم إرسال إشعار بريد إلكتروني ترحيبي عند إنشاء عميل جديد في Microsoft Dynamics 365 Commerce.
 
 ## <a name="description"></a>‏‏الوصف‬
 

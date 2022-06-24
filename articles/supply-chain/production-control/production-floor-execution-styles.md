@@ -1,6 +1,6 @@
 ---
 title: تنميط واجهة تنفيذ طابق الإنتاج
-description: يوضح الموضوع كيفيه تكوين عناصر التحكم بالنماذج بحيث يتم تطبيق أنماط تنفيذ الطوابق الافتراضية للإنتاج عليها.
+description: يوضح المقال كيفيه تكوين عناصر التحكم بالنماذج بحيث يتم تطبيق أنماط تنفيذ الطوابق الافتراضية للإنتاج عليها.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859129"
 ---
 # <a name="style-the-production-floor-execution-interface"></a>تنميط واجهة تنفيذ طابق الإنتاج
 
 [!include [banner](../includes/banner.md)]
 
-يوضح الموضوع كيفيه تكوين عناصر التحكم بالنماذج بحيث يتم تطبيق أنماط تنفيذ الطوابق الافتراضية للإنتاج عليها.
+يوضح المقال كيفيه تكوين عناصر التحكم بالنماذج بحيث يتم تطبيق أنماط تنفيذ الطوابق الافتراضية للإنتاج عليها.
 
 ## <a name="forms-and-dialogs"></a>النماذج ومربعات الحوار
 
@@ -31,7 +31,7 @@ ms.locfileid: "7790880"
 - إذا كان يجب أن يكون النموذج مشابهًا لنموذج تقدم التقرير الحالي، فيجب أن يبدأ اسم النموذج أو مربع الحوار بـ `JmgProductionFloorExecutionCustomInputDialog`.
 - يمكن ان يحتوي النموذج أو مربع الحوار علي جزء نموذج تفصيلي. لتطبيق الأنماط عليه، يجب أن يبدأ اسم جزء النموذج التفصيلي بـ `JmgProductionFloorExecutionCustomDetailsDialog`.
 - إذا كان يجب أن يحتوي النموذج أو مربع الحوار على طريقة عرض بسيطة، فيجب أن يبدأ اسم العرض البسيط بـ `JmgProductionFloorExecutionCustomDialog`. تشتمل أمثله النماذج التي لها عرض بسيط علي نموذج البدء ونموذج النشاط غير المباشر.
-- يجب ان يتم تكوين كافة عناصر التحكم الموجودة في مربع الحوار كما هو موضح في هذا الموضوع.
+- يجب ان يتم تكوين كافة عناصر التحكم الموجودة في مربع الحوار كما هو موضح في هذا المقال.
 
 > [!IMPORTANT]
 > تتطلب الميزات المذكورة في أول نقطتين لهذه القائمة الإصدار 10.0.19 لتطبيق Supply Chain Management أو أحدث.

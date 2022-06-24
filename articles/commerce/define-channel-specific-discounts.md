@@ -1,6 +1,6 @@
 ---
 title: تحديد الخصومات الخاصة بالقناة
-description: يعيّن تجار البيع بالتجزئة في أغلب الأحيان خصومات مختلفة في قنوات مختلفة. يستعرض هذا الموضوع المفاهيم التي تحتاج إلى معرفتها لإنشاء خصم لقناة محددة.
+description: يعيّن تجار البيع بالتجزئة في أغلب الأحيان خصومات مختلفة في قنوات مختلفة. يستعرض هذا المقال المفاهيم التي تحتاج إلى معرفتها لإنشاء خصم لقناة محددة.
 author: scott-tucker
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 14b6f8f4a7d344111718fad94418bc3dbb5c9b1e113c0fd613350c49a2511d4f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ceb5c8e47288e7ffdd3808cd8d60112f81ce314
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873400"
 ---
 # <a name="define-channel-specific-discounts"></a>تحديد الخصومات الخاصة بالقناة
 
 [!include [banner](includes/banner.md)]
 
-يستعرض هذا الموضوع المفاهيم التي تحتاج إلى معرفتها لإنشاء خصم لقناة محددة.
+يستعرض هذا المقال المفاهيم التي تحتاج إلى معرفتها لإنشاء خصم لقناة محددة.
 
 ## <a name="channel-specific-discounts"></a>الخصومات الخاصة بالقناة
 

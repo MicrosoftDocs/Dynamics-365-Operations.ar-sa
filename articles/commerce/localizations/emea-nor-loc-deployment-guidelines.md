@@ -1,6 +1,6 @@
 ---
 title: إرشادات النشر لآلات تسجيل المدفوعات النقدية للنرويج (قديمة)
-description: هذا الموضوع هو دليل النشر الذي يوضح كيفيه تمكين ترجمة Microsoft Dynamics 365 Commerce للنرويج.
+description: هذا المقال هو دليل النشر الذي يوضح كيفيه تمكين ترجمة Microsoft Dynamics 365 Commerce للنرويج.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,27 +9,27 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-2-28
-ms.openlocfilehash: 019bac01abdc0b2e16718c08953b44fbccef83a3
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 7a6450215f152779428d3b0fd83bf09761e2ad98
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894452"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>إرشادات النشر لآلات تسجيل المدفوعات النقدية للنرويج (قديمة)
 
 [!include [banner](../includes/banner.md)]
 
-هذا الموضوع هو دليل النشر الذي يوضح كيفيه تمكين ترجمة Microsoft Dynamics 365 Commerce للنرويج. تتكون الترجمة من عده ملحقات من مكونات Commerce. على سبيل المثال، تتيح لك الملحقات طباعة الحقول المخصصة على الإيصالات وتسجيل أحداث تدقيق إضافية ومعاملات المبيعات ومعاملات الدفع في نقاط البيع (POS) وتوقيع معاملات المبيعات رقميًا وطباعة تقارير X وZ بالتنسيقات المحلية. لمزيد من المعلومات حول الترجمة الخاصة بالنرويج، راجع [وظيفة تسجيل النقد للنرويج](./emea-nor-cash-registers.md).
+هذا المقال هو دليل النشر الذي يوضح كيفيه تمكين ترجمة Microsoft Dynamics 365 Commerce للنرويج. تتكون الترجمة من عده ملحقات من مكونات Commerce. على سبيل المثال، تتيح لك الملحقات طباعة الحقول المخصصة على الإيصالات وتسجيل أحداث تدقيق إضافية ومعاملات المبيعات ومعاملات الدفع في نقاط البيع (POS) وتوقيع معاملات المبيعات رقميًا وطباعة تقارير X وZ بالتنسيقات المحلية. لمزيد من المعلومات حول الترجمة الخاصة بالنرويج، راجع [وظيفة تسجيل النقد للنرويج](./emea-nor-cash-registers.md).
 
 تعد هذه العينة جزءا من مجموعه تطوير برامج البيع بالتجزئة (SDK). للحصول على مزيد من المعلومات حول SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-يتكون هذا النموذج من ملحقات Commerce Runtime (CRT)، وخادم Retail، ونقطة البيع. لتشغيل هذا النموذج، يجب تعديل مشاريع CRT وخادم Retail ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا الموضوع. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Microsoft Visual Studio Online (VSO)، حيث لم يتم تغيير أي ملفات حتى الآن.
+يتكون هذا النموذج من ملحقات Commerce Runtime (CRT)، وخادم Retail، ونقطة البيع. لتشغيل هذا النموذج، يجب تعديل مشاريع CRT وخادم Retail ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Microsoft Visual Studio Online (VSO)، حيث لم يتم تغيير أي ملفات حتى الآن.
 
 > [!NOTE]
-> في Commerce 10.0.8 والإصدارات الأحدث، يُعرف خادم Retail باسم Commerce Scale Unit. نظرًا لأن هذا الموضوع ينطبق على إصدارات سابقة متعددة من التطبيق، يتم استخدام *خادم Retail* في جميع أنحاء الموضوع.
+> في Commerce 10.0.8 والإصدارات الأحدث، يُعرف خادم Retail باسم Commerce Scale Unit. نظرًا لأن هذا المقال ينطبق على إصدارات سابقة متعددة من التطبيق، يتم استخدام *خادم Retail* في جميع أنحاء المقال.
 >
-> تختلف بعض الخطوات في الإجراءات الموجودة في هذا الموضوع استنادا إلى إصدار Commerce الذي تستخدمه. لمزيد من المعلومات، راجع [ما هو الجديد أو المتغير في Dynamics 365 Retail](../get-started/whats-new.md).
+> تختلف بعض الخطوات في الإجراءات الموجودة في هذا المقال استنادا إلى إصدار Commerce الذي تستخدمه. لمزيد من المعلومات، راجع [ما هو الجديد أو المتغير في Dynamics 365 Retail](../get-started/whats-new.md).
 
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>استخدام ملفات تعريف الشهادات في قنوات Commerce
 
@@ -1252,7 +1252,7 @@ ms.locfileid: "7944778"
 
 اتبع هذه الخطوات لإنشاء حزم قابلة للنشر تحتوي على مكونات Commerce، ولتطبيق هذه الحزم في بيئة إنتاج.
 
-1. أكمل الخطوات الواردة في قسم [مكونات ملحقات نقطة بيع المجموعة](#cloud-pos-extension-components) أو [مكونات توسيع نقطة البيع الحديثة](#modern-pos-extension-components) سابقًا في هذا الموضوع.
+1. أكمل الخطوات الواردة في قسم [مكونات ملحقات نقطة بيع المجموعة](#cloud-pos-extension-components) أو [مكونات توسيع نقطة البيع الحديثة](#modern-pos-extension-components) سابقًا في هذا المقال.
 2. قم بإجراء التغييرات التالية في ملفات تكوين الحزمة ضمن مجلد **RetailSdk\\Assets**:
 
     1. في ملفات تكوين **commerceruntime.ext.config** و **CommerceRuntime.MPOSOffline.Ext.config**، أضف الأسطر التالية إلى قسم **التأليف**:

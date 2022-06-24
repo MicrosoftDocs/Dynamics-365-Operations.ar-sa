@@ -1,6 +1,6 @@
 ---
 title: تحويل وحدة القياس لكل متغير منتج
-description: يشرح هذا الموضوع كيفية إعداد تحويلات وحدات القياس لمتغيرات المنتج. يتضمن مثالاً عن الإعداد.
+description: يشرح هذا المقال كيفية إعداد تحويلات وحدات القياس لمتغيرات المنتج. يتضمن مثالاً عن الإعداد.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c02252abcaf82cb2aab928949827e25ef7cce8c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a605e510ac8faa1f92e105c9fcc30222ef78e05e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579558"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869622"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>تحويل وحدة القياس لكل متغير منتج
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد تحويلات وحدات القياس لمتغيرات المنتج المختلفة.
+يشرح هذا المقال كيفية إعداد تحويلات وحدات القياس لمتغيرات المنتج المختلفة.
 
 بدلا من إنشاء منتجات فردية متعددة والتي يجب الاحتفاظ بها، يمكنك استخدام متغيرات المنتج لإنشاء تباينات لمنتج واحد. على سبيل المثال، قد يكون أحد متغيرات المنتج قميص تي شيرت بحجم ولون محدد.
 

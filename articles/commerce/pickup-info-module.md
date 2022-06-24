@@ -1,6 +1,6 @@
 ---
-title: الوحدة النمطية لمعلومات الالتقاط
-description: يتناول هذا الموضوع الوحدة النمطية لمعلومات الالتقاط ويوضح كيفية إضافتها إلى صفحات السداد مع الخروج في Microsoft Dynamics 365 Commerce.
+title: وحدة معلومات الاستلام
+description: يتناول هذا المقال الوحدة النمطية لمعلومات الالتقاط ويوضح كيفية إضافتها إلى صفحات السداد مع الخروج في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892587"
 ---
-# <a name="pickup-information-module"></a>الوحدة النمطية لمعلومات الاستلام
+# <a name="pickup-information-module"></a>وحدة معلومات الاستلام
 
 [!include [banner](includes/banner.md)]
 
-يتناول هذا الموضوع الوحدة النمطية لمعلومات الالتقاط ويوضح كيفية إضافتها إلى صفحات السداد مع الخروج في Microsoft Dynamics 365 Commerce.
+يتناول هذا المقال الوحدة النمطية لمعلومات الالتقاط ويوضح كيفية إضافتها إلى صفحات السداد مع الخروج في Microsoft Dynamics 365 Commerce.
 
 يمكن استخدام الوحدة النمطية لمعلومات الالتقاط في الوحدة النمطية للسداد والخروج لإظهار معلومات التقاط الأمر. يمكن للعملاء عرض تواريخ الالتقاط والفترات الزمنية المتاحة، ثم تحديد الوقت المناسب لالتقاط أوامرهم. على سبيل المثال، يمكن للعميل اختيار التقاط أمر الساعة 3 مساءً يوم 21 مارس من متجر سان فرانسيسكو.
 

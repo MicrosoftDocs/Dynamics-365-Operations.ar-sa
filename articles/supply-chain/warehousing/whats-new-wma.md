@@ -1,6 +1,6 @@
 ---
-title: ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
-description: يسرد هذا الموضوع الميزات الجديدة والمتغيرة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
+title: الجديد أو المتغير في تطبيق Warehouse Management للأجهزة المحمولة
+description: يسرد هذا المقال الميزات الجديدة والمتغيرة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661814"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945712"
 ---
-# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>ما الجديد أو الذي تم تغييره في تطبيق Warehouse Management للأجهزة المحمولة
+# <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>الجديد أو المتغير في تطبيق Warehouse Management للأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
 
-يسرد هذا الموضوع الميزات الجديدة والتحسينات والمشكلات المعروفة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
+يسرد هذا المقال الميزات الجديدة والتحسينات والمشكلات المعروفة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>الإصدار 2.0.24.0
+
+يقدم هذا الإصدار الميزات الجديدة والإصلاحات والتحسينات التالية:
+
+- صفحات الماسح الضوئي المحسنة لتمكين خيار الفحص في **صفحات التفاصيل**.
+- إيماءات محسنه ، مثل اللمس/النقر فوق الشاشة.
+- مشاكل Androidأداء محسنه.
+- موضع ثابت للرؤوس المتعددة للسماح بعرض مزيد من البطاقات في صفحه **‎الاستعلام**.
+- تمرير محسن حتى يتم تمكين المسافات الأقل للصفحات التي تم تمريرها.
+- تمت أضافه ضغط طويل لعرض نص إضافي في صفحة **الاستعلام‎**.
+- معلومات معرف الجهاز الثابت مفقوده ل Android.
+- الاستقرار المتزايد.
+- تحسين تخطيط تسجيل الدخول.
+- تمت أضافه إيماءه السحب لليمين لإغلاق الصفحات المنبثقة علي لوحه الأرقام وصفحه **التفاصيل** وصفحات الإدخال.
 
 ## <a name="version-20220"></a>الإصدار 2.0.22.0
 

@@ -1,6 +1,6 @@
 ---
 title: تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce
-description: يوفر هذا الموضوع إرشادات حول كيفية توصيل حل Azure Data Lake Storage Gen 2 بمتجر الكيانات في بيئات Dynamics 365 Commerce. هذه الخطوة مطلوبة قبل تمكين توصيات المنتج.
+description: يوفر هذا المقال إرشادات حول كيفية توصيل حل Azure Data Lake Storage Gen 2 بمتجر الكيانات في بيئات Dynamics 365 Commerce. هذه الخطوة مطلوبة قبل تمكين توصيات المنتج.
 author: bebeale
 ms.date: 08/31/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c96c29a4d9639b02e6a60ad938b7e06f7d500c68
-ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
+ms.openlocfilehash: 6e0c84dd6b173a111b70a8adb6036be946149f7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/01/2021
-ms.locfileid: "7466282"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885161"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع إرشادات حول كيفية توصيل حل Azure Data Lake Storage Gen2 بمتجر الكيانات في بيئات Dynamics 365 Commerce. هذه الخطوة مطلوبة قبل تمكين توصيات المنتج.
+يوفر هذا المقال إرشادات حول كيفية توصيل حل Azure Data Lake Storage Gen2 بمتجر الكيانات في بيئات Dynamics 365 Commerce. هذه الخطوة مطلوبة قبل تمكين توصيات المنتج.
 
 في حل Dynamics 365 Commerce، يتم تجميع البيانات اللازمة لحساب التوصيات والمنتجات والحركات في متجر كيانات البيئة. لتمكين وصول هذه البيانات لخدمات Dynamics 365 الأخرى، مثل تحليلات البيانات والمعلومات المهنية والتوصيات المخصصة، من الضروري توصيل البيئة بحل Azure Data Lake Storage Gen2 الذي يملكه العميل.
 

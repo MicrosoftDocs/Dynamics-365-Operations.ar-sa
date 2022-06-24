@@ -1,6 +1,6 @@
 ---
-title: تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce
-description: يوضح هذا الموضوع كيف تكون الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
+title: تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
+description: يوضح هذا المقال كيف تكون الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
 author: BrianShook
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,30 +14,30 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e0aabec196aa1ffd2e4d2f2691c03cf11326ee8
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861956"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية تكوين الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
+يوضح هذا المقال كيفية تكوين الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
 
 ## <a name="prerequisite"></a>المتطلب الأساسي
 
-استكمل الإجراءات في هذا الموضوع فقط بعد توفير بيئة تقييم Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة تقييم Dynamics 365 Commerce](./cpe-post-provisioning.md).
+استكمل الإجراءات في هذا المقال فقط بعد توفير بيئة تقييم Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة تقييم Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
-بعد توفير بيئة معاينة Commerce وتكوينها من البداية إلى النهائية، يمكنك استخدام هذا الموضوع لتكوين سيناريوهات BOPIS.
+بعد توفير بيئة معاينة Commerce وتكوينها من البداية إلى النهائية، يمكنك استخدام هذا المقال لتكوين سيناريوهات BOPIS.
 
 ## <a name="configure-the-pos"></a>تكوين نقطة البيع (POS)
 
 ### <a name="configure-modern-pos"></a>تكوين Modern POS
 
-تحتاج سيناريوهات BOPIS التي تتضمن الدفع ببطاقة ائتمان إلى محطة أجهزة. ويتم دمج محطة الأجهزة في Modern POS لعملاء Windows وAndroid. إذا كنت تستخدم Cloud POS أو Modern POS لـ iOS، فيجب إقران عميل نقطة البيع (POS) مع محطة أجهزة مشتركة. يشرح هذا الموضوع كيفية تكوين BOPIS لعملاء Windows وAndroid. للحصول على مزيد من المعلومات حول كيفية إعداد محطة أجهزة مشتركة، راجع [تكوين محطة أجهزة Retail وتثبيتها](./retail-hardware-station-configuration-installation.md).
+تحتاج سيناريوهات BOPIS التي تتضمن الدفع ببطاقة ائتمان إلى محطة أجهزة. ويتم دمج محطة الأجهزة في Modern POS لعملاء Windows وAndroid. إذا كنت تستخدم Cloud POS أو Modern POS لـ iOS، فيجب إقران عميل نقطة البيع (POS) مع محطة أجهزة مشتركة. يشرح هذا المقال كيفية تكوين BOPIS لعملاء Windows وAndroid. للحصول على مزيد من المعلومات حول كيفية إعداد محطة أجهزة مشتركة، راجع [تكوين محطة أجهزة Retail وتثبيتها](./retail-hardware-station-configuration-installation.md).
 
 1. انتقل إلى **Retail and Commerce \> إعداد قناة \> إعداد POS \> السجلات**.
 2. حدد السجل **SANFRAN-5**، ثم حدد **تحرير**.
@@ -67,7 +67,7 @@ ms.locfileid: "7779784"
 5. يظهر مربع حوار المصادقة. حدد الحساب الذي يستخدم عنوان البريد الإلكتروني الذي كان مرتبطًا في السابق بالعامل **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > إذا لم تكن قد قمت بربط عامل بهويتك، فسيكون التنشيط غير ناجح. في هذه الحالة، اتبع الخطوات تحت قسم "ربط عامل بهويتك" في الموضوع [تكوين بيئة تقييم Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > إذا لم تكن قد قمت بربط عامل بهويتك، فسيكون التنشيط غير ناجح. في هذه الحالة، اتبع الخطوات تحت قسم "ربط عامل بهويتك" في المقال [تكوين بيئة تقييم Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. عندما مطالبتك بالسماح للمؤسسة بإدارة الجهاز، حدد **هذا التطبيق فقط**.
 7. عند استكمال عملية التنشيط، حدد **الشروع في العمل**.

@@ -1,6 +1,6 @@
 ---
-title: حجوزات رؤية المخزون
-description: يصف هذا الموضوع كيفية إعداد ميزة الحجز لإنشاء عمليات حجز، واستهلاك الحجوزات، و/أو كميات المخزون المحددة غير المفرج عنها باستخدام "رؤية المخزون".
+title: حجوزات Inventory Visibility
+description: يصف هذا المقال كيفية إعداد ميزة الحجز لإنشاء عمليات حجز، واستهلاك الحجوزات، و/أو كميات المخزون المحددة غير المفرج عنها باستخدام "رؤية المخزون".
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895717"
 ---
-# <a name="inventory-visibility-reservations"></a>حجوزات رؤية المخزون
+# <a name="inventory-visibility-reservations"></a>حجوزات Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-يصف هذا الموضوع كيفية إعداد ميزة الحجز لإنشاء عمليات حجز، واستهلاك الحجوزات، و/أو كميات المخزون المحددة غير المفرج عنها باستخدام "رؤية المخزون".
+يصف هذا المقال كيفية إعداد ميزة الحجز لإنشاء عمليات حجز، واستهلاك الحجوزات، و/أو كميات المخزون المحددة غير المفرج عنها باستخدام "رؤية المخزون".
 
 تحدد الحجوزات كمية المخزون التي سيتم استخدامها في المستقبل. عند إنشاء حجز، يمنع النظام الطلبات الأخرى من حجز أو استهلاك البضائع المحجوزة حتى يتم استهلاك الحجز أو دون تحفظ. يتم إنشاء الحجوزات واستهلاكها وإلغاءها باستخدام استدعاءات API لخدمة "رؤية المخزون".
 

@@ -1,6 +1,6 @@
 ---
 title: أوامر المستودعات لوحدات نطاق السحابة والحافة
-description: يوفر هذا الموضوع معلومات حول قدره أمر المستودع التي يتم استخدامها كجزء من حمل العمل لوحده قياس المستودعات.
+description: يوفر هذا المقال معلومات حول قدره أمر المستودع التي يتم استخدامها كجزء من حمل العمل لوحده قياس المستودعات.
 author: perlynne
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: db254216e6c34b81f83c87a8fda454d0aeb1cece
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893515"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>أوامر المستودعات لوحدات نطاق السحابة والحافة
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> لا يتم دعم كافة وظائف الاعمال بشكل كامل في المعاينة العامة عند استخدام أحمال عمل وحدات قياس. إذا كنت تستخدم وحدات قياس، تاكد من استخدام العمليات التي يصفها هذا الموضوع بوضوح كما هو مدعوم.
+> لا يتم دعم كافة وظائف الاعمال بشكل كامل في المعاينة العامة عند استخدام أحمال عمل وحدات قياس. إذا كنت تستخدم وحدات قياس، تاكد من استخدام العمليات التي يصفها هذا المقال بوضوح كما هو مدعوم.
 
 ## <a name="what-are-warehouse-orders"></a>ما هي أوامر المستودع؟
 

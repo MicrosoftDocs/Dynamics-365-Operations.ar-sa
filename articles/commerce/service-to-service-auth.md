@@ -1,6 +1,6 @@
 ---
 title: تكوين مصادقة من خدمة إلى خدمة
-description: يصف هذا الموضوع كيفية تكوين مصادقة من خدمة إلى خدمة في Microsoft Dynamics 365 Commerce لاستدعاء واجهات API للخدمة بشكل آمن للمراجعات والتقييمات.
+description: يصف هذا المقال كيفية تكوين مصادقة من خدمة إلى خدمة في Microsoft Dynamics 365 Commerce لاستدعاء واجهات API للخدمة بشكل آمن للمراجعات والتقييمات.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: da780de5f15d72bdac85a261eae809125c830260
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871597"
 ---
 # <a name="configure-service-to-service-authentication"></a>تكوين مصادقة من خدمة إلى خدمة
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية تكوين مصادقة من خدمة إلى خدمة (S2S) في Microsoft Dynamics 365 Commerce لاستدعاء واجهات برمجة التطبيقات (API) للخدمة بشكل آمن للمراجعات والتقييمات.
+يصف هذا المقال كيفية تكوين مصادقة من خدمة إلى خدمة (S2S) في Microsoft Dynamics 365 Commerce لاستدعاء واجهات برمجة التطبيقات (API) للخدمة بشكل آمن للمراجعات والتقييمات.
 
-يقدم Dynamics 365 Commerce [تقييمات ومراجعات](ratings-reviews-overview.md) كحل للقناة متعددة الاتجاهات. يسمح هذا الحل بالوصول إلى واجهات API الخاصة بالخدمة من خارج Commerce، بحيث يمكن تنفيذ العديد من المهام. تتضمن هذه المهام استيراد التقييمات والمراجعات من نظامك الخارجي إلى Commerce، وتصدير التقييمات والمراجعات من Commerce. لتمكين Commerce من استدعاء واجهات API للخدمة بشكل آمن للمراجعات والتقييمات، يجب عليك أولاً تكوين مصادقة S2S بإكمال الإجراءات الواردة في هذا الموضوع.
+يقدم Dynamics 365 Commerce [تقييمات ومراجعات](ratings-reviews-overview.md) كحل للقناة متعددة الاتجاهات. يسمح هذا الحل بالوصول إلى واجهات API الخاصة بالخدمة من خارج Commerce، بحيث يمكن تنفيذ العديد من المهام. تتضمن هذه المهام استيراد التقييمات والمراجعات من نظامك الخارجي إلى Commerce، وتصدير التقييمات والمراجعات من Commerce. لتمكين Commerce من استدعاء واجهات API للخدمة بشكل آمن للمراجعات والتقييمات، يجب عليك أولاً تكوين مصادقة S2S بإكمال الإجراءات الواردة في هذا المقال.
 
 ## <a name="add-a-new-app-registration"></a>إضافة تسجيل تطبيق جديد
 

@@ -1,6 +1,6 @@
 ---
 title: أصناف وهمية
-description: يشرح هذا الموضوع كيفية استخدام نوع الصنف الوهمي لبنود قائمة مكونات الصنف (BOM) والمعادلة في Dynamics 365 Supply Chain Management.
+description: يشرح هذا المقال كيفية استخدام نوع الصنف الوهمي لبنود قائمة مكونات الصنف (BOM) والمعادلة في Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 05/05/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-05-05
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 64139873216decd8ecb2fcaf1f284e726c53c332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893312"
 ---
 # <a name="phantom-items"></a>أصناف وهمية
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع، بالتفصيل، كيفية استخدام نوع الصنف الوهمي لبنود قائمة مكونات الصنف (BOM) والمعادلة.
+يوضح هذا المقال، بالتفصيل، كيفية استخدام نوع الصنف الوهمي لبنود قائمة مكونات الصنف (BOM) والمعادلة.
 
 في الشكل التوضيحي 1، يمثل (a) قائمة مكونات الصنف للمنتج H والأجزاء F و G و (b) ورقة المسار للمنتجات H والجزء F.
 

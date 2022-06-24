@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على صفحات سلة التسوق والسداد مع الخروج
-description: يقدم هذا الموضوع نظرة عامة صفحات سلة التسوق والسداد مع الخروج‬ في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة صفحات سلة التسوق والسداد مع الخروج‬ في Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e450192025b29c655be49050aa3e61fc8acd898
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e911a1be1f06fcb3c2af08bab835a2b1ab5590f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853757"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>نظرة عامة على صفحات سلة التسوق والسداد مع الخروج
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة صفحات سلة التسوق والسداد مع الخروج‬ في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة صفحات سلة التسوق والسداد مع الخروج‬ في Microsoft Dynamics 365 Commerce.
 
 تعرض صفحة سلة التسوق في موقع ويب التجارة الإلكترونية كافة الأصناف التي قام العميل بإضافتها إلى سلة التسوق. يتم إنشاء صفحة سلة التسوق باستخدام الوحدة النمطية لسلة التسوق. تُمثل وحدة سلة التسوق حاوية تستضيف كافة الوحدات المطلوبة لإظهار الأصناف الموجودة في سلة التسوق. كما يمكن للوحدة النمطية لسلة التسوق استخدام الوحدات النمطية الأخرى لإظهار ملخص الأمر وأية أكواد ترويجية تم تطبيقها على أمر العميل.
 

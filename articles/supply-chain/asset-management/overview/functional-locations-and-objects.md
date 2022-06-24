@@ -1,6 +1,6 @@
 ---
-title: الأصول ومواقع العمل
-description: يصف الأصول ومواقع العمل في إدارة الأصول. إدارة الأصول عبارة عن وحدة نمطية متقدمة لإدارة الأصول ومهام الصيانة في Dynamics 365 Supply Chain Management.
+title: المواقع الوظيفية والأصول
+description: توضح هذه المقالة المواقع الوظيفية والأصول في إدارة الأصول. إدارة الأصول عبارة عن وحدة نمطية متقدمة لإدارة الأصول ومهام الصيانة في Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0bf90d99a8bd093817f9e804e8075e779428f1fadb3128c5a455ca839dece55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750138"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875644"
 ---
-# <a name="functional-locations-and-assets"></a>الأصول ومواقع العمل
+# <a name="functional-locations-and-assets"></a>المواقع الوظيفية والأصول
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-يصف الأصول ومواقع العمل في إدارة الأصول. إدارة الأصول عبارة عن وحدة نمطية متقدمة لإدارة الأصول ومهام الصيانة في Dynamics 365 Supply Chain Management.
+توضح هذه المقالة المواقع الوظيفية والأصول في إدارة الأصول. إدارة الأصول عبارة عن وحدة نمطية متقدمة لإدارة الأصول ومهام الصيانة في Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>نظرة عامة
 
-تتكامل إدارة الأصول بسلاسة مع وحدات نمطية متعددة في تطبيقات Finance and Operations الاخرى. يبين الرسم التوضيحي التالي الواجهات مع الوحدات النمطية الأخرى.
+تتكامل إدارة الأصول بسلاسة مع الوحدات النمطية المتعددة مع تطبيقات Finance and Operations الأخرى. يبين الرسم التوضيحي التالي الواجهات مع الوحدات النمطية الأخرى.
 
 ![يوضح الرسم التخطيطي كيفية عمل واجهات إدارة الأصول مع الوحدات النمطية الأخرى.](media/01-overview-image.png)
 

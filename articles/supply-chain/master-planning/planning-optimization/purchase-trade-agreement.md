@@ -1,6 +1,6 @@
 ---
 title: التخطيط الرئيسي مع اتفاقيات الشراء التجارية
-description: يصف هذا الموضوع كيف يؤدي تحسين التخطيط إلى العثور على المورّد و/أو وقت الإنتاج لأمر مخطط، استنادًا إلى أفضل سعر أو وقت إنتاج يمكن العثور عليه في اتفاقيات الشراء التجارية.
+description: يصف هذا المقال كيف يؤدي تحسين التخطيط إلى العثور على المورّد و/أو وقت الإنتاج لأمر مخطط، استنادًا إلى أفضل سعر أو وقت إنتاج يمكن العثور عليه في اتفاقيات الشراء التجارية.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468401"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873742"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>التخطيط الرئيسي مع اتفاقيات الشراء التجارية
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيف يؤدي تحسين التخطيط إلى العثور على المورّد و/أو وقت الإنتاج لأمر مخطط، استنادًا إلى أفضل سعر أو وقت إنتاج يمكن العثور عليه بين جميع اتفاقيات الشراء التجارية التي تم تحديدها لمنتج معين.
+يصف هذا المقال كيف يؤدي تحسين التخطيط إلى العثور على المورّد و/أو وقت الإنتاج لأمر مخطط، استنادًا إلى أفضل سعر أو وقت إنتاج يمكن العثور عليه بين جميع اتفاقيات الشراء التجارية التي تم تحديدها لمنتج معين.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>تشغيل ميزة اتفاقيات الشراء التجارية لتحسين التخطيط
 

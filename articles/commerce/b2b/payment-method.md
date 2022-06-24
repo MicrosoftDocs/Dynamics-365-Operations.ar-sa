@@ -1,6 +1,6 @@
 ---
-title: تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية بين الشركات B2B
-description: يصف هذا الموضوع كيفية تكوين طريقة دفع حساب العميل في Microsoft Dynamics 365 Commerce. كما يصف كيفية تأثير الحدود الائتمانية على تسجيل الدفع على الحساب في مواقع ويب التجارة الإلكترونية بين الشركات (B2B).
+title: تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية لمتاجرة عمل-عمل
+description: يصف هذا المقال كيفية تكوين طريقة دفع حساب العميل في Microsoft Dynamics 365 Commerce. كما يصف كيفية تأثير الحدود الائتمانية على تسجيل الدفع على الحساب في مواقع ويب التجارة الإلكترونية بين الشركات (B2B).
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689627"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878637"
 ---
-# <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية بين الشركات B2B
+# <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>تكوين طريقة دفع حساب العميل لمواقع التجارة الإلكترونية لمتاجرة عمل-عمل
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا الموضوع كيفية تكوين طريقة دفع حساب العميل في Microsoft Dynamics 365 Commerce. كما يصف كيفية تأثير الحدود الائتمانية على تسجيل الدفع على الحساب في مواقع ويب التجارة الإلكترونية بين الشركات (B2B).
+يصف هذا المقال كيفية تكوين طريقة دفع حساب العميل في Microsoft Dynamics 365 Commerce. كما يصف كيفية تأثير الحدود الائتمانية على تسجيل الدفع على الحساب في مواقع ويب التجارة الإلكترونية بين الشركات (B2B).
 
 يستطيع تجار التجزئة قبول أنواع مختلفة من الدفع مقابل المنتجات والخدمات التي يبيعونها في قناة التجارة الإلكترونية. يجب أن يتم تكوين كل نوع دفع يقبله بائع تجزئة في Dynamics 365 Commerce عند إعداد النظام. يجب اعتماد طريقة الدفع بوسطة حساب العميل (أو "على الحساب")على مواقع ويب التجارة الإلكترونية بين الشركات (B2B). 
 

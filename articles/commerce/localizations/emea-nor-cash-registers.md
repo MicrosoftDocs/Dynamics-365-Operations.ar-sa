@@ -1,6 +1,6 @@
 ---
 title: وظيفة آلة تسجيل المدفوعات النقدية للنرويج
-description: يقدم هذا الموضوع نظره عامه حول وظيفة تسجيل النقدية المتاحة للنرويج في Microsoft Dynamics 365 Commerce، كما يوفر إرشادات لاعداد الوظيفة.
+description: يقدم هذا المقال نظره عامه حول وظيفة تسجيل النقدية المتاحة للنرويج في Microsoft Dynamics 365 Commerce، كما يوفر إرشادات لاعداد الوظيفة.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944930"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906689"
 ---
 # <a name="cash-register-functionality-for-norway"></a>وظيفة آلة تسجيل المدفوعات النقدية للنرويج
 
 [!include[banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظره عامه علي وظيفة تسجيل النقدية المتاحة للنرويج في Dynamics 365 Commerce. كما يوفر الإرشادات الخاصة باعداد الوظيفة. تتكون الوظائف من الأجزاء التالية:
+يقدم هذا المقال نظره عامه علي وظيفة تسجيل النقدية المتاحة للنرويج في Dynamics 365 Commerce. كما يوفر الإرشادات الخاصة باعداد الوظيفة. تتكون الوظائف من الأجزاء التالية:
 
 - ميزات النقطة الشائعة للبيع (POS) المتوفرة للعملاء في كافة البلدان أو المناطق. وتتضمن الامثله خيارا يتيح لك امكانيه منع طباعه نسخه من الإيصال أكثر من مره واحده.
 - الميزات الخاصة بالنرويج، مثل التوقيعات الرقمية لحركات المبيعات.

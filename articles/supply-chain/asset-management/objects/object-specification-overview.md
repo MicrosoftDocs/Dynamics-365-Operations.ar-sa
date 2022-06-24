@@ -1,6 +1,6 @@
 ---
-title: نظرة عامة على سمات الأصول
-description: يوفر هذا الموضوع نظرة عامة على سمات الأصول في إدارة الأصول.
+title: نظرة عامة على سمة الأصل
+description: يوفر هذا المقال نظرة عامة على سمات الأصول في إدارة الأصول.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: overview
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d1585f200e4baba519085685a41979c70a64fb1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986450"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862732"
 ---
-# <a name="asset-attribute-overview"></a>نظرة عامة على سمات الأصول
+# <a name="asset-attribute-overview"></a>نظرة عامة على سمة الأصل
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-يوفر هذا الموضوع نظرة عامة على سمات الأصول في إدارة الأصول. سمات الأصول هي خصائص مرتبطة بنوع أصل أو أصل. إذا قمت بإعداد [أنواع السمات](../setup-for-functional-locations/specification-types.md) واستخدمتها على الأصول، فيمكنك الحصول على نظرة عامة على قيم السمات التي تم إعدادها في الأصول. تظهر هذه النظرة العامة على صفحتين‏‎ في إدارة الأصول: **نظرة عامة على سمات الأصول** و **سمة الأصل**.
+يوفر هذا المقال نظرة عامة على سمات الأصول في إدارة الأصول. سمات الأصول هي خصائص مرتبطة بنوع أصل أو أصل. إذا قمت بإعداد [أنواع السمات](../setup-for-functional-locations/specification-types.md) واستخدمتها على الأصول، فيمكنك الحصول على نظرة عامة على قيم السمات التي تم إعدادها في الأصول. تظهر هذه النظرة العامة على صفحتين‏‎ في إدارة الأصول: **نظرة عامة على سمات الأصول** و **سمة الأصل**.
 
 تعرض الصفحة **نظرة عامة على سمات الأصول** سطرًا منفصلاً لكل أصل. ويعرض السطر جميع أنواع السمات المرتبطة بهذا الأصل. اتبع الخطوات التالية لفتح الصفحة **نظرة عامة على سمات الأصول** واستخدامها.
 

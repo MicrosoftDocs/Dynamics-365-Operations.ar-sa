@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.23 (يناير 2022)
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في الإصدار 10.0.23 من Microsoft Dynamics 365 Supply Chain Management.
+description: يصف هذا المقال الميزات الجديدة أو المتغيرة في 10.0.23. Microsoft Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691459"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849463"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.23 (يناير 2022)
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة في إصدار 10.0.23 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1037، وهو يتوفر كما يلي
+تصف هذا المقالات الميزات الجديدة أو المتغيرة في إصدار 10.0.23 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1037، وهو يتوفر كما يلي
 
 - **معاينه الإصدار:** أكتوبر 2021
 - **التوفر العام للإصدار (تحديث ذاتي):** ديسمبر 2021
@@ -29,7 +29,7 @@ ms.locfileid: "8691459"
 
 ## <a name="features-included-in-this-release"></a>الميزات المضمنة في هذا الإصدار
 
-يسرد الجدول التالي الميزات المضمنة في هذا الإصدار. يوفر عمود *الميزة* ارتباطات إلى [خطة الإصدار](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features)، حيث يمكنك الاطلاع على تواريخ الإصدار الرسمية لكل ميزة. يوفر عمود *مزيد من المعلومات* المزيد من التفاصيل و/أو الارتباطات عن المستندات ذات الصلة. لتحديد كيفية تشغيل إحدى الميزات، راجع عمود *تم التمكين بواسطة*. لمزيد من المعلومات حول كيفية استخدام إدارة الميزات، راجع [نظرة عامة على إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). قد نقوم بتحديث هذا الموضوع ليشمل الميزات التي تم إدراجها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+يسرد الجدول التالي الميزات المضمنة في هذا الإصدار. يوفر عمود *الميزة* ارتباطات إلى [خطة الإصدار](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features)، حيث يمكنك الاطلاع على تواريخ الإصدار الرسمية لكل ميزة. يوفر عمود *مزيد من المعلومات* المزيد من التفاصيل و/أو الارتباطات عن المستندات ذات الصلة. لتحديد كيفية تشغيل إحدى الميزات، راجع عمود *تم التمكين بواسطة*. لمزيد من المعلومات حول كيفية استخدام إدارة الميزات، راجع [نظرة عامة على إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). قد نقوم بتحديث هذا المقال ليشمل الميزات التي تم إدراجها في البناء بعد أن يتم نشر هذا المقال في البداية.
 
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
@@ -63,9 +63,9 @@ ms.locfileid: "8691459"
 
 ## <a name="new-and-updated-documentation-resources"></a>موارد وثائق جديده ومحدثه
 
-لقد قمنا مؤخرا باضافه موضوعات التعليمات التالية أو تحديثها بشكل ملحوظ. ليس بالضرورة أن تكون هذه الموضوعات مرتبطة بالميزات الجديدة التي تمت إضافتها لهذا الإصدار، كما هو موضح في القسم السابق. ومع ذلك، قد تساعدك في الحصول على مزيد من الميزات الموجودة.
+لقد قمنا مؤخرا بإضافة مقالات التعليمات التالية أو تحديثها بشكل ملحوظ. ليس بالضرورة أن تكون هذه المقالات مرتبطة بالميزات الجديدة التي تمت إضافتها لهذا الإصدار، كما هو موضح في القسم السابق. ومع ذلك، قد تساعدك في الحصول على مزيد من الميزات الموجودة.
 
-| منطقة الميزة | الموضوعات الجديدة أو المحدثة |
+| منطقة الميزة | المقالات الجديدة أو المحدثة |
 |---|---|
 | إدارة التغيير الهندسي | [السمات الهندسية والبحث عن السمات الهندسية](../engineering-change-management/engineering-attributes-and-search.md) يصف الآن كيفية عمل اكتساب السمة الهندسية. |
 | التخطيط الرئيسي | [التخطيط الرئيسي بتنبؤات الطلب](../master-planning/planning-optimization/demand-forecast.md) و[مفاتيح تقليل التنبؤ](../master-planning/reduction-keys.md) توفر الآن معلومات اضافيه حول كيفيه العمل مع مفاتيح الخفض. |
@@ -74,9 +74,9 @@ ms.locfileid: "8691459"
 | التخطيط الرئيسي | [جدول التوريد](../master-planning/supply-schedule.md) |
 | Warehouse management | [معلمات الجهاز المحمول العمومية](../warehousing/mobile-device-parameters.md) |
 | Warehouse management | [ارتساء](../warehousing/anchoring.md) |
-| المبيعات والتسويق | تم وصف التجارة بين الشركات الشقيقة الآن بالتفصيل ، بدءا من [اعداد التجارة بين الشركات الشقيقة](../sales-marketing/intercompany-trade-set-up.md) وموضوعاتها ذات الصلة. |
+| المبيعات والتسويق | تم وصف التجارة بين الشركات الشقيقة الآن بالتفصيل ، بدءا من [اعداد التجارة بين الشركات الشقيقة](../sales-marketing/intercompany-trade-set-up.md) ومقالاتها ذات الصلة. |
 | المبيعات والتسويق | [تحسينات في أداء تنظيف محفوظات المبيعات](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| إدارة المخزون | تم توسيع وثائق رؤية المخزون وتحديثها ، بدءا من [نظره عامه حول رؤية المخزون](../inventory/inventory-visibility.md) وهي موضوعات ذات صله. |
+| إدارة المخزون | تم توسيع وثائق رؤية المخزون وتحديثها ، بدءا من [نظره عامه حول رؤية المخزون](../inventory/inventory-visibility.md) وهي مقالات ذات صله. |
 | Warehouse management | [حسابات مستخدم الجهاز المحمول](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>الموارد الإضافية
@@ -97,12 +97,12 @@ ms.locfileid: "8691459"
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>ميزات Supply Chain Management التي تمت ازالتها وإهمالها
 
-يوضح الموضوع [الميزات التي تمت ازالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) الميزات التي تمت أو تتم جدولتها لإزالتها أو إهمالها لـ Supply Chain Management.
+يوضح المقال [الميزات التي تمت ازالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) الميزات التي تمت أو تتم جدولتها لإزالتها أو إهمالها لـ Supply Chain Management.
 
 - لم تعد ميزة *تمت الإزالة* متوفرة في المنتج.
 - لا توجد ميزة *المهملة* في التطوير النشط وقد يتم إزالتها في تحديثات مستقبلية.
 
-قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في الموضوع [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
+قبل إزالة أي ميزة من المنتج، سيتم إعلان إشعار إهمال في المقال [الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 شهرًا قبل الإزالة.
 
 بالنسبة للتغييرات الفاصلة التي تؤثر فقط على وقت التحويل البرمجي، ولكنها متوافقة ثنائيًا مع بيئة الاختبار المعزولة وبيئات الإنتاج، فسيكون وقت الإهلاك أقل من 12 شهرًا. بشكل عام، هذه هي التحديثات الوظيفية التي يجب إجراؤها للمحول البرمجي.
 

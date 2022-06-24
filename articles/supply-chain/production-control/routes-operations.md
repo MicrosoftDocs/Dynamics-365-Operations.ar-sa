@@ -1,6 +1,6 @@
 ---
 title: المسارات والعمليات
-description: يقدم هذا الموضوع معلومات حول المسارات والعمليات.
+description: توفر هذه المقالة معلومات حول المسارات والعمليات.
 author: johanhoffmann
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab825227e7cd8848dbad58c58f5c6d7afc338f9c
-ms.sourcegitcommit: 7cbd53617af179a0de74aae30c149edc95e86684
+ms.openlocfilehash: 103c7007cd002c5953d096ff6001a93c4936b702
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7891943"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856008"
 ---
 # <a name="routes-and-operations"></a>المسارات والعمليات
 
 [!include [banner](../includes/banner.md)]
 
-يقدم هذا الموضوع معلومات حول المسارات والعمليات. يعرّف المسار عملية إنتاج منتج أو متغير المنتج. وهو يصف كل خطوة (عملية) في عملية الإنتاج والترتيب الذي يجب اتباعه لتنفيذ هذه الخطوات. لكل خطوة، يعرّف المسار أيضًا موارد العمليات المطلوبة، ووقت الإعداد ووقت التشغيل المطلوبين، وكيفية حساب التكلفة.
+توفر هذه المقالة معلومات حول المسارات والعمليات. يعرّف المسار عملية إنتاج منتج أو متغير المنتج. وهو يصف كل خطوة (عملية) في عملية الإنتاج والترتيب الذي يجب اتباعه لتنفيذ هذه الخطوات. لكل خطوة، يعرّف المسار أيضًا موارد العمليات المطلوبة، ووقت الإعداد ووقت التشغيل المطلوبين، وكيفية حساب التكلفة.
 
 ## <a name="overview"></a>نظرة عامة
 

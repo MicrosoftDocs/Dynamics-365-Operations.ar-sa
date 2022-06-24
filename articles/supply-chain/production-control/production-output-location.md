@@ -1,6 +1,6 @@
 ---
 title: موقع إخراج الإنتاج
-description: يصف هذا الموضوع التدرج الهرمي الذي يتم استخدامه لتحديد موقع إخراج الإنتاج.
+description: يصف هذا المقال التدرج الهرمي الذي يتم استخدامه لتحديد موقع إخراج الإنتاج.
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893283"
 ---
 # <a name="production-output-location"></a>موقع إخراج الإنتاج
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع التدرج الهرمي الذي يتم استخدامه لتحديد موقع إخراج الإنتاج.
+يصف هذا المقال التدرج الهرمي الذي يتم استخدامه لتحديد موقع إخراج الإنتاج.
 
 موقع إخراج الإنتاج هو الموقع حيث يتم تخزين البضائع المنتهية أولاً بعد إنتاجها. عادة، يكون هذا الموقع قريبًا من عملية الإنتاج التي تنتج البضائع المنتهية. يتم استخدام موقع إخراج الإنتاج كمكان تخزين وسيط للمواد قبل نقلها إلى منطقة الشحن أو موقع تخزين موقع إدخال الإنتاج لعملية إنتاج نهائية، وهكذا. 
 

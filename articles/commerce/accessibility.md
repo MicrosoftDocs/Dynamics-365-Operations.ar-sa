@@ -1,6 +1,6 @@
 ---
 title: ميزات وقدرات إمكانية الوصول
-description: يوفر هذا الموضوع معلومات حول ميزات وقدرات إمكانية الوصول الموجودة في Microsoft Dynamics 365 Commerce.
+description: يوفر هذا المقال معلومات حول ميزات وقدرات إمكانية الوصول الموجودة في Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8f4e73ebaf6dc3fc6eb97f69df8545c9ab9fa9df
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853892"
 ---
 # <a name="accessibility-features-and-capabilities"></a>ميزات وقدرات إمكانية الوصول
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع معلومات حول ميزات وقدرات إمكانية الوصول الموجودة في Microsoft Dynamics 365 Commerce.
+يوفر هذا المقال معلومات حول ميزات وقدرات إمكانية الوصول الموجودة في Microsoft Dynamics 365 Commerce.
 
 توفر ميزات وقدرات إمكانية الوصول الوسائل الوظيفية لجميع المستخدمين للوصول إلى الإجراءات وأدائها بحيث يتمكن المستخدمون من تحقيق أهدافهم. قد تتطلب هذه المجموعة الواسعة من المستخدمين أدوات مساعده للسمع أو الرؤية أو التنقل أو التنوع العصبي.
 
 العديد من الميزات في Dynamics 365 Commerce تتيح لك إنشاء موقعك بحيث يتضمن الوظائف المساعدة. عند تصميم الموقع الخاص بك، يجب عليك مراعاة مجالات وظائف الوصول المذكورة في [Microsoft Accessibility Center](https://www.microsoft.com/accessibility) 
 
-يصف هذا الموضوع بعض المناطق الإضافية لوظائف إمكانية الوصول التي يجب مراعاتها عند استخدام Dynamics 365 Commerce.
+يصف هذا المقال بعض المناطق الإضافية لوظائف إمكانية الوصول التي يجب مراعاتها عند استخدام Dynamics 365 Commerce.
 
 ## <a name="image-alt-text"></a>نص بديل للصورة
 

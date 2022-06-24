@@ -1,6 +1,6 @@
 ---
 title: جدوله إنشاء العمل اثناء الموجه
-description: يوضح هذا الموضوع كيفيه إعداد أسلوب معالجه الموجه واستخدامه في إنشاء العمل.
+description: يوضح هذا المقال كيفيه إعداد أسلوب معالجه الموجه واستخدامه في إنشاء العمل.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c955e7275c0bdc12dc206dde1d7e390f16270148
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852059"
 ---
 # <a name="schedule-work-creation-during-wave"></a>جدوله إنشاء العمل اثناء الموجه
 
@@ -30,7 +30,7 @@ ms.locfileid: "8691120"
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>تشغيل ميزات إنشاء العمل المجدولة في إدارة الميزات
 
-لاستخدام الميزات الموضحة في هذا الموضوع، يجب تشغيلها للنظام الخاص بك. استخدم مساحة العمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات التالية بالترتيب التالي:
+لاستخدام الميزات الموضحة في هذا المقال، يجب تشغيلها للنظام الخاص بك. استخدم مساحة العمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتشغيل الميزات التالية بالترتيب التالي:
 
 1. **حظر العمل على مستوى المؤسسة‬** - مطلوب لكل من التكوين اليدوي والتلقائي لإنشاء العمل المجدول. (اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى.)
 1. **جدولة إنشاء العمل‬** - مطلوب لكل من التكوين اليدوي والتلقائي لإنشاء العمل المجدول.

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c202a679e992c562772cbf6da6e17c4b8149760f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bd5ad086cadd2e49585614e7650bb7e30a4e7328
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888575"
 ---
 # <a name="inventory-locations"></a>مواقع المخزون
 
@@ -29,7 +29,7 @@ ms.locfileid: "7573935"
 
 تُستخدم مواقع المخزون مع التخزين الأساسي (WMS I) لتحديد المكان الذي يتم فيه تخزين الأصناف والمكان الذي يتم منه انتقاء الأصناف من مستودع (WMS I).
 
-ينطبق هذا الموضوع على ميزات في وحدة إدارة المخزون. ولا ينطبق على الميزات الموجودة في وحدة إدارة المستودع.
+ينطبق هذا المقال على ميزات في وحدة إدارة المخزون. ولا ينطبق على الميزات الموجودة في وحدة إدارة المستودع.
 
 يشير مصطلح الموقع إلى المكان الذي يتم فيه تخزين الأصناف وسحبها منه.
 

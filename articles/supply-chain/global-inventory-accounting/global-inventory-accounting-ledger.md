@@ -1,6 +1,6 @@
 ---
 title: دفتر أستاذ محاسبة المخزون العالمي
-description: يصف هذا الموضوع دفاتر الأستاذ لمحاسبة المخزون العالمي، والتي يتم تعريفها بواسطة مجموعة من العملة والتقويم والقواعد والارتباط بكيان قانوني.
+description: يصف هذا المقال دفاتر الأستاذ لمحاسبة المخزون العالمي، والتي يتم تعريفها بواسطة مجموعة من العملة والتقويم والقواعد والارتباط بكيان قانوني.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f5f610fa51fce18ecefbf96892b56b05208c666c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4d3779d7d335a903d7eabfadfed79e47652c6835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897650"
 ---
 # <a name="global-inventory-accounting-ledger"></a>دفتر أستاذ محاسبة المخزون العالمي
 

@@ -1,6 +1,6 @@
 ---
 title: إعادة تعيين الأنشطة
-description: يصف هذا الموضوع كيفية إعادة تعيين أنشطة الخدمة من أحد العمال إلى عامل آخر.
+description: يصف هذا المقال كيفية إعادة تعيين أنشطة الخدمة من أحد العمال إلى عامل آخر.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55ebcda19aba074191a2820d2ac7faf27313db8e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5f6cd7523a9185de0bb2dfd81ffb3fe5e7dba5e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860453"
 ---
 # <a name="reassign-activities"></a>إعادة تعيين الأنشطة 
 
 [!include [banner](../includes/banner.md)]
 
 
-يصف هذا الموضوع كيفية إعادة تعيين أنشطة الخدمة من أحد العمال إلى عامل آخر. يمكنك بسهولة إعادة تعيين أنشطة الخدمة من عامل لآخر، حتى إذا كانوا معينين لفرق إرسال مختلفة.
+يصف هذا المقال كيفية إعادة تعيين أنشطة الخدمة من أحد العمال إلى عامل آخر. يمكنك بسهولة إعادة تعيين أنشطة الخدمة من عامل لآخر، حتى إذا كانوا معينين لفرق إرسال مختلفة.
 
 استخدم الخطوات التالية لإعادة تعيين نشاط إلى عامل آخر:
 

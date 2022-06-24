@@ -1,6 +1,6 @@
 ---
 title: تكوين ضريبة المبيعات للأوامر عبر الإنترنت
-description: يوفر هذا الموضوع نظرة عامة على تحديد مجموعة ضريبة المبيعات لأنواع مختلفة من الأوامر عبر الإنترنت في Dynamics 365 Commerce.
+description: يوفر هذا المقال نظرة عامة على تحديد مجموعة ضريبة المبيعات لأنواع مختلفة من الأوامر عبر الإنترنت في Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac9fefe68663d76b3461d3209530976f66b113ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906876"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>تكوين ضريبة المبيعات للأوامر عبر الإنترنت
 
 [!include [banner](includes/banner.md)]
 
-يوفر هذا الموضوع نظرة عامة على تحديد مجموعة ضرائب المبيعات لأنواع الأوامر المختلفة عبر الإنترنت باستخدام إعدادات ضرائب تستند إلى الوجهة أو تستند إلى حسابات العملاء. 
+يوفر هذا المقال نظرة عامة على تحديد مجموعة ضرائب المبيعات لأنواع الأوامر المختلفة عبر الإنترنت باستخدام إعدادات ضرائب تستند إلى الوجهة أو تستند إلى حسابات العملاء. 
 
 قد ترغب في أن تدعم قناة التجارة الإلكترونية لديك خيارات مثل التسليم أو الالتقاط للأوامر عبر الإنترنت. تستند قابلية تطبيق ضريبة المبيعات على الخيار الذي حدده العملاء عبر الإنترنت. 
 

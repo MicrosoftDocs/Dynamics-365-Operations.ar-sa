@@ -1,6 +1,6 @@
 ---
-title: تخطيط بين الشركات الشقيقة
-description: يوضح هذا الموضوع التخطيط بين الشركات الشقيقة ويوضح كيفيه تكوين التخطيط بين الشركات الشقيقة بتحسين التخطيط في Microsoft Dynamics 365 Supply Chain Management.
+title: التخطيط بين الشركات الشقيقة
+description: يوضح هذا المقال التخطيط بين الشركات الشقيقة ويوضح كيفيه تكوين التخطيط بين الشركات الشقيقة بتحسين التخطيط في Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: de9f9679bfaf9491c6b69c11448306627c8a42f9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468485"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850659"
 ---
 # <a name="intercompany-planning"></a>تخطيط بين الشركات الشقيقة
 
@@ -29,9 +29,9 @@ ms.locfileid: "8468485"
 
 بالنسبة لبعض المؤسسات ، تعتمد عمليات التجهيزات علي كيانات قانونيه أخرى (الشركات) في المؤسسة. تتم معالجه هذه العمليات باستخدام المبيعات والمشتريات بين الشركات الشقيقة ، نظرا لان كل كيان قانوني يحتوي علي دليل حسابات منفصل.
 
-يوضح هذا الموضوع التخطيط بين الشركات الشقيقة ويوضح كيفيه تكوين التخطيط بين الشركات الشقيقة بتحسين التخطيط في Microsoft Dynamics 365 Supply Chain Management.
+يوضح هذا المقال التخطيط بين الشركات الشقيقة ويوضح كيفيه تكوين التخطيط بين الشركات الشقيقة بتحسين التخطيط في Microsoft Dynamics 365 Supply Chain Management.
 
-يستخدم هذا الموضوع الشروط الهامه التالية للشركات الشقيقة:
+يستخدم هذا المقال الشروط الهامه التالية للشركات الشقيقة:
 
 - **المراحل التمهيدية** – مرجع نسبي في سلسله توريد أو شركة. وهي تشير إلى الحركة في اتجاه مورد المادة الخام.
 - **المراحل النهائية** – مرجع نسبي في سلسله توريد أو شركة. وهي تشير إلى الحركة في اتجاه العميل.

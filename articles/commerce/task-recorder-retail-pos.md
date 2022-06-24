@@ -1,6 +1,6 @@
 ---
 title: مسجل المهام ونظام التعليمات لكل من Retail Modern POS (MPOS) وCloud POS
-description: يصف هذا الموضوع كيفية استخدام مسجل المهام في كل من Retail Modern POS وCloud POS.
+description: يصف هذا المقال كيفية استخدام مسجل المهام في كل من Retail Modern POS وCloud POS.
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847590"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>مسجل المهام ونظام التعليمات لكل من Retail Modern POS (MPOS) وCloud POS
 
 [!include [banner](includes/banner.md)]
 
-يصف هذا الموضوع كيفية استخدام مسجل المهام في كل من Retail Modern POS وCloud POS.
+يصف هذا المقال كيفية استخدام مسجل المهام في كل من Retail Modern POS وCloud POS.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -139,7 +139,7 @@ ms.locfileid: "6730745"
 
 [![الزر تعليمات.](./media/help.jpg)](./media/help.jpg)
 
-عندما تنقر فوق دليل مهام في نتائج البحث، يمكنك عرض الخطوات كموضوع تعليمات أو تصدير الخطوات إلى مستند Word.
+عندما تنقر فوق دليل مهام في نتائج البحث، يمكنك عرض الخطوات كمقال تعليمات أو تصدير الخطوات إلى مستند Word.
 
 > [!NOTE]
 > لن يعرض نظام التعليمات في Retail Modern POS وCloud POS‬ دلائل المهام وفقًا للنموذج الذي تعمل عليه أو العملية التي تعمل على تنفيذها. يجب عليك كتابة اسم العملية في مربع البحث والنقر فوق **بحث**.

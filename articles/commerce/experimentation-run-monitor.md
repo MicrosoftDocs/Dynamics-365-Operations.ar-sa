@@ -1,6 +1,6 @@
 ---
 title: تشغيل تجربة ومراقبتها
-description: يصف هذا الموضوع كيفيه تشغيل ومراقبه تجربه في خدمه جهة خارجيه. كما يوضح كيفيه اجراء تغييرات علي التباينات بعد بدء التجربة.
+description: يصف هذا المقال كيفيه تشغيل ومراقبه تجربه في خدمه جهة خارجيه. كما يوضح كيفيه اجراء تغييرات علي التباينات بعد بدء التجربة.
 author: sushma-rao
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cd8864caec23f6aca30badba1a79da31301a0ddb92a74bb4a6fe027214d0f8d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9f62c97b46fa00791de52b2804dad5edde7f625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777562"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909573"
 ---
 # <a name="run-and-monitor-an-experiment"></a>تشغيل تجربة ومراقبتها
 
-يصف هذا الموضوع كيفيه تشغيل ومراقبه التجربة الخاصة بأحد التطبيقات التابعة لجهة خارجيه، وتغيير الاختلافات إذا لزم الأمر. قبل إكمال الخطوات الواردة في هذا الموضوع، ستحتاج أولاً إلى [نشر ](experimentation-preview-publish.md) التجربة الخاصة بك في Commerce. 
+يصف هذا المقال كيفيه تشغيل ومراقبه التجربة الخاصة بأحد التطبيقات التابعة لجهة خارجيه، وتغيير الاختلافات إذا لزم الأمر. قبل إكمال الخطوات الواردة في هذا المقال، ستحتاج أولاً إلى [نشر ](experimentation-preview-publish.md) التجربة الخاصة بك في Commerce. 
 
-يوضح الرسم التخطيطي التالي كافة الخطوات المتضمنة في اعداد وتشغيل تجربه علي أحد مواقع التجارة الالكترونيه في Dynamics 365 Commerce. وتتم تغطيه الخطوات الاضافيه في موضوعات منفصلة.
+يوضح الرسم التخطيطي التالي كافة الخطوات المتضمنة في اعداد وتشغيل تجربه علي أحد مواقع التجارة الالكترونيه في Dynamics 365 Commerce. وتتم تغطيه الخطوات الاضافيه في مقالات منفصلة.
 
 [ ![رحلة مستخدم التجربة - التشغيل والمراقبة.](./media/experimentation_run_monitor.svg) ](./media/experimentation_run_monitor.svg#lightbox)
 

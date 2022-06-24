@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على اتفاقيات الخدمات
-description: يوفر هذا الموضوع نظرة عامة على كيفية عمل اتفاقيات الخدمة.
+description: يوفر هذا المقال نظرة عامة على كيفية عمل اتفاقيات الخدمة.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc0be99cf492d672f9eaecff25c93b700e7ed230
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5566f559da6340a82ca015fb5dee2dae7887202e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862442"
 ---
 # <a name="service-agreements-overview"></a>نظرة عامة على اتفاقيات الخدمات
 
@@ -35,7 +35,7 @@ ms.locfileid: "8670821"
 - مجموعات الاتفاقيات التي قمت بإعدادها في شركتك هي ذهبية وفضية وبرونزية.
 - تم توظيف مدير حساب خدمة جديد في شركتك. ويعتبر مدير الخدمة مسؤولاً عن التعامل مع كافة العملاء في مجموعة الاتفاقية الذهبية. ويمكن تصفية سجلات الاتفاقية في مجموعة الاتفاقية الذهبية للعثور على كافة الاتفاقيات التي يجب تعيين مدير الخدمة الجديد على أنه الشخص المنوط به إدارتها.
 
-## <a name="related-topics"></a>مواضيع مرتبطة
+## <a name="related-articles"></a>مقالات ذات صلة
 
 [إنشاء مجموعات اتفاقيات الخدمة](create-service-agreement-groups.md)
 

@@ -1,6 +1,6 @@
 ---
-title: إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء
-description: يشرح هذا الموضوع كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء.
+title: ‏‫إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM)‬
+description: يشرح هذا المقال كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850161"
 ---
-# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء
+# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>‏‫إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM)‬
 
 [!include [banner](includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء.
+يشرح هذا المقال كيفية إعداد تحليل قيم قرب المدة والتكرار والنقد (RFM) للعملاء.
 
 تحليل الحداثة والتكرار والقيم النقدية (RFM) هو أداة تسويق تستخدمها مؤسستك لتقييم البيانات التي يتم إنشاؤها بواسطة مشتريات العميل. بعد إعداد تحليل RFM، يتم تعيين مجموع RFM المحسوب للعملاء عند إجراء عمليات الشراء. يمكن أن يكون مجموع RFM تصنيف من ثلاثة أرقام أو عدد تجميع، اعتمادًا على كيفية تكوين المؤسسة لتحليل RFM. إليك كيفية عمل التصنيف إذا كانت مؤسستك تستخدم تصنيفًا مكوناً من ثلاثة أرقام للنتيجة:
 

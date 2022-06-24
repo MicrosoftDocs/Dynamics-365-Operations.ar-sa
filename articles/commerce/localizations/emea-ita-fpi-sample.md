@@ -1,6 +1,6 @@
 ---
 title: عينة تكامل طابعة الضرائب المحصلة لإيطاليا
-description: يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي لإيطاليا في Microsoft Dynamics 365 Commerce.
+description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي لإيطاليا في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909380"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>عينة تكامل طابعة الضرائب المحصلة لإيطاليا
 
 [!include[banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظرة عامة على عينة التكامل المالي لإيطاليا في Microsoft Dynamics 365 Commerce.
+يقدم هذا المقال نظرة عامة على عينة التكامل المالي لإيطاليا في Microsoft Dynamics 365 Commerce.
 
 تتضمن وظيفة Commerce لإيطاليا نموذجًا لتكامل نقطة البيع (POS) مع طابعة مالية. يقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) بحيث يعمل مع طابعات [سلسلة Epson FP-90III](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) من Epson، وهو يتيح الاتصال بطابعة مالية في وضع خادم الويب عبر خدمة الويب EpsonFPMate باستخدام Fiscal ePOS-Print API. تدعم العينة وضع Registratore Telematico (RT) فقط. يتم توفير العينة في شكل كود المصدر وهي جزء من مجموعة تطوير برامج البيع بالتجزئة (SDK).
 

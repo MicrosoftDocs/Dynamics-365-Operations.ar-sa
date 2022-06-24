@@ -1,6 +1,6 @@
 ---
 title: إدخال عطاءات RFQ ومنح العقود ومقارنتها
-description: يوضح هذا الموضوع كيفية إدخال الردود إلى طلب عرض أسعار (RFQ) ومجموع النقاط ومقارنة العطاءات، وبعد ذلك منح العقد إلى أحد الموردين.
+description: يوضح هذا المقال كيفية إدخال الردود إلى طلب عرض أسعار (RFQ) ومجموع النقاط ومقارنة العطاءات، وبعد ذلك منح العقد إلى أحد الموردين.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50b403021c347498a9b489a34196e592a2041a11
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893370"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>إدخال عطاءات RFQ ومنح العقود ومقارنتها
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إدخال الردود إلى طلب عرض أسعار (RFQ) ومجموع النقاط ومقارنة العطاءات، وبعد ذلك منح العقد إلى أحد الموردين. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التوضيحيe **USMF**.
+يوضح هذا المقال كيفية إدخال الردود إلى طلب عرض أسعار (RFQ) ومجموع النقاط ومقارنة العطاءات، وبعد ذلك منح العقد إلى أحد الموردين. يمكنك استخدام هذا الإجراء في شركة بيانات العرض التوضيحيe **USMF**.
 
 قبل بدء هذا الإجراء، يجب أن يكون لديك RFQ يشتمل على بندين، وتم إرساله إلى اثنين من الموردين على الأقل. لإنشاء طلب عرض الأسعار (RFQ) هذا، أكمل الإجراء [إنشاء طلب عرض أسعار](create-request-quotation.md). يجب إعداد معايير تسجيل النقاط قبل إكمال هذا الإجراء.
 

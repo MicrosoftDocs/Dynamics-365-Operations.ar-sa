@@ -1,6 +1,6 @@
 ---
 title: إدارة شركاء الأعمال B2B باستخدام التدرجات الهرمية للعملاء
-description: يوضح هذا الموضوع كيفية استخدام التدرجات الهرمية للعلماء لإدارة شركاء الأعمال لمواقع ويب التجارة الإلكترونية بين الشركات (B2B) في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا المقال كيفية استخدام التدرجات الهرمية للعلماء لإدارة شركاء الأعمال لمواقع ويب التجارة الإلكترونية بين الشركات (B2B) في Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686561"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864971"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>إدارة شركاء الأعمال B2B باستخدام التدرجات الهرمية للعملاء
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية استخدام التدرجات الهرمية للعلماء لإدارة شركاء الأعمال لمواقع ويب التجارة الإلكترونية بين الشركات (B2B) في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية استخدام التدرجات الهرمية للعلماء لإدارة شركاء الأعمال لمواقع ويب التجارة الإلكترونية بين الشركات (B2B) في Microsoft Dynamics 365 Commerce.
 
 في Commerce headquarters، يُستخدم كيان *التدرج الهرمي للعميل* لتمثيل المؤسسات الشريكة للأعمال التي ستستخدم موقعك على الويب للتجارة الإلكترونية بين الشركات (B2B). قبل أن تتمكن من بدء استخدام التدرجات الهرمية للعملاء لإدارة شركاء الأعمال، يجب عليك تمكين إمكانات التجارة الإلكترونية B2B في Commerce Headquarters ثم تحديد تسلسل رقمي للتدرج الهرمي للعميل.
 

@@ -1,6 +1,6 @@
 ---
 title: معالج إعداد التخطيط الرئيسي (يحتوي على فيديو)
-description: يصف هذا الموضوع كيفية تشغيل معالج إعداد التخطيط الرئيسي لإعداد التخطيط الرئيسي.
+description: يصف هذا المقال كيفية تشغيل معالج إعداد التخطيط الرئيسي لإعداد التخطيط الرئيسي.
 author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: a5914f63de654acd076048240c6e37d5b67f4ffa
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1c79e1df53dfabc33aeacb56096b113e62b765d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875322"
 ---
 # <a name="master-planning-setup-wizard"></a>معالج إعداد التخطيط الرئيسي
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع دليلاً **لمعالج‏‎ إعداد التخطيط الرئيسي**. ويوضح كيفيه حساب اقتراحات المعلمة ويوفر الأمثلة التي توضح كيفيه إعداد الشركات المختلفة للتخطيط الرئيسي، استنادًا إلى احتياجات الأعمال الخاصة بها.
+يوفر هذا المقال دليلاً **لمعالج‏‎ إعداد التخطيط الرئيسي**. ويوضح كيفيه حساب اقتراحات المعلمة ويوفر الأمثلة التي توضح كيفيه إعداد الشركات المختلفة للتخطيط الرئيسي، استنادًا إلى احتياجات الأعمال الخاصة بها.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 

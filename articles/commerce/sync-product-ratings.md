@@ -1,6 +1,6 @@
 ---
 title: مزامنة تقييمات المنتجات في Dynamics 365 Commerce
-description: يوضح هذا الموضوع كيفية مزامنة تقييمات المنتجات في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا المقال كيفية مزامنة تقييمات المنتجات في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909325"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>مزامنة تقييمات المنتجات في Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية مزامنة تقييمات المنتجات في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية مزامنة تقييمات المنتجات في Microsoft Dynamics 365 Commerce.
 
 لاستهلاك تقييمات المنتجات في النقاط متعددة الاتجاهات، كما هو الحال في نقطة البيع (POS) وفي مراكز الاتصال، فإنه يجب استيراد تقييمات المنتجات من خدمة التقييمات والمراجعات إلى قاعدة بيانات قناة Commerce. عندما تتوفر تقييمات المنتجات في نقاط متعددة الاتجاهات، فإنها يمكن أن تساعد العملاء بشكل غير مباشر أثناء التفاعلات مع شركاء المبيعات.
 
-يصف هذا الموضوع المهام التالية:
+يصف هذا المقال المهام التالية:
 
 1. يمكنك تكوين **مهمة مزامنة تقييمات المنتجات** كمهمة مجموعه لمزامنة تصنيفات المنتجات من **خدمه التقييمات والمراجعات**.
 1. تحقق من أن وظيفة الدفعية الخاصة بمزامنة تصنيف المنتجات ناجحة.

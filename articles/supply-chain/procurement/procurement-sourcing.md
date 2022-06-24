@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية للتدبير وتحديد الموارد
-description: يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.
+description: يقدم هذا المقال قائمة بمقالات التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673007"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885859"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>الصفحة الرئيسية للتدبير وتحديد الموارد
 
 [!include [banner](../includes/banner.md)]
 
-يقدم هذا الموضوع قائمة بمواضيع التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.
+يقدم هذا المقال قائمة بمقالات التعليمات وغيرها من الموارد المتاحة للتدبير والتوريد.
 
 يغطي التدبير وتحديد الموارد كافة الخطوات بدءًا من تحديد الحاجة إلى المنتجات والخدمات وصولاً إلى تدبير المنتج وإيصال الاستلام والفاتورة ومعالجة الدفع مع المورّدين. ويمكن تكوين عمليات التدبير لاحتياجات العمل الخاصة من خلال تحديد سياسات المشتريات ومهام سير العمل. للحصول على معلومات عامة، انظر [نظرة عامة على التدبير والتوريد‬](procurement-sourcing-overview.md). تم إدراج موارد إضافية أدناه.
 

@@ -1,6 +1,6 @@
 ---
 title: مراقبة عمل المستودع باستخدام قوالب العمل والتوجيهات المتعلقة بالموقع
-description: يوضح هذا الموضوع كيفية استخدام قوالب العمل وتوجيهات الموقع لتحديد كيف وأين يتم إجراء العمل في المستودع.
+description: يوضح هذا المقال كيفية استخدام قوالب العمل وتوجيهات الموقع لتحديد كيف وأين يتم إجراء العمل في المستودع.
 author: perlynne
 ms.date: 10/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7e955fba12e963a443c0304f0a8a0e395c46909dd34de12cd51fa9788491786
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 65675d8a99d023176e3e66e92cd3d634750bdb0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877410"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>مراقبة عمل المستودع باستخدام قوالب العمل والتوجيهات المتعلقة بالموقع
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية استخدام قوالب العمل وتوجيهات الموقع لتحديد كيف وأين يتم إجراء العمل في المستودع.
+يوضح هذا المقال كيفية استخدام قوالب العمل وتوجيهات الموقع لتحديد كيف وأين يتم إجراء العمل في المستودع.
 
 تتحدد الإرشادات التي يتلقاها العاملون في المستودع على جهاز محمول بواسطة قوالب عمل Dynamics 365 Supply Chain Management التي تقوم بإعدادها لتحديد مختلف العمليات والمهام في المستودع. وتحدد قوالب العمل كيفية تنفيذ العمل لكل عملية بالمستودع. ومن خلال ربط توجيه موقع بقوالب العمل، يمكنك ضمان أن يتم العمل في مناطق فعلية معينة في المستودعات.
 
@@ -73,7 +73,7 @@ ms.locfileid: "6770134"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 - الفيديو: [نظرة عميقة على تكوين أداره المستودعات](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- موضوع التعليمات: [العمل باستخدام توجيهات الموقع](create-location-directive.md)
+- مقال التعليمات: [العمل باستخدام توجيهات الموقع](create-location-directive.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

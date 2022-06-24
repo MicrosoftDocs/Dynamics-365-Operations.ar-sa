@@ -1,6 +1,6 @@
 ---
 title: إدارة مستخدمي شركاء الأعمال على مواقع ويب التجارة الإلكترونية بين الشركات (B2B) باستخدام Dynamics 365 Sales
-description: يوضح هذا الموضوع كيفية استخدام Microsoft Dynamics 365 Sales لإدارة موافقات شركاء الأعمال لمواقع ويب بين الشركات الشقيقة (B2B) في Dynamics 365 Commerce.
+description: يوضح هذا المقال كيفية استخدام Microsoft Dynamics 365 Sales لإدارة موافقات شركاء الأعمال لمواقع ويب بين الشركات الشقيقة (B2B) في Dynamics 365 Commerce.
 author: shajain
 ms.date: 2/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540e8f26d7f2a08060a3839f9e4f97bf8ddcafac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ac4aa15f2c6e7f557105254c2c8ce743a9466985
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692553"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878611"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites-using-dynamics-365-sales"></a>إدارة مستخدمي شركاء الأعمال على مواقع ويب التجارة الإلكترونية بين الشركات (B2B) باستخدام Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية استخدام Microsoft Dynamics 365 Sales لإدارة موافقات شركاء الأعمال لمواقع ويب بين الشركات الشقيقة (B2B) في Dynamics 365 Commerce. بإمكان المؤسسات التي استثمرت بالفعل في حل Dynamics 365 Sales استخدام مفاهيم الفرص والعملاء المتوقعين لعملية الموافقة على شركاء أعمال التجارة الإلكترونية بين الشركات (B2B).
+يوضح هذا المقال كيفية استخدام Microsoft Dynamics 365 Sales لإدارة موافقات شركاء الأعمال لمواقع ويب بين الشركات الشقيقة (B2B) في Dynamics 365 Commerce. بإمكان المؤسسات التي استثمرت بالفعل في حل Dynamics 365 Sales استخدام مفاهيم الفرص والعملاء المتوقعين لعملية الموافقة على شركاء أعمال التجارة الإلكترونية بين الشركات (B2B).
 
 للحصول على معلومات خلفية حول عملية الموافقة على شركاء أعمال التجارة الإلكترونية بين الشركات (B2B)، راجع [إدارة مستخدمي شركاء الأعمال على مواقع ويب التجارة الإلكترونية بين الشركات B2B‬](manage-b2b-users.md).
 

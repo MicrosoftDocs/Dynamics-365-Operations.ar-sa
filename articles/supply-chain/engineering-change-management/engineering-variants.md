@@ -1,6 +1,6 @@
 ---
 title: إنشاء متغيرات للمنتجات الهندسية
-description: يصف هذا الموضوع كيفية إنشاء متغيرات للمنتجات الهندسية
+description: يصف هذا المقال كيفية إنشاء متغيرات للمنتجات الهندسية
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -10,22 +10,22 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 7921983a965af5557f54f608418c8ec922256ba6
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 08feb66dedfa79f5a21a7723a22f3bef883431e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103628"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870742"
 ---
 # <a name="generate-variants-for-engineering-products"></a>إنشاء متغيرات للمنتجات الهندسية
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع كيفية إنشاء متغيرات للمنتجات الهندسية.
+يصف هذا المقال كيفية إنشاء متغيرات للمنتجات الهندسية.
 
 ## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>تشغيل ميزة إنشاء متغيرات للمنتجات الهندسية‬ أو إيقاف تشغيلها
 
-تتطلب الوظيفة الموضحة في هذا الموضوع تشغيل الميزتين *إدارة التغييرات الهندسية* و *إنشاء متغيرات للمنتجات الهندسية‬‬* في النظام. للحصول علي تفاصيل حول كيفية تشغيل هذه الميزات أو إيقاف تشغيلها، راجع [نظرة عامة حول إدارة التغييرات الهندسية](product-engineering-overview.md).
+تتطلب الوظيفة الموضحة في هذا المقال تشغيل الميزتين *إدارة التغييرات الهندسية* و *إنشاء متغيرات للمنتجات الهندسية‬‬* في النظام. للحصول علي تفاصيل حول كيفية تشغيل هذه الميزات أو إيقاف تشغيلها، راجع [نظرة عامة حول إدارة التغييرات الهندسية](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>إنشاء متغير جديد أو أكثر لمنتج هندسي
 

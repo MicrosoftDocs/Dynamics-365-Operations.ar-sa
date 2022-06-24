@@ -1,6 +1,6 @@
 ---
 title: إعداد قناة بيع بالتجزئة
-description: يوضح هذا الموضوع كيفية إنشاء قناة بيع بالتجزئة جديدة في Microsoft Dynamics 365 Commerce.
+description: يوضح هذا المقال كيفية إنشاء قناة بيع بالتجزئة جديدة في Microsoft Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: eccbbff33ddf967b000940a8ea9910c34232431f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770211"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847722"
 ---
 # <a name="set-up-a-retail-channel"></a>إعداد قناة البيع بالتجزئة
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إنشاء قناة بيع بالتجزئة جديدة في Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية إنشاء قناة بيع بالتجزئة جديدة في Microsoft Dynamics 365 Commerce.
 
 يدعم Dynamics 365 Commerce عدة قنوات بيع بالتجزئة. وتتضمن قنوات البيع بالتجزئة هذه المتاجر على إنترنت، ومراكز الاتصال، ومتاجر البيع بالتجزئة (تعرف أيضًا بالمتاجر التقليدية). يمكن أن يكون لكل قناة متجر للبيع بالتجزئة طرق الدفع ومجموعات الأسعار وسجلات نقطة البيع (POS) وحسابات الإيرادات والمصروفات وفريق العمل الخاص بها. ويجب إعداد كل هذه العناصر قبل إمكانية إنشاء قناة لمتجر البيع بالتجزئة. 
 
