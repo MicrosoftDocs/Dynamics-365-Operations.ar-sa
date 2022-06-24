@@ -1,6 +1,6 @@
 ---
 title: محتوى "أداء الإنتاج" في Power BI
-description: يصف هذا الموضوع العناصر المضمنة في محتوى "أداء الإنتاج" في Power BI.
+description: توضح هذه المقالة العناصر المضمنة في محتوى أداء الإنتاج في Power BI.
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881450"
 ---
 # <a name="production-performance-power-bi-content"></a>محتوى "أداء الإنتاج" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع العناصر المضمنة في محتوى **أداء الإنتاج** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+توضح هذه المقالة العناصر المضمنة في محتوى **أداء الإنتاج** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -63,7 +63,7 @@ ms.locfileid: "6761406"
 
 يُظهر الجدول التالي القياسات التجميعية الرئيسية التي تُستخدم كأساس لمحتوى Power BI.
 
-| الكيان                   | القياسات التجميعية الرئيسية  | مصدر بيانات لتطبيقات Finance and Operations | الحقل              |
+| الكيان                   | القياسات التجميعية الرئيسية  | مصدر البيانات لتطبيقات Finance and Operations | الحقل              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

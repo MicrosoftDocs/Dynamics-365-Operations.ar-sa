@@ -1,6 +1,6 @@
 ---
 title: تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services
-description: يوضح هذا الموضوع كيفية تنزيل تكوينات التقارير الإلكترونية من Microsoft Dynamics Lifecycle Services (LCS).
+description: توضح هذه المقالة كيفية تنزيل تكوينات التقارير الإلكترونية من Microsoft Dynamics Lifecycle Services‏ (LCS).
 author: NickSelin
 ms.date: 08/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ea603d01d05e98ac69d5a0d12802b5f23ee34793bf4c9b4f885f0e4303f77d2b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8ba720f997981e85ea08d532f23341a838533ac4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885283"
 ---
-# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>تنزيل تكوينات إعداد التقارير الإلكترونية من Lifecycle Services
+# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية تنزيل أحدث إصدار من [تكوينات التقارير الإلكترونية](general-electronic-reporting.md#Configuration) من [مكتبة الأصول المشتركة](../lifecycle-services/asset-library.md) في Microsoft Dynamics Lifecycle Services (LCS).
+تشرح هذه المقالة كيفية تنزيل أحدث إصدار من [تكوينات التقارير الإلكترونية](general-electronic-reporting.md#Configuration) من [مكتبة الأصول المشتركة](../lifecycle-services/asset-library.md) في Microsoft Dynamics Lifecycle Services‏ (LCS).
 
 > [!IMPORTANT]
 > إن استخدام LCS كمستودع تخزين لتكوينات التقارير الإلكترونية يكون [مهملاً](../../../finance/get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). لمزيد من المعلومات، [إهلاك تخزين Regulatory Configuration Service (RCS) – Lifecycle Services (LCS)](../../../finance/localizations/rcs-lcs-repo-dep-faq.md)
@@ -70,7 +70,7 @@ ms.locfileid: "6762262"
     [![صفحة مستودع التكوين.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
-> استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. يجب حل هذه المشكلات قبل أن تتمكن من استخدام إصدار التكوين المستورد. لمزيد من المعلومات، راجع قائمة المواضيع ذات الصلة لهذا الموضوع.
+> استنادًا إلى إعدادات التقارير الإلكترونية، يتم التحقق من صحة التكوينات بعد استيرادها. قد يتم إعلامك بأي مشكلات عدم التوافق التي يتم اكتشافها. يجب حل هذه المشكلات قبل أن تتمكن من استخدام إصدار التكوين المستورد. لمزيد من المعلومات، راجع قائمة المواضيع المتعلقة بهذه المقالة.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

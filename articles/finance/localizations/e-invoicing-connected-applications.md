@@ -1,6 +1,6 @@
 ---
 title: التطبيقات المتصلة
-description: يشرح هذا الموضوع كيفية إعداد التطبيقات المتصلة في الفوترة الإلكترونية.
+description: توضح هذه المقالة كيفية إعداد التطبيقات المتصلة في الفوترة الإلكترونية.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59b67589139c0ce332716acf998825c6a024bded
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 7a0a9c19009c49b80ca8c182c31592c1a713a2aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371473"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906276"
 ---
 # <a name="connected-applications"></a>التطبيقات المتصلة
 
 [!include [banner](../includes/banner.md)]
 
-التطبيقات المتصلة هي مثيلات Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management التي قد ترغب في الوصول إليها من خلال Regulatory Configuration Service (RCS). من خلال التطبيقات المتصلة، يمكنك تكوين جزء من ميزة العولمة الخاصة بك في Finance أو Supply Chain Management لجعل سيناريو الفوترة الإلكترونية يعمل.
+التطبيقات المتصلة هي مثيلات Microsoft Dynamics 365‎ Finance‏ و Dynamics 365 Supply Chain Management التي قد ترغب في الوصول إليها من خلال Regulatory Configuration Service‏ (‎RCS). من خلال التطبيقات المتصلة، يمكنك تكوين جزء من ميزة العولمة الخاصة بك في Finance أو Supply Chain Management لجعل سيناريو الفوترة الإلكترونية يعمل.
 
 عند نشر ميزة العولمة الخاصة بك، يمكن نشر معلومات الإعداد التي تنطبق على تطبيق Finance أو Supply Chain Management مباشرةً من RCS إلى التطبيق المتصل المناسب.
 
@@ -39,7 +39,7 @@ ms.locfileid: "8371473"
 3. في صفحة **إعداد البيئة**، في جزء الإجراء، حدد **التطبيقات المتصلة**.
 4. حدد **جديد** لإنشاء تطبيق متصل.
 5. في حقل **الاسم**، أدخل اسم التطبيق المراد الاتصال به.
-6. في الحقل **النوع**، حدد **Dynamics 365 Finance**.
+6. في حقل **النوع** ، حدد **Dynamics 365 Finance**.
 7. في حقل **التطبيق**، أدخل عنوان URL للبيئة المراد الاتصال بها.
 8. في حقل **المستأجر**، حدد مستأجر البيئة.
 9. حدد **حفظ**.

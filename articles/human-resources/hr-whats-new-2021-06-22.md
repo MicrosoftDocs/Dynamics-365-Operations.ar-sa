@@ -1,6 +1,6 @@
 ---
 title: ما الجديد والمتغير في Dynamics 365 Human Resources 22 يونيو، 2021
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 22 يونيو 2021.
+description: توضح هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 22 يونيو 2021.
 author: marcelbf
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: aacb605374d99a3c0bad3438c89e33a04a4d7faf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897766"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>ما الجديد والمتغير في Dynamics 365 Human Resources 22 يونيو، 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources.
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو التي ستصدر قريبًا في Dynamics 365 Human Resources.
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
@@ -51,9 +51,9 @@ ms.locfileid: "8694413"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 > [!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد نقوم بتحديث هذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن نقوم بتحديث هذه المقالة لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة مبدئيًا.
 
-| رقم الإصدار | المشكلة |  الوصف |
+| رقم الإصدار | المشكلة |  ‏‏الوصف‬ |
 | --- | --- | --- |
 | 583052 | الملاحظات التي يتلقاها المستخدم قادرة على تحرير الملاحظات التي تم تلقيها | عند قيام موظف يستلم ملاحظات على دفتر يومية الأداء بتحديد **إضافة ارتباط خارجي**، فإن النموذج يصبح النموذج قابلاً للتحرير، مما يسمح للموظف بتحرير ملاحظات الأداء التي قام باستلامها. |
 | 522281 | تحديد عدد الموظفين في الإطارات المتجانبة لعملاء إدارة التعويض المحتملين إلى نتائج غير صحيحة| عند التنقل لأسفل في خطط التعويض من مساحة عمل التعويض، يتم الآن عرض العدد الصحيح للموظفين. |

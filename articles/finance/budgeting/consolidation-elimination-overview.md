@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على التجميع والاستبعاد
-description: يوفر هذا الموضوع معلومات عامة حول عملية التوحيد والاستبعاد. وتتضمن أيضًا إجابات على بعض الأسئلة المتداولة.
+description: توفر هذه المقالة معلومات عامة حول عملية التوحيد والاستبعاد. وتتضمن أيضًا إجابات على بعض الأسئلة المتداولة.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710687"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871380"
 ---
 # <a name="consolidation-and-elimination-overview"></a>نظرة عامة على التجميع والاستبعاد
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات عامة حول عملية التوحيد والاستبعاد. وتتضمن أيضًا إجابات على بعض الأسئلة المتداولة.
+توفر هذه المقالة معلومات عامة حول عملية التوحيد والاستبعاد. وتتضمن أيضًا إجابات على بعض الأسئلة المتداولة.
 
 عند تجميع البيانات، يتم تجميع النتائج المالية لعدد من الشركات التابعة في نتائج شركة مجمعة واحدة. وقد تكون الشركات التابعة موجودة في إصدارات أو أنظمة مختلفة، وقد لا تكون مملوكة بالكامل، ويمكنها استخدام عملات مختلفة. وهناك عدة خيارات لتجميع البيانات:
 

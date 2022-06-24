@@ -1,6 +1,6 @@
 ---
 title: تصميم تكوينات التقارير الإلكترونية لملء قوالب PDF
-description: يوفر هذا الموضوع معلومات حول كيفيه تصميم تنسيق التقارير الكترونيه لتعبئة قالب PDF.
+description: توفر هذه المقالة معلومات عن كيفية تصميم تنسيق التقارير الإلكترونية لتعبئة قالب PDF.
 author: NickSelin
 ms.date: 03/18/2022
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: ef9b650e9b676d79af8839c08cfbb1000a5aee5f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908579"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>تصميم تكوينات التقارير الإلكترونية لملء قوالب PDF
 
 [!include[banner](../includes/banner.md)]
 
-الإجراءات الواردة في هذا الموضوع هي أمثله تظهر كيفيه قيام مستخدم يؤدي دور **مسؤول النظام** أو دور **مطور التقارير الإلكترونية‬** بتكوين تنسيق التقارير الكترونيه (ER) الذي يقوم بإنشاء التقارير كملفات PDF باستخدام وثائق PDF التي تم تعبئتها كقوالب تقارير. يمكن تنفيذ هذه الخطوات في أي شركة Dynamics 365 Finance أو Regulatory Configuration Services (RCS).
+الإجراءات الواردة في هذه المقالة هي أمثلة تظهر كيفية قيام مستخدم يؤدي منصب **مسؤول النظام** أو منصب **مطور التقارير الإلكترونية‬** بتكوين تنسيق التقارير الإلكترونية (ER) الذي يقوم بإنشاء التقارير كملفات PDF باستخدام وثائق PDF التي تم تعبئتها كقوالب تقارير. يمكن تنفيذ هذه الخطوات في أي شركة Dynamics 365 Finance أو Regulatory Configuration Services (RCS).
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-قبل البدء، يجب أن يكون لديك أحد أنواع الوصول التالية، استنادًا إلى الخدمة التي تستخدمها لإكمال الإجراءات في هذا الموضوع:
+قبل البدء، يجب أن يكون لديك أحد أنواع الوصول التالية، استنادًا إلى الخدمة التي تستخدمها لإكمال الإجراءات في هذه المقالة:
 
 - الوصول إلى Finance لأحد الأدوار التالية:
 

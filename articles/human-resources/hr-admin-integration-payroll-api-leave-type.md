@@ -1,6 +1,6 @@
 ---
 title: نوع الإجازة
-description: يوفر هذا الموضوع تفاصيل ومثال استعلام لكيان نوع الأجازة في Dynamics 365 Human Resources.
+description: توفر هذه المقالة التفاصيل ومثال الاستعلام لكيان نوع الإجازة في Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dced58e6e9f6c20578e4582e4cf39162622713e7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 6e7905989df92e943b86f86194c87dcb2a7b1446
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893775"
 ---
 # <a name="leave-type"></a>نوع الإجازة
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069897"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيان نوع الأجازة لـ Dynamics 365 Human Resources.
+توضح هذه المقالة كيان نوع الإجازة لـ Dynamics 365 Human Resources.
 
-### <a name="description"></a>الوصف
+### <a name="description"></a>‏‏الوصف‬
 
 يوفر هذا الكيان معلومات لنوع إجازة محدد.
 

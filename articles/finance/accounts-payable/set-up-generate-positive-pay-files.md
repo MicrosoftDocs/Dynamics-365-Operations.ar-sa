@@ -1,6 +1,6 @@
 ---
 title: إعداد ملفات الدفع الإيجابي وإنشاؤها
-description: يشرح هذا الموضوع كيفية إعداد الدفع الإيجابي وإنشاء ملفات الدفع الإيجابي.
+description: توضح هذه المقالة كيفية إعداد الدفع الإيجابي وإنشاء ملفات الدفع الإيجابي.
 author: panolte
 ms.date: 03/06/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: eb5a9595ea1a93a9b15348eb1b291d744f660d40
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6b3cff1029b02aaabef2ea9795ab9912f20f1129
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871409"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>إعداد ملفات الدفع الإيجابي وإنشاؤها
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيفية إعداد الدفع الإيجابي وإنشاء ملفات الدفع الإيجابي. 
+توضح هذه المقالة كيفية إعداد الدفع الإيجابي وإنشاء ملفات الدفع الإيجابي. 
 
 إعداد الدفع الإيجابي لإنشاء قائمة إلكترونية بالشيكات التي يتم توفيرها للبنك. بعد ذلك، عندما يتم تقديم الشيك إلى البنك، يقارنه البنك بقائمة الشيكات. إذا تطابق الشيك مع شيك آخر في القائمة، فسيقوم البنك بمخالصته. أما إذا لم يتطابق الشيك لم تطابق مع أي شيك آخر في القائمة، فسيحتفظ البنك به لمراجعته.
 

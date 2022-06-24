@@ -1,6 +1,6 @@
 ---
 title: إعداد بيانات تعريف التطبيق لاستخدامها في RCS
-description: يوضح هذا الموضوع كيفيه إنشاء تكوين جديد لاعداد التقارير يحتوي علي بيانات تعريف التطبيق.
+description: توضح هذه المقالة كيفية إنشاء تكوين جديد لإعداد التقارير التي تحتوي علي بيانات تعريف التطبيق.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b5e7f69653381e16b4a8a8def56845a41bb14b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868786"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>إعداد بيانات تعريف التطبيق لاستخدامها في RCS
 [!include [banner](../../includes/banner.md)]
 
-توضح الخطوات التالية كيف يمكن لمستخدم يشغل دور المسؤول نظام أو مطور التقارير الإلكترونية إنشاء تكوين التقارير الإلكترونية الجديدة (ER) التي تحتوي علي بيانات تعريف التطبيق لتصميم تكوينات تعيين نموذج ER في Regulatory configuration servic (RCS). يتم استخدام هذا التكوين لتصميم نموذج تكوين تعيين لنموذج ER للوصول إلى حركات التجارية الخارجية. في هذا المثال، ستقوم بإنشاء تكوين لشركة نموذج، .Litware, Inc ويمكن تنفيذ هذه الخطوات في أي شركة. لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في الموضوع، [إنشاء موفرات تكوين وتحديدها بالحالة نشط](er-configuration-provider-mark-it-active-2016-11.md).
+توضح الخطوات التالية كيف يمكن لمستخدم يشغل دور المسؤول نظام أو مطور التقارير الإلكترونية إنشاء تكوين التقارير الإلكترونية الجديدة (ER) التي تحتوي علي بيانات تعريف التطبيق لتصميم تكوينات تعيين نموذج ER في Regulatory configuration servic (RCS). يتم استخدام هذا التكوين لتصميم نموذج تكوين تعيين لنموذج ER للوصول إلى حركات التجارية الخارجية. في هذا المثال، ستقوم بإنشاء تكوين لشركة نموذج، .Litware, Inc ويمكن تنفيذ هذه الخطوات في أي شركة. لإكمال هذه الخطوات، يجب أولاً إكمال الخطوات المذكورة في المقالة، [إنشاء موفرات التكوين وتحديدها بالحالة نشط](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 1.    انتقل إلى **إدارة المؤسسة** > **مساحات العمل‬** > **إعداد التقارير الإلكترونية**‬. 

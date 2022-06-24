@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources 5 أكتوبر 2021
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 5 أكتوبر، 2021.
+description: توفر هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 5 أكتوبر 2021.
 author: marcelbf
 ms.date: 10/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cc8cd8616f1b82258fccbb2b41d5e72a90aaed63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845101"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 5 أكتوبر 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Microsoft Dynamics 365 Human Resources.
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو الصادرة قريبًا في Microsoft Dynamics 365 Human Resources.
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ ms.locfileid: "8695749"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 > [!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد نقوم بتحديث هذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن نقوم بتحديث هذه المقالة لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة بشكل مبدئي.
 
-| رقم الإصدار | المشكلة | ‏‏الوصف |
+| رقم الإصدار | المشكلة | ‏‏الوصف‬ |
 |---|---|---|
 | 598896 | لا يتم عرض مبلغ الموظف الا بعد ان يقوم الموظف بإكمال التسجيل | في الصفحة **الخدمة الذاتية للموظف** ، لم يتم عرض مبلغ الموظف الخاص بالميزة. لا يتم عرض مبلغ الموظف الآن في الصفحة **الخدمة الذاتية للمنافع**.  |
 | 613440 | يتعذر تصدير البيانات من **أداره البيانات** | عند تصدير بيانات لمشروع في **أداره البيانات** ، يفشل التصدير بشكل غير متوقع. |

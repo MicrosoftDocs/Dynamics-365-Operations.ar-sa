@@ -1,6 +1,6 @@
 ---
 title: خطة المزايا للعامل في كشف الرواتب
-description: يوفر هذا الموضوع تفاصيل ومثال استعلام لكيان خطة مزايا العامل في كشف الرواتب في Dynamics 365 Human Resources.
+description: توفر هذه المقالة التفاصيل ومثال الاستعلام لكيان خطة مزايا العامل في كشف الرواتب في Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 07/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ade1c789716ea5f559a73c8551b7c1adf030b806
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: ef45855d9e60131ac065ae6e2769b71ae3f69537
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902274"
 ---
 # <a name="payroll-worker-benefit-plan"></a>خطة المزايا للعامل في كشف الرواتب
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533785"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيان خطة مزايا العامل في كشف الرواتب في Dynamics 365 Human Resources.
+توضح هذه المقالة كيان خطة مزايا العامل في كشف الرواتب في Dynamics 365 Human Resources.
 
 الاسم الفعلي: mshr_payrollworkerbenefitplanentities.
 

@@ -1,6 +1,6 @@
 ---
 title: تطوير بنية التعويض
-description: يشرح هذا الموضوع كيفية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية.
+description: توضح هذه المقالة كيفية إنشاء خطة تعويض ثابتة وتسجيل الموظفين بالخطة من خلال قواعد الأهلية.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902950"
 ---
 # <a name="develop-a-compensation-structure"></a>تطوير بنية التعويض
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693076"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيفية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية. يستخدم هذا الموضوع بيانات العرض التوضيحي USMF ويتم تطبيقها على مدراء التعويضات والميزات.
+توضح هذه المقالة كيفية إنشاء خطة تعويض ثابت وتسجيل الموظفين بالخطة من خلال قواعد الأهلية. تستخدم هذه المقالة بيانات العرض التوضيحي USMF ويتم تطبيقها على مديري التعويضات والميزات.
 
 ## <a name="create-a-fixed-compensation-plan"></a>إنشاء خطة تعويض ثابتة
 

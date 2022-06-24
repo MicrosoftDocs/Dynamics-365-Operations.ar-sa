@@ -1,6 +1,6 @@
 ---
 title: ما الجديد أو المتغير في Dynamics 365 Human Resources 20‏ مايو، 2021
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 20 مايو 2021.
+description: يصف هذا المقال الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 20 مايو 2021.
 author: marcelbf
 ms.date: 05/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dc7e89fabe1651c858097a6c564b4910a524331f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3a399e1c7ccbd85b58286ec4f3d294f80332c3fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891281"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a>ما الجديد أو المتغير في Dynamics 365 Human Resources 20‏ مايو، 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources.
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو التي ستصدر قريبًا في Dynamics 365 Human Resources.
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ ms.locfileid: "8692740"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 > [!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد نقوم بتحديث هذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن نقوم بتحديث هذه المقالة لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة مبدئيًا.
 
-| رقم الإصدار | المشكلة |  الوصف |
+| رقم الإصدار | المشكلة |  ‏‏الوصف‬ |
 | --- | --- | --- |
 | 583776 | تتسبب عمليات التسجيل الجماعي للموظفين بخطط الإجازة في حدوث خطأ سجل مكرر | تم إصلاح هذا الخطأ بالإصدار الأحدث ويجب معالجة عمليات تسجيل خطط الإجازات الشاملة بنجاح. |
 | 582263 | يتعذر تشغيل معالجة حدث الحياة لكافة العاملين في الوقت نفسه | عند ترك الحقل **العامل** فارغًا لمعالجة أحداث الحياة، ستتم معالجة كافة العاملين. |

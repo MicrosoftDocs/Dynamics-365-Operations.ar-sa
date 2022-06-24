@@ -1,6 +1,6 @@
 ---
 title: نوع وجهة إعداد التقارير الإلكترونية لـ Power BI
-description: يوفر هذا الموضوع معلومات حول كيفية تكوين نوع وجهة إعداد التقارير الإلكترونية لـ Power BI للمستندات الصادرة.
+description: توفر هذه المقالة معلومات عن كيفية تكوين نوع وجهة إعداد التقارير الإلكترونية لـ Power BI للمستندات الصادرة.
 author: NickSelin
 ms.date: 01/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 499447b05ef6360cde95049e592d7c9ffe2da1c4ff26937482033b9f705c3acd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50675c15ec1273d6955c36aef87f9aaa846d4247
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845588"
 ---
 # <a name="power-bi-destination"></a>وجهة Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "6777418"
 
 يمكنك تكوين وجهة Microsoft Power BI لكل مكون "ملف" أو "مجلد" لتنسيق إعداد التقارير الإلكترونية (ER) التي يتم تكوينها لإنشاء مستندات صادرة. استنادًا إلى إعداد الوجهة، يتم تخزين المستند المنشأ في مجلد SharePoint تم تكوينه مسبقًا.
 
-عيّن الخيار **ممكّن** إلى **نعم‏‎** لاستخدام تكوين إعداد التقارير الإلكترونية لترتيب نقل البيانات من مثيل Dynamics 365 Finance إلى خدمات Microsoft Power BI. ‏‫يتم تخزين الملفات المنقولة على مثيل Microsoft SharePoint Server تم تكوينه لهذا الغرض. لمزيد من المعلومات، راجع [تكوين التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+عيّن الخيار **ممكّن** إلى **نعم‏‎** لاستخدام تكوين التقارير الإلكترونية لترتيب نقل البيانات من مثيل Dynamics 365 Finance إلى خدمات Microsoft Power BI. ‏‫يتم تخزين الملفات المنقولة على مثيل Microsoft SharePoint Server تم تكوينه لهذا الغرض. لمزيد من المعلومات، راجع [تكوين التقارير الإلكترونية (ER) لسحب البيانات إلى Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 [![صفحة إعدادات الوجهة.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 

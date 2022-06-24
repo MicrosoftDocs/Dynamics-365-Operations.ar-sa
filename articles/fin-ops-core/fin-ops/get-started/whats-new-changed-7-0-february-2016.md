@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861694"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>ما الجديد أو المتغير في Dynamics AX 7.0 (فبراير 2016)
 
@@ -320,7 +320,7 @@ ms.locfileid: "8711309"
 <td>الوصول إلى التعليمات الإرشادية الموجهة (دلائل المهام) والمواضيع التصورية بالنقر فوق <strong>تعليمات</strong>.</td>
 <td>يشير نظام تعليمات AX 2012 إلى مواضيع HTML التي يتم تخزينها على خادم ويب محلي. يمكن للعملاء والشركاء إنشاء التعليمات الخاصة بهم.</td>
 <td>يعرض نظام التعليمات في الإصدار الحالي من Dynamics AX دلائل المهام المخزنة في ‏‫حزمة Lifecycle Services (LCS) BPM في Microsoft Dynamics. يعرض نظام التعليمات أيضًا مواضيع من موقع مستندات Microsoft. لمزيد من المعلومات، راجع <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">نظام التعليمات</a> و<a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">وإرشادات المهام الجديدة (فبراير 2016)</a>.</td>
-<td>توفر دلائل المهام خبرة إرشادية تفاعلية تقودك خلال الخطوات الخاصة بمهمة أو عملية أعمال. يمكنك تحميل وتخصيص دلائل المهام التي تقدمها Microsoft. يوفر هذا الموضوع طريقة أسرع وأكثر مرونة لإنشاء وثائق المنتج وتقديمها وتحديثها. ولذلك، فهو يساعد على ضمان إمكانية الوصول إلى أحدث المعلومات التقنية.</td>
+<td>توفر دلائل المهام خبرة إرشادية تفاعلية تقودك خلال الخطوات الخاصة بمهمة أو عملية أعمال. يمكنك تحميل وتخصيص دلائل المهام التي تقدمها Microsoft. توفر هذه المقالة طريقة أسرع وأكثر مرونة لإنشاء وثائق المنتج وتقديمها وتحديثها. ولذلك، فهو يساعد على ضمان إمكانية الوصول إلى أحدث المعلومات التقنية.</td>
 </tr>
 </tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
-title: أضافه حقول البيانات في تكامل الضريبة باستخدام الملحقات
-description: يوضح هذا الموضوع كيفيه استخدام ملحقات X + + لأضافه حقول البيانات في تكامل الضريبة.
+title: إضافة حقول البيانات في تكامل الضريبة باستخدام الملحقات
+description: توضح هذه المقالة كيفية استخدام ملحقات X + + لإضافة حقول البيانات في تكامل الضريبة.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 64c68ef6804297f86b5d9dc1933b0c16a0d42aae
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871038"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>أضافه حقول البيانات في تكامل الضريبة باستخدام الملحقات
 
 [!include [banner](../includes/banner.md)]
 
 
-يوضح هذا الموضوع كيفيه استخدام ملحقات X + + لأضافه حقول البيانات في تكامل الضريبة. يمكن توسيع هذه الحقول إلى نموذج بيانات الضريبة لخدمه الضرائب واستخدامها لتحديد أكواد الضريبة. لمزيد من المعلومات، راجع [أضافه حقول البيانات في تكوينات الضريبة](tax-service-add-data-fields-tax-configurations.md).
+توضح هذه المقالة كيفية استخدام ملحقات X + + لإضافة حقول البيانات في تكامل الضريبة. يمكن توسيع هذه الحقول إلى نموذج بيانات الضريبة لخدمه الضرائب واستخدامها لتحديد أكواد الضريبة. لمزيد من المعلومات، راجع [أضافه حقول البيانات في تكوينات الضريبة](tax-service-add-data-fields-tax-configurations.md).
 
 ## <a name="data-model"></a>نموذج البيانات
 
@@ -359,7 +359,7 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 في هذا الكود، `_destination` هو كائن برنامج التضمين الذي يتم استخدامه لإنشاء الطلب، و`_source` هو كائن `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> حدد اسم الحقل المستخدم في نموذج الطلب باعتباره **private const str**. يجب أن تكون السلسلة مطابقة تمامًا لاسم العقدة (وليس التسمية) المضافة في الموضوع [إضافة حقول البيانات في تكوينات الضرائب‬](tax-service-add-data-fields-tax-configurations.md).
+> حدد اسم الحقل المستخدم في نموذج الطلب باعتباره **private const str**. يجب أن تكون السلسلة مطابقة تمامًا لاسم العقدة (وليس التسمية) المضافة في المقالة [إضافة حقول البيانات في تكوينات الضرائب‬](tax-service-add-data-fields-tax-configurations.md).
 > 
 > عيّن الحقل في الأسلوب **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** باستخدام الأسلوب **SetField**. يجب أن يكون نوع بيانات المعلمة الثانية **سلسلة**. إذا لم يكن نوع البيانات **سلسلة**، فعليك تحويله إلى سلسلة.
 > إذا كان نوع البيانات هو **نوع التعداد**، فمن المستحسن استخدام الأسلوب **enum2Symbol** لتحويل قيمة التعداد إلى سلسلة. يجب أن تكون قيمة التعداد المضافة في تكوين الضريبة مماثلة تمامًا لاسم التعداد. فيما يلي قائمة بالاختلافات بين قيمة التعداد وتسميته واسمه.

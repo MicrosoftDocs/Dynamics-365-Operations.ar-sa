@@ -1,6 +1,6 @@
 ---
 title: تكوين المعلمات المشتركة
-description: يشرح هذا الموضوع كيفية إعداد معلمات الموارد البشرية عبر الكيانات القانونية.
+description: توضح هذه المقالة كيفية إعداد محددات الموارد البشرية عبر الكيانات القانونية.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c0d8dbca302d90cc402feb4715a6fcc2b935d8b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692103"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906171"
 ---
 # <a name="configure-shared-parameters"></a>تكوين المعلمات المشتركة
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يجب عليك إعداد معلمات مشتركة للسجلات المشتركة عبر الشركات، مثل سجلات **المناصب**. يشرح هذا الموضوع كيفية إعداد معلمات الموارد البشرية عبر الكيانات القانونية.
+يجب عليك إعداد معلمات مشتركة للسجلات المشتركة عبر الشركات، مثل سجلات **المناصب**. توضح هذه المقالة كيفية إعداد محددات الموارد البشرية عبر الكيانات القانونية.
 
 تتم مشاركة بعض أنواع السجلات، مثل سجلات **المناصب** عبر الشركات. وفي هذه السجلات، يجب إعداد المعلمات المشتركة. على سبيل المثال، تُستخدم صفحة **معلمات الموارد البشرية المشتركة** لإعداد معلمات الموارد البشرية عبر الكيانات القانونية. 
 

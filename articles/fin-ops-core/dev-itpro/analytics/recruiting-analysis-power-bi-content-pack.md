@@ -1,6 +1,6 @@
 ---
 title: محتوى "التوظيف" في Power BI
-description: 'يصف هذا الموضوع محتوى "التوظيف" في Power BI. '
+description: توضح هذه المقالة محتوى التعيين في Power BI.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 36ea9f204b50b3d7a6c8e33e69a9c3fd7d82cd79d466e2b9547c6733aa294aea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3240b92993986b32a739b7a6e5c7f7c2df3ed71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890085"
 ---
 # <a name="recruiting-power-bi-content"></a>محتوى "التوظيف" في Power BI
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا الموضوع محتوى **التوظيف** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
+توضح هذه المقالة محتوى **التعيين** في Microsoft Power BI. وهو يوضح كيفية الوصول إلى تقارير Power BI، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء المحتوى.
 
 ## <a name="accessing-the-power-bi-content"></a>الوصول إلى محتوى Power BI
 يظهر محتوى **التوظيف‏‎** في Power BI في مساحة عمل **إدارة التوظيف**.

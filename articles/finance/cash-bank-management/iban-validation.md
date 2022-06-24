@@ -1,6 +1,6 @@
 ---
 title: إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN)
-description: يشرح هذا الموضوع كيفية إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN).
+description: توضح هذه المقالة كيفية إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN).
 author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 3d825e8699fbe10e080cd85f15d3d86f8c780f15
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880888"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>إدارة التحقق من صحة حساب رقم الحساب البنكي الدولي (IBAN)
 
@@ -25,7 +25,7 @@ ms.locfileid: "8462753"
 
 تؤدي عملية التحقق من صحة رقم الحساب البنكي الدولي (IBAN) إلى زيادة مقدار عملية التحقق من الصحة التي يتم تنفيذها عند إضافة IBAN إلى حساب بنكي.
 
-يتم تخزين المعلومات المتعلقة ببنيه IBAN في Microsoft Dynamics 365 Finance ويتم تحميلها تلقائيًا عند استخدام IBAN في الحسابات البنكية لأول مره. تتضمن هذه المعلومات طول IBAN، ومواضع بدء رقم الحساب البنكي ورقم التوجيه البنكي وطول رقم الحساب البنكي ورقم التوجيه البنكي.
+يتم تخزين المعلومات المتعلقة ببنية IBAN في 365‎ Finance Microsoft Dynamics ويتم تحميلها تلقائيًا عند استخدام IBAN في الحسابات البنكية لأول مرة. تتضمن هذه المعلومات طول IBAN، ومواضع بدء رقم الحساب البنكي ورقم التوجيه البنكي وطول رقم الحساب البنكي ورقم التوجيه البنكي.
 
 ## <a name="set-up-iban-structures"></a>إعداد بنى IBAN‬
 

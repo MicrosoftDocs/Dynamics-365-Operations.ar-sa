@@ -1,6 +1,6 @@
 ---
 title: قائمة وظائف التقارير الإلكترونية في الفئة المنطقية
-description: يوفر هذا الموضوع معلومات حول الوظائف المنطقية المعتمدة في التقارير الإلكترونية (ER).
+description: توفر هذه المقالة معلومات عن الوظائف المنطقية المعتمدة في إعداد التقارير الإلكترونية (ER).
 author: NickSelin
 ms.date: 02/11/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43cbecf80ff70dac058977932c3a0bb03662cd98a88c68407051bdc584609d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2361fa0df3fe60813e75c772134299ad948f3582
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888180"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>قائمة وظائف التقارير الإلكترونية في الفئة المنطقية
 
 [!include [banner](../includes/banner.md)]
 
-يُمكن استخدام الوظائف المنطقية للتقارير الإلكترونية (ER) للعمل باستخدام القيم المنطقية لإجراء أكثر من مقارنة واحدة في تعبير واحد أو اختبار شروط متعددة. يعرض هذا الموضوع ملخصًا لهذه الوظائف.
+يُمكن استخدام الوظائف المنطقية للتقارير الإلكترونية (ER) للعمل باستخدام القيم المنطقية لإجراء أكثر من مقارنة واحدة في تعبير واحد أو اختبار شروط متعددة. توفر هذه المقالة ملخصًا لهذه الوظائف.
 
 ## <a name="list-of-supported-functions"></a>قائمة الوظائف المدعومة
 

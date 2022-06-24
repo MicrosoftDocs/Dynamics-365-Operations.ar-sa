@@ -1,6 +1,6 @@
 ---
 title: خطة التعويض المتغير لكشف الرواتب
-description: يوفر هذا الموضوع تفاصيل ومثال استعلام لكيان خطة التعويض المتغير في كشف الرواتب في Dynamics 365 Human Resources.
+description: توفر هذه المقالة التفاصيل ومثال الاستعلام لكيان خطة التعويض المتغير في كشف الرواتب في Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 06/15/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-06-15
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c5cc9e02ff2dd49e2eb0c8131fcff2eca4b9c3b1
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 5c6190084c3f1ce15d6a4ab8f13843a5da801dd3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868119"
 ---
 # <a name="payroll-variable-compensation-plan"></a>خطة التعويض المتغير لكشف الرواتب
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533615"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع كيان خطة التعويض المتغير للرواتب في Dynamics 365 Human Resources.
+توضح هذه المقالة كيان خطة التعويض المتغير لكشف الرواتب في Dynamics 365 Human Resources.
 
 ### <a name="description"></a>الوصف
 

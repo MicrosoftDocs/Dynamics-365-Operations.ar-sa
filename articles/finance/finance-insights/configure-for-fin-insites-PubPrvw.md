@@ -1,6 +1,6 @@
 ---
 title: تكوين Finance Insights - الإصدار 10.0.20 والإصدارات اللاحقة
-description: يشرح هذا الموضوع كيفية تكوين نظامك لاستخدام الإمكانات المتوفرة في Finance Insights في الإصدار 10.0.20 والإصدارات الأحدث.
+description: تشرح هذه المقالة كيفية تكوين نظامك لاستخدام الإمكانيات المتوفرة في Finance Insights في الإصدار 10.0.20 والإصدارات الأحدث.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 61cc002395ac3bc946fa03a04833a7b6d4820194
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e6b9c34ee68a25ac9613a65cf63443751a39c576
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868507"
 ---
 # <a name="configuration-for-finance-insights---version-10020-and-later"></a>تكوين Finance Insights - الإصدار 10.0.20 والإصدارات اللاحقة
 
@@ -29,10 +29,10 @@ ms.locfileid: "8711593"
 
 
 
-يجمع Finance insights بين وظائف من Microsoft Dynamics 365 Finance مع Dataverse وAzure وAI Builder لتوفير أدوات تنبؤ قوية لمؤسستك. يشرح هذا الموضوع كيفية تكوين الإصدار 10.0.20 من Dynamics 365 Finance حتى يتمكن النظام من استخدام القدرات المتوفرة في الإصدار الأولي للاستخدام العام من Finance Insights.
+يجمع Finance insights بين وظائف من Microsoft Dynamics 365 Finance مع Dataverse وAzure وAI Builder لتوفير أدوات تنبؤ قوية لمؤسستك. تشرح هذه المقالة كيفية تكوين الإصدار 10.0.20 من Dynamics 365 Finance حتى يتمكن النظام من استخدام الإمكانيات المتوفرة في Finance Insights.
 
 > [!NOTE]
-> تنطبق خطوات التكوين الموضحة في هذا الموضوع فقط على Finance الإصدار 10.0.20 والإصدارات اللاحقة. "لإعداد Finance insights في الإصدار 10.0.19 والإصدارات السابقة، راجع [تكوين Finance insights - الإصدارات حتى 10.0.19](configure-for-fin-insites.md).
+> تنطبق خطوات التكوين الموضحة في هذه المقالة فقط على الإصدار 10.0.20 من Finance والإصدارات اللاحقة. "لإعداد Finance insights في الإصدار 10.0.19 والإصدارات السابقة، راجع [تكوين Finance insights - الإصدارات حتى 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>نشر Finance
 

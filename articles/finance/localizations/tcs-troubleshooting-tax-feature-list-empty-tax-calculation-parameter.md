@@ -1,6 +1,6 @@
 ---
 title: قائمه ميزات الضريبة الفارغة في معلمات حساب الضريبة
-description: يوضح هذا الموضوع كيفيه استكشاف مشكله وجود قائمه ميزات الضريبة في صفحه محددات حساب الضريبة فارغه وإصلاحها.
+description: توضح هذه المقالة كيفية استكشاف مشكلة وجود قائمة ميزات الضريبة في صفحة معلمات حساب الضريبة الفارغة وإصلاحها.
 author: wangchen
 ms.date: 03/04/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 0d9286ec313a270da86181ff80ddfd690a757c9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869941"
 ---
 # <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>قائمه ميزات الضريبة الفارغة في معلمات حساب الضريبة
 
@@ -46,7 +46,7 @@ ms.locfileid: "8612278"
 
 ## <a name="resolution"></a>القرار
 
-في حالة اختلاف معرفات المستأجرين، فإنك تواجه المشكلة الموضحة في هذا الموضوع. وإذا كانا متشابهين، فهذا يعني انك تواجه مشكله غير مرتبطة. في هذه الحالة، نوصي بالاتصال بدعم Microsoft.
+في حالة اختلاف معرفات المستأجرين، فإنك تواجه المشكلة الموضحة في هذه المقالة. وإذا كانا متشابهين، فهذا يعني انك تواجه مشكله غير مرتبطة. في هذه الحالة، نوصي بالاتصال بدعم Microsoft.
 
 ### <a name="solution-1"></a>الحل 1
 

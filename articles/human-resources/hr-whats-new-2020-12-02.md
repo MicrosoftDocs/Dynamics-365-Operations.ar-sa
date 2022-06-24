@@ -1,6 +1,6 @@
 ---
 title: الجديد أو المتغير في Dynamics 365 Human Resources‏ 2 ديسمبر 2020
-description: يصف هذا الموضوع الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 2 ديسمبر 2020.
+description: توضح هذه المقالة الميزات الجديدة أو المتغيرة في Microsoft Dynamics 365 Human Resources لإصدار 2 ديسمبر 2020.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848096"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>الجديد أو المتغير في Dynamics 365 Human Resources‏ 2 ديسمبر 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يصف هذا الموضوع الميزات الجديدة أو المتغيرة أو على وشك القدوم في Dynamics 365 Human Resources.
+توضح هذه المقالة الميزات الجديدة أو المتغيرة أو التي ستصدر قريبًا في Dynamics 365 Human Resources.
 
 لمزيد من المعلومات حول عملية التحديث الخاصة بنا والجدول، راجع [عملية التحديث](hr-admin-setup-update-process.md).
 
@@ -52,9 +52,9 @@ ms.locfileid: "6782649"
 يتضمن هذا الإصدار إصلاحات الأخطاء التالية.
 
 > [!NOTE]
-> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. قد نقوم بتحديث هذا الموضوع لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذا الموضوع في البداية.
+> هدفنا هو الحصول على هذه المعلومات لك في أسرع وقت ممكن. يمكن أن نقوم بتحديث هذه المقالة لتضمين إصلاحات الأخطاء التي أجريتها في البناء بعد أن يتم نشر هذه المقالة مبدئيًا.
 
-| رقم الإصدار | إصدار | الوصف |
+| رقم الإصدار | المشكلة | ‏‏الوصف‬ |
 | --- | --- | --- |
 | 514087 | يجب أن تتضمن BenefitEligibilityProcessResult التاريخ والوقت الذي تم استخدامه في المعالجة. | تتضمن نتيجة معالجة BenefitEligibity الآن الطابع الزمني للتاريخ لآخر معالجة، والتي كانت مفقودة في وقت سابق. |
 | 526903 | فشل تسجيل الميزة للخطط التي لها توابع عند تشغيل **التحديد التلقائي للمعينين** في **المعلمات المشتركة للموارد البشرية**. | تم إصلاح مشكلة فشل تسجيل المزايا للمُعالين عندما تم تشغيل خيار **التحديد التلقائي للمعينين** للمعينين الافتراضيين. |

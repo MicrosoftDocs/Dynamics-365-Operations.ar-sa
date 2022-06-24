@@ -1,6 +1,6 @@
 ---
 title: تكوين مراجعي النفقات
-description: يصف هذا الموضوع كيفية استخدام مراجعي النفقات لاختيار مستخدم ديناميكيًا الذي تم تعيين مهمة سير عمل أو موافقة أو قرار يدوي له.
+description: تصف هذه المقالة كيفية استخدام مراجعي النفقات لاختيار المستخدم الذي تم تعيين مهمة سير العمل أو الموافقة أو القرار اليدوي له بشكل ديناميكي.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863212"
 ---
 # <a name="configure-expenditure-reviewers"></a>تكوين مراجعي النفقات
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ ms.locfileid: "8070136"
 
 ## <a name="set-up-expenditure-reviewers"></a>إعداد مراجعي النفقات
 
-يوضح هذا المثال كيفية تكوين مراجع نفقات طلب الشراء. لتكوين أنواع أخرى من مراجعي النفقات، استبدل مسار التنقل في الخطوة 1 بالمسار المناسب من الجدول في قسم [أنواع مراجعي النفقات](configure-expenditure-reviewers.md#types-of-expenditure-reviewers)، المذكور سابقًا في هذا الموضوع.
+يوضح هذا المثال كيفية تكوين مراجع نفقات طلب الشراء. لتكوين أنواع أخرى من مراجعي النفقات، استبدل مسار التنقل في الخطوة 1 بالمسار المناسب من الجدول في قسم [أنواع مراجعي النفقات](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) ، المذكور سابقًا في هذه المقالة.
 
 1. انتقل إلى **التدبير وتحديد الموارد \> الإعداد \> السياسات \> مراجعي نفقات طلبات الشراء**.
 2. في صفحة **مراجعو نفقات طلبات الشراء**، حدد **جديد**.

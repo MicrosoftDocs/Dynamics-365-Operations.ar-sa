@@ -1,6 +1,6 @@
 ---
 title: تثبيت الوظيفة الإضافية للخدمات المصغرة في Lifecycle Services
-description: يشرح هذه الموضوع كيفية تثبيت الوظيفة الإضافية الفوترة الإلكترونية في Microsoft Dynamics ‏Lifecycle Services ‏(LCS).
+description: تشرح هذه المقالة كيفية تثبيت الوظيفة الإضافية الفوترة الإلكترونية في Microsoft Dynamics ‏Lifecycle Services ‏(LCS).
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a575f3e26489607dc2143ba05c941240969a0feb
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 26f92262eff07ded3e894ee5513dd8dbaa6f94a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371499"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849794"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>تثبيت الوظيفة الإضافية للخدمات المصغرة في Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-تتطلب المصادقة في خدمة الفواتير الإلكترونية أن تقوم بتسجيل بيئة Microsoft Dynamics 365 Finance أو Dynamics 365 Supply Chain Management في النظام الأساسي للخدمات عن طريق التثبيت الوظيفة الإضافية لبيئتك في Microsoft Dynamics ‏Lifecycle Services ‏(LCS).
+تتطلب المصادقة في خدمة الفوترة الإلكترونية أن تقوم بتسجيل بيئة Microsoft Dynamics 365‎ Finance أو Dynamics 365 Supply Chain Management في النظام الأساسي للخدمات عن طريق تثبيت الوظيفة الإضافية لبيئتك في Microsoft Dynamics ‏Lifecycle Services ‏(LCS).
 
 لتسجيل بيئة، اتبع هذه الخطوات.
 

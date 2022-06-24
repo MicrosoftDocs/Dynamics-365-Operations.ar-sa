@@ -1,6 +1,6 @@
 ---
 title: وظيفة DATETODATETIME ER
-description: يوفر هذا الموضوع معلومات حول كيفية استخدام وظيفة إعداد التقارير الإلكترونية DATETODATETIME (ER).
+description: توفر هذه المقالة معلومات عن كيفية استخدام وظيفة إعداد التقارير الإلكترونية DATETODATETIME‏ (ER).
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e5fa64b776ed2702ac65a2f6416adcf657c748caa1156a71b4c3e99ee188880
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ba80c4c3eac703ba96a4f2741fcc19bceeb24ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898480"
 ---
 # <a name="datetodatetime-er-function"></a>وظيفة DATETODATETIME ER
 
@@ -47,7 +47,7 @@ DATETODATETIME (date)
 
 ## <a name="example-1"></a>مثال1
 
-يُرجع `DATETODATETIME (CompInfo. 'getCurrentDate()')` تاريخ جلسة Microsoft Dynamics 365 Finance الحالية، 24 ديسمبر 2015، على الشكل التالي **12/24/2015 12:00:00 AM**.  في هذا المثال، **CompInfo** عبارة عن مصدر بيانات تقارير إلكترونية (ER) من النوع **Finance and Operations/جدول**، ويشير إلى جدول CompanyInfo table.
+يُرجع `DATETODATETIME (CompInfo. 'getCurrentDate()')` تاريخ جلسة 365‎ Finance Microsoft Dynamics الحالية، 24 ديسمبر 2015، على الشكل التالي **12/24/2015 12:00:00 صباحًا**. في هذا المثال، **CompInfo** عبارة عن مصدر بيانات تقارير إلكترونية (ER) من النوع **Finance and Operations/جدول** ، ويشير إلى جدول CompanyInfo.
 
 ## <a name="example-2"></a>مثال2
 

@@ -1,6 +1,6 @@
 ---
 title: مساحة العمل المحمولة الموافقات على الفواتير‬
-description: يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة "الموافقات على الفواتير‬‬".
+description: توفر هذه المقالة معلومات عن مساحة العمل المحمولة الموافقات على الفواتير‬.
 author: abruer
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868658"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>مساحة العمل المحمولة الموافقات على الفواتير‬
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-يوفر هذا الموضوع معلومات حول مساحة العمل المحمولة **الموافقات على الفواتير**. توفر مساحة العمل المحمولة قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد. 
+توفر هذه المقالة معلومات عن مساحة العمل المحمولة **الموافقات على الفواتير** ‬. توفر مساحة العمل المحمولة قائمة بالفواتير التي تم تعيينها لك من خلال عملية سير عمل رأس فاتورة المورد. 
 
 مساحة العمل المحمولة هذه مخصصة للاستخدام مع تطبيق Finance and Operations للأجهزة المحمولة. 
 

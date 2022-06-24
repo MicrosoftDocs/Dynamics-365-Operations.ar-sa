@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: b48fcfe46dbc8a512a2ff9523b62c3a99d1bcd28
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888082"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>تعيين مرشح من خلال التوظيف
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> سيُشار إلى وظيفة التوظيف في هذا الموضوع باعتبارها مشاريع توظيف وستركز على مقدمي الطلبات والطلبات ومشاريع التوظيف.  
+> سيُشار إلى وظيفة التوظيف في هذه المقالة باعتبارها مشاريع توظيف، وستركز على مقدمي الطلبات والطلبات ومشاريع التوظيف.  
 
 يتيح هذا الإجراء لمسؤول التعيين توظيف مقدم الطلب الذي قدم استمارة تقديم طلب من خلال مشروع تعيين محدد. عند توظيف مقدم طلب من خلال مشروع تعيين، يتم إنشاء سجل عامل جديد وحالة سجل مقدم الطلب هي **موظف**. تم استخدام شركة بيانات العرض التوضيحي **USMF** لإنشاء هذا الإجراء.
 

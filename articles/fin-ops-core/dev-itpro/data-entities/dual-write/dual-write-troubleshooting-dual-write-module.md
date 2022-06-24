@@ -1,6 +1,6 @@
 ---
 title: استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
-description: يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح المشكلات ذات الصلة بوحدة الكتابة المزدوجة في تطبيقات التمويل والعمليات.
+description: توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها الذي يمكن أن تساعدك على إصلاح المشكلات ذات الصلة بوحدة الكتابة المزدوجة في تطبيقات التمويل والعمليات.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0696d525e985f1cfcac1998d4c0bd8a380ca9551
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864561"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
 
@@ -22,10 +22,10 @@ ms.locfileid: "8613871"
 
 
 
-يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع معلومات يمكنها مساعدتك في إصلاح الأخطاء في وحدة **الكتابة المزدوجة** في تطبيقات التمويل والعمليات.
+توفر هذه المقالة معلومات عن استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات و Dataverse. على وجه التحديد، يوفر هذا الموضوع معلومات يمكنها مساعدتك في إصلاح الأخطاء في وحدة **الكتابة المزدوجة** في تطبيقات التمويل والعمليات.
 
 > [!IMPORTANT]
-> قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر  Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
+> قد تتطلب بعض المشكلات التي تتناولها هذه المقالة إما منصب مسؤول النظام أو بيانات اعتماد مسؤول مستأجر Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>لا يمكنك تحميل الوحدة النمطية للكتابة المزدوجة في تطبيق التمويل والعمليات
 

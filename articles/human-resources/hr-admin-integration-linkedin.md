@@ -1,6 +1,6 @@
 ---
 title: التكامل مع LinkedIn Talent Hub
-description: يشرح هذا الموضوع كيفية إعداد التكامل بين Microsoft Dynamics 365 Human Resources وLinkedIn Talent Hub.
+description: توضح هذه المقالة كيفية إعداد التكامل بين Dynamics 365 Human Resources MicrosoftوLinkedIn Talent Hub.
 author: jaredha
 ms.date: 10/20/2020
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d14a8cb1973e0ed55ef10ddb43415eba80eb5c1b
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: df4a0a4dec078392ba835318450f5983a6e95c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717100"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887736"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>التكامل مع LinkedIn Talent Hub
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 > [!IMPORTANT]
-> سيتم إيقاف التكامل بين Dynamics 365 Human Resources وLinkedIn Talent Hub الموضح في هذا الموضوع في 31 ديسمبر 2021. لن تصبح خدمة التكامل متوفرة بعد هذا التاريخ. لن تتمكن المؤسسات التي لا تستخدم خدمه التكامل بالفعل من تطبيق الخدمة قبل التقاعد.
+> سيتم إيقاف التكامل بين Dynamics 365 Human Resources وLinkedIn Talent Hub الموضح في هذه المقالة في 31 ديسمبر 2021. لن تصبح خدمة التكامل متوفرة بعد هذا التاريخ. لن تتمكن المؤسسات التي لا تستخدم خدمه التكامل بالفعل من تطبيق الخدمة قبل التقاعد.
 
 يُعد [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) هو النظام الأساسي لنظام تتبع مقدم التطبيق (ATS). يتيح لك إمكانية البحث عن المرشحين وإدارتهم وتوظيفهم في مكان واحد. ومن خلال تكامل Microsoft Dynamics 365 Human Resources مع LinkedIn Talent Hub، فإنه يمكنك بسهولة إنشاء سجلات الموظفين في Human Resources لمقدمي الطلبات الذين تم توظيفهم لأحد المناصب.
 

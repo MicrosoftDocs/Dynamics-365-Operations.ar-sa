@@ -1,6 +1,6 @@
 ---
 title: خدمات العولمة في Dynamics 365
-description: يقدم هذا الموضوع نظرة عامة على خدمات العولمة في Microsoft Dynamics 365.
+description: توفر هذه المقالة نظرة عامة على خدمات العولمة في Microsoft Dynamics 365.
 author: JaneA07
 ms.date: 04/12/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 1dfe88bf6eb0cf479f8febd8a599b165b71d932d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9f449bed7eac8d6eb38e62e6eda816f31cff80c2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879467"
 ---
 # <a name="dynamics-365-globalization-services"></a>خدمات العولمة في Dynamics 365
 
@@ -38,10 +38,10 @@ ms.locfileid: "7985981"
 
 | الخدمة عبر الإنترنت | خدمة التكوين التنظيمية | الفوترة الإلكترونية | (إصدار أولي) حساب الضرائب |
 |----------------|-----|----------------------|---------------------------|
-| Dynamics 365 Finance | نعم | نعم | نعم | 
-| Dynamics 365 Supply Chain Management | نعم | نعم | نعم | 
-| Dynamics 365 Project Operations | نعم | نعم | غير قابل للتطبيق | 
-| Dynamics 365 Commerce | نعم | غير قابل للتطبيق | غير قابل للتطبيق | 
+| Dynamics 365 Finance | ‏‏نعم‬ | ‏‏نعم‬ | ‏‏نعم‬ | 
+| Dynamics 365 Supply Chain Management | ‏‏نعم‬ | ‏‏نعم‬ | ‏‏نعم‬ | 
+| Dynamics 365 Project Operations | ‏‏نعم‬ | ‏‏نعم‬ | غير قابل للتطبيق | 
+| Dynamics 365 Commerce | ‏‏نعم‬ | غير قابل للتطبيق | غير قابل للتطبيق | 
 
 > [!NOTE]
 > نظرًا للاختلافات في توفر المواقع الجغرافية الخاصة بـ Azure لخدمة RCS، قد يتسبب تكوين هذه الخدمة في تحويل بيانات العميل خارج المواقع الجغرافية التي تم تحديدها لخدمه Dynamics 365 عبر الإنترنت القابلة للتطبيق. لمزيد من المعلومات، راجع [Dynamics 365 وPower Platform: التوافر وموقع البيانات واللغة والترجمة](https://aka.ms/rcs/D365Productavailabilityguide).

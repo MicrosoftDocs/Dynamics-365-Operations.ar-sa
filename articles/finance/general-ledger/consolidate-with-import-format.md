@@ -1,6 +1,6 @@
 ---
 title: استيراد التنسيق للدمج
-description: يوفر هذا الموضوع معلومات تفصيلية حول تنسيق الاستيراد المستخدم عند دمج البيانات المالية من الكيانات القانونية المتعددة.
+description: توفر هذه المقالة معلومات تفصيلية عن تنسيق الاستيراد المستخدم عند دمج البيانات المالية من الكيانات القانونية المتعددة.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 5bea69d72ac93d29ae67dd6d762e1376d9a282f0
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 0aee830f8fbfa384c86dc16465b202be36f07b73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871293"
 ---
 # <a name="import-format-for-consolidation"></a>استيراد التنسيق للدمج
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع معلومات تفصيلية حول تنسيق الاستيراد المستخدم عند دمج البيانات المالية من الكيانات القانونية المتعددة. يجب حفظ تنسيق الاستيراد كملف نصي (.txt).
+توفر هذه المقالة معلومات تفصيلية عن تنسيق الاستيراد المستخدم عند دمج البيانات المالية من الكيانات القانونية المتعددة. يجب حفظ تنسيق الاستيراد كملف نصي (.txt).
 
 ## <a name="import-format"></a>تنسيق ملف الاستيراد
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735712"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848183"
 ---
 # <a name="performance-management"></a>إدارة الأداء
 
@@ -79,7 +79,7 @@ ms.locfileid: "8735712"
 
 إذا كنت تريد إرفاق مستند بالهدف، مثل شهادة الإنجاز، يمكنك إرفاقه من القسم **المرفقات** في صفحة **أهداف الأداء**. يتم توفير عارض مستندات لكي يمكنك عرض محتويات أي مستند مرفق بسرعة. 
 
-يمكنك إنشاء قالب من هدف ومن ثم استخدام القالب لإنشاء الأهداف الجديدة المستندة إلى القالب. عند إنشاءك قالب من هدف، يتم حفظ الوصف والموضوعات وقياسات الهدف. ومع ذلك، تتم إزالة كافة القياسات الفعلية وتواريخ الإنجاز وتعليقات الموضوعات.
+يمكنك إنشاء قالب من هدف ومن ثم استخدام القالب لإنشاء الأهداف الجديدة المستندة إلى القالب. عند إنشاءك قالب من هدف، يتم حفظ الوصف والموضوعات وقياسات الهدف. ومع ذلك، تتم إزالة كافة القياسات الفعلية وتواريخ الإكمال وتعليقات المقالات.
 
 ## <a name="performance-reviews"></a>مراجعات الأداء
 

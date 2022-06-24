@@ -1,6 +1,6 @@
 ---
 title: تكوين تجربة التعليمات لتطبيقات التمويل والعمليات
-description: يوفر هذا الموضوع معلومات حول مكونات نظام التعليمات لبعض تطبيقات Microsoft Dynamics 365.
+description: توفر هذه المقالة معلومات عن مكونات نظام التعليمات لبعض تطبيقات Microsoft Dynamics 365.
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070998"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900118"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>تكوين تجربة التعليمات لتطبيقات التمويل والعمليات
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070998"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-في هذا الموضوع، ستجد نظرة عامة على مكونات نظام التعليمات لتطبيقات التمويل والعمليات، مثل Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management وDynamics 365 Commerce وDynamics 365 Human Resources. يوضح الموضوع أيضًا كيفية توصيل هذه التطبيقات ويوفر ملخصًا لعملية إنشاء تعليمات مخصصة.
+في هذه المقالة، ستجد نظرة عامة على مكونات نظام التعليمات لتطبيقات التمويل والعمليات، مثل 365‎ Finance Microsoft Dynamics و Dynamics 365 Supply Chain Management و Dynamics 365 Commerce و Dynamics 365 Human Resources. توضح المقالة أيضًا كيفية توصيل هذه التطبيقات، وتوفر ملخصًا لعملية إنشاء تعليمات مخصصة.
 
 ## <a name="help-architecture"></a>بنية التعليمات
 

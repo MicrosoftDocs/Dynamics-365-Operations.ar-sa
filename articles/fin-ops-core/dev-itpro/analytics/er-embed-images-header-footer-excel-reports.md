@@ -1,6 +1,6 @@
 ---
 title: تصميم تنسيق ER لإنشاء تقرير بتنسيق Excel باستخدام الصور المضمنة في رؤوس الصفحات أو تذييلاتها
-description: يوضح هذا الموضوع كيفية استخدام إعداد التقارير الإلكترونية (ER) لإنشاء مستندات أعمال تحتوي على صور وأشكال مضمنة في رؤوس أو تذييل الصفحات.
+description: توضح هذه المقالة كيفية استخدام إعداد التقارير الإلكترونية (ER) لإنشاء مستندات أعمال تحتوي على صور وأشكال مضمنة في رؤوس أو تذييل الصفحات.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854832"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>تصميم تنسيق ER لإنشاء تقرير بتنسيق Excel باستخدام الصور المضمنة في رؤوس الصفحات أو تذييلاتها
 
 [!include[banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية قيام مستخدم بدور مسؤول النظام أو دور مستشار وظيفة التقارير الإلكترونية بإجراء هذه المهام:
+توضح هذه المقالة كيفية قيام مستخدم بدور مسؤول النظام أو دور مستشار وظيفة التقارير الإلكترونية بإجراء هذه المهام:
 
 - تكوين معلمات لإطار عمل [التقارير الإلكترونية (ER)](general-electronic-reporting.md).
 - استيراد [تكوينات ER](general-electronic-reporting.md#Configuration)التي يتم [توفيرها](general-electronic-reporting.md#Provider) بواسطة Microsoft ويتم استخدامها لإنشاء [فواتير النص الحر](../../../finance/accounts-receivable/create-free-text-invoice-new.md)، استنادا إلى [قالب ](er-fillable-excel.md#excel-file-component) بتنسيق Microsoft Excel.
 - إنشاء إصدار [مخصص (مشتق)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) من تكوين تنسيق ER القياسي الذي يتم توفيره بواسطة Microsoft.
 - تعديل تكوين تنسيق ER المخصص بحيث يقوم بإنشاء تقرير فاتورة النص الحر الذي يحتوي على صورة شعار الشركة في تذييل الصفحة.
 
-يمكن إكمال الإجراءات الموجودة في هذا الموضوع في شركة **USMF**. الترميز غير مطلوب. قبل أن تبدأ ، قم بتنزيل وحفظ الملف التالي.
+يمكن إكمال الإجراءات الموجودة في هذه المقالة في شركة **USMF**. الترميز غير مطلوب. قبل أن تبدأ ، قم بتنزيل وحفظ الملف التالي.
 
 | الوصف        | اسم الملف |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ ms.locfileid: "8323765"
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>استيراد تكوينات تنسيق ER القياسية
 
-لإضافة تكوينات ER القياسية إلى المثيل الحالي من Dynamics 365 Finance، يجب استيرادها من [مستودع](general-electronic-reporting.md#Repository) ERالذي تم تكوينه لهذا المثيل.
+لإضافة تكوينات التقارير الإلكترونية القياسية إلى مثيل Dynamics 365 Finance الحالي، فإنه يجب استيرادها من [مستودع التقارير الإلكترونية](general-electronic-reporting.md#Repository) الذي تم تكوينه لذلك المثيل.
 
 1. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 2. في صفحة **تكوينات التعريب**، في قسم **موفري التكوين**، حدد تجانب **Microsoft**، ثم حدد **المستودعات** لعرض قائمة المستودعات الخاصة بموفر **Microsoft**.

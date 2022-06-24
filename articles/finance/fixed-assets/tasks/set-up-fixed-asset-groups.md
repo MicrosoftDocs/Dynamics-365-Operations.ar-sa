@@ -1,6 +1,6 @@
 ---
 title: إعداد مجموعات الأصول الثابتة
-description: يوضح هذا الموضوع كيفية إنشاء مجموعة أصول ثابتة جديدة.
+description: يوضح هذه المقالة كيفية إنشاء مجموعة أصول ثابتة جديدة.
 author: moaamer
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17f149f3815867e2b174e017dd6b4998e2d7c16f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7eef214142bab80f6754c74787e94c4e79a3e037
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870064"
 ---
 # <a name="set-up-fixed-asset-groups"></a>إعداد مجموعات الأصول الثابتة
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إنشاء مجموعة أصول ثابتة جديدة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
+يوضح هذه المقالة كيفية إنشاء مجموعة أصول ثابتة جديدة. إنه يستخدم دور المحاسب وبيانات العرض التوضيحي في الكيان القانوني USMF.
 
 1. في جزء التنقل، انتقل إلى **الوحدات النمطية > الأصول الثابتة > الإعداد > مجموعات الأصول الثابتة‬**.
 2. حدد **جديد**.

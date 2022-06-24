@@ -1,6 +1,6 @@
 ---
 title: استخدام مصادر بيانات USER INPUT PARAMETER لتحديد المعلمات لتقرير
-description: يشرح هذا الموضوع كيفية استخدام مصادر بيانات USER INPUT PARAMETER لتحديد المعلمات للتقارير التي ترغب في إنشائها.
+description: توضح هذه المقالة كيفية استخدام مصادر بيانات محددة إدخال المستخدم لتحديد المعلمات للتقارير التي ترغب في إنشائها.
 author: NickSelin
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 4e431c9dd59080af17fa073547073037ba233288
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782305"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872961"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>استخدام مصادر بيانات USER INPUT PARAMETER لتحديد المعلمات لتقرير
 
 [!include[banner](../includes/banner.md)]
 
-عندما تقوم بتصميم [تعيين نموذج](general-electronic-reporting.md) [التقارير الإلكترونية](er-overview-components.md#model-mapping-component) ومكونات [تنسيق](er-overview-components.md#format-component) التقارير الإلكترونية، يمكنك استخدام مصادر بيانات من النوع *USER INPUT PARAMETER* للحصول على القيم المطلوبة التي يمكن تحديدها في حقول إدخال البيانات في مربع الحوار في وقت التشغيل. يصف هذا الموضوع مصادر بيانات *USER INPUT PARAMETER* المدعومة في الوقت الحالي.
+عندما تقوم بتصميم [تعيين نموذج](general-electronic-reporting.md) [التقارير الإلكترونية](er-overview-components.md#model-mapping-component) ومكونات [تنسيق](er-overview-components.md#format-component) التقارير الإلكترونية، يمكنك استخدام مصادر بيانات من النوع *USER INPUT PARAMETER* للحصول على القيم المطلوبة التي يمكن تحديدها في حقول إدخال البيانات في مربع الحوار في وقت التشغيل. تصف هذه المقالة مصادر بيانات *محددة إدخال المستخدم* المدعومة في الوقت الحالي.
 
 ## <a name="mandatory-properties"></a><a name="mandatory-properties"></a>الخصائص الإلزامية
 

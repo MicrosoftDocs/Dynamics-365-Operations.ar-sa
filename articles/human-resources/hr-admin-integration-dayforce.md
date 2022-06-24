@@ -1,6 +1,6 @@
 ---
 title: تكوين التكامل مع Dayforce
-description: يصف هذا الموضوع خطوات التكوين المطلوبة اللازمة للتكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce.
+description: تصف هذه المقالة خطوات التكوين المطلوبة اللازمة للتكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896123"
 ---
 # <a name="configure-integration-with-dayforce"></a>تكوين التكامل مع Dayforce
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691321"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يعتمد التكامل بين Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين التي تم وصفها في هذا الموضوع. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
+يعتمد التكامل بين Microsoft Dynamics 365 Human Resources وCeridian Dayforce على العديد من خطوات التكوين الموضحة في هذا المقال. يجب عليك تكوين التكامل في كل من Human Resources وDayforce قبل أن تتمكن من معالجة دورة دفع.
 
 عندما تستخدم خدمة مثل Dayforce لإتمام دورات الدفع، يجب عليك تمكين التكامل في Human Resources. يتطلب التكامل بيانات معينة من Human Resources. لذلك، يجب عليك التأكد من أن البيانات التي تم تعيينها إلى Dayforce هي بيانات تم تكوينها في Human Resources بطريقة تدعم التكامل. يستخدم التكامل الفئات الواسعة التالية من البيانات:
 
@@ -37,7 +37,7 @@ ms.locfileid: "8691321"
 - بيانات كشف المرتبات، مثل دورات الدفع وفترات الدفع وأكواد الأرباح
 - بيانات العامل
 
-يصف هذا الموضوع الخطوات التي يجب اتباعها لتمكين التكامل ويشرح أنواع البيانات وتفاصيل التكوين التي يتطلبها التكامل.
+توضح هذه المقالة الخطوات التي يجب اتباعها لتمكين التكامل وتشرح أنواع البيانات وتفاصيل التكوين التي يتطلبها التكامل.
 
 ## <a name="enable-the-integration"></a>تمكين التكامل
 

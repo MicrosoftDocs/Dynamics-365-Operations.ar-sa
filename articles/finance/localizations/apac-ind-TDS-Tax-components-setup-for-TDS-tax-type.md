@@ -1,6 +1,6 @@
 ---
 title: إعداد مكونات الضريبة لنوع ضريبة TDS
-description: يوضح هذا الموضوع كيفية إعداد مكونات ضريبة الخصم لنوع الضريبة المخصومة في المصدر (TDS). ويوضح أيضًا كيفية تحديد الحد المستخدم لحساب TDS لكل مكون TDS.
+description: توضح هذه المقالة كيفية إعداد مكونات ضريبة الخصم لنوع الضريبة المخصومة في المصدر (TDS). ويوضح أيضًا كيفية تحديد الحد المستخدم لحساب TDS لكل مكون TDS.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9c86341f7528e2c85b813e4f825ae34f10680a9b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871146"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>إعداد مكونات الضريبة لنوع ضريبة TDS
 
 [!include [banner](../includes/banner.md)]
 
-يوضح هذا الموضوع كيفية إعداد مكونات ضريبة الخصم لنوع الضريبة المخصومة في المصدر (TDS). تعد مكونات TDS هي TDS والرسوم الإضافية وPE-Cess وSHE Cess. ويوضح هذا الموضوع أيضًا كيفية تحديد الحد المستخدم لحساب TDS لكل مكون TDS. بالإضافة إلى ذلك، يمكنك تعريف الحد الاستثنائي الذي يتم استخدامه لحساب TDS لكل مكون TDS.
+توضح هذه المقالة كيفية إعداد مكونات ضريبة الخصم لنوع الضريبة المخصومة في المصدر (TDS). تعد مكونات TDS هي TDS والرسوم الإضافية وPE-Cess وSHE Cess. وتوضح هذه المقالة أيضًا كيفية تحديد الحد المستخدم لحساب TDS لكل مكون TDS. بالإضافة إلى ذلك، يمكنك تعريف الحد الاستثنائي الذي يتم استخدامه لحساب TDS لكل مكون TDS.
 
 لإعداد ممكونات TDS‬، اتبع هذه الخطوات:
 

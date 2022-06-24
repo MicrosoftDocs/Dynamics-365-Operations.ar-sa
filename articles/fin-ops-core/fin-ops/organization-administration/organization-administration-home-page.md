@@ -1,6 +1,6 @@
 ---
 title: الصفحة الرئيسية لإدارة المؤسسة
-description: يشير هذا الموضوع إلى الموارد التي ستساعدك في مؤسستك.
+description: تشير هذه المقالة إلى الموارد التي ستساعدك في مؤسستك.
 author: sericks007
 ms.date: 08/18/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04d188b0bf7d7fc7064467e1e05199d0eb90b4d0276a3c0c01ad8f9be78e76e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f6d4320fb22f0354b33b44e731d22f3f763789ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882038"
 ---
 # <a name="organization-administration-home-page"></a>الصفحة الرئيسية لإدارة المؤسسة
 
 [!include [banner](../includes/banner.md)]
 
-يُشير هذا الموضوع إلى المحتوى الذي سوف يساعد مستخدمي Power والمسؤولين على تكوين النظام لكي يعمل بطريقة سلسة وفعّالة لمؤسستك وأعمالك.
+تشير هذه المقالة إلى المحتوى الذي سيساعد مستخدمي Power والمسؤولين على تكوين النظام لكي يعمل بطريقة سلسة وفعّالة لمؤسستك وأعمالك.
 
 معظم المحتويات المسرودة هنا تنطبق على الميزات في الوحدة النمطية **الإدارة التنظيمية**. ومع ذلك، هناك مهام قليلة، مثل إنشاء واستخدام قالب سجل، يمكن تنفيذها في أي وحدة نمطية لمساعدة مؤسستك على العمل بكفاءة أكثر.
 

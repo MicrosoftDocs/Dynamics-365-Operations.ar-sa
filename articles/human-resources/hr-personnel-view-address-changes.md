@@ -1,6 +1,6 @@
 ---
 title: عرض تغييرات العناوين وإدارتها
-description: يوضح هذا الموضوع كيف يمكنك عرض تغييرات العناوين وإدارتها في Dynamics 365 Human Resources.
+description: توضح هذه المقالة كيف يمكنك عرض تغييرات العناوين وإدارتها في Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899574"
 ---
 # <a name="view-and-manage-address-changes"></a>عرض تغييرات العناوين وإدارتها
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695833"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يوضح هذا الموضوع كيفية عرض تغييرات العناوين وإدارتها في صفحة **تحرير التفاصيل الشخصية** (التي تفتحها من مساحة عمل **الخدمة الذاتية للموظف**) أو صفحة تفاصيل **العامل** في Dynamics 365 Human Resources.
+توضح هذه المقالة كيفية عرض تغييرات العناوين وإدارتها في صفحة **تحرير التفاصيل الشخصية** (التي تفتحها من مساحة عمل **الخدمة الذاتية للموظف)** أو صفحة تفاصيل **العامل** في Dynamics 365 Human Resources.
 
 ترغب مؤسسات كثيرة في قيام الموظفين بإدارة بيانتهم الشخصية الخاصة من خلال تجربة الخدمة الذاتية. يمكنك السماح للمستخدمين بتحديث عنوانهم في مساحة عمل **الخدمة الذاتية للموظف‬**. يمكنك عندئذ مراقبة هذه التغييرات في مساحة عمل **إدارة العاملين**. لاستخدام هذه الميزة، يجب تحديد عدد الأيام التي ترغب في عرض التغييرات بها في الصفحة **معلمات الموارد البشرية**.
 

@@ -1,6 +1,6 @@
 ---
-title: ضبط تنسيق ER لإنشاء مستند إلكتروني مخصص
-description: يوضح هذا الموضوع كيفية تعديل تنسيق التقارير الإلكترونية (ER) المقدمة من Microsoft بحيث تقوم بإنشاء مستند إلكتروني مخصص.
+title: ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
+description: توضح هذه المقالة كيفية تعديل تنسيق التقارير الإلكترونية (ER) المقدمة من Microsoft بحيث تقوم بإنشاء مستند إلكتروني مخصص.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886780"
 ---
-# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ضبط تنسيق ER لإنشاء مستند إلكتروني مخصص
+# <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
 
 [!include[banner](../includes/banner.md)]
 
-توضح الإجراءات الواردة في هذا الموضوع كيفية قيام مستخدم بدور مسؤول النظام أو مستشار وظيفة التقارير الإلكترونية بإجراء هذه المهام:
+توضح الإجراءات الواردة في هذه المقالة كيفية قيام مستخدم بدور مسؤول النظام أو مستشار وظيفة التقارير الإلكترونية بإجراء هذه المهام:
 
 - تكوين معلمات [لإطار عمل التقارير الإلكترونية (ER)](general-electronic-reporting.md)
 - استيراد تكوينات ER التي يتم توفيرها بواسطة Microsoft واستخدامها لإنشاء ملف دفع أثناء معالجة [مدفوعات المورد](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md).
@@ -135,7 +135,7 @@ ms.locfileid: "8323807"
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>استيراد تكوينات تنسيق ER القياسية
 
-لإضافة تكوينات ER القياسية إلى المثيل الحالي من Microsoft Dynamics 365 Finance، يجب استيرادها من [مستودع](general-electronic-reporting.md#Repository) ERالذي تم تكوينه لهذا المثيل.
+لإضافة تكوينات التقارير الإلكترونية القياسية إلى مثيل Microsoft Dynamics 365 Finance الحالي، فإنه يجب استيرادها من [مستودع التقارير الإلكترونية](general-electronic-reporting.md#Repository) الذي تم تكوينه لذلك المثيل
 
 1. انتقل إلى **إدارة المؤسسة** \> **مساحات العمل** \> **التقارير الإلكترونية**.
 2. في صفحة **تكوينات التعريب**، في قسم **موفري التكوين**، حدد تجانب **Microsoft**، ثم حدد **المستودعات** لعرض قائمة المستودعات الخاصة بموفر Microsoft.

@@ -1,6 +1,6 @@
 ---
-title: استكشاف المشاكل وإصلاحها في المزامنة المباشرة
-description: يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح مشكلات المزامنة المباشرة.
+title: استكشاف مشكلات المزامنة المباشرة وإصلاحها
+description: توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها الذي يمكن أن تساعدك على إصلاح مشكلات المزامنة المباشرة.
 author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
@@ -9,23 +9,23 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: df184decdfa900ccb5c2070575e55052b9dfc547
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896694"
 ---
-# <a name="troubleshoot-live-synchronization-issues"></a>استكشاف المشاكل وإصلاحها في المزامنة المباشرة
+# <a name="troubleshoot-live-synchronization-issues"></a>استكشاف مشكلات المزامنة المباشرة وإصلاحها
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-يوفر هذا الموضوع معلومات حول استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وMicrosoft Dataverse. على وجه التحديد، يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح مشكلات المزامنة المباشرة.
+توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات و Microsoft Dataverse. على وجه التحديد، يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح مشكلات المزامنة المباشرة.
 
 > [!IMPORTANT]
-> قد تتطلب بعض المشكلات التي يتناولها هذا الموضوع إما دور إدارة النظام أو بيانات اعتماد مسؤول مستأجر Azure Active Directory (Azure AD). يوضح كل قسم ما إذا كانت هناك حاجة إلى بيانات عتماد لدور محدد أو بيانات اعتماد خاصة.
+> قد تتطلب بعض المشكلات التي تتناولها هذه المقالة إما دور إدارة النظام أو بيانات اعتماد مسؤول المستأجر Azure Active Directory (Azure AD). يوضح كل قسم ما إذا كانت هناك حاجة إلى بيانات عتماد لدور محدد أو بيانات اعتماد خاصة.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>تظهر المزامنة المباشرة خطأ عند إنشاء صف
 

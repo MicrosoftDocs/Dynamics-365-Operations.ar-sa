@@ -1,6 +1,6 @@
 ---
 title: تكوين وجهات التقارير الإلكترونية الخاصة بسجلات إدارة الطباعة
-description: يشرح هذا الموضوع كيفية تكوين الوجهات المحددة لسجل إدارة الطباعة لتنسيق إعداد التقارير الإلكترونية (ER) الذي تم تكوينه لإنشاء مستندات صادرة.
+description: توضح هذه المقالة كيفية تكوين الوجهات المحددة لسجل إدارة الطباعة لتنسيق إعداد التقارير الإلكترونية (ER) الذي تم تكوينه لإنشاء مستندات صادرة.
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 2972dc6a0b373cbc63b811c01ef7a5538810edbb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872702"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>تكوين وجهات التقارير الإلكترونية الخاصة بسجلات إدارة الطباعة
 
 [!include [banner](../includes/banner.md)]
 
-يشرح هذا الموضوع كيف يمكن لمستخدم في دور مسؤول النظام أو كاتب الحسابات المدينة تنفيذ المهام التالية:
+توضح هذه المقالة كيف يمكن لمستخدم في دور مسؤول النظام أو كاتب الحسابات المدينة تنفيذ المهام التالية:
 
 - قم بتكوين وجهات [التقارير الإلكترونية المسماة (ER)](general-electronic-reporting.md) لحل ER الذي يقوم بإنشاء الفواتير ذات النص الحر.
 - قم بتعيين وجهة ER لسجل [إدارة طباعة](document-reporting-services.md) واحد.

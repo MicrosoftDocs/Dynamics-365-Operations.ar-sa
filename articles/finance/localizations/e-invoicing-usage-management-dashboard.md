@@ -1,6 +1,6 @@
 ---
 title: لوحة معلومات إدارة الاستخدام
-description: يشرح هذا الموضوع كيفية استخدام لوحة معلومات إدارة الاستخدام لمراقبة استخدام خدمة الفوترة الإلكترونية والحفاظ على توافقها.
+description: تشرح هذه المقالة كيفية استخدام لوحة معلومات إدارة الاستخدام لمراقبة استخدام خدمة الفوترة الإلكترونية والحفاظ على توافقها.
 author: gionoder
 ms.date: 06/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 35b50c8cb5c6ef72f466a4fb10c7af0e53afc3db5d1ef9e2b23d6049e24a70c3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3fad2acea373e96092208ce06edb31f1a862912d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875960"
 ---
 # <a name="usage-management-dashboard"></a>لوحة معلومات إدارة الاستخدام
 
@@ -48,7 +48,7 @@ ms.locfileid: "6776464"
 
 - المؤسسة: 
 
-    يتم تلخيص الجرد بواسطة معرف المستأجر الخاص بمؤسسك، بغض النظر عن عدد مثيلات Microsoft Dynamics 365 Finance أو Dynamics 365 Supply Chain Management أو عدد الكيانات القانونية التي يتم فيها تمكين خدمة الفوترة الإلكترونية.
+    يتم تلخيص الجرد بواسطة معرف المستأجر الخاص بمستأجرك، بغض النظر عن عدد مثيلات Microsoft Dynamics 365‎ Finance أو Dynamics 365 Supply Chain Management أو عدد الكيانات القانونية التي يتم فيها تمكين خدمة الفوترة الإلكترونية.
 
 
 ## <a name="indicator-usage-per-month-export"></a>المؤشر: الاستخدام لكل شهر (تصدير)

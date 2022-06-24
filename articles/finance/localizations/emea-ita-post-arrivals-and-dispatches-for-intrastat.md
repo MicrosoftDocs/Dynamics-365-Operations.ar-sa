@@ -1,6 +1,6 @@
 ---
 title: ترحيل عمليات الوصول والإرسالات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
-description: يوفر هذا الموضوع مثالاً يوضح كيفية ترحيل عمليات الوصول والإرسالات الخاصة بنظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي.
+description: توفر هذه المقالة مثالاً يوضح كيفية ترحيل عمليات الوصول والإرسالات الخاصة بنظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي.
 author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aef20f0261e103be7fe231a7efb39751ab4d1151
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862953"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>ترحيل عمليات الوصول والإرسالات إلى نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي
 
 [!include [banner](../includes/banner.md)]
 
-يوفر هذا الموضوع مثالاً يوضح كيفية ترحيل عمليات الوصول والإرسالات الخاصة بنظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي. يستخدم المثال الكيان القانوني لشركة **ITCO**.
+توفر هذه المقالة مثالاً يوضح كيفية ترحيل عمليات الوصول والإرسالات الخاصة بنظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي. يستخدم المثال الكيان القانوني لشركة **ITCO**.
 
 ## <a name="setup"></a>الإعداد
 

@@ -1,6 +1,6 @@
 ---
 title: تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
-description: يصف هذا الموضوع كيفية تصميم تكوينات التقارير الإلكترونية لإنشاء مستندات بتنسيقات Excel وWord تتضمن صورًا مضمنة.
+description: تضف هذه المقالة كيفية تصميم تكوينات التقارير الإلكترونية لإنشاء مستندات بتنسيقات Excel و Word تتضمن صورًا مضمنة.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a514c5b616d761ef3eb6347e67e645b23eaa1794911775835e77cded4500ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255b9a4e5276a9a80a4fbc15076f78a25c918e80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886632"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>تصميم التكوينات لإنشاء تقارير بتنسيق Office تحتوي على صور مضمنة
 

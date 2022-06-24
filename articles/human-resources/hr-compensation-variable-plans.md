@@ -1,6 +1,6 @@
 ---
 title: إنشاء خطط التعويض المتغيرة
-description: يوضح هذا الموضوع المكونات التي يجب إعدادها قبل أن تتمكن من استخدام التعويض المتغير وتسجيل موظف في خطة تعويض متغير.
+description: توضح هذه المقالة المكونات التي يجب إعدادها قبل أن تتمكن من استخدام التعويض المتغير وتسجيل موظف في خطة تعويض متغير.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688646"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853063"
 ---
 # <a name="create-variable-compensation-plans"></a>إنشاء خطط التعويض المتغير
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688646"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-يشكّل التعويض المتغير الدفع غير المنتظم للموظف، كالعلاوات أو المنح على شكل أسهم. يشرح هذا الموضوع كيفية إعداد المكونات المطلوبة للتعويض المتغير وتسجيل موظف في خطة تعويض متغير.
+يشكّل التعويض المتغير الدفع غير المنتظم للموظف، كالعلاوات أو المنح على شكل أسهم. توضح هذه المقالة كيفية إعداد المكونات المطلوبة للتعويض المتغير وتسجيل الموظف في خطة تعويض متغيرة.
 
 يمكن أن يستند حساب مبالغ التعويض المتغير للموظفين إلى عدة عوامل، مثل أداء الموظف، ومستوى تعويض الموظف، وأداء الإدارة.
 

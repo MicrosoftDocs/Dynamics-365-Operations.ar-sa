@@ -1,6 +1,6 @@
 ---
 title: الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
-description: يصف الموضوع كيف يمكن لمستخدم Regulatory configuration service ‎‎(RCS) تصميم تعيين جديد لنموذج التقارير الإلكترونية (ER) باستخدام بيانات التعريف.
+description: تصف المقالة كيف يمكن لمستخدمRegulatory configuration service ‎ تصميم تعيين جديد لنموذج التقارير الإلكترونية (ER) باستخدام بيانات التعريف.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 76e31e08cafb06cb2e8508c29f6e03d2559ebeb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883643"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER
 
 [!include [banner](../../includes/banner.md)]
 
-تشرح الخطوات التالية كيف يمكن لمستخدم Regulatory configuration service (RCS) يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تعيين جديد لنموذج التقارير الإلكترونية (ER) باستخدام بيانات تعريف التطبيق. سيتم الوصول إلى بيانات تعريف التطبيق باستخدام تكوين بيانات تعريف ER الذي يحتوي على عينة من مجموعة بيانات التعريف للوصول إلى حركات التجارة الخارجية. لإكمال هذه الخطوات، في RCS يجب أولا استكمال الخطوات في موضوع، [إنشاء موفري التكوين وتعليمهم كنشطين](er-configuration-provider-mark-it-active-2016-11.md). بعد ذلك، أكمل الخطوات في الموضوع، [إعداد بيانات تعريف التطبيق لاستخدامها في RCS](prepare-application-metadata-rcs.md).
+تشرح الخطوات التالية كيف يمكن لمستخدم Regulatory configuration service (RCS) يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تعيين جديد لنموذج التقارير الإلكترونية (ER) باستخدام بيانات تعريف التطبيق. سيتم الوصول إلى بيانات تعريف التطبيق باستخدام تكوين بيانات تعريف ER الذي يحتوي على عينة من مجموعة بيانات التعريف للوصول إلى حركات التجارة الخارجية. لإكمال هذه الخطوات، في RCS يجب أولاً استكمال الخطوات في المقال، [إنشاء موفري التكوين وتعليمهم كنشطين](er-configuration-provider-mark-it-active-2016-11.md) إجراء. بعد ذلك، أكمل الخطوات في المقال، [إعداد بيانات تعريف التطبيق لاستخدامها في RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 1. انتقل إلى **كل مساحات العمل‬** > **إعداد التقارير الإلكترونية**. 

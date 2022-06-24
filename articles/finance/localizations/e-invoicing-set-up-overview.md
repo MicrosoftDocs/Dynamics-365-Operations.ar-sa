@@ -1,6 +1,6 @@
 ---
 title: إعداد الفوترة الإلكترونية
-description: يقدم هذا الموضوع نظره عامه علي العملية الخاصة باعداد الفوترة الكترونيه وتكوينها.
+description: تقدم هذه المقالة نظرة عامة علي العملية الخاصة بإعداد الفوترة الإلكترونية وتكوينها.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883108"
 ---
 # <a name="electronic-invoicing-setup"></a>إعداد الفوترة الإلكترونية
 
 [!include [banner](../includes/banner.md)]
 
-يقدم هذا الموضوع نظره عامه علي العملية الخاصة باعداد الفوترة الكترونيه وتكوينها. يجب إكمال خطوات الاعداد بالترتيب المحدد هنا. إذا كانت أحدي الخطوات إلزاميه، ولكنك قمت بتخطيها، فلن تعمل الوظيفة بشكل صحيح، سيتم اجراء عمليات متعددة في الخطوات اللاحقة أو عند استخدام الوظيفة. 
+تقدم هذه المقالة نظرة عامة علي العملية الخاصة بإعداد الفوترة الإلكترونية وتكوينها. يجب إكمال خطوات الاعداد بالترتيب المحدد هنا. إذا كانت أحدي الخطوات إلزاميه، ولكنك قمت بتخطيها، فلن تعمل الوظيفة بشكل صحيح، سيتم اجراء عمليات متعددة في الخطوات اللاحقة أو عند استخدام الوظيفة. 
 
 قبل أن تبدأ، تأكد من إعداد جميع المكونات الرئيسية بشكل صحيح، ومن أنك قد اشتركت في Regulatory Configuration Service (RCS) ولديك مثيل لـ RCS، وأن الوظيفة الإضافية للفوترة الإلكترونية مثبتة لبيئة Microsoft Dynamics 365 Finance أو Dynamics 365 Supply Chain Management. لمزيد من المعلومات، راجع [تسجيل الاشتراك في وتثبيت الفوترة الإلكترونية](e-invoicing-install-add-in-microservices-lcs.md).
 

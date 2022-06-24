@@ -1,6 +1,6 @@
 ---
 title: مشاريع التوظيف الجماعي
-description: يصف هذا الموضوع مشاريع التوظيف الجماعي، والتي تسمح لمتخصصي الموارد البشرية بإنشاء وظائف متعددة وتوظيف العمال بكفاءة في تلك الوظائف.
+description: توضح هذه المقالة مشاريع التوظيف الجماعي التي تسمح لمتخصصي الموارد البشرية بإنشاء وظائف متعددة وتوظيف العمال بكفاءة في هذه المناصب.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ecc181f21c1502b8174765af5a2f2ef738e8477
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 2abf6ed80b7c5f728d7ff922afab8b425bde3df7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716988"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904177"
 ---
 # <a name="mass-hire-projects"></a>مشاريع التوظيف الجماعي
 

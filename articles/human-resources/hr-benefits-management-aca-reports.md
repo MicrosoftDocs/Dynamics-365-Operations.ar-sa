@@ -1,6 +1,6 @@
 ---
 title: إنشاء تقارير قانون الرعاية ميسورة التكلفة في إدارة الميزات
-description: يوضح هذا الموضوع كيفية قيام إدارة الميزات بتعقب المعلومات التي يتم رفع تقرير بها في النموذج 1095-B والنموذج 1095-C بشأن تكليف صاحب العمل وفق قانون الرعاية ميسورة التكلفة (ACA).
+description: توضح هذه المقالة كيفية قيام إدارة الميزات بتعقب المعلومات التي يتم رفع تقرير بها في نموذج 1095-B ونموذج 1095-C الخاصة بتفويض صاحب العمل وفق قانون الرعاية ميسورة التكلفة (ACA).
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 118dace557c7c8a8d101e2f2ad1d94fb14547c1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d51e16345ab18904ebe55c1ec802446fc89d46d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889711"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>إنشاء تقارير قانون الرعاية ميسورة التكلفة في إدارة الميزات
 
