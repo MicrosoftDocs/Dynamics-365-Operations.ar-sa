@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (مايو 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: Commerce 10.0.25 (أبريل 2022)
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -66,24 +64,20 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة One Version
+                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: إعداد بيئة تقييم Dynamics 365 Commerce
+            - name: إعداد وضع حماية Dynamics 365 Commerce
               items:
-                - name: نظرة عامة على بيئة تقييم Dynamics 365 Commerce
-                  href: cpe-overview.md
-                - name: تزويد بيئة تقييم Dynamics 365 Commerce
+                - name: تزويد بيئة وضع حماية Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: تكوين بيئة تقييم Dynamics 365 Commerce
+                - name: تكوين بيئة وضع حماية Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
+                - name: تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة وضع حماية Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: تكوين ميزات اختيارية في بيئة تقييم Dynamics 365 Commerce
+                - name: تكوين الميزات الاختيارية لبيئة وضع حماية Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: الأسئلة المتداولة حول بيئة تقييم Dynamics 365 Commerce
-                  href: cpe-faq.md
             - name: اعتبارات النشر
               items:
                 - name: خيارات النشر
@@ -438,11 +432,13 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: التحقق من سلامة الأجهزة الطرفية وخدمات نقطة البيع
                           href: pos-healthcheck.md
-                        - name: دعم الأجهزه الطرفية الخاصة بالشبكة
+                        - name: دعم الأجهزة الطرفية الخاصة بالشبكة
                           href: dev-itpro/network-peripherals.md
+                        - name: توافق الأجهزة الطرفية
+                          href: Compatible-peripherals.md
                     - name: تخطيطات الشاشة
                       items:
-                        - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في نقطة البيع الحديثة/نقطة البيع السحابية
+                        - name: ‏‫تخطيطات شاشة بيانات العرض التوضيحي‬ في MPOS/CPOS
                           href: demo-data.md
                         - name: التكوينات المرئية لواجهة مستخدم نقطة البيع
                           href: pos-screen-layouts.md
@@ -1402,6 +1398,8 @@
               items:
                 - name: عينة تكامل خدمة التسجيل المالي للنمسا
                   href: localizations/emea-aut-fi-sample.md
+                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنمسا
+                  href: localizations/emea-aut-deployment.md
                 - name: إرشادات التوزيع الخاصة بعينة التكامل المالي للنمسا (قديمة)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: البرازيل
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: مسار إنشاء Retail SDK
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: إعداد عميل بناء Visual Studio 2017 لإنشاء MPOS
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: تشغيل نماذج نقطة البيع
                       href: dev-itpro/pos-run-samples.md
                 - name: المرجع

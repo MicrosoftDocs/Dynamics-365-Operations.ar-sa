@@ -496,6 +496,8 @@
                   items:
                     - name: إدارة عملية مشروع التعيين
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: إعداد مشاريع توظيف
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: إدخال بيانات مقدم الطلب والطلب يدويًا
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: تطوير طلبات الموظفين وفتحها
@@ -626,6 +628,10 @@
                   items:
                     - name: إعداد خطط المزايا
                       href: hr-benefits-plans-setup.md
+                    - name: إنشاء خطط المزايا للعامل
+                      href: hr-benefits-plans-worker.md
+                    - name: إعداد أحداث الحياة المستقبلية
+                      href: hr-benefits-plans-future-life-events.md
                     - name: إعداد برامج الائتمان المرنة
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: معالجة خطط المزايا
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: الكيانات
               items:
+                - name: تفاصيل الوظيفة
+                  href: hr-admin-integration-api-job-detail.md
+                - name: خيار نوع التوظيف
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: نظره عامة على MyLeaveRequests

@@ -18,8 +18,6 @@
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (مايو 2022)
                   href: get-started/whats-new-scm-10-0-26.md
-                - name: Supply Chain Management 10.0.25 (أبريل 2022)
-                  href: get-started/whats-new-scm-10-0-25.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -68,7 +66,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة One Version
+                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -619,8 +617,6 @@
                   href: asset-management/asset-management-mobile-workspace.md
             - name: تكامل إدارة الأصول مع Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-        - name: إدارة البيانات
-          items:
             - name: ‏‫الكيانات الهدف
               href: asset-management/data-management/target-entities.md
         - name: محاسبة التكاليف
@@ -775,11 +771,15 @@
                   href: cost-management/physical-financial-updates.md
                 - name: تضمين القيمة الفعلية
                   href: cost-management/include-physical-value.md
+                - name: سعر إيصال ثابت
+                  href: cost-management/fixed-receipt-price.md
+                - name: مبدأ المحاسبة ترحيل إلى حساب التكاليف
+                  href: cost-management/post-to-charge-account-accounting-principle.md
                 - name: كائنات التكلفة
                   href: cost-management/cost-object.md
                 - name: عرض رصيد كائن التكلفة
                   href: cost-management/tasks/view-cost-object-balance.md
-                - name: عرض بيان المخزون ومؤشرات KPI حسب كائن التكلفة
+                - name: عرض بيان المخزون ومؤشرات الأداء الرئيسي حسب كائن التكلفة
                   href: cost-management/tasks/view-inventory-statement-kpi-cost-object.md
                 - name: إدخالات التكلفة
                   href: cost-management/cost-entries.md
@@ -1651,6 +1651,8 @@
                   href: inventory/tasks/check-availability-stock.md
                 - name: قائمة المخزون المتاح
                   href: inventory/inventory-on-hand-list.md
+                - name: تفاصيل حركة المخزون
+                  href: inventory/inventory-transactions-details.md
                 - name: تهيئة مستويات المخزون في المستودع
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: نقل المخزون الفعلي داخل المستودع
@@ -2111,6 +2113,8 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/supply-chain/toc.json
         - name: التدبير وتحديد الموارد
           items:
+            - name: الصفحة الرئيسية للتدبير والتوريد
+              href: procurement/procurement-sourcing.md
             - name: نظرة عامة على التدبير وتحديد الموارد
               href: procurement/procurement-sourcing-overview.md
             - name: سير عمل التدبير وتحديد الموارد
@@ -2167,6 +2171,8 @@
                   href: procurement/purchase-order-creation.md
                 - name: إنشاء أمر شراء
                   href: procurement/tasks/create-purchase-order.md
+                - name: إنشاء أمر شراء تحكمه الموازنة
+                  href: cost-management/tasks/create-purchase-order-governed-by-budget.md
                 - name: إنشاء أمر شراء مع جدول تسليم
                   href: procurement/tasks/create-purchase-order-delivery-schedule.md
                 - name: إنشاء أمر شراء لمورد مرة واحدة
@@ -2383,6 +2389,8 @@
                       href: pim/tasks/create-dimension-based-configurations.md
                 - name: إنشاء تكوين مستند إلى قيد
                   items:
+                    - name: نظرة عامة على نماذج تكوين المنتج
+                      href: pim/product-configuration-models.md
                     - name: إعداد نموذج تكوين منتج
                       href: pim/set-up-maintain-product-configuration-model.md
                     - name: حسابات نموذج تكوين المنتج
@@ -2933,6 +2941,8 @@
                   href: sales-marketing/customer-portal-user-admin.md
                 - name: تخصيص مدخل العميل واستخدامه
                   href: sales-marketing/customer-portal-customize.md
+            - name: حدود الائتمان للعملاء
+              href: sales-marketing/credit-limits-customers.md
             - name: البدل التجاري
               href: sales-marketing/trade-allowance.md
             - name: إنشاء اتفاقية تجارية جديدة
@@ -2951,7 +2961,9 @@
                       href: service-management/service-agreement-groups.md
                     - name: إنشاء اتفاقيات خدمات
                       href: service-management/create-service-agreements.md
-                    - name: ‏‏فترات الخدمة
+                    - name: إنشاء مجموعات اتفاقية خدمة
+                      href: service-management/create-service-agreement-groups.md
+                    - name: فترات الخدمة
                       href: service-management/service-intervals.md
                     - name: إعداد فترات الخدمة
                       href: service-management/set-up-service-intervals.md
@@ -2972,7 +2984,7 @@
                     - name: نظرة عامة على كائنات الخدمة
                       href: service-management/service-objects.md
                     - name: إنشاء كائنات خدمة
-                      href: service-management/create-service-task-relations.md
+                      href: service-management/create-service-objects.md
                     - name: إرفاق أصناف إلى كائنات خدمة
                       href: service-management/attach-inventory-items-service-objects.md
                     - name: مجموعات كائنات الخدمة
@@ -3117,6 +3129,8 @@
                           href: service-management/create-item-requirements-service-orders.md
                         - name: متطلبات صنف أمر الخدمة‬
                           href: service-management/service-order-item-requirements.md
+                        - name: إضافة عنوان لأمر الخدمة
+                          href: service-management/add-address-service-order.md
                         - name: نظرة عامة على سير عمل الاشتراك
                           href: service-management/subscription-workflow-overview.md
                         - name: تجميع أوامر الخدمة
@@ -3139,6 +3153,8 @@
                           href: service-management/set-up-preferred-technician.md
                         - name: إعداد فِرَق الإرسال
                           href: service-management/set-up-dispatch-teams.md
+                        - name: عرض فرق إرسال
+                          href: service-management/view-dispatch-teams.md
                         - name: ترتيب أوامر الخدمة حسب الأولوية
                           href: service-management/prioritize-service-orders.md
                         - name: عرض حالة أوامر الخدمة
@@ -3257,8 +3273,6 @@
                   href: landed-cost/landed-cost-enable.md
                 - name: معلمات التكلفة شاملة التفريغ‬
                   href: landed-cost/landed-cost-parameters.md
-                - name: معلمات تدبير وتحديد موارد التكلفة شاملة التفريغ
-                  href: landed-cost/landed-cost-procurement-parameters.md
                 - name: إعداد حالة الرحلة البحرية‬
                   href: landed-cost/voyage-status-setup.md
                 - name: إعداد حاوية الشحن
@@ -3269,12 +3283,16 @@
                   href: landed-cost/multi-leg-journey-setup.md
                 - name: إعداد معلومات الشحن
                   href: landed-cost/shipping-information-setup.md
+                - name: إعداد التكاليف التلقائية
+                  href: landed-cost/auto-cost-setup.md
                 - name: إعداد قيم معلمة التكاليف
                   href: landed-cost/costing-parameters-setup.md
+                - name: معلمات تدبير وتحديد موارد التكلفة شاملة التفريغ
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: إعدادات المورّد المضافة للتكلفة شاملة التفريغ‬‬
+                  href: landed-cost/vendors-landed-cost-settings.md
                 - name: الأوصاف الافتراضية لدفتر الأستاذ العام
                   href: landed-cost/defult-descriptions.md
-            - name: إعدادات المورّد المضافة للتكلفة شاملة التفريغ‬‬
-              href: landed-cost/vendors-landed-cost-settings.md
             - name: التعامل مع الرحلات البحرية والحاويات وحافظات الأوراق‬
               items:
                 - name: إدارة الرحلات البحرية
@@ -3643,396 +3661,6 @@
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
             - name: توسيع كيانات بيانات المخزون الفعلي
               href: inventory/extend-on-hand-entities.md
-        - name: استكشاف الأخطاء وإصلاحها
-          items:
-            - name: إدارة التكلفة
-              items:
-                - name: تباينات تقرير تقادم المخزون
-                  href: troubleshooting/costing/aging-report-discrepancies.md
-                - name: التحذيرات أو الأخطاء عند تغيير حالة فترة دفتر الأستاذ دون إغلاق مخزون
-                  href: troubleshooting/costing/change-ledger-period-without-closing.md
-                - name: الفجوات الوظيفية بين تقارير قيمة/تقادم المخزون وإصدارات التخزين الخاصة به
-                  href: troubleshooting/costing/function-gaps-storage-reports.md
-                - name: يحدث تعارض في التحديث عندما تكون طريقه تقييم المخزون اما تكلفه قياسيه أو معدل نقل
-                  href: troubleshooting/costing/update-conflict-standard-moving.md
-                - name: إعدادات الحقول مفقودة عند نسخ مجموعات نماذج العناصر إلى كيان قانوني آخر
-                  href: troubleshooting/costing/copying-item-model-groups.md
-                - name: يتضمن تقرير "التكاليف غير المباشرة قيد المعالجة" أوامر الإنتاج المحذوفة
-                  href: troubleshooting/costing/indirect-costs-in-pr.md
-                - name: ترحيل استحقاق الشراء بالمبلغ صفر لإيصال استلام المنتج ذي القيمة الصفرية
-                  href: troubleshooting/costing/posting-to-purchase.md
-                - name: لا تظهر أوامر الشراء المستلمة فعليًا في تقرير إقفال المخزون
-                  href: troubleshooting/costing/purchase-orders-rece.md
-                - name: لا يوجد تاريخ البدء في علامة التبويب الأسعار النشطة في صفحة سعر الصنف
-                  href: troubleshooting/costing/there-is-no-from-dat.md
-            - name: إدارة المخزون
-              items:
-                - name: تعذر العثور علي مربع الحوار المنسدل "سير العمل" لدفاتر يوميه المخزون
-                  href: troubleshooting/inventory/cant-find-workflow-dropdown.md
-                - name: لا يكتمل سير عمل دفتر يومية المخزون أبدًا ولا يمكن معالجة دفتر اليومية
-                  href: troubleshooting/inventory/cant-post-inventory-journal.md
-                - name: تم تأمين دفتر يومية المخزون ولا تعمل وظيفة مجموعة سير العمل
-                  href: troubleshooting/inventory/inventory-journal-locked-workflow.md
-                - name: لا تعمل الوحدة وكميه الوحدة بشكل صحيح في دفتر يوميه المخزون
-                  href: troubleshooting/inventory/journal-unit-quantity-incorrect.md
-                - name: تنطبق حالات سير عمل دفتر يوميه المخزون علي مستوي دفتر اليومية وليس علي مستوي البند
-                  href: troubleshooting/inventory/journal-workflow-conditions.md
-                - name: لا يعمل جزء التصفية علي صفحه القائمة الفعلية كما هو متوقع
-                  href: troubleshooting/inventory/on-hand-filter-unexpected.md
-                - name: الحد الأقصى لعدد الأرقام العشرية لوحدة حفظ المخزون هي 0
-                  href: troubleshooting/inventory/sku-max-decimals-zero.md
-                - name: حركات مخزون متعددة لأرقام الدُفعات دون "عند التحديث الفعلي"
-                  href: troubleshooting/inventory/multiple-inventory-t.md
-                - name: يؤدي عكس تقرير باعتباره منتهيًا إلى إنشاء حركة مفتوحة غير متوقعة
-                  href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: تقرير قائمة الانتقاء لا يعرض ملاحظات جديدة مرفقة بدفتر يومية
-                  href: troubleshooting/inventory/unable-to-print-the.md
-                - name: لا يتم تحديث الكمية في أمر العزل الذي بدأ عند تقسيم الأمر
-                  href: troubleshooting/inventory/quantity-on-a-start.md
-                - name: لا يتم تحديث حقل "تاريخ آخر اختبار" عند إنشاء أوامر جودة متعددة
-                  href: troubleshooting/inventory/the-field-last-test.md
-                - name: عند تقسيم كمية وزن التعبئة، يتم استخدام أدنى حد من الكمية بدلاً من الكمية الاسمية
-                  href: troubleshooting/inventory/while-splitting-the.md
-            - name: التخطيط الرئيسي
-              items:
-                - name: يتعذر على النظام العثور على أمر مخطط عند معالجة أوامر متعددة
-                  href: troubleshooting/planning/planned-order-not-exist.md
-                - name: تعمل عملية تحديد إجمالي المكونات المطلوبة لفاتورة المواد بشكل مختلف لأوامر الإنتاج المؤكدة والمقدرة
-                  href: troubleshooting/planning/bom-explosion-works-differently.md
-                - name: لا يتم تحديث قيمة التأخير عند إعادة جدولة أمر مخطط.
-                  href: troubleshooting/planning/delay-value-not-updated.md
-                - name: ويستغرق تحديث الأوامر المخططة وقتا طويلا للتحديث
-                  href: troubleshooting/planning/planned-order-long-update.md
-                - name: يتم إنشاء الأوامر المخططة للمخزون المضمن مع أوامر الإنتاج
-                  href: troubleshooting/planning/planned-orders-in-stock-items.md
-                - name: لا تراعي جدوله الإنتاج حدود الأمان
-                  href: troubleshooting/planning/prod-schedule-safety-margins.md
-                - name: يقوم التخطيط الرئيسي بجدولة أكثر من السعه المتوفرة
-                  href: troubleshooting/planning/respect-capacity-limitations.md
-                - name: تعذر العثور على قدرة كافية
-                  href: troubleshooting/planning/not-enough-capacity-error.md
-                - name: تتلقى رسالة خطأ عند تشغيل محرك التخطيط الرئيسي المضمن
-                  href: troubleshooting/planning/deprecated-master-planning-error.md
-                - name: يتعذر وجود BOM أو معادلة لدى الصنف
-                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
-                - name: معلمات الخطة الرئيسية غير موجودة
-                  href: troubleshooting/planning/no-parameters-for-master-plan.md
-                - name: يجب جدولة أمر الإنتاج المخطط قبل تأكيده
-                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
-                - name: المنتج قيد الانتظار للحركات
-                  href: troubleshooting/planning/product-is-on-hold.md
-                - name: رقم المعادلة‬‬ المحدد غير معتمَد لأمر دُفعي.
-                  href: troubleshooting/planning/selected-formula-not-approved.md
-                - name: كود المورّد غير معتمد لمنتج وتاريخ محددين
-                  href: troubleshooting/planning/vendor-code-not-authorized.md
-                - name: لم يتم تحديد المورّد عند تأكيد الأوامر المخططة
-                  href: troubleshooting/planning/vendor-not-specified.md
-                - name: تتم معالجة الطلبات المؤكدة المشتقة مباشرةً من خلال سير عمل قيد المراجعة
-                  href: troubleshooting/planning/firmed-directly-deri.md
-                - name: لا يمكنك تصفية عناصر التخطيط الرئيسي حسب قيم مجموعة التغطية المرتبطة بها
-                  href: troubleshooting/planning/master-planning-batc.md
-                - name: التخطيط الرئيسي يقوم بإنشاء أوامر مخططة للمنتجات الوهمية
-                  href: troubleshooting/planning/planned-orders-are-g.md
-                - name: تم إنشاء أمر الشراء المخطط عند وجود عملية شراء في غضون أيام سلبية
-                  href: troubleshooting/planning/planning-optimisatio.md
-                - name: لا يمكن تحديث تكلفة الوحدة المتوقعة عند استيراد سجلات التنبؤ بالطلب
-                  href: troubleshooting/planning/unable-to-upload-the.md
-                - name: تتعذر إزالة بُعد التنبؤ بطلب المستودع من بنود التنبؤ
-                  href: troubleshooting/planning/warehouse-removal-fr.md
-                - name: تمت مطالبتك بحفظ إعدادات تغطية الصنف حتى إذا لم تقم بإجراء أي تغييرات.
-                  href: troubleshooting/planning/when-importing-to-th.md
-            - name: التدبير
-              items:
-                - name: تناقضات في بيانات بند أمر الشراء
-                  href: troubleshooting/procurement/purchase-order-line-data-issues.md
-                - name: يوجد توزيع محاسبي واحد أو أكثر إما بالزيادة أو بالنقصان
-                  href: troubleshooting/procurement/accounting-over-under-distributed.md
-                - name: يمكنك فقط إكمال اجراء أمر شراء لأرقام السطور الموزعة بالكامل.
-                  href: troubleshooting/procurement/action-requires-full-distribution.md
-                - name: يتعذر تغيير تاريخ السريان لمورد معتمد.
-                  href: troubleshooting/procurement/approved-vendor-effective-date.md
-                - name: تظهر أوامر الشراء الملغية في قائمه المسودة في مساحة العمل
-                  href: troubleshooting/procurement/canceled-po-in-draft-list.md
-                - name: يمكن ترحيل الحركات إلى حساب دفتر أستاذ مرحلي
-                  href: troubleshooting/procurement/canceled-receipts-posted.md
-                - name: إلغاء باقي التسليم نقل أمر الشراء إلى حالة مؤكدة
-                  href: troubleshooting/procurement/change-management-canceled-remainder.md
-                - name: لا يمكن دمج إيصالات استلام منتجات متعددة في أمر شراء واحد
-                  href: troubleshooting/procurement/consolidate-multiple-receipts.md
-                - name: لا يتم ملء مجموعة الضريبة الافتراضية والخصم النقدي من حساب الفاتورة
-                  href: troubleshooting/procurement/default-tax-group-and-discount.md
-                - name: لم تتم مزامنة اسم التسليم بعد تغيير عنوان تسليم أمر الشراء
-                  href: troubleshooting/procurement/delivery-name-isnt-synced.md
-                - name: حدوث استثناء اثناء ترحيل فاتورة المورد
-                  href: troubleshooting/procurement/invocation-target-exception.md
-                - name: تعرض أوامر الشراء المستوردة أرقام الأسطر غير الصحيحة
-                  href: troubleshooting/procurement/line-number-increments.md
-                - name: الحد الأقصى لاتفاقيه الشراء غير فعال في طلب شراء
-                  href: troubleshooting/procurement/max-limit-on-requisition.md
-                - name: خطا "حدث عدم تعيين مرجع الكائن" أثناء تأكيد أمر الشراء
-                  href: troubleshooting/procurement/object-reference-not-set.md
-                - name: يوجد توزيع محاسبي إما بزيادة أو بالنقصان
-                  href: troubleshooting/procurement/over-under-distribution.md
-                - name: لا يمكن إضافة حقل وحدة السعر إلى صفحة اتفاقية الشراء
-                  href: troubleshooting/procurement/personalize-purchase-agreement-price.md
-                - name: لا تعكس أوامر الشراء إعدادات اللغة الخاصة بالكيان القانوني
-                  href: troubleshooting/procurement/po-language.md
-                - name: لا يتضمن إيصال استلام أمر الشراء كافة المصروفات
-                  href: troubleshooting/procurement/po-receipt-missing-charges.md
-                - name: لا يتم حساب أسعار الوحدات على أوامر الشراء استنادًا إلى تحويل الوحدة
-                  href: troubleshooting/procurement/po-unit-prices-not-calculated.md
-                - name: الإعداد "ترحيل إلى حساب مصاريف في دفتر الأستاذ" ليس قيد التشغيل
-                  href: troubleshooting/procurement/post-setting-turned-off.md
-                - name: خطأ عند إعادة إرسال أمر شراء إلى سير عمل بعد تغيير
-                  href: troubleshooting/procurement/resubmit-po-after-change.md
-                - name: إصدارات تحويل عملة الاتفاقية التجارية
-                  href: troubleshooting/procurement/trade-agreement-currencies.md
-                - name: شروط الاتفاقية التجارية غير مطبقة على سطور الأوامر المستوردة
-                  href: troubleshooting/procurement/trade-agreement-not-applied.md
-                - name: يمكن إنشاء الاتفاقيات التجارية من طلبات عروض الأسعار (RFQ)‬ المرفوضة
-                  href: troubleshooting/procurement/trade-agreements-from-rejected-rfq.md
-                - name: لا يتم تجميع تخفيضات المورّد استنادًا إلى الفواتير
-                  href: troubleshooting/procurement/vendor-rebate-not-cumulated.md
-                - name: يتم استهلاك رقم إيصال استلام المنتجات حتى عند عدم إنشاء إيصال
-                  href: troubleshooting/procurement/voucher-number-consumed.md
-                - name: لا يمكنك فوترة أمر مبيعات موجه للعملاء
-                  href: troubleshooting/procurement/not-able-to-invoice-.md
-                - name: تتعذر إضافة بند إلى طلب شراء بعد طلب تغيير
-                  href: troubleshooting/procurement/purchase-requisition.md
-            - name: إدارة معلومات المنتج
-              items:
-                - name: لا يمكنك حذف منتج تم إصداره
-                  href: troubleshooting/products/cant-delete-released-prod.md
-                - name: تم تقريب الأعداد الصحيحة بشكل غير صحيح عند حساب نماذج تكوين المنتج
-                  href: troubleshooting/products/integers-incorrectly-rounded.md
-                - name: تتم الكتابة فوق نص الصنف عند تكوين منتج في بند أمر التوريد
-                  href: troubleshooting/products/text-overwritten-configured-item.md
-                - name: لا يمكنك تطبيق قالب لإنشاء منتج صادر
-                  href: troubleshooting/products/apply-template-in-re.md
-                - name: لا يمكنك استيراد صنف باستخدام كيان المنتجات الصادرة V2
-                  href: troubleshooting/products/cannot-import-with-r.md
-                - name: لا تعرض أوامر الشراء نص المنتج المترجم
-                  href: troubleshooting/products/when-the-customer-ad.md
-            - name: التحكم بالإنتاج
-              items:
-                - name: خطأ في تحديد تكاليف الإصدار التلقائي أثناء إقفال المخزون
-                  href: troubleshooting/production/backflush-costing-calculation-error.md
-                - name: يتعذر إنهاء أمر إنتاج بسبب خطأ قيمة BOM consumptionCost
-                  href: troubleshooting/production/bom-consumption-cost-error.md
-                - name: لا يمكن إدراج قائمة مكونات الصنف والمسار عند إنشاء أمر إنتاج جديد
-                  href: troubleshooting/production/cant-insert-bom-route-number.md
-                - name: إنهاء المهام قيد التقدم عند الإبلاغ عن كمية جزئية على الوظيفة الأخيرة
-                  href: troubleshooting/production/in-progress-jobs-ended.md
-                - name: لا يمكن حجز الصنف RM بالكامل عند إصدار أمر إنتاج
-                  href: troubleshooting/production/item-rm-not-reserved.md
-                - name: الإبلاغ عند فشل التحديث المنتهي مع وجود خطأ في الكمية المفقودة
-                  href: troubleshooting/production/missing-report-finished-quantity.md
-                - name: حدث خطأ عندما تم ترحيل دفتر يومية التقرير باعتباره منتهيًا
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: حدث خطأ عند تغيير حالة أمر الإنتاج من الإعلام كمنتهي إلى النهاية
-                  href: troubleshooting/production/production-order-status-error.md
-                - name: لا يتم عرض أوامر الإنتاج في صفحة وضع العلامات
-                  href: troubleshooting/production/production-orders-marking-page.md
-                - name: لم يتم تحديث اسم المورد بعد تغيير اسم العامل في دفتر العناوين
-                  href: troubleshooting/production/resource-name-not-updated.md
-                - name: إجمالي الحدث خطأ في الكمية الجيدة عند محاولة إنهاء أمر إنتاج
-                  href: troubleshooting/production/total-good-quantity-order-error.md
-                - name: لا يمكن تتبع الأرقام التسلسلية لسلع منتهية مقابل منتجات البضائع المستهلكة
-                  href: troubleshooting/production/trace-finished-goods-consumed-goods.md
-                - name: لا يمكن حجز أو إصدار العمل لأن العمليات قيد الاستخدام حاليا
-                  href: troubleshooting/production/warehouse-management-processes-used.md
-                - name: لا تتم مراعاة إعدادات قاعده المسح في بنود BOM
-                  href: troubleshooting/production/flushing-principle-n.md
-                - name: تم مسح رقم الدُفعة عند تحديد معرف دفعة جديد
-                  href: troubleshooting/production/when-customer-is-try.md
-                - name: لا تتم مراعاة التحديد المتأخر عند إعادة تعيين أوامر الإنتاج عبر وظيفة الدُفعة
-                  href: troubleshooting/production/late-selection-is-no.md
-                - name: يستطيع المستخدمون إلغاء انتقاء بنود المواد للمنتجات التي تم الإبلاغ عنها باعتبارها منتهية
-                  href: troubleshooting/production/raw-material-lines-a.md
-                - name: حدث خطأ عندما تم ترحيل دفتر يومية التقرير باعتباره منتهيًا
-                  href: troubleshooting/production/posting-report-as-.md
-                - name: لم يتم تحديث المستودع الموجود في دفتر يومية قائمة الانتقاء في بند BOM
-                  href: troubleshooting/production/the-warehouse-in-pic.md
-            - name: إدارة الخصومات
-              items:
-                - name: فشل تجميع خصومات العملاء باستخدام مجموعات خصومات الأصناف
-                  href: troubleshooting/rebates/cumulating-customer-.md
-            - name: المبيعات والتسويق
-              items:
-                - name: فشلت وظيفة تنظيف سجل تحديث المبيعات أو بها مشكلات في الأداء
-                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
-                - name: صنف المجموعة غير مدعوم في عملية بين الشركات الشقيقة
-                  href: troubleshooting/sales/bundle-item-intercompany-process.md
-                - name: لا يمكنني إلغاء أمر شراء بين الشركات الشقيقة يرتبط بأمر مبيعات
-                  href: troubleshooting/sales/cancel-intercompany-purchase-order.md
-                - name: لا يمكن إزالة عمليات الحجز عند إلغاء أمر
-                  href: troubleshooting/sales/cancel-order-reservations-not-removed.md
-                - name: في حالة وجود اتفاقيات تجارة للتواريخ المتداخلة ، يتم تحديد نفس الاتفاقية دائما
-                  href: troubleshooting/sales/same-trade-agreement-selected.md
-                - name: لا يمكن تغيير كمية المبيعات لصنف خدمة في بند عرض أسعار المبيعات
-                  href: troubleshooting/sales/service-item-sales-quantity.md
-                - name: لا يتم تحديث معلومات الضريبة إذا تم تغيير الموقع في رأس أمر التوريد
-                  href: troubleshooting/sales/tax-information-not-updated.md
-                - name: لا يمكن خفض الكمية عند إلغاء أمر المبيعات
-                  href: troubleshooting/sales/quantity-cannot-be-reduced.md
-                - name: يتعذر على مسؤولي النظام مسح الأوامر المعلقة لأنهم غير مخوّلين للقيام بذلك
-                  href: troubleshooting/sales/system-administrator.md
-            - name: إدارة النقل
-              items:
-                - name: يمكن إضافة الحساب الرئيسي فقط كحساب ائتمان لأسباب تتعلق بالتسوية
-                  href: troubleshooting/transportation/reconciliation-reaso.md
-            - name: ‏‫إدارة المستودعات‬
-              items:
-                - name: Warehouse mobile app
-                  items:
-                    - name: فرق غير متوقع بين الطلب وبيانات جلسة العمل أثناء الاختبار
-                      href: troubleshooting/warehousing/request-session-data-difference.md
-                    - name: ربط الثقة لمسار الشهادة التي لم يتم العثور عليها عند اعداد اتصال التطبيق
-                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
-                    - name: لم يتم العثور على ربط الثقة لمسار الشهادة عند التحديث والترحيل إلى WMS
-                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
-                - name: لا يمكن ترحيل إيصال التعبئة لبند أمر مبيعات تم إيقافه
-                  href: troubleshooting/warehousing/unable-to-post-packi.md
-                - name: تحدث مشكلات المعالجة بعد تثبيت حمل عمل مستودع وحدة القياس
-                  href: troubleshooting/warehousing/Scale-unit-warehouse-workload-installation-issues.md
-                - name: تظهر مطالبة الحجز التلقائي لرقم المجموعة حتى مع المخزون المتوفر
-                  href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
-                - name: لا يمكن إلغاء حظر العمل الخاص بالانتقاء بسبب عمل التزويد غير المنتهي
-                  href: troubleshooting/warehousing/blocked-unfinished-replenishment-work.md
-                - name: لا يمكنني إلغاء إيصال التعبئة بعد ترحيله من أمر المبيعات
-                  href: troubleshooting/warehousing/cancel-posted-packing-slip.md
-                - name: يتعذر نقل لوحة الترخيص إذا كان الرقم التسلسلي يشتمل على إصدار فارغ ويسمح بإيصال فارغ مسموح به
-                  href: troubleshooting/warehousing/cant-move-license-plate.md
-                - name: لا يمكن نقل المخزون إلى موقع يتم التحكم فيه بواسطة لوحة الترخيص
-                  href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: يتعذر العثور علي ملف تعريف نظام المجموعة
-                  href: troubleshooting/warehousing/cluster-profile-not-found-error.md
-                - name: لا يمكن معالجة تصحيح مذكرة التسليم
-                  href: troubleshooting/warehousing/delivery-note-correction.md
-                - name: حدث خطأ عند تأكيد الشحنة بعد إنشاء أمر تحويل لصنف تسلسلي
-                  href: troubleshooting/warehousing/dimension-location-left-blank.md
-                - name: التسليم المباشر غير قادر على معالجة لمستودع تم تمكين WMS عليه
-                  href: troubleshooting/warehousing/direct-delivery-wms-enabled-warehouse.md
-                - name: يتم خلط أنواع المخزون عند استخدام ملف تعريف إدارة المساحات
-                  href: troubleshooting/warehousing/dock-management-inventory-mixing.md
-                - name: لا يقوم الخيار المتعدد SKU بتقييم العديد من إجراءات التوجيه للموقع
-                  href: troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md
-                - name: لا يتم إنشاء الأعمال التصنيعية فور إصدار التحميل الصادر
-                  href: troubleshooting/warehousing/generate-work-immediately-load-release.md
-                - name: حدث خطأ في لوحة الترخيص عند فحص معرف لوح الترخيص في تطبيق الأجهزة المحمولة
-                  href: troubleshooting/warehousing/invalid-license-plate.md
-                - name: غير مسموح بمالك المخزون عند معالجة الحركات في تطبيق المستودع
-                  href: troubleshooting/warehousing/inventory-owner-not-allowed.md
-                - name: يتعذر على النظام تحديث كمية المخزون نظرًا لعدم وجود حركات كافية
-                  href: troubleshooting/warehousing/inventory-quantity-insufficient-transactions.md
-                - name: يتعذر تحديد تغيير حالة المخزون في العمود نوع العمل
-                  href: troubleshooting/warehousing/inventory-status-change-work-type.md
-                - name: حدث خطأ في لوحة الترخيص أو الموقع عند الفحص في تطبيق الأجهزة المحمولة
-                  href: troubleshooting/warehousing/license-plate-location-invalid.md
-                - name: كمية لوحة الترخيص غير صالحة عند تسجيل الأوامر الواردة
-                  href: troubleshooting/warehousing/license-plate-quantity-not-valid.md
-                - name: حدث خطأ في مواصفات لوحة الترخيص عند تأكيد الشحن لأمر التحويل
-                  href: troubleshooting/warehousing/license-plate-specified-location.md
-                - name: أحد البنود موجود بالفعل في تحميل
-                  href: troubleshooting/warehousing/line-already-on-load.md
-                - name: حدث خطأ في وزن التحميل وتم إلغاء التحديث عند معالجة العمل بين المواقع
-                  href: troubleshooting/warehousing/load-weight-positive-numbers.md
-                - name: لا يعمل استلام لوحه الترخيص المختلط لأي كود ترتيب ما عدا الاعتماد.
-                  href: troubleshooting/warehousing/mixed-license-plate-receiving.md
-                - name: يمكن فقط استخدام دور المسؤول للوصول إلى محاكي تطبيق الأجهزة المحمولة
-                  href: troubleshooting/warehousing/mobile-app-emulator-administrator.md
-                - name: المشكلات التي يتم نقلها من التخزين الأساسي إلى التخزين المتقدم
-                  href: troubleshooting/warehousing/move-basic-to-advanced-warehousing.md
-                - name: عدم العثور على عمل كاف لنظام المجموعة عند استخدام النظام الموجه لانتقاء المجموعة
-                  href: troubleshooting/warehousing/not-enough-work-for-cluster.md
-                - name: وتبقى حالة الأمر تم إصدارها جزئيا حتى بعد أن تتم فوترة أمر التوريد
-                  href: troubleshooting/warehousing/order-status-partially-released.md
-                - name: لا يمكنني استخدام تطبيق Warehouse Management للأجهزة المحمولة لإجراء انتقاء جزئي
-                  href: troubleshooting/warehousing/partial-picking-warehouse-app.md
-                - name: تمكين تغيير حالة المخزون للعمل الجزئي للكمية
-                  href: troubleshooting/warehousing/partial-quantity-inventory-status.md
-                - name: طباعة ملاحظة التسليم أو محتوى التعبئة حسب المستودع أو الموقع
-                  href: troubleshooting/warehousing/print-documents-by-warehouse.md
-                - name: الكمية غير صالحة عند وجود عمل الانتقاء مع العديد من وحدات LP في أحد المواقع
-                  href: troubleshooting/warehousing/quantity-invalid-multiple-license-plates.md
-                - name: الكمية غير صالحة عند اجراء انتقاء التقسيم عبر دفعات متعددة
-                  href: troubleshooting/warehousing/quantity-invalid-split-pick.md
-                - name: لا يمكنك إصدار تحميل تم شحنه جزئيا للمستودع
-                  href: troubleshooting/warehousing/rerelease-partially-shipped-load.md
-                - name: لا يمكن للنظام إجراء عمليات حجز نظرا لتوفر 0.00 في المخزون
-                  href: troubleshooting/warehousing/reservations-0-inventory-available.md
-                - name: يتعذر إنشاء سطر التحميل لأمر توريد الإرجاع بسبب أبعاد مخزون غير صالحة
-                  href: troubleshooting/warehousing/return-order-invalid-dimensions.md
-                - name: تعذر إصدار أمر المبيعات بعمليات المستودع الصادر
-                  href: troubleshooting/warehousing/sales-order-not-released.md
-                - name: تم تأكيد الشحنة الخاصة بالحمل، لكن لم يتم ترحيل أية بنود
-                  href: troubleshooting/warehousing/shipment-confirmed-no-posting.md
-                - name: قوالب الفترات الزمنية لا تراعي المخزون الفعلي للأصناف المجمعة أعلى
-                  href: troubleshooting/warehousing/slotting-templates-inventory-batch-above.md
-                - name: لا يمكن إصدار تحميل للكمية الجزئية مع التدرج الهرمي للحجز من المجموعة
-                  href: troubleshooting/warehousing/specify-dimensions-above-location.md
-                - name: يتم تأكيد أوامر الشراء غير المؤكدة بعد تشغيل تحديث إيصالات استلام المنتجات
-                  href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
-                - name: لا يمكن إلغاء حجز المخزون في بند أمر المبيعات
-                  href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: لا يمكنك تأكيد الشحنة لأن العميل معلق
-                  href: troubleshooting/warehousing/customer-is-on-hold.md
-                - name: لا يمكنك تأكيد الشحنة لأن بنود التحميل تحتوي على كمية صفر
-                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
-                - name: لا يمكن تحديث بند التحميل لأن الكمية الصادرة ستكون سالبة
-                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
-                - name: إيصالات استلام المنتجات الملغاة لا تحدّث حالة الحركات إلى مسجّلة
-                  href: troubleshooting/warehousing/canceled-product-receipts.md
-                - name: التقريب العشري لكمية التحديث الفعلية غير صحيح
-                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
-                - name: يجب أن تكون الكمية الفعلية المتبقية في الوحدة ذات قيمة أخرى غير الصفر
-                  href: troubleshooting/warehousing/physical-remaining-q.md
-                - name: الكمية المنتقاة غير كافيه أثناء إنشاء إيصال التعبئة
-                  href: troubleshooting/warehousing/picked-quantity-is-n.md
-                - name: الكمية تتجاوز النسبة المئوية للتسليم بالزيادة أثناء إنشاء إيصال التعبئة
-                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
-                - name: الكمية التي تحاول تحديثها تتجاوز الكمية المستلمة/التي تم تسليمها
-                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
-                - name: الكمية تتجاوز النسبة المئوية للتسليم بالنقص‬ أثناء إنشاء إيصال التعبئة
-                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
-                - name: يحدث خطأ عند اختيار الموقع أثناء تسجيل قائمة الانتقاء
-                  href: troubleshooting/warehousing/error-cannot-update.md
-                - name: لا تُظهر محطة التعبئة ملاحظات المنتج
-                  href: troubleshooting/warehousing/packing-station-not-.md
-                - name: لا يسمح ملف تعريف الموقع بالمخزون السالب، ولكن يتم السماح بالكمية المتاحة السالبة
-                  href: troubleshooting/warehousing/location-profile-set.md
-                - name: تتم طباعة تسمية واحدة لرؤوس العمل المتعددة في إيصال واحد
-                  href: troubleshooting/warehousing/when-receipting-prod.md
-                - name: لا يمكنك تأكيد شحنة بسبب مشكلة في التقويم
-                  href: troubleshooting/warehousing/load-has-active-appo.md
-                - name: لا يمكنك تأكيد شحنة بسبب العمل غير المكتمل أو المفقود
-                  href: troubleshooting/warehousing/open-or-no-work-exis.md
-                - name: لا يمكنك تأكيد الشحنة لأنه لم يتم اختيار العناصر
-                  href: troubleshooting/warehousing/picked-quantity-is-not-on-final.md
-                - name: لا يمكنك تأكيد شحنة بسبب عدم وجود كمية صفرية
-                  href: troubleshooting/warehousing/picked-quantity-is-zero.md
-                - name: لا يمكن تأكيد شحنة لأن الكمية تتجاوز النسبة المئوية للتسليم الزائد
-                  href: troubleshooting/warehousing/quantity-exceeds-ove.md
-                - name: لا يمكن تأكيد شحنة لأن الكمية تتجاوز النسبة المئوية للتسليم الناقص
-                  href: troubleshooting/warehousing/quantity-exceeds-und.md
-                - name: آخر بند عمل مقفل يجب أن يكون "وضع"
-                  href: troubleshooting/warehousing/the-last-closed-work.md
-                - name: حقول الوزن على بنود حمل العمل لا تتطابق مع حقول الوزن على حمل العمل
-                  href: troubleshooting/warehousing/the-weight-fields-on.md
-                - name: الموجة غير مؤهلة للتنظيف
-                  href: troubleshooting/warehousing/wave-is-not-eligible.md
-                - name: يجب أن تكون قيمة الوزن موجبة
-                  href: troubleshooting/warehousing/weight-must-be-posit.md
-                - name: لا يمكن إلغاء العمل لأنه محظور
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
-                - name: لا يمكن إلغاء العمل بسبب الحالة
-                  href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: العمل غير محظور
-                  href: troubleshooting/warehousing/work-is-not-blocked.md
-                - name: العمل لا يزال محظورًا
-                  href: troubleshooting/warehousing/work-remains-blocked.md
-                - name: لا يمكنك إلغاء العمل الذي يتم على مستخدم
-                  href: troubleshooting/warehousing/you-cannot-cancel-wo.md
     - name: تطوير تطبيقات التمويل والعمليات وإدارتها
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

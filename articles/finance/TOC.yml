@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (مايو)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (أبريل)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -68,7 +66,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة One Version
+                - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: إنشاء اختبارات قبول المستخدم وتشغيلها تلقائيًا
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -462,6 +460,8 @@
                   items:
                     - name: إعداد تأجيلات المصروفات والإيرادات
                       href: accounts-receivable/sb-deferrals.md
+                    - name: طريقة ترحيل التأجيل
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: إنشاء جداول التأجيلات
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: الحركات الافتراضية للتأجيلات
@@ -1214,9 +1214,11 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: مكونات التقرير المالي
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: عرض التقارير المالية وتصميمها
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: قدرات العملات في إعداد التقارير المالية
               href: general-ledger/financial-reporting-currency-capability.md
-            - name: حساب الأرباح المحتجزة في Financial Reporting
+            - name: حساب الأرباح المحتجزة في التقارير المالية
               href: general-ledger/retained-earnings-enhancements.md
             - name: التقارير المالية للميزانية العمومية
               href: general-ledger/balance-sheet-financial-reports.md
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: إعداد أرقام الحسابات البنكية للبرازيل
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: أوامر التحويل
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: الضرائب
                   items:
                     - name: نظرة عامة على الضرائب في البرازيل
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: إقفال نهاية السنة
                   href: localizations/emea-cze-hun-year-end.md
+                - name: قائمة مبيعات الاتحاد الأوروبي
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: الدنمارك
               items:
                 - name: نظرة عامة على الدنمارك
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: قائمة مبيعات الاتحاد الأوروبي
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: استيراد تكوينات الفوترة الإلكترونية OIOUBL
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: الفواتير الإلكترونية للعملاء في الدانمرك
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: ترحيل فاتورة نص حر حسب إيصال دفع
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: ترحيل فاتورة مشروع حسب إيصال دفع
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: استيراد تكوين الدين المباشر ISO20022
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: المتطلبات الأساسية لتنسيق تحويل الرصيد ISO 20022
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: استيراد تكوين تحويل الائتمان ISO20022
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: إعداد الحسابات البنكية للشركة لتحويلات الائتمان ISO20022
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: عمليات حساب ضريبة المبيعات المؤجلة
                   href: localizations/emea-hun-deferred-vat.md
+                - name: قائمة مبيعات الاتحاد الأوروبي
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: أيسلندا
               items:
                 - name: نظرة عامة على أيسلندا
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: إعداد أرقام تسجيل TDS للكيانات القانونية
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: إعداد مجموعات مكونات الضريبة المقتطعة لنوع ضريبة TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: إعداد هيئات ضريبة الخصم لنوع ضريبة TDS
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: إعداد مكونات الضريبة لنوع ضريبة TDS
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: تكوين الحسابات الرئيسية لترحيل الالتزام باستبعاد الأصول ومعدلات خصم السوق
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: تقرير ضريبة الاستهلاك
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: الفواتير المجمعة
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: إنشاء أصل ثابت باستخدام الإهلاك الإضافي
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: الاستحواذ على الأصول الثابتة ووضعها قيد العمل
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: المركبات والعقارات كأصول ثابتة
+                          href: localizations/rus-vehicles-realty.md
                         - name: حساب الإهلاك
                           href: localizations/rus-depreciation-calculation.md
                         - name: فك التجميع الجزئي للأصول الثابتة (التصفية)
@@ -3444,6 +3460,8 @@
                       items:
                         - name: الأصول الثابتة غير القيّمة (NVFAs) (روسيا)
                           href: localizations/rus-not-valuable-assets.md
+                        - name: النماذج الأساسية لـ NVFA وملابس العمل والأدوات الخاصة (روسيا)
+                          href: localizations/rus-nvfa.md
                         - name: محاسبة ملابس العمل/المعدات الخاصة‬ (روسيا)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: تكامل الأصول الثابتة مع وحدة إدارة الأصول
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: إقرار ضريبة الربح
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: تقرير عن العمليات مع البضائع التي يمكن تتبعها
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: إدارة المؤسسة
                   items:
                     - name: معلومات التسجيل الضريبي المرتبطة بالعنوان

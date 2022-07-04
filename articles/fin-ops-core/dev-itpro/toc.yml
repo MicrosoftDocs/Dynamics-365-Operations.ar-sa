@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.26 (مايو 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.25 (أبريل 2022)
-                  href: get-started/whats-new-platform-updates-10-0-25.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -376,11 +374,11 @@
                       href: deployment/on-premises-overview.md
                     - name: تخطيط عمليات النشر المحلي وإعدادها
                       href: deployment/plan-onprem-deployment.md
-                    - name: البرامج المدعومة لـ Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: البرامج المحلية المدعومة
                       href: deployment/onprem-compatibility.md
                     - name: متطلبات تغيير حجم الأجهزة
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                    - name: المصادقة في Dynamics 365 Finance + Operations (on-premises)
+                    - name: المصادقة في البيئات المحلية
                       href: deployment/authentication-onprem.md
                 - name: إعداد بيئات محلية ونشرها
                   items:
@@ -402,15 +400,15 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: اتصال إنترنت العميل
                       href: user-interface/client-disconnected.md
-                    - name: تكوين الدُفعة فقط وعُقد AOS التفاعلية فقط في عمليات النشر المحلية
+                    - name: قم بتكوين عُقد AOS للدُّفعة فقط والتفاعلية فقط في عمليات التوزيع المحلية
                       href: deployment/onprem-batchonly.md
-                    - name: تكوين التوافر العالي لعُقد SQL Server Reporting Services ‏(SSRS)
+                    - name: تكوين التوافر العالي لعُقد خدمات تقارير SQL Server ‏(SSRS)
                       href: deployment/onprem-SSRSHA.md
                     - name: تكوين الوكلاء للبيئات المحلية
                       href: deployment/onprem-reverseproxy.md
-                    - name: تكوين تطبيق التخزين في المستودع لعمليات النشر المحلية
+                    - name: تكوين تطبيق Warehousing لعمليات النشر المحلية
                       href: deployment/warehousing-for-on-premise-deployments.md
-                    - name: تمكين RSAT في بيئات Finance + Operations (on-premises)
+                    - name: تمكين RSAT في البيئات المحلية
                       href: deployment/onprem-rsat-configuration.md
                     - name: تثبيت أجهزة طابعات الشبكة في البيئات المحلية
                       href: analytics/install-network-printer-onprem.md
@@ -428,9 +426,9 @@
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: إعادة استخدام مثيل AD FS نفسه لبيئات متعددة
                       href: deployment/onprem-reuseadfs.md
-                    - name: ترقية Windows Server في بيئات Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: ترقية Windows Server في البيئات المحلية الخاصة بك
                       href: deployment/onprem-upgrade-os.md
-                    - name: ترقيه مثيل SQL Server الخاص ببيئات Microsoft Dynamics 365 Finance + Operations (on-premises)
+                    - name: ترقية مثيل SQL Server أو استبداله للبيئات المحلية
                       href: deployment/onprem-upgrade-sqlserver.md
                 - name: وكيل محلي
                   items:
@@ -982,6 +980,8 @@
                   href: lifecycle-services/configuration-manager-lcs.md
                 - name: إعداد مدير التكوين
                   href: lifecycle-services/set-up-configuration-manager-lcs.md
+                - name: نسخ التكوينات
+                  href: lifecycle-services/copy-configuration-lcs.md
             - name: تكوين خدمة ترقية الكود
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: إنشاء المنهجيات أو تحديثها
@@ -1050,7 +1050,9 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: البرنامج التعليمي لملحق Azure DevOps (إصدار أولي للاستخدام العام)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: ملحق Dynamics 365 Translation Service Visual Studio Code (إصدار أولي للاستخدام العام)
+                - name: ملحق Visual Studio (إصدار أولي للاستخدام الخاص)
+                  href: lifecycle-services/dts-visual-studio.md
+                - name: ملحق Visual Studio Code (إصدار أولي للاستخدام العام)
                   href: lifecycle-services/dts-vscode-doc.md
         - name: تكامل Microsoft Power Platform
           items:
@@ -1598,17 +1600,19 @@
               href: sysadmin/maintenance-mode.md
             - name: حسابات النظام المكونة مسبقًا
               href: sysadmin/pre-configured-system-accounts.md
-            - name: تصدير مستخدمي B2B إلى Azure AD
+            - name: تصدير مستخدمي متاجرة عمل-عمل إلى Azure AD
               href: sysadmin/implement-b2b.md
             - name: صيانة البيانات
               href: sysadmin/DataMaintenancePortal.md
+            - name: إدارة الوصول إلى طابعات الشبكة عبر الكيانات القانونية
+              href: sysadmin/sys-admin-tools-network-printer.md
             - name: الأمان
               items:
                 - name: أمان يستند إلى الدور
                   href: sysadmin/role-based-security.md
                 - name: هندسة الأمان
                   href: sysadmin/security-architecture.md
-                - name: التشفير في تطبيقات Finance and Operations
+                - name: التشفير في تطبيقات التمويل والعمليات
                   href: sysadmin/encryption.md
                 - name: تعيين مهلة عدم نشاط جلسة العمل
                   href: sysadmin/session-idle-timeout.md
