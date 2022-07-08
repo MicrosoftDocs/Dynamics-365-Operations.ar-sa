@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6fc97c8a65afe24bfe730e6d13eb178ddcafc2d9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc9eaf82c2f3336f8c3400fcd3f1165ed4fa56d8
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849550"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014928"
 ---
 # <a name="work-order-pools"></a>مجموعات أمر العمل
 
@@ -44,7 +44,7 @@ ms.locfileid: "8849550"
 
 في **جميع مجموعات أوامر العمل** أو صفحة قائمة **مجموعات أوامر العمل النشطة**، يمكنك الحصول على نظرة عامة على مجموعات أوامر العمل وإنشاء مجموعات جديدة.
 
-1. حدد **إدارة الأصول** > **عام** > **مجموعات أوامر العمل** > **جميع مجموعات أوامر العمل** أو **مجموعات أوامر العمل النشطة**.
+1. حدد **إدارة الأصول** > **مجموعات أوامر العمل** > **جميع مجموعات أوامر العمل** أو **مجموعات أوامر العمل النشطة**.
 
 2. حدد **جديد**.
 

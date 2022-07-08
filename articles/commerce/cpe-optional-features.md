@@ -1,8 +1,8 @@
 ---
-title: تكوين ميزات اختيارية في بيئة تقييم Dynamics 365 Commerce
-description: يوضح هذا المقال كيفية تكوين الميزات الاختيارية لبيئة تقييم Microsoft Dynamics 365 Commerce.
+title: تكوين ميزات اختيارية لبيئة وضع حماية Dynamics 365 Commerce
+description: يوضح هذا المقال كيفية تكوين الميزات الاختيارية لبيئة وضع حماية Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861904"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013228"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>تكوين ميزات اختيارية في بيئة تقييم Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>تكوين ميزات اختيارية لبيئة وضع حماية Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا المقال كيفية تكوين الميزات الاختيارية لبيئة تقييم Microsoft Dynamics 365 Commerce.
+يوضح هذا المقال كيفية تكوين الميزات الاختيارية لبيئة وضع حماية Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 
-إذا كنت ترغب في تقييم ميزات البريد الإلكتروني للمعاملات، يجب استيفاء المتطلبات الأساسية التالية:
+إذا كنت ترغب في تقديم عرض توضيحي لميزات البريد الإلكتروني للمعاملات، يجب استيفاء المتطلبات الأساسية التالية:
 
-- لديك خادم بريد إلكتروني متاح (خادم البروتوكول البسيط لنقل رسائل البريد \[SMTP\] ) والذي يمكن استخدامه من اشتراك Microsoft Azure حيث قمت بتوفير بيئة التقييم.
+- لديك خادم بريد إلكتروني متاح (خادم البروتوكول البسيط لنقل رسائل البريد \[SMTP\] ) والذي يمكن استخدامه من اشتراك Microsoft Azure حيث قمت بتوفير بيئة وضع الحماية.
 - لديك اسم المجال المؤهل بالكامل للخادم (FQDN) / عنوان IP ورقم منفذ SMTP، وتفاصيل المصادقة المتاحة.
 
 ## <a name="configure-the-image-back-end"></a>تكوين نهاية الصورة الخلفية
@@ -39,10 +39,10 @@ ms.locfileid: "8861904"
 ### <a name="find-your-media-base-url"></a>ابحث عن عنوان الأساسي للوسائط الخاص بك
 
 > [!NOTE]
-> قبل أن تتمكن من إكمال هذا الإجراء، يجب عليك إكمال الخطوات الواردة في [إعداد موقعك في التجارة](cpe-post-provisioning.md#set-up-your-site-in-commerce)
+> قبل أن تتمكن من إكمال هذا الإجراء، يجب عليك إكمال الخطوات الواردة في [إعداد موقعك في التجارة](cpe-post-provisioning.md#set-up-your-e-commerce-sites)
 
 1. سجِّل الدخول إلى منشئ موقع Commerce باستخدام عنوان URL الذي قمت بتدوينه عندما قمت بتهيئة التجارة الإلكترونية أثناء التزويد (راجع [تهيئة التجارة الإلكترونية](provisioning-guide.md#initialize-e-commerce)).
-1. افتح موقع **Fabrikam‎**.
+1. افتح موقع **Fabrikam** أو **Adventure Works** أو **شركة Adventure Works** الذي ترغب في استخدامه.
 1. في القائمة الموجودة بالجزء الأيمن، حدد **مكتبة الوسائط**.
 1. حدد أي أصل صورة مفرد.
 1. في مفتش الخصائص على اليمين، ابحث عن خاصية **عنوان URL العمومي** . تكون القيمة هي عنوان URL. وفيما يلي مثال على ذلك:
@@ -98,9 +98,9 @@ ms.locfileid: "8861904"
 
 ## <a name="customize-email-templates"></a>تخصيص قوالب البريد الإلكتروني
 
-قد ترغب في تخصيص قوالب البريد الإلكتروني بحيث تستخدم صورًا مختلفة. أو قد ترغب في تحديث الروابط في القوالب بحيث تنتقل إلى بيئة التقييم الخاصة بك. يشرح هذا الإجراء كيفية تنزيل القوالب الافتراضية وتخصيصها وتحديث القوالب في النظام.
+قد ترغب في تخصيص قوالب البريد الإلكتروني بحيث تستخدم صورًا مختلفة. أو قد ترغب في تحديث الروابط في القوالب بحيث تنتقل إلى بيئة وضع الحماية الخاصة بك. يشرح هذا الإجراء كيفية تنزيل القوالب الافتراضية وتخصيصها وتحديث القوالب في النظام.
 
-1. باستخدام مستعرض ويب، نزِّل [Microsoft Dynamics 365 Commerceالملف المضغوط لقوالب البريد الإلكتروني الافتراضية لتقييم](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) على الكمبيوتر المحلي لديك. يحتوي هذا الملف علي مستندات HTML التالية:
+1. باستخدام مستعرض ويب، نزِّل [الملف المضغوط لقوالب البريد الإلكتروني الافتراضية للعرض التوضيحيح لـ Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) على الكمبيوتر المحلي لديك. يحتوي هذا الملف علي مستندات HTML التالية:
 
     - قالب تأكيد الأمر
     - إصدار قالب بطاقة الهدايا
@@ -167,15 +167,11 @@ ms.locfileid: "8861904"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على بيئة تقييم Dynamics 365 Commerce](cpe-overview.md)
+[تشغيل بيئة وضع حماية Dynamics 365 Commerce](provisioning-guide.md)
 
-[توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md)
+[تكوين بيئة وضع حماية Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[تكوين بيئة تقييم Dynamics 365 Commerce](cpe-post-provisioning.md)
-
-[تكوين BOPIS في بيئة تقييم Dynamics 365 Commerce](cpe-bopis.md)
-
-[الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
+[تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة وضع حماية Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

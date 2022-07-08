@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4089400817d6dd8454c85e594eff05314d3fd72e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 782a8cc1f9e64b8c2d4364212c9c5755c103bbfb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858000"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017047"
 ---
 # <a name="maintenance-schedule"></a>جدول الصيانة
 
@@ -44,7 +44,7 @@ ms.locfileid: "8858000"
 
 لفتح جدول صيانة:
 
-1. انقر فوق **إدارة الأصول** > **عام‏‎** > **جدول الصيانة** > **جدول الصيانة بكامله** أو **بنود جدول الصيانة المفتوحة** أو **مجموعات جداول الصيانة المفتوحة**.
+1. انقر فوق **إدارة الأصول** > **جدول الصيانة** > **جدول الصيانة بكامله** أو **بنود جدول الصيانة المفتوحة** أو **مجموعات جداول الصيانة المفتوحة**.
 
 2. لتحديث جدول الصيانة، انقر فوق **خطة الصيانة** أو **دورات الصيانة**. 
 

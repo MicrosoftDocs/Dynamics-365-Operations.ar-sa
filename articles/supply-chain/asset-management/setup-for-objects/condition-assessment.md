@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872083"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015045"
 ---
 # <a name="condition-assessment"></a>تقييم الحالة
 
@@ -47,7 +47,7 @@ ms.locfileid: "8872083"
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>إنشاء تسجيل تقييم الحالة على أصل
 
-1. حدد **إدارة الأصول** > **عام** > **الأصول** > **كل الأصول**.
+1. حدد **إدارة الأصول** > **الأصول** > **كافة الأصول**.
 2. في القائمة، حدد الأصل الذي تريد إنشاء تسجيل تقييم حالة له.
 3. في علامة التبويب **عام**، انقر فوق **تقييم الحالة**.
 4. انقر فوق **جديد** لإنشاء تسجيل جديد.
@@ -62,7 +62,7 @@ ms.locfileid: "8872083"
 بعد إجراء تسجيل تقييم حالة على أصل، يمكنك طباعة تقرير تقييم الحالة.
 
 >[!NOTE]
->يمكنك أيضًا تسجيل تقييم الحالة في أمر عمل (**إدارة الأصول** > **عام** > **أوامر العمل** > **كل أوامر العمل** >  زر **تقييم الحالة**.)
+>يمكنك أيضًا تسجيل تقييم الحالة في أمر عمل (**إدارة الأصول** > **أوامر العمل** > **كل أوامر العمل** > زر **تقييم الحالة**.)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

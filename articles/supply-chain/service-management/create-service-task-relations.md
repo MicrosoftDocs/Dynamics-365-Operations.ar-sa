@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80980d83248612037999c665b6058c4d0bbf6a7c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 51ea26a0f6519d26f5207a7b6c8afbcdfa358be9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678223"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015248"
 ---
 # <a name="create-service-task-relations"></a>إنشاء علاقات مهام الخدمة    
 
@@ -30,7 +30,7 @@ ms.locfileid: "8678223"
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>إنشاء علاقة مع اتفاقية خدمات
 
-1.  انتقل إلى **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.
+1.  انتقل إلى **إدارة الخدمة** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.
 
 2.  حدد اتفاقية خدمات موجودة، أو قم بإنشاء اتفاقية خدمات جديدة.
 
@@ -48,7 +48,7 @@ ms.locfileid: "8678223"
 
 ## <a name="create-a-relation-with-a-service-order"></a>إنشاء علاقة مع أمر خدمة
 
-1.  انتقل إلى **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات**.
+1.  انتقل إلى **إدارة الخدمة** \> **أوامر الخدمات** \> **أوامر الخدمات**.
 
 2.  حدد أمر خدمة موجود، أو قم بإنشاء أمر خدمة جديد.
 

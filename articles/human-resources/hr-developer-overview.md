@@ -1,6 +1,6 @@
 ---
 title: نظرة عامة على التطوير
-description: يوفر دليل المطور هذا واجهة برمجة تطبيقات (API) ومرجع للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
+description: توفر هذه المقالة واجهة برمجة تطبيقات (API) ومرجعًا للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
 author: twheeloc
 ms.date: 02/03/2020
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 095afc2693c60ae907b47158af0621d6436bdb0f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 81c4a2a55639f6c302d45d9913246b2d227d74e9
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688137"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033677"
 ---
 # <a name="development-overview"></a>نظرة عامة على التطوير
 
@@ -27,9 +27,7 @@ ms.locfileid: "8688137"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-
-
-يوفر دليل المطور هذا واجهة برمجة تطبيقات (API) ومرجع للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
+توفر هذه المقالة واجهة برمجة تطبيقات (API) ومرجعًا للحقول المخصصة. ويوفر أيضا معلومات حول التكامل مع التطبيقات الأخرى.
 
 - [نظرة عامة](hr-developer-overview.md)
 
@@ -59,9 +57,9 @@ ms.locfileid: "8688137"
 
 ## <a name="see-also"></a>راجع أيضًا
 
-- [ما هو الجديد أو المتغير في Human Resources](hr-admin-whats-new.md)
+- [الميزات ‏‫الجديدة أو المتغيرة في Human Resources](hr-admin-whats-new.md)
 - [دليل المسؤول](hr-admin-overview.md)
-- [دليل المستخدم](hr-hrpro-overview.md)
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

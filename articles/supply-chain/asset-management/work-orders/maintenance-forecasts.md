@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c2dbd968a22f2bded29cff3517dacbafc79ff8f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902100"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016612"
 ---
 # <a name="maintenance-forecasts"></a>تنبؤات متطلبات الصيانة
 
@@ -32,7 +32,7 @@ ms.locfileid: "8902100"
 
 يمكنك إضافة بنود التنبؤ إلى أمر العمل أو حذفها من أمر العمل. يحدد إعداد حالة دورة حياة أمر العمل ونوع المشروع المرتبط وقواعد المرحلة المرتبطة بنوع المشروع ما إذا كان باستطاعتك إضافة بنود تنبؤ أو تحريرها. لمزيد من المعلومات حول حالات دورة حياة أمر العمل ومراحل المشروع ذات الصلة، راجع [التنبؤات، أوامر العمل، والمشاريع](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. حدد **إدارة الأصول** > **مشترك** > **أوامر العمل** > **جميع أوامر العمل** أو **أوامر العمل النشطة**.
+1. حدد **إدارة الأصول** > **أوامر العمل** > **جميع أوامر العمل** أو **أوامر العمل النشطة**.
 
 2. حدد أمر العمل في القائمة، ثم جزء الإجراءات من علامة التبويب **أمر العمل** ، مجموعة **المشروع** ، حدد **التنبؤ**. تُظهر صفحة **التنبؤ بمتطلبات صيانة أمر العمل** ، بنود التنبؤ من نوع مهمة الصيانة المحددة في وظيفة أمر العمل.
 

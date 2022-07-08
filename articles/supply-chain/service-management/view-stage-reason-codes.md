@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9c886e4a2570c2627523fd1a27706e4affdc6e0
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c44b896895817beee61fc96861631743fc2481ba
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678508"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015103"
 ---
 # <a name="view-stage-reason-codes"></a>عرض أكواد أسباب المراحل 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8678508"
 
 عرض وتعديل قائمة أسباب المرحلة لأحد أوامر خدمة. استخدم أسباب المراحل الإشارة إلى سبب حالة أمر الخدمة. على سبيل المثال، يمكنك إنشاء مرحلة **مُلغى** التي يتم تعيين كود سبب لها بقيمة **تم الإلغاء بواسطة العميل**.
 
-  - انقر فوق **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات**. افتح أمر خدمة.
+  - انقر فوق **إدارة الخدمة** \> **أوامر الخدمات** \> **أوامر الخدمات**. افتح أمر خدمة.
 
   - في نموذج **أوامر الخدمة**، في **جزء الإجراءات**، في علامة التبويب **إرسال**، انقر فوق **أسباب المرحلة**.
 

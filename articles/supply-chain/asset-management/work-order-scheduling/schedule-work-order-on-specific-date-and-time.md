@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ec7e300f60f76aaa467238d7a2c2a199fdeafeed
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e25d1c108e5cc90fcedc7e8f7e4bbc14052719f1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857913"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015945"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>جدولة أمر العمل في تاريخ ووقت محددين
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857913"
 
 إذا كان من الضروري جدولة أحد أوامر العمل في تاريخ‏‎ *و* وقت محددين، فيمكنك تجاوز عمليه الجدولة القياسية في إدارة الأصول وإنشاء جدول معين لأمر العمل.
 
-1. انقر فوق **إدارة الأصول** > **عام** > **أوامر العمل** > **جميع أوامر العمل** أو **أوامر العمل النشطة**.
+1. انقر فوق **إدارة الأصول** > **أوامر العمل** > **جميع أوامر العمل** أو **أوامر العمل النشطة**.
 
 2. في قائمة أمر العمل، انقر فوق معرف أمر العمل في عمود **أمر العمل**.
 

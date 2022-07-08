@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 66215811c8c48412fb137967107abca3774f5f0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872025"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014898"
 ---
 # <a name="set-up-consignment"></a>إعداد الشحن
 
@@ -84,7 +84,7 @@ ms.locfileid: "8872025"
 - **المنتجات التي تم استلامها من مخزون الشحن‬** - لإظهار معلومات حول الأصناف والكميات التي لديها إيصالات استلام منتجات تم تحديثها أثناء عملية تغيير الملكية.
 - **مخزون الشحن الفعلي‬** - لإظهار معلومات حول أصناف الشحن المتوقع تسليمها، والأصناف المتوفرة فعليًا في موقع العميل
 
-لمزيد من المعلومات حول إعداد الموردين لاستخدام تعاون المورِّد‏‎، راجع [أمان مستخدمي مدخل الموردين](../procurement/configure-security-vendor-portal-users.md).
+لمزيد من المعلومات حول إعداد الموردين لاستخدام تعاون المورِّد‏‎، راجع [إدارة مستخدمي تعاون المورد‬‏‫](../procurement/manage-vendor-collaboration-users.md).
 
 ## <a name="inventory-owners"></a>ملاك المخزون
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 723eae906260d152a8729f91c75cd9860eca84c5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4f2b4213574a2d84089ab20ab1a584e1ab894ad9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669477"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016351"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>إدارة شجرة مواد القالب على علاقات الكائن 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8669477"
 
 ## <a name="attach-a-template-bom-to-a-service-object"></a>إرفاق شجرة مواد قالب بكائن خدمة
 
-1.  انقر فوق **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.
+1.  انقر فوق **إدارة الخدمة** \> **اتفاقيات الخدمة** \> **اتفاقيات الخدمة**.
 
 2.  انقر نقرًا مزدوجًا فوق اتفاقية الخدمة التي تريد إرفاق شجرة مواد قالب بعلاقة كائن فيها.
 
@@ -43,7 +43,7 @@ ms.locfileid: "8669477"
 
 ## <a name="delete-a-service-bom-from-a-service-object"></a>حذف شجرة مواد خدمة من كائن خدمة
 
-1.  انقر فوق **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.
+1.  انقر فوق **إدارة الخدمة** \> **اتفاقيات الخدمة** \> **اتفاقيات الخدمة**.
 
 2.  انقر نقرًا مزدوجًا فوق اتفاقية الخدمة التي تريد حذف شجرة مواد خدمة من علاقة كائن منها.
 
@@ -55,7 +55,7 @@ ms.locfileid: "8669477"
 
 ## <a name="move-the-service-bom-history-from-one-service-agreement-to-another"></a>نقل سجل شجرة مواد الخدمة من اتفاقية خدمة إلى أخرى
 
-1.  انقر فوق **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.
+1.  انقر فوق **إدارة الخدمة** \> **اتفاقيات الخدمة** \> **اتفاقيات الخدمة**.
 
 2.  انقر نقرًا مزدوجًا فوق اتفاقية خدمة لنقل شجرة المواد منها.
 

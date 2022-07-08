@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3a9ee0a96e6a9097608b4c7cd1f65085e95b8ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30c672286c16a4353556a507019960edb93f8b1b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897708"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016583"
 ---
 # <a name="manual-update-of-asset-counters"></a>التحديث اليدوي لعدادات الأصول
 
@@ -34,7 +34,7 @@ ms.locfileid: "8897708"
 
 في صفحة **كافة الأصول** ، يمكنك إنشاء تسجيلات العداد للساعات أو الكميات على أصل ما استنادًا إلى قراءاتك على الأصل.
 
-1. حدد **إدارة الأصول** > **مشترك** > **الأصول** > **كافة الأصول**.
+1. حدد **إدارة الأصول** > **الأصول** > **كافة الأصول**.
 
 2. حدد الأصل، ثم في جزء الإجراء، ضمن علامة التبويب **الأصل** ، في مجموعة **الوقائي** ، حدد **عدادات**. تظهر الصفحة **عدادات الأصول** قائمة بجميع تسجيلات العدادات السابقة التي تم إجراؤها على الأصل المحدد.
 

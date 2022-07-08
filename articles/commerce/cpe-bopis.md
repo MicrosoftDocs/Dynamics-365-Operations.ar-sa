@@ -1,8 +1,8 @@
 ---
-title: تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
-description: يوضح هذا المقال كيف تكون الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
+title: تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة وضع حماية Dynamics 365 Commerce
+description: يوضح هذا المقال كيف تكون الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة وضع حماية Microsoft Dynamics 365 Commerce بعد توفيرها.
 author: BrianShook
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 379537fd490be98497b6e7c5cdfbc33798fe28ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 16cea7beb6ca05b5e96a9713b1217b414e27d56e
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861956"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013152"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة تقييم Dynamics 365 Commerce
+# <a name="configure-bopis-in-a-dynamics-365-commerce-sandbox-environment"></a>تكوين BOPIS (الشراء عبر الإنترنت والاستلام في المتجر) في بيئة وضع حماية Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-يوضح هذا المقال كيفية تكوين الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة تقييم Microsoft Dynamics 365 Commerce بعد توفيرها.
+يوضح هذا المقال كيفية تكوين الشراء عبر الإنترنت والانتقاء في المتجر (BOPIS) في بيئة وضع حماية Microsoft Dynamics 365 Commerce بعد توفيرها.
 
 ## <a name="prerequisite"></a>المتطلب الأساسي
 
-استكمل الإجراءات في هذا المقال فقط بعد توفير بيئة تقييم Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة تقييم Dynamics 365 Commerce](./cpe-post-provisioning.md).
+استكمل الإجراءات في هذا المقال فقط بعد توفير بيئة وضع حماية Commerce وتكوينها. لمزيد من المعلومات حول توفير وتكوين البيئة الخاصة بك، راجع [توفير بيئة وضع حماية Dynamics 365 Commerce](provisioning-guide.md) و[تكوين بيئة وضع حماية Dynamics 365 Commerce](./cpe-post-provisioning.md).
 
 بعد توفير بيئة معاينة Commerce وتكوينها من البداية إلى النهائية، يمكنك استخدام هذا المقال لتكوين سيناريوهات BOPIS.
 
@@ -67,7 +67,7 @@ ms.locfileid: "8861956"
 5. يظهر مربع حوار المصادقة. حدد الحساب الذي يستخدم عنوان البريد الإلكتروني الذي كان مرتبطًا في السابق بالعامل **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > إذا لم تكن قد قمت بربط عامل بهويتك، فسيكون التنشيط غير ناجح. في هذه الحالة، اتبع الخطوات تحت قسم "ربط عامل بهويتك" في المقال [تكوين بيئة تقييم Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > إذا لم تكن قد قمت بربط عامل بهويتك، فسيكون التنشيط غير ناجح. في هذه الحالة، اتبع الخطوات تحت قسم "ربط عامل بهويتك" في المقال [تكوين بيئة وضع حماية Dynamics 365 Commerce](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. عندما مطالبتك بالسماح للمؤسسة بإدارة الجهاز، حدد **هذا التطبيق فقط**.
 7. عند استكمال عملية التنشيط، حدد **الشروع في العمل**.
@@ -140,13 +140,9 @@ ms.locfileid: "8861956"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على بيئة تقييم Dynamics 365 Commerce](cpe-overview.md)
+[تشغيل بيئة وضع حماية Dynamics 365 Commerce](provisioning-guide.md)
 
-[توفير بيئة تقييم Dynamics 365 Commerce](provisioning-guide.md)
-
-[تكوين الميزات الاختيارية لبيئة تقييم Dynamics 365 Commerce](cpe-optional-features.md)
-
-[الأسئلة الشائعة حول بيئة تقييم Dynamics 365 Commerce](cpe-faq.md)
+[تكوين ميزات اختيارية لبيئة وضع حماية Dynamics 365 Commerce](cpe-optional-features.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

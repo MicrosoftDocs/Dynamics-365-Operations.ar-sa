@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860656"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022493"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>طريقة استخدام العمال لواجهة تنفيذ صالة الإنتاج‬
 
@@ -263,9 +263,6 @@ ms.locfileid: "8860656"
 
 ## <a name="view-the-my-day-dialog"></a>عرض مربع الحوار "يومي"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 يوفر مربع الحوار **يومي** للعاملين نظرة عامة على تسجيلاتهم وأرصدتهم. مربع الحوار هذا مقسّم إلى الأقسام الثلاثة التالية:
 
 - يسرد القسم الرئيسي التسجيلات التي أدراها العامل الحالي في تاريخ محدد. وهو يعرض تسجيلات اليوم الحالي عندما يفتح، كما يوفر منتقي التاريخ الذي يتيح للعامل عرض أيام أخرى.
@@ -275,9 +272,6 @@ ms.locfileid: "8860656"
 بإمكان المسؤولين إضافة هذه الميزة إلى الواجهة عن طريق وضع الزر **يومي** على شريط أدوات لكل علامة تبويب ذات صلة كما ورد في [تصميم واجهة تنفيذ صالة الإنتاج](production-floor-execution-tabs.md).
 
 ## <a name="working-in-teams"></a>العمل في الفرق
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 عند تعيين عدد كبير من العاملين لتنفيذ وظيفة الإنتاج نفسها، يمكنهم تشكيل فريق. بإمكان الفريق تعيين عامل واحد كقائد. ويصبح العاملون المتبقيون بمثابة مساعدين لهذا القائد بشكل تلقائي. بالنسبة للفريق الناتج، يجب على القائد تسجيل حالة الوظيفة فقط. تنطبق سجلات الوقت على كافة أعضاء الفريق.
 

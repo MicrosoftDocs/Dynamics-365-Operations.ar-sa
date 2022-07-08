@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850775"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954480"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.25 (أبريل 2022)
 
@@ -155,7 +155,7 @@ ms.locfileid: "8850775"
 | Warehouse management | [المعالجة المؤجلة لعملية حركة المخزون اليدوية](../warehousing/deferred-processing-manual-inventory-movement.md) | إلزامي |
 | Warehouse management | لا تسمح بإنشاء أحمال عمل لا تتطابق مع متطلبات قوالب إنشاء حمل عمل الموجة | إلزامي |
 | Warehouse management | [تخطيطات تسميات لوحات الترخيص المحسّنة](../warehousing/document-routing-layout-for-license-plates.md) | إلزامي |
-| Warehouse management | [تقييم جميع الإجراءات لتوجيهات مواقع وحدة SKU المتعددة](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | إلزامي |
+| Warehouse management | [تقييم جميع الإجراءات لتوجيهات مواقع وحدة SKU المتعددة](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | إلزامي |
 | Warehouse management | إخفاء حقل القيمة الاجمالية في صفحات "كافة الحمولات" و "التفاصيل الحمل" | إلزامي |
 | Warehouse management | تكوين إنشاء تسمية لوحة الترخيص | إلزامي |
 | Warehouse management | التصحيح اليدوي لبند حمل العمل للمسؤول أو المستخدمين المشابهين الموثوق بهم | إلزامي |

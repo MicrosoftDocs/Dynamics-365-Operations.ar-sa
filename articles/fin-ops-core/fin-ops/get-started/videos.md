@@ -2,7 +2,7 @@
 title: مقاطع فيديو
 description: تسرد هذه الصفحة مقاطع الفيديو "الإرشادية" والأحاديث التقنية المتعلقة بتطبيقات Finance and Operations التي أنشأتها Microsoft والمتوفرة على YouTube ومواقع أخرى.
 author: sericks007
-ms.date: 09/15/2021
+ms.date: 06/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 3fe44a9a7fcef2f22dff3be00ddfadd5b8c59574
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
+ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487981"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8958127"
 ---
-# <a name="videos"></a>ملفات الفيديو 
+# <a name="videos"></a>مقاطع فيديو 
 
 [!include [banner](../includes/banner.md)]
 
-في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)، يمكنك العثور على مقاطع فيديو أنشأتها Microsoft توضح عددًا كبيرًا من حلول الأعمال الخاصة بمنتجات Dynamics 365. يسرد هذا القسم مقاطع الفيديو "الإرشادية" المستضافة على القناة لتطبيقات Finance and Operations.
+في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)، يمكنك العثور على مقاطع فيديو أنشأتها Microsoft توضح عددًا كبيرًا من حلول الأعمال الخاصة بمنتجات Dynamics 365. يسرد هذا القسم فيديوهات "المساعدة" لـتطبيقات Finance and Operations التي تتم استضافتها على القناة.
 
 > [!Note]
 > تم نشر بعض مقاطع الفيديو المسردة ضمن اسم منتج سابق، ولكنها لا تزال قابلة للتطبيق.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>فيديوهات لتطوير وإدارة Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>فيديوهات ‏‫التطوير والإدارة لـ Finance and Operations‬
 
 ### <a name="data-integration"></a>تكامل البيانات
 
-- [مزامنة أمر عمل بين Dynamics 365 for Field Service وتطبيقات Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [مزامنة أمر عمل بين Dynamics 365 for Field Service وFinance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>إدارة البيانات
 
@@ -42,8 +42,7 @@ ms.locfileid: "7487981"
 
 ### <a name="development"></a>التطوير
 
-- [كيفية حل التعارض في Visual Studio](https://youtu.be/4rxO0zUN2zU)
-- [مرشد التحسين‬](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [مرشد التحسين](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [إعداد فرع التطوير والبناء](https://www.youtube.com/watch?v=qXLd-NMx9OY)
 - [إعداد جهاز التطوير](https://www.youtube.com/watch?v=cqp9MetfiyM)
 - [تكامل Azure DevOps مع Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
@@ -52,7 +51,7 @@ ms.locfileid: "7487981"
 
 - [كيفية تحرير تقرير مضمن في مساحة عمل تحليلية](https://youtu.be/_8WlwmSggcQ)
 - [كيفية تضمين تقارير PowerBI.com في تطبيقات Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [إحضار قاعدة بياناتك الخاصة (BYOD) إلى تطبيقات Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [إحضار قاعدة بياناتك الخاصة (BYOD) إلى Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [كيفية استخدام محتوى "إدارة التكلفة" في Power BI في Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services ‏(LCS)
@@ -81,7 +80,7 @@ ms.locfileid: "7487981"
 - [تجربه Excel المحسنة في Regression Suite Automation Tool (RSAT) 2.0](https://youtu.be/fcEkSIVQ1Bg)
 
 
-## <a name="videos-for-dynamics-365-finance"></a>فيديوهات لـ Dynamics 365 Finance
+## <a name="videos-for-dynamics-365-finance"></a>مقاطع فيديو لـ Dynamics 365 Finance
 
 ### <a name="business-document-management"></a>إدارة مستندات الأعمال
 - [إنشاء مستند عمل جديد باستخدام إدارة مستندات الأعمال](https://www.youtube.com/watch?v=gAIYl-mM_pw)

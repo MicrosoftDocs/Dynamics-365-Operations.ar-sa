@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 73f2f9a819312d8d6e111b998c68b65ba85e7818
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d47f3f377a7de87b9c24a18e4542e5a48235d270
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850746"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954469"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management‏ 10.0.26‏ (مايو 2022)
 
@@ -61,7 +61,6 @@ ms.locfileid: "8850746"
 | منطقة الميزة | المقالات الجديدة أو المحدثة |
 |---|---|
 | إدارة التكلفة | تمت إضافة الأمثلة والرسوم البيانية المحدثة إلى كل من المقالات التالية:<ul><li>[ما يرد أولاً يصرف أولاً‬ (FIFO) بالقيمة الفعلية والتمييز](../cost-management/fifo-physical-value-marking.md)</li><li>[نموذج المخزون ما يرد أخيرًا يصرف أولاً‬ (LIFO) مع القيمة الفعلية والعلامات](../cost-management/lifo-physical-value-marking.md)</li><li>[تاريخ ما يرد أخيرًا يصرف أولاً‬ (LIFO) بالقيمة الفعلية والتمييز](../cost-management/lifo-date-physical-value-marking.md)</li><li>[المتوسط المتحرك لسعر التكلفة](../cost-management/running-average-cost-price.md)</li><li>[المتوسط المرجح مع القيمة الفعلية ووضع العلامات](../cost-management/weighted-average-physical-value-marking.md)</li></ul> |
-| التدبير وتحديد الموارد | [اختلافات في البيانات في بنود أمر الشراء](../troubleshooting/procurement/purchase-order-line-data-issues.md) |
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

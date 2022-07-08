@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882768"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016235"
 ---
 # <a name="asset-boms"></a>BOM الأصل
 
@@ -57,7 +57,7 @@ ms.locfileid: "8882768"
 
 بعد ترحيل استهلاك الصنف في أمر عمل، يمكنك عرض استهلاك الأصناف المسجلة في صفحة **BOM الأصل**.
 
-1. حدد **إدارة الأصول** \> **عام** \> **الأصول** \> **الأصول‏‎ النشطة**. حدد الأصل في القائمة، ثم حدد‏‎ **BOM الأصل**.
+1. حدد **إدارة الأصول** \> **الأصول** \> **الأصول النشطة**. حدد الأصل في القائمة، ثم حدد‏‎ **BOM الأصل**.
 
     > [!NOTE]
     > لعرض جميع تسجيلات استهلاك الأصناف على جميع الأصول، حدد **إدارة الأصول** \> **الاستفسارات** \> **الأصول** \> **BOM‏‎ الأصل**.

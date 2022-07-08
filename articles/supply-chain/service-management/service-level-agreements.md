@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1db12600aa47f537da6918c82ef3164c2123a8ac
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2b90618d5d283b16ac8374f3b8b2df48611ba270
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670793"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014642"
 ---
 # <a name="service-level-agreements-overview"></a>نظرة عامة على اتفاقيات مستوى الخدمة       
 
@@ -50,7 +50,7 @@ ms.locfileid: "8670793"
 
 ## <a name="apply-the-service-level-agreement-to-the-service-agreement"></a>تطبيق اتفاقية مستوى الخدمة على اتفاقية الخدمة
 
-1.  انقر فوق **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**. حدد اتفاقية الخدمة التي ترغب في تطبيق اتفاقية مستوى الخدمة عليها، ثم انقر فوق **تحرير** في **جزء الإجراءات**.
+1.  انقر فوق **إدارة الخدمة** \> **اتفاقيات الخدمة** \> **اتفاقيات الخدمة**. حدد اتفاقية الخدمة التي ترغب في تطبيق اتفاقية مستوى الخدمة عليها، ثم انقر فوق **تحرير** في **جزء الإجراءات**.
 
 2.  في حقل **اتفاقية مستوى الخدمة**، حدد اتفاقية مستوى الخدمة التي تريد تعيينها.
 

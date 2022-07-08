@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 341b14d493c85a1e94666fa7e07b80704645e5f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858232"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015326"
 ---
 # <a name="provision-human-resources"></a>تزويد Human Resources
 
@@ -143,7 +143,9 @@ ms.locfileid: "8858232"
 6. يمكن استخدام قدرات الكتابة المزدوجة لتكامل بيانات Human Resources مع بيئة Power Apps فقط عند تحديد الخيار **تمكين تطبيقات Dynamics 365** للبيئة. راجع [الصفحة الرئيسية للكتابة المزدوجة](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) لمزيد من المعلومات عن الكتابة المزدوجة.
 
     > [!NOTE]
-    > يجب تمكين الخيار **تمكين تطبيقات Dynamics 365** عند إنشاء بيئة Power Apps. إذا لم يكن الخيار محددًا عند التزويد، فلن تتمكن من استخدام الكتابة المزدوجة لدمج البيانات بين Dynamics 365 Human Resources وبيئة Power Apps أو تثبيت تطبيقات Dynamics 365 مثل Dynamics 365 Sales وField Service على البيئة. لا يمكن التراجع عن هذا الخيار. لمزيد من المعلومات، راجع [ الاعتبارات الهامة عند إنشاء بيئة جديدة](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) في موقع وثائق Power Platform.
+    > يجب تمكين الخيار **تمكين تطبيقات Dynamics 365** عند إنشاء بيئة Power Apps. إذا لم يكن الخيار محددًا عند التزويد، فلن تتمكن من استخدام الكتابة المزدوجة لدمج البيانات بين Dynamics 365 Human Resources وبيئة Power Apps أو تثبيت تطبيقات Dynamics 365 مثل Dynamics 365 Sales وField Service على البيئة. لا يمكن التراجع عن هذا الخيار. 
+    > -  لا يدعم تطبيق Human Resources تغيير مثيل Dataverse المرتبط بمجرد نشر Human Resources فيه. </br></br>
+    > لمزيد من المعلومات، راجع [ الاعتبارات الهامة عند إنشاء بيئة جديدة](/power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) في موقع وثائق Power Platform.  
 
 7. بعد تحديد البيئة الصحيحة التي تريد استخدامها، يمكنك متابعة عملية التوفير. 
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 25e9139ce57283482d8da4b7f1e5d6275c74ad28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 70b83de50105cf664bbc6b6095203d01d83cd79b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854518"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016670"
 ---
 # <a name="maintenance-checklists"></a>قوائم فحص الصيانة
 
@@ -35,7 +35,7 @@ ms.locfileid: "8854518"
 
 ## <a name="fill-in-a-maintenance-checklist"></a>ملء قائمة فحص الصيانة
 
-1. انقر فوق **إدارة الأصول** > **عام** > **أوامر العمل** > **جميع أوامر العمل** أو **أوامر العمل النشطة**.
+1. انقر فوق **إدارة الأصول** > **أوامر العمل** > **جميع أوامر العمل** أو **أوامر العمل النشطة**.
 
 2. حدد أمر العمل ثم في جزء الإجراءات، من علامة التبويب **أمر العمل** ، في مجموعة **البنود** ، حدد **قائمة فحص الصيانة**.
 

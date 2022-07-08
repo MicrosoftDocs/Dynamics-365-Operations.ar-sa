@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52f9fd00841a2df06db85108a0fdcc1a8134a1c6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8d3599e13573ab7a9883f79b17e0eb267025483
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677131"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015219"
 ---
-# <a name="move-service-order-lines"></a>نقل سطور أوامر الخدمات 
+# <a name="move-service-order-lines"></a>نقل بنود أوامر الخدمات 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  انقر فوق **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات**.
+1.  انقر فوق **إدارة الخدمة** \> **أوامر الخدمات** \> **أوامر الخدمات**.
 
 2.  انقر نقرًا مزدوجًا فوق أمر الخدمة الذي يحتوي على البنود المطلوب نقلها إلى أمر خدمة آخر.
 

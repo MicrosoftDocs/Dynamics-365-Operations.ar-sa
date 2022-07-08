@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888401"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016938"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>إنشاء متطلبات صنف لأوامر الخدمة
 
@@ -34,14 +34,14 @@ ms.locfileid: "8888401"
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>إنشاء متطلبات الصنف لأمر خدمة
 
-1. انتقل إلى **إدارة الخدمة** \> **عام** \> **أوامر الخدمات** \> **أوامر الخدمات**.
+1. انتقل إلى **إدارة الخدمة** \> **أوامر الخدمات** \> **أوامر الخدمات**.
 1. حدد أمر الخدمة الذي تريد إنشاء متطلبات الصنف له.
 1. في **جزء الإجراءات**، على علامة التبويب **إرسال**، حدد **متطلب الصنف**.
 1. في النموذج **متطلبات الصنف**، أدخل معلومات للصنف المطلوب. لمزيد من المعلومات حول حقول محددة، راجع [متطلبات الصنف (نموذج)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>إنشاء متطلبات صنف لاتفاقية خدمة
 
-1. انتقل إلى **إدارة الخدمة** \> **عام** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.
+1. انتقل إلى **إدارة الخدمة** \> **اتفاقيات الخدمة‬** \> **اتفاقيات الخدمة‬**.
 1. افتح اتفاقية الخدمة التي تريد إنشاء متطلبات الصنف لها.
 1. في علامة التبويب السريعة **البنود** ، حدد **إضافة** لإنشاء بند جديد.
 1.  في الحقل **نوع الحركة**، حدد **الصنف**.

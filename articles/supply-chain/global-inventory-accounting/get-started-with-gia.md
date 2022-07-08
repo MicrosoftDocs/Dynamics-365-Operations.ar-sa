@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
+ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891078"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013544"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>الشروع في العمل في ‏‫محاسبة المخزون العالمي
 
@@ -69,37 +69,6 @@ ms.locfileid: "8891078"
 
 لمزيد من المعلومات، راجع [التمكين بعد نشر البيئة](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-### <a name="set-up-dataverse"></a>إعداد Dataverse
-
-قبل إعداد Dataverse، قم بإضافة مبادئ خدمة محاسبة المخزون العالمي إلى المستأجر باتباع الخطوات التالية.
-
-1. قم بتثبيت وحدة Azure AD النمطية لـ Windows PowerShell الإصدار 2 كما هو موضح في [تثبيت Azure Active Directory PowerShell للرسم البياني](/powershell/azure/active-directory/install-adv2).
-1. قم بتشغيل الأمر PowerShell التالي.
-
-    ```powershell
-    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
-
-    New-AzureADServicePrincipal -AppId "7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9" -DisplayName "d365-scm-costaccountingservice"
-
-    New-AzureADServicePrincipal -AppId "5f58fc56-0202-49a8-ac9e-0946b049718b" -DisplayName "d365-scm-operationdataservice"
-    ```
-
-بعد ذلك، قم بإنشاء مستخدمي التطبيق لمحاسبة المخزون العالمي في Dataverse باتباع الخطوات التالية.
-
-1. افتح عنوان URL الخاص ببيئة Dataverse الخاصة بك.
-1. انتقل إلى **إعدادات متقدمة \> النظام \> الأمان \> المستخدمين**، وقم بإنشاء مستخدم تطبيق. استخدم الحقل **عرض** لتغيير طريقة عرض الصفحة إلى *مستخدمي التطبيق*.
-1. حدد **جديد**.
-1. عيّن الحقل **معرف التطبيق** إلى *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. حدد **تعيين دور**، ثم حدد *مسؤول النظام*. إذا كان هناك دور يسمي *مستخدم Common Data Service*، فحدده أيضًا.
-1. كرر الخطوات السابقة، ولكن قم بتعيين الحقل **معرف التطبيق** إلى *5f58fc56-0202-49a8-ac9e-0946b049718b*.
-
-لمزيد من المعلومات، راجع [إنشاء مستخدم تطبيق](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
-
-إذا لم تكن اللغة الإنجليزية لتثبيت Dataverse هي اللغة الافتراضية، اتبع الخطوات التالية.
-
-1. انتقل إلى **إعداد متقدم \> الإدارة \> اللغات**.
-1. حدد *الإنجليزية* (*LanguageCode=1033*)، ثم حدد **تطبيق**.
-
 ## <a name="install-the-add-in"></a><a name="install"></a>تثبيت الوظيفة الإضافية
 
 اتبع هذه الخطوات لتثبيت الوظيفة الإضافية بحيث يمكنك استخدام محاسبة المخزون العالمي.
@@ -109,11 +78,21 @@ ms.locfileid: "8891078"
 1. انتقل إلى **التفاصيل الكاملة**.
 1. انتقل إلى **تكامل Power Platform**، وحدد **إعداد**.
 1. في مربع الحوار **إعداد بيئة Power platform**، حدد خانة الاختيار، ثم حدد **إعداد** وعادةً، يستغرق الإعداد بين 60 و90 دقيقة.
-1. بعد إكمال إعداد بيئة Microsoft Power Platform، في علامة التبويب السريعة **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
+1. بعد اكتمال إعداد بيئة Microsoft Power Platform، قم بتسجيل الدخول إلى مركز مسؤولي [Power Platform](https://admin.powerplatform.microsoft.com) ثم قم بتثبيت الوظيفة الإضافية لمحاسبة المخزون العمومي باتباع الخطوات التالية:
+   1. حدد البيئة التي تريد تثبيت الوظيفة الإضافية فيها.
+   1. حدد **تطبيقات Dynamics 365**.
+   1. حدد **تثبيت التطبيق**.
+   1. حدد **محاسبة المخزون العمومي في Dynamics 365**.
+   1. للتثبيت، حدد **التالي**.
+1. ارجع إلى بيئة LCS. على علامة التبويب السريعة **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
 1. حدد **محاسبة المخزون العالمي**.
 1. اتبع دليل التثبيت، ووافق على البنود والشروط.
 1. حدد **تثبيت**.
 1. في علامة التبويب السريعة **الوظائف الإضافية للبيئة**، يجب أن تشاهد محاسبة المخزون العالمي قد تم تثبيتها. بعد بضع دقائق، يجب أن تغير الحالة من *قيد التثبيت* إلى *مثبت*. (قد تحتاج إلى تحديث الصفحة لعرض هذا التغيير.) في تلك النقطة، تكون محاسبة المخزون العالمي جاهزة للاستخدام.
+
+إذا لم تكن اللغة الإنجليزية لتثبيت Dataverse هي اللغة الافتراضية، فاتبع الخطوات التالية:
+1. انتقل إلى **إعداد متقدم \> الإدارة \> اللغات**.
+1. حدد *الإنجليزية* (*LanguageCode=1033*)، ثم حدد **تطبيق**.
 
 ## <a name="set-up-the-integration"></a>إعداد التكامل
 

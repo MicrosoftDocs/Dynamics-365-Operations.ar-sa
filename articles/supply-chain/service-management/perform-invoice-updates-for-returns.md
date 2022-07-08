@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f999dec6639183015b1be9378dc4e8ea01c9a84
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 32a108694c11a2ebd922a71d5c82691584bbb397
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670877"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014738"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>إجراء تحديثات الفاتورة للمرتجعات 
 
@@ -35,7 +35,7 @@ ms.locfileid: "8670877"
 
 ## <a name="post-an-invoice-for-a-return-order"></a>ترحيل فاتورة لأمر مرتجع
 
-1.  انقر فوق **حسابات مدينة** \> **عام** \> **أوامر المبيعات** \> **كل أوامر المبيعات**.
+1.  انقر فوق **الحسابات المدينة** \>  **الأوامر** \> **كافة أوامر المبيعات**.
 
 2.  حدد أمر مبيعات والذي يتم عرض **الأمر المرجع** له في الحقل **نوع أمر**.
 
