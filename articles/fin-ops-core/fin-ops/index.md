@@ -1,6 +1,6 @@
 ---
-title: وثائق تطبيق Finance and Operations
-description: وثائق لتطبيقات Finance and Operations.
+title: وثائق تطبيق التمويل والعمليات
+description: وثائق لتطبيقات التمويل والعمليات.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f646b3216c73e14b550dc438c500a569bb799c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f9776038530438ba8d8046b735d95b2a5701594
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865821"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067451"
 ---
-# <a name="finance-and-operations-application-documentation"></a>وثائق تطبيق Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>وثائق تطبيق التمويل والعمليات
 
 [!include [banner](includes/banner.md)]
 
-تعرف على الطريقة الصحيحة لاستخدام تطبيقات التمويل والعمليات  بما يناسبك نشاطك التجاري، وذلك باستخدام الموارد الواردة في المقال للعثور على محتوى متميز للمستخدمين النهائيين والمطورين ومحترفي تكنولوجيا المعلومات. 
+تعرف على الطريقة الصحيحة لاستخدام تطبيقات التمويل والعمليات بما يناسبك نشاطك التجاري، وذلك باستخدام الموارد الواردة في المقال للعثور على محتوى متميز للمستخدمين النهائيين والمطورين ومحترفي تكنولوجيا المعلومات. 
 
 ينطبق أيضًا قسم كبير من هذا المحتوى على المنتجين ذي الصلة: Dynamics 365 Commerce وDynamics 365 Human Resources. 
 
@@ -41,7 +41,7 @@ ms.locfileid: "8865821"
 <h3><a href="get-started/before-you-buy.md">قبل الشراء</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">سجل للاشتراك في الإصدار الأولي</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">اختيار أحد خيارات النشر</a></p>
- <p><a href="get-started/purchase-on-premises.md">شراء Finance and Operations ‏(on-premises)‏</a></p>
+ <p><a href="get-started/purchase-on-premises.md">شراء تطبيق التمويل والعمليات ‏(محلي)‏</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">دورة حياة التطبيق</a></h3>
 <p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
@@ -143,3 +143,4 @@ ms.locfileid: "8865821"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -2,7 +2,7 @@
   items:
     - name: تطوير تطبيقات التمويل والعمليات وإدارتها
       items:
-        - name: وثائق تطبيق Finance and Operations
+        - name: وثائق تطبيق التمويل والعمليات
           href: ../fin-ops/index.md
         - name: تطوير تطبيقات التمويل والعمليات وإدارتها
           href: index.md
@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.27 (يوليو 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.26 (مايو 2022)
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -82,7 +80,7 @@
                   href: data-entities/service-protection-monitoring.md
                 - name: زيادة خرج واجهة برمجة التطبيقات لأقصى حد
                   href: data-entities/service-protection-maximizing-api-throughput.md
-            - name: موصل Finance and Operations
+            - name: موصل التمويل والعمليات
               href: data-entities/fin-ops-connector.md
             - name: التطوير للتكامل
               items:
@@ -106,39 +104,39 @@
                       items:
                         - name: العميل المتوقع إلى النقدية
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في Finance and Operations‎
+                        - name: مزامنة الحسابات مباشرةً من Sales إلى العملاء في التمويل والعمليات
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: مزامنة المنتجات مباشرةً من Finance and Operations إلى المنتجات في Sales‎
+                        - name: مزامنة المنتجات مباشرةً من التمويل والعمليات إلى المنتجات في Sales‎
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في Finance and Operations‎
+                        - name: مزامنة جهات الاتصال مباشرةً من Sales إلى جهات الاتصال في التمويل والعمليات
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى Finance and Operations
+                        - name: مزامنة رؤوس وبنود عرض أسعار المبيعات مباشرةً من Sales إلى التمويل والعمليات
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: مزامنة عروض أسعار المبيعات‬ بين Sales وFinance and Operations‎
+                        - name: مزامنة أوامر المبيعات مباشرة بين Sales والتمويل والعمليات
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من Finance and Operations إلى Sales
+                        - name: مزامنة رؤوس وبنود فواتير المبيعات مباشرةً من التمويل والعمليات إلى Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: تكوين التكامل مع Field Service
                       items:
                         - name: نظرة عامة حول تكوين التكامل مع Field Service
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: مزامنة المنتجات في Finance and Operations إلى المنتجات في Field Service
+                        - name: مزامنة المنتجات في التمويل والعمليات إلى المنتجات في Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في Finance and Operations
+                        - name: مزامنة أوامر العمل في Field Service إلى أوامر المبيعات في التمويل والعمليات
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في Finance and Operations
+                        - name: مزامنة فواتير الاتفاقيات في Field Service إلى فواتير النص الحر في التمويل والعمليات
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: مزامنة عمليات تحويل وتسوية المخزون من Field Service إلى Finance and Operations
+                        - name: مزامنة عمليات نقل وتسوية المخزون من Field Service إلى التمويل والعمليات
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: مزامنة معلومات مستوى المخزون من Finance and Operations إلى Field Service
+                        - name: مزامنة معلومات مستوى المخزون من التمويل والعمليات إلى Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: مزامنة المنتجات مع وحدة المخزون من Finance and Operations إلى Field Service
+                        - name: مزامنة المنتجات مع وحدة المخزون من التمويل والعمليات إلى Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: مزامنة قائمة المشاريع من Finance and Operations إلى Field Service
+                        - name: مزامنة قائمة المشاريع من التمويل والعمليات إلى Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: مزامنة المستودعات من Finance and Operations إلى Field Service
+                        - name: مزامنة المستودعات من التمويل والعمليات إلى Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: مزامنة أوامر العمل مع المشروع من Field Service إلى Finance and Operations
+                        - name: مزامنة أوامر العمل مع المشروع من Field Service إلى التمويل والعمليات
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: تكوين تكامل Project Service Automation
                       items:
@@ -200,7 +198,7 @@
                   href: data-entities/data-synchronize-date-and-time.md
                 - name: استيراد الإيصالات‬ باستخدام كيان دفتر اليومية العام
                   href: data-entities/tips-tricks-import-general-journal-entity.md
-                - name: تحسين ترحيل البيانات لتطبيقات Finance and Operations
+                - name: تحسين ترحيل البيانات لتطبيقات التمويل والعمليات
                   href: sysadmin/optimize-data-migration.md
             - name: التطوير لكيانات البيانات
               items:
@@ -348,9 +346,9 @@
                   href: deployment/arm-onboarding.md
                 - name: إكمال عملية إعداد Azure Resource Manager لمشاريع LCS للحكومة الأمريكية
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute وFinance and Operations
+                - name: Azure ExpressRoute والتمويل والعمليات
                   href: deployment/expressroute.md
-                - name: هندسة Finance and Operations
+                - name: هندسة التمويل والعمليات
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: تطبيق التحديثات على بيئات السحابة
                   href: deployment/apply-deployable-package-system.md
@@ -584,7 +582,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: النماذج والحزم
                   href: dev-tools/models.md
-                - name: نوع مشروع Finance and Operations
+                - name: نوع مشروع التمويل والعمليات
                   href: dev-tools/projects.md
                 - name: الوظائف الإضافية للأدوات في Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -1050,7 +1048,7 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: البرنامج التعليمي لملحق Azure DevOps (إصدار أولي للاستخدام العام)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: ملحق Visual Studio (إصدار أولي للاستخدام الخاص)
+                - name: ملحق Visual Studio (إصدار أولي للاستخدام العام)
                   href: lifecycle-services/dts-visual-studio.md
                 - name: ملحق Visual Studio Code (إصدار أولي للاستخدام العام)
                   href: lifecycle-services/dts-vscode-doc.md
@@ -1082,9 +1080,9 @@
                       href: data-entities/dual-write/sync-limits.md
                     - name: إعداد الكتابة المزدوجة من Lifecycle Services
                       href: data-entities/dual-write/lcs-setup.md
-                    - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
+                    - name: تمكين الكتابة المزدوجة لتطبيقات التمويل والعمليات الموجودة
                       items:
-                        - name: تمكين الكتابة المزدوجة لتطبيقات Finance and Operations الموجودة
+                        - name: تمكين الكتابة المزدوجة لتطبيقات التمويل والعمليات الموجودة
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: متطلبات النظام والشروط الأساسية
                           href: data-entities/dual-write/requirements-and-prerequisites.md
@@ -1198,15 +1196,15 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
                         - name: استكشاف مشكلات المزامنة المباشرة وإصلاحها
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                        - name: استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
+                        - name: استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات التمويل والعمليات
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: استكشاف مشكلات الطرف ودفتر العناوين العمومي
                           href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: استكشاف المشكلات ذات الصلة بإدراك الحلول وإصلاحها
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                        - name: استكشاف المشكلات من ترقيات تطبيقات Finance and Operations
+                        - name: استكشاف المشكلات من ترقيات تطبيقات التمويل والعمليات
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: تحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
+                        - name: تحقق من تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات وDataverse
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                         - name: رموز الأخطاء الخاصة بالتحقق من صحة مخطط الجدول
                           href: data-entities/dual-write/table-map-health-check.md
@@ -1224,9 +1222,9 @@
                   href: power-platform/admin-reference.md
                 - name: تمكين كيانات Dataverse الظاهرية
                   href: power-platform/enable-virtual-entities.md
-                - name: مداخل Power Apps مع Finance and Operations
+                - name: مداخل Power Apps مع التمويل والعمليات
                   href: power-platform/power-portal-reference.md
-                - name: الأسئله المتداولة حول الكيانات الظاهرية لـ Finance and Operations
+                - name: الأسئلة المتداولة حول الكيانات الظاهرية لـ التمويل والعمليات
                   href: power-platform/faq.md
             - name: أحداث الأعمال
               items:
@@ -1574,15 +1572,15 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: الدعم
           items:
-            - name: الحصول على الدعم لـ Finance and Operations وLifecycle Services
+            - name: الحصول على الدعم لـ التمويل والعمليات وLifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: نظرة عامة على دعم Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: الحصول على الدعم لـ Finance and Operations المشغّل بواسطة 21Vianet في الصين
+            - name: الحصول على الدعم لـ التمويل والعمليات المشغّل بواسطة 21Vianet في الصين
               href: lifecycle-services/21vianet-support.md
-            - name: إعداد الدعم التقني لتطبيقات Finance and Operations
+            - name: إعداد الدعم التقني لتطبيقات التمويل والعمليات
               href: lifecycle-services/support-experience.md
-            - name: إدارة خبرات الدعم لتطبيقات Finance and Operations
+            - name: إدارة خبرات الدعم لتطبيقات التمويل والعمليات
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: دعم الإنتاج والمراقبة
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
@@ -1698,7 +1696,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: ترقية من AX 2012
               items:
-                - name: الترقية من AX 2012 إلى Finance and Operations
+                - name: الترقية من AX 2012 إلى التمويل والعمليات
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: ترقية AX 2012 - وضع الخطة باستخدام أداة محلل الترقية
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: ترحيل البيانات من AX 2009
               items:
-                - name: ترحيل البيانات من AX 2009 إلى Finance and Operations
+                - name: ترحيل البيانات من AX 2009 إلى التمويل والعمليات
                   href: migration-upgrade/data-migration-tool.md
                 - name: ترحيل AX 2009 - تثبيت أداة ترحيل البيانات
                   href: migration-upgrade/install-dmt.md

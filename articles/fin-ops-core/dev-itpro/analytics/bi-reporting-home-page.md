@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906622"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206464"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>إعداد التقارير والتحليلات في الصفحة الرئيسية لـ Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "8906622"
 ## <a name="get-started"></a>الشروع في العمل
 - [الوصول إلى المعلومات وإعداد التقارير](information-access-reporting.md)
 - [حديث تقني: خيارات إعداد التقارير](https://www.youtube.com/watch?v=NzZONjKs5xA) (فيديو)
-- [Finance and Operations: مدونة خدمات التحليلات وإعداد التقارير في Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (مدونة)
+- [التمويل والعمليات: مدونة خدمات التحليلات وإعداد التقارير في Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (مدونة)
 
 ## <a name="analytical-workspaces"></a>مساحات العمل التحليلية
 بإمكان مساحات العمل استخدام مرئيات ومخططات معلومات رسومية ثرية يدعمها Microsoft Power BI. تشتمل هذه المرئيات ومخططات المعلومات الرسومية على العديد من عناصر التحكم التي توفرها أطراف ثالثة. ولذلك، يمكن لمساحات العمل توفير تجربة مرئية وتفاعلية عالية للمستخدمين.

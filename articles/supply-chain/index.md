@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879065"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066037"
 ---
 # <a name="supply-chain-management-home-page"></a>الصفحة الرئيسية لـ Supply Chain Management
 
@@ -56,16 +56,16 @@ ms.locfileid: "8879065"
 
 ## <a name="videos"></a>مقاطع الفيديو
 
-يقوم هذا الفيديو القصير بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى الإصدار 8.0 (أبريل 2018) من Microsoft Dynamics 365 for Finance and Operations.
+يقوم هذا الفيديو القصير بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى الإصدار 8.0 (أبريل 2018) من Microsoft Dynamics 365 Finance.
 
-- [مزامنة أمر عمل بين Field Service وFinance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [مزامنة أمر عمل بين Field Service والتمويل والعمليات](https://youtu.be/hAB4TDVMjxU)
 
-تقوم مقاطع الفيديو القصيرة هذه بتلخيص ميزات إدارة سلسلة التوريد الجديدة المضافة إلى Microsoft Dynamics 365 for Finance and Operations، Enterprise edition 7.3 (ديسمبر 2017).
+تقوم مقاطع الفيديو القصيرة هذه بتلخيص ميزات إدارة سلسلة التوريد الجديدة المضافة إلى Microsoft Dynamics 365 Finance, Enterprise edition 7.3 (ديسمبر 2017).
 
 - [مرشد التحسين](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [استخدام قالب المستودع لنسخ التكوين](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-تقوم مقاطع الفيديو القصيرة هذه بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى Microsoft Dynamics 365 for Finance and Operations، Enterprise edition (يوليو 2017).
+تقوم مقاطع الفيديو القصيرة هذه بتلخيص ميزات إدارة سلاسل التوريد الجديدة المضافة إلى Microsoft Dynamics 365 Finance, Enterprise edition (يوليو 2017).
 
 - [بدء ‏‫محاسبة التكاليف‬](https://youtu.be/1pUDtJQZ8FU)
 - [مساحة العمل المحمولة لمراقبة التكلفة](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ ms.locfileid: "8879065"
 - [الموافقة على أوامر الشراء على جهاز محمول](https://youtu.be/gZ-gOlJe7H8)
 - [الجدولة المرئية باستخدام مخطط جانت لأوامر الإنتاج والأوامر الدُفعية](https://youtu.be/BtbuShkGj4I)
 
-تناقش تسجيلات المؤتمرات الفنية التالية وظيفة إدارة سلسلة التوريد من إصدارات Finance and Operations السابقة. هذه الوظيفة هي الآن جزء من Dynamics 365 Supply Chain Management؛ المفاهيم نفسها لا تزال تنطبق، والإجراءات مماثلة في الإصدار الحالي.
+تناقش تسجيلات المؤتمرات الفنية التالية وظيفة إدارة سلسلة التوريد من إصدارات التمويل والعمليات السابقة. هذه الوظيفة هي الآن جزء من Dynamics 365 Supply Chain Management؛ المفاهيم نفسها لا تزال تنطبق، والإجراءات مماثلة في الإصدار الحالي.
 
 - **إدارة التكلفة:**
   - [نظرة عامة على إدارة التكلفة](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ ms.locfileid: "8879065"
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

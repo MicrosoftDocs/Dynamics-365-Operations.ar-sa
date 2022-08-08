@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866526"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067671"
 ---
 # <a name="globalization-resources"></a>موارد العولمة
 
@@ -62,8 +62,8 @@ ms.locfileid: "8866526"
 #### <a name="dynamics-365-release-plans"></a>خطط إصدار Dynamics 365
 توفر [خطط إصدار Dynamics 365](/business-applications-release-notes/) وصفًا للقدرات الجديدة والمحسنة التي تم التخطيط لها في تطبيقات أعمال Dynamics 365 والأنظمة الأساسية للتطبيقات. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>الجديد في تطبيقات Finance and Operations
-يسرد محتوى [الجديد أو المتغير في صفحة Finance and Operations الرئيسية‬](../../fin-ops/get-started/whats-new-changed.md) الميزات المضمنة في إصدارات خاصة من تطبيقات Finance and Operations.
+#### <a name="finance-and-operations-apps-whats-new"></a>الجديد في تطبيقات التمويل والعمليات
+يسرد محتوى [الجديد أو المتغير في صفحة التمويل والعمليات الرئيسية‬](../../fin-ops/get-started/whats-new-changed.md) الميزات المضمنة في إصدارات خاصة من تطبيقات التمويل والعمليات.
 
 ### <a name="electronic-reporting"></a>إعداد التقارير الإلكترونية
 تتيح لك أداة إعداد التقارير الإلكترونية (ER) إمكانية تكوين تنسيقات المستندات الإلكترونية وفقًا للمتطلبات القانونية لمختلف البلدان/المناطق. يتيح لك إعداد التقارير الإلكترونية إدارة هذه التنسيقات خلال دورة حياتها. لمزيد من المعلومات، راجع أحد المواضيع التالية:
@@ -133,3 +133,4 @@ ms.locfileid: "8866526"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
