@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e8e6adc2c72b6e3ab567723ac01055ea8d7292e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3cfdb98f9f0f05e046784cc77c85cd4a045868c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868716"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069366"
 ---
 # <a name="company-directory-mobile-workspace"></a>مساحة عمل جوال دليل الشركة
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868716"
 
 توفر هذه المقالة معلومات عن مساحة العمل المحمولة **دليل الشركة**. تسمح مساحة العمل هذه للمستخدمين بعرض أسماء الموظفين الآخرين في المؤسسة والاتصال بهم.
 
-يمكن استخدام مساحة العمل المحمولة هذه مخصصة مع تطبيق Finance and Operations للأجهزة المحمولة.
+يمكن استخدام مساحة العمل المحمولة هذه مخصصة مع تطبيق التمويل والعمليات للأجهزة المحمولة.
 
 ## <a name="overview"></a>نظرة عامة
 تسمح مساحة العمل المحمولة **دليل الشركة** للمستخدمين بتنفيذ هذه المهام:
@@ -91,3 +91,4 @@ ms.locfileid: "8868716"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

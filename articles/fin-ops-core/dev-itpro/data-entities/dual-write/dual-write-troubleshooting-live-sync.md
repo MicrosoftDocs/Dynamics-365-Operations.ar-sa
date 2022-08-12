@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9d27331b940a95168810c2f1ec4ae240a9df93a8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1211f7da15686f1c55a4c942f04c73d671e0ba6b
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896694"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111412"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>استكشاف مشكلات المزامنة المباشرة وإصلاحها
 
@@ -22,7 +22,7 @@ ms.locfileid: "8896694"
 
 
 
-توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات و Microsoft Dataverse. على وجه التحديد، يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح مشكلات المزامنة المباشرة.
+توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وMicrosoft Dataverse. على وجه التحديد، يوفر هذا الموضوع استكشاف الأخطاء وإصلاحها الذي يمكن أن يساعدك في إصلاح مشكلات المزامنة المباشرة.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي تتناولها هذه المقالة إما دور إدارة النظام أو بيانات اعتماد مسؤول المستأجر Azure Active Directory (Azure AD). يوضح كل قسم ما إذا كانت هناك حاجة إلى بيانات عتماد لدور محدد أو بيانات اعتماد خاصة.
@@ -47,7 +47,7 @@ ms.locfileid: "8896694"
 
 في حالة وجود بيانات في كلا المكانين، وقمت بالتأكد من أن المشكلة غير مرتبطة بالبيانات، فاتبع الخطوات التالية.
 
-1. افتح كيان **DualWriteProjectConfigurationEntity** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في وظيفة Excel الإضافية التمويل والعمليات **DualWriteProjectConfigurationEntity** إلى ورقة عمل. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
+1. افتح كيان **DualWriteProjectConfigurationEntity** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في وظيفة Excel الإضافية التمويل والعمليات وإضافة **DualWriteProjectConfigurationEntity** إلى ورقة عمل. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
 2. حدد واحذف السجلات التي بها مشاكل في خريطة الكتابة المزدوجة والمشروع. سيكون هناك سجلان لكل تعيين للكتابة المزدوجة.
 3. قم بنشر التغييرات باستخدام وظيفة Excel الإضافية. هذه الخطوة هامة لأنها تحذف السجلات من الكيان والجداول الأساسية.
 
@@ -94,7 +94,7 @@ ms.locfileid: "8896694"
 
 1. في التطبيق التمويل والعمليات، اتبع الخطوات التالية:
 
-    1. افتح كيان **DualWriteProjectConfigurationEntity** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في وظيفة Excel الإضافية التمويل والعمليات **DualWriteProjectConfigurationEntity** إلى ورقة عمل. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
+    1. افتح كيان **DualWriteProjectConfigurationEntity** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في وظيفة Excel الإضافية التمويل والعمليات وإضافة **DualWriteProjectConfigurationEntity** إلى ورقة عمل. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
     2. حدد واحذف السجلات التي بها مشاكل في خريطة الكتابة المزدوجة والمشروع. سيكون هناك سجلان لكل تعيين للكتابة المزدوجة.
     3. قم بنشر التغييرات باستخدام وظيفة Excel الإضافية. هذه الخطوة هامة لأنها تحذف السجلات من الكيان والجداول الأساسية.
     4. للمساعدة في منع حدوث أخطاء عند إعادة ربط بيئات التمويل والعمليات أو Dataverse، تأكد من عدم بقاء أي تكوينات للكتابة المزدوجة.
@@ -110,7 +110,7 @@ ms.locfileid: "8896694"
 
 3. في التطبيق التمويل والعمليات، اتبع الخطوات التالية:
 
-    1. افتح كيان **DualWriteProjectConfigurationEntity** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في وظيفة Excel الإضافية التمويل والعمليات **DualWriteProjectConfigurationEntity** إلى ورقة عمل. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
+    1. افتح كيان **DualWriteProjectConfigurationEntity** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في وظيفة Excel الإضافية التمويل والعمليات وإضافة **DualWriteProjectConfigurationEntity** إلى ورقة عمل. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
     2. حدد واحذف السجلات التي بها مشاكل في خريطة الكتابة المزدوجة والمشروع. سيكون هناك سجلان لكل تعيين للكتابة المزدوجة.
     3. قم بنشر التغييرات باستخدام وظيفة Excel الإضافية. هذه الخطوة هامة لأنها تحذف السجلات من الكيان والجداول الأساسية.
     4. للمساعدة في منع حدوث أخطاء عند إعادة ربط بيئات التمويل والعمليات أو Dataverse، تأكد من عدم بقاء أي تكوينات للكتابة المزدوجة.
@@ -262,7 +262,7 @@ while(qRun.next())
 
 في تطبيق التمويل والعمليات، قد تواجه أخطاء متعلقة ببيئة Dataverse. قد لا تحتوي رسالة الخطأ على النص الكامل للرسالة أو البيانات الأخرى ذات الصلة. للحصول على مزيد من المعلومات، يمكنك تمكين التسجيل المطول بتعيين العلامة **IsDebugMode** الموجودة على الكيان **DualWriteProjectConfigurationEntity** في جميع تكوينات المشروع في تطبيقات التمويل والعمليات.
 
-1. افتح كيان **DualWriteProjectConfigurationEntity** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في وظيفة Excel الإضافية التمويل والعمليات **DualWriteProjectConfigurationEntity** إلى ورقة عمل. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
+1. افتح كيان **DualWriteProjectConfigurationEntity** باستخدام المكون الإضافي لـ Excel. لاستخدام الوظيفة الإضافية، قم بتمكين وضع التصميم في وظيفة Excel الإضافية التمويل والعمليات وإضافة **DualWriteProjectConfigurationEntity** إلى ورقة عمل. لمزيد من المعلومات، راجع [عرض بيانات الكيان وتحديثها باستخدام Excel](../../office-integration/use-excel-add-in.md).
 2. قم بتعيين علامة **IsDebugMode** إلى **نعم** في المشروع.
 3. تشغيل السيناريو.
 4. تتوفر السجلات المطولة للأخطاء في الجدول **DualWriteErrorLog**. للبحث عن البيانات باستخدام مستعرض الجداول، استخدم عنوان URL التالي: `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -355,3 +355,4 @@ public static container getEntityDataSourceToFieldMapping(container mapping)
 3. ابدأ الخرائط. يجب أن تشاهد سجلات أقل في الكيانات **smmContactPersonCDSV2Entity** و **CustCustomerV3Entity** وفي الجدول **BusinessEventsDefinition**، وقد يتحسن الأداء هامشيًا.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

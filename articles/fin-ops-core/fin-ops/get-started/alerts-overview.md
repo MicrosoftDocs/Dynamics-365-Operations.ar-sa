@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4b63ac8a09efb9ab449b651d030bd14a24d5cc36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b81eb8e0be4c7d7357a6b8b7b5f0ac025b9ab8ca
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850050"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124247"
 ---
 # <a name="alerts-overview"></a>نظرة عامة على التنبيهات
 
@@ -77,13 +77,13 @@ ms.locfileid: "8850050"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-تم تضمين الفيديو [كيفيه استخدام التنبيهات لمراقبة البيانات المصفاة‬](https://youtu.be/ZYKMcv6kl9s) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.
+[تم تضمين مقطع فيديو كيفية استخدام التنبيهات لمراقبة البيانات المصفاة](https://youtu.be/ZYKMcv6kl9s) (الموضح أعلاه) في [قائمة التشغيل المالية والعمليات](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتوفرة على YouTube.
 
 ### <a name="alert-rule-options"></a>خيارات قواعد التنبيه
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-تم تضمين الفيديو [خيارات قواعد التنبيه](https://youtu.be/cpzimwOjicM) (يظهر أعلاه) في [قائمة تشغيل Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.
+تم تضمين فيديو [خيارات قواعد التنبيه](https://youtu.be/cpzimwOjicM) (الموضح أعلاه) في [قائمة التشغيل المالية والعمليات](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) المتاحة على YouTube.
 
 
 

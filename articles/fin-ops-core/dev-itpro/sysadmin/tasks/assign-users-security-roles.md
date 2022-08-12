@@ -1,6 +1,6 @@
 ---
-title: تعيين مستخدمين إلى أدوار أمان
-description: للوصول إلى تطبيقات Finance and Operations، يجب تعيين المستخدمين إلى أدوار الأمان.
+title: تعيين مستخدمين إلى أدوار الأمان
+description: للوصول إلى تطبيقات التمويل والعمليات، يجب تعيين المستخدمين إلى أدوار الأمان.
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105528"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103857"
 ---
 # <a name="manage-users-and-security-roles"></a>إدارة المستخدمين وأدوار الأمان
 
@@ -73,3 +73,4 @@ ms.locfileid: "8105528"
    4. في  **جزء الإجراء**، حدد **استبعاد من الدور**. يتم تحديث عمود **وضع التعيين** الآن إلى **يدوي** وتم استبعاد المستخدمين الآن من الدور.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0154faec8a9f3e968ea1b665e2a815cc9ec02379
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45155dba5063981eb3aeeed4dda1d79a57b7c8af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899719"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067087"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>تكوين جداول Dataverse الظاهرية
 
@@ -218,3 +218,4 @@ Dynamics 365 Human Resources هو مصدر بيانات ظاهري في Microsof
 [نظره عامه حول إنشاء التطبيقات في Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -2,21 +2,21 @@
 title: تجربه المنتج الموحدة
 description: توضح هذه المقالة تكامل بيانات المنتجات بين تطبيقات التمويل والعمليات و Dataverse.
 author: t-benebo
-ms.date: 12/12/2019
+ms.date: 06/23/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1546cdaf3c63a7ff9a330ae8609595aaf48fbc48
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884987"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111475"
 ---
-# <a name="unified-product-experience"></a>تجربة المنتجات الموحدة
+# <a name="unified-product-experience"></a>تجربه المنتج الموحدة
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "8884987"
 
 تحتوي معلومات المنتج على كافة المعلومات المرتبطة بالمنتج وتعريفه، مثل أبعاد المنتج أو أبعاد التعقب والتخزين. كما يوضح الجدول التالي، يتم إنشاء مجموعة من مخططات الجداول لمزامنة المنتجات والمعلومات المتعلقة بها.
 
-تطبيقات Finance and Operations | تطبيقات Dynamics 365 الأخرى | ‏‏الوصف‬
+تطبيقات التمويل والعمليات | تطبيقات Dynamics 365 الأخرى | ‏‏الوصف‬
 -----------------------|--------------------------------|---
 [كل المنتجات](mapping-reference.md#138) | msdyn_globalproducts | يحتوي جدول جميع المنتجات على جميع المنتجات المتوفرة في تطبيقات التمويل والعمليات، المنتجات الصادرة والمنتجات غير الصادرة على حدٍ سواء.
 [المنتجات المميزة الصادرة‬ CDS](mapping-reference.md#213) | منتج | يحتوي الجدول **المنتج** على الأعمدة التي تعرّف المنتج. ويتضمن منتجات فردية (منتجات مع نوع فرعي للمنتج) ومتغيرات المنتج. يعرض الجدول التالي التعيينات.
@@ -64,7 +64,7 @@ ms.locfileid: "8884987"
 [المنتجات الصادرة V2](mapping-reference.md#189) | msdyn\_sharedproductdetails | يحتوي الجدول **msdyn\_sharedproductdetails** على الأعمدة من تطبيقات التمويل والعمليات التي تحدد المنتج، والتي تحتوي على معلومات مالية وإدارية خاصة بالمنتج.
 [الأحجام](mapping-reference.md#174) | msdyn\_productsizes
 [مجموعات أبعاد التخزين](mapping-reference.md#177) | msdyn_productstoragedimensiongroups | تمثل مجموعة أبعاد تخزين المنتج الطريقة المستخدمة لتحديد وضع المنتج في المستودع.
-[الأنماط](mapping-reference.md#178) | msdyn\_productsytles
+[الأنماط](mapping-reference.md#178) | msdyn\_productstyles
 [مجموعات أبعاد التعقب](mapping-reference.md#179) | msdyn_producttrackingdimensiongroups | تمثل مجموعة ابعاد تعقب المنتج الطريقة المستخدمة لتتبع المنتج في المخزون.
 [الوحدات](mapping-reference.md#219) | uoms
 [تحويلات الوحدات](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
@@ -93,7 +93,7 @@ ms.locfileid: "8884987"
 
 تحدث مزامنة المنتجات من تطبيق التمويل والعمليات إلى Dataverse. وهذا يعني انه يمكن تغيير قيم أعمدة جدول المنتج في Dataverse، ولكن عند تشغيل المزامنة (عند تعديل عمود منتج في تطبيق التمويل والعمليات)، سيؤدي ذلك إلى الكتابة فوق القيم الواردة في Dataverse.
 
-تطبيقات Finance and Operations | تطبيقات Customer Engagement |
+تطبيقات التمويل والعمليات | تطبيقات Customer Engagement |
 ---|---
 [المنتجات المميزة الصادرة‬ CDS](mapping-reference.md#213) | منتج |
 [المنتجات الصادرة V2](mapping-reference.md#189) | msdyn_sharedproductdetails |
@@ -109,7 +109,7 @@ ms.locfileid: "8884987"
 ---|---
 [الألوان](mapping-reference.md#170) | msdyn\_productcolors
 [الأحجام](mapping-reference.md#174) | msdyn\_productsizes
-[الأنماط](mapping-reference.md#178) | msdyn\_productsytles
+[الأنماط](mapping-reference.md#178) | msdyn\_productstyles
 [التكوينات](mapping-reference.md#171) | msdyn\_productconfigurations
 
 عندما يتضمن المنتج أبعاد منتج مختلفة (على سبيل المثال، يتضمن أصل المنتج الحجم واللون كأبعاد المنتج)، يتم تعريف كل منتج مميز (أي كل متغير منتج) كمجموعة من أبعاد المنتج هذه. على سبيل المثال، رقم المنتج B0001 هو قميص أسود صغير جدًا، ورقم المنتج B0002 هو قميص أسود صغير. وفي هذه الحالة، يتم تعرف مجموعات أبعاد المنتجات الموجودة. على سبيل المثال، بإمكان القميص المذكور في المثال السابق أن يكون أسود اللون وبحجم صغير جدًا أو أسود اللون وبحجم صغير أو أسود اللون وبحجم متوسط أو أسود اللون وبحجم كبير، ولكن لا يمكنه أن يكون أسود اللون وبحجم كبيرا جدًا. بمعنى آخر، يتم تحديد أبعاد المنتج التي يمكن ان يتخذها أصل المنتج، ويمكن إصدار المتغيرات استنادًا إلى هذه القيم.
@@ -128,7 +128,7 @@ ms.locfileid: "8884987"
 
 تحدد إعدادات الأوامر الافتراضية الموقع والمستودع من حيث تؤخذ الأصناف أو حيث يتم تخزينها، والحد الأدنى من الكميات وحدها الأقصى ومضاعفاتها والكميات القياسية التي سيتم استخدامها للتجارة أو إدارة المخزون وزمن وصول البضاعة وعلامة الإيقاف وأسلوب التعهد بالأمر‬. تتوفر هذه المعلومات في Dataverse باستخدام كيان إعدادات الأوامر الافتراضية وإعدادات الأوامر الافتراضية الخاصة بالمنتج‬. يمكنك قراءة مزيد من المعلومات عن الوظائف الموجودة في [مقالة إعدادات الأوامر الافتراضية](../../../../supply-chain/production-control/default-order-settings.md).
 
-تطبيقات التمويل والعمليات | تطبيقات Customer Engagement |
+تطبيقات Finance and Operations | تطبيقات Customer Engagement |
 ---|---
 [إعدادات الأوامر الافتراضية](mapping-reference.md#172) | msdyn_productdefaultordersettings |
 [إعدادات الأوامر الافتراضية للمنتج V2](mapping-reference.md#175) | msdyn_productspecificdefaultordersettings |
@@ -147,7 +147,7 @@ ms.locfileid: "8884987"
 [الوحدات](mapping-reference.md#219) | uoms
 [تحويلات الوحدات](mapping-reference.md#199) | msdyn_ unitofmeasureconversions
 
-## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>المزامنة الأولية لمطابقة بيانات الوحدات بين Finance and Operations وDataverse
+## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-dataverse"></a>المزامنة الأولية لمطابقة بيانات الوحدات بين Finance and Operations و Dataverse
 
 ### <a name="initial-synchronization-of-units"></a>المزامنة الأولية للوحدات
 
@@ -155,16 +155,16 @@ ms.locfileid: "8884987"
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>مطابقه بيانات الوحدات وفئات الوحدات/المجموعات من Finance and Operations وتطبيقات Dynamics 365 الأخرى
 
-أولا، من المهم ملاحظه ان مفتاح التكامل الخاص بالوحدة هو msdyn_symbol. وبالتالي ، يجب ان تكون هذه القيمة فريدة في Dataverse أو تطبيقات Dynamics 365 الأخرى. ونظرًا لوجودها في تطبيقات Dynamics 365 الأخرى، فإنها تمثل الزوج "معرف مجموعة الوحدات" و "الاسم" الذي يحدد فرادة الوحدة، ويجب مراعاة سيناريوهات مختلفة لمطابقه بيانات الوحدة بين تطبيقات التمويل والعمليات وDataverse.
+أولا، من المهم ملاحظه ان مفتاح التكامل الخاص بالوحدة هو msdyn_symbol. وبالتالي ، يجب ان تكون هذه القيمة فريدة في Dataverse أو تطبيقات Dynamics 365 الأخرى. ونظرًا لوجودها في تطبيقات Dynamics 365 الأخرى، فإنها تمثل الزوج "معرف مجموعة الوحدات" و "الاسم" الذي يحدد فرادة الوحدة، ويجب مراعاة سيناريوهات مختلفة لمطابقه بيانات الوحدة بين تطبيقات التمويل والعمليات و Dataverse.
 
-بالنسبة للوحدات المتطابقة/المتراكبه في تطبيقات Finance and Operations وتطبيقات Dynamics 365 الأخرى:
+بالنسبة للوحدات المطابقة / المتداخلة في تطبيقات التمويل والعمليات وتطبيقات Dynamics 365 الأخرى:
 
 + **تنتمي الوحدة إلى مجموعه وحدات في تطبيقات Dynamics 365 الأخرى التي تتوافق مع فئة الوحدة المرتبطة في تطبيقات Finance and Operations**. في هذه الحالة، يجب ملء العمود msdyn_symbol في تطبيقات Dynamics 365 الأخرى برمز الوحدة من تطبيقات التمويل والعمليات. وبالتالي ، عند مطابقة البيانات، سيتم تعيين مجموعه الوحدات على أنها "محفوظه خارجيًا" في تطبيقات Dynamics 365 الأخرى.
 + **تنتمي الوحدة إلى مجموعه وحدات في تطبيقات Dynamics 365 الأخرى التي لا تتوافق مع فئة الوحدة المقترنة في تطبيقات Finance and Operations (لا توجد فئة وحده موجودة في تطبيقات Finance and Operations الخاصة بفئة الوحدة في تطبيقات Dynamics 365 الأخرى).** في هذه الحالة ، يجب ان يتم ملء msdyn_symbol بسلسلة عشوائية. لاحظ أنه يجب ان تكون هذه القيمة فريدة في تطبيقات Dynamics 365 الأخرى.
 
 بالنسبة للوحدات وفئات الوحدات في تطبيقات Finance and Operations غير الموجودة في تطبيقات Dynamics 365 الأخرى:
 
-كجزء من الكتابة المزدوجة، يتم إنشاء ومزامنة مجموعات الوحدات من تطبيقات التمويل والعمليات ووحداتها المقابلة في تطبيقات Dynamics 365 الأخرى وDataverse وسيتم تعيين مجموعه الوحدات على أنها "محفوظة خارجيًا". لا يلزم وجود أي جهد تمهيد إضافي.
+كجزء من الكتابة المزدوجة، يتم إنشاء ومزامنة مجموعات الوحدات من تطبيقات التمويل والعمليات ووحداتها المقابلة في تطبيقات Dynamics 365 الأخرى و Dataverse وسيتم تعيين مجموعه الوحدات على أنها "محفوظة خارجيًا". لا يلزم وجود أي جهد تمهيد إضافي.
 
 بالنسبة للوحدات في تطبيقات Dynamics 365 الأخرى وغير الموجودة في تطبيقات Finance and Operations:
 
@@ -190,7 +190,7 @@ ms.locfileid: "8884987"
 
 ## <a name="integration-key-for-products"></a>مفتاح تكامل المنتجات
 
-لتحديد منتجات الهوية الفريدة بين  Dynamics 365 for Finance and Operations والمنتجات في Dataverse يتم استخدام مفاتيح التكامل.
+لتعريف المنتجات بشكل فريد بين Dynamics 365 Finance والمنتجات في Dataverse يتم استخدام مفاتيح التكامل.
 بالنسبة للمنتجات، يكون **(productnumber)** هو المفتاح الفريد الذي يحدد منتجًا في Dataverse. ويتم تكوينه بواسطة سلسلة: **(company, msdyn_productnumber)**. تشير **الشركة** إلى الكيان القانوني في Finance and Operations ويشير **msdyn_productnumber** إلى رقم المنتج الخاص بالمنتج المحدد في Finance and Operations.
 
 بالنسبة لمستخدمي تطبيقات Dynamics 365 آخر، يتم تعريف المنتج في واجهة المستخدم بواسطة **msdyn_productnumber** (لاحظ ان تسميه العمود هي **رقم المنتج**). في نموذج المنتج، يتم عرض كل من الشركة وmsydn_productnumber. ومع ذلك، لا يتم عرض العمود (productnumber) والمفتاح الفريد لأحد المنتجات.
@@ -208,10 +208,11 @@ ms.locfileid: "8884987"
 في حاله الاحتفاظ بنفس المنتجات (تراكب/مطابقه) في التمويل والعمليات وفي Dataverse وتطبيقات Dynamics 365 الأخرى، عند تمكين الكتابة المزدوجة ستحدث مزامنة المنتجات من التمويل والعمليات، وستظهر السجلات المكررة في Dataverse لنفس المنتج.
 لتجنب الحالة السابقة، إذا كانت تطبيقات Dynamics 365 الأخرى لديها منتجات متداخلة/متطابقة مع التمويل والعمليات، فيجب على المسؤول الذي يقوم بتمكين الكتابة المزدوجة أن يقوم بتمهيد الحقول **الشركة** (مثال: "USMF") و **msdyn_productnumber** (مثال: "1234:Black:S") قبل مزامنة المنتجات. بمعني آخر، يجب ان يتم ملء هذين العمودين الموجودين في المنتج في Dataverse بالشركة المعنية في التمويل والعمليات التي يجب مطابقة المنتج معها ومع رقم المنتج الخاص بها.
 
-ثم عند تمكين المزامنة وحدوثها، ستتم مزامنة المنتجات من Finance and Operations مع المنتجات المتطابقة في Dataverse وتطبيقات Dynamics 365 الأخرى. ويكون هذا قابلا للتطبيق علي كل من المنتجات المختلفة ومتغيرات المنتجتن.
+ثم عند تمكين المزامنة وحدوثها، ستتم مزامنة المنتجات من Finance and Operations مع المنتجات المتطابقة في Dataverse وتطبيقات Dynamics 365 الأخرى. ويكون هذا قابلا للتطبيق على كل من المنتجات المختلفة ومتغيرات المنتجتن.
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>ترحيل بيانات المنتج من تطبيقات Dynamics 365 الأخرى إلى Finance and Operations
 
 إذا كانت تطبيقات Dynamics 365 الأخرى تحتوي على منتجات غير موجودة في التمويل والعمليات، فبإمكان للمسؤول أن يستخدم **EcoResReleasedProductCreationV2Entity** أولاً لاستيراد تلك المنتجات في التمويل والعمليات. وثانيًا، قم بمطابقه بيانات المنتج من Finance and Operations وتطبيقات Dynamics 365 الأخرى كما هو موضح أعلاه.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

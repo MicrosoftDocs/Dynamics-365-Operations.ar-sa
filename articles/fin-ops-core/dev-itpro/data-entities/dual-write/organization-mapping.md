@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884721"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112007"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>التدرج الهرمي للمؤسسات في Dataverse
 
@@ -28,7 +28,7 @@ ms.locfileid: "8884721"
 
 ## <a name="data-flow"></a>تدفق البيانات
 
-سيستمر وجود التدرج الهرمي للمؤسسات في النظام البيئي للأعمال الذي يتكون من تطبيقات التمويل والعمليات وDataverse. تم بناء هذا التدرج الهرمي للمؤسسات استنادًا إلى تطبيقات التمويل والعمليات، ولكنه يظهر لأغراض تتعلق بالمعلومات وقابلية التوسعة في Dataverse. يبين الرسم التوضيحي التالي معلومات التدرج الهرمي للمؤسسات التي تظهر في Dataverse كتدفق بيانات أحادي الاتجاه من تطبيقات التمويل والعمليات إلى Dataverse.
+سيستمر وجود التدرج الهرمي للمؤسسات في النظام البيئي للأعمال الذي يتكون من تطبيقات التمويل والعمليات و Dataverse. تم بناء هذا التدرج الهرمي للمؤسسات استنادًا إلى تطبيقات التمويل والعمليات، ولكنه يظهر لأغراض تتعلق بالمعلومات وقابلية التوسعة في Dataverse. يبين الرسم التوضيحي التالي معلومات التدرج الهرمي للمؤسسات التي تظهر في Dataverse كتدفق بيانات أحادي الاتجاه من تطبيقات التمويل والعمليات إلى Dataverse.
 
 ![صورة البنية الهندسية.](media/dual-write-data-flow.png)
 
@@ -52,3 +52,4 @@ ms.locfileid: "8884721"
 تأتي معلومات المؤسسة الداخلية في Dataverse من جدولين، **وحدة التشغيل** و **الكيانات القانونية**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

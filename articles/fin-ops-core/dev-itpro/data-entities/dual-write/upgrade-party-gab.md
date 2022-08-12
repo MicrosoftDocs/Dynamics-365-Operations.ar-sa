@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895265"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111807"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>الترقية إلى نموذج الطرف ودفتر العناوين العمومي
 
@@ -143,7 +143,7 @@ ms.locfileid: "8895265"
     | الرقم | Name | النوع | قيمة |
     |---|---|---|---|
     | 1 | IsFOSource | قيمة منطقية | تحدد هذه المعلمة عناوين النظام الأساسية التي يتم استبدالها بحدث التعارضات. إذا كانت القيمة **صواب**، ستحل العناوين الأساسية في تطبيقات التمويل والعمليات مكان العناوين الأساسية في تطبيقات مشاركة العميل. إذا كانت القيمة **خطأ**، ستحل العناوين الأساسية في تطبيقات مشاركة العميل مكان العناوين الأساسية في تطبيقات التمويل والعمليات. |
-    | 2 | ElectronicAddressIdPrefix | سلسلة | تلحق هذه المعلمة رقمًا تسلسليًا بالعناوين الإلكترونية التي تم إنشاؤها حديثًا كبادئة. تأكد من توفير سلسلة لا تتعارض مع العناوين الإلكترونية في تطبيقات التمويل والعمليات وتطبيقات مشاركة العميل. على سبيل المثال، استخدم **ADF-EAD-**. |
+    | 2 | ElectronicAddressIdPrefix | سلسلة | تلحق هذه المعلمة رقمًا تسلسليًا بالعناوين الإلكترونية التي تم إنشاؤها حديثًا كبادئة. +تأكد من توفير سلسلة لا تتعارض مع العناوين الإلكترونية في تطبيقات التمويل والعمليات وتطبيقات مشاركة العميل. على سبيل المثال، استخدم **ADF-EAD-**. |
 
     ![تم إنشاء المعلمتين العموميتين IsFOSource وElectronicAddressIdPrefix في علامة التبويب إدارة.](media/ADF-4.png)
 
@@ -425,3 +425,4 @@ ms.locfileid: "8895265"
 ## <a name="learn-more-about-the-template"></a>اعرف المزيد عن القالب
 
 للحصول على معلومات إضافية حول القالب، راجع [التعليقات الخاصة بالأداة التمهيدية لقالب Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+

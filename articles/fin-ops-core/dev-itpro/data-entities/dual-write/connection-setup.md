@@ -2,19 +2,19 @@
 title: إرشادات حول إعداد الكتابة المزدوجة
 description: تصف هذه المقالة السيناريوهات المدعومة لإعداد الكتابة المزدوجة.
 author: RamaKrishnamoorthy
-ms.date: 10/12/2020
+ms.date: 06/28/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 15dfb609b5e25b4faf2b913cc2310df71c88a74d
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873138"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111238"
 ---
 # <a name="guidance-for-dual-write-setup"></a>إرشادات حول إعداد الكتابة المزدوجة
 
@@ -26,8 +26,9 @@ ms.locfileid: "8873138"
 
 يمكنك إعداد اتصال الكتابة المزدوجة بين بيئة التمويل والعمليات وبيئة Dataverse.
 
-+ توفر **بيئة Finance and Operations** النظام الأساسي **لتطبيقات التمويل والعمليات** (على سبيل المثال، Microsoft Dynamics 365 Finance و Dynamics 365 Supply Chain Management و Dynamics 365 Commerce و Dynamics 365 Human Resources).
++ توفر **بيئة التمويل والعمليات** النظام الأساسي **لتطبيقات التمويل والعمليات** (على سبيل المثال، Microsoft Dynamics 365 Finance وDynamics 365 Supply Chain Management وDynamics 365 Commerce وDynamics 365 Human Resources).
 + توفر **بيئة Dataverse** النظام الأساسي **لتطبيقات customer engagement** ‏(Dynamics 365 Sales وDynamics 365 Customer Service وDynamics 365 column Service وDynamics 365 Marketing وDynamics 365 Project Service Automation).
+
 
 > [!IMPORTANT]
 > تدعم الوحدة النمطية الموارد البشرية في Dynamics 365 Finance اتصالات الكتابة المزدوجة، ولكن لا يدعمها تطبيق Dynamics 365 Human Resources .
@@ -43,9 +44,9 @@ ms.locfileid: "8873138"
 
 سيناريوهات الإعداد التالية مدعومة:
 
-+ [مثيل جديد لتطبيق التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل](#new-new)
-+ [مثيل جديد لتطبيق التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل](#new-existing)
-+ [مثيل جديد لتطبيق التمويل والعمليات يحتوي على بيانات ومثيل جديد لتطبيق مشاركة العميل](#new-data-new)
++ [مثيل جديد لتطبيقات التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل](#new-new)
++ [مثيل جديد لتطبيقات التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل](#new-existing)
++ [مثيل جديد لتطبيقات التمويل والعمليات يحتوي على بيانات ومثيل جديد لتطبيق مشاركة العميل](#new-data-new)
 + [مثيل جديد لتطبيق التمويل والعمليات يحتوي على بيانات ومثيل موجود لتطبيق مشاركة العميل](#new-data-existing)
 + [مثيل موجود لتطبيق التمويل والعمليات ومثيل جديد لتطبيق مشاركة العميل](#existing-new)
 + [مثيل موجود لتطبيق التمويل والعمليات ومثيل موجود لتطبيق مشاركة العميل](#existing-existing)

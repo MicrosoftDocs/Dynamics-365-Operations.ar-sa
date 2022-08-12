@@ -1,7 +1,7 @@
 ---
 title: استكشاف أخطاء استيراد ملفات كشوفات الحسابات البنكية وإصلاحها
 description: يشرح هذا المقال كيفية إصلاح المشاكل التي تحدث بسبب اختلافات طفيفة في ملف كشف الحساب البنكي.
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711162"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151749"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>استكشاف أخطاء استيراد ملفات كشوفات الحسابات البنكية وإصلاحها
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>سيتم إهمال هذه الوظيفة بتاريخ سبتمبر 2022 سبتمبر ، يجب ان يستخدم المستخدمون الجدد اعداد التقارير الكترونيه.
 
 من الضروري أن يتطابق ملف كشف الحساب البنكي من البنك مع التخطيط الذي يدعمه Microsoft Dynamics 365 Finance. بسبب المعايير الصارمة الموضوعة على كشوفات الحسابات البنكية، ستعمل معظم عمليات الدمج بشكل صحيح. ومع ذلك، يتعذر أحيانًا استيراد ملف كشف الحساب أو تكون نتائجه غير صحيحة. بشكل عام، تحدث هذه المشاكل بسبب اختلافات طفيفة في ملف كشف الحساب البنكي. توضح هذه المقالة كيفية حل هذه الاختلافات وحل المشكلات.
 
@@ -109,3 +112,4 @@ ms.locfileid: "8711162"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: dfe5eeee10bbe7812155018f4ff552eaa10a14e1
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016388"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125041"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>ما الجديد أو المتغير في الإصدار 1611 من Dynamics 365 for Operations (نوفمبر 2016)
 

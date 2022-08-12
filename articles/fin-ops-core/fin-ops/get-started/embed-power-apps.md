@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898387"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123643"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>تضمين تطبيقات اللوحة من Power Apps
 
@@ -113,7 +113,7 @@ ms.locfileid: "8898387"
 
 ## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>بناء تطبيق لوحة يستخدم البيانات التي تم إرسالها من تطبيقات التمويل والعمليات
 
-عندما تقوم ببناء تطبيق لوحة سيتم تضمينه في تطبيق التمويل والعمليات، هناك جزء مهم من العملية يقضي باستخدام بيانات الإدخال من تطبيق التمويل والعمليات هذا. من تجربة تطوير Power Apps، يمكن الوصول إلى بيانات الإدخال التي يتم تمريرها من تطبيق التمويل والعمليات باستخدام متغير **Param("EntityId")** بالإضافة إلى ذلك، بدءًا من الإصدار 10.0.19، سيتم أيضًا تمرير الكيان القانوني الحالي إلى تطبيق اللوحة عبر متغير **Param("cmp")**. 
+عندما تقوم ببناء تطبيق لوحة سيتم تضمينه في تطبيق التمويل والعمليات، هناك جزء مهم من العملية يقضي باستخدام بيانات الإدخال من تطبيق التمويل والعمليات هذا. من تجربة تطوير Power Apps ، يمكن الوصول إلى بيانات الإدخال التي يتم تمريرها من تطبيق التمويل والعمليات باستخدام متغير **Param("EntityId")** بالإضافة إلى ذلك، بدءًا من الإصدار 10.0.19، سيتم أيضًا تمرير الكيان القانوني الحالي إلى تطبيق اللوحة عبر متغير **Param("cmp")**. 
 
 على سبيل المثال، في وظيفة OnStart الخاصة بالتطبيق، يمكنك تعيين بيانات الإدخال من تطبيقات التمويل والعمليات إلى متغير مثل هذا:
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2ef4fb1a51bd92db440841eb2a9d9ebcce0e1b1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 599cfdab8232cab28c59c5098094c4afd351df77
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872929"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112383"
 ---
 # <a name="dual-write-overview"></a>نظرة عامة على الكتابة المزدوجة
 
@@ -99,3 +99,4 @@ ms.locfileid: "8872929"
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

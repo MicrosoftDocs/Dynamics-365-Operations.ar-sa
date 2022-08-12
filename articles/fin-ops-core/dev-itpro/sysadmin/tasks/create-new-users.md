@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 00da7c69ff18abd02ca0cd7984e9b2de5e453a0c
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595376"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103314"
 ---
 # <a name="create-new-users"></a>إنشاء مستخدمين جدد
 
 [!include [banner](../../includes/banner.md)]
 
-قبل ان تتمكن من الوصول إلى Finance and Operations التطبيقات، يجب ان تتم اضافتك أولا إلى صفحه **المستخدمون** (**أداره النظام \> المستخدمون \> المستخدمون**). ويتضمن المستخدمون موظفين داخليين بمؤسسك، أو العملاء الخارجيين والموردون. يمكن استيراد المستخدمين أو اضافتهم يدويا. يجب ان يتم ترخيص كافة المستخدمين بشكل صحيح للاستخدام المتوافق.
+قبل أن تتمكن من الوصول إلى تطبيقات التمويل والعمليات، يجب أن تتم إضافتك أولا إلى صفحة **المستخدمون** (**إدارة النظام \> المستخدمون \> المستخدمون**). ويتضمن المستخدمون موظفين داخليين بمؤسسك، أو العملاء الخارجيين والموردون. يمكن استيراد المستخدمين أو اضافتهم يدويا. يجب ان يتم ترخيص كافة المستخدمين بشكل صحيح للاستخدام المتوافق.
 
-للحصول علي معلومات حول كيفيه شراء Finance and Operationsالتطبيقات وترخيصها ، راجع [Microsoft Dynamics 365 دليل الترخيص](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
+للحصول على معلومات حول كيفية شراء تطبيقات التمويل والعمليات وترخيصها، راجع دليل ترخيص [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>تعيين ترخيص إلى معرّف مستخدم
-بإمكان مسؤولي النظام [تعيين تراخيص إلى المستخدمين](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) في [مركز إدارة Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
+بإمكان مسؤولي النظام [تعيين تراخيص إلى المستخدمين](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) في مركز مسؤولي [Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>أضافه مستخدم خارجي في Azure AD وتعيين ترخيص 
-يجب ان يتم تمثيل المستخدمين الخارجيين في دليل المستأجر الخاص بك ( Azure Active Directory ( Azure AD)) بحيث يمكن تعيين تراخيص لهم. يجب إضافة هؤلاء المستخدمين الخارجيين إلى المستأجر في Azure AD كمستخدمين ضيوف ثم تعيين التراخيص المناسبة لهم. ومتطلبات Finance and Operations التطبيقات هي انه يجب علي شركه المستخدمين الضيف استخدام Azure AD. لمزيد من المعلومات، راجع [إضافة مستخدمي تعاون B2B Azure Active Directory في مدخل Azure](/azure/active-directory/b2b/add-users-administrator).
+يجب ان يتم تمثيل المستخدمين الخارجيين في دليل المستأجر الخاص بك ( Azure Active Directory ( Azure AD)) بحيث يمكن تعيين تراخيص لهم. يجب إضافة هؤلاء المستخدمين الخارجيين إلى المستأجر في Azure AD كمستخدمين ضيوف ثم تعيين التراخيص المناسبة لهم. من متطلبات تطبيقات التمويل والعمليات أن شركة المستخدم الضيف يجب أن تستخدم Azure AD. لمزيد من المعلومات، راجع [إضافة مستخدمي تعاون B2B Azure Active Directory في مدخل Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>استيراد المستخدمين الجدد من Azure AD 
 1. انتقل إلى **إدارة النظام** \> **المستخدمون** \> **المستخدمون**.

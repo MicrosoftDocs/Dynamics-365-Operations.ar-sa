@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897621"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066629"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>نظرة عامة على الوظيفة الإضافية "رؤية المخزون"
 
@@ -61,9 +61,9 @@ ms.locfileid: "8897621"
 
 ومن السهل اعتماد ميزة ATP في عملية تنفيذ الطلبات اليومية. الأكثر أهمية، مثل عروض رؤية المخزون الأخرى، فإن ميزة ATP هي *عمومي والوقت الفعلي*. لذلك، يمكنك إعداد عدة صيغ حساب ATP للحصول على استعلامات توفر المخزون الكاملة التي تغطي جميع قنوات العمل ومصادر البيانات. لمزيد من المعلومات، راجع [جداول التغيير الفعلي لرؤية المخزون والمتوفر حسب التعهد](inventory-visibility-available-to-promise.md).
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>التوافق مع الأصناف المتقدمة لإدارة المستودعات
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>التوافق مع عناصر عمليات إدارة المستودعات (WMS)
 
-تهدف Microsoft إلى توفير تكامل خارجي مع إدارة المستودعات المتقدمة (WHS)، بحيث يمكن لعملاء WHS أيضًا الاستمتاع بفوائد خدمة رؤية المخزون. بالنسبة لإصدار الموجة 1 لعام 2022 (الإصدار الأولي للاستخدام العام في مارس)، تدعم خدمة المخزون استعلامات عنصر WHS وATP. سيتم دعم ميزة الحجز المرن والتخصيص لعملاء WHS في الموجة التالية. لمزيد من المعلومات، راجع [دعم رؤية المخزون لأصناف WHS‬](inventory-visibility-whs-support.md).
+تهدف Microsoft إلى توفير تكامل خارجي مع عمليات إدارة المستودعات (WMS) ، بحيث يمكن لعملاء WMS أيضًا الاستمتاع بفوائد خدمة Inventory Visibility. بالنسبة لإصدار الموجة 1 لعام 2022 (الإصدار الأولي للاستخدام العام في مارس)، تدعم خدمة المخزون استعلامات عنصر WMS وATP. سيتم دعم ميزة الحجز المرن والتخصيص لعملاء WMS في الموجة التالية. لمزيد من المعلومات، راجع [دعم رؤية المخزون لأصناف WMS‬](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>الترخيص
 

@@ -1,6 +1,6 @@
 ---
 title: إنشاء بوليصة شحن
-description: يصف هذا المقال كيفية إنشاء بوليصة شحن عند استخدام عمليات إدارة المستودعات.
+description: يصف هذا المقال كيفية إنشاء بوليصة شحن عند استخدام عمليات إدارة المستودعات (WMS).
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34e84fee13dcff574f1700ba2b8f577f4c401cbc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 68a703475191255ff6ceaee25ef8e2bdf33ba0c2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885772"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069685"
 ---
 # <a name="create-a-bill-of-lading"></a>إنشاء بوليصة شحن
 
 [!include [banner](../includes/banner.md)]
 
-يصف هذا المقال كيفية إنشاء بوليصة شحن عند استخدام عمليات إدارة المستودعات.  
+يصف هذا المقال كيفية إنشاء بوليصة شحن عند استخدام عمليات إدارة المستودعات (WMS).  
 
 إن بوليصة الشحن عبارة عن وثيقة قانونية بين الشركة التي تقوم بشحن الأصناف والناقل. تصحب هذه الوثيقة الأصناف المشحونة، وتعمل بمثابة إيصال الشحن عندما يتم تسليم الأصناف في الوجهة. إذا كنت تستخدم إدارة المستودعات، فهناك طريقتان لإنشاء بوليصة الشحن:
 

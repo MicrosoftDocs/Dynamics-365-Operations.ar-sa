@@ -1,5 +1,5 @@
 ---
-title: تحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
+title: تحقق من تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات وDataverse
 description: توضح هذه المقالة كيفية تحديد ما إذا كان قد تم تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات وفي Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
@@ -9,14 +9,14 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 7131e6c2c4ca4d9c6bb84ad74bf425faf28bd92c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d5191f5dd9c3a286abac622aede07d04fb72a8f7
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884448"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111348"
 ---
-# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>تحقق من تكوين الكتابة المزدوجة في تطبيقات Finance and Operations وDataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>تحقق من تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات وDataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,7 +24,7 @@ ms.locfileid: "8884448"
 
 
 
-توفر هذه المقالة معلومات عن استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات و Dataverse. على وجه التحديد، يشرح هذا الموضوع كيفية تحديد ما إذا كان قد تم تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات وفي Dataverse.
+توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يشرح هذا الموضوع كيفية تحديد ما إذا كان قد تم تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات وفي Dataverse.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>تحقق من تكوين الكتابة المزدوجة في تطبيقات التمويل والعمليات
 

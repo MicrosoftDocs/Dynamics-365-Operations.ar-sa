@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954489"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166828"
 ---
 # <a name="tax-calculation-overview"></a>نظره عامة على حساب الضريبة
 
@@ -29,7 +29,7 @@ ms.locfileid: "8954489"
 تتكامل خدمة حساب الضرائب مع Dynamics 365 Finance وDynamics 365 Supply Chain Management. وأخيرُا، ستقوم أيضا بالتكامل مع Dynamics 365 Project Operations وDynamics 365 Commerce وتطبيقات أخرى تابعة للجهات الخارجية والجهات الأولى.
 
 > [!IMPORTANT]
-> عند تمكين حساب الضرائب، قد يتم إجراء بعض العمليات على البيانات ذات الصلة في مركز بيانات غير مركز البيانات الذي يحتفظ ببيانات الخدمة الخاصة بك. راجع [الشروط والأحكام](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) قبل تمكين حساب الضرائب. خصوصيتك تهمنا. لمعرفه المزيد، اقرأ [بيان الخصوصية](https://go.microsoft.com/fwlink/?LinkId=521839).
+> عند تمكين حساب الضرائب، قد يتم إجراء بعض العمليات على البيانات ذات الصلة في مركز بيانات غير مركز البيانات الذي يحتفظ ببيانات الخدمة الخاصة بك. راجع [الشروط والأحكام](https://go.microsoft.com/fwlink/?linkid=2156043) قبل تمكين حساب الضرائب. خصوصيتك تهمنا. لمعرفه المزيد، اقرأ [بيان الخصوصية](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 حساب الضريبة هو محرك ضريبي قائم على الخدمات المصغرة يوفر قابلية توسعة أسية ويمكن أن يساعدك في أداء المهام التالية:
 

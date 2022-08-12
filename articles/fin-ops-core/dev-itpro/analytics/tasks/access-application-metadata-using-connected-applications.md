@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 330683da986a551a9694833655122768d30499b1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b24d865bff0e81f79e7edde360fd5115d8637b42
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906757"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111220"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
 
 [!include [banner](../../includes/banner.md)]
 
-تشرح الخطوات التالية كيف يمكن لمستخدم Regulatory configuration service (RCS) يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تعيين جديد لنموذج التقارير الإلكترونية (ER) باستخدام بيانات التعريف في Finance and Operations.‬ سيتم الوصول إلى بيانات تعريف التطبيق عبر الإنترنت باستخدام التطبيق المتصل بـ RCS. سيتم تكوين مثال لتعيين نموذج ER للوصول إلى حركات التجارة الخارجية. لإكمال هذه الخطوات، في RCS يجب أولاً إكمال الخطوات المذكورة في المقالة، [إنشاء موفرات تكوين وتحديدها بالحالة نشط](er-configuration-provider-mark-it-active-2016-11.md). في حالة عدم إكمال الخطوات الموجودة في المقالة، [الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER](access-application-metadata-er-configuration.md)، قم بتنزيل [أمثلة التقارير الإلكترونية](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) واحفظ تكوينات ER التالية: Foreign trade metadata.xml؛ Foreign trade model.xml؛ Foreign trade mapping.xml، ثم استكمل الخطوات في الإجراء.
+تشرح الخطوات التالية كيف يمكن لمستخدم Regulatory configuration service (RCS) يؤدي دور مسؤول النظام أو مطور التقارير الإلكترونية تصميم تعيين جديد لنموذج التقارير الإلكترونية (ER) باستخدام بيانات التعريف في التمويل والعمليات.‬ سيتم الوصول إلى بيانات تعريف التطبيق عبر الإنترنت باستخدام التطبيق المتصل بـ RCS. سيتم تكوين مثال لتعيين نموذج ER للوصول إلى حركات التجارة الخارجية. لإكمال هذه الخطوات، في RCS يجب أولاً إكمال الخطوات المذكورة في المقالة، [إنشاء موفرات تكوين وتحديدها بالحالة نشط](er-configuration-provider-mark-it-active-2016-11.md). في حالة عدم إكمال الخطوات الموجودة في المقالة، [الوصول إلى بيانات تعريف التطبيق باستخدام تكوين ER](access-application-metadata-er-configuration.md)، قم بتنزيل [أمثلة التقارير الإلكترونية](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) واحفظ تكوينات ER التالية: Foreign trade metadata.xml؛ Foreign trade model.xml؛ Foreign trade mapping.xml، ثم استكمل الخطوات في الإجراء.
 
 ## <a name="prerequisites"></a>المتطلبات الأساسية
 1. انتقل إلى **كل مساحات العمل‬** > **إعداد التقارير الإلكترونية**. 
@@ -114,3 +114,4 @@ ms.locfileid: "8906757"
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

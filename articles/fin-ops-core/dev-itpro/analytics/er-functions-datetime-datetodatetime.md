@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba80c4c3eac703ba96a4f2741fcc19bceeb24ed0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519932854dfd3e872433b0fb304e683c57cea1cb
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898480"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108486"
 ---
 # <a name="datetodatetime-er-function"></a>وظيفة DATETODATETIME ER
 
@@ -47,7 +47,7 @@ DATETODATETIME (date)
 
 ## <a name="example-1"></a>مثال1
 
-يُرجع `DATETODATETIME (CompInfo. 'getCurrentDate()')` تاريخ جلسة 365‎ Finance Microsoft Dynamics الحالية، 24 ديسمبر 2015، على الشكل التالي **12/24/2015 12:00:00 صباحًا**. في هذا المثال، **CompInfo** عبارة عن مصدر بيانات تقارير إلكترونية (ER) من النوع **Finance and Operations/جدول** ، ويشير إلى جدول CompanyInfo.
+يُرجع `DATETODATETIME (CompInfo. 'getCurrentDate()')` تاريخ جلسة 365‎ Finance Microsoft Dynamics الحالية، 24 ديسمبر 2015، على الشكل التالي **12/24/2015 12:00:00 صباحًا**. في هذا المثال، **CompInfo** عبارة عن مصدر بيانات تقارير إلكترونية (ER) من النوع **التمويل والعمليات/جدول** ، ويشير إلى جدول CompanyInfo.
 
 ## <a name="example-2"></a>مثال2
 

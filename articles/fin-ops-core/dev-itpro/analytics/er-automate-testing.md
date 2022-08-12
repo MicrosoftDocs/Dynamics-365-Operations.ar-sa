@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6254d15d13e40007396c9f2a36a8cd3122dc2609
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892758"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109329"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>التشغيل التلقائي للاختبارات باستخدام التقارير الإلكترونية
 
@@ -57,7 +57,7 @@ ms.locfileid: "8892758"
 قبل أن تتمكن من استكمال المهام في هذه المقالة، يجب إتمام المتطلبات الأساسية التالية:
 
 - نشر مخطط يدعم التنفيذ التلقائي للاختبار. يجب أن يكون لديك حق الوصول إلى مثيل هذا المخطط لدور **مسؤول النظام**. يجب أن يحتوي هذا المخطط على بيانات العرض التوضيحي التي سيتم استخدامها في هذا المثال. لمزيد من المعلومات، راجع [نشر واستخدام بيئة تدعم البناء المستمر والتنفيذ التلقائي للاختبار‬ات](../perf-test/continuous-build-test-automation.md).
-- لتشغيل اختبارات قبول المستخدم والتكامل تلقائيا، يجب عليك تثبيت RSAT في المخطط الذي تستخدمه وتكوينه بالطريقة المناسبة. للحصول على معلومات حول كيفية تثبيت وتكوين RSAT للعمل مع تطبيقات Finance and Operations وAzure DevOps، راجع [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). انتبه إلى المتطلبات الأساسية لاستخدام الأداة. يبين الرسم التوضيحي التالي مثالاً لإعدادات RSAT. المستطيل الأزرق يحيط بالمعلمات التي تحدد الوصول إلى Azure DevOps. المستطيل الأخضر يحيط بالمعلمات التي تحدد الوصول إلى المثيل.
+- لتشغيل اختبارات قبول المستخدم والتكامل تلقائيا، يجب عليك تثبيت RSAT في المخطط الذي تستخدمه وتكوينه بالطريقة المناسبة. للحصول على معلومات حول كيفية تثبيت وتكوين RSAT للعمل مع تطبيقات Finance and Operations و Azure DevOps، راجع [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). انتبه إلى المتطلبات الأساسية لاستخدام الأداة. يبين الرسم التوضيحي التالي مثالاً لإعدادات RSAT. المستطيل الأزرق يحيط بالمعلمات التي تحدد الوصول إلى Azure DevOps. المستطيل الأخضر يحيط بالمعلمات التي تحدد الوصول إلى المثيل.
 
     ![إعدادات RSAT.](media/GER-Configure.png "لقطة شاشة لمربع حوار إعدادات RSAT")
 

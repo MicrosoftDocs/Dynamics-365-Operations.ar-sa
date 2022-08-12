@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9c2f658fbf7fd4db38d572ff80e9d500b5548e0a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: fc3cf3b5d28a4e512f921db6ba090dd5731391cc
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713265"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123971"
 ---
 # <a name="before-you-buy"></a>قبل الشراء
 
@@ -26,7 +26,7 @@ ms.locfileid: "8713265"
 
 هل استخدام Dynamics 365 Finance أو Dynamics 365 Supply Chain Management أو Dynamics 365 Commerce جديد بالنسبة لك؟ لقد وضعنا معًا إرشادات مفصلة خطوة بخطوة سواء كنت لا تزال في مرحلة التقييم أو أصبحت جاهزًا لإجراء عملية الشراء.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>الخطوة الأولى: تجربة Finance and Operations مجانًا لمدة 30 يومًا
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>الخطوة الأولى: تجربة التمويل والعمليات مجانًا لمدة 30 يومًا
 
 يمكنك تجربة Dynamics 365 for Finance أو Dynamics 365 Supply Chain Management أو Dynamics 365 Commerce لمدة 30 يومًا من خلال عملية تسجيل بسيطة عبر البريد إلكتروني.. يتضمن الإصدار التجريبي من تطبيقات التمويل والعمليات دلائل المهام لبدء الاستخدام التي توفر إرشادات خطوة بخطوة تسمح لك بعرض سيناريوهات معينة وهي تعمل. يتوفر المنتج لاستكشاف واختبار السيناريوهات، ولكن لا يمكن تخصيصه. تم تضمين بيانات العرض التوضيحي لتسهيل استخدام المنتج ولجعل التجربة أكثر نفعًا. سيتم إرسال بريد إلكتروني للتذكير قبل 3 أيام من انتهاء صلاحية الإصدار التجريبي. احصل على تفاصيل في [التسجيل لاشتراكات المعاينة](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
@@ -62,7 +62,7 @@ ms.locfileid: "8713265"
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>الشراء من خلال شريك Dynamics (محلي)
 
-يجب أن تعمل مع شريك لشراء Finance and Operations في الموقع المحلي. لمزيد من المعلومات، راجع [شراء Finance + Operations (on-premises)](purchase-on-premises.md).
+يجب أن تعمل مع شريك لشراء التمويل + العمليات (في الموقع المحلي). لمزيد من المعلومات، راجع [شراء Finance + Operations (on-premises)](purchase-on-premises.md).
 
 ### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>الشراء من خلال ترخيص مجمع (السحابة أو الموقع المحلي)
 
@@ -94,3 +94,4 @@ ms.locfileid: "8713265"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

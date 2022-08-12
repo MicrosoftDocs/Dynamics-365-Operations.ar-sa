@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0b8723da9b80d007cd0a3196affdfa854eff095f
+ms.sourcegitcommit: 45bb77244a31fa174adf85d1b54e9700109ca0c4
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847590"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9198370"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>مسجل المهام ونظام التعليمات لكل من Retail Modern POS (MPOS) وCloud POS
 
@@ -107,7 +107,7 @@ ms.locfileid: "8847590"
 باستطاعة مسجل المهام التقاط لقطات الشاشة‬ لواجهة مستخدم Retail Modern POS بينما تقوم بتسجيل عملية تجارية. لتشغيل ميزة التقاط لقطات الشاشة‬، عيّن الخيار **التقاط لقطات الشاشة‬** إلى **نعم**، ثم قم بالتسجيل. بمجرد اكتمال التسجيل، انقر فوق **إيقاف** وقم بتنزيل مستند Word. سوف يحتوي المستند على الخطوات بلقطات الشاشة ذات الصلة.
 
 > [!NOTE]
-> وظيفة التقاط لقطات الشاشة‬ غير مدعومة في نقطة بيع المجموعة‬.
+> وظيفة لقطه الشاشة غير معتمده في تجاره المتجر و POS التجارية الحديثة ونقطه السحابة.
 
 ### <a name="start-task-and-end-task"></a>بدء المهمة وإنهاء المهمة
 

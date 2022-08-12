@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867318"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103509"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>تشغيل البرامج النصية X++ المخصصة من دون وقت توقف
 
@@ -152,3 +152,4 @@ class MyScriptClassForIssueXYZ
 بدلاً من نشر الحزمة القابلة للنشر من خلال واجهة المستخدم لتطبيق التمويل والعمليات، كما هو موضح في القسم السابق، يمكنك تحميلها إلى LCS واستخدام الإجراء العادي لنشرها. لمزيد من المعلومات، راجع [تثبيت حزم قابلة للنشر من سطر الأوامر](../deployment/install-deployable-package.md).
 
 علي الرغم من أن هذا الأسلوب ينطوي على بعض القيود، غير أنه يوفر حماية أقل للأخطاء. بالإضافة إلى ذلك، نظرًا لأنه يتطلب إعادة تشغيل جميع الخوادم، فقد يتسبب ذلك في حدوث وقت تعطل.
+

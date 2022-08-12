@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1f379cd7783cc984666582d2c680a1db013627ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692215"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070161"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>تحسين استعلامات الجدول الظاهري لـ Dataverse
 
@@ -54,7 +54,7 @@ ms.locfileid: "8692215"
 
   ![نوع الخطأ 400 على HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **التقييد‬**: قد يستخدم الاستعلام موارد الخادم بشكل زائد، ويصبح عرضة للتقييد. في هذه الحالة، يرجع الاستعلام رسالة الخطأ التالية: "تم الحصول على رمز مميز لاستدعاء التمويل والعمليات، ولكن التمويل والعمليات أرجع خطأ من النوع 429." لمزيد من المعلومات حول التقييد في Human Resources، راجع [الأسئلة المتداولة حول التقييد](./hr-admin-integration-throttling-faq.md).
+- **التقييد‬**: قد يستخدم الاستعلام موارد الخادم بشكل زائد، ويصبح عرضة للتقييد. في هذه الحالة، يُرجع الاستعلام الخطأ التالي: "تم الحصول على رمز مميز لاستدعاء التمويل والعمليات ، لكن التمويل والعمليات أرجع خطأ من النوع 429." لمزيد من المعلومات حول التقييد في Human Resources، راجع [الأسئلة المتداولة حول التقييد](./hr-admin-integration-throttling-faq.md).
 
   ![نوع الخطأ 429 على HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -161,3 +161,4 @@ OData-Version: 4.0
 - [‏‫الأسئلة المتداولة حول التقييد](./hr-admin-integration-throttling-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

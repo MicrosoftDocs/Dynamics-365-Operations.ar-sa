@@ -1,5 +1,5 @@
 ---
-title: استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
+title: استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات التمويل والعمليات
 description: توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها الذي يمكن أن تساعدك على إصلاح المشكلات ذات الصلة بوحدة الكتابة المزدوجة في تطبيقات التمويل والعمليات.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864561"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111159"
 ---
-# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>استكشاف مشكلات الكتابة المزدوجة وإصلاحها في تطبيقات التمويل والعمليات
 
 [!include [banner](../../includes/banner.md)]
 
 
 
-توفر هذه المقالة معلومات عن استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات و Dataverse. على وجه التحديد، يوفر هذا الموضوع معلومات يمكنها مساعدتك في إصلاح الأخطاء في وحدة **الكتابة المزدوجة** في تطبيقات التمويل والعمليات.
+توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع معلومات يمكنها مساعدتك في إصلاح الأخطاء في وحدة **الكتابة المزدوجة** في تطبيقات التمويل والعمليات.
 
 > [!IMPORTANT]
 > قد تتطلب بعض المشكلات التي تتناولها هذه المقالة إما منصب مسؤول النظام أو بيانات اعتماد مسؤول مستأجر Microsoft Azure Active Directory (Azure AD). يوضح القسم الخاص بكل مشكلة ما إذا كانت هناك حاجة إلى دور محدد أو بيانات اعتماد.
@@ -71,7 +71,7 @@ Root activity ID: \<your root activity\> id
 
 لإصلاح المشكلة، أنشئ تذكرة لفريق تكامل البيانات. قم بإرفاق تتبع الشبكة حتى يتمكن فريق تكامل البيانات من وضع علامة على المخططات باعتبارها **ليست قيد التشغيل** في النهاية الخلفية.
 
-## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>قم بتمكين المعالجة المتوازية في تطبيقات تطبيقات التمويل والعمليات لتحسين الأداء
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>قم بتمكين المعالجة المتوازية في تطبيقات التمويل والعمليات لتحسين الأداء
 
 يمكن أن يؤدي تمكين المعالجة المتوازية إلى تقليل الوقت اللازم لاستيراد البيانات من تطبيقات مشاركة العميل في Dynamics 365 وMicrosoft Dataverse إلى تطبيقات التمويل والعمليات. 
 
@@ -112,3 +112,4 @@ Root activity ID: \<your root activity\> id
 لإصلاح المشكلات، قم بتحديث حلول الكتابة المزدوجة في Dataverse. تأكد من الترقية إلى أحدث حل يطابق إصدار الحل المطلوب.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

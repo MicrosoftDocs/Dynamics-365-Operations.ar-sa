@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945789"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069911"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>ميزات النظام الأساسي التي تمت إزالتها أو إهمالها
 
@@ -398,3 +398,4 @@ ms.locfileid: "8945789"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

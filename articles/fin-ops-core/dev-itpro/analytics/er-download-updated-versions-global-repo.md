@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0dac106a592a6a70aae6b245bce74d21c98cad10
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847535"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108428"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>استيراد إصدارات محدثه من تكوينات ER
 
@@ -28,7 +28,7 @@ ms.locfileid: "8847535"
 
 يتم استخدام [مستودعات](general-electronic-reporting.md#Repository) التقارير الإلكترونية (ER) لمشاركة [تكوينات ER](general-electronic-reporting.md#Configuration). يمكنك [استيراد](download-electronic-reporting-configuration-lcs.md) تكوينات التقارير الإلكترونية من مستودعات مختلفة إلى المثيل الخاص بك من 365‎ Finance Microsoft Dynamics. عند استيراد تكوينات ER، [يمكن لموفري التكوين](general-electronic-reporting.md#Provider) نشر مستودعات [بإصدارات](general-electronic-reporting.md#component-versioning) جديدة بحيث يمكن مشاركتها.
 
-تشرح هذه المقالة كيفية استيراد إصدارات محدثة من تكوينات التقارير الإلكترونية (ER) من المستودع العمومي لخدمة التكوين. لمزيد من المعلومات، راجع [Microsoft Dynamics 365 for Finance and Operations -‏ Regulatory Services، خدمة التكوين](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+تشرح هذه المقالة كيفية استيراد إصدارات محدثة من تكوينات التقارير الإلكترونية (ER) من المستودع العمومي لخدمة التكوين. لمزيد من المعلومات، راجع [Microsoft Dynamics 365 Finance - Regulatory Services، خدمة التكوين](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>مراجعة الإصدارات المحدثة المتوفرة
 

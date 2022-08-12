@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8996ad5d03327b9273be7860a3905dc25efa7e90
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872488"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070653"
 ---
 # <a name="budget-planning-templates-for-excel"></a>قوالب تخطيط الموازنة لـ Excel
 
@@ -79,7 +79,7 @@ ms.locfileid: "8872488"
 [![إضافة عمود وإدراجه.](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة لـ Finance and Operations باسم "AXTable1" على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
+> لتحديد المعادلة، قم بإنشاء المعادلة في جدول البيانات، ثم قم بنسخها إلى نافذة **تصميم**. عادة ما يتم تسمية جدول العمليات المرتبطة للتمويل والعمليات باسم "AXTable1". على سبيل المثال، لتلخيص طلب ربع1: أعمدة طلب ربع4 في جدول البيانات، المعادلة= AxTable1\[طلب ربع1\]+AxTable1\[طلب ربع2\]+AxTable1\[طلب ربع3\]+AxTable1\[طلب ربع4\].
 
 كرر هذه الخطوات لإدراج عمود **تسوية**. استخدم المعادلة= AxTable1\[طلب إجمالي\]\*$I$1 لهذا العمود. وسوف تأخذ هذه القيمة في الخلية 1 ومضاعفة القيم في عمود **الطلب الإجمالي** لحساب مبالغ التسوية.
 
@@ -129,3 +129,4 @@ ms.locfileid: "8872488"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

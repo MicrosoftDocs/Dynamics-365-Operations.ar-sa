@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857217"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103583"
 ---
 # <a name="prospect-to-cash"></a>العميل المتوقع إلى النقدية
 
@@ -43,13 +43,13 @@ ms.locfileid: "8857217"
 ## <a name="system-requirements-for-supply-chain-management"></a>متطلبات النظام في Supply Chain Management
 يتم دعم العميل المتوقع لتكامل النقدية في الإصدارات التالية:
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (ديسمبر 2017)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics365 Finance and Operations ، إصدار Enterprise 7.3 (ديسمبر 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (ديسمبر 2017) - إصدار التطبيق 7.3.11971.56116 مع Platform Update 12 (7.0.4709.41129)
+- Dynamics 365 Finance and Operations ، إصدار Enterprise (ديسمبر 2017) - إصدار التطبيق 7.3.11971.56116 مع تحديث النظام الأساسي 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise edition (يوليو 2017)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 المالية ، Enterprise edition (يوليو 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (يوليو 2017) - مع platform update 8 (إصدار التطبيق 7.2.11792.56024 مع إصدار النظام الأساسي 7.0.4565.16212).
+- Dynamics 365 Finance and Operations ، إصدار Enterprise (يوليو 2017) - مع تحديث النظام الأساسي 8 (إصدار التطبيق 7.2.11792.56024 مع إصدار النظام الأساسي 7.0.4565.16212).
 - الإصلاحات التالية مطلوبة:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – يُمكّن هذا الإصلاح العاجل مزامنة أوامر المبيعات من Sales إلى Supply Chain Management من خلال ميزة تكامل البيانات. كما يوفر العديد من التحسينات الأخرى.
@@ -59,9 +59,9 @@ ms.locfileid: "8857217"
     > [!NOTE]
     > تحتاج فقط إلى تثبيت KB4045570 لأن التثبيت يتضمن التغييرات من الإصلاحات الأخرى. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations الإصدار 1611 (نوفمبر 2016)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>الإصدار 1611 من Dynamics 365 Finance and Operations (نوفمبر 2016)
 
-- Dynamics 365 for Finance and Operations الإصدار 1611 (نوفمبر 2016) مع platform update 8 أو أعلى
+- الإصدار 1611 من Dynamics 365 Finance and Operations (نوفمبر 2016) مع تحديث النظام الأساسي 8 أو أعلى
 
 - الإصلاحات التالية مطلوبة:
 

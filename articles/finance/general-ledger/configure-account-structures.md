@@ -2,7 +2,7 @@
 title: تكوين بنيات حساب
 description: توفر هذه المقالة معلومات عن بنيات الحساب والأبعاد المالية.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907969"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141267"
 ---
 # <a name="configure-account-structures"></a>تكوين بنيات حساب
 
@@ -91,6 +91,8 @@ ms.locfileid: "8907969"
 عند إعداد بنيات حسابك، توجد بعض أفضل الممارسات التي يمكنك اتباعها. وعلى الرغم من ذلك، يكون هذا إرشاد فقط، لذلك ينبغي وضع مناقشة كاملة عن شركتك وخطة النمو وخطة الصيانة في الاعتبار كجزء من تلك المناقشة.
 
 - قم بعمل حساب رئيسي أولاً أو قريب من بنية الحساب قدر المستطاع، لذلك، يحصل المستخدمون على أفضل تجربة إرشادية يستطيعون الوصول إليها أثناء إدخال الحساب.
+  
+  - تحقق من أن أي حلول جهة خارجية تنوي استخدام حساب الدعم الرئيسي في المركز الأول.
 
 - قم بإعادة استخدام بنيات الحساب قدر الإمكان لتقليل الصيانة عبر الكيانات القانونية.
 

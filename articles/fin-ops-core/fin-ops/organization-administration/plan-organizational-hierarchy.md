@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771862"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108753"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>تخطيط التدرج الهرمي للمؤسسات
 
@@ -171,7 +171,7 @@ ms.locfileid: "6771862"
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>في حالة تم عمل نموذج من المؤسسة باعتبارها وحدة التشغيل
 
-يجب إنشاء التقارير القانونية باستخدام تطبيق آخر. يتعين عليك التأكد من التقاط البيانات في Finance and Operations لدعم متطلبات كل وحدة تشغيل، في المكان الذي تختلف فيه عن متطلبات المراكز الرئيسية.
+يجب إنشاء التقارير القانونية باستخدام تطبيق آخر. يتعين عليك التأكد من التقاط البيانات في تطبيقات Finance and Operations لدعم متطلبات كل وحدة تشغيل، في المكان الذي تختلف فيه عن متطلبات المقار الرئيسية.
 
 ### <a name="currency"></a>العملة
 
@@ -242,3 +242,4 @@ ms.locfileid: "6771862"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

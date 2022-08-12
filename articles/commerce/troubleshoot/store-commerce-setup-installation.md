@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: rassadi
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 92d4a9d78485b681b4e802f695d54f44ecd7c5de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8af2c476ced05fc159a53131f8b51ad914a6c7c3
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870456"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9168937"
 ---
 # <a name="troubleshoot-store-commerce-setup-and-installation-issues"></a>استكشاف أخطاء اعداد Store Commerce ومشكلات التثبيت وإصلاحها
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 تشرح هذه المقالة كيفية استكشاف مشكلات الإعداد والتثبيت وإصلاحها في ملف في تطبيق Store Commerce Microsoft Dynamics 365 Commerce.
 

@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 171b383e1549babd76fd18e4932436a66aa62cc1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f0371cf9862afaf3bc43a44def725c420e9aaf56
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873916"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166732"
 ---
 # <a name="vendor-invoice-entities"></a>كيانات فواتير الموردين
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 تتيح وحدة **التكلفة شاملة التفريغ** تكوين أكواد نوع التكلفة للتكاليف الداخلية أو التكاليف المشتقة خارجيًا. إذا كانت التكلفة خارج نطاق الأعمال، فمن المتوقع أن تصدر فاتورة من مزود الخدمة. تتم معالجة هذه الفاتورة كدفتر يومية للفواتير يمكن ربطها برحلة، ويمكن توزيع قيمة الفاتورة عبر تكلفة واحدة أو أكثر للرحلة.
 

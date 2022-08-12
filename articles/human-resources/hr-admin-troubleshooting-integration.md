@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879268"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067605"
 ---
 # <a name="integration-with-finance-faq"></a>‏‫الأسئلة المتداولة حول التكامل مع Finance
 
@@ -118,7 +118,7 @@ ms.locfileid: "8879268"
 
 - أدى نقل البيانات إلى استخراج سجلات مكررة في المصدر (Dataverse).
 
-- تتضمن عملية نقل البيانات قيمًا فارغة للحقول المطلوبة في Finance and Operations. تأكد من أن البيانات موجودة في Dataverse وتستوفي شروط Finance and Operations.
+- تتضمن عملية نقل البيانات قيمًا فارغة للحقول المطلوبة في التمويل والعمليات. تأكد من أن البيانات موجودة في Dataverse وتستوفي شروط Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>إذا ظهرت أخطاء تتعلق بالتنفيذ ولم تتم مزامنة معرّف الموظف، كيف يمكنني العثور على محفوظات الوظيفة التي تتضمن سجل الموظف الفاشل؟
 
@@ -150,7 +150,7 @@ ms.locfileid: "8879268"
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>عناوين الموظفين غير صحيحة بعد استيرادها إلى Finance. ماذا أفعل؟
 
-يستخدم التسلسل الرقمي في **معرّف الموقع** النمط نفسه في كل من Human Resources وFinance. يجب أن يكون التسلسل الرقمي فريدًا على الجانبين لتفادي حدوث تضارب في العناوين عند تنفيذ تكامل البيانات من Dataverse إلى Finance and Operations.
+يستخدم التسلسل الرقمي في **معرّف الموقع** النمط نفسه في كل من Human Resources وFinance. يجب أن يكون التسلسل الرقمي فريدًا من كلا الجانبين حتى لا يكون هناك تضارب في العناوين عند دمج البيانات من Dataverse للتمويل والعمليات.
 
 أثناء تنفيذ Human Resources، تأكد من أن التسلسلات الرقمية ليست هي نفسها في Human Resources وFinance. تأكد من أن كافة التسلسلات الرقمية ليست مماثلة حيث قد يتم الاحتفاظ بالبيانات في كلا النظامين.
 
@@ -184,3 +184,4 @@ ms.locfileid: "8879268"
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

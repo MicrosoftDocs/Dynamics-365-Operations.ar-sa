@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851940"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108845"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>تتبع تنفيذ تنسيقات التقارير الإلكترونية لاستكشاف مشكلات الأداء وإصلاحها
 
@@ -363,7 +363,7 @@ ms.locfileid: "8851940"
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>استخدم أدوات خارجية لمراجعة تتبع التنفيذ الذي يتضمن استعلامات قاعدة البيانات
 
-نظرًا للتحسينات التي تم إجراؤها علي إطار عمل التقارير الإلكترونية، يقدم تتبع الأداء الذي تم إنشاؤه بتنسيق PerfView الآن تفاصيل أكثر حول تنفيذ التنسيق التقارير الإلكترونية. في Microsoft Dynamics 365 for Finance and Operations الإصدار 10.0.4 (يوليو 2019)، يمكن أن يتضمن هذا التتبع أيضًا تفاصيل استعلامات SQL التي تم تنفيذها على قاعدة بيانات التطبيق.
+نظرًا للتحسينات التي تم إجراؤها علي إطار عمل التقارير الإلكترونية، يقدم تتبع الأداء الذي تم إنشاؤه بتنسيق PerfView الآن تفاصيل أكثر حول تنفيذ التنسيق التقارير الإلكترونية. في Microsoft Dynamics 365 الإصدار 10.0.4 (يوليو 2019)، يمكن أن يتضمن هذا التتبع أيضًا تفاصيل استعلامات SQL التي تم تنفيذها على قاعدة بيانات التطبيق.
 
 ### <a name="configure-user-parameters"></a>تكوين معلمات المستخدمين
 
@@ -392,3 +392,4 @@ ms.locfileid: "8851940"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -2,7 +2,7 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 description: يصف هذا المقال الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Commerce.
 author: josaw
-ms.date: 04/27/2022
+ms.date: 07/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 2725ff2b8bfbaadbca1bc070e32cee7c5d2754be
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a59d62ad846eed659fa4e70390ebafc40127df0f
+ms.sourcegitcommit: ef56b5d0ed26e373add5dec63168e08ade40573e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910514"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9138576"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Commerce
 
@@ -32,6 +32,19 @@ ms.locfileid: "8910514"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
+
+## <a name="feature-deprecation-effective-july-2022"></a>سيتم إهمال الميزة اعتبارًا من يوليو 2022
+
+### <a name="commerce-analytics-preview"></a>تحليلات Commerce (إصدار أولي)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **سبب الإهلاك/الإزالة** | قام فريق Dynamics 365 Commerce بتحليل استخدام واستيعاب ميزة تحليلات Commernce (معاينة) ، وتم اتخاذ قرار بعدم المضي قدمًا في تقديم الميزة إلى الإتاحة العامة.   |
+| **هل تم الاستبدال بميزة أخرى؟**   | في هذا الوقت ، لن يتم استبدال التحليلات التجارية (المعاينة) بميزه أخرى أو حل. لا يزال تصدير المعاملات الأولية والبيانات الرئيسية من تطبيقات التمويل والعمليات إلى Azure Data Lake متاحًا ، كما هو موضح في [إلى لاكي البيانات في العمليات المالية وتطبيقات العمليات](../../fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake.md). يمكن للشركاء والعملاء زيادة تدفق البيانات هذا ليقوم بتأليف إيه تقارير بالتحليل المقصودة لاحتياجات أعمالهم.
+| **مناطق المنتجات المتأثرة**         | تحليلات Commerce (إصدار أولي) |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | سنبحث عن تعطيل هذه الميزة بواسطة 30 أغسطس ، 2022.  ومن هذا التاريخ ، لن يحدث اي تحديث في التقارير الحالية Power BI المقدمة من تحليلات التجارة (المعاينة).     |
+
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.25 من Commerce
 
@@ -195,3 +208,4 @@ ms.locfileid: "8910514"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

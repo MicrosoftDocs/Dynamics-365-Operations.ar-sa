@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890047"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124699"
 ---
 # <a name="grid-capabilities"></a>قدرات الشبكة
 
@@ -200,3 +200,4 @@ ms.locfileid: "8890047"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

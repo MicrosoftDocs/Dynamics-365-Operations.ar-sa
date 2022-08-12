@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b9595aece264f55c706ebc84010b927fae56b512
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900959"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112169"
 ---
 # <a name="get-started-with-planning-optimization"></a>بدء تحسين التخطيط
 
@@ -40,7 +40,7 @@ ms.locfileid: "8900959"
 
 ## <a name="availability"></a>التوفر
 
-يتوفر تحسين التخطيط حاليًا في مناطق Azure التالية: الولايات المتحدة وكندا والبرازيل وأوروبا والمملكة المتحدة وأستراليا ودول آسيا المطلة على المحيط الهادئ واليابان والهند. إذا حاولت تثبيت الوظيفة الإضافية  من منطقه أخرى ، فسوف يُظهر لك LCS رسالة بأن هذه المنطقة الجغرافية غير مدعومة. لمزيد من المعلومات حول مناطق Azure الجغرافية والمناطق المتعلقة بالصلة ، راجع [مناطق Azure الجغرافية](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+يتوفر تحسين التخطيط حاليًا في مناطق Azure التالية: الولايات المتحدة وكندا والبرازيل وأوروبا وفرنسا والمملكة المتحدة وأستراليا ودول آسيا المطلة على المحيط الهادئ واليابان والهند. إذا حاولت تثبيت الوظيفة الإضافية  من منطقه أخرى ، فسوف يُظهر لك LCS رسالة بأن هذه المنطقة الجغرافية غير مدعومة. لمزيد من المعلومات حول مناطق Azure الجغرافية والمناطق المتعلقة بالصلة ، راجع [مناطق Azure الجغرافية](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 لاحظ أن تحسين التخطيط لا يدعم عمليات النشر المحلية لـ Dynamics 365 Supply Chain Management.
 
@@ -135,3 +135,4 @@ ms.locfileid: "8900959"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

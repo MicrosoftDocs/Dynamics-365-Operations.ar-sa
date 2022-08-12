@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855576"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112263"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>ترحيل نوع بيانات العملة للكتابة الثنائية
 
@@ -100,3 +100,4 @@ ms.locfileid: "8855576"
 |          | الحد الأقصى للدقة العشرية المرئية في واجهة مستخدم نتائج استعلام قاعدة البيانات وقاعدة البيانات | 10 أرقام. ومع ذلك، فإن 4 فقط لها أهمية مع جميع الأصفار التي تتجاوز الأربعة أرقام العشرية. يتيح ذلك ترحيل المؤسسة بشكل أبسط وأسرع، إذا لزم الأمر. | 10 أرقام      | 10 أرقام     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

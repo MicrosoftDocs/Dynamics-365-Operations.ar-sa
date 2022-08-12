@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874801"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111649"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>حزمة تنسيق تطبيق الكتابة المزدوجة المنفصلة
 
@@ -26,14 +26,14 @@ ms.locfileid: "8874801"
 في السابق، كانت حزمة تنسيق تطبيق الكتابة المزدوجة عبارة عن حزمة واحدة تحتوي على الحلول التالية:
 
 - ملاحظات حول Dynamics 365
-- نقطة الارتساء العامة في Dynamics 365 Finance and Operations
+- Dynamics 365 finance and operations Common Anchor
 - خرائط كيانات الكتابة المزدوجة في Dynamics 365 Finance and Operations
 - تطبيق إدارة أصول Dynamics 365
 - إدارة أصول Dynamics 365
 - عام HCM
 - سلسلة توريد Dynamics 365 الموسعة
 - Dynamics 365 Finance Extended
-- نقطة الارتساء العامة في Dynamics 365 Finance and Operations
+- Dynamics 365 finance and operations Common
 - شركة Dynamics 365
 - أسعار صرف العملات
 - Field Service Common
@@ -51,14 +51,14 @@ ms.locfileid: "8874801"
 | اسم فريد                           | الاسم المعروض                               |
 |---------------------------------------|--------------------------------------------|
 | Dynamics365Company                    | شركة Dynamics 365                       |
-| Dynamics365FinanceAndOperationsCommon | نقطة الارتساء العامة في Dynamics 365 Finance and Operations |
+| Dynamics365FinanceAndOperationsCommon | Dynamics 365 Finance and Operations Common |
 | CurrencyExchangeRates                 | أسعار صرف العملات                    |
 | msdyn_DualWriteAppCoreMaps            | خرائط الكيانات الأساسية لتطبيقات الكتابة المزدوجة   |
 | msdyn_DualWriteAppCoreAnchor          | نقطة الارتساء الأساسية لتطبيقات الكتابة المزدوجة        |
 
 الخرائط التالية متوفرة في هذه الحزمة.
 
-| تطبيقات Finance and Operations     | تطبيقات Customer Engagement                    |
+| تطبيقات التمويل والعمليات     | تطبيقات Customer Engagement                    |
 |---------------------------------|---------------------------------------------|
 | وحدة التشغيل                  | msdyn_internalorganizations                 |
 | التدرج الهرمي للمؤسسات          | msdyn_internalorganizationhierarchies       |
@@ -89,7 +89,7 @@ ms.locfileid: "8874801"
 
 الخرائط التالية متوفرة في هذه الحزمة.
 
-| تطبيقات Finance and Operations | تطبيقات Customer Engagement         |
+| تطبيقات التمويل والعمليات | تطبيقات Customer Engagement         |
 |-----------------------------|----------------------------------|
 | الأصول العرقية              | cdm_ethnicorigins                |
 | مهمة وظيفة التعويض   | cdm_jobfunctions                 |
@@ -119,7 +119,7 @@ ms.locfileid: "8874801"
 
 الخرائط التالية متوفرة في هذه الحزمة.
 
-| تطبيقات Finance and Operations                 | تطبيقات Customer Engagement                      |
+| تطبيقات التمويل والعمليات                 | تطبيقات Customer Engagement                      |
 |---------------------------------------------|-----------------------------------------------|
 | الوحدات                                       | uoms                                          |
 | رؤوس أوامر مبيعات CDS                     | salesorders                                   |
@@ -197,7 +197,7 @@ ms.locfileid: "8874801"
 
 الخرائط التالية متوفرة في هذه الحزمة.
 
-| تطبيقات Finance and Operations             | تطبيقات Customer Engagement        |
+| تطبيقات التمويل والعمليات             | تطبيقات Customer Engagement        |
 |-----------------------------------------|---------------------------------|
 | مجموعات ضرائب الخصم                  | msdyn_withholdingtaxgroups      |
 | جهات اتصال CDS رقم V2 (العميل)              | جهات الاتصال                        |
@@ -274,7 +274,7 @@ ms.locfileid: "8874801"
 
 الخرائط التالية متوفرة في هذه الحزمة.
 
-| تطبيقات Finance and Operations                           | تطبيقات Customer Engagement                |
+| تطبيقات التمويل والعمليات                           | تطبيقات Customer Engagement                |
 |-------------------------------------------------------|-----------------------------------------|
 | ضمان إدارة الأصول                             | msdyn_warranties                        |
 | نماذج إدارة الأصول                               | msdyn_models                            |
@@ -344,3 +344,4 @@ ms.locfileid: "8874801"
 - حزمة أساس تطبيق الكتابة المزدوجة
 - حزمة Finance للكتابة المزدوجة
 - حزمة سلسلة توريد الكتابة المزدوجة
+

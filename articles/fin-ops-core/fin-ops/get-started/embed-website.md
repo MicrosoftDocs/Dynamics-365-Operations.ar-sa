@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef5ed6c3c99d62010643940f3e2f158963ff0dc2
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868597"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123707"
 ---
 # <a name="embed-third-party-apps"></a>تضمين تطبيقات الجهات الخارجية
 
@@ -129,3 +129,4 @@ ms.locfileid: "8868597"
 بالرغم من تركيز هذه المقالة على تضمين تطبيقات الجهات الخارجية أو مواقع الويب من خلال التخصيص، يمكن للمطورين أيضًا تضمينها في نموذج باستخدام تجربة تطوير Visual Studio. أضف فقط عنصر تحكم **WebsiteHostControl** إلى النموذج. توفر خصائص بيانات التعريف المتوفرة لعنصر التحكم نفس الإمكانيات مثل تجربة التخصيص.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865850"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109029"
 ---
 # <a name="optimization-advisor-overview"></a>نظرة عامة حول مرشد التحسين
 
@@ -44,7 +44,7 @@ ms.locfileid: "8865850"
 
 عندما تقوم بإجراء في بعض فرص تحسين الأداء، يقوم النظام بحساب تأثير الفرصة فيما يتعلق بنسبة التخفيض في وقت التشغيل للعمليات التجارية. لسوء الحظ، هذه الميزة غير متوفرة لجميع فرص تحسين الأداء.
 
-لمزيد من المعلومات حول مرشد التحسين، شاهد مقطع الفيديو القصير [مرشد التحسين في Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+لمعرفة المزيد حول مرشد التحسين، شاهد القصة القصيرة [مرشد التحسين في Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ) فيديو.
 
 ## <a name="optimization-rules"></a>قواعد التحسين
 
@@ -90,7 +90,7 @@ ms.locfileid: "8865850"
 
 [إنشاء قواعد مرشد التحسين](./create-rules-optimization-advisor.md)
 
-[مرشد التحسين في Dynamics 365 for Finance and Operations (فيديو)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[مرشد التحسين في Dynamics 365 المالية (الفيديو)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

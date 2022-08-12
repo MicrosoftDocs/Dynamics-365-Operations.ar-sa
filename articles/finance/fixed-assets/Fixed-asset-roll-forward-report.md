@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870122"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068769"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>تقرير سجل نشاط الأصول الثابتة
 
@@ -30,7 +30,7 @@ ms.locfileid: "8870122"
 
 يستخدم تقرير **سجل نشاط الأصول الثابتة‬** إطار عمل إعداد التقارير الإلكتروني (ER). قبل أن تتمكن من تشغيل التقرير، يجب استيراد تكوينات سجل نشاط الأصول الثابتة‬ ونموذج الأصول الثابتة من Microsoft Dynamics Lifecycle Services (LCS). للمزيد من التعليمات، راجع [تنزيل تكوينات التقارير الإلكترونية من Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
-يتوافر هذا التقرير في Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 أو كإصلاح عاجل لتطبيق Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (يوليو 2017). يجب تطبيق الإصلاحات العاجلة الثلاثة على البيئات التي تشتمل على إصدار يوليو 2017:
+يتوافر هذا التقرير في Microsoft Dynamics 365 Finance،إصدار Enterprise 7.3 ، أو كإصلاح عاجل لتطبيق Microsoft Dynamics 365 Finance (يوليو 2017). يجب تطبيق الإصلاحات العاجلة الثلاثة على البيئات التي تشتمل على إصدار يوليو 2017:
 
 - **قاعدة المعارف 4041754:** لا يمكن تنزيل تكوين التقارير الإلكترونية (ER) من LCS كغير قابل للتطبيق للإصدار الحالي بعد تطبيق حزمة تحديث النظام الأساسي
 - **قاعدة المعارف 4056107:** التحديث التراكمي 5 لإعداد التقارير الإلكتروني (GER)
@@ -67,3 +67,4 @@ ms.locfileid: "8870122"
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

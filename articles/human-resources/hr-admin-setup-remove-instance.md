@@ -1,6 +1,6 @@
 ---
 title: إزالة مثيل
-description: ينقلك هذا المقال عبر عملية إزالة بيئة إنتاج أو بيئة إصدار تجريبي جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
+description: توضح هذه المقالة عملية إزالة محرك اختبار أو بيئة إنتاج لشركة Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/11/2021
 ms.topic: article
@@ -14,16 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4256938be70f301d3d7b7663f10addb19725b048
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ce676c93e133cc04ad9c49417ed2ca0d6791e93
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859622"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178456"
 ---
 # <a name="remove-an-instance"></a>إزالة مثيل
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**ينطبق علي:** الموارد البشرية في البنية التحتية المستقلة_ 
+
+> [!NOTE]
+> بدءا من 2022 يوليو ، لا يمكن توفير بيئات الموارد البشرية الجديدة علي البنية الأساسية المستقلة للموارد البشرية ، ولا يمكن إنشاء مشاريع جديده Microsoft Dynamics لخدمات دوره الحياة (LCS) عليها. يمكن للعملاء نشر بيئات الموارد البشرية على البنية التحتية للتمويل والعمليات. لمزيد من المعلومات ، راجع [توفير الموارد البشرية في البنية الأساسية للعمليات والتمويل](/hr-admin-setup-provision-fo.md) .
+
+> [!IMPORTANT]
+> تدعم البنية الأساسية للتطبيق المالي والعمليات حذف بيئة. لمزيد من المعلومات حول كيفية حذف بيئة، راجع [احذف بيئة](../fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure.md#delete-an-environment).
 
 توضح هذه المقالة عملية إزالة بيئة إنتاج أو تجربة إصدار جديدة لتطبيق Microsoft Dynamics 365 Human Resources.
 
@@ -42,10 +48,13 @@ ms.locfileid: "8859622"
 
 يفترض هذا المقال أنك قمت بشراء Human Resources من خلال اتفاقية هندسة مؤسسة (EA) أو موفر حلول مجموعة (CSP). 
 
-نظرًا لأن هناك بيئة Human Resources واحدة مشمولة ضمن بيئة Power Apps واحدة، هناك خياران ينبغي أخذهما بعين الاعتبار. الخيار الأول يتضمن إزالة بيئة Power Apps بالكامل، والثاني يتضمن إزالة Human Resources فقط. والخيار الأول هو المفضل عند قيامك بإنشاء بيئة Power Apps صراحةً بغرض توفير Human Resources، وقد بدأت التنفيذ للتو، أو لم يكن لديك أي عمليات تكامل قائمة. والخيار الثاني مناسب إذا كان لديك بيئة Power Apps محددة معبأة بالبيانات الغنية التي يتم جمعها في Power Apps وPower Automate.
+لأن بيئة موارد بشرية واحدة موجودة في ملف واحد Power Apps البيئة ، هناك خياران يجب مراعاتهما عند إزالة بيئة: 
+- **حذف Power Apps البيئة بشكل كلي.** يُفضل هذا الخيار عندما يكون ملف Power Apps تم إنشاء البيئة لغرض توفير الموارد البشرية ، أو بدأ التنفيذ للتو ، أو لم يكن لديك أي عمليات تكامل ثابتة.  
+- **إزالة الموارد البشرية فقط.** يكون هذا الخيار مناسبًا عندما يكون هناك بيئة Power Apps مثبتة التي يتم ملؤها بالبيانات المستخدمة فيها Microsoft Power Apps و Power Automate.
+
 
 > [!Important]
-> قبل إزالة بيئة Power Apps، تأكد من عدم استخدامه لعمليات تكامل البيانات الغنية خارج نطاق Human Resources. كما تجدر الإشارة إلى أنه لا يمكن إزالة بيئات Power Apps الافتراضية. 
+> قبل إزالة بيئة Power Apps ، تأكد من عدم استخدامها لتكامل البيانات الثرية خارج نطاق الموارد البشرية. كما تجدر الإشارة إلى أنه لا يمكن إزالة بيئات Power Apps الافتراضية. 
 
 لإزالة بيئة Power Apps بأكملها، بما في ذلك Human Resources والتطبيقات والتدفقات المرتبطة:
 
@@ -73,7 +82,7 @@ ms.locfileid: "8859622"
 
 ## <a name="recover-a-soft-deleted-environment"></a>استرداد بيئة محذوفة بشكل مبدئي
 
-إذا قمت بحذف بيئة Power Apps من بيئة Human Resources المتصلة بها، ستكون حالة بيئة Human Resources في Lifecycle Services **محذوفة مبدئيًا** . في هذه الحالة، سيتعذر على المستخدمين الاتصال بـ Human Resources.
+إذا قمت بحذف بيئة Power Apps البيئة التي ترتبط بها بيئة الموارد البشرية الخاصة بك ، ستكون حالة بيئة الموارد البشرية في LCSLifecycle Services **محذوفة مبدئيًا** . في هذه الحالة، سيتعذر على المستخدمين الاتصال بـ Human Resources.
 
 لاستعاده البيئة:
 

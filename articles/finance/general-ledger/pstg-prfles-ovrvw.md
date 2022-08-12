@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876113"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135832"
 ---
 # <a name="posting-profiles-overview"></a>نظرة عامة على ملفات تعريف الترحيل
 
@@ -111,13 +111,14 @@ ms.locfileid: "8876113"
 - ترحيل إدارة المصروفات (قريبًا)
 - [ملف تعريف ترحيل الأصول الثابتة](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - ترحيل المحاسبة بين الشركات الشقيقة (قريبًا)
-- ملف تعريف ترحيل المخزون (قريبًا)
+- [ترحيل المخزون](inventory-posting.md)
 - [ترحيل التكلفة شاملة التفريغ‬‬](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [نظرة عامة على تعريفات الترحيل](posting-definitions.md)
-- ترحيل التحكم في الإنتاج (قريبًا)
+- [ترحيل الإنتاج](production-posting.md)
 - إدارة المشاريع ومحاسبتها (قريبًا)
 - ترحيل إدارة الخدمة (قريبًا)
 - ترحيل الضرائب (قريبًا)
 - ترحيل الوقت والحضور (قريبًا)
 - ترحيل إدارة النقل (قريبًا)
 - ملفات تعريف ترحيل إدارة الخصومات (قريبًا)
+

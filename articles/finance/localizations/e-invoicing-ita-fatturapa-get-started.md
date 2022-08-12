@@ -2,7 +2,7 @@
 title: إعداد التكامل المباشر لـ FatturaPA الإيطالية مع SDI
 description: توفر هذه المقالة معلومات ستساعدك على البدء في استخدام الفواتير الإلكترونية لإيطاليا وإعداد التكامل المباشر لـ FatturaPA الإيطالية مع نظام Exchange‏ (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853181"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203158"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>إعداد التكامل المباشر لـ FatturaPA الإيطالية مع SDI
 
@@ -69,10 +69,13 @@ ms.locfileid: "8853181"
     - بالنسبة إلى إجراء **توقيع المستند**، في حقل **اسم الشهادة**، حدد شهادة التوقيع الرقمي.
     - بالتسبة إلى إجراء **الإرسال**، قم بتعيين حقلي **عنوان URL** و **الشهادات**. قيمة حقل **الشهادات** هي سلسلة من الشهادات، أولها شهادة CA الجذر (caentrate.cer)، والثاني هو شهادة العملاء.
 
-4. حدد **التحقق من الصحة** للتأكد من أنه قد تم تعيين جميع الحقول المطلوبة.
-5. احفظ التغييرات وأغلق الصفحة.
-6. في علامة التبويب **إعدادات**، حدد **فواتير المشروع**، ثم حدد **تحرير**.
-7. كرر الخطوات من 3 إلى 5 لفواتير المشروع.
+4. في قسم **قواعد التطبيق**، انتقل إلى البنود، وقم بمراجعة الحقول المطلوبة أو تعيينها:
+    - راجع بند **LegalEntityID** وقم بالتحديث بالقيمة الصحيحة من كيانك القانوني.
+
+5. حدد **التحقق من الصحة** للتأكد من أنه قد تم تعيين جميع الحقول المطلوبة.
+6. احفظ التغييرات وأغلق الصفحة.
+7. في علامة التبويب **إعدادات**، حدد **فواتير المشروع**، ثم حدد **تحرير**.
+8. كرر الخطوات من 3 إلى 6 لفواتير المشروع.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>تكوين مسار معالجة للاستيراد
 

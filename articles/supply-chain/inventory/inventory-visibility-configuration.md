@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895804"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066659"
 ---
 # <a name="configure-inventory-visibility"></a>تكوين Inventory Visibility
 
@@ -55,7 +55,7 @@ ms.locfileid: "8895804"
 | *OnHandMostSpecificBackgroundService* | توفر هذه الميزة ملخص المخزون من المنتجات مع جميع الأبعاد. ستتم مزامنة بيانات ملخص المخزون دورياً من رؤية المخزون. لمزيد من المعلومات، راجع [‏‫ملخص المخزون](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | تعمل هذه الميزة الاختيارية على تمكين جدول التغيير الفعلي والميزات المتوفرة حسب التعهد‬ (ATP). لمزيد من المعلومات، راجع [جدول تغيير رؤية المخزون المتاح والمتوفر حسب التعهد‬](inventory-visibility-available-to-promise.md). |
 | *التوزيع* | تتيح هذه الميزة الاختيارية امكانيه رؤية المخزون القدرة علي الحصول علي القدرة علي حماية المخزون (رينجفينسينج) والتحكم في البيع الزائد. لمزيد من المعلومات ، راجع [نتخصيص المخزون رؤية المخزون](inventory-visibility-allocation.md). |
-| *تمكين أصناف المستودعات في رؤية المخزون* | تتيح هذه الميزة الاختيارية "رؤية المخزون" لدعم العناصر التي تم تمكينها لعمليات المستودعات المتقدمة (عناصر WHS). لمزيد من المعلومات، راجع [دعم رؤية المخزون لأصناف WHS‬](inventory-visibility-whs-support.md). |
+| *تمكين أصناف المستودعات في رؤية المخزون* | تتيح هذه الميزة الاختيارية "رؤية المخزون" لدعم العناصر التي تم تمكينها لعمليات إدارة المستودعات (WMS). لمزيد من المعلومات، راجع [دعم رؤية المخزون لأصناف WMS‬](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>البحث عن نقطة نهاية الخدمة
 
@@ -809,3 +809,4 @@ ms.locfileid: "8895804"
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

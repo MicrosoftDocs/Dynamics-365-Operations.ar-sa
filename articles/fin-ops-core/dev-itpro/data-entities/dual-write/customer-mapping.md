@@ -1,6 +1,6 @@
 ---
 title: أصل العميل المتكامل
-description: توضح هذه المقالة تكامل بيانات العميل بين Finance and Operations و Dataverse.
+description: توضح هذه المقالة تكامل بيانات العميل بين تطبيقات التمويل والعمليات وDataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890445"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111713"
 ---
 # <a name="integrated-customer-master"></a>أصل العميل المتكامل
 
@@ -30,7 +30,7 @@ ms.locfileid: "8890445"
 
 ![تدفق بيانات العميل.](media/dual-write-customer-data-flow.png)
 
-يمكن تصنيف العملاء على نطاق واسع في نوعين: العملاء التجاريين/المؤسسيين والمستهلكين/المستخدمين النهائيين. يتم تخزين هذين النوعين من العملاء والتعامل معهم بطريقة مختلفة في Finance and Operations وDataverse.
+يمكن تصنيف العملاء على نطاق واسع في نوعين: العملاء التجاريين/المؤسسيين والمستهلكين/المستخدمين النهائيين. يتم تخزين هذين النوعين من العملاء والتعامل معهم بطريقة مختلفة في تطبيقات التمويل والعمليات وDataverse.
 
 في التمويل والعمليات، تتم إدارة العملاء التجاريين/المؤسسات والمستهلكين/المستخدمين النهائيين في جدول واحد يسمى **CustTable** (CustCustomerV3Entity)، ويتم تصنيفهم استنادًا إلى سمة **النوع**. (إذا تم تعيين **النوع** إلى **مؤسسة**، فسيكون العميل تجاريًا/مؤسسيًا، وإذا تم تعيين **النوع** إلى **شخص**، فسيكون العميل مستهلكًا/مستخدمًا نهائيًا.) يتم التعامل مع معلومات جهة الاتصال الرئيسية عبر الجدول SMMContactPersonEntity.
 
@@ -57,3 +57,4 @@ ms.locfileid: "8890445"
 [شروط الدفع](mapping-reference.md#161) | msdyn_paymentterms | يقوم هذا القالب بمزامنة البيانات المرجعية لمدد الدفع (مدد الدفع) لكلٍّ من العملاء والموردين.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

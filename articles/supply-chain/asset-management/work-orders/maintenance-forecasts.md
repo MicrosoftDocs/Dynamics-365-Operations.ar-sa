@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 4e3da8ab9a739c8455d2c1d2720f94f91a42927d
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016612"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111589"
 ---
 # <a name="maintenance-forecasts"></a>تنبؤات متطلبات الصيانة
 
@@ -107,7 +107,7 @@ ms.locfileid: "9016612"
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>التحديث التلقائي لتنبؤات أمر العمل
 
-إذا تم تحديث تكاليف الساعة وتكاليف الأصناف والمصروفات في وحدات نمطية أخرى في Microsoft Dynamics 365 for Finance and Operations، يمكنك تحديث أي تغييرات في تنبؤات أوامر العمل في إدارة الأصول بشكل تلقائي لتعكس هذه التغييرات. تساعد هذه الإمكانية على ضمان استخدام أحدث أسعار التكلفة في تنبؤات أوامر العمل في كل الأوقات. ويمكنك أيضًا إجراء تحديثات مماثلة لـ [تنبؤات نوع مهمة الصيانة](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+إذا تم تحديث تكاليف الساعة وتكاليف الأصناف والمصروفات في وحدات نمطية أخرى ، فيمكن تحديث توقعات أوامر العمل في إدارة الأصول تلقائيًا لتعكس هذه التغييرات. تساعد هذه الإمكانية على ضمان استخدام أحدث أسعار التكلفة في تنبؤات أوامر العمل في كل الأوقات. ويمكنك أيضًا إجراء تحديثات مماثلة لـ [تنبؤات نوع مهمة الصيانة](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. حدد **إدارة الأصول** > **دوري** > **تنبؤ** > **تحديث تنبؤ بأمر العمل**.
 

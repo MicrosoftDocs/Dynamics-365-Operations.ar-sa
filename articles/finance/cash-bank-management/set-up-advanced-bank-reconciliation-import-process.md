@@ -1,7 +1,7 @@
 ---
 title: إعداد عملية استيراد التسوية البنكية المتقدمة
 description: تتيح لك ميزة التسوية المصرفية المتقدمة استيراد كشوف الحسابات البنكية الإلكترونية وتسويتها تلقائيًا مع المعاملات المصرفية في Microsoft Dynamics 365 Finance. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية.
-author: panolte
+author: angelad116
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,23 @@ ms.reviewer: kfend
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0616d8f85f742ed2679450c9b59814345f764bc9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: d8d186e6b3e44222410c8be94390d7c58a90e352
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727359"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151511"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>إعداد عملية استيراد التسوية البنكية المتقدمة
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> سيتم إهمال هذه الوظيفة بتاريخ سبتمبر 2022 سبتمبر ، يجب ان يستخدم المستخدمون الجدد اعداد التقارير الكترونيه. لمزيد من المعلومات، راجع [قم بإعداد استيراد التسوية البنكية المتقدمة باستخدام التقارير الإلكترونية](../accounts-payable/import-bai2-er.md).
+
 
 تتيح لك ميزة التسوية المصرفية المتقدمة استيراد كشوف الحسابات البنكية الإلكترونية وتسويتها تلقائيًا مع المعاملات المصرفية في Dynamics 365 Finance. توضح هذه المقالة كيفية إعداد وظيفة الاستيراد لكشوفات حساباتك البنكية. 
 

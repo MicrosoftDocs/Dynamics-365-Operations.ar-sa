@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855921"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070308"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>تعامل المستودع مع الأحمال الواردة لأوامر الشراء
 
@@ -56,7 +56,7 @@ ms.locfileid: "8855921"
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>تسجيل كميات الأصناف التي تصل على حمل وارد
 
-تدعم Microsoft Dynamics 365 Supply Chain Management أساليب تشغيلية كثيرة لتسجيل وصول المنتجات المطلوبة. وبالتالي، يمكنك تكوين النظام بحيث يطابق متطلبات العمل لديك. يصف هذا القسم كيفية تسجيل كميات الأصناف الواردة باستخدام جهاز محمول عند تشغيل إدارة المستودعات المتقدمة في النظام. ومع ذلك، يوجد سير مهام بديل يستند إلى استخدام دفتر يوميه وصول الصنف بدلاً من جهاز محمول. لمزيد من المعلومات حول سير المهام هذا، راجع [تسجيل أصناف لصنف ممكَّن للتخزين المتقدم باستخدام دفتر يومية وصول الصنف](tasks/register-items-advanced-warehousing.md),
+تدعم Microsoft Dynamics 365 Supply Chain Management أساليب تشغيلية كثيرة لتسجيل وصول المنتجات المطلوبة. وبالتالي، يمكنك تكوين النظام بحيث يطابق متطلبات العمل لديك. يصف هذا القسم كيفية تسجيل كميات الأصناف الواردة باستخدام جهاز محمول عند تشغيل عمليات إدارة المستودعات (WMS) في النظام. ومع ذلك، يوجد سير مهام بديل يستند إلى استخدام دفتر يوميه وصول الصنف بدلاً من جهاز محمول. لمزيد من المعلومات حول هذا التدفق ، انظر [تسجيل الأصناف التي تم تمكينها لعمليات إدارة المستودعات باستخدام دفتر يومية وصول الصنف](tasks/register-items-advanced-warehousing.md).
 
 عند وصول حمل وارد أولاً إلى المستودع، يجب على العاملين في المستودع تسجيل كميات الأصناف المضمنة في الشحنة. ويستخدم هؤلاء عادةً ماسحات ضوئية محمولة باليد. يتوفر سير العمل هذا فقط في حال وجود العناصر التالية في النظام:
 

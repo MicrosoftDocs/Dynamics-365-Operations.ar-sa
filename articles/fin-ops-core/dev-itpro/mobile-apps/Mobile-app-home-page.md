@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868748"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066442"
 ---
 # <a name="mobile-app-home-page"></a>الصفحة الرئيسية لتطبيق الأجهزة المحمولة
 
@@ -131,9 +131,9 @@ ms.locfileid: "8868748"
 <td>8</td>
 <td>المستخدم</td>
 <td>تنزيل وتثبيت تطبيق الأجهزة المحمولة.</td>
-<td> 
-<a href="https://go.microsoft.com/fwlink/?linkid=850662"> في Finance and Operationsتطبيق Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations تطبيق لـ iOS</a><BR/>
+<td>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and operations app ل Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and operations app ل iOS</a><BR/>
 (Windows Phone غير معتمد)
 </td>
 </tr>
@@ -152,3 +152,4 @@ ms.locfileid: "8868748"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

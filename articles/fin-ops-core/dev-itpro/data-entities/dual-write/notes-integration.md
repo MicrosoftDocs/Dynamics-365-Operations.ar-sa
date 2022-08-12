@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876704"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111445"
 ---
 # <a name="note-integration"></a>تكامل الملاحظات
 
@@ -68,7 +68,7 @@ ms.locfileid: "8876704"
 
 يمكنك أيضًا إنشاء ملاحظة في تطبيق التمويل والعمليات، وستتم مزامنتها مع تطبيق مشاركة العميل.
 
-لإنشاء ملاحظة في تطبيق التمويل والعمليات ثم مزامنتها مع تطبيق مشاركة العميل، اتبع الخطوات التالية.
+لإنشاء ملاحظة في تطبيق مشاركة العميل ثم مزامنتها إلى أحد تطبيقات التمويل والعمليات، اتبع الخطوات التالية.
 
 1. في تطبيق التمويل والعمليات، في صفحة **المرفقات**، حدد **جديد** \> **ملاحظة**.
 
@@ -121,3 +121,4 @@ ms.locfileid: "8876704"
 بمجرد تثبيت حل الملاحظات، لا يمكنك إلغاء تثبيته. 
 
 لمزيد من المعلومات، راجع [مرجع تعيين الكتابة المزدوجة](mapping-reference.md).
+

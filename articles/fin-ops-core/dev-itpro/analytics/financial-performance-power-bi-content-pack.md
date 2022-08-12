@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910404"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109539"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>حل محتوى PowerBI.com للأداء المالي
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> تم إهمال حل PowerBI.com هذا كما هو موثق في [الميزات التي تمت ازالتها أو إهمالها لـ Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> تم إهمال حل PowerBI.com هذا كما هو موثق في [الميزات التي تمت ازالتها أو إهمالها لـ التمويل والعمليات](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 تصف هذه المقالة حل PowerBI.com **للأداء المالي** . إنه يصف لوحة المعلومات والتقارير التي تم تضمينها في حزمة المحتوى، ويوفر معلومات حول نموذج البيانات والكيانات المستخدمة لإنشاء الحل.
 

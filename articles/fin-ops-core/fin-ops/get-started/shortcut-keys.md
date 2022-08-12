@@ -2,7 +2,7 @@
 title: اختصارات لوحة المفاتيح
 description: توفر هذه المقالة نظرة عامة على تركيبات مفاتيح الاختصار التي يمكنك استخدامها عند العمل مع تطبيقات التمويل والعمليات.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866106"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140428"
 ---
 # <a name="keyboard-shortcuts"></a>اختصارات لوحة المفاتيح
 
@@ -197,6 +197,7 @@ ms.locfileid: "8866106"
 | إغلاق قائمة التنقل في نموذج التفاصيل (مع التركيز في قائمة التنقل) | Esc                        |
 | الانتقال إلى صفحة المحتوى الرئيسية (مع التركيز في جزء آخر)                    | Alt+M,M                    |
 | الانتقال إلى جزء مربع حقائق (وقد يشمل ذلك فتحه)                       | Alt+M,B أو Ctrl+F2         |
+| الانتقال إلى وسيلة شرح الميزة التالية                                              | Alt+M,C                    |
 
 > [!NOTE]
 > تسمح ميزة **تبسيط سلوك الجدولة في نماذج صفحة كاملة** المقدمة في الإصدار 10.0.26، للمستخدمين بالتبويب عبر الكل مناطق من الصفحة دون الحاجة إلى الماوس أو اختصار لوحة مفاتيح مخصص للتنقل بين المناطق. لا يزال بإمكانك استخدام اختصارات لوحة المفاتيح الحالية (مثل اختصارات وتر المفاتيح Alt + M) للتنقل بسرعة بين المناطق على الصفحة.
@@ -269,3 +270,4 @@ ms.locfileid: "8866106"
 [اختصارات لوحة المفاتيح لتحليل الحسابات المفقودة](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

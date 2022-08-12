@@ -14,14 +14,14 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958127"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124930"
 ---
-# <a name="videos"></a>مقاطع فيديو 
+# <a name="videos"></a>مقاطع الفيديو 
 
 [!include [banner](../includes/banner.md)]
 
@@ -169,3 +169,4 @@ ms.locfileid: "8958127"
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

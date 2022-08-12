@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905304"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112183"
 ---
 # <a name="integrated-vendor-master"></a>أصل المورّد المتكامل
 
@@ -57,3 +57,4 @@ ms.locfileid: "8905304"
 [طريقة دفع المورّد](mapping-reference.md#201) | msdyn_vendorpaymentmethods | يقوم هذا القالب بمزامنة معلومات طرق دفع الموردين.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

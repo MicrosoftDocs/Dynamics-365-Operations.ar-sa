@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 756895ab0ccdbd2bc42f0a750ad9895ee7b284a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9e5160cc3961703475ffb8dc4a4daf2ae872aaba
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847149"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124914"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>وصف الخدمة لتطبيقات التمويل والعمليات
 
@@ -32,7 +32,7 @@ ms.locfileid: "8847149"
 
 - [تجربة التخصيص](personalize-user-experience.md) المدمجة
 - أدواتر [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)
-- [مجموعة تطوير البرامج (SDK) لتطبيقات التمويل والعمليات ](../../dev-itpro/dev-tools/developer-home-page.md) القائمة على [Visual Studio](https://visualstudio.microsoft.com) [وأتمتة بناء Azure DevOps](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
+- [Visual Studio](https://visualstudio.microsoft.com)–المبني على [مجموعة تطوير برامج التمويل والعمليات (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) و [Azure DevOps بناء الأتمتة](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
 - حلول مورد البرامج المستقل (ISV) من [AppSource](https://appsource.microsoft.com/partners)
 
 استنادا إلى المتطلبات، يختار العملاء أسلوب الحل الخاص بهم. ويعملون مع شريك التنفيذ الخاص بها لتحديد الحل الخاص بهم وتطويره واختباره باستخدام الأدوات وأفضل الممارسات التي يتم توفيرها في [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md). هناك أربعة سيناريوهات شائعة:
@@ -46,7 +46,7 @@ ms.locfileid: "8847149"
 
 ## <a name="operating-model"></a>نموذج التشغيل
 
-يقوم نموذج التشغيل الخاص بتطبقات التمويل والعمليات بتعريف أدوار ومسؤوليات معينة للعميل وشريك التنفيذ وMicrosoft خلال دورة حياة الخدمة. لمزيد من المعلومات، راجع [عمليات السحابة والخدمة](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
+يقوم نموذج التشغيل الخاص لتطبيقات التمويل والعمليات بتعريف أدوار ومسؤوليات معينة للعميل وشريك التنفيذ وMicrosoft خلال دورة حياة الخدمة. لمزيد من المعلومات، راجع [عمليات السحابة والخدمة](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
 
 ### <a name="customer-activities"></a>أنشطة العملاء
 
@@ -117,7 +117,7 @@ ms.locfileid: "8847149"
 ### <a name="countryregion-specific-considerations"></a>الاعتبارات الخاصة بالبلدان/المناطق
 
 - يجب على العملاء في مؤسسات صناعية وتجارية منظمة تزاول أعمالها مع كيانات في فرنسا والتي تتطلب الإقامة المحلية للبيانات مراجعة [التمويل والعمليات في فرنسا](../../dev-itpro/deployment/france-local-deployment.md).
-- يجب أن يقوم العملاء الذين لديهم عمليات بالصين مراجعة [دليل مبادئ الصين على Azure](/azure/china/) و[التمويل والعمليات التي يتم تشغيلها بواسطة 21Vianet في الصين](../../dev-itpro/deployment/china-local-deployment.md).
+- يجب أن يقوم العملاء الذين لديهم عمليات بالصين مراجعة [دليل مبادئ الصين على Azure](/azure/china/) و [التمويل والعمليات التي يتم تشغيلها بواسطة 21Vianet في الصين](../../dev-itpro/deployment/china-local-deployment.md).
 - يجب أن يقوم العملاء الذين لديهم عمليات في روسيا بمراجعة [قانون تعريب البيانات الشخصية الروسي](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>القانون العام لحماية البيانات (GDPR)
@@ -428,3 +428,4 @@ ms.locfileid: "8847149"
 ### <a name="user"></a>المستخدم
 
 شخص واحد يستخدم بيئات التمويل والعمليات ويقترن بمستأجر العميل.
+

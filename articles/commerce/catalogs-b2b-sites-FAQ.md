@@ -1,66 +1,70 @@
 ---
 title: الأسئلة المتداولة حول كتالوجات Commerce لمواقع B2B
-description: يقدم هذا المقال إجابات عن الأسئلة المتداولة حول كتالوجات Microsoft Dynamics 365 Commerce.
+description: توفر هذه المقالة إجابات للأسئلة المتداولة حول كتالوجات Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 05/18/2022
+ms.date: 07/15/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: af69c3d27142a961049470dd1292ffbc3d8387a9
-ms.sourcegitcommit: 6616b969afd6beb11a79d8e740560bf00016ea7f
+ms.openlocfilehash: 68c648c5caf2667f413b236dc437fc2c74c40d07
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "9027358"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9168975"
 ---
 # <a name="commerce-catalogs-for-b2b-faq"></a>الأسئلة المتداولة حول كتالوجات Commerce لمواقع B2B
 
 [!include [banner](includes/banner.md)]
 
-يقدم هذا المقال إجابات عن الأسئلة المتداولة حول  [كتالوجات مواقع B2B](catalogs-b2b-sites.md) في Microsoft Dynamics 365 Commerce.
+توفر هذه المقالة إجابات للأسئلة المتداولة حول Microsoft Dynamics 365 Commerce [كتالوجات الأعمال (B2B)](catalogs-b2b-sites.md).
 
-## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>لماذا لا يمكنني تكوين تدرج هرمي للتنقل خاص بالكتالوج أو رؤية خيار لإقران التدرج الهرمي للعميل؟
+### <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>لماذا لا يمكنني تكوين تدرج هرمي للتنقل خاص بالكتالوج أو رؤية خيار لإقران التدرج الهرمي للعميل؟
 
-تأكد من تمكين الميزة **تمكين استخدام كتالوجات متعددة على قنوات البيع بالتجزئة** في مساحة عمل **إدارة الميزات** في Commerce Headquarters. علاوةً على ذلك، تأكد من أن بيئتك تستخدم الإصدار 10.0.27 أو الإصدار الأحدث من Commerce.
+تأكد من **تمكين ميزة تمكين استخدام كتالوجات متعددة على قنوات البيع بالتجزئة** في مساحة عمل **إدارة ميزات** Commerce headquarters وأن بيئتك هي الإصدار التجاري 10.0.27 أو إصدار لاحق. تأكد من تحديد **B2B** ضمن **نوع الكتالوج**.
 
-## <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>هل يمكنني عرض التدرج الهرمي الخاص بالكتالوج وإثراء صفحات الفئات في منشئ الموقع في Commerce؟
+### <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>هل يمكنني عرض التدرج الهرمي الخاص بالكتالوج وإثراء صفحات الفئات في منشئ الموقع في Commerce؟
 
 نعم، بإمكان مستخدمي منشئ الموقع في Commerce الذين يمكنهم الوصول إلى صفحة **المنتجات** في منشئ الموقع تحديد كتالوج وعرض التدرج الهرمي الخاص بالكتالوج. من صفحة **المنتجات**، بإمكان المستخدمين أيضًا إثراء صفحة الفئة لفئة معينة في الكتالوج. لمزيد من المعلومات، راجع [تحسين الصفحة المتنقل إليها لفئة](enrich-category-page.md). إذا أردت ان يكون لديك إثراء خاص بأحد الكتالوجات، فن المستحسن أن يكون لديك تدرج هرمي فريد ومميز للتنقل لهذا الكتالوج.
 
-## <a name="can-a-b2b-shopper-purchase-from-multiple-catalogs-in-a-single-checkout"></a>هل يمكن لمتسوق B2B الشراء من كتالوجات متعددة في عملية سداد وخروج واحدة؟
+### <a name="can-a-b2b-shopper-purchase-from-multiple-catalogs-in-a-single-checkout"></a>هل يمكن لمتسوق B2B الشراء من كتالوجات متعددة في عملية سداد وخروج واحدة؟
 
 نعم، عمليات الشراء من كتالوجات متعددة في عملية سداد وخروج واحدة مسموحة. بإمكان متسوقي B2B استخدام مؤشر الكتالوج في طريقة عرض سلة التسوق لتحديد الأصناف التي تمت اضافتها من الكتالوجات.
 
-## <a name="if-a-b2b-shopper-purchases-the-same-item-from-different-catalogs-what-is-the-expected-behavior"></a>إذا قام متسوق B2B بشراء نفس الصنف من كتالوجات مختلفة، ما هو السلوك المتوقع؟
+### <a name="if-a-b2b-shopper-purchases-the-same-item-from-different-catalogs-what-is-the-expected-behavior"></a>إذا قام متسوق B2B بشراء نفس الصنف من كتالوجات مختلفة، ما هو السلوك المتوقع؟
 
 على الرغم من أن مستخدمًا معينًا قد يكون لديه حق الوصول إلى كتالوجات متعددة في وقت معين، إلا أن التوقع هو أن المنتجات في تلك الكتالوجات ستكون حصرية بشكل متبادل. بعبارة أخرى، من الناحية المثالية، يجب ألا يكون المنتج نفسه جزءًا من أكثر من كتالوج واحد لمستخدم معين.
 
 ومع ذلك، إذا نشأت حالة حيث ينتمي نفس المنتج إلى كتالوجات متعددة، فسيحتفظ النظام ببنود سلة تسوق متعددة لهذا المنتج. سيكون هناك بند منفصل لكل كتالوج. لن يتم دمج نفس المنتج من كتالوجين مختلفين عند السداد والخروج.
 
-## <a name="when-a-b2b-shopper-is-shopping-is-there-any-validation-for-catalog-availability"></a>عندما يقوم متسوق B2B بالشراء، هل هناك أي عملية تحقق من صحة توافر الكتالوج؟
+### <a name="when-a-b2b-shopper-is-shopping-is-there-any-validation-for-catalog-availability"></a>عندما يقوم متسوق B2B بالشراء، هل هناك أي عملية تحقق من صحة توافر الكتالوج؟
 
 نعم. سيتم السماح لمتسوق B2B بالمتابعة مع السدادة والخرود فقط إذا كانت كافة الأصناف الموجودة في سلة التسوق من كتالوجات صالحة. في حال وجود أي أصناف في سلة التسوق منتهية الصلاحية أو مسحوبة الصلاحية، فستتم إزالتها، وسيتم إخطار المستخدم.
 
-## <a name="during-the-shopping-experience-are-search-and-product-discovery-including-related-and-recommended-product-collections-catalog-specific"></a>أثناء تجربة التسوق، هل البحث عن المنتجات واكتشافها (بما في ذلك مجموعات المنتجات ذات الصلة والموصى بها) يتعلق بالكتالوج؟
+### <a name="during-the-shopping-experience-are-search-and-product-discovery-including-related-and-recommended-product-collections-catalog-specific"></a>أثناء تجربة التسوق، هل البحث عن المنتجات واكتشافها (بما في ذلك مجموعات المنتجات ذات الصلة والموصى بها) يتعلق بالكتالوج؟
 
 نعم. بمجرد أن يختار المستخدم كتالوجًا معينًا، تصبح رحلة التسوق بأكملها خاصة بالكتالوج. تتضمن هذه الرحلة تجارب اكتشاف المنتجات مثل اقتراحات البحث ونتائج البحث ونتائج الفئات والمدققات والتسعير والسمات والمنتجات الموصى بها (مثل المنتجات الجديدة والأكثر مبيعًا والموجودة والتي يتم شراؤها معًا بشكل متكرر والمنتجات ذات الصلة).
 
-## <a name="can-a-b2b-shopper-purchase-from-the-default-assortment-catalogid0"></a>هل يمكن لمتسوق B2B الشراء من التشكيلة الافتراضية (catalogID=0)؟
+### <a name="can-a-b2b-shopper-purchase-from-the-default-assortment-catalogid0"></a>هل يمكن لمتسوق B2B الشراء من التشكيلة الافتراضية (catalogID=0)؟
 
 لا، لا يسمح لمتسوق B2B الشراء من التشكيلة الافتراضية. هذه التشكيلة مخصصة فقط للاستعراض المجهول الهوية. إذا كان متسوق B2B يفتقد تعيينات الكتالوج (تحديثات معلقة من قبل الإدارة)، فلن يتمكن من رؤية أي كتالوجات يمكنه الاختيار منها، ولن يكون أي تدرج هرمي للفئات مرئيًا.
 
-## <a name="can-marketing-content-be-curated-for-a-product-that-is-specific-to-a-catalog"></a>هل يمكن تنظيم المحتوي التسويقي لمنتج خاص بكتالوج؟
+### <a name="can-marketing-content-be-curated-for-a-product-that-is-specific-to-a-catalog"></a>هل يمكن تنظيم المحتوي التسويقي لمنتج خاص بكتالوج؟
 
-في الوقت الحالي، إثراء المنتجات مدعوم على مستويات الموقع والقناة فقط. بمعنى آخر، إذا تم إثراء المنتج، فستتم مشاركته عبر كتالوجات متعددة، وسيتم عرض صفحة تفاصيل المنتج (PDP) المقابلة لهذا المنتج بنفس الطريقة عبر جميع الكتالوجات لموقع معين.
+حاليًا، يتم دعم إثراء المنتج على مستوى الموقع والقناة فقط. بمعنى آخر، إذا تم إثراء المنتج ومشاركته عبر كتالوجات متعددة، فسيتم تقديم صفحة تفاصيل المنتج الغنية المقابلة (PDP) لهذا المنتج بنفس الطريقة عبر جميع الكتالوجات الخاصة بموقع معين. 
 
-## <a name="is-catalog-support-available-for-both-b2b-and-business-to-consumer-b2c-online-channels"></a>هل يتوفر دعم الكتالوج لكل من القنوات عبر الإنترنت بين الشركات B2B والعمل-المستهلك (B2C)؟
+### <a name="is-catalog-support-available-for-both-b2b-and-business-to-consumer-b2c-online-channels"></a>هل يتوفر دعم الكتالوج لكل من القنوات عبر الإنترنت بين الشركات B2B والعمل-المستهلك (B2C)؟
 
-في الوقت الحال، كتالوجات Commerce مخصصة للعمل مع قنوات B2B فقط.
+في الوقت الحالي، تهدف كتالوجات التجارة إلى العمل مع قنوات B2B عبر الإنترنت فقط.
 
-## <a name="can-we-set-up-catalog-specific-upsellcross-sell-items"></a>هل يمكننا إعداد البيع التكميلي والبيع الإضافي للأصناف الخاصة بالكتالوج؟
+### <a name="a-new-customer-was-added-to-the-customer-hierarchy-or-a-new-hierarchy-was-associated-with-the-catalog-but-the-catalog-is-not-available-to-the-user-why"></a>تمت إضافة عميل جديد إلى التدرج الهرمي للعميل أو تم إقران تدرج هرمي جديد بالفهرس، لكن الكتالوج غير متاح للمستخدم. ما السبب؟
+
+تأكد من تشغيل **1010** وظيفة بعد ربط العميل الجديد بالتدرج الهرمي للعملاء الحاليين، وعند إنشاء التدرج الهرمي الجديد للعملاء. لن تكون الكتالوجات المرتبطة بالتدرج الهرمي للعملاء مرئية إلا بعد اكتمال مهمة **1010** بنجاح. إذا كان الكتالوج جديدًا أيضًا، فتأكد من تشغيل وظيفة **1150** (كتالوج) بالإضافة إلى **1010** وظيفة. كما هو الحال مع أي كتالوج جديد، اترك بعض الوقت لمزامنة البيانات مع القناة وفهرس البحث. إذا كانت حالة الوظيفة "مطبقة"، فهذا يعني أنه تتم مزامنة البيانات مع قاعدة بيانات القناة، ولكن يلزم وقت إضافي لمزامنة البيانات مع فهرس البحث. 
+
+### <a name="can-we-set-up-catalog-specific-upsellcross-sell-items"></a>هل يمكننا إعداد البيع التكميلي والبيع الإضافي للأصناف الخاصة بالكتالوج؟
 
 في الوقت الحالي، يتم دعم وظائف المنتجات ذات الصلة فقط. ومع ذلك، فإن تكوينات البيع التكميلي والبيع الإضافي للأصناف متوفرة لمركز الاتصال.
 
@@ -74,12 +78,14 @@ ms.locfileid: "9027358"
 - جداول عمليات الدفع
 - منتجات مجانية قائمة على أكواد المصدر
 
-## <a name="can-we-use-catalog-source-codes-for-b2b-orders-through-the-e-commerce-portal"></a>هل يمكننا استخدام أكواد مصدر الكتالوج لأوامر B2B من خلال مدخل التجارة الإلكترونية؟
+### <a name="can-we-use-catalog-source-codes-for-b2b-orders-through-the-e-commerce-portal"></a>هل يمكننا استخدام أكواد مصدر الكتالوج لأوامر B2B من خلال مدخل التجارة الإلكترونية؟
 
 الرقم يتم دعم أكواد المصدر للكتالوج فقط من أجل قنوات مركز الاتصال.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 [إنشاء كتالوجات Commerce لمواقع B2B](catalogs-b2b-sites.md)
+
+[وحدة منتقي الكتالوج](catalog-picker.md)
 
 [تأثير قابلية توسعة كتالوجات Commerce لعمليات تخصيص B2B](catalogs-b2b-sites-dev.md)

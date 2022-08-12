@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: b69d26ee8abaa403f6a0ef3b03d9015fe507dd5b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6a518003f8624ef05ac86be1b963c3f916420278
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873945"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167562"
 ---
 # <a name="container-activities-entity"></a>كيان أنشطة الحاويات
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!-- KFM: Preview until GA with 10.0.28 -->
 
 تُستخدم أنشطة الحاويات لتتبع تقدم حاويات الشحن. يتم إنشاء سجل لكل جزء تم تعيينه لقالب الرحلة الذي تم تحديده في وقت إنشاء حاوية الشحن. يتم أيضًا إنشاء السجلات عند إنشاء حاوية الشحن عبر كيان بيانات.
 

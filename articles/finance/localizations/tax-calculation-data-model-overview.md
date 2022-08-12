@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859684"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068837"
 ---
 # <a name="tax-calculation-data-model"></a>نموذج بيانات حساب الضريبة
 
@@ -134,3 +134,4 @@ ms.locfileid: "8859684"
 | الوحدة                          | <ul><li>**أمر المبيعات:** الوحدة</li><li>**أمر الشراء:** الوحدة</li><li>**أمر التحويل - الشحن:** الوحدة</li><li>**أمر التحويل - الاستلام:** الوحدة</li><li>**طلب الشراء:** الوحدة</li><li>**طلب عرض الأسعار:** الوحدة</li><li>**عرض أسعار المبيعات:** الوحدة</li></ul> |
 | رقم المتغير                | <ul><li>**أمر المبيعات:** رقم المتغير</li><li>**أمر الشراء:** رقم المتغير</li><li>**عرض أسعار المبيعات:** رقم المتغير</li></ul> |
 | المستودع                     | <ul><li>**أمر المبيعات:**<ol><li>البند &gt; المستودع</li><li>المنتج &gt; المستودع</li></ol></li><li>**أمر الشراء:**<ol><li>البند &gt; المستودع</li><li>المنتج &gt; المستودع</li></ol></li><li>**أمر تحويل - شحن:** من المستودع</li><li>**أمر تحويل - استلام:** إلى المستودع</li><li>**طلب الشراء:** البند &gt; المستودع</li><li>**طلب عرض الأسعار:** البند &gt; المستودع</li><li>**عرض أسعار المبيعات:**<ol><li>البند &gt; المستودع</li><li>المنتج &gt; المستودع</li></ol></li></ul> |
+

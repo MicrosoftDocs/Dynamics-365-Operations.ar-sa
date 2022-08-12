@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898358"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124183"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
@@ -98,7 +98,7 @@ ms.locfileid: "8898358"
 
 ودليل المهمة عبارة عن خبرة إرشادية تفاعلية محكومة وموجهة تقودك خلال الخطوات الخاصة بمهمة أو عملية أعمال. ويمكنك فتح (تشغيل) دليل مهمة من جزء **المساعدة**. وعند تحديد دليل مهمة أولاً، سيعرض جزء **التعليمات** تعليمات خطوة بخطوة للمهمة. دلائل المهام المترجمة متوفرة.
 
-أصدرت Microsoft مكتبات دلائل مهام لإصدارات المنتجات من خلال إصدار ديسمبر 2017 من Dynamics 365 for Finance and Operations. يوضح قسم [الوصول إلى دلائل المهام من جزء التعليمات](#accessing-task-guides-from-the-help-pane) في هذه المقالة كيفية البحث عن دلائل المهام الصحيحة لمنتجك.
+أصدرت Microsoft مكتبات دليل المهام لإصدارات المنتجات حتى إصدار ديسمبر 2017 من Dynamics 365 Finance and Operations. يوضح قسم [الوصول إلى دلائل المهام من جزء التعليمات](#accessing-task-guides-from-the-help-pane) في هذه المقالة كيفية البحث عن دلائل المهام الصحيحة لمنتجك.
 
 ![طريقة عرض قراءة دليل المهام.](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ On the **System parameters** page, follow these steps:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
