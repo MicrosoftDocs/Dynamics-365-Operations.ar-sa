@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065453"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220046"
 ---
 # <a name="warehouse-location-status"></a>حالة موقع المستودع
 
@@ -42,10 +42,7 @@ ms.locfileid: "9065453"
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>تشغيل ميزة حالة موقع المستودع
 
-قبل أن تتمكن من استخدام ميزة *حالة موقع المستودع*، يجب تشغيلها في النظام الخاص بك. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *تشغيل ميزة حالة موقع المستودع*
+قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *حالة موقع المستودع* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>إعداد حالة موقع المستودع
 
@@ -55,7 +52,7 @@ ms.locfileid: "9065453"
 
 #### <a name="use-the-usmf-legal-entity"></a>استخدام الكيان القانوني USMF
 
-للعمل بسيناريو المثال هذا باستخدام السجلات والقيم النموذجية المحددة هنا، يجب أن تكون في نظام تم فيه تثبيت [بيانات العرض التوضيحي](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) القياسية. بالإضافة إلى ذلك، يجب أن تحدد الكيان القانوني **USMF** قبل البدء.
+للعمل بسيناريو المثال هذا باستخدام السجلات والقيم النموذجية المحددة هنا، يجب أن تكون في نظام تم فيه تثبيت [بيانات العرض التوضيحي](../../fin-ops-core/fin-ops/get-started/demo-data.md) القياسية. بالإضافة إلى ذلك، يجب أن تحدد الكيان القانوني **USMF** قبل البدء.
 
 #### <a name="set-up-location-profiles"></a>إعداد ملفات تعريف الموقع
 

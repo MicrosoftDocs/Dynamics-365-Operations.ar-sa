@@ -1,24 +1,26 @@
 ---
 title: تصميم تكوين تقارير إلكترونية (ER) جديد لإنشاء تقارير بتنسيق Word
 description: تشرح هذه المقالة كيفية قيام المستخدمين بتكوين تنسيق التقارير الإلكترونية الجديد لإنشاء تقارير بتنسيق مستندات Microsoft Word.
-author: NickSelin
+author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: caf87659ca4ceb7b25aa43e09893d2a0ef014884
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893001"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273327"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>تصميم تكوين ER جديد لإنشاء تقارير بتنسيق Word
 
@@ -35,7 +37,7 @@ ms.locfileid: "8893001"
 
 ![إنشاء تكوين تنسيق مخصص في الصفحة تكوينات.](./media/er-design-configuration-word-image2.gif)
 
-يجب ان يحتوي مكون التنسيق الخاص بالحل علي عنصر تنسيق **ملف\\Excel**، ويجب ان يكون عنصر التنسيق هذا مرتبطا بمستند Word الذي سيتم استخدامه كقالب للتقارير التي تم إنشاؤها في وقت التشغيل. لتكوين مكون التنسيق الخاص بـ ER، يجب [فتح ](general-electronic-reporting.md#component-versioning)الإصدار التمهيدي لتكوين ER الذي تم إنشاؤه في مصمم التنسيق الخاص بـ ER. ثم قم باضافه عنصر **ملف\\Excel**، وقم بإرفاق قالب Word الخاص بك بتنسيق ER القابل للتحرير، ثم قم بربط هذا القالب بعنصر **ملف\\Excel** الذي قمت بإضافته.
+يجب ان يحتوي مكون التنسيق الخاص بالحل علي عنصر تنسيق **ملف\\Excel**، ويجب ان يكون عنصر التنسيق هذا مرتبطا بمستند Word الذي سيتم استخدامه كقالب للتقارير التي تم إنشاؤها في وقت التشغيل. لتكوين مكون التنسيق الخاص بـ ER، يجب فتح الإصدار التمهيدي لتكوين ER الذي تم إنشاؤه في مصمم التنسيق الخاص بـ ER. ثم قم باضافه عنصر **ملف\\Excel**، وقم بإرفاق قالب Word الخاص بك بتنسيق ER القابل للتحرير، ثم قم بربط هذا القالب بعنصر **ملف\\Excel** الذي قمت بإضافته.
 
 > [!NOTE]
 > عندما تقوم بإرفاق قالب يدويًا، يجب عليك استخدام [نوع مستند](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) تم [تكوينه](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) لهذا الغرض في معلمات ER.

@@ -1,28 +1,26 @@
 ---
 title: ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
 description: توضح هذه المقالة كيفية تعديل تنسيق التقارير الإلكترونية (ER) المقدمة من Microsoft بحيث تقوم بإنشاء مستند إلكتروني مخصص.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886780"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283547"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>ضبط تنسيق التقارير الإلكترونية (ER) لإنشاء مستند إلكتروني مخصص
 
@@ -271,7 +269,7 @@ ms.locfileid: "8886780"
 
 6. حدد **إنشاء التكوين**.
 
-يتم إنشاء الإصدار 1.1.1 من تكوين تنسيق ER **BACS (UK مخصص)**. هذا الإصدار [بالحالة](general-electronic-reporting.md#component-versioning) **مسودة** ويمكن تحريره. يطابق المحتوي الحالي لتنسيق ER الخاص بك محتوي التنسيق الذي توفره Microsoft.
+يتم إنشاء الإصدار 1.1.1 من تكوين تنسيق ER **BACS (UK مخصص)**. هذا الإصدار لديه حالة **مسودة** ويمكن تحريره. يطابق المحتوي الحالي لتنسيق ER الخاص بك محتوي التنسيق الذي توفره Microsoft.
 
 ![صفحة التكوين بالإصدار 1.1.1 من تكوين تنسيق ER BACS (UK مخصص).](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ ms.locfileid: "8886780"
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>تعليم تنسيق مخصص على أنه قابل للتشغيل
 
-والآن بعد أن تم إنشاء الإصدار الأول من التنسيق المخصص وأصبح بالحالة **مسودة**، يمكنك تشغيله لأغراض الاختبار. لتشغيل التقرير، يجب عليك معالجة دفع المورد باستخدام طريقة الدفع التي تشير إلى تنسيق ER المخصص. افتراضيًا، عندما تستدعي أحد تنسيقات ER من التطبيق، يتم فقط استخدام الإصدارات التي بالحالة **مكتمل** أو **مشترك** والتي تتم [مراعاتها](general-electronic-reporting.md#component-versioning). يساعد هذا السلوك في منع استخدام تنسيقات ER التي لها تصميمات غير مكتملة. مع ذلك، بالنسبة لتشغيل الاختبارات الخاصة بك، يمكنك إجبار التطبيق على استخدام إصدار تنسيق ER بالحالة **مسودة**. وبهذه الطريقة، يمكنك تعديل إصدار التنسيق الحالي إذا كانت هناك أية تعديلات مطلوبة. لمزيد من المعلومات، راجع [قابلية التطبيق‬](electronic-reporting-destinations.md#applicability).
+والآن بعد أن تم إنشاء الإصدار الأول من التنسيق المخصص وأصبح بالحالة **مسودة**، يمكنك تشغيله لأغراض الاختبار. لتشغيل التقرير، يجب عليك معالجة دفع المورد باستخدام طريقة الدفع التي تشير إلى تنسيق ER المخصص. بشكل افتراضي ، عند استدعاء تنسيق التقارير الإلكترونية من التطبيق ، فإن الإصدارات التي لها حالة **مكتمل** أو **مشترك** مأخوذة في عين الإعتبار. يساعد هذا السلوك في منع استخدام تنسيقات ER التي لها تصميمات غير مكتملة. مع ذلك، بالنسبة لتشغيل الاختبارات الخاصة بك، يمكنك إجبار التطبيق على استخدام إصدار تنسيق ER بالحالة **مسودة**. وبهذه الطريقة، يمكنك تعديل إصدار التنسيق الحالي إذا كانت هناك أية تعديلات مطلوبة. لمزيد من المعلومات، راجع [قابلية التطبيق‬](electronic-reporting-destinations.md#applicability).
 
 لاستخدام إصدار المسودة لتنسيق ER، يجب وضع علامة بوضوح على تنسيق ER.
 

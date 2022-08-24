@@ -1,24 +1,24 @@
 ---
 title: أداره تعيينات مشتقه متعددة لجذر نموذج واحد
 description: توضح هذه المقالة كيفية إدارة العديد من التعيينات المشتقة التي تم تكوينها لجذر نموذج واحد.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892468"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277497"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>أداره تعيينات مشتقه متعددة لجذر نموذج واحد
 
@@ -106,7 +106,7 @@ ms.locfileid: "8892468"
 3. في مربع الحوار المنسدل **إنشاء تكوين**، في مجموعه الحقل **جديد**، حدد **الاشتقاق من الاسم: تعييين نموذج الفاتورة، Microsoft**.
 4. في الحقل **الاسم**، أدخل **تعيين نموذج الفاتورة Litware**.
 5. حدد **إنشاء التكوين**.
-6. [قم بوضع علامة علي إصدار ](er-quick-start2-customize-report.md#MarkFormatRunnable)[المسودة](general-electronic-reporting.md#component-versioning) للتعيين المشتق كمتوفر للاستخدام في وقت التشغيل:
+6. [قم بوضع علامة علي إصدار ](er-quick-start2-customize-report.md#MarkFormatRunnable)[المسودة](general-electronic-reporting.md) للتعيين المشتق كمتوفر للاستخدام في وقت التشغيل:
 
     1. في جزء الإجراءات، على علامة تبويب **التكوينات**، في المجموعة **الإعدادات المتقدمة**، حدد **معلمات المستخدم**.
     2. في مربع الحوار **معلمات المستخدم**، قم بتعيين خيارات **إعدادات التشغيل** إلى **نعم**، ثم حدد **موافق**.

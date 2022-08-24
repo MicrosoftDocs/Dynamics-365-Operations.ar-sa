@@ -1,26 +1,26 @@
 ---
 title: فحص مكون التقارير الإلكترونية الذي تم تكوينه لمنع مشكلات وقت التشغيل
 description: توضح هذه المقالة كيفية فحص مكونات التقارير الإلكترونية (ER) المكونة لمنع مشكلات وقت التشغيل التي قد تحدث.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864825"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277839"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>فحص مكون التقارير الإلكترونية الذي تم تكوينه لمنع مشكلات وقت التشغيل
 
@@ -30,8 +30,8 @@ ms.locfileid: "8864825"
 
 بشكل افتراضي، يتم تطبيق التحقق تلقائيًا في الحالات التالية لتكوين التقارير الإلكترونية الذي يحتوي على مكونات التقارير الإلكترونية المذكورة سابقًا:
 
-- يمكنك [استيراد](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) إصدار [جديد](general-electronic-reporting.md#component-versioning) من تكوين التقارير الإلكترونية إلى مثيل 365 Finance Microsoft Dynamics.
-- وتقوم بتغيير [حالة](general-electronic-reporting.md#component-versioning) تكوين التقارير الإلكتروني القابل للتحرير من **مسودة** إلى **مكتمل**.
+- يمكنك [استيراد](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally)إصدار جديد من تكوين إعداد التقارير الإلكترونية في مثيل Microsoft Dynamics 365 Finance.
+- يمكنك تغيير حالة تكوين التقارير الإلكترونية القابل للتحرير من **مسودة‏‎** إلى **مكتمل**.
 - يمكنك [إعادة تعريف](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) تكوين تقارير إلكترونية قابل للتحرير عن طريق استخدام إصدار أساسي جديد.
 
 يمكنك تشغيل هذا التحقق بشكل صريح. حدد أحد الخيارات الثلاثة التالية، واتبع الخطوات المتوفرة:
@@ -770,7 +770,7 @@ ms.locfileid: "8864825"
 
 ## <a name="not-linked-template"></a><a id="i12"></a>قالب غير مرتبط
 
-عند قيامك [يدويًا](er-fillable-excel.md#manual-entry) بتكوين مكون التنسيق الخاص بالتقارير الإلكترونية لاستخدام قالب لإنشاء مستند صادر، يجب عليك إضافة عنصر **ملف\\Excel**، وأضف القالب المطلوب كمرفق للمكون القابل للتحرير، وحدد ذلك المرفق في عنصر **ملف\\Excel**. بهذه الطريقة، تشير إلى أن العنصر المضاف سوف يملأ القالب المحدد في وقت التشغيل. عند تكوين إصدار مكون تنسيق **بالحالة** [مسودة](general-electronic-reporting.md#component-versioning)، يمكنك إضافة عدة قوالب إلى المكون القابل للتحرير ثم تحديد كل قالب في عنصر **ملف\\Excel** لتشغيل تنسيق التقارير الإلكترونية (ER). وبهذه الطريقة، يمكنك مشاهده كيفيه تعبئة القوالب المختلفة في وقت التشغيل. إذا كان لديك قوالب غير محددة في أي عنصر من عناصر **ملف\\Excel**، يقوم مصمم تنسيق التقارير الإلكترونية بتحذيرك بأن هذه القوالب سيتم حذفها من إصدار مكون التنسيق القابل للتحرير للتقارير الإلكترونية عند تغيير حالتها من **مسودة** إلى **مكتملة**.
+عند قيامك [يدويًا](er-fillable-excel.md#manual-entry) بتكوين مكون التنسيق الخاص بالتقارير الإلكترونية لاستخدام قالب لإنشاء مستند صادر، يجب عليك إضافة عنصر **ملف\\Excel**، وأضف القالب المطلوب كمرفق للمكون القابل للتحرير، وحدد ذلك المرفق في عنصر **ملف\\Excel**. بهذه الطريقة، تشير إلى أن العنصر المضاف سوف يملأ القالب المحدد في وقت التشغيل. عند تكوين إصدار مكون التنسيق بتنسيق **مسودة** الحالة ، يمكنك إضافة عدة قوالب إلى المكون القابل للتحرير ثم تحديد كل قالب في ملف **Excel\\ملف** عنصر لتشغيل تنسيق التقارير الإلكترونية. وبهذه الطريقة، يمكنك مشاهده كيفيه تعبئة القوالب المختلفة في وقت التشغيل. إذا كان لديك قوالب غير محددة في أي عنصر من عناصر **ملف\\Excel**، يقوم مصمم تنسيق التقارير الإلكترونية بتحذيرك بأن هذه القوالب سيتم حذفها من إصدار مكون التنسيق القابل للتحرير للتقارير الإلكترونية عند تغيير حالتها من **مسودة** إلى **مكتملة**.
 
 توضح الخطوات التالية كيفيه حدوث هذه المشكلة.
 

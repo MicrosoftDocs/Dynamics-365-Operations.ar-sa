@@ -2,7 +2,7 @@
 title: ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 description: توفر هذه المقالة الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068911"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219557"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ ms.locfileid: "9068911"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.29 من Finance
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>أوامر تحويل المخزون التي تخضع لضريبة على سعر التحويل
+
+[أوامر تحويل المخزون التي تخضع لضريبة على سعر التحويل](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **سبب الإهلاك/الإزالة** | تم استبداله بوظائف محسنه ، وهي [أوامر تحويل المخزون للهند.](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة** | استمارة التقديم |
+| **خيارات النشر** | ‏‏الكل‬ |
+| **Status** | مهمل: بعد 2023 ابريل ، **لن تتلقي أوامر تحويل المخزون التي تحتوي علي ضريبة في وظيفة سعر** التحويل بعد الآن استقبال الدعم مع إصلاحات الأخطاء وإصلاحات الأمان. سيطلب من العملاء استخدام الوظائف المحسنة ، وهي [أوامر تحويل المخزون للهند](../../finance/localizations/apac-ind-stock-transfer.md). بعد 2023 أكتوبر ، لن تكون أوامر تحويل المخزون **التي تحتوي علي ضريبة في وظيفة سعر** التحويل متوفرة ، ستتم مطالبه العملاء بالانتقال إلى الوظيفة المحسنة. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.26 من Finance
 

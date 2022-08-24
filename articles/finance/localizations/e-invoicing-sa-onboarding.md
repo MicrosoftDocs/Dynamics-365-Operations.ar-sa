@@ -1,26 +1,26 @@
 ---
 title: إعداد الفواتير الإلكترونية في المملكة العربية السعودية
 description: تشرح هذه المقالة كيفية إشراك دافعي الضرائب وبرامج الفواتير الإلكترونية الخاصة بهم مع سلطات الضرائب في المملكة العربية السعودية.
-author: ilkond
+author: mrolecki
 ms.date: 06/30/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Saudi Arabia
-ms.author: janeaug
+ms.author: mrolecki
 ms.search.validFrom: 2022-07-15
 ms.dyn365.ops.version: AX 10.0.28
-ms.openlocfilehash: 0396670c672773a3e37f0996019ea1145f41ca9e
-ms.sourcegitcommit: ccaeb71c49cd15be472a3fb1c55fc655e133dc29
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 8b426bc5fb40e76b816d0c9e0ba8295b1022ed0e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "9127994"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277284"
 ---
 # <a name="electronic-invoicing-onboarding-in-saudi-arabia"></a>إعداد الفواتير الإلكترونية في المملكة العربية السعودية
 

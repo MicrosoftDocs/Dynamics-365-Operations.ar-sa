@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: c54534ae32aa037f36a16600a058bca6d433002c
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167720"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219083"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.25 (أبريل 2022)
 
@@ -34,7 +34,7 @@ ms.locfileid: "9167720"
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
 | المخزون&nbsp;و&nbsp;اللوجستيات | [تحسينات المواد الخطرة](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/hazardous-materials-enhancements) | قريبًا | إدارة الميزات:<br>*تحسينات المواد الخطرة* |
-| المخزون&nbsp;و&nbsp;اللوجستيات | [أعمال التعبئة لمحطات التعبئة](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | قريبًا | إدارة الميزات:<br>*أعمال التعبئة لمحطات التعبئة* |
+| المخزون&nbsp;و&nbsp;اللوجستيات | [أعمال التعبئة لمحطات التعبئة](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/packing-work-packing-stations) | [اعمال التعبئة لحزم الحاويات الخارجية ومعالجه شحنات](../warehousing/packing-work.md) | إدارة الميزات:<br>*أعمال التعبئة لمحطات التعبئة* |
 | المخزون&nbsp;و&nbsp;اللوجستيات | [مسح الرموز الشريطية في المستودع باستخدام معايير تنسيق GS1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [الأكواد الشريطية GS1 ورموز الاستجابة السريعة (QR)](../warehousing/gs1-barcodes.md) | إدارة الميزات:<br>*مسح رموز GS1 الشريطية* |
 | التصنيع | [استهلاك المواد وإجراء الحجوزات في واجهة تنفيذ منطقة الإنتاج](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/material-consumption-reservations-production-floor-execution-interface) | [طريقة استخدام العمال لواجهة تنفيذ طابق الإنتاج](../production-control/production-floor-execution-use.md) | إدارة الميزات:<br>*تسجيل استهلاك المواد في واجهة تنفيذ أرضية الإنتاج (خلاف WMS)*<br><br>و/أو:<br><br>إدارة الميزات:<br>*(إصدار أولي) تسجيل استهلاك المواد على واجهة تنفيذ طابق الإنتاج (تمكين WMS)* |
 | التخطيط | [صيانة تقويم تحسين التخطيط المركزي](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-centralized-calendar-maintenance) | [التقويمات والتخطيط الرئيسي](../master-planning/supply-chain-calendars-master-planning.md) | ممكّن بشكل افتراضي |

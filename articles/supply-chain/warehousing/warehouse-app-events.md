@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905443"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218731"
 ---
 # <a name="warehouse-app-event-processing"></a>معالجة حدث المستودع للتطبيق
 
@@ -28,7 +28,7 @@ ms.locfileid: "8905443"
 
 ## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>تشغيل ميزة معالجة أحداث تطبيق المستودع أو إيقاف تشغيلها
 
-اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *معالجة أحداث تطبيق المستودع‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management ، تعد هذه الميزة إلزامية. لذلك، يتم تشغيله افتراضيًا ولا يمكن إيقاف تشغيله مرة أخرى. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29 ، فيمكن للمسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها من خلال البحث عن ملف *معالجة أحداث تطبيق المستودع* الميزة في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) مساحة العمل.
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>اعداد مهمة دُفعة لمعالجه احداث التطبيق الخاص بالمستودع
 

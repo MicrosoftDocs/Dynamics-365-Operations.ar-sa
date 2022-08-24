@@ -1,26 +1,26 @@
 ---
 title: استخدام مصادر بيانات USER INPUT PARAMETER لتحديد المعلمات لتقرير
 description: توضح هذه المقالة كيفية استخدام مصادر بيانات محددة إدخال المستخدم لتحديد المعلمات للتقارير التي ترغب في إنشائها.
-author: NickSelin
+author: kfend
 ms.date: 04/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.27
-ms.openlocfilehash: 62b7a8173416a1d36a2985823d186a7a0e6a7e60
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: c6d0f1a0d9c5eb70a9812459a25d5b14407cce7a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872961"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278696"
 ---
 # <a name="use-user-input-parameter-data-sources-to-specify-parameters-for-a-report"></a>استخدام مصادر بيانات USER INPUT PARAMETER لتحديد المعلمات لتقرير
 

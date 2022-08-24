@@ -1,25 +1,25 @@
 ---
 title: قائمة وظائف التقارير الإلكترونية في فئة القائمة
 description: توفر هذه المقالة معلومات عن وظائف القائمة المعتمدة في التقارير الإلكترونية (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869044"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277681"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>قائمة وظائف التقارير الإلكترونية في فئة القائمة
 
@@ -47,6 +47,7 @@ ms.locfileid: "8869044"
 | [ListOfFields](er-functions-list-listoffields.md)         | تُرجع هذه الوظيفة قيمة *قائمة السجل* التي تم إنشاؤها بناءً على بنية الوسيطة المُحددة للنوع *التعداد* أو *الحاوية (السجل)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | تُرجع هذه الوظيفة قيمة *قائمة السجلات* التي تتكون فقط من السجل الأول للقائمة المُحددة.|
 | [OrderBy](er-functions-list-orderby.md)                   | تُرجع هذه الوظيفة القائمة المُحددة كقيمة *قائمة السجلات* بعد أن تم فرزها وفقًا للوسيطات المُحددة. يمكن تعريف الوسيطات التالية كعبارات. |
+| [تكرار](er-functions-list-repeat.md)                     | تقوم هذه الوظيفة بإنشاء سجل يحتوي على الحقل الذي يحتوي على قيمة تطابق الإدخال المحدد. ثم تقوم بإرجاع قائمه *سجلات جديده* لسجل يتكرر بعدد محدد من المرات. |
 | [عكس‬](er-functions-list-reverse.md)                   | تُرجع هذه الوظيفة القائمة المُحددة كقيمة *قائمة السجلات* في ترتيب فرز معكوس. |
 | [تقسيم](er-functions-list-split.md)                       | تقسم هذه الوظيفة سلسلة الإدخال المُحددة إلى سلاسل فرعية وتُرجع النتيجة كقيمة *قائمة سجلات* جديدة. |
 | [SplitList](er-functions-list-splitlist.md)               | تقسم هذه الوظيفة القائمة المُحددة إلى قوائم فرعية (أو دفعات)، تحتوي كل واحدة منها على العدد المُحدد من السجلات. ثم يقوم بإرجاع النتيجة كقيمة *قائمة سجلات* جديدة التي تتكون من الدفعات. |

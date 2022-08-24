@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 3dd9f4930303b1e3506e613d5437613138944430
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1017527419acc2e4cb42b2bcb83131339d82b665
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877294"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218871"
 ---
 # <a name="work-line-details"></a>تفاصيل بنود العمل
 
@@ -52,7 +52,7 @@ ms.locfileid: "8877294"
 
 ### <a name="make-sample-data-available"></a>جعل بيانات العينة متاحة
 
-للعمل بهذا التوضيح باستخدام السجلات والقيم النموذجية المحددة هنا، يجب أن تكون في نظام تم فيه تثبيت [بيانات العرض التوضيحي](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) القياسية. بالإضافة إلى ذلك، يجب أن تحدد الكيان القانوني **USMF** قبل البدء.
+للعمل بهذا التوضيح باستخدام السجلات والقيم النموذجية المحددة هنا، يجب أن تكون في نظام تم فيه تثبيت [بيانات العرض التوضيحي](../../fin-ops-core/fin-ops/get-started/demo-data.md) القياسية. بالإضافة إلى ذلك، يجب أن تحدد الكيان القانوني **USMF** قبل البدء.
 
 يمكنك أيضًا استخدام هذا العرض التوضيحي كإرشاد عند العمل في نظام إنتاج. مع ذلك، يجب استبدال القيم الخاصة بك، وقد تفقد بعض أنواع السجلات المطلوبة التي توفرها بيانات العرض التوضيحي القياسية.
 

@@ -1,26 +1,26 @@
 ---
 title: الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
 description: توفر هذه المقالة معلومات ستساعدك على بدء استخدام الفوترة الإلكترونية للمملكة العربية السعودية.
-author: ikondo
+author: mrolecki
 ms.date: 06/30/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.assetid: ''
 ms.search.region: Saudi Arabia
-ms.custom: intro-internal
-ms.author: ilyako
+ms.author: mrolecki
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 9c344d3a1f3e2dc066657feb9bb39087ba297483
-ms.sourcegitcommit: ccaeb71c49cd15be472a3fb1c55fc655e133dc29
+ms.custom: intro-internal
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: e72afb852d8edac9fc798f11498c721cd7cb6e3a
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "9127708"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272227"
 ---
 # <a name="get-started-with-electronic-invoicing-for-saudi-arabia"></a>الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907134"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219767"
 ---
 # <a name="gs1-bar-codes"></a>رموز شريط GS1
 
@@ -115,7 +115,7 @@ ms.locfileid: "8907134"
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>قم بتشغيل المحلل اللغوي المحسن لميزة الرموز الشريطية GS1
 
-إذا كنت تستخدم الرموز الشريطية لـ GS1، نوصيك بتمكين ميزة *المحلل اللغوي المحسّن لرموز GS1 الشريطية*. توفر هذه الميزة تنفيذًا محسنًا لمحلل الرمز الشريطي GS1. يضيف التحسينات التالية:
+إذا كنت تستخدم الرموز الشريطية لـ GS1، نوصيك بتشغيل ميزة *المحلل اللغوي المحسّن لرموز GS1 الشريطية*. توفر هذه الميزة تنفيذًا محسنًا لمحلل الرمز الشريطي GS1. يضيف التحسينات التالية:
 
 - وهو يتبع خوارزمية المواصفات العامة GS1 لتحليل بيانات الرمز ويتحقق من صحة البيانات الموجودة في الرمز وفقًا للمواصفات.
 - لا يتطلب منك إعداد قيمة **الحد الأقصى لطول المعرف** ويستخدم أطول بادئة مطابقة من معرفات التطبيقات التي تم تكوينها.

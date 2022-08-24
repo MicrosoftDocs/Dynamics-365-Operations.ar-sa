@@ -1,24 +1,24 @@
 ---
 title: الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
 description: توضح الخطوات الواردة في هذه المقالة كيف يمكن لمستخدم Regulatory configuration service ‎‎ تصميم تعيين جديد لنموذج التقارير الإلكترونية باستخدام بيانات التعريف.
-author: NickSelin
+author: kfend
 ms.date: 06/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b24d865bff0e81f79e7edde360fd5115d8637b42
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.search.form: ''
+ms.openlocfilehash: 1a935b96e247978fc2b2f9449d403c92bff35f17
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111220"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267861"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>الوصول إلى بيانات تعريف التطبيق باستخدام التطبيقات المتصلة
 

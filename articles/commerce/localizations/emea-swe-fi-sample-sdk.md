@@ -1,115 +1,188 @@
 ---
-title: إرشادات النشر لعينة تكامل وحدة التحكم في السويد (قديمة)
-description: يوفر هذا المقال إرشادات لنشر نموذج تكامل وحدة التحكم للسويد من Retail SDK
-author: EvgenyPopovMBS
-ms.date: 12/20/2021
-ms.topic: article
-audience: Application User, Developer, IT Pro
-ms.reviewer: v-chgriffin
-ms.search.region: Global
-ms.author: epopov
-ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 05a49de43282c449c7b99072d8ac3ac4a5f2a67f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a20971ac9a44c409363bbce6cd8b8343f16d800f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870537"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274195"
 ---
 # <a name="deployment-guidelines-for-the-control-unit-integration-sample-for-sweden-legacy"></a>إرشادات النشر لعينة تكامل وحدة التحكم في السويد (قديمة)
+---
 
-[!include [banner](../includes/banner.md)]
+العنوان: إرشادات النشر لعينة تكامل وحدة التحكم في السويد (قديمة) [!include [banner](../includes/banner.md)]
+الوصف: يوفر هذا المقال إرشادات لنشر نموذج تكامل وحدة التحكم للسويد من Retail SDK
 
-يوفر هذا المقال إرشادات لنشر نموذج تكامل وحدة التحكم للسويد من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK) على جهاز ظاهري للمطور (VM) في Microsoft Dynamics ‏Lifecycle Services ‏(LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل وحدة التحكم للسويد](emea-swe-fi-sample.md). 
+المؤلف: EvgenyPopovMBS يوفر هذا المقال إرشادات لنشر نموذج تكامل وحدة التحكم للسويد من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK) على جهاز ظاهري للمطور (VM) في Microsoft Dynamics ‏Lifecycle Services ‏(LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل وحدة التحكم للسويد](emea-swe-fi-sample.md). التاريخ: 12/20/2021
 
-تعد عينة التكامل المالي للسويد جزءًا من Retail SDK. للحصول على مزيد من المعلومات حول كيفية تثبيت واستخدام SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). يتكون هذا النموذج من ملحقات Commerce Runtime (CRT)، محطة الأجهزة ونقطة البيع (POS). لتشغيل هذا النموذج، يجب تعديل مشاريع CRT ومحطة الأجهزة ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Azure DevOps حيث لم يتم تغيير أي ملفات حتى الآن.
+العنوان: المقال، تعد عينة التكامل المالي للسويد جزءًا من Retail SDK. للحصول على مزيد من المعلومات حول كيفية تثبيت واستخدام SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). يتكون هذا النموذج من ملحقات Commerce Runtime (CRT)، محطة الأجهزة ونقطة البيع (POS). لتشغيل هذا النموذج، يجب تعديل مشاريع CRT ومحطة الأجهزة ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Azure DevOps حيث لم يتم تغيير أي ملفات حتى الآن.
+الجمهور: مستخدم التطبيق ، المطور ، محترف تكنولوجيا المعلومات
 
+المراجع: v-chgriffin
 ## <a name="development-environment"></a>بيئة التطوير
+منطقه البحث: عالمية
 
-اتبع هذه الخطوات لإعداد بيئة تطوير بحيث يمكنك اختبار العينة وتوسيعها.
+المؤلف: josaw، اتبع هذه الخطوات لإعداد بيئة تطوير بحيث يمكنك اختبار العينة وتوسيعها.
+البحث صالح من: 2019-03-01
 
 ### <a name="enable-crt-extensions"></a>تمكين ملحقات CRT
+---
+
 
 تم تضمين مكونات ملحق CRT في نماذج CRT. لإكمال الإجراءات التالية، افتح حل **CommerceRuntimeSamples.sln** ضمن **RetailSdk\\SampleExtensions\\CommerceRuntime**.
+2. قم بتمكين ملحق محطة الأجهزة النموذجية الحالية عن طريق إضافة السطر التالي إلى قسم **التأليف** في ملف تكوين **HardwareStation.Extension.config**.
+
 
 #### <a name="documentprovidercleancashsample-component"></a>مكون DocumentProvider.CleanCashSample
-
-1. ابحث عن مشروع **Runtime.Extensions.DocumentProvider.CleanCashSample**، وقم بإنشائه.
-2. في مجلد **Runtime.Extensions.DocumentProvider.CleanCashSample\\الحاوية\\التصحيح**، ابحث عن ملف التجميع **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll**.
-3. انسخ ملف التجميع إلى مجلد ملحقات CRT:
-
-    - **Commerce Scale Unit:** انسخ الملف إلى مجلد **\\bin\\ext** ضمن موقع Commerce Scale Unit لخدمات معلومات الإنترنت (IIS).
-    - **CRT المحلي على نقطة البيع الحديثة:** انسخ الملف إلى مجلد **\\ext** ضمن موقع وسيط عميل CRT المحلي.
-
-4. ابحث عن ملف تكوين الملحق لـ CRT:
-
-    - **Commerce Scale Unit:** تمت تسمية الملف باسم **commerceruntime.ext.config**، وهو موجود في مجلد **bin\\ext** ضمن موقع Commerce Scale Unit لخدمات معلومات الإنترنت (IIS).‬
-    - **CRT المحلي في نقطة البيع الحديثة:** تمت تسمية الملف باسم **CommerceRuntime.MPOSOffline.Ext.config**، وهو موجود ضمن موقع وسيط عميل CRT المحلي.
-
-5. قم بتسجيل تغيير CRT في ملف تكوين الملحق.
-
     ``` xml
+
+    <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
+1. ابحث عن مشروع **Runtime.Extensions.DocumentProvider.CleanCashSample**، وقم بإنشائه.
+    ```
+2. In the **Runtime.Extensions.DocumentProvider.CleanCashSample\\bin\\Debug** folder, find the **Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample.dll** assembly file.
+
+3. Copy the assembly file to the CRT extensions folder:
+3. Make the following changes in the **Customization.settings** package customization configuration file under the **BuildTools** folder:
+
+
+    - **Commerce Scale Unit:** Copy the file to the **\\bin\\ext** folder under the Internet Information Services (IIS) Commerce Scale Unit site location.
+    - Remove the following line to exclude the earlier Hardware station extension from deployable packages.
+    - **Local CRT on Modern POS:** Copy the file to the **\\ext** folder under the local CRT client broker location.
+
+
+        ``` xml
+4. Find the extension configuration file for CRT:
+        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
+
+        ```
+    - **Commerce Scale Unit:** The file is named **commerceruntime.ext.config**, and it's in the **bin\\ext** folder under the IIS Commerce Scale Unit site location.
+
+    - **Local CRT on Modern POS:** The file is named **CommerceRuntime.MPOSOffline.Ext.config**, and it's under the local CRT client broker location.
+    - Add the following lines to include the current sample Hardware station extension in deployable packages.
+
+
+5. Register the CRT change in the extension configuration file.
+        ``` xml
+
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
+    ``` xml
+        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
     <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.CleanCashSample" />
+        ```
     ```
 
+
+#### <a name="update-modern-pos"></a>تحديث نقطة البيع الحديثة
 #### <a name="extension-configuration-file"></a>ملف تكوين الملحق
 
+
+1. افتح حل **CloudPOS.sln** في **RetailSdk\\نقطة البيع**.
 1. ابحث عن ملف تكوين الملحق لـ CRT:
+2. تعطيل ملحق نقطة البيع السابقة:
+
 
     - **Commerce Scale Unit:** تمت تسمية الملف باسم **commerceruntime.ext.config**، وهو موجود في مجلد **bin\\ext** ضمن موقع Commerce Scale Unit لخدمات معلومات الإنترنت (IIS).‬
+    - في ملف **tsconfig.json**، أضف مجلد **FiscalRegisterSample** إلى قائمة الاستبعاد.
     - **CRT المحلي في نقطة البيع الحديثة:** تمت تسمية الملف باسم **CommerceRuntime.MPOSOffline.Ext.config**، وهو موجود ضمن موقع وسيط عميل CRT المحلي.
+    - قم بإزالة الأسطر التالية من ملف **extensions.json** ضمن مجلد **RetailSDK\\نقطة البيع\\الملحقات**.
+
 
 2. قم بتسجيل تغيير CRT في ملف تكوين الملحق.
+        ``` json
 
+        {
     ``` xml
+            "baseUrl": "FiscalRegisterSample"
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.ReceiptsSweden" />
+        }
     ```
+        ```
+
 
 ### <a name="enable-hardware-station-extensions"></a>تمكين ملحقات محطة الأجهزة
+3. قم بتمكين عينة محلق نقطة البيع الحالية عن طريق إضافة الأسطر التالية في ملف **extensions.json** ضمن مجلد **RetailSDK\\نقطة البيع\\الملحقات**.
+
 
 يتم تضمين مكونات توسيع محطة الأجهزة في عينات محطة الأجهزة. لإكمال الإجراءات التالية، افتح حل **HardwareStationSamples.sln** ضمن **RetailSdk\\SampleExtensions\\HardwareStation**.
+    ``` json
 
+    {
 #### <a name="cleancash-component"></a>مكون CleanCash
+        "extensionPackages": [
 
+            {
 1. ابحث عن مشروع **HardwareStation.Extension.CleanCashSample**، وقم بإنشائه.
+                "قيمة baseUrl": "Microsoft/AuditEvent.SE"
 2. في مجلد **Extension.CleanCashSample\\الحاوية\\التصحيح**، ابحث عن ملفات التجميع **Contoso.Commerce.HardwareStation.CleanCashSample.dll** و **Interop.CleanCash\_1\_1.dll**.
-3. انسخ ملفات التجميع إلى مجلد ملحقات محطة الأجهزة:
+            }
+3. انسخ ملفات التجميع إلى مجلد ملحقات محطة الأجهزة:      ]
 
+    }
     - **محطة الأجهزة المشتركة** انسخ الملفات إلى مجلد **الحاوية** ضمن موقع محطة أجهزة IIS.
-    - **محطة الأجهزة المخصصة لنقاط البيع الحديثة:** انسخ الملفات إلى موقع وسيط عميل نقاط البيع الحديثة.
+    ```
+    - **Dedicated hardware station on Modern POS:** Copy the files to the Modern POS client broker location.
 
-4. ابحث عن ملف تكوين الملحق لملحقات محطة الأجهزة. تمت تسمية الملف باسم **HardwareStation.Extension.config**.
 
-    - **محطة الأجهزة المشتركة:** الملف موجود ضمن مكان موقع محطة أجهزة IIS.
-    - **محطة الأجهزة المخصصة لنقاط البيع الحديثة:** الملف موجود ضمن موقع وسيط عميل نقاط البيع الحديثة.
+#### Update Cloud POS
+4. Find the extension configuration file for the Hardware station's extensions. The file is named **HardwareStation.Extension.config**.
 
-5. أضف السطر التالي إلى قسم **التأليف** في ملف التكوين.
+
+1. Open the **ModernPOS.sln** solution under **RetailSdk\\POS**.
+    - **Shared hardware station:** The file is under the IIS Hardware station site location.
+2. Disable the earlier POS extension:
+    - **Dedicated hardware station on Modern POS:** The file is under the Modern POS client broker location.
+
+
+    - In the **tsconfig.json** file, add the **FiscalRegisterSample** folder to the exclude list.
+5. Add the following line to the **composition** section of the configuration file.
+    - Remove the following lines from the **extensions.json** file under the **RetailSDK\\POS\\Extensions** folder.
+
 
     ``` xml
+        ``` json
     <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
+        {
     ```
+            "baseUrl": "FiscalRegisterSample"
 
+        }
 ### <a name="enable-modern-pos-extension-components"></a>تمكين مكونات ملحقات نقاط البيع الحديثة
+        ```
+
 
 1. افتح حل **ModernPOS.sln** ضمن **RetailSdk\\POS**، وتأكد من إمكانية تجميعه بدون أخطاء. بالإضافة إلى ذلك، تأكد من أنه يمكنك تشغيل نقطة البيع الحديثة Visual Studio باستخدام أمر **التشغيل**.
+3. قم بتمكين عينة محلق نقطة البيع الحالية عن طريق إضافة الأسطر التالية في ملف **extensions.json** ضمن مجلد **RetailSDK\\نقطة البيع\\الملحقات**.
+
 
     > [!NOTE]
-    > يجب عدم تخصيص نقطة البيع الحديثة. يجب عليك تمكين التحكم في حساب المستخدم (UAC)، ويجب عليك إلغاء تثبيت مثيلات نقطة البيع الحديثة المثبتة مسبقًا كما هو مطلوب.
-
-2. قم بتمكين الملحقات التي يجب تحميلها عن طريق إضافة الأسطر التالية في ملف **extensions.json**.
-
     ``` json
+    > Modern POS must not be customized. You must enable User Account Control (UAC), and you must uninstall previously installed instances of Modern POS as required.
     {
+
         "extensionPackages": [
+2. Enable the extensions that must be loaded by adding the following lines in the **extensions.json** file.
             {
+
                 "baseUrl": "Microsoft/AuditEvent.SE"
+    ``` json
             }
+    {
         ]
+        "extensionPackages": [
     }
+            {
+    ```
+                "baseUrl": "Microsoft/AuditEvent.SE"
+
+            }
+#### <a name="create-deployable-packages"></a>إنشاء حزم قابلة للنشر
+        ]
+
+    }
+قم بتشغيل **msbuild** لحزمه البرامج النهائية للبيع بأكملها لإنشاء حزم قابله للنشر. قم بتطبيق الحزم من خلال LCS أو يدويًا. لمزيد من المعلومات، راجع [تعبئة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
     ```
 
     > [!NOTE]
-    > لمزيد من المعلومات، وللحصول على نماذج توضح كيفية تضمين مجلدات التعليمات البرمجية المصدر وتمكين تحميل الامتدادات، راجع الإرشادات الموجودة في ملف readme.md في مشروع **Pos.Extensions**.
+    > For more information, and for samples that show how to include source code folders and enable extensions to be loaded, see the instructions in the readme.md file in the **Pos.Extensions** project.
 
 3. أعد إنشاء الحل.
 4. قم بتشغيل Modern POS في مصحح الأخطاء، واختبر الوظيفة.
@@ -438,80 +511,3 @@ ms.locfileid: "8870537"
     <add source="assembly" value="Contoso.Commerce.HardwareStation.FiscalRegisterSample" />
     ```
     ---
-
-2. قم بتمكين ملحق محطة الأجهزة النموذجية الحالية عن طريق إضافة السطر التالي إلى قسم **التأليف** في ملف تكوين **HardwareStation.Extension.config**.
-
-    ``` xml
-    <add source="assembly" value="Contoso.Commerce.HardwareStation.CleanCashSample" />
-    ```
-
-3. قم بإجراء التغييرات التالية في ملف تكوين تخصيص حزمة **Customization.settings** ضمن مجلد **BuildTools**:
-
-    - قم بإزالة السطر التالي لاستبعاد ملحق محطة الأجهزة السابقة من الحزم القابلة للنشر.
-
-        ``` xml
-        <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.Extension.FiscalRegisterSample.dll" />
-        ```
-
-    - أضف الأسطر التالية لتضمين نموذج ملحق محطة الأجهزة الحالي في الحزم القابلة للنشر.
-
-        ``` xml
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.CleanCashSample.dll" />
-        <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Interop.CleanCash_1_1.dll" />
-        ```
-
-#### <a name="update-modern-pos"></a>تحديث نقطة البيع الحديثة
-
-1. افتح حل **CloudPOS.sln** في **RetailSdk\\نقطة البيع**.
-2. تعطيل ملحق نقطة البيع السابقة:
-
-    - في ملف **tsconfig.json**، أضف مجلد **FiscalRegisterSample** إلى قائمة الاستبعاد.
-    - قم بإزالة الأسطر التالية من ملف **extensions.json** ضمن مجلد **RetailSDK\\نقطة البيع\\الملحقات**.
-
-        ``` json
-        {
-            "baseUrl": "FiscalRegisterSample"
-        }
-        ```
-
-3. قم بتمكين عينة محلق نقطة البيع الحالية عن طريق إضافة الأسطر التالية في ملف **extensions.json** ضمن مجلد **RetailSDK\\نقطة البيع\\الملحقات**.
-
-    ``` json
-    {
-        "extensionPackages": [
-            {
-                "baseUrl": "Microsoft/AuditEvent.SE"
-            }
-        ]
-    }
-    ```
-
-#### <a name="update-cloud-pos"></a>تحديث نقطة بيع السحابة
-
-1. افتح حل **ModernPOS.sln** ضمن **RetailSdk\\نقطة البيع**.
-2. تعطيل ملحق نقطة البيع السابقة:
-
-    - في ملف **tsconfig.json**، أضف مجلد **FiscalRegisterSample** إلى قائمة الاستبعاد.
-    - قم بإزالة الأسطر التالية من ملف **extensions.json** ضمن مجلد **RetailSDK\\نقطة البيع\\الملحقات**.
-
-        ``` json
-        {
-            "baseUrl": "FiscalRegisterSample"
-        }
-        ```
-
-3. قم بتمكين عينة محلق نقطة البيع الحالية عن طريق إضافة الأسطر التالية في ملف **extensions.json** ضمن مجلد **RetailSDK\\نقطة البيع\\الملحقات**.
-
-    ``` json
-    {
-        "extensionPackages": [
-            {
-                "baseUrl": "Microsoft/AuditEvent.SE"
-            }
-        ]
-    }
-    ```
-
-#### <a name="create-deployable-packages"></a>إنشاء حزم قابلة للنشر
-
-قم بتشغيل **msbuild** لحزمه البرامج النهائية للبيع بأكملها لإنشاء حزم قابله للنشر. قم بتطبيق الحزم من خلال LCS أو يدويًا. لمزيد من المعلومات، راجع [تعبئة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-packaging.md).

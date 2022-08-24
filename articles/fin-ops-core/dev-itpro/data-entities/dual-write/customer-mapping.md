@@ -5,16 +5,16 @@ author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: ea142aff7c8f4b442d7224325e44359129efe8a8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111713"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289669"
 ---
 # <a name="integrated-customer-master"></a>أصل العميل المتكامل
 
@@ -22,7 +22,7 @@ ms.locfileid: "9111713"
 
 
 
-يمكن إدارة بيانات العملاء في أكثر من تطبيق Dynamics 365 واحد. علي سبيل المثال، يمكن أن ينشأ صف العميل إذا كان نشاط المبيعات في Dynamics 365 Sales (تطبيق customer engagement)، أو يمكن أن صف من خلال نشاط بيع بالتجزئة في Dynamics 365 Commerce (تطبيق finance and operations). بغض النظر عن المكان الذي تنشأ فيه البيانات الخاصة بالعميل، فإنها تتكامل خلف المشاهد. يوفر أصل العميل المتكامل المرونة لبيانات العميل الرئيسية في أي تطبيق Dynamics 365 ويوفر طريقة عرض شاملة للعميل عبر مجموعة تطبيقات Dynamics 365.
+يمكن إدارة بيانات العملاء في أكثر من تطبيق Dynamics 365 واحد. علي سبيل المثال، يمكن أن ينشأ صف العميل إذا كان نشاط المبيعات في Dynamics 365 Sales (تطبيق customer engagement)، أو يمكن أن صف من خلال نشاط بيع بالتجزئة في Dynamics 365 Commerce (تطبيق finance and operations). بغض النظر عن مكان إنشاء بيانات العميل ، يتم دمجها خلف الكواليس. يوفر أصل العميل المتكامل المرونة لبيانات العميل الرئيسية في أي تطبيق Dynamics 365 ويوفر طريقة عرض شاملة للعميل عبر مجموعة تطبيقات Dynamics 365.
 
 ## <a name="customer-data-flow"></a>تدفق بيانات العميل
 

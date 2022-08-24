@@ -1,24 +1,24 @@
 ---
 title: وجهات تكوين التقارير الإلكترونية
 description: يوضح هذا الإجراء كيفية الإعداد واستخدام وجهات مختلفة لمكونات إخراج التقارير الإلكترونية (ER)، مثل مجلد أو ملف.
-author: NickSelin
+author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1e679b52b28ff1ca117c5224fc7e2825feb26e5e5aea1c8b5bc3a88d1eaf235
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
+ms.openlocfilehash: 3c8d03e9783013183fbe76cb36014fa9e1e1cbed
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743253"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9291043"
 ---
 # <a name="er-configure-destinations"></a>وجهات تكوين التقارير الإلكترونية
 
@@ -26,7 +26,7 @@ ms.locfileid: "6743253"
 
 يوضح هذا الإجراء كيفية الإعداد واستخدام وجهات مختلفة لمكونات إخراج التقارير الإلكترونية (ER)، مثل مجلد أو ملف. شركة بيانات العرض التوضيحي التي تم استخدامها لإنشاء هذا الإجراء هي DEMF. تُعد ألمانيا بلد/منطقة العنوان الأساسي للكيان القانوني، على الرغم من ذلك، يمكنك استخدام أي كيان قانوني لهذا الإجراء. 
 
-التنسيق المستخدم في هذا المثال هو تحويل الائتمان ISO20022 (DE)، ولكن يمكنك استخدام أي تنسيق قمت باستيراده بالفعل. لاحظ أن هذا الإجراء عبارة عن مثال لملف واحد وإعداد وجهة واحدة. يمكن العثور على مزيد من المعلومات حول إدارة وجهات التقارير الإلكترونية في تعليمات Dynamics 365 Finance.
+التنسيق المستخدم في هذا المثال هو تحويل الائتمان ISO20022 (DE)، ولكن يمكنك استخدام أي تنسيق قمت باستيراده بالفعل. لاحظ أن هذا الإجراء عبارة عن مثال لملف واحد وإعداد وجهة واحدة. يمكن العثور على مزيد من المعلومات حول إدارة وجهة التقارير الإلكترونية في تعليمات Dynamics 365 Finance.
 
 1. انتقل إلى إدارة المؤسسة > التقارير الإلكترونية > وجهة إعداد التقارير الإلكترونية‬.
 2. انقر فوق "جديد" لإنشاء مجموعة جديدة من وجهات لتنسيق.

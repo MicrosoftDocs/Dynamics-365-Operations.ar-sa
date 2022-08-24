@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4d46933b7c60317234b8e39cd6dfd63d383de860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9361448ba7993ba7cc126d6dd60a45fe497b2e84
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857130"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218759"
 ---
 # <a name="cluster-position-full"></a>موضع المجموعة ممتلئ
 
@@ -38,7 +38,7 @@ ms.locfileid: "8857130"
 
 ### <a name="make-sample-data-available"></a>جعل بيانات العينة متاحة
 
-للعمل عبر [السيناريو المثال](#example-scenario) باستخدام عينات البيانات والسجلات المحددة هنا، يجب أن تكون في نظام تم فيه تثبيت [بيانات العرض التوضيحي](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) is installed. بالإضافة إلى ذلك، يجب أن تحدد الكيان القانوني **USMF** قبل البدء.
+للعمل عبر [السيناريو المثال](#example-scenario) باستخدام عينات البيانات والسجلات المحددة هنا، يجب أن تكون في نظام تم فيه تثبيت [بيانات العرض التوضيحي](../../fin-ops-core/fin-ops/get-started/demo-data.md) is installed. بالإضافة إلى ذلك، يجب أن تحدد الكيان القانوني **USMF** قبل البدء.
 
 يمكنك أيضًا استخدام السيناريو المثال كإرشادات لاستخدام هذه الميزة في نظام إنتاج. ولكن، وفي هذه الحالة، يجب استبدال قيمك بالإعدادات التي ورد وصفها هنا.
 

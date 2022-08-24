@@ -1,7 +1,7 @@
 ---
 title: ضريبة المبيعات للمملكة العربية السعودية
 description: توفر هذه المقالة معلومات عن ضريبة المبيعات في المملكة العربية السعودية.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 02/15/2018
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Saudi Arabia
-ms.author: roschlom
+ms.author: atrukawk
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17ab5de103729c8d84ccec90b385d893ec248e31
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 251011857d0e311eed2e1f3d90742b232e6926bc
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863016"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9275917"
 ---
 # <a name="sales-tax-for-saudi-arabia"></a>ضريبة المبيعات للمملكة العربية السعودية
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888314"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218607"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>دمج الشحنات باستخدام منضدة عمل دمج الشحنات
 
@@ -41,7 +41,7 @@ ms.locfileid: "8888314"
 - **الوحدة:** *إدارة المستودعات*
 - **اسم الميزة:** *دمج الشحنات اليدوي*
 
-كما ذكر في [تكوين نُهج دمج الشحنات](configure-shipment-consolidation-policies.md)، يجب عليك أيضا تشغيل ميزة *دمج الشحنات* قبل أن تتمكن من إنشاء النهج. مع ذلك، يجب أن تكون قد أكملت هذه الخطوة بالفعل.
+يجب عليك أيضًا تشغيل ميزة *توحيد الشحنة* قبل أن تتمكن من إنشاء السياسات. - لمزيد من المعلومات، راجع [تكوين سياسات تجميع الشحنات](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>إنشاء أوامر مبيعات لهذا السيناريو
 

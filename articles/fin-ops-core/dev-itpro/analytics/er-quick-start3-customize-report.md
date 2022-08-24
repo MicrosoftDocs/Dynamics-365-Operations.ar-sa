@@ -1,28 +1,26 @@
 ---
 title: تخصيص تكوينات التقارير الإلكترونية لإنشاء مستند إلكتروني
 description: توضح هذه المقالة كيفية تخصيص تكوينات التقارير الإلكترونية (ER) المقدمة من Microsoft والتي يتم استخدامها لإنشاء مستند إلكتروني مخصص.
-author: NickSelin
+author: kfend
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30ef9a0fa9b61b1e2016f85407ec0ec8fb70a6c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: cd3200bea07d622632dc5781638ec825c21233e4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854687"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9278935"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>تخصيص تكوينات التقارير الإلكترونية لإنشاء مستند إلكتروني
 
@@ -310,7 +308,7 @@ ms.locfileid: "8854687"
 5. في الحقل **الاسم**، أدخل **نموذج الفاتورة (Litware)**.
 6. حدد **إنشاء تكوين** لإنشاء تكوين التقارير الإلكترونية الجديد.
 
-يمكنك الآن استخدام مصمم نموذج بيانات التقارير الإلكترونية لتحرير الإصدار 50.1 الخاص بتكوين التقارير الإلكترونية لـ **نموذج الفاتورة (Litware)** في **حالة** [المسودة](general-electronic-reporting.md#component-versioning).
+يمكنك الآن استخدام مصمم نموذج بيانات التقارير الإلكترونية لتحرير الإصدار 50.1 **الخاص بتكوين التقارير الإلكترونية ل** نموذج الفاتورة (Litware) **في شكل** مسودة.
 
 ![إصدار 50.1 لتكوين تنسيق التقارير الإلكترونية في صفحة التكوينات.](./media/er-quick-start3-added-custom-model.png)
 
@@ -337,7 +335,7 @@ ms.locfileid: "8854687"
 
 #### <a name="complete-a-custom-data-model-configuration"></a>إكمال تكوين نموذج بيانات مخصص
 
-يجب [إكمال](general-electronic-reporting.md#component-versioning) عملك باستخدام الإصدار 50.1 من تكوين نموذج بيانات التقارير الإلكترونية المخصص لتوفيره بحيث يمكن إضافة تكوينات التقارير الإلكترونية المخصصة الأخرى.
+يجب إكمال عملك باستخدام الإصدار 50.1 من تكوين نموذج بيانات التقارير الإلكترونية المخصص لتوفيره بحيث يمكن إضافة تكوينات التقارير الإلكترونية المخصصة الأخرى.
 
 1. انتقل إلى **إدارة المؤسسة** \> **التقارير الإلكترونية** \> **التكوينات**.
 2. في صفحة **التكوينات**، في شجرة التكوينات في الجزء الأيسر، وسَّع **نموذج الفاتورة**، وحدد **نموذج الفاتورة (Litware)**.
@@ -394,7 +392,7 @@ ms.locfileid: "8854687"
 
 #### <a name="complete-a-custom-model-mapping-configuration"></a>إكمال تكوين تعيين نموذج مخصص
 
-يجب عليك [إكمال](general-electronic-reporting.md#component-versioning) عملك باستخدام الإصدار 50.19.1 من تكوين تعيين نموذج التقارير الإلكترونية المخصص حتى يكون متوفرًا للاستخدام.
+يجب عليك إكمال عملك باستخدام الإصدار 50.19.1 من تكوين تعيين نموذج التقارير الإلكترونية المخصص حتى يكون متوفرًا للاستخدام.
 
 1. انتقل إلى **إدارة المؤسسة** \> **التقارير الإلكترونية** \> **التكوينات**.
 2. في صفحة **التكوينات**، في شجرة التكوينات في الجزء الأيسر، وسَّع **نموذج فاتورة العميل** \> **تعيين نموذج فاتورة العميل**، وحدد **تعيين نموذج الفاتورة (Litware)**.
@@ -428,7 +426,7 @@ ms.locfileid: "8854687"
 
 ![إضافة تكوين تنسيق مخصص في الصفحة تكوينات.](./media/er-quick-start3-adding-custom-format.png)
 
-يمكنك الآن استخدام مصمم عمليات التقارير الإلكترونية لتحرير الإصدار 11.2.2.1 لتكوين التقارير الإلكترونية **فاتورة مبيعات Peppol (Litware)** في **الحالة** [مسودة](general-electronic-reporting.md#component-versioning).
+يمكنك الآن استخدام مصمم عمليات التقارير الإلكترونية لتحرير الإصدار 11.2.2.1 **لتكوين التقارير الإلكترونية** اتورة مبيعات Peppol (Litware) **في شكل** مسودة.
 
 ![إصدار 11.2.2.1 لتكوين تنسيق التقارير الإلكترونية في صفحة التكوينات.](./media/er-quick-start3-added-custom-format.png)
 
@@ -463,7 +461,7 @@ ms.locfileid: "8854687"
 
 #### <a name="complete-a-custom-format-configuration"></a>إكمال تكوين تنسيق مخصص
 
-يجب عليك [إكمال](general-electronic-reporting.md#component-versioning) عملك باستخدام الإصدار 11.2.2.1 من تكوين تنسيق التقارير الإلكترونية المخصص حتى يكون متوفرًا للاستخدام.
+يجب عليك إكمال عملك باستخدام الإصدار 11.2.2.1 من تكوين تنسيق التقارير الإلكترونية المخصص لجعله متاحًا للاستخدام.
 
 1. انتقل إلى **إدارة المؤسسة** \> **التقارير الإلكترونية** \> **التكوينات**.
 2. في صفحة **التكوينات**، في شجرة التكوين في الجزء الأيسر، قم بتوسيع **نموذج فاتورة العميل** \> **فاتورة مبيعات UBL** \> **فاتورة مبيعات Peppol**، وحدد **فاتورة مبيعات Peppol (Litware)**.
@@ -650,7 +648,7 @@ ms.locfileid: "8854687"
 3. في جزء الإجراء، في المجموعة **المستند**، حدد **إرسال** \> **أصلي**.
 
     > [!NOTE] 
-    > ونظرًا لأنه لديك الآن إصدارين من تكوين تنسيق التقارير الإلكترونية الخاص بـ **فاتورة مبيعات Peppol (Litware)**، ولا يحتوي أي إصدار منهما على قيمة [تاريخ السريان](general-electronic-reporting.md#component-date-effectivity)، فإنه يتم استخدم الإصدار الأحدث لإنشاء فاتورة إلكترونية.
+    > ونظرًا لأنه لديك الآن إصدارين من تكوين تنسيق التقارير الإلكترونية الخاص بـ **فاتورة مبيعات Peppol (Litware)** ولا يحتوي أي من الإصدارين على قيمة تاريخ سارية ، يتم استخدام أحدث إصدار لإنشاء فاتورة إلكترونية.
 
 4. أغلق الصفحة **فاتورة ذات النص الحر**.
 

@@ -2,7 +2,7 @@
 title: الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 description: يصف هذا المقال الميزات التي تمت إزالتها أو تلك المخطط لإزالتها في Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 04/27/2021
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7c7dd90fea79ae83d238ed51b9ec1fc42e9e36b2
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171504"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218791"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>الميزات التي تمت إزالتها أو إهمالها في Dynamics 365 Supply Chain Management
 
@@ -33,6 +33,17 @@ ms.locfileid: "9171504"
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
 
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10029-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.29 من Supply Chain Management
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>أوامر تحويل المخزون التي تخضع لضريبة على سعر التحويل
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **سبب الإهلاك/الإزالة** | يتم استبدال أوامر تحويل المخزون [التي تحتوي علي ضريبة في وظيفة سع ](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) التحويل بواسطة أوامر تحويل المخزون [الخاصة بوظيفة الهند](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **هل تم الاستبدال بميزة أخرى؟**   | نعم يتم استبدال أوامر تحويل المخزون [التي تحتوي علي ضريبة في وظيفة سع](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md) التحويل بواسطة أوامر تحويل المخزون [الخاصة بوظيفة الهند](../../finance/localizations/apac-ind-stock-transfer.md). |
+| **مناطق المنتجات المتأثرة** | Supply Chain Management - المخزون |
+| **خيارات النشر** | السحابة ومحلي |
+| **Status** | <p>يجري مهملة. لن *تتلقي أوامر تحويل المخزون التي تحتوي علي ضريبة في وظيفة سعر* التحويل بعد الآن استقبال الدعم مع إصلاحات الأخطاء وإصلاحات الأمان.</p><p>بعد أبريل 2023، سيطلب من العملاء استخدام الوظائف المحسنة ، وهي *أوامر تحويل المخزون للهند* بشكل افتراضي. بعد 2023 أكتوبر *لن تكون أوامر تحويل المخزون* لن تكون الوظيفة متاحة بعد الآن ، وسيُطلب من العملاء الانتقال إلى الوضع المحسن لوظيفة *أوامر تحويل* المخزون.</p><p>لمزيد من المعلومات ، راجع [أوامر تحويل المخزون للهند](../../finance/localizations/apac-ind-stock-transfer.md).</p> |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.19 من Supply Chain Management
 

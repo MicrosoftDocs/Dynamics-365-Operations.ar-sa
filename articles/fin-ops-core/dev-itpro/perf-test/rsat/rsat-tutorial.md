@@ -5,17 +5,17 @@ author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 04c7d7081ece4e077881092534ed061fe2d0e999
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a270398ddebef0f47a2c31b0ffb022e3df6489c7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854588"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277393"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>البرنامج التعليمي للأداة Regression Suite Automation Tool
 
@@ -652,7 +652,7 @@ ms.locfileid: "8854588"
 
 لديك برنامج اختبار نصي يقوم بإنشاء عميل جديد. بواسطة البرمجة النصية، يمكن تشغيل حالة الاختبار هذه في حلقة عن طريق الترتيب العشوائي للبيانات التالية قبل تشغيل كل تكرار:
 
-- معرف العميل
+- Customer ID
 - اسم العميل
 - عنوان العميل
 

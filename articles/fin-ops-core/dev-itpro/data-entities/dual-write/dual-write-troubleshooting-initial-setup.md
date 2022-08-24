@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111189"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289503"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>استكشاف المشاكل وإصلاحها أثناء الإعداد الأولي
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 توفر هذه المقالة معلومات استكشاف الأخطاء وإصلاحها في تكامل الكتابة المزدوجة بين تطبيقات التمويل والعمليات وDataverse. على وجه التحديد، يوفر هذا الموضوع المعلومات التي يمكن أن تساعدك في إصلاح المشكلات التي قد تحدث أثناء الإعداد الأولي لتكامل الكتابة الثنائية.
 
@@ -87,6 +85,19 @@ ms.locfileid: "9111189"
 
 + المستخدم الذي تم استخدامه لتسجيل الدخول ليس في نفس المستأجر حيث مثيل التمويل والعمليات.
 + هناك بعض مثيلات التمويل والعمليات القديمة التي استضافتها Microsoft والتي كانت بها مشكلة في الاكتشاف. لإصلاح هذا، قم بتحديث مثيل التمويل والعمليات. تصبح البيئة قابلة للاكتشاف مع أي تحديث.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>خطا 403 (محظور) اثناء إنشاء الاتصالات
+
+كجزء من عمليه أضافه ارتباطات الكتابة المزدوجة، يتم إنشاء اتصالين (يعرفان Power Apps أيضا بالاتصالات *الأبيبه* ) بالنيابة عن المستخدم في البيئة المرتبطة Dataverse. إذا لم يكن لدي العميل ترخيص للبيئة Power Apps ، يفشل إنشاء اتصالات ApiHub، ويظهر خطا 403 (محظور). فيما يلي مثال على رسالة الخطأ:
+
+> الرسالة =\[فشل في اعداد بيئة الكتابة الثنائية. تفاصيل الخطأ: رمز حالة الاستجابة لا يشير إلى النجاح: 403 (ممنوع). - رمز حالة الاستجابة لا يشير إلى النجاح: 403 (ممنوع).\] STACKTRACE=\[   at Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs: السطر 297 --- نهاية تتبع المكدس من الموقع السابق حيث تم طرح استثناء --- في System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () في System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (TaskAwaiter.HandleNonSuccessAndDebugger) في Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:line 265\]
+
+يحدث هذا الخطأ بسبب نقص Power Apps الترخيص. قم بتعيين ترخيص مناسب (علي سبيل المثال ، الخطة التجريبية Power Apps )2 للمستخدم بحيث يكون لدي المستخدم الاذن لإنشاء الاتصالات. للتحقق من الترخيص ، يمكن للعميل الانتقال إلى [حسابي](https://portal.office.com/account/?ref=MeControl#subscriptions) لعرض التراخيص التي تم تعيينها للمستخدم حاليًا.
+
+لمزيد من المعلومات حول Power Apps الترخيص ، راجع المقالات التالية:
+
+- [تعيين التراخيص للمستخدمين](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [شراء Power Apps لمؤسستك](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

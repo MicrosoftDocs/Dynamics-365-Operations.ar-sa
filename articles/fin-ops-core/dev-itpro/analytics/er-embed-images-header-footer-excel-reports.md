@@ -1,26 +1,26 @@
 ---
 title: تصميم تنسيق ER لإنشاء تقرير بتنسيق Excel باستخدام الصور المضمنة في رؤوس الصفحات أو تذييلاتها
 description: توضح هذه المقالة كيفية استخدام إعداد التقارير الإلكترونية (ER) لإنشاء مستندات أعمال تحتوي على صور وأشكال مضمنة في رؤوس أو تذييل الصفحات.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854832"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281801"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>تصميم تنسيق ER لإنشاء تقرير بتنسيق Excel باستخدام الصور المضمنة في رؤوس الصفحات أو تذييلاتها
 
@@ -196,7 +196,7 @@ ms.locfileid: "8854832"
 
 ![إنشاء تكوين لتنسيق دفع مخصص في مربع الحوار إنشاء قائمة منسدلة للتكوين.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-يتم إنشاء الإصدار 240.112.1 من تنسيق ER **فاتورة النص الحر (Excel) المخصصة**. هذا الإصدار [بالحالة](general-electronic-reporting.md#component-versioning) **مسودة** ويمكن تحريره. يطابق المحتوي الحالي لتنسيق ER الخاص بك محتوي التنسيق الذي توفره Microsoft.
+يتم إنشاء الإصدار 240.112.1 من تنسيق ER **فاتورة النص الحر (Excel) المخصصة**. هذا الإصدار لديه حالة **مسودة** ويمكن تحريره. يطابق المحتوي الحالي لتنسيق ER الخاص بك محتوي التنسيق الذي توفره Microsoft.
 
 ![يتم إنشاء الإصدار الجديد من تكوين تنسيق ER في صفحة التكوينات.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ ms.locfileid: "8854832"
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>تعليم التنسيق المخصص على أنه قابل للتشغيل
 
-نظرًا لأنه تم إنشاء الإصدار الأول من التنسيق المخصص وأصبح بالحالة **مسودة**، يمكنك تشغيل التنسيق لأغراض الاختبار. لتشغيل التقرير، عليك معالجة دفع المورد باستخدام طريقة الدفع التي تشير إلى تنسيق ER المخصص. افتراضيًا، عندما تستدعي أحد تنسيقات ER من التطبيق، يتم فقط استخدام الإصدارات التي بالحالة **مكتمل** أو **مشترك** والتي تتم [مراعاتها](general-electronic-reporting.md#component-versioning). يساعد هذا السلوك في منع استخدام تنسيقات ER التي لها تصميمات غير مكتملة. مع ذلك، بالنسبة لتشغيل الاختبارات الخاصة بك، يمكنك إجبار التطبيق على استخدام إصدار تنسيق ER بالحالة **مسودة**. وبهذه الطريقة، يمكنك تعديل إصدار التنسيق الحالي إذا كانت هناك أية تعديلات مطلوبة. لمزيد من المعلومات، راجع [قابلية التطبيق‬](electronic-reporting-destinations.md#applicability).
+نظرًا لأنه تم إنشاء الإصدار الأول من التنسيق المخصص وأصبح بالحالة **مسودة**، يمكنك تشغيل التنسيق لأغراض الاختبار. لتشغيل التقرير، عليك معالجة دفع المورد باستخدام طريقة الدفع التي تشير إلى تنسيق ER المخصص. بشكل افتراضي ، عند استدعاء تنسيق التقارير الإلكترونية من التطبيق ، فإن الإصدارات التي لها حالة **مكتمل** أو **مشترك** مأخوذة في عين الإعتبار. يساعد هذا السلوك في منع استخدام تنسيقات ER التي لها تصميمات غير مكتملة. مع ذلك، بالنسبة لتشغيل الاختبارات الخاصة بك، يمكنك إجبار التطبيق على استخدام إصدار تنسيق ER بالحالة **مسودة**. وبهذه الطريقة، يمكنك تعديل إصدار التنسيق الحالي إذا كانت هناك أية تعديلات مطلوبة. لمزيد من المعلومات، راجع [قابلية التطبيق‬](electronic-reporting-destinations.md#applicability).
 
 لاستخدام إصدار المسودة لتنسيق ER، يجب وضع علامة بوضوح على تنسيق ER.
 

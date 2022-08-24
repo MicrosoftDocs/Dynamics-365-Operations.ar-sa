@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7c2c07f3e3eb76ff20e37e8d5d485dc08232c7a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887678"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220411"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>فوتره للصيانة علي أصول مملوكه للعملاء
 
@@ -49,7 +49,7 @@ ms.locfileid: "8887678"
 
 لمعرفه كيفيه عمل هذه الميزة، قم بالعمل من خلال سيناريو المثال التالي.
 
-للعمل بهذا السيناريو باستخدام السجلات والقيم النموذجية المحددة هنا، يجب أن تكون في نظام تم فيه تثبيت [بيانات العرض التوضيحي](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) القياسية. يجب تحديد الكيان القانوني **USMF** قبل البدء.
+للعمل بهذا السيناريو باستخدام السجلات والقيم النموذجية المحددة هنا، يجب أن تكون في نظام تم فيه تثبيت [بيانات العرض التوضيحي](../../../fin-ops-core/fin-ops/get-started/demo-data.md) القياسية. يجب تحديد الكيان القانوني **USMF** قبل البدء.
 
 يمكنك أيضًا استخدام هذا السيناريو كإرشاد لاستخدام الميزة عند العمل في نظام إنتاج. مع ذلك، في هذه الحالة، يجب استبدال القيم الخاصة بك، وقد تفقد بعض أنواع السجلات المطلوبة التي توفرها بيانات العرض التوضيحي القياسية.
 

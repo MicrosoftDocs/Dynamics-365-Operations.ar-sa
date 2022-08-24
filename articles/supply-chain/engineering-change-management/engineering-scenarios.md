@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889624"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220016"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>معاينة ميزة إدارة التغييرات الهندسية
 
@@ -45,7 +45,7 @@ ms.locfileid: "8889624"
 
 ### <a name="make-standard-demo-data-available"></a>جعل بيانات العرض التوضيحي القياسي متاحة
 
-العمل علي نظام يتم فيه [تثبيت بيانات العرض التوضيحي القياسية](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). وتضيف بيانات العرض التوضيحي القياسية بيانات للعديد من الكيانات القانونية لعرض توضيحي (الشركات والمؤسسات). واثناء العمل خلال التمرينات، ستستخدم منتقي الشركة علي الجانب الأيسر من شريط التنقل للتبديل بين شركه واحده ( *DEMF*) يتم إعدادها *كمؤسسه هندسية* وشركه أخرى (*USMF*) التي يتم إعدادها *كمؤسسه تشغيليه*.
+العمل علي نظام يتم فيه [تثبيت بيانات العرض التوضيحي القياسية](../../fin-ops-core/fin-ops/get-started/demo-data.md). وتضيف بيانات العرض التوضيحي القياسية بيانات للعديد من الكيانات القانونية لعرض توضيحي (الشركات والمؤسسات). واثناء العمل خلال التمرينات، ستستخدم منتقي الشركة علي الجانب الأيسر من شريط التنقل للتبديل بين شركه واحده ( *DEMF*) يتم إعدادها *كمؤسسه هندسية* وشركه أخرى (*USMF*) التي يتم إعدادها *كمؤسسه تشغيليه*.
 
 ### <a name="set-up-an-engineering-organization"></a>إعداد مؤسسة هندسية
 

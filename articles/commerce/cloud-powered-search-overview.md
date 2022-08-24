@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850346"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273656"
 ---
 # <a name="cloud-powered-search-overview"></a>نظرة عامة على البحث المشغل في السحابة
 
@@ -64,11 +64,14 @@ ms.locfileid: "8850346"
 
 ## <a name="sort"></a>فرز
 
-يتيح الفرز المحسن في Commerce للعملاء فرز نتائج البحث والبحث عنها وتصفحها وتحسينها وفقًا لمعايير مثل السعر واسم المنتج ورقم المنتج. يمكن للعملاء أيضًا فرز النتائج بناءً على ما إذا كان المنتج جديدًا أو أكثر مبيعًا أو تم إضافته مؤخرًا.
+تتيح وظيفة الفرز للعملاء فرز نتائج الفئات والبحث فيها واستعراضها ، وتنقيحها حسب معايير مثل السعر واسم المنتج ورقم المنتج. إذا قمت بتمكين [توصيات](product-recommendations.md)المنتج في البيئة الخاصة بك ، يمكن للعملاء أيضا فرز النتائج استنادا إلى معايير الفرز المتقدم مثل الأفضل والبيع والرغبة في الإنتاج.
+
 
 > [!NOTE]
 > إمكانيات البحث المتصلة بالسحابة هذه متوفرة للبدء في الإصدار 10.0.8. تأكد من وجود إدخال لـ "ProductSearch.UseAzureSearch" مضبوط على "صواب" في **معلمات Commerce > معلمات التكوين**. 
 ![معلمات التكوين للبحث عن طريق السحابة.](./media/CloudPoweredSearchConfigurationParameters.png)
+>تتوفر خيارات الفرز المتقدمة مثل الجديد والأفضل في البيع والإعجاب مع إصدار السك التجاري من 9.35 + والإصدار Dynamics 365 Commerce ال10.0.20.  
+
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

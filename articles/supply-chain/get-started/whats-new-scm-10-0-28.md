@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 09a01a9100b5fc17317d40a8b3e4dbd1aae92e8b
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186508"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228470"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.28 (أغسطس 2022)
 
@@ -35,7 +35,7 @@ ms.locfileid: "9186508"
 |---|---|---|---|
 | المخزون واللوجستيات | [كيانات تكامل التكلفة شاملة التفريغ لوكلاء الشحن التابعين لجهات خارجية](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [نظرة عامة على كيانات التكاليف شاملة التفريغ](../landed-cost/landed-cost-entities-overview.md) | ممكّن بشكل افتراضي |
 | التخطيط | [تخطيط متطلبات المواد حسب الطلب (دمرب)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [نظرة عامة على تخطيط متطلبات المواد المدفوعة بالطلب](../master-planning/planning-optimization/ddmrp-overview.md) | إدارة الميزات:<br>*(إصدار أولي) DDMRP لتحسين التخطيط‬* |
-| التخطيط | [دعم تحسين التخطيط للوفاء بالوعد (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | قريبًا | إدارة الميزات:<br>*(إصدار أولي) CTP لتحسين التخطيط* |
+| التخطيط | [دعم تحسين التخطيط للوفاء بالوعد (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [حساب تواريخ تسليم أوامر المبيعات باستخدام CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | إدارة الميزات:<br>*(إصدار أولي) CTP لتحسين التخطيط* |
 | التخطيط | [دعم تحسين التخطيط لفترة الصلاحية](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | قريبًا | ممكّن بشكل افتراضي |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>تحسينات الميزات المضمنة في هذا الإصدار

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849115"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219677"
 ---
 # <a name="system-directed-work-sequencing"></a>تسلسل العمل الموجه بواسطة النظام
 
@@ -44,7 +44,7 @@ ms.locfileid: "8849115"
 
 ### <a name="make-demo-data-available"></a>جعل بيانات العرض التوضيحي متاحة
 
-للعمل في السيناريو باستخدام القيم المقدمة في هذا المقال يجب أن تعمل على نظام تم تثبيت البيانات القياسية التوضيحية عليه. بالإضافة إلى ذلك، يجب أن تحدد الكيان القانوني **USMF**. يستخدم السيناريو المستودع *51* من البيانات التوضيحية.
+للعمل في السيناريو باستخدام القيم المقدمة في هذا المقال يجب أن تعمل على نظام [تم تثبيت](../../fin-ops-core/fin-ops/get-started/demo-data.md) البيانات القياسية التوضيحية عليه. بالإضافة إلى ذلك، يجب أن تحدد الكيان القانوني **USMF**. يستخدم السيناريو المستودع *51* من البيانات التوضيحية.
 
 > [!IMPORTANT]
 > قبل أن تقوم بإصدار الأوامر إلى المستودع، تأكد من أن مواقع الانتقاء لديها مخزون كاف لكافة الأصناف الموجودة على كافة الأوامر.

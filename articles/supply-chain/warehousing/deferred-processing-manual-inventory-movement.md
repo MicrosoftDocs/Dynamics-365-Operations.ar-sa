@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863726"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219797"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>المعالجة المؤجلة لحركة المخزون اليدوية
 
@@ -33,7 +33,7 @@ ms.locfileid: "8863726"
 لجعل هذه الميزة متوفرة، يمكنك تشغيل الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). يجب ليك تشغيلها بالترتيب التالي:
 
 1. *حظر العمل على مستوى المؤسسة*<br>(اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى.)
-1. *معالجة أحداث تطبيق المستودع*<br>(اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
+1. *معالجة أحداث تطبيق المستودع*<br>اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management ، تعد هذه الميزة إلزامية. لذلك ، يتم تشغيله افتراضيا ولا يمكن إيقاف تشغيله مره أخرى.)
 1. *عمليات الوضع المؤجلة*
 1. *المعالجة المؤجلة لعملية حركة المخزون اليدوية*<br>(اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى.)
 

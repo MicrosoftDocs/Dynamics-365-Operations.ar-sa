@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "260674"
+ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.form: SalesProfitabilityPerformancePowerBI
-ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 77271ad9f5a1d7c131e1d7750de280f0c70daaa4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205583"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274648"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>محتوى "أداء الربحية والمبيعات" في Power BI
 
@@ -77,7 +76,7 @@ ms.locfileid: "9205583"
 ## <a name="understanding-the-data-model-and-entities"></a>فهم نموذج البيانات والكيانات
 تُستخدم البيانات التالية لملء صفحات التقارير في محتوى **أداء الربحية والمبيعات** في Power BI. يتم تمثيل هذه البيانات كقياسات مجمعة تم تجهيزها في مخزن الكيانات. مخزن الكيانات هو قاعدة بيانات Microsoft SQL Server تم تحسينها للتحليلات. لمزيد من المعلومات، راجع [تكامل Power BI مع مخزن الكيانات](power-bi-integration-entity-store.md).
 
-تُعد القياسات التجميعية في هذا المحتوي مجموعة فرعية من القياسات التجميعية التي كانت متوفرة في مكعب المبيعات في Microsoft Dynamics AX 2012 وMicrosoft Dynamics AX 2012 R3. للوصول إلى مرحلة قياسات المكعب التجميعية في متجر الكيان، يجب أن تجعلها قابلة للنشر. لمزيد من المعلومات، راجع الإجراء المتعلق بالوصول إلى التشغيل المرحلي للقياسات التجميعية في مخزن الكيانات في [ تكامل Power BI مع مخن الكيانات في Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) blog post.
+تُعد القياسات التجميعية في هذا المحتوي مجموعة فرعية من القياسات التجميعية التي كانت متوفرة في مكعب المبيعات في Microsoft Dynamics AX 2012 Microsoft Dynamics AX و2012 R3 . للوصول إلى مرحلة قياسات المكعب التجميعية في متجر الكيان، يجب أن تجعلها قابلة للنشر. لمزيد من المعلومات، راجع الإجراء المتعلق بالوصول إلى التشغيل المرحلي للقياسات التجميعية في مخزن الكيانات في [ تكامل Power BI مع مخن الكيانات في Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update) blog post.
 
 تستخدم القياسات التجميعية الرئيسية التالية لكيان سطور فاتورة كأساس للمحتوى.
 

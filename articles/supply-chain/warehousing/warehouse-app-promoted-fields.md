@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5f5f24f47d0a2376be714f9208cd383cf3aacc07
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857043"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218963"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>تكوين الحقول المروجة للخطوات في Warehouse Management للأجهزة المحمولة
 
@@ -32,13 +32,7 @@ ms.locfileid: "8857043"
 قبل ان يمكنك إعداد الحقول المروجة، يجب إكمال الاجراء التالي لتمكين الميزات المطلوبة وإنشاء أسماء الحقول المطلوبة في تطبيق الاجهزه المحمولة لـ Warehouse Management.
 
 1. انتقل إلى **إدارة النظام \> مساحات العمل \> إدارة الميزات**.
-1. في مساحة عمل [**إدارة الميزات**](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)، قم بتمكين الميزة مدرجة بالطريقة التالية:
-
-    - **الوحدة:** *إدارة المستودعات*
-    - **اسم الميزة:** *تعليمات خطوة تطبيق المستودع*
-
-    لمزيد من المعلومات حول ميزه *إرشادات خطوه تطبيق المستودع* ، راجع [تخصيص العناوين والتعليمات الخاصة بالخطوة لتطبيق الاجهزه المحمولة لـ Warehouse Management](mobile-app-titles-instructions.md). هذه الميزة هي المتطلبات الاساسيه لميزه *الحقول المروجة في تطبيق Warehouse*.
-
+1. تاكد *من تشغيل ميزه إرشادات* خطوه تطبيق المستودع للنظام الخاص بك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. لمزيد من المعلومات حول ميزه *إرشادات خطوه تطبيق المستودع* ، راجع [تخصيص العناوين والتعليمات الخاصة بالخطوة لتطبيق الاجهزه المحمولة لـ Warehouse Management](mobile-app-titles-instructions.md). هذه الميزة هي المتطلبات الاساسيه لميزه *الحقول المروجة في تطبيق Warehouse*.
 1. قم بتمكين الميزة المدرجة بالطريقة التالية:
 
     - **الوحدة:** *إدارة المستودعات*
@@ -67,7 +61,7 @@ ms.locfileid: "8857043"
 
 ### <a name="enable-sample-data"></a>تمكين عينة البيانات
 
-لاستخدام سجلات وقيم العينة المحددة للعمل من خلال هذا السيناريو ، يجب أن تستخدم نظامًا حيث تم تثبيت بيانات العرض التوضيحي القياسية. كما يجب تحديد الكيان القانوني **USMF** قبل البدء.
+لاستخدام سجلات وقيم العينة المحددة للعمل من خلال هذا السيناريو ، يجب أن تستخدم نظامًا حيث تم تثبيت [بيانات العرض](../../fin-ops-core/fin-ops/get-started/demo-data.md) التوضيحي القياسية. كما يجب تحديد الكيان القانوني **USMF** قبل البدء.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>تكوين انتقاء المبيعات بالخطوات التي تمت ترقيتها علي خطوه لوحه الترخيص
 

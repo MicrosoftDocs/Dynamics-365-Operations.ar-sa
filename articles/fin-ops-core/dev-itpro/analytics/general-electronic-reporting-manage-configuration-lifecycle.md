@@ -1,32 +1,32 @@
 ---
 title: إدارة دورة حياة تكوين إعداد التقارير الإلكترونية (ER)
 description: توضح هذه المقالة كيفية إدارة دورة حياة تكوينات التقارير الإلكترونية لحل Dynamics 365 Finance.
-author: NickSelin
+author: kfend
 ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58801
-ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6a64908a167c09089a95f1d3faa825dcc63f064
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58801
+ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
+ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
+ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109071"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9271572"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>إدارة دورة حياة تكوين إعداد التقارير الإلكترونية (ER)
 
 [!include [banner](../includes/banner.md)]
 
-توضح هذه المقالة كيفية إدارة دورة حياة تكوينات التقارير الإلكترونية لحل Dynamics 365 Finance.
+توضح هذه المقالة كيفية إدارة دورة حياة ملفات [إعداد التقارير الإلكترونية](general-electronic-reporting.md) (ER) [التكوينات](general-electronic-reporting.md#Configuration) ل Dynamics 365 Finance.
 
 ## <a name="overview"></a>نظرة عامة
 
@@ -105,6 +105,41 @@ ms.locfileid: "9109071"
 
     > [!NOTE]
     > هذه المعلمة خاصة بالمستخدم والشركة.
+
+## <a name="dependencies-on-other-components"></a>التبعيات علي المكونات الأخرى
+
+يمكن تكوين تكوينات التقارير الإلكترونية على أنها [تعتمد](er-download-configurations-global-repo.md#import-filtered-configurations) على تكوينات أخرى. علي سبيل المثال ، يمكنك [استيراد تكوين](er-download-configurations-global-repo.md) [نموذج البيانات الخاص بـER](er-overview-components.md#data-model-component) من المستودع العمومي إلى [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) أو مثيل Dynamics 365 Finance، ثم قم بإنشاء تكوين ER [جديد](er-overview-components.md#format-component) وهو [مشتق](er-quick-start2-customize-report.md#DeriveProvidedFormat) من تكوين نموذج بيانات التقارير الإلكترونية المستوردة. سيعتمد تكوين تنسيق التقارير الإلكترونية المشتق على تكوين نموذج بيانات التقارير الإلكترونية الأساسي.
+
+![تكوين تنسيق التقارير الإلكترونية المشتق في صفحة التكوينات.](./media/ger-configuration-lifecycle-img1.png)
+
+عند الانتهاء من تصميم التنسيق، يمكنك تغيير حالة الإصدار [الأولي](general-electronic-reporting.md#component-versioning) لتكوين تنسيق التقارير الإلكترونية من **مسودة** إلى **مكتملة**. يمكنك بعد ذلك مشاركة الإصدار المكتمل من تكوين تنسيق التقارير الإلكترونية عن طريق [النشر](../../../finance/localizations/rcs-global-repo-upload.md) إلى المستودع العالمي. بعد ذلك ، يمكنك الوصول إلى المستودع العالمي من أي مثيل لـ RCS أو Finance. يمكنك بعد ذلك استيراد أي إصدار من إصدارات تكوين التقارير الإلكترونية ينطبق على التطبيق من المستودع العام إلى هذا التطبيق.
+
+![تكوين تنسيق التقارير الإلكترونية المنشور في صفحة مستودع التكوين.](./media/ger-configuration-lifecycle-img2.png)
+
+استنادًا إلى تبعية التكوين، عند تحديد تكوين تنسيق التقارير الإلكترونية في المستودع العام لاستيراده إلى RCS أو مثيل Finance الذي تم نشره حديثًا، يتم العثور على تكوين نموذج بيانات التقارير الإلكترونية الأساسي تلقائيًا في المستودع العام واستيراده مع تنسيق التقارير الإلكترونية المحدد التكوين باعتباره التكوين الأساسي.
+
+يمكنك أيضًا تصدير إصدار تكوين تنسيق التقارير الإلكترونية من RCS أو مثيل Finance الحالي وتخزينه محليًا كملف XML.
+
+![تصدير إصدار تكوين تنسيق التقارير الإلكترونية على هيئة XML في صفحة التكوين.](./media/ger-configuration-lifecycle-img3.png)
+
+في إصدارات Finance **قبل الإصدار 10.0.29**، عند محاولة استيراد إصدار تكوين تنسيق التقارير الإلكترونية من ملف XML هذا أو من أي مستودع بخلاف المستودع العام إلى مخزن حديث تم نشر مثيل RCS أو Finance الذي لا يحتوي حتى الآن على أي تكوينات ER ، سيتم طرح الاستثناء التالي لإعلامك بأنه لا يمكن الحصول على التكوين الأساسي:
+
+> المراجع التي لم يتم حلها الباقية<br>
+لا يمكن تحديد مرجع الكائن "\<imported configuration name\>" إلى الكائن "\<globally unique identifier of the missed base configuration\>" (\<version of the missed base configuration\>)
+
+![استيراد إصدار تكوين تنسيق التقارير الإلكترونية في صفحة مستودع التكوين.](./media/ger-configuration-lifecycle-img4.gif)
+
+في الإصدار **10.0.29 والإصدارات الأحدث**، عندما تحاول إجراء استيراد التكوين نفسه، إذا تعذر العثور على التكوين الأساسي في مثيل التطبيق الحالي أو في المستودع المصدر الذي تستخدمه حاليًا (إذا كان ذلك ممكنًا)، سيحاول إطار عمل إعداد التقارير الإلكترونية تلقائيًا العثور على اسم التكوين الأساسي المفقود في مخزن المستودع العمومي المؤقت. سيقدم بعد ذلك الاسم والمعرف الفريد العمومي (GUID) للتكوين الأساسي المفقود في نص الاستثناء الذي تم طرحه.
+
+> المراجع التي لم يتم حلها الباقية<br>
+لا يمكن تحديد مرجع الكائن '\<imported configuration name\>' إلى ‏‫الكائن الأساسي (\<name of the missed base configuration\> \<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![استثناء في صفحة مستودع التكوين عندما يتعذر العثور على التكوين الأساسي.](./media/ger-configuration-lifecycle-img5.png)
+
+يمكنك استخدام الاسم المقدم للعثور على التكوين الأساسي ثم استيراده يدويًا.
+
+> [!NOTE]
+> يعمل هذا الخيار الجديد فقط عندما يقوم مستخدم واحد على الأقل بتسجيل الدخول بالفعل إلى المستودع العمومي باستخدام [‏‫صفحة مستودعات التكوين](er-download-configurations-global-repo.md#open-configurations-repository) أو أحد حقول [بحث](er-extended-format-lookup.md) المستودع العام في نسخة Finance الحالية، وعندما يتم تخزين محتوى المستودع العام في الذاكرة المخبئية.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

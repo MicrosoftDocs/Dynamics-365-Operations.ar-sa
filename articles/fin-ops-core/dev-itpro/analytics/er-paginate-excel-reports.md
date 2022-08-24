@@ -1,26 +1,26 @@
 ---
 title: تصميم تنسيق تقارير إلكترونية (ER) لفصل صفحات المستندات التي تم إنشاؤها في Excel
 description: توضح هذه المقالة كيفية تصميم تنسيق التقارير الإلكترونية (ER) لفصل صفحات المستندات التي تم إنشاؤها في Microsoft Excel.
-author: NickSelin
+author: kfend
 ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: e4a34dffda9e9b95f5d6c7ee382723663817ec6b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909267"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9284990"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>تصميم تنسيق تقارير إلكترونية (ER) لفصل صفحات المستندات التي تم إنشاؤها في Excel
 
@@ -58,11 +58,11 @@ ms.locfileid: "8909267"
 5. في حقل **الاسم**، أدخل **تقرير نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي Litware‎**.
 6. حدد **إنشاء تكوين** لإنشاء التنسيق الجديد.
 
-تم إنشاء الإصدار 1.9.1 من تكوين تنسيق التقارير الإلكترونية **Intrastat report Litware**. هذا الإصدار [بالحالة](general-electronic-reporting.md#component-versioning) **مسودة** ويمكن تحريره. يطابق المحتوي الحالي لتنسيق ER الخاص بك محتوي التنسيق الذي توفره Microsoft.
+تم إنشاء الإصدار 1.9.1 من تكوين تنسيق التقارير الإلكترونية **Intrastat report Litware**. هذا الإصدار لديه حالة **مسودة** ويمكن تحريره. يطابق المحتوي الحالي لتنسيق ER الخاص بك محتوي التنسيق الذي توفره Microsoft.
 
 ### <a name="make-the-custom-format-runnable"></a>جعل التنسيق المخصص قابلاً للتشغيل
 
-والآن بعد أن تم إنشاء الإصدار الأول من التنسيق المخصص وأصبح بالحالة **مسودة**، يمكنك تشغيل التنسيق لأغراض الاختبار. لتشغيل التقرير، عليك معالجة دفع المورد باستخدام طريقة الدفع التي تشير إلى تنسيق ER المخصص. افتراضيًا، عندما تستدعي أحد تنسيقات ER من التطبيق، يتم فقط استخدام الإصدارات التي بالحالة **مكتمل** أو **مشترك** والتي تتم [مراعاتها](general-electronic-reporting.md#component-versioning). يساعد هذا السلوك في منع استخدام تنسيقات ER التي لها تصميمات غير مكتملة. مع ذلك، بالنسبة لتشغيل الاختبارات الخاصة بك، يمكنك إجبار التطبيق على استخدام إصدار تنسيق ER بالحالة **مسودة**. وبهذه الطريقة، يمكنك تعديل إصدار التنسيق الحالي إذا كانت هناك أية تعديلات مطلوبة. لمزيد من المعلومات، راجع [قابلية التطبيق‬](electronic-reporting-destinations.md#applicability).
+والآن بعد أن تم إنشاء الإصدار الأول من التنسيق المخصص وأصبح بالحالة **مسودة**، يمكنك تشغيل التنسيق لأغراض الاختبار. لتشغيل التقرير، عليك معالجة دفع المورد باستخدام طريقة الدفع التي تشير إلى تنسيق ER المخصص. بشكل افتراضي ، عند استدعاء تنسيق التقارير الإلكترونية من التطبيق ، فإن الإصدارات التي لها حالة **مكتمل** أو **مشترك** مأخوذة في عين الإعتبار. يساعد هذا السلوك في منع استخدام تنسيقات ER التي لها تصميمات غير مكتملة. مع ذلك، بالنسبة لتشغيل الاختبارات الخاصة بك، يمكنك إجبار التطبيق على استخدام إصدار تنسيق ER بالحالة **مسودة**. وبهذه الطريقة، يمكنك تعديل إصدار التنسيق الحالي إذا كانت هناك أية تعديلات مطلوبة. لمزيد من المعلومات، راجع [قابلية التطبيق‬](electronic-reporting-destinations.md#applicability).
 
 لاستخدام إصدار المسودة لتنسيق ER، يجب وضع علامة بوضوح على تنسيق ER.
 

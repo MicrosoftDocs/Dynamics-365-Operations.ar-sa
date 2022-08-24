@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901136"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227886"
 ---
 # <a name="benefits-management-overview"></a>نظرة عامة على إدارة المزايا
 
@@ -147,6 +147,16 @@ ms.locfileid: "8901136"
 - [معالجة أحداث الحياة](hr-benefits-process-life-events.md)
 - [معالجة تغييرات أحداث الحياة](hr-benefits-process-life-event-changes.md)
 - [معالجة أهلية أحداث الحياة](hr-benefits-process-life-event-eligibility.md)
+
+بعد اكتمال معالجه حدث الحياة وطالما ان فتره تسجيل حدث الحياة مفتوحة ، يمكن للموظفين اجراء تغييرات علي خيارات الخطة التي تتأثر بحدث الحياة. يمكن للمسؤولين اجراء التغييرات بالنيابة عن الموظفين. بعد انتهاء فتره التسجيل وعدم وجود إيه أنواع خطط مؤكده مرتبطة بحركة حدث الحياة ، يتم إغلاق الحركة.
+
+يجب ان تكون كافة الخطط المتأثرة بحدث الحياة اما محدده أو تنازل عنها ، ثم تأكيدها. وإذا لم يتم تحديد خطه ، فلن يتم التنازل عنها ، التالي لم يتم تأكيدها ، لا يتم إغلاق حركه حدث الحياة.
+
+ويمكن للمسؤولين إغلاق حركه حدث الحياة يدويا حسب الحاجة ، وذلك بتحديدها ثم تحديد **"إغلاق** ". إذا كانت هناك خطط غير مؤكده في الحركة ، وأراد المسؤول إغلاقها ، فقد يقوم إغلاق حدث الحياة بتقييد عمليات التحرير علي هذه الخطط.
+
+لا يمكن حذف احداث الفترات المغلقة.
+
+ويمكن للمسؤولين إغلاق حركه حدث الحياة يدويا حسب الحاجة ، وذلك بتحديدها ثم تحديد **إعادة فتح**.
 
 ## <a name="rate-updates-optional"></a>معدل التحديثات (اختياري)
 
