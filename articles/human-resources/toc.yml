@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
               items:
+                - name: Human Resources 10.0.29 (البنية الأساسية المدمجة)
+                  href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (البنية الأساسية المدمجة)
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Human Resources 10.0.27 (البنية الأساسية المدمجة)
@@ -604,6 +606,10 @@
                   href: hr-benefits-setup-parameters-per-company.md
                 - name: تعيين محددات إدارة المزايا والخدمة الذاتية للموظفين لجميع الشركات
                   href: hr-benefits-setup-parameters.md
+                - name: تكوين حقوق المسؤول لأحداث الحياة
+                  href: admin-life-events.md
+                - name: تكوين إشعارات البريد الإلكتروني للمزايا
+                  href: hr-email-notifications.md
                 - name: تكوين قواعد الأهلية وخياراتها
                   href: hr-benefits-setup-eligibility-rules.md
                 - name: تكوين خيارات أهلية جهة الاتصال الشخصية

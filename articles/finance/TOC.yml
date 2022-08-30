@@ -12,6 +12,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في صفحة Finance الرئيسية‬
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.29 (أكتوبر)
+                  href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (أغسطس)
                   href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (يوليو)
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/finance
                 - name: تلقي إعلامات حول تحديثات الخدمة
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/finance
+                - name: تحديثات الجودة الاستباقية
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/finance
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/finance
                 - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
@@ -1114,6 +1118,8 @@
                       href: general-ledger/tasks/process-ledger-allocation-journal.md
                     - name: عرض إدخالات الدفاتر اليومية أو الحركات
                       href: general-ledger/tasks/view-journal-entries-or-transactions.md
+                    - name: السماح بتحرير البيانات الداخلية في إيصالات دفتر الأستاذ العام
+                      href: general-ledger/allow-edits-internal-data-gl-vouchers.md
                     - name: ‏‫عرض الإيصال ذي الصلة بين الشركات الشقيقة‬
                       href: general-ledger/tasks/view-related-intercompany-voucher-journal.md
                     - name: نشر بنود دفاتر اليومية والمستندات من Excel
@@ -1568,14 +1574,20 @@
                           href: localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/finance
                         - name: الشروع في العمل مع الفوترة الإلكترونية لمصر
                           href: localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/finance
+                        - name: الشروع في العمل مع الفوترة الإلكترونية لفرنسا
+                          href: localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/finance
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمكسيك
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
+                        - name: الشروع في العمل مع الفوترة الإلكترونية لبولندا
+                          href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
-                          href: localizations/e-invoicing-sa-get-started.md
+                          href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
+                        - name: إعداد الفواتير الإلكترونية في المملكة العربية السعودية
+                          href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
                         - name: إعداد التكامل المباشر لميزة FatturaPA الإيطالية باستخدام SDI
-                          href: localizations/e-invoicing-ita-fatturapa-get-started.md
+                          href: localizations/e-invoicing-ita-fatturapa-get-started.md?context=/dynamics365/context/finance
                         - name: استخدام خدمة الفوترة الإلكترونية لاستيراد فواتير المورّدين
-                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md?context=/dynamics365/context/finance
                     - name: الأسئلة المتداولة حول الفوترة الإلكترونية
                       href: localizations/e-invoicing-faq.md?context=/dynamics365/context/finance
                 - name: حساب الضرائب
@@ -1648,6 +1660,10 @@
                           items:
                             - name: إقرار ضريبة القيمة المضافة
                               href: localizations/emea-nor-vat-declaration.md
+                        - name: إعداد التقارير في بولندا
+                          items:
+                            - name: إقرار ضريبة القيمة المضافة
+                              href: localizations/emea-pol-vat-declaration.md
                         - name: إعداد التقارير في إسبانيا
                           items:
                             - name: 'توفير فوري للمعلومات المتعلقة بضريبة القيمة المضافة (Suministro Inmediato de Información del IVA, SII)'
@@ -1714,6 +1730,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: تعديل ضريبة المبيعات عبر دفاتر اليومية العامة
+                      href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: تمكين حساب الضريبة المؤجل في دفتر اليومية
                       href: general-ledger/enable-delayed-tax-calculation.md
                     - name: إنشاء دفع ضريبة مبيعات
@@ -1770,6 +1788,8 @@
                           href: general-ledger/global-withholding-tax-overview.md
                         - name: إعداد ضريبة الخصم العمومية
                           href: general-ledger/set-up-global-withholding-tax.md
+                        - name: تمكين نوع سعر صرف عمله ضريبة الخصم العام واعداد نوع التاريخ
+                          href: general-ledger/global-withholding-tax-currency-exchange-rate-date-type-setup.md
                         - name: ضريبة الخصم في حركات الشراء
                           href: general-ledger/withholding-tax-in-purchase-transactions.md
                         - name: ضريبة الخصم في حركات المبيعات
@@ -1948,6 +1968,8 @@
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
                     - name: نقل ملفات NF-e XML كمرفقات
                       href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
+                    - name: NT2021.004 - تحديثات التخطيط والتحقق من الصحة في المستند المالي الإلكتروني (NF-e)
+                      href: localizations/latam-bra-nfe-nt2021.004.md
                     - name: NT2020.005 - تحديثات التخطيط والتحقق من الصحة في المستند المالي الإلكتروني (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 – نظام أساسي رقمي وسيط للمبيعات لـ NF-e‬
@@ -2552,6 +2574,8 @@
                       href: localizations/apac-ind-news-letter-10-0-00.md
                 - name: سجل مراجعة وسجلات تحرير لبرنامج المحاسبة
                   href: localizations/apac-ind-audit-trail-edit-logs-accounting-software.md
+                - name: الفواتير الإلكترونية في الهند
+                  href: localizations/apac-ind-e-invoices.md
                 - name: ضرائب غير مباشرة
                   items:
                     - name: ضريبة السلع والخدمات في الهند
@@ -3548,6 +3572,10 @@
                           href: localizations/rus-set-up-inventory-profile.md
                         - name: استخدام ملف تعريف المخزون في المستندات والاستعلامات
                           href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: التخليص الجمركي
+                      items:
+                        - name: العمل مع التخليص الجمركي
+                          href: localizations/rus-work-with-customs-clearance.md
                 - name: التقارير
                   items:
                     - name: إعداد التقارير المالية
@@ -3576,6 +3604,8 @@
                       href: localizations/rus-company-divisions.md
                     - name: تنسيقات العناوين الروسية والاستيراد من FIAS
                       href: localizations/rus-russian-address-format-and-import-from-FIAS.md
+                    - name: استيراد من سجل عناوين الولاية (GAR)‬
+                      href: localizations/rus-russian-address-format-import-gar.md
                 - name: التأجيلات
                   items:
                     - name: إعداد التأجيلات‬
@@ -4069,9 +4099,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/finance
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/finance
-                        - name: عكس
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/finance
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/finance
-                        - name: تقسيم
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/finance
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/finance

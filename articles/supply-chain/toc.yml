@@ -10,8 +10,10 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?context=/dynamics365/context/supply-chain
             - name: الجديد أو المتغير في Supply Chain Management
               items:
-                - name: الجديد أو المتغير في صفحة Supply Chain Management الرئيسية
+                - name: الجديد أو التغييرات في صفحة Supply Chain Management الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.29 (أكتوبر 2022)
+                  href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (أغسطس 2022)
                   href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (يوليو 2022)
@@ -62,6 +64,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/supply-chain
                 - name: تلقي إعلامات حول تحديثات الخدمة
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/supply-chain
+                - name: تحديثات الجودة الاستباقية
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/supply-chain
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/supply-chain
                 - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
@@ -330,6 +334,8 @@
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?context=/dynamics365/context/supply-chain
                         - name: الشروع في العمل مع الفوترة الإلكترونية لمصر
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?context=/dynamics365/context/supply-chain
+                        - name: الشروع في العمل مع الفوترة الإلكترونية لفرنسا
+                          href: ../finance/localizations/e-invoicing-fr-get-started.md?context=/dynamics365/context/supply-chain
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمكسيك
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/supply-chain
                         - name: الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
@@ -1053,9 +1059,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/supply-chain
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/supply-chain
-                        - name: عكس
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/supply-chain
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/supply-chain
-                        - name: تقسيم
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/supply-chain
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/supply-chain
@@ -1763,6 +1771,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: تخطيط الإنتاج
                   href: master-planning/planning-optimization/production-planning.md
+                - name: التخطيط الرئيسي للمنتجات التي لها فترة صلاحية محدودة
+                  href: master-planning/planning-optimization/shelf-life.md
                 - name: جدولة ذات سعة لا نهائية
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: الجدولة مع تحديد الموارد بالاستناد إلى الإمكانية
@@ -1809,6 +1819,8 @@
                   href: master-planning/planning-optimization/cancel-planning-job.md
                 - name: رسائل الإجراءات
                   href: master-planning/action-messages.md
+                - name: حساب تواريخ تسليم أوامر المبيعات باستخدام CTP
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: استكشاف أخطاء تحسين التخطيط وإصلاحها
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
                 - name: قابلية توسعة تحسين التخطيط‬
@@ -1879,6 +1891,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: صافي المتطلبات ومعلومات تثبيت السعر مع التخطيط الرئيسي المضمن
                   href: master-planning/net-requirements-built-in-master-planning.md
+                - name: التنفيذ التلقائي للتوريد حسب الأمر
+                  href: master-planning/make-to-order-supply-automation.md
             - name: تنبؤ
               items:
                 - name: التنبؤ بالطلب والتوريد
@@ -2467,6 +2481,8 @@
               href: production-control/mixed-mode-plan.md
             - name: إدارة عمل التعاقد من الباطن في الإنتاج
               href: production-control/manage-subcontract-work-production.md
+            - name: جعل البضائع الجاهزة متوفرة فعليًا قبل الترحيل إلى دفاتر اليومية
+              href: production-control/deferred-posting.md
             - name: التسلسل الرقمي الموحد لمعرفات الوظائف
               href: production-control/unified-job-ids.md
             - name: استدعاء تدفقات أتمتة العمليات لإنشاء أوامر الجودة
@@ -2809,6 +2825,8 @@
               items:
                 - name: التعهد بالأمر
                   href: sales-marketing/delivery-dates-available-promise-calculations.md
+                - name: حساب تواريخ تسليم أوامر المبيعات باستخدام CTP
+                  href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
                 - name: المواعيد النهائية لإدخال الأوامر
                   href: sales-marketing/order-entry-deadlines.md
                 - name: بدائل التسليم
@@ -2945,6 +2963,8 @@
               href: sales-marketing/trade-allowance.md
             - name: إنشاء اتفاقية تجارية جديدة
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: إعادة حساب المبالغ الصافية للبند عند الاستيراد
+              href: sales-marketing/calc-line-net-amounts-import.md
             - name: جدولة تنظيف بيانات محفوظات المبيعات‬
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: إدارة الخدمة
@@ -3387,8 +3407,10 @@
                       href: warehousing/piece-picking-confirmation.md
                     - name: رسوم ومواد التعبئة
                       href: warehousing/pack-materials-packing-material-fees.md
-                    - name: إعداد التعبئة اليدوية (فبراير ومايو 2016 فقط)
-                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: تعبئة حاويات الشحن
+                      href: warehousing/packing-containers.md
+                    - name: أعمال التعبئة لحزم الحاويات الخارجية ومعالجة الشحنات
+                      href: warehousing/packing-work.md
                     - name: إعداد إعادة توزيع الأصناف للانتقاء القصير
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: إلغاء عمل المستودع لمعالجة الاستثناء
@@ -3545,6 +3567,8 @@
                       href: warehousing/warehouse-app-promoted-fields.md
                     - name: تكوين المنحنيات للخطوات في عناصر قائمة الجهاز المحمول
                       href: warehousing/warehouse-app-detours.md
+                    - name: الاستعلام عن البيانات باستخدام منعطفات تطبيق Warehouse Management للأجهزة المحمولة‬
+                      href: warehousing/warehouse-app-data-inquiry.md
                     - name: استلام لوحة الترخيص‬ عبر تطبيق Warehouse Management للأجهزة المحمولة
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: إعداد عنصر في قائمة الجهاز المحمول لإكمال العمل في أمر الشراء

@@ -12,6 +12,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في صفحة Commerce الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29 (أكتوبر 2022)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (يوليو 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (يوليو 2022)
@@ -60,6 +62,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: تلقي إعلامات حول تحديثات الخدمة
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: تحديثات الجودة الاستباقية
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: أتمتة مهمة البيانات
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
                 - name: تقديم حلول موردي البرامج المستقلين (ISV) باستخدام خدمة إصدار واحد
@@ -420,15 +424,17 @@
                       href: charge-send.md
                     - name: إخفاء أوضاع التسليم غير التابعة للناقل من مربع حوار شحنة نقطة البيع
                       href: hide-non-carrier-modes.md
-                    - name: مسجل المهام والتعليمات لنقطة البيع الحديثة ونقطة البيع السحابية
+                    - name: مسجل المهام والتعليمات لـ MPOS وCloud POS
                       href: task-recorder-retail-pos.md
+                    - name: تكوين CPOS لاستخدام تطبيق Azure AD مخصص
+                      href: cpos-custom-aad.md
                     - name: الأجهزة والأجهزة الطرفية
                       items:
                         - name: الأجهزة الطرفية
                           href: retail-peripherals-overview.md
                         - name: محاكي الأجهزة الطرفية
                           href: dev-itpro/retail-peripheral-simulator.md
-                        - name: توصيل الأجهزة الطرفية بنقطة البيع
+                        - name: توصيل الأجهزة الطرفية بنقطة البيع POS
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: التحقق من سلامة الأجهزة الطرفية وخدمات نقطة البيع
                           href: pos-healthcheck.md
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: الخصومات المستندة إلى طريقة الدفع‬
                   href: tender_based_discounts.md
-                - name: نظرة عامة حول خصم الشحن
-                  href: retail-shipping-discount.md
+                - name: خصم الشحن
+                  href: shipping-discount.md
                 - name: تكوين الهدية مع عروض الشراء الترويجية
                   href: gift-with-purchase.md
                 - name: إعداد الكوبونات
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: تأخير حساب السعر الدقيق والخصم
                   href: delayed-price-calculation.md
+                - name: وظائف التسعير في نقاط البيع
+                  href: pos-pricing-functions.md
+                - name: واجهات برمجة تطبيقات تسعير Commerce
+                  href: pricing-apis.md
             - name: التوصيات
               items:
                 - name: نظرة عامة على توصيات المنتجات
@@ -872,6 +882,8 @@
               href: async-customer-mode.md
             - name: تحويل العملاء غير المتزامنين إلى عملاء متزامنين
               href: convert-async-to-sync.md
+            - name: الأسئلة المتداولة حول وضع إنشاء عميل غير متزامن
+              href: async-customer-mode-faq.md
             - name: قاعدة العملاء
               items:
                 - name: نظرة عامة حول قاعدة العملاء
@@ -1252,9 +1264,13 @@
                       href: product-collection-module-overview.md
                     - name: وحدة عرض السريع
                       href: quick-view-module.md
-                - name: وحدات التنقل
+                - name: وحدات مقارنة المنتج
                   items:
-                    - name: الوحدة النمطية لمسار التنقل
+                    - name: وحدات مقارنة المنتج
+                      href: product-comparison-modules.md
+                - name: الوحدات النمطية للتنقل
+                  items:
+                    - name: وحدة مسار التنقل
                       href: add-breadcrumb.md
                     - name: وحدة قائمة التنقل
                       href: nav-menu-module.md
@@ -1272,6 +1288,10 @@
                   items:
                     - name: وحدة الموافقة على ملف تعريف الارتباط
                       href: cookie-consent-module.md
+                - name: وحدات المحادثة
+                  items:
+                    - name: وحدة محادثة Commerce
+                      href: commerce-chat-module.md
             - name: بحث
               items:
                 - name: نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
@@ -1404,8 +1424,6 @@
               items:
                 - name: عينة تكامل خدمة التسجيل المالي للنمسا
                   href: localizations/emea-aut-fi-sample.md
-                - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنمسا
-                  href: localizations/emea-aut-deployment.md
                 - name: إرشادات التوزيع الخاصة بعينة التكامل المالي للنمسا (قديمة)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: البرازيل
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية
                   href: localizations/emea-nor-fi-deployment.md
+                - name: الترحيل من الوظائف القديمة للنرويج
+                  href: localizations/emea-nor-fi-migration.md
                 - name: إرشادات النشر لآلات تسجيل المدفوعات النقدية (قديمة)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: روسيا
@@ -1764,9 +1784,11 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
-                        - name: عكس
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
-                        - name: تقسيم
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?context=/dynamics365/context/commerce
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?context=/dynamics365/context/commerce
@@ -2482,7 +2504,7 @@
               items:
                 - name: نظرة عامة على Commerce SDK
                   items:
-                    - name: النماذج والحزم المرجعية
+                    - name: تنزيل ‏‫النماذج والحزم المرجعية‬ لـ Commerce SDK
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: ترحيل Retail SDK قديم
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
