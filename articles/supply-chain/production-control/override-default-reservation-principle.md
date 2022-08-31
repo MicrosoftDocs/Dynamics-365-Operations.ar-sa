@@ -2,7 +2,7 @@
 title: راجع تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج.
 description: يصف هذا المقال كيفيه تعيين قاعده حجز افتراضيه لكل مجموعه نماذج صنف ، بحيث يمكن تطبيق قواعد الحجز المختلفة تلقائيا لكل صنف من الأصناف التي تعد جزءا من شجره مواد الإنتاج أو معادله الأمر الدفعي.
 author: johanhoffmann
-ms.date: 12/10/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 381b7fa5046df8f2734e4b242058eb9a673388cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907221"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334584"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>راجع تجاوز قاعده الحجز الافتراضية للمواد في الإنتاج.
 
@@ -32,7 +32,7 @@ ms.locfileid: "8907221"
 
 ## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>تشغيل ميزة جاوز حجز الإنتاج الافتراضي‬ أو إيقاف تشغيلها
 
-اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *جاوز حجز الإنتاج الافتراضي‬‬‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *تجاوز حجز الإنتاج الافتراضي* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>تعيين سياسة حجز إنتاج لمجموعه نموذج صنف
 

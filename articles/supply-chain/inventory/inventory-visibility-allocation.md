@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852494"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306103"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>تخصيص المخزون لرؤية المخزون
 
@@ -63,12 +63,11 @@ ms.locfileid: "8852494"
 - مصدر البيانات المحدد مسبقًا والمرتبط بالتخصيص والمقاييس المادية والمقاييس المحسوبة.
 - مجموعات تخصيص قابلة للتخصيص لها ثمانية مستويات كحد أقصى.
 - مجموعة من واجهات برمجة تطبيقات التخصيص (APIs):
-
-    - تخصيص
-    - إعادة تخصيص
-    - إلغاء تخصيص
-    - استهلاك
-    - استعلام
+  - تخصيص
+  - إعادة تخصيص
+  - إلغاء تخصيص
+  - استهلاك
+  - استعلام
 
 تتكون عملية تكوين ميزة التخصيص من خطوتين:
 
@@ -84,23 +83,26 @@ ms.locfileid: "8852494"
 فيما يلي المقاييس المادية الأولية:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 فيما يلي المقاييس المحسوبة الأولية:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>أضف مقاييس مادية أخرى إلى المقياس المحسوب المتاح للتخصيص
 
 لاستخدام التخصيص، يجب عليك إعداد المقياس المحسوب المتاح للتخصيص (`@iv.@available_to_allocate`). على سبيل المثال، لديك مصدر بيانات `fno` ومقياس `onordered`، ومصدر بيانات `pos` ومقياس `inbound`، وتريد إجراء تخصيص متاح لمجموع `fno.onordered` و`pos.inbound`. في هذه الحالة، يجب أن يحتوي `@iv.@available_to_allocate` على `pos.inbound` و`fno.onordered` في المعادلة. وفيما يلي مثال على ذلك:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> مصدر `@iv` البيانات هو مصدر بيانات معرف مسبقا والمقاييس الفعلية التي تم تعريفها في `@iv` بالبادئة `@` هي بمثابه مقاييس معرفه مسبقا. وتعد هذه المقاييس تكوينا معرفا مسبقا لميزه التخصيص ، لذلك لا تقم بتغييرها أو حذفها ، أو قد تواجه أخطاء غير متوقعه عند استخدام ميزه التوزيع.
+>
+> يمكنك أضافه مقاييس فعليه جديده إلى المقياس `@iv.@available_to_allocate` المحسوب المعرف مسبقا ، ولكن يجب الا تقوم بتغيير اسمه.
 
 ### <a name="change-the-allocation-group-name"></a>تغيير اسم مجموعة التخصيص
 
@@ -136,7 +138,7 @@ ms.locfileid: "8852494"
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ ms.locfileid: "8852494"
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ ms.locfileid: "8852494"
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ ms.locfileid: "8852494"
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ ms.locfileid: "8852494"
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ ms.locfileid: "8852494"
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ ms.locfileid: "8852494"
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

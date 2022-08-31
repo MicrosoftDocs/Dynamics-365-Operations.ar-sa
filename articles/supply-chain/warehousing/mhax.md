@@ -2,7 +2,7 @@
 title: واجهة معدات معالجة المواد (MHAX)
 description: يصف هذا المقال كيفية إعداد واجهة جهاز معالجة المواد (MHAX) بحيث يمكنك الاتصال بأنظمة معالجة المواد المادية الخارجية (MH).
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068348"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334344"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>واجهة معدات معالجة المواد (MHAX)
 
@@ -41,12 +41,13 @@ ms.locfileid: "9068348"
 
 قبل أن تتمكن من استخدام ميزة MHAX، يجب عليك تشغيل كل من ميزتها ومفتاح التكوين الخاص بها.
 
-1. انتقل إلى **إدارة النظام \> مساحات العمل \> إدارة الميزات**.
-2. في مساحة عمل **[إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**، قم بتشغيل الميزة المسماة *واجهة معدات معالجة المواد*.
-3. وضع النظام في وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-4. انتقل إلى **إدارة النظام \> الإعداد \> تكوين الترخيص**.
-5. قم بتوسيع **التجارة \> إدارة المستودعات والنقل**، ثم حدد خانة الاختيار **واجهة معدات معالجة المواد**.
-6. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. إذا كنت تستخدم الإصدار 10.0.28 من Supply Chain Management أو إصدار أقدم ، فقم بالخطوات التالية:
+    1. انتقل إلى **إدارة النظام \> مساحات العمل \> إدارة الميزات**.
+    1. في مساحة عمل **[إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**، قم بتشغيل الميزة المسماة *واجهة معدات معالجة المواد*. (اعتبارًا من Supply Chain Management 10.0.29 ، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.)
+1. وضع النظام في وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. انتقل إلى **إدارة النظام \> الإعداد \> تكوين الترخيص**.
+1. قم بتوسيع **التجارة \> إدارة المستودعات والنقل**، ثم حدد خانة الاختيار **واجهة معدات معالجة المواد**.
+1. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 ## <a name="set-mhax-parameters"></a>تعيين معلمات MHAX
 

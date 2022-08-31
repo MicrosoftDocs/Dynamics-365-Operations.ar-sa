@@ -2,7 +2,7 @@
 title: عمليات سير عمل الموافقة على دفتر يومية المخزون
 description: يوضح هذا المقال كيفية إعداد عمليات سير عمل الموافقة على دفتر يومية المخزون واستخدامها لمختلف أنواع حركات المخزون الفعلي. تساعد عمليات سير عمل دفتر يومية المخزون الموافق عليها على التأكد من أن دفاتر يومية المخزون الموافق عليها يمكن ترحيلها إلى الحركات.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873974"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334644"
 ---
 # <a name="inventory-journal-approval-workflows"></a>عمليات سير عمل الموافقة على دفتر يومية المخزون
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873974"
 > [!NOTE]
 > تنطبق عمليات سير عمل الموافقة على دفتر يومية المخزون فقط على الحركات المسجلة باستخدام الوحدة النمطية لإدارة المخزون. ولا تعمل مع دفاتر يومية المخزون التي يتم تشغيلها من الوحدة النمطية لإدارة المستودعات.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>ميزة تشغيل سير عمل اعتماد دفتر يومية المخزون
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>قم بتشغيل ميزة سير عمل الموافقة على دفتر يومية المخزون أو إيقاف تشغيلها
 
-اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها أو تعطيلها إذا لزم الأمر. هنا، يتم إدراج الميزة كـ:
-
-- **الوحدة النمطية:** *إدارة المخزون والمستودعات*
-- **اسم الميزة:** *الموافقة علي دفتر يوميه المخزون الموافقة علي سير العمل*
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *اعتماد سير العمل في دفتر يومية المخزون‬‬‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>إنشاء عمليات سير عمل الموافقة على دفتر يومية المخزون
 

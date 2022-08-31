@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066659"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306307"
 ---
 # <a name="configure-inventory-visibility"></a>تكوين Inventory Visibility
 
@@ -52,7 +52,7 @@ ms.locfileid: "9066659"
 | اسم إدارة الميزات | ‏‏الوصف‬ |
 |---|---|
 | *OnHandReservation* | تسمح هذه الميزة بإنشاء عمليات حجز، واستهلاك الحجوزات، و/أو كميات المخزون المحددة غير المفرج عنها باستخدام "رؤية المخزون". لمزيد من المعلومات، راجع [حجوزات رؤية المخزون](inventory-visibility-reservations.md). |
-| *OnHandMostSpecificBackgroundService* | توفر هذه الميزة ملخص المخزون من المنتجات مع جميع الأبعاد. ستتم مزامنة بيانات ملخص المخزون دورياً من رؤية المخزون. لمزيد من المعلومات، راجع [‏‫ملخص المخزون](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnHandMostSpecificBackgroundService* | توفر هذه الميزة ملخص المخزون من المنتجات مع جميع الأبعاد. ستتم مزامنة بيانات ملخص المخزون دورياً من رؤية المخزون. ويكون تكرار المزامنة الافتراضي وقتا كل 15 دقيقه ، ويمكن تعيينه علي النحو الأعلى كل 5 دقائق. لمزيد من المعلومات، راجع [‏‫ملخص المخزون](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | تعمل هذه الميزة الاختيارية على تمكين جدول التغيير الفعلي والميزات المتوفرة حسب التعهد‬ (ATP). لمزيد من المعلومات، راجع [جدول تغيير رؤية المخزون المتاح والمتوفر حسب التعهد‬](inventory-visibility-available-to-promise.md). |
 | *التوزيع* | تتيح هذه الميزة الاختيارية امكانيه رؤية المخزون القدرة علي الحصول علي القدرة علي حماية المخزون (رينجفينسينج) والتحكم في البيع الزائد. لمزيد من المعلومات ، راجع [نتخصيص المخزون رؤية المخزون](inventory-visibility-allocation.md). |
 | *تمكين أصناف المستودعات في رؤية المخزون* | تتيح هذه الميزة الاختيارية "رؤية المخزون" لدعم العناصر التي تم تمكينها لعمليات إدارة المستودعات (WMS). لمزيد من المعلومات، راجع [دعم رؤية المخزون لأصناف WMS‬](inventory-visibility-whs-support.md). |

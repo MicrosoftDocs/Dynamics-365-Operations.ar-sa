@@ -13,19 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 2e3fa839b6e0f3cbaea8d2225b5a42ee8a368272
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227886"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336824"
 ---
 # <a name="benefits-management-overview"></a>نظرة عامة على إدارة المزايا
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 لكي تظل قادرًا على المنافسة، ينبغي أن تقدم مجموعة ثرية من المزايا لجذب أفضل الموظفين والاحتفاظ بهم. بالإضافة إلى المزايا القياسية مثل التغطية الطبية وتغطية الأسنان، وقد ترغب أيضًا في تقديم خدمات موسعة مثل المساعدة في التبني وبرامج الترفيه وبدل الملابس. توفر ميزة إدارة المزايا في Microsoft Dynamics 365 Human Resources حلاً مرنًا يدعم مجموعة واسعة من خيارات المزايا. كما يتضمن Human Resources أيضًا تجربة سهلة الاستخدام للموظف التي تعرض عروضك.
 

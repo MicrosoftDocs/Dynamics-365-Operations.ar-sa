@@ -2,7 +2,7 @@
 title: شحن طرد صغير
 description: يوفر هذا المقال معلومات حول ميزة شحن طرد صغير (SPS). تمكن هذه الميزة Microsoft Dynamics 365 Supply Chain Management من إرسال تفاصيل حول أحدي الحاويات المحزمة إلى الناقل، ثم تتلقي بطاقة الشحن وسعر الشحن ورقم التعقب مره أخرى من هذا الناقل.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219707"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336144"
 ---
 # <a name="small-parcel-shipping"></a>شحن طرد صغير
 
@@ -34,12 +34,9 @@ ms.locfileid: "9219707"
 
 قبل البدء في استخدام وظيفة SPS، يجب تشغيل ميزه SPS في أداره الميزات وأضافه محرك السعر الخاص بك وإعداد **أداره النقل** و **الوحدات النمطية** لأداره المستودعات لدعمها.
 
-### <a name="turn-on-the-sps-feature"></a>تشغيل ميزة SPS
+### <a name="turn-the-sps-feature-on-or-off"></a>قم بتشغيل ميزة SPS أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام ميزة SPS، يجب تشغيلها في النظام. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. هناك، يتم إدراج الميزة بالطريقة التالية:
-
-- **الوحدة النمطية:** *إدارة النقل*
-- **اسم الميزة:** *شحن طرد صغير*
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *شحن الطرود الصغيرة‬‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="deploy-and-set-up-rate-engines"></a>توزيع وإعداد محركات السعر
 

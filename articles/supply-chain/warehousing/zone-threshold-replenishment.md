@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 17e336fb059880e54a1cba7c0079e7452925c24d
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 44e7dfdbc980c5df6b9426515365611bc0de45c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219986"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335934"
 ---
 # <a name="zone-threshold-replenishment"></a>تزويد حد المنطقة
 
@@ -38,7 +38,7 @@ ms.locfileid: "9219986"
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>تشغيل ميزة التزويد حسب حد المنطقة
 
-قبل أن تتمكن من استخدام ميزة *التزويد حسب حد المنطقة*، يجب تشغيلها في النظام الخاص بك. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+قبل أن تتمكن من استخدام ميزة *التزويد حسب حد المنطقة* ، يجب تشغيلها في النظام الخاص بك. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة:** *إدارة المستودعات*
 - **اسم الميزة:** *التزويد حسب حد المنطقة*

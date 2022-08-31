@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3478e8c712c7bcbfb8ace9e7b43f0d8d3cf4ac8a
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2bb4115a486fbfe7287c9b183224699de4dfd456
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069141"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335485"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>شحن أوامر المبيعات دون تخزينها
 
@@ -45,7 +45,7 @@ ms.locfileid: "9069141"
 14. حدد **تغيير طريقة العرض**.
 15. حدد **طريقة عرض الرأس**.
     - إذا تم شحن جميع البنود بالأمر بالكامل، ستتغير حالة الأمر من "مفتوح" إلى " تم تسليمه".  
-    - في هذا المثال، تم شحن بند الأمر جزئيًا. وهذا هو سبب بقاء حالة الأمر "مفتوح".     
+    - في هذا المثال، تم شحن بند الأمر جزئيًا. هذا هو سبب بقاء حالة الطلب مفتوحة.     
     - تم تعيين الحقل **حالة المستند** إلى "إيصال التعبئة" لأنه تم شحن بند أمر واحد على الأقل.  
 16. في جزء الإجراءات، حدد **عام**.
 17. حدد **كمية البند**.

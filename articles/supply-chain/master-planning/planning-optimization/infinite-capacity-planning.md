@@ -2,7 +2,7 @@
 title: الجدولة بقدرة غير محدودة
 description: يوفر هذا المقال معلومات حول جدولة قدرة غير محدودة لتحسين التخطيط. كما يصف قيود الميزات الحالية.
 author: t-benebo
-ms.date: 09/21/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3646a7ca1f9a3a87a2f130783dc4961a61335f1d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6e0190899abb544b559bb5f26ba974155989c3a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873858"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335304"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>الجدولة بقدرة غير محدودة
 
@@ -24,12 +24,9 @@ ms.locfileid: "8873858"
 
 تقدم ميزة *جدولة قدرة غير محدودة لتحسين التخطيط* جدولة تستند إلى معلومات المسار. وتتيح لك إمكانية جدولة الوظائف استنادا إلى نطاق واسع من إعدادات المسار. تغطي الجدولة لتحسين التخطيط إعدادات المسارات المستخدمة بشكل متكرر، بما في ذلك تسلسل عمليات المسار أو متطلبات موارد عملية المسار.
 
-## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>تشغيل ميزة جدولة قدرة غير محدودة
+## <a name="turn-the-infinite-capacity-scheduling-feature-on-or-off"></a>قم بتشغيل ميزة جدولة السعة اللانهائية أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *التخطيط الرئيسي*
-- **اسم الميزة:** *جدولة سعة غير محدودة لتحسين التخطيط*
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *جدولة سعة لانهائية لتحسين التخطيط‬* في مساحة عمل [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 لمزيد من المعلومات حول هذه الميزة، راجع [الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة‬‏‫](capability-based-scheduling.md).
 

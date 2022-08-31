@@ -2,7 +2,7 @@
 title: إنشاء أوامر تحويل من تطبيق المستودع
 description: يوضح هذا المقال كيفيه إنشاء أوامر تحويل ومعالجتها من تطبيق إدارة المستودع للأجهزة المحمولة
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877439"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336444"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>إنشاء أوامر تحويل من تطبيق المستودع
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877439"
 
 تتيح هذه الميزة للعاملين إنشاء أوامر تحويل ومعالجتها مباشرةمن تطبيق إدارة المستودع للأجهزة المحمولة. ويبدأ العامل عن طريق تحديد مستودع الوجهة، ثم يمكنهم مسح لوحه ترخيص واحده أو أكثر باستخدام التطبيق لأضافه لوحات الترخيص إلى أمر التحويل. عندما يحدد عامل المستودع **الطلب الكامل**، تقوم وظيفة المجموعة بإنشاء أمر التحويل وبنود الأمر المطلوبة بناء علي المخزون الفعلي الذي تم تسجيله لألواح الترخيص هذه.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>تشغيل هذه الميزة أو إيقاف تشغيلها
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>قم بتشغيل هذه الميزة ومتطلباتها الأساسية
 
 قبل أن تتمكن من استخدام هذه الميزة، يجب تمكينها وتمكين متطلباتها الأساسية على النظام. بإمكان المسؤولين استخدام صفحة [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتمكينها إذا لزم الأمر.
 
 1. استخدم مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) لتمكين الميزات التالية (بالترتيب): اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هاتين الميزتين افتراضيًا.
-    1. *معالجة أحداث تطبيق المستودع*
-    1. *إنشاء أوامر تحويل ومعالجتها من تطبيق المستودع*
-1. لتنفيذ معالجه الشحنات الصادرة تلقائيًا، يجب أيضًا تمكين الميزة [تأكيد الشحنات الصادرة من الوظائف الدفعية](confirm-outbound-shipments-from-batch-jobs.md).
+    1. *معالجة أحداث تطبيق المستودع*<br>(اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.)
+    1. *إنشاء أوامر تحويل ومعالجتها من تطبيق المستودع*<br>(اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.)
+1. لتنفيذ معالجه الشحنات الصادرة تلقائيًا، يجب أيضًا تمكين الميزة [*تأكيد الشحنات الصادرة من الوظائف الدفعية*](confirm-outbound-shipments-from-batch-jobs.md) feature. اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها، اعتبارًا من Supply Chain Management 10.0.25.
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>إعداد صنف قائمة الأجهزة المحمولة لإنشاء أوامر التحويل
 
@@ -307,11 +307,11 @@ ms.locfileid: "8877439"
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>كيف يمكن العثور علي أوامر التحويل الحالية لاستخدامها من خلال الزر "تحديد أمر التحويل" في تطبيق إدارة المستودع للأجهزة المحمولة، إذا لم يكن قد تم إنشاء الأمر في نظام الخلفية؟
 
-لا يمكن حاليا البحث عن أوامر التحويل في التطبيق، ولكن يمكنك البحث عن أرقام أمر التحويل في الصفحة **احداث تطبيق المستودع**. لمزيد من المعلومات، راجع [الاستعلام عن أحداث تطبيق المستودع](#inquire-the-warehouse-app-events).
+يمكنك تمكين العاملين من البحث عن أرقام أوامر التحويل في تطبيق الاجهزه المحمولة لأداره المستودعات باستخدام قدره استعلام [البيانات الخاصة بها](warehouse-app-data-inquiry.md). علي سبيل المثال ، يمكنك إنشاء [عنصر قائمه الجهاز المحمول الديتر](warehouse-app-detours.md) الذي يستعلم عن البيانات المعروضة في الصفحة احداث **تطبيق مستودع** الويب (`WHSMobileDeviceQueueMessageCollection`) كجزء من *خطوه MobileDeviceQueueMessageCollectionIdentifierId* الأمر المحددة. يطابق رقم أمر التحويل القيمة الموضحة في حقل **المعرف** . راجع أيضا [استعلم عن أحداث تطبيق المستودع](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>هل يمكنني تحديد رقم أمر التحويل يدويا ليتم استخدامه من تطبيق إدارة المستودع للأجهزة المحمولة؟
 
-يتم اعتماد أرقام أمر التحويل الذي تم إنشاؤه تلقائيا بواسطة التسلسلات الرقمية فقط.
+يتم اعتماد أرقام أمر التحويل الذي تم إنشاؤه تلقائيا بواسطة التسلسلات الرقمية فقط. راجع أيضا الاجابه علي السؤال السابق فيما يتعلق بكيفية اعداد **زر تحديد أمر** التحويل. لمزيد من المعلومات حول كيفية العثور على أرقام أوامر التحويل ، راجع [الاستعلام عن احداث تطبيق المستودع](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>معالجة في الخلفية
 

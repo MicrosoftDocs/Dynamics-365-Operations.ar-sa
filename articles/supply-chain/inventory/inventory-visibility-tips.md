@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3bdd161815a15d5c39b3c0afc176a288c8d9055a
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885946"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306074"
 ---
 # <a name="inventory-visibility-tips"></a>نصائح رؤية المخزون
 
@@ -35,5 +35,8 @@ ms.locfileid: "8885946"
 - يتكون [تكوين القسم](inventory-visibility-configuration.md#partition-configuration) حاليًا من بعدين أساسيين (`SiteId` و`LocationId`) اللذين يشيران إلى كيفية توزيع البيانات. يمكن للعمليات التي تتم تحت نفس القسم تقديم أداء أعلى بتكلفة أقل. يتضمن الحل تكوين هذا القسم بشكل افتراضي. لذلك، *لا يتعين عليك تحديده بنفسك*. لا تقم بتخصيص تكوين القسم الافتراضي. إذا قمت بحذفه أو تغييره، فمن المحتمل ان تتسبب في حدوث خطا غير متوقع.
 - يجب عدم تعريف الأبعاد الأساسية التي تم تعريفها في تكوين القسم في [تكوين التدرج الهرمي لفهرس المنتجات](inventory-visibility-configuration.md#index-configuration).
 - تكوين [ التسلسل الهرمي لمؤشر المنتج لديك](inventory-visibility-configuration.md#index-configuration) يجب أن يتضمن تسلسلًا هرميًا واحدًا على الأقل للفهرس (على سبيل المثال ، يحتوي على البعد الأساسي `Empty`)وإلا ستفشل الاستعلامات مع الخطأ "لا يوجد تسلسل هرمي فهرس.
+- مصدر `@iv` البيانات هو مصدر بيانات معرف مسبقا والمقاييس الفعلية التي تم تعريفها في `@iv` بالبادئة `@` هي بمثابه مقاييس معرفه مسبقا. وتعد هذه المقاييس تكوينا معرفا مسبقا لميزه التخصيص ، لذلك لا تقم بتغييرها أو حذفها ، أو قد تواجه أخطاء غير متوقعه عند استخدام ميزه التوزيع.
+- يمكنك أضافه مقاييس فعليه جديده إلى المقياس `@iv.@available_to_allocate` المحسوب المعرف مسبقا ، ولكن يجب الا تقوم بتغيير اسمه.
+- إذا قمت باستعادة قاعده بيانات Supply Chain Management، فقد تحتوي قاعده البيانات المستعادة علي بيانات لم تعد متوافقة مع البيانات التي تمت مزامنتها سابقا بواسطة رؤية المخزون إلى Dataverse. يمكن ان يتسبب عدم اتساق البيانات في حدوث أخطاء في النظام والمشكلات الأخرى. لذلك ، فانه من المهم ان تقوم دائما بتنظيف كافة بيانات Dataverse رؤية المخزون ذات الصلة قبل استعاده قاعده بيانات Supply Chain Management. لمزيد من التفاصيل ، راجع [بيانات رؤية المخزون النظيفة من Dataverse قبل استعاده قاعده بيانات](inventory-visibility-setup.md#restore-environment-database) Supply Chain Management.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

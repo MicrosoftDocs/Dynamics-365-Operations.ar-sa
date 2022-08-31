@@ -2,7 +2,7 @@
 title: المعالجة المؤجلة لحركة المخزون اليدوية
 description: يصف هذا المقال كيفية استخدام المعالجة المؤجلة لحركة المخزون اليدوية في Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 04/27/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9acacaddbde22d05d85ab9e11cd1d6de62337a6a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219797"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336384"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>المعالجة المؤجلة لحركة المخزون اليدوية
 
@@ -32,10 +32,10 @@ ms.locfileid: "9219797"
 
 لجعل هذه الميزة متوفرة، يمكنك تشغيل الميزات التالية في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). يجب ليك تشغيلها بالترتيب التالي:
 
-1. *حظر العمل على مستوى المؤسسة*<br>(اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى.)
-1. *معالجة أحداث تطبيق المستودع*<br>اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management ، تعد هذه الميزة إلزامية. لذلك ، يتم تشغيله افتراضيا ولا يمكن إيقاف تشغيله مره أخرى.)
-1. *عمليات الوضع المؤجلة*
-1. *المعالجة المؤجلة لعملية حركة المخزون اليدوية*<br>(اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، هذه الميزة إلزامية، لذا يتم تشغيلها افتراضيًا ولا يمكن إيقاف تشغيلها مرة أخرى.)
+1. *حظر العمل على مستوى المؤسسة*<br>(اعتبارًا من الإصدار 10.0.21 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.)
+1. *معالجة أحداث تطبيق المستودع*<br>اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. (اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.)
+1. *عمليات الوضع المؤجلة*<br>(اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.)
+1. *المعالجة المؤجلة لعملية حركة المخزون اليدوية*<br>(اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.)
 
 ## <a name="configure-the-work-processing-policies"></a>تكوين سياسات معالجة العمل
 

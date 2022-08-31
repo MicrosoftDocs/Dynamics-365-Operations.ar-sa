@@ -13,18 +13,18 @@ ms.author: filatovm
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: EROperationDesigner
-ms.openlocfilehash: fa66edef7e39c72d4859a21a1474096f7bc1c1dd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a2ea132b51f2f451fbe81a9c7869bea84bf4017a
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9278785"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324008"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>تصميم تكوينات ER لمنع أحرف قائمة مكونات الصنف في الملفات التي تم إنشاؤها
 
 [!include [banner](../includes/banner.md)]
 
-يمكنك تصميم تنسيقات [حل](er-quick-start1-new-solution.md) [إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) لإنشاء مستندات صادرة بتنسيق XML. لإنشاء المستندات كنص أو كملفات XML، يجب ان يتضمن الحل [تكوين](general-electronic-reporting.md#Configuration) إعداد التقارير الإلكترونية (ER) الذي يحتوي علي مكون تنسيق ER. لتحديد [ترميز الأحرف](/windows/win32/intl/character-sets) الذي يمثل مجموعه الأحرف في الملفات التي تم إنشاؤها، يجب ان يحتوي التنسيق ER علي عنصر تنسيق **الملف\\عام**. لتكوين مكون التنسيق الخاص بـ ER، يجب فتح [الإصدار التمهيدي](general-electronic-reporting.md#component-versioning) لتكوين ER في مصمم التنسيق الخاص بـ ER، وإضافة العنصر **عام\\ملف**. في حقل **الترميز**، حدد ترميز الملفات الصادرة التي يتم إنشاؤها في وقت التشغيل باستخدام هذا المكون.
+يمكنك تصميم تنسيقات [حل](er-quick-start1-new-solution.md) [إعداد التقارير الإلكترونية (ER)](general-electronic-reporting.md) لإنشاء مستندات صادرة بتنسيق XML. لإنشاء المستندات كنص أو كملفات XML، يجب ان يتضمن الحل [تكوين](general-electronic-reporting.md#Configuration) إعداد التقارير الإلكترونية (ER) الذي يحتوي علي مكون تنسيق ER. لتحديد [ترميز الأحرف](/windows/win32/intl/character-sets) الذي يمثل مجموعه الأحرف في الملفات التي تم إنشاؤها، يجب ان يحتوي التنسيق ER علي عنصر تنسيق **الملف\\عام**. لتكوين مكون تنسيق التقارير الإلكترونية ، افتح الإصدار التمهيدي لتكوين التقارير الإلكترونية في مصمم تنسيق التقارير الإلكترونية ، وأضف **عناصر\\الملف** الشائعة. في حقل **الترميز**، حدد ترميز الملفات الصادرة التي يتم إنشاؤها في وقت التشغيل باستخدام هذا المكون.
 
 > [!NOTE]
 > إذا كان التنسيق يحتوي علي اسم ترميز غير صحيح، يتم طرح خطا عند حفظ التغييرات إلى إعدادات التنسيق.

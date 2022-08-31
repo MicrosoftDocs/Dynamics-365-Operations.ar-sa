@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.21
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: e72afb852d8edac9fc798f11498c721cd7cb6e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 794a691272c2cb9a2a07d35db0257344d5628b9b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272227"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324029"
 ---
 # <a name="get-started-with-electronic-invoicing-for-saudi-arabia"></a>الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
 
@@ -121,7 +121,7 @@ ms.locfileid: "9272227"
 
 لمزيد من المعلومات حول تكوين بيانات الأعمال ومعالجتها في Finance، راجع [الفواتير الإلكترونية للعملاء في المملكة العربية السعودية](emea-sau-e-invoices.md).
 
-# <a name="electronic-invoicing-onboarding-in-saudi-arabia"></a><a id="onboarding"></a>إعداد الفواتير الإلكترونية في المملكة العربية السعودية
+## <a name="electronic-invoicing-onboarding-in-saudi-arabia"></a><a id="onboarding"></a>إعداد الفواتير الإلكترونية في المملكة العربية السعودية
 يعد الانضمام إلزاميًا لجميع دافعي الضرائب الخاضعين للفواتير الإلكترونية في المملكة العربية السعودية. يجب أن يكون دافعو الضرائب وبرامجهم الخاصة بالفوترة الإلكترونية لـ ZATCA المؤهلة. نتيجة لعملية الإعداد، يحصل دافعو الضرائب على معرّفات CSID، وهي مطلوبة للتكامل مع بوابة الفواتير الإلكترونية التي تديرها ZATCA ولتقديم المزيد من الفواتير الإلكترونية.
 
 يعد الإعداد جزءًا أساسيًا من تكوين الفواتير الإلكترونية. لمزيد من المعلومات حول عملية الإعداد، راجع [إعداد الفواتير الإلكترونية في المملكة العربية السعودية](e-invoicing-sa-onboarding.md).

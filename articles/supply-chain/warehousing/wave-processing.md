@@ -2,7 +2,7 @@
 title: إنشاء الموجة ومعالجتها
 description: يصف هذا المقال كيفية الإنشاء والمعالجة والإصدار لموجة، لإنشاء عمل انتقاء لحمل العمل أو الشحن أو أمر الإنتاج أو أمر كانبان.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014608"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335994"
 ---
 # <a name="wave-creation-and-processing"></a>إنشاء الموجة ومعالجتها
 
@@ -191,7 +191,7 @@ ms.locfileid: "9014608"
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>تشغيل صفحة تفاصيل مهمة دفعة الموجة‬ أو إيقاف تشغيلها
 
-اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، تكون ميزة **صفحة تفاصيل مهمة دفعة الموجة‬** قيد التشغيل بشكل افتراضي. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *تفاصيل وظيفة الدفعة للموجة‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.25 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *‬‬تفاصيل مهمة دفعة الموجة* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>استخدام صفحة تفاصيل مهمة دفعة الموجة
 

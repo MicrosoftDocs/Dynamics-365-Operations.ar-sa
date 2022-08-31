@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219557"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313872"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -46,6 +46,17 @@ ms.locfileid: "9219557"
 | **مناطق المنتجات المتأثرة** | استمارة التقديم |
 | **خيارات النشر** | ‏‏الكل‬ |
 | **Status** | مهمل: بعد 2023 ابريل ، **لن تتلقي أوامر تحويل المخزون التي تحتوي علي ضريبة في وظيفة سعر** التحويل بعد الآن استقبال الدعم مع إصلاحات الأخطاء وإصلاحات الأمان. سيطلب من العملاء استخدام الوظائف المحسنة ، وهي [أوامر تحويل المخزون للهند](../../finance/localizations/apac-ind-stock-transfer.md). بعد 2023 أكتوبر ، لن تكون أوامر تحويل المخزون **التي تحتوي علي ضريبة في وظيفة سعر** التحويل متوفرة ، ستتم مطالبه العملاء بالانتقال إلى الوظيفة المحسنة. |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>استيراد كشف حساب البنك وتصديره لملف الدفع الموجب
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **سبب الإهلاك/الإزالة** |ويتم استبدالها بوظائف محسنه ، واستيراد كشوف الحسابات البنكية وتصدير ملفات الدفع الايجابيه.| 
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | تم إهماله: لن تتلقي وظيفة XSLT لاستيراد الملفات وتصديرها الدعم مع إصلاحات الأخطاء وإصلاحات الأمان. سيُطلب من العملاء استخدام الوظيفة المحسّنة: [قم بإعداد ملفات الدفع الإيجابية باستخدام التقارير الإلكترونية](../../finance/accounts-payable/set-up-positive-pay-er.md) و [قم بإعداد استيراد التسوية البنكية المتقدمة باستخدام التقارير الإلكترونية](../../finance/accounts-payable/import-bai2-er.md). بعد 2022 سبتمبر ، لن تعود وظيفة XSLT متاحه ، سيطلب من العملاء الانتقال إلى الوظيفة المحسنة.|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.26 من Finance
 

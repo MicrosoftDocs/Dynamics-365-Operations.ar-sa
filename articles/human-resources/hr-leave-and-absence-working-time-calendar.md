@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861062"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323533"
 ---
 # <a name="create-a-working-time-calendar"></a>إنشاء تقويم مواعيد العمل
 
-
-> [!Important]
-> تتوفر الوظيفة المذكورة في هذة المقالة حاليًا للعملاء في Dynamics 365 Human Resources المستقل. ستتوفر بعض الوظائف أو كلها كجزء من الإصدار المستقبلي على بنية Finance الأساسية بعد إصدار 10.0.26 من Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -67,7 +64,7 @@ ms.locfileid: "8861062"
 
 يمكنك أضافه أوقات غير العمل أو تغييرها وإغلاقها بشكل منفصل من تقويم وقت العمل.
 
-1. في صفحة **إدارة المؤسسة**، حدد **NON-WORK TIME**.
+1. على صفحة **"إدارة المؤسسة"**، حدد **وقت غير العمل**.
 
 2. حدد **جديد**، وأدخل اسمًا ونطاق الوقت لوقت غير العمل.
 

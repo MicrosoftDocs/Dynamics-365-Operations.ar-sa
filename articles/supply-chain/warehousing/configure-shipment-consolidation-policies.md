@@ -2,7 +2,7 @@
 title: تكوين نُهج دمج الشحنات
 description: يوضح هذا المقال كيفية إعداد نُهج دمج الشحنات الافتراضية والمخصصة.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219521"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336481"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>تكوين نُهج دمج الشحنات
 
@@ -33,10 +33,7 @@ ms.locfileid: "9219521"
 > [!IMPORTANT]
 > في [السيناريو الأول](#scenario-1) الموضح في هذا المقال، ستقوم أولا بإعداد مستودع بحيث يستخدم ميزة دمج الشحنات السابقة. وبعد ذلك ستقوم بإتاحة نُهج دمج الشحنات. بهذه الطريقة، يمكنك تجربة كيف يعمل سيناريو الترقية. إذا كنت تخطط لاستخدام بيئة بيانات العرض التوضيحي للانتقال عبر السيناريو الأول، فلا تقم بتشغيل الميزة قبل تنفيذ السيناريو.
 
-قبل أن تتمكن من استخدام ميزة *نُهج دمج الشحنات*، يجب تشغيلها في النظام لديك. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *دمج الشحنات*
+لاستخدام ميزة *سياسات تجميع الشحنات* ، يجب تشغيله لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *سياسات تجميع الشحنات‬‬‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="make-demo-data-available"></a>جعل بيانات العرض التوضيحي متاحة
 

@@ -2,7 +2,7 @@
 title: تفاوت التأخير (الأيام السالبة)
 description: يوفر هذا المقال معلومات حول حساب تفاوت التأخير وكيفية تأثيره على إنشاء الأمر المخطط في تحسين التخطيط.
 author: t-benebo
-ms.date: 07/30/2021
+ms.date: 08/09/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219956"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335364"
 ---
 # <a name="delay-tolerance-negative-days"></a>تفاوت التأخير (الأيام السالبة)
 
@@ -23,11 +23,11 @@ ms.locfileid: "9219956"
 
 تتيح وظيفة تفاوت التأخير إمكانية تحسين التخطيط لاعتبار قيمة **الأيام السالبة** القيمة التي تم تعيينها لمجموعات التغطية و / أو تغطية الصنف و / أو الخطط الرئيسية. ويستخدم لتمديد فترة تفاوت التأخير التي يتم تطبيقها أثناء التخطيط الرئيسي. بهذه الطريقة، يمكنك تجنب إنشاء أوامر توريد جديدة إذا كان التوريد الموجود قادرًا على تغطية الطلب بعد فترة تأخير قصيرة. إن الغرض من الوظيفة هو تحديد ما إذا كان من المنطقي إنشاء أمر توريد جديد لطلب معين.
 
-## <a name="turn-on-the-feature-in-your-system"></a>تشغيل الميزة في النظام
+## <a name="turn-delay-tolerance-features-on-or-off"></a>قم بتشغيل ميزات تحمل التأخير أو إيقاف تشغيلها
 
 لإتاحة وظيفة تحمل التأخير في نظامك ، انتقل إلى [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)، وقم بتشغيل الميزات التالية:
 
-- *الأيام السالبة لتحسين* التخطيط – تمكن هذه الميزة اعداد الأيام السالبة لمجموعات التغطية وتغطيه الصنف.
+- *الأيام السالبة لتحسين* التخطيط – تمكن هذه الميزة اعداد الأيام السالبة لمجموعات التغطية وتغطيه الصنف. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.
 - *اجراء التنفيذ التلقائي* لتقديم الطلبات – تمكن هذه الميزة اعداد الأيام السالبة للخطط الرئيسية. (لمزيد من المعلومات ، راجع [اجراء التنفيذ التلقائي](../make-to-order-supply-automation.md)لتقديم الطلبات.)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>تفاوت التأخير في تحسين التخطيط

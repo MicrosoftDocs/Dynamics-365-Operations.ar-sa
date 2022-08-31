@@ -2,34 +2,32 @@
 title: إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج
 description: يقدم هذا المقال دليلا حول كيفيه تمكين وظيفة تسجيل النقد لترجمة Microsoft Dynamics 365 Commerce للنرويج.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: b19fc35a96c3194cf516ea505b6980072571a595
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281007"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9345981"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>إرشادات النشر لآلات تسجيل المدفوعات النقدية الخاصة بالنرويج
 
 [!include[banner](../includes/banner.md)]
 
-يقدم هذا المقال دليلا حول كيفيه تمكين وظيفة تسجيل النقد لترجمة Microsoft Dynamics 365 Commerce للنرويج. تتكون الترجمة من عده ملحقات من المكونات. تتيح لك هذه الملحقات تنفيذ إجراءات مثل طباعة الحقول المخصصة على الإيصالات، وتسجيل أحداث تدقيق إضافية، ومعاملات المبيعات، ومعاملات الدفع في نقاط البيع (POS)، وتوقيع معاملات المبيعات رقميًا، وطباعة التقارير بالتنسيقات المحلية. لمزيد من المعلومات حول الترجمة الخاصة بالنرويج، راجع [وظيفة تسجيل النقد للنرويج](./emea-nor-cash-registers.md). لمزيد من المعلومات حول كيفية تكوين Commerce للنرويج، راجع [إعداد Commerce للنرويج](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+> [!IMPORTANT]
+> يجب عليك تنفيذ الخطوات الموضحة في هذه المقالة فقط إذا كنت تستخدم Microsoft Dynamics 365 Commerce الإصدار 10.0.29 أو إصدارا أحدث. في الإصدار التجاري 10.0.28 أو إصدار أقدم ، يجب استخدام الإصدار السابق من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK) على جهاز ظاهري للمطور (VM) في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع للسجلات النقدية للنرويج (قديم)](./emea-nor-loc-deployment-guidelines.md). إذا كنت تستخدم الإصدار التجاري 10.0.28 أو ما قبله وقامت بالترحيل إلى إصدار التجارة 10.0.29 أو إصدارا لاحقا ، فيجب اتباع الخطوات الواردة في [الترحيل من وظيفة التجارة القديمة للنرويج](./emea-nor-fi-migration.md).
 
-> [!WARNING]
-> وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لوظيفة الترجمة هذه. يجب استخدام إصدار عينه التوقيع الرقمي للنرويج في الإصدار السابق من مجموعه تطوير برامج Retail (VM) علي الجهاز الظاهري (VM) للمطور في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع للسجلات النقدية للنرويج (قديم)](./emea-nor-loc-deployment-guidelines.md).
->
-> يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
+توفر هذه المقالة إرشادات حول كيفية تمكين وظيفة تسجيل النقد من أجل الترجمة التجارية للنرويج. تتكون الترجمة من العديد من ملحقات المكونات التي تتيح لك تنفيذ إجراءات مثل طباعة الحقول المخصصة على الإيصالات ، وتسجيل أحداث تدقيق إضافية ، ومعاملات المبيعات ، ومعاملات الدفع في نقاط البيع (POS) ، وتوقيع معاملات المبيعات رقميًا ، وطباعة التقارير بالتنسيقات المحلية . لمزيد من المعلومات حول الترجمة الخاصة بالنرويج، راجع [وظيفة تسجيل النقد للنرويج](./emea-nor-cash-registers.md). لمزيد من المعلومات حول كيفية تكوين Commerce للنرويج، راجع [إعداد Commerce للنرويج](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>إعداد عملية التسجيل المالي للنرويج
 
-تعتمد عينة التسجيل المالي للنرويج على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\SequentialSignatureNorway** الخاص [بحلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)، المستودع (على سبيل المثال [النموذج في الإصدار/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي والموصل المالي، وهما امتدادان لCommerce Runtime (CRT). لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة التسجيل المالي للنرويج على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهو جزء من Commerce SDK. تقع العينة في مجلد **src\\FiscalIntegration\\SequentialSignatureNorway** في مستودع [حلولDynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي والموصل المالي، وهما امتدادان لCommerce Runtime (CRT). لمزيد من المعلومات حول كيفيه استخدام SDK التجارية ، راجع [تنزيل نماذج sdk والحزم المرجعية الخاصة بالتجارة من GitHub واعداد NuGet](../dev-itpro/retail-sdk/sdk-github.md) تدفقات [بناء لمجموعه SDK](../dev-itpro/build-pipeline.md)المستقلة.
 
 أكمل خطوات اعداد التسجيل المالي كما هو موضح في [اعداد التكامل المالي لقنوات Commerce](./setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -45,10 +43,10 @@ ms.locfileid: "9281007"
 1. تنزيل ملفات التكوين لموفر المستند المالي والموصل المالي من Commerce SDK:
 
     1. افتح مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. يستخدم هذا الزر في فتح فرع الإصدار الذي تم توفيره مؤخرا (على سبيل المثال، **[إصدار/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
+    1. يستخدم لفتح فرع الإصدار الذي تم توفيره مؤخرا.
     1. افتح **src \> FiscalIntegration \> SequentialSignatureNorway \> CommerceRuntime**.
-    1. قم بتنزيل ملف تكوين موفر المستند المالي في **DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml** (على سبيل المثال، [لملف إصدار/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
-    1. قم بتنزيل ملف تكوين الموصل المالي في **Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSignatureNorwaySample.xml** (على سبيل المثال، [ملف الإصدار/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)).
+    1. قم بتنزيل ملف تكوين موفر المستندات المالية في **DocumentProvider.SequentialSignNorway \> التكوين \> DocumentProviderSequentialSignatureNorwaySample.xml**.
+    1. قم بتنزيل ملف تكوين الرابط المالي في **Connector.SequentialSignNorway \> التكوين \> ConnectorSequentialSignatureNorwaySample.xml**.
 
 1. انتقل إلى **Retail وCommerce \> إعداد Headquarters \> المعلمات \> المعلمات المشتركة**. في علامة التبويب السريعة **عام**، عيّن خيار **تمكين التكامل المالي** إلى **نعم**.
 1. انتقل إلى **Retail وCommerce \> إعداد القناة \> التكامل المالي \> الموصلات المالية**، وقم بتحميل ملف تكوين موفر المستندات المالية الذي قمت بتنزيله مسبقًا.
@@ -99,11 +97,11 @@ ms.locfileid: "9281007"
 
 ### <a name="configure-channel-components"></a>تكوين مكونات القناة
 
-### <a name="development-environment"></a>بيئة التطوير
+#### <a name="development-environment"></a>بيئة التطوير
 
 اتبع هذه الخطوات لإعداد بيئة تطوير بحيث يمكنك اختبار العينة وتوسيعها.
 
-1. قم بنسخ مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) أو تنزيله. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك. لمزيد من المعلومات، راجع [تنزيل نماذج Retail SDK والحزم المرجعية من GitHub وNuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. قم بنسخ مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) أو تنزيله. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك. لمزيد من المعلومات، راجع [تنزيل نماذج Commerce SDK والحزم المرجعية من GitHub و NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. افتح حل **SequentialSignatureNorway.sln** ضمن **Dynamics365Commerce.Solutions\\FiscalIntegration\\SequentialSignatureNorway**، وقم بإنشائه.
 1. تثبيت ملحقات CRT:
 
@@ -126,7 +124,7 @@ ms.locfileid: "9281007"
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-### <a name="production-environment"></a>بيئة الإنتاج
+#### <a name="production-environment"></a>بيئة الإنتاج
 
 اتبع الخطوات الواردة في [إعداد تدفق البناء لنموذج تكامل مالي](fiscal-integration-sample-build-pipeline.md) لإنشاء وإصدار وحده مقياس السحابة وحزم الخدمة الذاتية القابلة للنشر لنموذج التكامل المالي. يمكن العثور على ملف YAML لقالب **SequentialSignatureNorway build-pipeline.yaml** في مجلد **Pipeline\\YAML_Files** الخاص بمستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions).
 

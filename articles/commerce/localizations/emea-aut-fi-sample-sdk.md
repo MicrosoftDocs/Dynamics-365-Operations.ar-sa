@@ -2,25 +2,29 @@
 title: إرشادات النشر لعينة تكامل خدمة التسجيل المالي للنمسا (قديمة)
 description: يوفر هذا المقال إرشادات لنشر نموذج التكامل المالي للنمسا من مجموعة تطوير برامج Microsoft Dynamics 365 Commerce ‏Retail ‏(SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 203904f60888464a473cb2997652db497fba6f57
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f5f12dbd638c8228dbc63c1fae8f3dfffc7bfe9c
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276091"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313762"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>إرشادات النشر لعينة تكامل خدمة التسجيل المالي للنمسا (قديمة)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-يوفر هذا المقال إرشادات لنشر نموذج تكامل خدمة التسجيل المالي للنمسا من مجموعة تطوير برنامج Microsoft Dynamics 365 Commerce ‏(SDK) على جهاز ظاهري للمطور (VM) في Microsoft Dynamics Lifecycle Services ‏(LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل خدمة التسجيل المالي للنمسا](emea-aut-fi-sample.md). 
+> [!IMPORTANT]
+> يجب عليك اتباع الإرشادات الموجودة في هذه المقالة فقط إذا كنت تستخدم Microsoft Dynamics 365 Commerce الإصدار 10.0.28 أو إصدارا سابقا. اعتبارًا من الإصدار 10.0.29 من Commerce ، يتوفر نموذج تكامل خدمة التسجيل المالي للنمسا في مجموعة تطوير برامج التجارة (SDK). لمزيد من المعلومات، راجع [تكوين مكونات القناة‬](./emea-aut-fi-sample.md#configure-channel-components).
+
+توفر هذه المقالة إرشادات لنشر نموذج تكامل خدمة التسجيل المالي للنمسا Dynamics 365 Commerce من Retail SDK على جهاز ظاهري للمطور (VM) Microsoft Dynamics في Lifecycle Services (LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل خدمة التسجيل المالي للنمسا](emea-aut-fi-sample.md). 
 
 تعد عينة التكامل المالي للنمسا جزءًا من Retail SDK. للحصول على مزيد من المعلومات حول كيفية تثبيت واستخدام SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). تتكون عينة التكامل المالي من ملحقات لـ Commerce Runtime (CRT) ومحطة الأجهزة ونقطة البيع (POS). لتشغيل هذا النموذج، يجب تعديل مشاريع CRT ومحطة الأجهزة ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Azure DevOps حيث لم يتم تغيير أي ملفات حتى الآن.
 

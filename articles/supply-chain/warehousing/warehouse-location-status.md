@@ -2,7 +2,7 @@
 title: حالة موقع المستودع
 description: يقدم هذا المقال نظرة عامة على ميزة حالة موقع المستودع.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220046"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336084"
 ---
 # <a name="warehouse-location-status"></a>حالة موقع المستودع
 
@@ -40,9 +40,9 @@ ms.locfileid: "9220046"
     - **انتقاء** – تم تنفيذ الحركات الصادرة مقابل الموقع منذ أن كان فارغًا آخر مرة.
     - **التخزين** – تم تنفيذ الحركات الواردة فقط مقابل الموقع منذ أن كان الموقع فارغًا آخر مرة.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>تشغيل ميزة حالة موقع المستودع
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>قم بتشغيل ميزة حالة موقع المستودع أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *حالة موقع المستودع* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *تغيير وعاء العمل في العمل‬‬‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>إعداد حالة موقع المستودع
 

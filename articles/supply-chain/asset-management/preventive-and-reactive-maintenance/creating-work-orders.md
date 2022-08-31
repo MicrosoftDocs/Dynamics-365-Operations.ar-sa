@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ba01a90f805300a27e4550e1371fb55d5e3a7536
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891194"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335034"
 ---
 # <a name="creating-work-orders"></a>إنشاء أوامر العمل
 
@@ -64,7 +64,7 @@ ms.locfileid: "8891194"
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>تمكين تجميع أوامر العمل التي تم إنشاؤها تلقائيا
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+قبل أن تتمكن من استخدام هذه الميزة ، يجب تشغيلها لنظامك. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة النمطية:** *إدارة الأصول‎*
 - **اسم الميزة:** *(إصدار أولي) تطبيق قواعد لتجميع أوامر العمل اثناء تشغيل خطه الصيانة*

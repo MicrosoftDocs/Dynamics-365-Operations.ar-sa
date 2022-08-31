@@ -2,7 +2,7 @@
 title: الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة
 description: يصف هذا المقال تحديد الموارد اثناء جدولة سعة غير محدودة عند تحدد القدرات كمتطلبات موارد لإحدى العمليات.
 author: t-benebo
-ms.date: 9/3/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd, WrkCtrTable, WrkCtrCapability
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847951"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335394"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة
 
@@ -24,12 +24,9 @@ ms.locfileid: "8847951"
 
 ومن خلال تحديد متطلبات الموارد لعملية في مسار إنتاج، فأنت تحدد ما هو مطلوب لتنفيذ هذه العملية. على سبيل المثال، قد تتطلب إحدى العمليات موردًا محددًا أو مجموعة موارد محددة أو مجموعة من المهارات أو القدرات. يصف هذا المقال تحديد الموارد اثناء جدولة سعة غير محدودة عند تحدد القدرات كمتطلبات موارد لإحدى العمليات.
 
-## <a name="turn-on-the-capability-based-scheduling-feature"></a>تشغيل ميزة الجدولة القائمة على القدرات
+## <a name="turn-the-capability-based-scheduling-feature-on-or-off"></a>قم بتشغيل ميزة الجدولة القائمة على القدرة أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة:** *التخطيط الرئيسي*
-- **اسم الميزة:** *جدولة سعة غير محدودة لتحسين التخطيط*
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *جدولة سعة لانهائية لتحسين التخطيط‬* في مساحة عمل [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 لمزيد من المعلومات حول هذه الميزة، راجع [جدولة ذات سعة لا نهائية‬](infinite-capacity-planning.md).
 

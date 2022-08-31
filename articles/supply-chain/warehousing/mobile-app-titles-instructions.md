@@ -2,7 +2,7 @@
 title: تخصيص عناوين الخطوات وإرشاداتها لتطبيق إدارة المستودع للأجهزة المحمولة
 description: يصف هذا المقال كيفية إنشاء وإظهار إرشادات مخصصة لكل خطوة من كل تدفق مهام تقوم بإعداده لتطبيق "إدارة المستودعات" للجوال.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220138"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334465"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>تخصيص عناوين الخطوات وإرشاداتها لتطبيق إدارة المستودع للأجهزة المحمولة
 
@@ -28,9 +28,9 @@ ms.locfileid: "9220138"
 - **زيادة عدد العاملين بشكل أسرع من خلال السماح لهم باتباع تعليمات بسيطة لكل خطوة مهمة.** توفر كل خطوة من خطوات التدفق إرشادات تمكن العاملين في الخطوط الأمامية من فهم المهمة.
 - **توفير إرشادات تطابق العمليات الخاصة بك.** اكتب التعليمات الخاصة بك لتتناسب مع عمليات عملك ومستودعك. على سبيل المثال، يمكنك جعل المصطلحات تناسب المساحة الفعلية والاختصارات المحلية.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>تشغيل ميزة إرشادات خطوة تطبيق المستودع
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>قم بتشغيل ميزة إرشادات خطوة تطبيق Warehouse أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *تعليمات خطوة تطبيق Warehouse‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+قبل أن تتمكن من استخدام هذه الميزة ، يجب تشغيلها لنظامك. (اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها.) إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29 ، فيمكن للمسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها من خلال البحث عن ملف *تعليمات خطوة تطبيق Warehouse* الميزة في [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) مساحة العمل.
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>عناوين الخطوات وإرشادات الخطوة في التطبيق
 

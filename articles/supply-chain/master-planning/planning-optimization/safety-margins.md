@@ -2,7 +2,7 @@
 title: حدود الأمان
 description: يصف هذا المقال كيفيه استخدام هوامش الأمان مع الوظيفة الإضافية تحسين التخطيط لـ Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854228"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335184"
 ---
 # <a name="safety-margins"></a>حدود الأمان
 
@@ -79,12 +79,9 @@ ms.locfileid: "8854228"
 
 ## <a name="set-up-safety-margins"></a>إعداد هوامش الأمان
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>تشغيل هوامش الأمان في إدارة الميزات
+### <a name="turn-safety-margins-on-or-off"></a>قم بتشغيل هوامش الأمان أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام هذه الميزة مع تحسين التخطيط، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام مساحة عمل [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. هناك، يتم إدراج الميزة بالطريقة التالية:
-
-- **الوحدة:** _التخطيط الرئيسي_
-- **اسم الميزة:** _هوامش لتحسين التخطيط_
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، هذه الميزة إلزامية ولا يمكن إيقاف تشغيلها. إذا كنت تقوم بتشغيل إصدار أقدم من 10.0.29، فبإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن *هوامش لتحسين التخطيط‬‬* في مساحة عمل [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="define-safety-margins"></a>تحديد هوامش الأمان
 

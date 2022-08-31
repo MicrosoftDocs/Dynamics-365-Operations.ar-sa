@@ -2,7 +2,7 @@
 title: التكامل مع أنظمة تنفيذ التصنيع التابعة لجهات خارجية
 description: يشرح هذا المقال كيف يمكنك دمج Microsoft Dynamics 365 Supply Chain Management مع نظام تنفيذ التصنيع لجهة خارجية (MES).
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068020"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336204"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>التكامل مع أنظمة تنفيذ التصنيع التابعة لجهات خارجية
 
@@ -45,9 +45,7 @@ ms.locfileid: "9068020"
     1. في صفحة **تكوين الترخيص**، حدد خانة اختيار **الوقت والحضور**.
     1. إيقاف تشغيل وضع الصيانة كما هو موضح في [وضع الصيانة](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. انتقل إلى **إدارة النظام \> مساحات العمل \> إدارة الميزات**.
-1. قم بتشغيل الميزة مدرجة بالطريقة التالية (راجع أيضًا [‏‫نظرة على إدارة الميزات‬](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **الوحدة النمطية:** *التحكم بالإنتاج*
-    - **اسم الميزة:** *تكامل أنظمة تنفيذ التصنيع*
+1. استخدم [مساحة عمل أداره](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) الميزات لتشغيل ميزه تكامل *نظام تنفيذ التصنيع*. (اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.)
 
 ## <a name="processes-available-for-mes-integration"></a>العمليات المتاحة لتكامل MES
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5b3bf0d94e6975f543361481b73c845ef9c56d05
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aeadca6f3c31d5d8c1ef9d334b0e531896ac99b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885656"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336294"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>إعداد عنصر قائمة جهاز محمول لتوفير نظرة عامة على بنود الانتقاء
 
@@ -30,7 +30,7 @@ ms.locfileid: "8885656"
 
 ## <a name="turn-on-the-work-pick-line-overview-feature"></a>تشغيل ميزة النظرة العامة على بنود انتقاء العمل
 
-قبل أن تتمكن من استخدام هذه الميزة، يجب تشغيلها في النظام. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+قبل أن تتمكن من استخدام هذه الميزة ، يجب تشغيلها لنظامك. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها إذا كانت مطلوبة. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
 
 - **الوحدة:** _إدارة المستودعات_
 - **اسم الميزة:** _نظرة عامة على بنود انتقاء العمل_

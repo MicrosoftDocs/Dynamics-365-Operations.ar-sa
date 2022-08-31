@@ -2,7 +2,7 @@
 title: النطاقات في Dynamics 365 Commerce
 description: يصف هذا المقال كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 05/10/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
 ms.search.industry: retail
 ms.search.form: ''
-ms.openlocfilehash: 9bd925b7bf27748b3c17946de72a76bc0d0200d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288439"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336626"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>النطاقات في Dynamics 365 Commerce
 
@@ -109,6 +109,10 @@ ms.locfileid: "9288439"
 لإعداد مجالات مخصصة باستخدام خدمة الواجهة الأمامية أو CDN، هناك خياران:
 
 - إعداد خدمة واجهة أمامية مثل Azure Front Door للتعامل مع حركة مرور الواجهة الأمامية والاتصال Commerce. ويوفر ذلك مستوى أكبر من التحكم في إدارة المجالات والشهادات وسياسات أمان أكثر دقة.
+
+> [!NOTE]
+> إذا كنت تستخدم خدمه CDN خارجيا أو خدمه باب امامي، فتاكد من انه تم الرد علي الطلب في النظام الأساسي للتجارة باستخدام اسم المضيف المتوفر لدي التجارة ، ولكن مع راس \<custom-domain\>المضيف الذي تم إرساله بالمضيف س (XFH). علي سبيل المثال ، إذا كانت نقطه نهاية `xyz.dynamics365commerce.ms` التجارة والمجال المخصص هو ، يجب ان يكون `www.fabrikam.com` راس المضيف للطلب المعاد توجيهه هو `xyz.dynamics365commerce.ms` ويجب ان يكون `www.fabrikam.com`راس الإكسفه.
+
 - استخدام مثيل Azure Front Door الذي يوفره Commerce. يتطلب ذلك تنسيق الإجراء مع فريق Dynamics 365 Commerce للتحقق من المجال والحصول على شهادات SSL لمجال الإنتاج.
 
 للحصول على معلومات حول كيفية إعداد خدمة CDN مباشرة، راجع [إضافة الدعم لشبكة تسليم المحتوى (CDN)](add-cdn-support.md).
@@ -141,14 +145,18 @@ ms.locfileid: "9288439"
 
 ## <a name="apex-domains"></a>مجالات Apex
 
-لا يدعم مثيل Azure Front Door الذي يوفره Commerce مجالات apex (المجالات الجذر التي لا تتضمن مجالات ثانوية). تتطلب مجالات Apex عنوان IP لحل المشكلة، ويوجد Commerce Azure Front Door مع نقاط النهاية الظاهرية فقط. لاستخدام مجال apex، لديك خياران:
+لا يدعم مثيل Azure Front Door الذي يوفره Commerce مجالات apex (المجالات الجذر التي لا تتضمن مجالات ثانوية). تتطلب مجالات Apex عنوان IP لحل المشكلة، ويوجد Commerce Azure Front Door مع نقاط النهاية الظاهرية فقط. لاستخدام مجال رئيسي ، لديك الخيارات التالية:
 
 - **الخيار 1** - استخدم موفر DNS لإعادة توجيه مجال apex إلى مجال "www". على سبيل المثال، يعيد fabrikam.com التوجيه إلى `www.fabrikam.com` حيث `www.fabrikam.com` يمثل سجل CNAME الذي يشير إلى مثيل Azure Front Door المستضاف في Commerce.
 
-- **الخيار 2** - إعداد CDN/مثيل واجهة أمامية لاستضافة مجال apex.
+- **الخيار 2** -إذا كان موفر DNS الخاص بك يدعم سجلات الأسماء المستعارة ، يمكنك توجيه المجال الأبي إلى نقطه نهاية الباب الامامي. ويضمن ذلك انه يتم عكس تغيير IP بواسطة نقطه نهاية الباب الامامي.
+  
+- **الخيار 3** -إذا كان موفر DNS الخاص بك لا يدعم سجلات الأسماء المستعارة ، فيجب اعداد مثيل CDN أو الباب الامامي بنفسك لاستضافه المجال الأبي.
 
 > [!NOTE]
 > إذا كنت تستخدم Azure Front Door، فيجب عليك أيضًا اعداد Azure DNS في نفس الاشتراك. يمكن لمجال apex المستضاف على Azure DNS الإشارة إلى Azure Front Door كسجل باسم مستعار. هذا هو الحل الوحيد، إذ يجب أن تشير مجالات apex دائمًا إلى عنوان IP.
+  
+إذا كانت لديك أي أسئلة بخصوص نطاقات Apex ، فيرجى التواصل مع [دعم Microsoft](https://support.microsoft.com/).
 
   ## <a name="additional-resources"></a>الموارد الإضافية
 

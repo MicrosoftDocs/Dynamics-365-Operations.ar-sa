@@ -2,7 +2,7 @@
 title: مستوى حساب التكلفة
 description: يصف هذا المقال مستوى قائمة مكونات الصنف (BOM) الذي يسمى مستوى حساب التكلفة. يستثني مستوى BOM هذا أوامر الإنتاج والأوامر الدفعية من حساباته.
 author: JennySong-SH
-ms.date: 04/23/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 647ef4b13b864cfdbb7905fe7a0d340e85f6c1e6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e63a868696e36c1d4f5d19ea87bdf4d682c39f8c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850862"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334944"
 ---
 # <a name="cost-calculation-level"></a>مستوى حساب التكلفة
 
 [!include [banner](../includes/banner.md)]
 
 يستثني بمستوى قائمة مكونات صنف (BOM) المسمى **مستوى حساب التكلفة** أوامر الإنتاج والأوامر الدفعية من حساباته. يستخدم النظام هذا المستوى عند تشغيل حسابات التكلفة في إصدارات التكاليف. في بعض العمليات، مثل إعادة الحساب وإغلاق المخزون، يستخدم النظام مستوى BOM **مستوى التكلفة** بدلاً من ذلك.
+
+## <a name="turn-the-cost-calculation-level-feature-on-or-off"></a>قم بتشغيل ميزة مستوى حساب التكلفة أو إيقاف تشغيلها
+
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *مستوى حساب التكلفة‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+## <a name="example-scenario"></a>سيناريو كمثال
 
 يعرض السيناريو البسيط التالي الاختلافات بين مستوى BOM **مستوى حساب التكلفة** ومستوى BOM **مستوى التكلفة**.
 

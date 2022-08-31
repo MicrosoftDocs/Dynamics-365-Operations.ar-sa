@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 76aee3a736efa9ed7431d4e5127cd0abaccd659f
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c9d41645531fa4318289f32a564c34f0f92681df
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218837"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335829"
 ---
 # <a name="advanced-load-building-during-wave"></a>بناء متقدم لحمل عمل أثناء الموجة
 
@@ -36,7 +36,7 @@ ms.locfileid: "9218837"
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>تشغيل البناء المتقدم لحمل الموجة في النظام
 
-لكي تتمكن من استخدام البناء المتقدم لحمل الموجة، يجب تشغيل ميزتين في النظام. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة هاتين الميزتين وتشغيلهما إذا كانتا مطلوبتين. في مساحة عمل **إدارة الميزات**، تكون الميزات مدرجة بالطريقة التالية:
+قبل أن تتمكن من استخدام البناء الموجي المتقدم للحمل، يجب تشغيل ميزتين لنظامك. يمكن للمسؤولين استخدام إعدادات [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة هاتين الميزتين وتشغيلهما إذا كانتا مطلوبتين. في مساحة عمل **إدارة الميزات**، تكون الميزات مدرجة بالطريقة التالية:
 
 - ميزة بناء حمل الموجة:
 

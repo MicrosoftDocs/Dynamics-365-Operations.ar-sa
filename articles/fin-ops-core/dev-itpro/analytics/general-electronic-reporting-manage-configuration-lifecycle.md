@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
-ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271572"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337185"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>إدارة دورة حياة تكوين إعداد التقارير الإلكترونية (ER)
 
@@ -84,7 +84,7 @@ ms.locfileid: "9271572"
 
 ## <a name="data-persistence-consideration"></a>اعتبار استمرارية البيانات
 
-يمكنك [استيراد](tasks/er-import-configuration-lifecycle-services.md) بطريقة فردية [إصدارات](general-electronic-reporting.md#component-versioning) مختلفة من [تكوين](general-electronic-reporting.md#Configuration) تقارير إلكترونية إلى مثيل Finance. عند استيراد إصدار جديد من تكوين التقارير الإلكترونية، يتحكم النظام في محتوة إصدار المسودة لهذا التكوين:
+يمكنك [استيراد‏‎](tasks/er-import-configuration-lifecycle-services.md) بطريقة فردية [إصدارات‏‎](general-electronic-reporting.md#Configuration) مختلفة من تكوين تقارير إلكترونية إلى مثيل Finance. عند استيراد إصدار جديد من تكوين التقارير الإلكترونية، يتحكم النظام في محتوة إصدار المسودة لهذا التكوين:
 
 - عندما يكون الإصدار المستورد أقل من الإصدار الأعلى لهذا التكوين في مثيل Finance الحالي، يبقي المحتوى الخاص بإصدار المسودة من هذا التكوين بدون تغيير.
 - عندما يكون الإصدار المستورد أعلى من أي إصدار آخر من هذا التكوين في مثيل Finance الحالي، يتم نسخ محتو الإصدار المستورد إلى إصدار المسودة من هذا التكوين ليتيح لك متابعة تحرير آخر إصدار مكتمل.
@@ -112,7 +112,7 @@ ms.locfileid: "9271572"
 
 ![تكوين تنسيق التقارير الإلكترونية المشتق في صفحة التكوينات.](./media/ger-configuration-lifecycle-img1.png)
 
-عند الانتهاء من تصميم التنسيق، يمكنك تغيير حالة الإصدار [الأولي](general-electronic-reporting.md#component-versioning) لتكوين تنسيق التقارير الإلكترونية من **مسودة** إلى **مكتملة**. يمكنك بعد ذلك مشاركة الإصدار المكتمل من تكوين تنسيق التقارير الإلكترونية عن طريق [النشر](../../../finance/localizations/rcs-global-repo-upload.md) إلى المستودع العالمي. بعد ذلك ، يمكنك الوصول إلى المستودع العالمي من أي مثيل لـ RCS أو Finance. يمكنك بعد ذلك استيراد أي إصدار من إصدارات تكوين التقارير الإلكترونية ينطبق على التطبيق من المستودع العام إلى هذا التطبيق.
+عند الانتهاء من تصميم التنسيق ، يمكنك تغيير حالة الإصدار الأولي لتكوين تنسيق التقارير الإلكترونية من **مسودة** إلى **مكتمل**. يمكنك بعد ذلك مشاركة الإصدار المكتمل من تكوين تنسيق التقارير الإلكترونية عن طريق [النشر](../../../finance/localizations/rcs-global-repo-upload.md) إلى المستودع العالمي. بعد ذلك ، يمكنك الوصول إلى المستودع العالمي من أي مثيل لـ RCS أو Finance. يمكنك بعد ذلك استيراد أي إصدار من إصدارات تكوين التقارير الإلكترونية ينطبق على التطبيق من المستودع العام إلى هذا التطبيق.
 
 ![تكوين تنسيق التقارير الإلكترونية المنشور في صفحة مستودع التكوين.](./media/ger-configuration-lifecycle-img2.png)
 

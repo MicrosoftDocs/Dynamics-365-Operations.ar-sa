@@ -2,7 +2,7 @@
 title: شهادة الأصل USMCA
 description: تتيح لك هذه الميزة طباعه شهادة المستندات الاصليه المطلوبة من قبل اتفاقيه كندا والولايات المتحدة والمكسيك (USMCA).
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851351"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336534"
 ---
 # <a name="usmca-certification-of-origin"></a>شهادة الأصل USMCA
 
@@ -33,12 +33,9 @@ ms.locfileid: "8851351"
 
 استنادا إلى تحديد طباعه المستند ، يمكن ملء المستند بالبيانات الموجودة في النظام بشكل مسبق. من الممكن تغيير البيانات أو اضافتها إلى المستند المطبوع عن طريق تصدير المستند المطبوع إلى تنسيق قابل للتحرير ، مثل Microsoft Word. بعد التصدير ، يمكنك تطبيق إيه تغييرات مطلوبه قبل اجراء الإقرار.
 
-## <a name="turn-on-the-usmca-feature"></a>تشغيل ميزة USMCA
+## <a name="turn-the-usmca-feature-on-or-off"></a>قم بتشغيل ميزة USMCA أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام ميزة USMCA، يجب تشغيلها في النظام. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
-
-- **الوحدة النمطية:** *إدارة النقل*
-- **اسم الميزة:** *مستند شهادة الأصل USMCA*
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *شهادة المنشأ USMCA‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="document-content"></a>محتوى المستند
 

@@ -2,7 +2,7 @@
 title: تكوين ديتورس للخطوات في عناصر قائمه الجهاز المحمول
 description: يصف هذا المقال كيفيه تكوين منحنيات لعناصر القائمة بحيث يمكن للعاملين إيقاف المهمة الحالية بشكل مؤقت ، وتنفيذ مهمة أخرى ، ثم الرجوع إلى المهمة الاصليه دون فقدان إيه معلومات.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218993"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336114"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>تكوين ديتورس للخطوات في عناصر قائمه الجهاز المحمول
 
@@ -35,9 +35,8 @@ ms.locfileid: "9218993"
 
 1. انتقل إلى **إدارة النظام \> مساحات العمل \> إدارة الميزات**.
 1. تاكد *من تشغيل ميزه إرشادات* خطوه تطبيق المستودع للنظام الخاص بك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. لمزيد من المعلومات حول ميزه *إرشادات خطوه تطبيق المستودع* ، راجع [تخصيص العناوين والتعليمات الخاصة بالخطوة لتطبيق الاجهزه المحمولة لـ Warehouse Management](mobile-app-titles-instructions.md). هذه الميزة هي المتطلبات الاساسيه لميزه *منحنيات تطبيق Warehouse management*.
-1. قم بتشغيل ميزة *تحويلات تطبيق Warehouse management* . هذه الميزة هي الموصوفة في هذه المقالة.
-1. قم بتحديث أسماء الحقول في تطبيق الاجهزه المحمولة لـ Warehouse Management بالانتقال إلى **Warehouse Management \> اعداد \> الجهاز المحمول \> أسماء حقول تطبيق مستودع** وتحديد **إنشاء اعداد افتراضي**. لمزيد من المعلومات، راجع [تكوين الحقول لتطبيق إدارة المستودع للأجهزة المحمولة](configure-app-field-names-priorities-warehouse.md).
-1. كرر الخطوة السابقة لكل كيان قانوني (الشركة) الذي تستخدم فيه تطبيق الاجهزه المحمولة لـ Warehouse Management.
+1. قم بتشغيل ميزة *تحويلات تطبيق Warehouse management* . هذه الميزة هي الموصوفة في هذه المقالة. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا.
+1. إذا لم تكن ميزة *التفافات تطبيق Warehouse management* قيد التشغيل بالفعل، قم بتحديث أسماء الحقول في تطبيق Warehouse Management في الأجهزة المحمولة من خلال **Warehouse management \> إعداد \> الأجهزة المحمولة \> أسماء حقول تطبيق Warehouse** واختار **انشاء إعداد افتراضي**. كرر هذه الخطوة لكل كيان قانوني (شركة) تستخدم فيه تطبيق Warehouse Management للأجهزة المحمولة. لمزيد من المعلومات، راجع [تكوين الحقول لتطبيق إدارة المستودع للأجهزة المحمولة](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>تكوين منحنى من تجاوز خاص بالقائمة
 

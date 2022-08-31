@@ -2,27 +2,28 @@
 title: عينة تكامل خدمة التسجيل المالي لألمانيا
 description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي لألمانيا في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: 40f2b7ece62c495e4a719121019070a9961fa915
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280296"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313931"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>عينة تكامل خدمة التسجيل المالي لألمانيا
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 يقدم هذا المقال نظرة عامة على عينة التكامل المالي لألمانيا في Microsoft Dynamics 365 Commerce.
 
-للوفاء بالمتطلبات المالية المحلية لسجلات النقد في ألمانيا، تتضمن وظيفة Microsoft Dynamics 365 Commerce لألمانيا عينة تكامل لنقطة البيع (POS) مع خدمة تسجيل مالية خارجية. ويقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). وهو يستند إلى حل [EFR (السجل المالي الإلكتروني)](https://www.efsta.eu/de/fiskalloesungen/deutschland) من [EFSTA](https://www.efsta.eu/de/) ويقوم بتمكين الاتصال بخدمة EFR من خلال بروتوكول HTTPS. يجب استضافة خدمة EFR إما على محطة أجهزة البيع بالتجزئة أو على كمبيوتر منفصل يمكن توصيله من محطة الأجهزة. يتم توفير العينة في شكل كود المصدر وهي جزء من مجموعة تطوير برامج البيع بالتجزئة (SDK).
+للوفاء بالمتطلبات المالية المحلية لسجلات النقد في ألمانيا، تتضمن وظيفة Dynamics 365 Commerce لألمانيا عينة تكامل لنقطة البيع (POS) مع خدمة تسجيل مالية خارجية. ويقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md). وهو يستند إلى حل [EFR (السجل المالي الإلكتروني)](https://www.efsta.eu/de/fiskalloesungen/deutschland) من [EFSTA](https://www.efsta.eu/de/) ويقوم بتمكين الاتصال بخدمة EFR من خلال بروتوكول HTTPS. يجب استضافة خدمة EFR إما على محطة أجهزة البيع بالتجزئة أو على كمبيوتر منفصل يمكن توصيله من محطة الأجهزة. يتم توفير العينة في شكل كود المصدر وهو جزء من مجموعة تطوير برامج التجارة (SDK).
 
 لا تصدر Microsoft إيه أجهزه أو برامج أو وثائق من EFSTA. للحصول علي معلومات حول كيفيه الحصول علي حل EFR وتشغيله، اتصل بـ [EFSTA](https://www.efsta.eu/de/kontakt/kontakt).
 
@@ -46,7 +47,7 @@ ms.locfileid: "9280296"
 
     3. الحصول على رد من خدمة التسجيل المالي
 
-        يتم استلام بيانات الأمان من TSE كجزء من الاستجابة ويتم حفظها في المعاملة في قاعدة بيانات القناة. وتتكون بيانات الأمان من المعلومات التالية:
+        يتم استلام بيانات الأمان من TSE كجزء من الاستجابة ويتم حفظها في المعاملة في قاعدة بيانات القناة. تتكون بيانات الأمان من المعلومات التالية:
 
         - TID
         - تاريخ ووقت بدء المعاملة
@@ -248,12 +249,10 @@ ms.locfileid: "9280296"
 
 ## <a name="set-up-fiscal-integration-for-germany"></a>إعداد التكامل المالي لألمانيا
 
-تعتمد عينة تكامل خدمة التسجيل المالي لألمانيا في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\Efr** الخاص [بحلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)، المستودع (على سبيل المثال [النموذج في الإصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو امتداد لCommerce Runtime (CRT)، والموصل المالي، وهو امتداد لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة تكامل خدمة التسجيل المالي لألمانيا في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهو جزء من Commerce SDK.. تقع العينة في مجلد **src\\FiscalIntegration\\Efr** في مستودع [حلول Dynamics 365 Commerce ](https://github.com/microsoft/Dynamics365Commerce.Solutions/). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو امتداد ل Commerce Runtime (CRT)، والموصل المالي، وهو امتداد لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام SDK التجارية ، راجع [تنزيل نماذج sdk والحزم المرجعية الخاصة بالتجارة من GitHub واعداد NuGet](../dev-itpro/retail-sdk/sdk-github.md) تدفقات [بناء لمجموعه SDK](../dev-itpro/build-pipeline.md)المستقلة.
 
-> [!WARNING]
-> وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج التكامل المالي لألمانيا (قديم)](emea-deu-fi-sample-sdk.md).
->
-> يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
+> [!NOTE]
+> يتوفر نموذج تكامل خدمة التسجيل المالي لألمانيا في Commerce SDK بدءًا من الإصدار التجاري 10.0.29. في الإصدار التجاري 10.0.28 أو إصدار سابق ، يجب استخدام الإصدار السابق من Retail SDK على جهاز ظاهري للمطور (VM) في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج التكامل المالي لألمانيا (قديم)](emea-deu-fi-sample-sdk.md).
 
 قم بإكمال خطوات اعداد التكامل المالي كما هو موضح في [اعداد التكامل المالي لقنوات Commerce](setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -261,7 +260,7 @@ ms.locfileid: "9280296"
 1. [تعيين إعدادات معالجة الأخطاء‬](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
     > [!WARNING]
-    > قد لا تتم محاذاة إمكانيات معالجه الخطا الخاصة بإطار عمل التكامل المالي مع اللوائح المالية المحلية.
+    > قد لا تتماشى قدرات معالجة الأخطاء في إطار التكامل المالي بشكل كامل مع اللوائح المالية المحلية.
     >
     > - نوصي بترك الخيار **الاستمرار في الخطأ** في **عملية التسجيل المالي** في وضع إيقاف التشغيل، لأنه يجب تسجيل جميع المعاملات بشكل صحيح، حتى لو لم تنجح المحاولة الأولى للتسجيل المالي.
     > - قبل تشغيل الخيار **تخطي** أو خيار **وضع علامة كمسجل** في صفحة **عملية التسجيل المالي**، يجب مناقشه هذه التغييرات مع عمليه التسجيل المالي مع مستشار الضرائب الخاص بك أو مكتب الضرائب المحلي.
@@ -276,18 +275,16 @@ ms.locfileid: "9280296"
 1. تنزيل ملفات التكوين لموفر المستند المالي والموصل المالي:
 
     1. افتح مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك (علي سبيل المثال، **[إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك.
     1. افتح **src \> FiscalIntegration \> Efr**.
-    1. قم بتنزيل ملف تكوين موفر المستند المالي في **Configurations \> DocumentProviders \> DocumentProviderFiscalEFRSampleGermany.xml** (على سبيل المثال، [ملف الإصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders/DocumentProviderFiscalEFRSampleGermany.xml)).
-    1. قم بتنزيل ملف تكوين الموصل المالي في **التكوينات \> الموصلات \> ConnectorEFRSample.xml** (على سبيل المثال، [ملف الإصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
+    1. قم بتنزيل ملف تكوين موفر المستندات المالية في **التكوينات \> DocumentProviders \> DocumentProviderFiscalEFRSampleGermany.xml**.
+    1. قم بتنزيل ملف تكوين الرابط المالي في **التكوينات \> الموصلات \> ConnectorEFRSample.xml**.
 
-    > [!WARNING]
-    > وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في LCS. توجد ملفات التكوين لعينة التكامل المالي هذه في المجلدات التالية من Retail SDK على الجهاز الظاهري VM للمطور في LCS:
+    > [!NOTE]
+    > في الإصدار التجاري 10.0.28 أو ما قبله ، يجب استخدام الإصدار السابق من Retail SDK على مطور VM في LCS. توجد ملفات التكوين لعينة التكامل المالي هذه في المجلدات التالية من Retail SDK على الجهاز الظاهري VM للمطور في LCS:
     >
     > - **ملفات تكوين موفري المستندات المالية:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extensions.DocumentProvider.EFRSample\\Configuration\\DocumentProviderFiscalEFRSampleGermany.xml
     > - **ملف تكوين الموصل المالي:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EFRSample\\Configuration\\ConnectorEFRSample.xml
-    > 
-    > يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
 
 1. انتقل إلى **Retail and Commerce \> إعداد Headquarters \> المعلمات \> معلمات Commerce المشتركة**. في علامة التبويب السريعة **عام**، عيّن خيار **تمكين التكامل المالي** إلى **نعم**.
 1. انتقل إلى **Retail وCommerce \> إعداد القناة \> التكامل المالي \> موفري المستندات المالية**، وقم بتحميل ملف تكوين موفر المستندات المالية الذي قمت بتنزيله مسبقًا.
@@ -297,7 +294,7 @@ ms.locfileid: "9280296"
 1. انتقل إلى **Retail وCommerce \> إعداد القناة \> التكامل المالي \> مجموعات الموصلات المالية**. قم بإنشاء مجموعة رابط مالي جديدة لملف التعريف الوظيفي للموصل الذي قمت بإنشائه مسبقًا.
 1. انتقل إلى **Retail وCommerce \> إعداد القناة \> التكامل المالي \> عمليات التسجيل المالي**. قم بإنشاء عملية تسجيل مالي جديد وخطوة عملية تسجيل مالي، وحدد مجموعة الرابط المالي الذي قمت بإنشائه مسبقًا.
 1. انتقل إلى **البيع بالتجزئة والتجارة \> إعداد القناة \> إعداد قناة البيع \> ملفات تعريف نقطة البيع \> ملفات تعريف الوظائف**. حدد ملف تعريف وظائف مرتبط بالمتجر حيث يجب تنشيط عمليه التسجيل. في علامة التبويب السريعة **عملية التسجيل المالي**، حدد عملية التسجيل المالي التي قمت بإنشائها مسبقًا.
-1. انتقل إلى **Retail وCommerce \> إعداد القناة \> إعداد نقطة البيع \> ملفات تعريف نقطة البيع \> ملفات تعريف الأجهزة**. حدد ملف تعريف الجهاز المرتبط بمحطة الأجهزة التي سيتم توصيل الطابعة المالية بها. في علامة التبويب السريعة **الأجهزة الطرفية المالية**، حدد ملف التعريف الفني للموصل الذي قمت بإنشائه مسبقًا.
+1. انتقل إلى **Retail وCommerce \> إعداد القناة \> إعداد نقطة البيع \> ملفات تعريف نقطة البيع \> ملفات تعريف الأجهزة**. حدد ملف تعريف الجهاز المرتبط بمحطة الأجهزة التي سيتم توصيل خدمة التسجيل المالي بها. في علامة التبويب السريعة **الأجهزة الطرفية المالية**، حدد ملف التعريف الفني للموصل الذي قمت بإنشائه مسبقًا.
 1. افتح جدول التوزيع (**Retail وCommerce \>تكنولوجيا معلومات Retail وCommerce\> جدول التوزيع**)، وحدد الوظيفتين **1070** و **1090** لنقل البيانات إلى قاعدة بيانت القناة.
 
 #### <a name="default-data-mapping"></a>تعيين البيانات الافتراضي
@@ -364,16 +361,15 @@ ms.locfileid: "9280296"
 
 ### <a name="configure-channel-components"></a>تكوين مكونات القناة
 
-> [!WARNING]
-> وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج التكامل المالي لألمانيا (قديم)](emea-deu-fi-sample-sdk.md).
->
-> يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
+> [!NOTE]
+> - يتوفر نموذج تكامل خدمة التسجيل المالي لألمانيا في Commerce SDK بدءًا من الإصدار التجاري 10.0.29. في الإصدار التجاري 10.0.28 أو ما قبله ، يجب استخدام الإصدار السابق من Retail SDK على مطور VM في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج التكامل المالي لألمانيا (قديم)](emea-deu-fi-sample-sdk.md).
+> - لا يتم تحديث العينات التجارية التي يتم نشرها في البيئة تلقائيا عند تطبيق تحديثات الخدمة أو الجودة علي مكونات التجارة. يجب تحديث النماذج المطلوبة يدويا.
 
 #### <a name="set-up-the-development-environment"></a>إعداد بيئة التطوير
 
 لإعداد بيئة تطوير لاختبار العينة وتوسيعها، اتبع هذه الخطوات.
 
-1. قم بنسخ مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) أو تنزيله. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك. لمزيد من المعلومات، راجع [تنزيل نماذج Retail SDK والحزم المرجعية من GitHub وNuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. قم بنسخ مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) أو تنزيله. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك. لمزيد من المعلومات، راجع [تنزيل نماذج Commerce SDK والحزم المرجعية من GitHub و NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. افتح حل EFR على **Dynamics365Commerce.Solutions\\FiscalIntegration\\Efr\\EFR.sln**، وقم بإنشائه.
 1. تثبيت ملحقات Commerce Runtime:
 
@@ -425,10 +421,10 @@ ms.locfileid: "9280296"
 
 ## <a name="design-of-extensions"></a>تصميم الملحقات
 
-تعتمد عينة تكامل خدمة التسجيل المالي لألمانيا في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\Efr** الخاص [بحلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/)، المستودع (على سبيل المثال [النموذج في الإصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو ملحق لـ (CRT)، والموصل المالي، وهو ملحق لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة تكامل خدمة التسجيل المالي لألمانيا في [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهو جزء من Commerce SDK.. تقع العينة في مجلد **src\\FiscalIntegration\\Efr** في مستودع [حلول Dynamics 365 Commerce ](https://github.com/microsoft/Dynamics365Commerce.Solutions/). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو ملحق لـ (CRT)، والموصل المالي، وهو ملحق لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام SDK التجارية ، راجع [تنزيل نماذج sdk والحزم المرجعية الخاصة بالتجارة من GitHub واعداد NuGet](../dev-itpro/retail-sdk/retail-sdk-overview.md) تدفقات [بناء لمجموعه SDK](../dev-itpro/build-pipeline.md)المستقلة.
 
-> [!WARNING]
-> وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج التكامل المالي لألمانيا (قديم)](emea-deu-fi-sample-sdk.md). يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
+> [!NOTE]
+> يتوفر نموذج تكامل خدمة التسجيل المالي لألمانيا في Commerce SDK بدءًا من الإصدار التجاري 10.0.29. في الإصدار التجاري 10.0.28 أو ما قبله ، يجب استخدام الإصدار السابق من Retail SDK على مطور VM في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج التكامل المالي لألمانيا (قديم)](emea-deu-fi-sample-sdk.md).
 
 ### <a name="crt-extension-design"></a>تصميم ملحق CRT
 

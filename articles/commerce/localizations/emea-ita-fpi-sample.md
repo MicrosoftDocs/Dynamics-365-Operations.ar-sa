@@ -2,29 +2,30 @@
 title: عينة تكامل طابعة الضرائب المحصلة لإيطاليا
 description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي لإيطاليا في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-01
-ms.openlocfilehash: e63f8d68b8b79143771c0b1c757cb78659183b67
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280258"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336636"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>عينة تكامل طابعة الضرائب المحصلة لإيطاليا
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 يقدم هذا المقال نظرة عامة على عينة التكامل المالي لإيطاليا في Microsoft Dynamics 365 Commerce.
 
-تتضمن وظيفة Commerce لإيطاليا نموذجًا لتكامل نقطة البيع (POS) مع طابعة مالية. يقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) بحيث يعمل مع طابعات [سلسلة Epson FP-90III](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) من Epson، وهو يتيح الاتصال بطابعة مالية في وضع خادم الويب عبر خدمة الويب EpsonFPMate باستخدام Fiscal ePOS-Print API. تدعم العينة وضع Registratore Telematico (RT) فقط. يتم توفير العينة في شكل كود المصدر وهي جزء من مجموعة تطوير برامج البيع بالتجزئة (SDK).
+تتضمن وظيفة Commerce لإيطاليا نموذجًا لتكامل نقطة البيع (POS) مع طابعة مالية. يقوم النموذج بتوسيع [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) بحيث يعمل مع طابعات [سلسلة Epson FP-90III](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) من Epson، وهو يتيح الاتصال بطابعة مالية في وضع خادم الويب عبر خدمة الويب EpsonFPMate باستخدام Fiscal ePOS-Print API. تدعم العينة وضع Registratore Telematico (RT) فقط. يتم توفير العينة في شكل كود المصدر وهو جزء من مجموعة تطوير برامج التجارة (SDK).
 
-لا تصدر Microsoft إيه أجهزه أو برامج أو وثائق من Epson. للحصول على معلومات حول كيفية الحصول على الطابعة المالية وتشغيلها، اتصل بشركة [Epson Italia S.p.A](https://www.epson.it).
+لا تصدر Microsoft إيه أجهزه أو برامج أو وثائق من Epson. للحصول على معلومات حول كيفية الحصول على الطابعة المالية وتشغيلها، اتصل [Epson Italia S.p.A.](https://www.epson.it)
 
 ## <a name="scenarios"></a>السيناريوهات
 
@@ -99,12 +100,10 @@ ms.locfileid: "9280258"
 
 ## <a name="set-up-fiscal-integration-for-italy"></a>إعداد التكامل المالي لإيطاليا
 
-تعتمد عينة تكامل الطابعة المالية لإيطاليا على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\EpsonFP90IIISample** لمستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (على سبيل المثال، [النموذج في إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو امتداد لCommerce Runtime (CRT)، والموصل المالي، وهو امتداد لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة تكامل الطابعة المالية لإيطاليا على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Commerce SDK. تقع العينة في مجلد **src\\FiscalIntegration\\EpsonFP90IIISample** في مستودع [حلول Dynamics 365 Commerce ](https://github.com/microsoft/Dynamics365Commerce.Solutions/). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو امتداد ل Commerce Runtime (CRT)، والموصل المالي، وهو امتداد لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام SDK التجارية ، راجع [تنزيل نماذج sdk والحزم المرجعية الخاصة بالتجارة من GitHub واعداد NuGet](../dev-itpro/retail-sdk/sdk-github.md) تدفقات [بناء لمجموعه SDK](../dev-itpro/build-pipeline.md)المستقلة.
 
-> [!WARNING]
-> وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج تكامل الطابعة المالي لإيطاليا (قديم)](emea-ita-fpi-sample-sdk.md).
->
-> يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
+> [!NOTE]
+> تتوفر عينة تكامل الطابعة المالية لإيطاليا في Commerce SDK اعتبارًا من الإصدار التجاري 10.0.29. في الإصدار التجاري 10.0.28 أو إصدار سابق ، يجب استخدام الإصدار السابق من Retail SDK على جهاز ظاهري للمطور (VM) في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج تكامل الطابعة المالي لإيطاليا (قديم)](emea-ita-fpi-sample-sdk.md).
 
 قم بإكمال خطوات اعداد التكامل المالي كما هو موضح في [اعداد التكامل المالي لقنوات Commerce](setting-up-fiscal-integration-for-retail-channel.md).
 
@@ -123,18 +122,16 @@ ms.locfileid: "9280258"
 1. تنزيل ملفات التكوين لموفر المستند المالي والموصل المالي:
 
     1. افتح مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك (علي سبيل المثال، **[إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك.
     1. افتح **src \> FiscalIntegration \> EpsonFP90IIISample**.
-    1. قم بتنزيل ملف تكوين موفر المستند المالي في **CommerceRuntime \> DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml** (على سبيل المثال، [ملف إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml)).
-    1. قم بتنزيل ملف تكوين الموصل المالي في **HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IIISample.xml** (على سبيل المثال، [ملف إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml).
+    1. قم بتنزيل ملف تكوين موفر المستندات المالية في **CommerceRuntime \> DocumentProvider.EpsonFP90IIISample \> التكوين \> DocumentProviderPosnetSample.xml**.
+    1. قم بتنزيل ملف تكوين الرابط المالي في **HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> التكوين \> ConnectorEpsonFP90IIISample.xml**.
 
-    > [!WARNING]
-    > وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في LCS. توجد ملفات التكوين لعينة التكامل المالي هذه في المجلدات التالية من Retail SDK على الجهاز الظاهري VM للمطور في LCS:
+    > [!NOTE]
+    > بالنسبة للإصدار التجاري 10.0.28 أو إصدار أقدم، يجب استخدام الإصدار السابق من Retail SDK على مطور VM في LCS. توجد ملفات التكوين لعينة التكامل المالي هذه في المجلدات التالية من Retail SDK على الجهاز الظاهري VM للمطور في LCS:
     >
     > - **ملف تكوين موفر المستندات المالية:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extension.DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml
     > - **ملف تكوين الموصل المالي:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml
-    > 
-    > يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
 
 1. انتقل إلى **Retail and Commerce \> إعداد Headquarters \> المعلمات \> معلمات Commerce المشتركة**. في علامة التبويب السريعة **عام**، عيّن خيار **تمكين التكامل المالي** إلى **نعم**.
 1. انتقل إلى **Retail وCommerce \> إعداد القناة \> التكامل المالي \> موفري المستندات المالية**، وقم بتحميل ملف تكوين موفر المستندات المالية الذي قمت بتنزيله مسبقًا.
@@ -256,16 +253,15 @@ ms.locfileid: "9280258"
 
 ### <a name="configure-channel-components"></a>تكوين مكونات القناة
 
-> [!WARNING]
-> وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج تكامل الطابعة المالي لإيطاليا (قديم)](emea-ita-fpi-sample-sdk.md).
->
-> يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
+> [!NOTE]
+> - تتوفر عينة تكامل الطابعة المالية لإيطاليا في Commerce SDK اعتبارًا من الإصدار التجاري 10.0.29. في الإصدار التجاري 10.0.28 أو ما قبله ، يجب استخدام الإصدار السابق من Retail SDK على مطور VM في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج تكامل الطابعة المالي لإيطاليا (قديم)](emea-ita-fpi-sample-sdk.md).
+> - لا يتم تحديث العينات التجارية التي يتم نشرها في البيئة تلقائيا عند تطبيق تحديثات الخدمة أو الجودة علي مكونات التجارة. يجب تحديث النماذج المطلوبة يدويا.
 
 #### <a name="set-up-the-development-environment"></a>إعداد بيئة التطوير
 
 لإعداد بيئة تطوير لاختبار العينة وتوسيعها، اتبع هذه الخطوات.
 
-1. قم بنسخ مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) أو تنزيله. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك. لمزيد من المعلومات، راجع [تنزيل نماذج Retail SDK والحزم المرجعية من GitHub وNuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. قم بنسخ مستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions) أو تنزيله. حدد إصدار فرع إصدار صحيح وفقا لإصدار التطبيق أو SDK الخاص بك. لمزيد من المعلومات، راجع [تنزيل نماذج Commerce SDK والحزم المرجعية من GitHub و NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. افتح حل تكامل الطابعة المالي على **Dynamics365Commerce.Solutions\\FiscalIntegration\\EpsonFP90IIISample\\EpsonFP90IIISample.sln**، وقم بإنشائه.
 1. تثبيت ملحقات CRT:
 
@@ -303,10 +299,10 @@ ms.locfileid: "9280258"
 
 ## <a name="design-of-extensions"></a>تصميم الملحقات
 
-تعتمد عينة تكامل الطابعة المالية لإيطاليا على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Retail SDK. النموذج موجود في مجلد **src\\FiscalIntegration\\EpsonFP90IIISample** لمستودع [حلول Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (على سبيل المثال، [النموذج في إصدار/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو ملحق لـ (CRT)، والموصل المالي، وهو ملحق لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام Retail SDK، راجع [هندسة Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md)و[قم بإعداد تدفق البناء لمجموعة SDK المستقلة](../dev-itpro/build-pipeline.md).
+تعتمد عينة تكامل الطابعة المالية لإيطاليا على [وظيفة التكامل المالي](fiscal-integration-for-retail-channel.md) وهي جزء من Commerce SDK. تقع العينة في مجلد **src\\FiscalIntegration\\EpsonFP90IIISample** في مستودع [حلول Dynamics 365 Commerce ](https://github.com/microsoft/Dynamics365Commerce.Solutions/). يتكون [النموذج](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) من موفر المستند المالي، وهو ملحق لـ (CRT)، والموصل المالي، وهو ملحق لمحطة أجهزة Commerce. لمزيد من المعلومات حول كيفيه استخدام SDK التجارية ، راجع [تنزيل نماذج sdk والحزم المرجعية الخاصة بالتجارة من GitHub واعداد NuGet](../dev-itpro/retail-sdk/sdk-github.md) تدفقات [بناء لمجموعه SDK](../dev-itpro/build-pipeline.md)المستقلة.
 
-> [!WARNING]
-> وبسبب قيود [التعبئة المستقلة الجديدة ونموذج التوسيع](../dev-itpro/build-pipeline.md)، لا يمكن استخدامها حاليًا لنموذج التكامل المالي هذا. يجب استخدام الإصدار السابق من Retail SDK على الجهاز الظاهري (VM) للمطور في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج تكامل الطابعة المالي لإيطاليا (قديم)](emea-ita-fpi-sample-sdk.md). يتم تخطيط الدعم الخاص بالتعبئة المستقلة الجديدة ونموذج الملحق الخاص بنماذج التكامل المالي للإصدارات اللاحقة.
+> [!NOTE]
+> تتوفر عينة تكامل الطابعة المالية لإيطاليا في Commerce SDK اعتبارًا من الإصدار التجاري 10.0.29. في الإصدار التجاري 10.0.28 أو ما قبله ، يجب استخدام الإصدار السابق من Retail SDK على مطور VM في LCS. لمزيد من المعلومات، راجع [إرشادات التوزيع الخاصة بنموذج تكامل الطابعة المالي لإيطاليا (قديم)](emea-ita-fpi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>تصميم ملحق Commerce Runtime
 

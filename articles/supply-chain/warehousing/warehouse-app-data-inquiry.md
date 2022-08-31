@@ -2,7 +2,7 @@
 title: الاستعلام عن البيانات باستخدام تحويلات تطبيقات الأجهزة المحمولة "إدارة المستودعات"
 description: توضح هذه المقالة كيفيه تكوين عناصر قائمه الاجهزه المحمولة الخاصة باستعلام البيانات واستخدامها كجزء من ديتورس.
 author: perlynne
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c3ea53379badb3cb2ed71b7f102956d71c3f047a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220505"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336594"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>الاستعلام عن البيانات باستخدام تحويلات تطبيقات الأجهزة المحمولة "إدارة المستودعات"
 
@@ -35,19 +35,19 @@ ms.locfileid: "9220505"
 قبل ان تتمكن من استخدام الوظيفة الموضحة في هذه المقالة ، يجب إكمال الاجراء التالي لتشغيل الميزات المطلوبة.
 
 1. انتقل إلى **إدارة النظام \> مساحات العمل \> إدارة الميزات**. (لمزيد من المعلومات حول كيفية استخدام مساحة العمل **إدارة الميزات** راجع [نظرة عامة على إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
-1. قم بتشغيل الميزة المدرجة بالطريقة التالية:
+1. إذا كنت تستخدم الإصدار 10.0.28 من Supply Chain Management أو إصدار سابق ، فقم بتشغيل الميزة المدرجة بالطريقة التالية:
 
     - **الوحدة:** *إدارة المستودعات*
     - **اسم الميزة:** *تعليمات خطوة تطبيق المستودع*
 
-    هذه الميزة هي المتطلبات الاساسيه لميزه *تدفق الاستعلام عن بيانات تطبيق Warehouse management*. لمزيد من المعلومات حول ميزه *إرشادات خطوه تطبيق المستودع* ، راجع [تخصيص العناوين والتعليمات الخاصة بالخطوة لتطبيق الاجهزه المحمولة لـ Warehouse Management](mobile-app-titles-instructions.md).
+    هذه الميزة هي المتطلبات الاساسيه لميزه *تدفق الاستعلام عن بيانات تطبيق Warehouse management*. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management ، فهو إلزامي ولا يمكن إيقاف تشغيله. لمزيد من المعلومات حول ميزه *إرشادات خطوه تطبيق المستودع* ، راجع [تخصيص العناوين والتعليمات الخاصة بالخطوة لتطبيق الاجهزه المحمولة لـ Warehouse Management](mobile-app-titles-instructions.md).
 
 1. قم بتشغيل الميزة المدرجة بالطريقة التالية:
 
     - **الوحدة:** *إدارة المستودعات*
     - **اسم الميزة:** *منحنيات تطبيق Warehouse management*
 
-    هذه الميزة هي المتطلبات الاساسيه لميزه *تدفق الاستعلام عن بيانات تطبيق Warehouse management*. لمزيد من المعلومات حول ميزة *التفافات تطبيق Warehouse management* ، راجع [تكوين الالتفاتات لمعرفه الخطوات الموجودة في عناصر قائمه الجهاز المحمول](warehouse-app-detours.md).
+    هذه الميزة هي المتطلبات الاساسيه لميزه *تدفق الاستعلام عن بيانات تطبيق Warehouse management*. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. لمزيد من المعلومات حول ميزة *التفافات تطبيق Warehouse management* ، راجع [تكوين الالتفاتات لمعرفه الخطوات الموجودة في عناصر قائمه الجهاز المحمول](warehouse-app-detours.md).
 
 1. إذا لم تكن ميزة *التفافات تطبيق Warehouse management* قيد التشغيل بالفعل، قم بتحديث أسماء الحقول في تطبيق Warehouse Management في الأجهزة المحمولة من خلال **Warehouse management \> إعداد \> الأجهزة المحمولة \> أسماء حقول تطبيق Warehouse** واختار **انشاء إعداد افتراضي**. كرر هذه الخطوة لكل كيان قانوني (شركة) تستخدم فيه تطبيق Warehouse Management للأجهزة المحمولة. لمزيد من المعلومات، راجع [تكوين الحقول لتطبيق إدارة المستودع للأجهزة المحمولة](configure-app-field-names-priorities-warehouse.md).
 1. قم بتشغيل الميزة المدرجة بالطريقة التالية:

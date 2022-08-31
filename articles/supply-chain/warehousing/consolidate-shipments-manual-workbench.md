@@ -2,7 +2,7 @@
 title: دمج الشحنات باستخدام منضدة عمل دمج الشحنات
 description: يقدم هذا المقال سيناريو يتم فيه إصدار الأوامر المتعددة إلى المستودع ثم دمجها إلى شحنات لاحقًا باستخدام منضدة عمل دمج الشحنات.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218607"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335784"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>دمج الشحنات باستخدام منضدة عمل دمج الشحنات
 
@@ -34,14 +34,11 @@ ms.locfileid: "9218607"
 
 يفترض السيناريو الموضح هنا أنك قمت بالفعل بتشغيل الميزة، ونفذت التمرينات في [تكوين نهج دمج الشحنات](configure-shipment-consolidation-policies.md)، وإنشاء النهج والسجلات الأخرى التي تم وصفها هناك. تأكد من تنفيذ تلك التمرينات قبل المتابعة في هذا السيناريو.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>تشغيل ميزة دمج الشحنات اليدوي
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>قم بتشغيل ميزة دمج الشحن اليدوي أو إيقاف تشغيلها
 
-قبل أن تتمكن من استخدام ميزة *دمج الشحنات اليدوي*، يجب تشغيلها في النظام لديك. بإمكان المسؤولين استخدام إعدادات [دارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) للتحقق من حالة الميزة وتشغيلها. في مساحة عمل **إدارة الميزات**، تكون هذه الميزة مدرجة بالطريقة التالية:
+لاستخدام عمليه دمج الشحنات اليدوية، يجب تشغيلها للنظام الخاص بك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن ميزة *توحيد الشحن اليدوي‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **الوحدة:** *إدارة المستودعات*
-- **اسم الميزة:** *دمج الشحنات اليدوي*
-
-يجب عليك أيضًا تشغيل ميزة *توحيد الشحنة* قبل أن تتمكن من إنشاء السياسات. - لمزيد من المعلومات، راجع [تكوين سياسات تجميع الشحنات](configure-shipment-consolidation-policies.md).
+يجب عليك أيضا تشغيل ميزه دمج *الشحنات* قبل ان تتمكن من إنشاء النهج (اعتبارا من إصدار Supply Chain Management 10.0.29، تكون الميزة إلزاميه ولا يمكن إيقاف تشغيلها). - لمزيد من المعلومات، راجع [تكوين سياسات تجميع الشحنات](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>إنشاء أوامر مبيعات لهذا السيناريو
 

@@ -1,81 +1,63 @@
 ---
-ms.openlocfilehash: b17bd56f9f3e4def341658626915adbd7f5aada6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+title: إرشادات النشر لآلات تسجيل المدفوعات النقدية للنرويج (قديمة)
+description: هذا المقال هو دليل النشر الذي يوضح كيفيه تمكين ترجمة Microsoft Dynamics 365 Commerce للنرويج.
+author: EvgenyPopovMBS
+ms.date: 08/23/2022
+ms.topic: article
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
+ms.search.region: Global
+ms.author: josaw
+ms.search.validFrom: 2018-2-28
+ms.openlocfilehash: fb597add48ac3508a88142e63d80f405b6b5f8b4
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281528"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346035"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>إرشادات النشر لآلات تسجيل المدفوعات النقدية للنرويج (قديمة)
----
 
-العنوان: إرشادات النشر لسجلات النقد في النرويج (قديمة) [!include [banner](../includes/banner.md)]
-الوصف: هذا المقال هو دليل النشر الذي يوضح كيفيه تمكين ترجمة Microsoft Dynamics 365 Commerce للنرويج.
+[!include [banner](../includes/banner.md)]
 
-المؤلف: EvgenyPopovMBS هذا المقال هو دليل النشر الذي يوضح كيفيه تمكين ترجمة Microsoft Dynamics 365 Commerce للنرويج. تتكون الترجمة من عده ملحقات من مكونات Commerce. على سبيل المثال، تتيح لك الملحقات طباعة الحقول المخصصة على الإيصالات وتسجيل أحداث تدقيق إضافية ومعاملات المبيعات ومعاملات الدفع في نقاط البيع (POS) وتوقيع معاملات المبيعات رقميًا وطباعة تقارير X وZ بالتنسيقات المحلية. لمزيد من المعلومات حول الترجمة الخاصة بالنرويج، راجع [وظيفة تسجيل النقد للنرويج](./emea-nor-cash-registers.md).
-التاريخ: 12/20/2021
+> [!WARNING]
+> لا تستفيد وظيفة التكامل المالي النموذجية هذه من [إطار عمل التكامل المالي](./fiscal-integration-for-retail-channel.md) وسيتم إهماله في التحديثات اللاحقة. وينبغي عليك استخدام الوظيفة التي [تستند إلى اطار عمل](./emea-nor-fi-deployment.md) التكامل المالي بدلا من ذلك.
 
-الموضوع: المقال، تعد هذه العينة جزءا من مجموعه تطوير برامج البيع بالتجزئة (SDK). للحصول على مزيد من المعلومات حول SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
-الجمهور: مستخدم التطبيق ، المطور ، محترف تكنولوجيا المعلومات
+هذا المقال هو دليل النشر الذي يوضح كيفيه تمكين ترجمة Microsoft Dynamics 365 Commerce للنرويج. تتكون الترجمة من عده ملحقات من مكونات Commerce. على سبيل المثال، تتيح لك الملحقات طباعة الحقول المخصصة على الإيصالات وتسجيل أحداث تدقيق إضافية ومعاملات المبيعات ومعاملات الدفع في نقاط البيع (POS) وتوقيع معاملات المبيعات رقميًا وطباعة تقارير X وZ بالتنسيقات المحلية. لمزيد من المعلومات حول الترجمة الخاصة بالنرويج، راجع [وظيفة تسجيل النقد للنرويج](./emea-nor-cash-registers.md).
 
-المراجع: v-chgriffin تتكون هذه العينة من امتدادات لوقت Commerce runtime (CRT) وخادم البيع بالتجزئة ونقطة البيع. لتشغيل هذا النموذج، يجب تعديل مشاريع CRT وخادم Retail ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Microsoft Visual Studio Online (VSO)، حيث لم يتم تغيير أي ملفات حتى الآن.
-منطقه البحث: عالمية
+تعد هذه العينة جزءا من مجموعه تطوير برامج البيع بالتجزئة (SDK). للحصول على مزيد من المعلومات حول SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-المؤلف: josaw
+يتكون هذا النموذج من ملحقات Commerce Runtime (CRT)، وخادم Retail، ونقطة البيع. لتشغيل هذا النموذج، يجب تعديل مشاريع CRT وخادم Retail ونقاط البيع وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Microsoft Visual Studio Online (VSO)، حيث لم يتم تغيير أي ملفات حتى الآن.
+
 > [!NOTE]
-البحث صالح بداية من: 2018-02-28 في التجارة 10.0.8 وما فوق ، يُعرف خادم البيع بالتجزئة باسم وحدة Commerce Scale Unit. نظرًا لأن هذا المقال ينطبق على إصدارات سابقة متعددة من التطبيق، يتم استخدام *خادم Retail* في جميع أنحاء المقال.
+> في Commerce 10.0.8 والإصدارات الأحدث، يُعرف خادم Retail باسم Commerce Scale Unit. نظرًا لأن هذا المقال ينطبق على إصدارات سابقة متعددة من التطبيق، يتم استخدام *خادم Retail* في جميع أنحاء المقال.
 >
----
 > تختلف بعض الخطوات في الإجراءات الموجودة في هذا المقال استنادا إلى إصدار Commerce الذي تستخدمه. لمزيد من المعلومات، راجع [ما هو الجديد أو المتغير في Dynamics 365 Retail](../get-started/whats-new.md).
 
-
-6. قم بتحديث ملف تكوين خادم Retail. في ملف **RetailSDK\\Packages\\RetailServer\\Code\\web.config** أضف الأسطر التالية إلى قسم **extensionComposition**.
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>استخدام ملفات تعريف الشهادات في قنوات Commerce
 
-
-    ``` xml
 في إصدار Commerce رقم 10.0.15 والإصدارات الأحدث، يمكنك استخدام ميزة [ملفات تعريف الشهادة المحددة من قِبل المستخدم لمتاجر البيع بالتجزئة](./certificate-profiles-for-retail-stores.md) التي تدعم تجاوز الفشل في وضع عدم الاتصال عندما لا يتوفر المخزن الرئيسي أو مقر Commerce الرئيسي. وتعمل هذه الميزة على توسيع ميزة [إدارة الأسرار لقنوات البيع بالتجزئة](../dev-itpro/manage-secrets.md)".
-    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
 
-    ```
-لتطبيق هذه الوظيفة في ملحق CRT اتبع الخطوات التالية.
+لتطبيق هذه الوظيفة في ملحق CRT، اتبع الخطوات التالية.
 
-
-7. قم بتشغيل **msbuild** لحزمه البرامج النهائية للبيع بأكملها لإنشاء حزم قابله للنشر.
 1. أنشئ مشروع ملحق CRT (نوع مشروع مكتبة فئة C#). استخدم نماذج القوالب من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK)‏ (RetailSDK\SampleExtensions\CommerceRuntime).
-8. قم بتطبيق الحزم من خلال Microsoft Dynamics Lifecycle Services (LCS) أو يدويًا. لمزيد من المعلومات، راجع [إنشاء الحزم القابلة للنشر](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
-
 
 2. قم بإضافة معالج مخصص لـ CertificateSignatureServiceRequest في مشروع SequentialSignatureRegister.
-### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>تمكين التوقيع الرقمي في وضع عدم الاتصال لنقاط البيع الحديثة
-
 
 3. لقراءة مكالمة سرية، `GetUserDefinedSecretCertificateServiceRequest` باستخدام مُنشئ مع معلمة profileId. سيبدأ ذلك وظيفة العمل مع الإعدادات من ملفات تعريف الشهادة. استنادًا إلى الإعدادات، سيتم استرداد الشهادة إما من Azure Key Vault أو تخزين الجهاز المحلي.
-لتمكين التوقيع الرقمي في وضع عدم الاتصال لـ Modern POS، يجب اتباع هذه الخطوات بعد تنشيط Modern POS على جهاز جديد.
-
 
     ```csharp
-1. Sign in to POS.
     GetUserDefinedSecretCertificateServiceRequest getUserDefinedSecretCertificateServiceRequest = new GetUserDefinedSecretCertificateServiceRequest(profileId: "ProfileId", secretName: null, thumbprint: null, expirationInterval: null);
-2. On the **Database connection status** page, make sure that the offline database is fully synchronized. When the value of the **Pending downloads** field is **0** (zero), the database is fully synchronized.
     GetUserDefinedSecretCertificateServiceResponse getUserDefinedSecretCertificateServiceResponse = request.RequestContext.Execute<GetUserDefinedSecretCertificateServiceResponse>(getUserDefinedSecretCertificateServiceRequest);
-3. Sign out of POS.
 
-4. Wait a while for the offline database to be fully synchronized.
     X509Certificate2 Certificate = getUserDefinedSecretCertificateServiceResponse.Certificate;
-5. Sign in to POS.
     ```
-6. في صفحة **حالة اتصال قاعدة البيانات** تاكد من مزامنة قاعده البيانات غير المتصلة بشكل كامل. عندما تكون قيمه حقل **الحركات المعلقة في قاعدة البيانات غير المتصلة** هي **0** (صفر)، تتم مزامنة قاعده البيانات بالكامل.
 
-7. أعد تشغيل Modern POS.
 4. عندما يتم استرداد الشهادة، تابع توقيع البيانات.
 
-
-
 5. إنشاء مشروع ملحق CRT.
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
-6. انسخ مكتبه فئة الإخراج والصقها في ...\RetailServer\webroot\bin\Ext للاختبار اليدوي.
+6. انسخ مكتبه فئة الإخراج والصقها في ..\RetailServer\webroot\bin\Ext للاختبار اليدوي.
 
 7. في ملف CommerceRuntime.Ext.config، قم بتحديث قسم تكوين الملحق بمعلومات المكتبة المخصصة.
 
@@ -1633,3 +1615,27 @@ ms.locfileid: "9281528"
     تمت تسمية الملف باسم **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config**، وهو موجود ضمن **Extensions.SequentialSignatureRegister\\bin\\Debug**.
 
     ---
+
+6. قم بتحديث ملف تكوين خادم Retail. في ملف **RetailSDK\\Packages\\RetailServer\\Code\\web.config**، أضف الأسطر التالية إلى قسم **extensionComposition**.
+
+    ``` xml
+    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
+    ```
+
+7. قم بتشغيل **msbuild** لحزمه البرامج النهائية للبيع بأكملها لإنشاء حزم قابله للنشر.
+8. قم بتطبيق الحزم من خلال Microsoft Dynamics Lifecycle Services (LCS) أو يدويًا. لمزيد من المعلومات، راجع [إنشاء الحزم القابلة للنشر](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+
+### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>تمكين التوقيع الرقمي في وضع عدم الاتصال لنقاط البيع الحديثة
+
+لتمكين التوقيع الرقمي في وضع عدم الاتصال لـ Modern POS، يجب اتباع هذه الخطوات بعد تنشيط Modern POS على جهاز جديد.
+
+1. سجل الدخول إلى POS.
+2. في صفحة **حالة اتصال قاعدة البيانات**، تاكد من مزامنة قاعده البيانات غير المتصلة بشكل كامل. عندما تكون قيمه حقل **التنزيلات المعلقة** هي **0** (صفر)، تتم مزامنة قاعده البيانات بالكامل.
+3. قم بتسجيل الخروج من نقطة البيع.
+4. انتظر قليلاً حتى تتم مزامنة قاعدة البيانات دون اتصال بشكل كامل.
+5. سجل الدخول إلى POS.
+6. في صفحة **حالة اتصال قاعدة البيانات**، تاكد من مزامنة قاعده البيانات غير المتصلة بشكل كامل. عندما تكون قيمه حقل **الحركات المعلقة في قاعدة البيانات غير المتصلة** هي **0** (صفر)، تتم مزامنة قاعده البيانات بالكامل.
+7. أعد تشغيل Modern POS.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

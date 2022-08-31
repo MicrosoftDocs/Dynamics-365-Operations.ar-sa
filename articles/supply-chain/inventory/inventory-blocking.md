@@ -2,7 +2,7 @@
 title: حظر المخزون
 description: توفر هذه المقالة نظرة عامة حول حظر المخزون، الذي يشكل جزءًا من عملية فحص الجودة في Supply Chain Management. يمكنك استخدام حظر المخزون لمنع معالجة الأصناف أو استهلاكها.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857797"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334674"
 ---
 # <a name="inventory-blocking"></a>حظر المخزون
 
@@ -96,11 +96,11 @@ ms.locfileid: "8857797"
 
 لاحظ الفرق في حالة الحركة والأبعاد بين الحالتين. لهذا السبب، نُوصي بتمكين الخيار **حجز الأصناف المطلوبة**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>ميزة تعطيل عمليات الاستلام المتوقعة من أوامر الجودة التي تقوم بأخذ عينة من ميزة المخزون المحظور
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>تعطيل عمليات الاستلام المتوقعة من أوامر الجودة التي تقوم بأخذ عينة من المخزون المحظور
 
 لتبسيط حركات المخزون في حالة أوامر الجودة التي قامت عينة المخزون بحظرها نتيجة لحالة المخزون، يوفر النظام ميزة تعطل عمليات الاستلام المتوقعة من أوامر الجودة هذه. نظرًا لأنه تم حظر الاستلام المتوقع فورًا عن طريق حظر حالة المخزون، فلا يوجد تخفيض في المخزون الفعلي بسبب هذا التغيير.
 
-تكون هذه الميزة متوقفة عن التشغيل بشكل افتراضي. بإمكان المسؤولين تشغيل هذه الميزة أو إيقاف تشغيلها عن طريق البحث عن الميزة *تعطيل عمليات الاستلام المتوقعة من أوامر الجودة التي تقوم بأخذ عينة من المخزون المحظور‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+لاستخدام هذه الميزة ، يجب تشغيلها لنظامك. اعتبارًا من الإصدار 10.0.29 من Supply Chain Management، يتم تشغيل هذه الميزة افتراضيًا. بإمكان المسؤولين تشغيل هذه الوظيفة أو إيقاف تشغيلها عن طريق البحث عن الميزة *تعطيل عمليات الاستلام المتوقعة من أوامر الجودة التي تقوم بأخذ عينة من المخزون المحظور‬* في مساحة عمل [إدارة الميزات](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

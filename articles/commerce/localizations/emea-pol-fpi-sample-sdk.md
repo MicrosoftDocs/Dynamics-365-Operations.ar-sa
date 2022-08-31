@@ -2,25 +2,29 @@
 title: إرشادات النشر لعينة تكامل الطابعة المالية لبولندا (قديمة)
 description: يوفر هذا المقال إرشادات لنشر نموذج التكامل الطابعة المالية لبولندا من مجموعة تطوير برامج Microsoft Dynamics 365 Commerce ‏Retail ‏(SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 883f09f73e3b372d6896b6702e54e2e664cff4d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286516"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336627"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>إرشادات النشر لعينة تكامل الطابعة المالية لبولندا (قديمة)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-يوفر هذا المقال إرشادات لنشر نموذج تكامل الطابعة المالية لبولندا من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK) Microsoft Dynamics 365 Commerce على جهاز ظاهري للمطور (VM) في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل الطابعة المالية لبولندا](emea-pol-fpi-sample.md). 
+> [!IMPORTANT]
+> يجب عليك اتباع الإرشادات الموجودة في هذه المقالة فقط إذا كنت تستخدم Microsoft Dynamics 365 Commerce الإصدار 10.0.28 أو إصدارا سابقا. اعتبارا من الإصدار التجاري ال10.0.29 ، يتوفر نموذج تكامل الطابعة المالية لبولندا في مجموعه تطوير برامج التجارة (SDK). لمزيد من المعلومات، راجع [تكوين مكونات القناة‬](./emea-pol-fpi-sample.md#configure-channel-components).
+
+توفر هذه المقالة إرشادات لنشر نموذج تكامل الطابعة المالي لبولندا من Dynamics 365 Commerce Retail SDK على جهاز ظاهري للمطور (VM) بتنسيق Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل الطابعة المالية لبولندا](emea-pol-fpi-sample.md). 
 
 تعد عينة التكامل المالي لبولندا جزءًا من Retail SDK. للحصول على مزيد من المعلومات حول كيفية تثبيت واستخدام SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). يتكون هذا النموذج من ملحقات Commerce Runtime (CRT) ومحطة الأجهزة. لتشغيل هذا النموذج، يجب تعديل مشاريع CRT ومشاريع محطة الأجهزة وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Azure DevOps حيث لم يتم تغيير أي ملفات حتى الآن.
 

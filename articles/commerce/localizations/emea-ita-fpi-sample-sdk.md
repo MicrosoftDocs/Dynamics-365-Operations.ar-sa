@@ -2,25 +2,29 @@
 title: إرشادات النشر لعينة تكامل الطابعة المالية لإيطاليا (قديمة)
 description: يوفر هذا المقال إرشادات لنشر نموذج التكامل الطابعة المالية لإيطاليا من مجموعة تطوير برامج Microsoft Dynamics 365 Commerce ‏Retail ‏(SDK).
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 9e951c1a1ee5c967d2bd67941ff3d19c62b59ba6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279529"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336624"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>إرشادات النشر لعينة تكامل الطابعة المالية لإيطاليا (قديمة)
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-يوفر هذا المقال إرشادات لنشر نموذج تكامل الطابعة المالية لإيطاليا من مجموعة أدوات تطوير برامج البيع بالتجزئة (SDK) Microsoft Dynamics 365 Commerce على جهاز ظاهري للمطور (VM) في Microsoft Dynamics Lifecycle Services (LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل الطابعة المالية لإيطاليا](emea-ita-fpi-sample.md). 
+> [!IMPORTANT]
+> يجب عليك اتباع الإرشادات الموجودة في هذه المقالة فقط إذا كنت تستخدم Microsoft Dynamics 365 Commerce الإصدار 10.0.28 أو إصدارا سابقا. اعتبارًا من الإصدار 10.0.29 من Commerce ، تتوفر عينة تكامل الطابعة المالية لإيطاليا في مجموعة تطوير برامج التجارة (SDK). لمزيد من المعلومات، راجع [تكوين مكونات القناة‬](./emea-ita-fpi-sample.md#configure-channel-components).
+
+توفر هذه المقالة إرشادات لنشر نموذج تكامل الطابعة المالي لإيطاليا من Dynamics 365 Commerce Retail SDK على جهاز ظاهري للمطور (VM) بتنسيق Microsoft Dynamics خدمات دورة الحياة (LCS). لمزيد من المعلومات حول نموذج التكامل المالي هذا، راجع [عينة تكامل الطابعة المالية لإيطاليا](emea-ita-fpi-sample.md). 
 
 تعد عينة التكامل المالي لإيطاليا جزءًا من Retail SDK. للحصول على مزيد من المعلومات حول كيفية تثبيت واستخدام SDK، راجع [بنية مجموعة تطوير برنامج Retail](../dev-itpro/retail-sdk/retail-sdk-overview.md). يتكون هذا النموذج من ملحقات Commerce Runtime (CRT) ومحطة الأجهزة. لتشغيل هذا النموذج، يجب تعديل مشاريع CRT ومشاريع محطة الأجهزة وإنشائها. نوصي باستخدام Retail SDK غير معدل لإجراء التغييرات الموضحة في هذا المقال. نوصي أيضًا باستخدام نظام تحكم بالمصادر مثل Azure DevOps حيث لم يتم تغيير أي ملفات حتى الآن.
 

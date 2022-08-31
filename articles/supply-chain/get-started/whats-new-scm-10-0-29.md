@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7f5691c5784b7b381ff805b0431d8adb1a25f1cb
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266387"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334734"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>إصدار أولي Dynamics 365 Supply Chain Management 10.0.29 (أكتوبر 2022)
 
@@ -74,10 +74,7 @@ ms.locfileid: "9266387"
 
 | الوحدة النمطية | اسم الميزة | حالة الميزة الجديدة |
 | --- | --- | --- |
-| إدارة الأصول | [تطبيق القواعد لتجميع أوامر العمل أثناء تشغيل خطة الصيانة](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | إلزامي |
 | إدارة الأصول | [وظيفة إدارة الأصول لواجهة التنفيذ في طابق الإنتاج](../production-control/production-floor-execution-configure.md) | إلزامي |
-| إدارة الأصول | [تحسينات الصيانة القائمة على العداد](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | قيد التشغيل بشكل افتراضي |
-| إدارة الأصول | [فوترة أمر العمل](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) | إلزامي |
 | إدارة التكلفة | [تغيير تسمية الإلغاء في الإغلاق والتسوية إلى "عكس"](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse) | إلزامي |
 | إدارة التكلفة | تنظيف تفاصيل حساب قائمة مكونات الصنف‬ عبر إصدارات التكاليف. | إلزامي |
 | إدارة التكلفة | [مخزن مقارنة أسعار الأصناف](../cost-management/compare-item-price.md) | إلزامي |
@@ -102,7 +99,7 @@ ms.locfileid: "9266387"
 | إدارة المخزون والمستودعات | استخدام وحدة القياس وكمية الوحدة في دفاتر يومية المخزون | إلزامي |
 | إدارة المخزون والمستودعات | فتح مجلة المخزون | إلزامي |
 | التصنيع | [انتقاء تلقائي للمواد الممكّنة للمستودع لقوائم الانتقاء المرحّلة بشكل تلقائي](whats-new-scm-10-0-23.md) | متوفرة بشكل عام |
-| التصنيع | تمكين عرض أبعاد المخزون في قائمة المواد لعمليات مسار الإنتاج | قيد التشغيل بشكل افتراضي |
+| التصنيع | تمكين عرض أبعاد المخزون في قائمة المواد لعمليات مسار الإنتاج | إلزامي |
 | التصنيع | [يمكنك تمكين إدخال أرقام الدُفعات والأرقام التسلسلية أثناء الإبلاغ عنها كمنتهية من "جهاز بطاقة الوظيفة".](../production-control/report-finished-job-device.md) | قيد التشغيل بشكل افتراضي |
 | التصنيع | انتقاء كمية وزن تعبئة الإنتاج المحسنة | قيد التشغيل بشكل افتراضي |
 | التصنيع | [بحث عن وظيفة لواجهة تنفيذ صالة الإنتاج‬](../production-control/production-floor-execution-configure.md) | إلزامي |
@@ -127,20 +124,19 @@ ms.locfileid: "9266387"
 | التخطيط الرئيسي | [تأكيد الأوامر المخططة بواسطة التصفية](../master-planning/planning-optimization/planned-order-firming.md) | إلزامي |
 | التخطيط الرئيسي | [أوامر الإنتاج المخططة لتحسين التخطيط](../master-planning/planning-optimization/production-planning.md) | إلزامي |
 | التخطيط الرئيسي | [الاتفاقيات التجارية للشراء لتحسين التخطيط](../master-planning/planning-optimization/purchase-trade-agreement.md) | إلزامي |
-| التخطيط الرئيسي | تخطيط الموارد مع الصيانة | إلزامي |
 | التخطيط الرئيسي | [طرق العرض المحفوظة للأوامر المخططة](saved-views-scm.md) | إلزامي |
 | التدبير وتحديد الموارد | مبالغ التكاليف من وإلي في أوامر الشراء | إلزامي |
 | التدبير وتحديد الموارد | تعطيل زر إعادة تعيين توزيع طلب الشراء | قيد التشغيل بشكل افتراضي |
 | التدبير وتحديد الموارد | [تمكين إعادة تعيين عمليات سير العمل ذات الصلة بالتدبير](whats-new-scm-10-0-20.md) | قيد التشغيل بشكل افتراضي |
 | التدبير وتحديد الموارد | [تحديد عدد بنود أمر الشراء لكل مهمة دُفعية](whats-new-scm-10-0-27.md) | قيد التشغيل بشكل افتراضي |
 | التدبير وتحديد الموارد | [دمج الأبعاد المالية من المورد مع البعد المالي لرابط البُعد النشط في أمر الشراء](whats-new-scm-10-0-25.md) | إلزامي |
+| التدبير وتحديد الموارد | [ترحيل الكميات المسجلة من المنتجات المخزنة وبقية المنتجات غير المخزنة للإيصالات وفواتير المورد](whats-new-scm-10-0-26.md) | متوفرة بشكل عام |
 | التدبير وتحديد الموارد | [منع الاستهلاك الزائد لعمليات حجز الموازنة العامة عند وجود طلبات شراء متعددة في سير العمل](whats-new-scm-10-0-21.md) | قيد التشغيل بشكل افتراضي |
 | التدبير وتحديد الموارد | [الطرف المسؤول عن اتفاقية الشراء](../procurement/purchase-agreements.md) | إلزامي |
 | التدبير وتحديد الموارد | [طرق العرض المحفوظة لأوامر الشراء](saved-views-scm.md) | إلزامي |
 | إدارة معلومات المنتج | معالجة مسبقة لتقرير قائمة مكونات الصنف لتجنب انقضاء المهلة | إلزامي |
 | إدارة معلومات المنتج | الأبعاد المالية الافتراضية بشكل منفصل عند استخدام قوالب الأصناف | إلزامي |
 | إدارة معلومات المنتج | تمكين مجموعات أبعاد المنتج لقوالب الأصناف المشتركة | إلزامي |
-| إدارة معلومات المنتج | [وراثة سمات محسنة لإدارة التغيير الهندسي](../engineering-change-management/engineering-attributes-and-search.md) | إلزامي |
 | إدارة معلومات المنتج | الصنف - تحسينات في كيان الكود الشريطي | إلزامي |
 | إدارة معلومات المنتج | إعادة إنشاء أسماء متغيرات المنتجات استنادًا إلى المصطلحات | إلزامي |
 | إدارة معلومات المنتج | [طرق العرض المحفوظة للمنتجات الصادرة](saved-views-scm.md) | إلزامي |
@@ -161,27 +157,30 @@ ms.locfileid: "9266387"
 | المبيعات والتسويق | [تأكيد أمر المبيعات بنقرة واحدة](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation) | إلزامي |
 | إدارة النقل | السماح بعدم مطابقة كمبيالات الشحن‬ من بنود فواتير الشحن من دون دفتر يومية فاتورة مورّد مرحّلة | قيد التشغيل بشكل افتراضي |
 | إدارة النقل | [تمكين إنشاء دفتر يومية فواتير المورّد عند تجاهل فاتورة الشحن](whats-new-scm-10-0-20.md) | قيد التشغيل بشكل افتراضي |
-| إدارة النقل | [شحن طرد صغير](../warehousing/small-parcel-shipping.md) | قيد التشغيل بشكل افتراضي |
+| إدارة النقل | [شحن طرد صغير](../warehousing/small-parcel-shipping.md) | إلزامي |
 | إدارة النقل | [مستند شهادة المنشأ USMCA](../transportation/usmca-certification-of-origin.md) | قيد التشغيل بشكل افتراضي |
 | Warehouse management | [مناطق مواقع إضافية](../warehousing/additional-location-zones.md) | إلزامي |
 | Warehouse management | [إلغاء العمل](../warehousing/cancel-warehouse-work.md) | إلزامي |
-| Warehouse management | [دمج الشحنة](../warehousing/configure-shipment-consolidation-policies.md) | قيد التشغيل بشكل افتراضي |
+| Warehouse management | [دمج الشحنة](../warehousing/configure-shipment-consolidation-policies.md) | إلزامي |
 | Warehouse management | [إنشاء أوامر تحويل ومعالجتها من تطبيق المستودع](../warehousing/create-transfer-order-from-warehouse-app.md) | إلزامي |
 | Warehouse management | قوالب توزيع البضائع مع توجيهات المواقع | قيد التشغيل بشكل افتراضي |
-| Warehouse management | [فصل عمل التخزين عن إشعارات الشحن المسبق (ASN)](whats-new-scm-10-0-21.md) | قيد التشغيل بشكل افتراضي |
-| Warehouse management | [عمليات الوضع المؤجلة](../warehousing/deferred-processing-manual-inventory-movement.md) | قيد التشغيل بشكل افتراضي |
+| Warehouse management | [فصل عمل التخزين عن إشعارات الشحن المسبق (ASN)](whats-new-scm-10-0-21.md) | إلزامي |
+| Warehouse management | [عمليات الوضع المؤجلة](../warehousing/deferred-processing-manual-inventory-movement.md) | إلزامي |
 | Warehouse management | الوضع المؤجل - الحاوية | قيد التشغيل بشكل افتراضي |
 | Warehouse management | معالجة الوضع المؤجل - تمكين ميزة قالب التدقيق مع تعيين حدث التشغيل على القيمة "السابق" | إلزامي |
 | Warehouse management | [تعطيل عمليات الاستلام المتوقعة من أوامر الجودة التي تقوم بأخذ عينة من المخزون المحظور](../inventory/inventory-blocking.md) | قيد التشغيل بشكل افتراضي |
 | Warehouse management | تمكين التحقق السريع للأجهزة المحمولة للمستودع | إلزامي |
-| Warehouse management | [حجز بُعد مرن على مستوى المستودع](../warehousing/flexible-warehouse-level-dimension-reservation.md) | قيد التشغيل بشكل افتراضي |
-| Warehouse management | [الحجز المرن للوحة الترخيص المرتبط بالأمر](../warehousing/flexible-warehouse-level-dimension-reservation.md) | قيد التشغيل بشكل افتراضي |
-| Warehouse management | [مرئيات حمل العمل الصادر](../warehousing/outbound-workload-visualization.md) | إلزامي |
+| Warehouse management | [المحلل المحسن لرموز GS1 الشريطية](../warehousing/gs1-barcodes.md) | متوفرة بشكل عام |
+| Warehouse management | [الحجز المرن للوحة الترخيص المرتبط بالأمر](../warehousing/flexible-warehouse-level-dimension-reservation.md) | إلزامي |
+| Warehouse management | [حجز بُعد مرن على مستوى المستودع](../warehousing/flexible-warehouse-level-dimension-reservation.md) | إلزامي |
 | Warehouse management | [استخدام موقع دمج الأصناف](../warehousing/item-consolidation-location-utilization.md) | قيد التشغيل بشكل افتراضي |
 | Warehouse management | سجل استلام لوحة الترخيص | قيد التشغيل بشكل افتراضي |
 | Warehouse management | [دمج الشحنات يدويًا](../warehousing/consolidate-shipments-manual-workbench.md) | قيد التشغيل بشكل افتراضي |
+| Warehouse management | [خدمة انتقاء بند التحويل يدويًا للمسؤول أو مستخدمين موثوقين مماثلين](whats-new-scm-10-0-28.md) | متوفرة بشكل عام |
 | Warehouse management | [واجهة معدات معالجة المواد](../warehousing/mhax.md) | إلزامي |
-| Warehouse management | [توزيع البضائع المخطط](../warehousing/planned-cross-docking.md) | قيد التشغيل بشكل افتراضي |
+| Warehouse management | [صفحات جدول عمل تخطيط الحِمل الجديدة](whats-new-scm-10-0-24.md) | متوفرة بشكل عام |
+| Warehouse management | [مرئيات حمل العمل الصادر](../warehousing/outbound-workload-visualization.md) | إلزامي |
+| Warehouse management | [توزيع البضائع المخطط](../warehousing/planned-cross-docking.md) | إلزامي |
 | Warehouse management | [معالجة أحداث تطبيق المستودع](../warehousing/warehouse-app-events.md) | إلزامي |
 | Warehouse management | تحسين الاستعلام لقالب عمل تخزين المنتج المساعد والمنتج الثانوي | إلزامي |
 | Warehouse management | [تقريب الكميات لأسفل إلى أقرب وحدة مبيعات عند الإصدار إلى المستودع](whats-new-scm-10-0-19.md) | إلزامي |
@@ -190,13 +189,14 @@ ms.locfileid: "9266387"
 | Warehouse management | [طريقة العرض المحفوظة لمعالجة الموجة](saved-views-scm.md) | إلزامي |
 | Warehouse management | [طرق العرض المحفوظة لمعالجة الحمل](saved-views-scm.md) | إلزامي |
 | Warehouse management | [طرق العرض المحفوظة لمعالجة الشحن](saved-views-scm.md) | إلزامي |
-| Warehouse management | تفاصيل ملصق موجة الشحن | قيد التشغيل بشكل افتراضي |
+| Warehouse management | [مسح رموز GS1 الشريطية](../warehousing/gs1-barcodes.md) | متوفرة بشكل عام |
+| Warehouse management | تفاصيل ملصق موجة الشحن | إلزامي |
 | Warehouse management | [تقسيم الوحدات المختلطة](whats-new-scm-10-0-21.md) | إلزامي |
 | Warehouse management | [استخدام واجهة برمجة تطبيقات أسرع لإقفال/إعادة فتح الحاويات في محطة التعبئة](whats-new-scm-10-0-21.md) | قيد التشغيل بشكل افتراضي |
 | Warehouse management | [تحقق من صحة من القوالب المحددة لمهام التزويد](whats-new-scm-10-0-20.md) | قيد التشغيل بشكل افتراضي |
-| Warehouse management | [الحقول المرقّاة‬ في تطبيق المستودع](../warehousing/warehouse-app-promoted-fields.md) | قيد التشغيل بشكل افتراضي |
-| Warehouse management | [إرشادات خطوة تطبيق المستودع](../warehousing/mobile-app-titles-instructions.md) | قيد التشغيل بشكل افتراضي |
-| Warehouse management | [حالة موقع المستودع](../warehousing/warehouse-location-status.md) | قيد التشغيل بشكل افتراضي |
+| Warehouse management | [الحقول المرقّاة‬ في تطبيق المستودع](../warehousing/warehouse-app-promoted-fields.md) | إلزامي |
+| Warehouse management | [إرشادات خطوة تطبيق المستودع](../warehousing/mobile-app-titles-instructions.md) | إلزامي |
+| Warehouse management | [حالة موقع المستودع](../warehousing/warehouse-location-status.md) | إلزامي |
 | Warehouse management | [منعطفات تطبيق Warehouse Management](../warehousing/warehouse-app-detours.md) | قيد التشغيل بشكل افتراضي |
 | Warehouse management | [تفاصيل وظيفة الدفعة للموجة](../warehousing/wave-processing.md) | إلزامي |
 | Warehouse management | [إخطارات تنفيذ الموجة](../warehousing/wave-execution-notifications.md) | إلزامي |

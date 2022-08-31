@@ -2,7 +2,7 @@
 title: إصدار أولي Dynamics 365 Commerce 10.0.29 (أكتوبر 2022)
 description: تصف هذه المقالة الميزات الجديدة أو المتغيرة في 10.0.29. Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/02/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c1f85fcd8f79106a3af93489d3bef608b9840bf3
-ms.sourcegitcommit: 91f58a9863f4e8f30ac787c2a9771c1ff6a05f72
+ms.openlocfilehash: 1e05f53f9ecb0a1994828172f6999a0bd5c208bc
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9224228"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306222"
 ---
 # <a name="preview-of-dynamics-365-commerce-10029-october-2022"></a>إصدار أولي Dynamics 365 Commerce 10.0.29 (أكتوبر 2022)
 
@@ -38,6 +38,7 @@ ms.locfileid: "9224228"
 | Customer Service | [قم بتمكين Customer Service باستخدام Dynamics 365لقناة متعددة الاتجاهات لـ Customer Service](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/chat-dynamics-365-commerce-omnichannel-customer-service) | تجربه دعم العميل من الفئة الاولي هي الأمر لتوفير خبره تجاريه مخصصه وديلايتفوله للعملاء. توجد العديد من التوتشبوينتس التجارية حاليا ، مثل المخازن الفعلية والقناات الفورية والقناات الاجتماعية. يتوقع العملاء تجربه دعم مخصصه في جميع هذه التوتشبوينتس. تساعد هذه الميزة في زيادة تحويلات السلة إلى المبيعات ، وزيادة التفاوض الشخصي مع العملاء ، وتحسين خدمه العملاء من خلال التكامل مع Dynamics 365 أومنيتشانيل لخدمه العملاء. | تم التمكين بواسطة المسؤول/المتخذ |
 | التجارة الإلكترونية | دعم لمقارنه المنتجات في التجارة الكترونيه | قم بتمكين شوبيرس لمقارنه المنتجات عبر نطاق واسع من الفئات حتى يمكنهم جعل قرار الشراء الصحيح لأنفسهم. تتوفر هذه الميزة لكل من مواقع المستهلك (B2C) ومواقع B2B. | موقع البناء | 
 | بطاقات الهدايا | دعم جداول بطاقات هدايا البيع بالتجزئة لمشاركه البيانات عبر الشركات | تدعم Dynamics headquarters القدرة علي تمكين مشاركه البيانات عبر الشركة لجداول محدده في بنيه Dynamics. في هذه الميزة ، Dynamics 365 Commerce يضيف دعمًا لمشاركة البيانات عبر الشركات لجداول بطاقات هدايا البيع بالتجزئة. التالي ، يمكن الآن لبطاقة الهدايا الموجودة في أحدي الشركات ان تكون البيانات الخاصة بها مكرره بشركه أخرى في البيئة. ستتم مشاركه التغييرات التي يتم اجراؤها علي جدول بطاقة الهدايا الخاص بالشركة الاصليه إلى جدول بطاقة الهدايا الخاص بالشركة المكرر. | المطورون |
+| العولمة | [تمكين ميزات التعريب التجاري لمجموعه تطوير برامج التجارة الجديدة](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | توفر الميزة الجديدة امكانيه تمكين ميزات التعريب التجاري من Commerce headquarters باستخدام اطار العمل أو المعلمات الخاصة باداره الميزات. يتم تضمين نماذج التكامل المالي في SDK الخاص بالتجارة الجديدة ودعم التحزيم المعتمد. كما تتيح هذه الميزة امكانيه الاعتماد علي تطبيق التجارة المتجر بواسطة العملاء التجاريين العالميين.<p><p>يتضمن هذا الإصدار ميزات تعريب التجارة ونماذج التكامل المالي لـ [النمسا](../localizations/emea-aut-fi-sample.md), [الجمهورية التشيكية](../localizations/emea-cze-fi-sample.md), [فرنسا](../localizations/emea-fra-cash-registers.md), [ألمانيا](../localizations/emea-deu-fi-sample.md), [إيطاليا](../localizations/emea-ita-fpi-sample.md), [النرويج](../localizations/emea-nor-cash-registers.md), و [بولندا](../localizations/emea-pol-fpi-sample.md). | تم التمكين بواسطة المسؤول/المتخذ |
 | الأداء | أزاله تبعية RTS لسيناريوهات "تحرير العميل" | التوافر العالي والأداء العالي هما توقعات افتراضيه لنقطه بيع (POS) وقناات التجارة الكترونيه. للمساعدة في الوفاء بهذه التوقعات ، لم يعد من الضروري اعتماد القناات Dynamics 365 Commerce علي الاتصالات في الوقت الحقيقي مع "Commerce headquarters" عند تحرير معلومات العميل. ويمكن لامكانيه تحرير معلومات العملاء بشكل غير متزامن للعملاء غير المتزامنين وغير المتزامنين المساعدة في تقليل المكالمات في الوقت الحقيقي لCommerce headquarters. | تم التمكين بواسطة المسؤول/المتخذ |
 
 ## <a name="feature-state-changes-in-this-release"></a>التغييرات في حالة الميزات في هذا الإصدار
