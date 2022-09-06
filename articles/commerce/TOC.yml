@@ -466,9 +466,11 @@
                           items:
                             - name: دعم بطاقات الهدايا الخارجية
                               href: dev-itpro/gift-card.md
+                            - name: مشاركة البيانات عبر الشركات للمنتجات لبطاقات الهدايا‬
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
-                        - name: مسجل الاختبار وRegression Suite Automation Tool لنقطة البيع السحابية‬
+                        - name: مسجل الاختبار وRegression Suite Automation Tool لـ Cloud POS‬
                           href: dev-itpro/pos-rsat.md
                     - name: شركاء المبيعات
                       items:
