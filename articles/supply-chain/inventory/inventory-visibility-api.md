@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902013"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357631"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لـ Inventory Visibility
 
@@ -98,16 +98,16 @@ ms.locfileid: "8902013"
 1. قم بتسجيل الدخول إلى مدخل Azure، واستخدمه للبحث عن قيم `clientId` و`clientSecret` لتطبيق Dynamics 365 Supply Chain Management الخاص بك.
 1. إحضار Azure AD رمز مميز (`aadToken`) عن طريق إرسال طلب HTTP بالخصائص التالية:
 
-   - **عنوان URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **عنوان URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
    - **الأسلوب:** `GET`
    - **محتوي النص الأساسي (بيانات النموذج):**
 
-     | المفتاح           | قيمة                                |
-     | ------------- | ------------------------------------ |
-     | client_id     | ${aadAppId}                          |
-     | client_secret | ${aadAppSecret}                      |
-     | grant_type    | client_credentials                   |
-     | مورد      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | المفتاح           | قيمة                                            |
+     | ------------- | -------------------------------------------------|
+     | client_id     | ${aadAppId}                                      |
+     | client_secret | ${aadAppSecret}                                  |
+     | grant_type    | client_credentials                               |
+     | النطاق         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2(افتراضية)    |
 
    يجب أن تتلقى رمز Azure AD المميز (`aadToken`) في الاستجابة. يجب أن تشبه المثال التالي.
 
@@ -116,9 +116,6 @@ ms.locfileid: "8902013"
        "token_type": "Bearer",
        "expires_in": "3599",
        "ext_expires_in": "3599",
-       "expires_on": "1610466645",
-       "not_before": "1610462745",
-       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
        "access_token": "eyJ0eX...8WQ"
    }
    ```
@@ -131,7 +128,7 @@ ms.locfileid: "8902013"
        "client_assertion_type": "aad_app",
        "client_assertion": "{Your_AADToken}",
        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context": "{$LCS_environment_id}",
        "context_type": "finops-env"
    }
    ```
@@ -516,8 +513,8 @@ Body:
 
 في الجزء الأساسي من هذا الطلب، ما يزال `dimensionDataSource` معلمة اختيارية. وإذا لم يتم تعيينه، فسوف تتم معاملة `filters` كـ *أبعاد أساسية*. توجد أربعة حقول مطلوبه لـ `filters`: `organizationId`، و`productId`، و`siteId`، و`locationId`.
 
-- يجب أن يحتوي `organizationId` على قيمة واحدة فقط، ولكنه ما يزال صفيف.
-- يمكن أن يحتوي `productId` على قيمة واحدة أو أكثر. إذا كان فارغًا، فسيتم إرجاع كافة المنتجات.
+- يجب أن يحتوي `organizationId` قيمة واحدة فقط ، لكنها لا تزال مجموعة.
+- `productId` يمكن أن تحتوي على قيمة واحدة أو أكثر.. إذا كان فارغًا، فسيتم إرجاع كافة المنتجات.
 - يتم استخدام `siteId` و`locationId` للتقسيم في رؤية المخزون. يمكنك تحديد أكثر من قيمة `siteId` و`locationId` واحدة في طلب *الاستعلام المتاح‬*. في الإصدار الحالي، يجب تحديد قيم لكل من `siteId` و`locationId`.
 
 يجب أن تتبع معلمة `groupByValues` التكوين الخاص بك للفهرسة. لمزيد من المعلومات، راجع [تكوين التدرج الهرمي لفهارس المنتجات](./inventory-visibility-configuration.md#index-configuration).
