@@ -12,6 +12,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في صفحة Commerce الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30 (نوفمبر 2022)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (أكتوبر 2022)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (يوليو 2022)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: تحديد الخصومات الخاصة بالقناة
                   href: define-channel-specific-discounts.md
-                - name: خيارات لمنع الخصومات لمنتجات البيع بالتجزئة
-                  href: prevent-discounts.md
-                - name: الخصومات المستندة إلى طريقة الدفع‬
+                - name: الخصومات المستندة إلى طريقة الدفع
                   href: tender_based_discounts.md
                 - name: خصم الشحن
                   href: shipping-discount.md
                 - name: تكوين الهدية مع عروض الشراء الترويجية
                   href: gift-with-purchase.md
-                - name: إعداد الكوبونات
-                  href: retail-coupons.md
-                - name: عرض الخصومات في نقطة البيع
-                  href: discounts-pos.md
+                - name: القسائم
+                  href: coupons.md
+                - name: إعدادات الأسعار
+                  href: price-settings.md
                 - name: تقارير السعر
                   href: price-report.md
                 - name: إنشاء اتفاقيات تجارية خاصة بالقناة
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: عملية البحث عن المخزون في نقطة البيع
                       href: pos-inventory-lookup-operation.md
+                    - name: قائمة منتجات تعقب المخزون
+                      href: inventory-aware-product-listing.md
                 - name: أوامر الشراء
                   items:
                     - name: نظرة عامة على أمر الشراء

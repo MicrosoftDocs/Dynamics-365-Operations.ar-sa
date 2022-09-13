@@ -12,6 +12,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في صفحة Finance الرئيسية‬
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (نوفمبر)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (أكتوبر)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (أغسطس)
@@ -1138,6 +1140,8 @@
                       href: general-ledger/subledger-transfer.md
                     - name: مستكشف مصدر المحاسبة
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: محاسبة المستند معلقة
+                      href: general-ledger/documents-pending-accounting.md
             - name: التقارير والاستعلامات
               items:
                 - name: عرض إدخالات دفاتر اليومية والحركات

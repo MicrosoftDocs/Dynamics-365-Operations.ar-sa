@@ -3413,11 +3413,9 @@
                       href: warehousing/packing-work.md
                     - name: إعداد إعادة توزيع الأصناف للانتقاء القصير
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: إلغاء عمل المستودع لمعالجة الاستثناء
-                      href: warehousing/cancel-warehouse-work.md
                     - name: تسلسل العمل الموجه بواسطة النظام
                       href: warehousing/system-directed-work-sequencing.md
-                    - name: تجميع بنود الانتقاء
+                    - name: تجميع سطور الانتقاء
                       href: warehousing/pick-line-grouping.md
                     - name: تقسيم المستودعات
                       href: warehousing/warehouse-slotting.md
@@ -3431,11 +3429,15 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: مرئيات حمل العمل الصادر
                       href: warehousing/outbound-workload-visualization.md
+                    - name: التعامل يدويًا مع استثناءات انتقاء بندي المبيعات والنقل
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: إلغاء عمل المستودع لمعالجة الاستثناء
+                      href: warehousing/cancel-warehouse-work.md
                 - name: تزويد
                   items:
-                    - name: نظرة عامة على التزويد
+                    - name: نظرة عامة على الاستعاضة
                       href: warehousing/replenishment.md
-                    - name: التزويد الفوري
+                    - name: الاستعاضة الفورية
                       href: warehousing/immediate-replenishment.md
                     - name: التزويد بحلول كانبان للسحب
                       href: warehousing/material-replenishment-withdrawal-kanban.md
