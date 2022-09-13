@@ -1,27 +1,25 @@
 ---
 title: كتالوج التعلم لمطوري Dynamics 365 Finance
 description: البحث عن جميع خيارات التدريب لمطوري Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 02b639ddaf7c12e1a6c83bad1c05f8f85fb548dc
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 5fe354d94f7cef15b944828e0e07ce4b50f7eb42
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068517"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424491"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>كتالوج التعلم لمطوري Dynamics 365 Finance
-
-
 
 هل تحتاج إلى كتابة كود للتكامل مع مصادر البيانات الأخرى أو توسيع وظيفة النظام الأساسية أو بناء تطبيق معقد؟
 
@@ -44,7 +42,6 @@ ms.locfileid: "9068517"
 | [الاتصال بتطبيقات التمويل والعمليات](/learn/paths/connect-finance-operations/) | يعتبر التكامل والقدرة على الوصول إلى بياناتك في تطبيقات التمويل والعمليات من القدرات المهمة للغاية. بإمكان المطورين الذين تعلموا كيفية إنشاء وتوسيع التعليمات البرمجية في تطبيقات التمويل والعمليات تحسين معرفتهم بالتطوير عن طريق تعلم تكامل البيانات وفهم التأثيرات الإيجابية على المستخدمين نتيجة الاتصال بالبيانات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 5.75 ساعات |
 | [ترحيل والبدء الفوري لتطبيقات التمويل والعمليات](/learn/paths/migrate-data-go-live-finance-operations/) | بصفتك مستشارًا وظيفيًا، يجب عليك فهم كيفية إعداد بيانات عميلك للترحيل والعمل باستخدام إدارة البيانات وتنفيذ اختبارات قبول المستخدم للانتقال للعرض المباشر باستخدام تطبيقات التمويل والعمليات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 4 ساعات |
 | [Finance And Operations: تطوير ALM (DYN766PAL)](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-and-operations---development-alm-february-19-2020) | يناقش هذا الحديث التقني مفاهيم إدارة دورة حياة تطوير التطبيقات، والأدوات وأفضل الممارسات التي نوصي بها. وسوف نتناول كيف يعمل Lifecycle Services وVisual Studio وAzure DevOps معًا لتمكين التسليم المستمر المرتكز على عملية الأعمال لقاعدة التعليمة البرمجية للحل الخاص بك وخدمة البيئات الخاصة بك. | التسجيل المجاني لمؤتمر ويب | 52 دقيقة |
-| [التمويل والعمليات: توسيع Dynamics 365 التمويل باستخدام PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | افهم بساطة Microsoft PowerApps وكيف يمكن أن يتكامل مع Dynamics 365 Finance لتحويل الأعمال رقميًا وزيادة إنتاجية المستخدم.. | التسجيل المجاني لمؤتمر ويب | 43 دقيقة |
 | [التمويل والعمليات: قابلية التوسع (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | سنقدم نظرة عامة وتحديثًا عن خطط Microsoft للتوسعة. سنناقش بالتفصيل الطرق المختلفة لتوسيع الحل ، والبحث بعمق في ميزات قابلية توسيع البيانات الوصفية بالإضافة إلى القدرة على زيادة وتوسيع الشفرة ، بما في ذلك عبر ميزة سلسلة الأوامر القوية. | التسجيل المجاني لمؤتمر ويب | 50 دقيقة |
 | [Visual Studio Team Services (VSTS) إعداد (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | وسوف يستعرض هذا الحديث التقني الخطوات اللازمة لتهيئة مثيل VSTS والمشروع للاتصال بمشروع تنفيذ LCS لتكون بيئة التطوير/الاختبار. | التسجيل المجاني لمؤتمر ويب | 41 دقيقة |
 | [أداة تكامل بيانات Dataverse (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | انضم إلينا في هذا الحديث التكنولوجي حول إمكانيات Dataverse تكامل البيانات. سنناقش خيارات التكامل بين تطبيقات Dynamics 365 Customer Engagement وتطبيقات التمويل والعمليات في Dynamics 365، بالإضافة إلى التكامل مع الحلول الأخرى التابعة لجهات خارجية. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
@@ -55,35 +52,33 @@ ms.locfileid: "9068517"
 | [نسخ إلى الكيان القانوني (DYN383PAL)](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | في هذه الجلسة ، سنناقش ميزة جديدة في إطار عمل إدارة البيانات، وهي النسخ إلى كيان قانوني. سنراجع أولاً بإيجاز الميزات الجديدة المضافة إلى إطار عمل إدارة البيانات في النظام الأساسي 8 لمساحة العمل والقوالب ومشاريع البيانات ، ثم نناقش الوظيفة المضافة للنسخ إلى الكيان القانوني. | التسجيل المجاني لمؤتمر ويب | 54 دقيقة |
 | [كيفية توسيع أو بناء مساحات عمل تحليلية جديدة (DYN321PAL) ](https://community.dynamics.com/365/b/techtalks/posts/how-to-extend-or-build-new-analytical-workspaces-september-18-2017) | سيقدم هذا الحديث التقني استعراضًا لكيفية توسيع مساحات العمل التحليلية الجديدة أو بنائها. | التسجيل المجاني لمؤتمر ويب | 59 دقيقة |
 | [إطار عمل الأجهزة المحمولة (VIR824PAL) ](https://community.dynamics.com/365/b/techtalks/posts/mobile-framework-april-11-2017) | سوف يستعرض هذا الحديث التقني إمكانيات إطار عمل الأجهزة المحمولة لإنشاء التطبيقات في Dynamics 365 for Operations. وسوف توضح الجلسة أيضًا بعض التطبيقات التي تم إنشاؤها مؤخرًا. | التسجيل المجاني لمؤتمر ويب | 58 دقيقة |
+| [دورة MB-500T00: Microsoft Dynamics 365: مطور تطبيقات المالية والعمليات](/training/courses/mb-500t00) | في هذه الدورة التدريبية ، سنقوم بمناقشه المهام المطلوبة لتحقيق دور المطور في الأدوار Dynamics 365 Finance وتطبيقات العمليات. المطور (الكل) هو عبارة عن المصدر الفني Dynamics 365 for Finance and Operations الأساسي الذي يقوم بتطبيق وتوسيع التطبيق لتلبيه متطلبات الاعمال. | التدريب بقيادة مدرب ، تختلف التكلفة حسب المنطقة والشريك | 5 يومًا |
 
 ## <a name="servicing"></a>الخدمة<a name="servicing"></a>
 
-| المحتوى | ‏‏الوصف‬ | التنسيق | Length |
+| المحتوى | Description | التنسيق | Length |
 |---------|-------------|--------|--------|
 | [ Finance and Operation: الخدمة، الدعم والحفاظ على الإنتاج (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | الرجاء الانضمام إلى هذا الحديث الفني للحصول على نظرة عامة حول الخيار المحلي لـ Dynamics 365 Finance ، Enterprise Edition. | التسجيل المجاني لمؤتمر ويب | 53 دقيقة |
 | [Finance and Operations: إدارة الميزات (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | الحديث التقني المتعلق بتجربة إدارة الميزات. يوفر مساحة عمل يُمكن من خلال عرض الميزات التي تم تسليمها في كل إصدار وكيفية تمكينها وتعطيلها وجدولتها. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. سوف يُساعدك حضور هذا الاجتماع لمعرفة ما تم تسليمه في 10.0.3 وخططنا للإصدارات المستقبلية. | التسجيل المجاني لمؤتمر ويب | 47 دقائق |
 | [Finance And Operations: التحديثات المستمرة المُدارة بواسطة Microsoft  (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | لقد بدأت وتيرة التحديث المستمر لتطبيق Finance and Operations! انضم إلينا لمناقشة تحديثات Microsoft Managed Continuous ، وتجربة المستخدم المتوفرة بالفعل في Lifecycle Services ، والتحديثات القادمة. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
-| [التحديثات المستمرة المُدارة بواسطة Microsoft: ما الجديد (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | خلال هذه الساعة، سنشرح الجديد منذ إعلاناتنا الأولية حول التحديثات المستمرة المُدارة من Microsoft. سنناقش إيقاع التحديثات ، وكيف استجبنا لملاحظاتك القيمة حول العملية ، ونلقي نظرة على تجربة مستخدم Lifecycle Services القادمة ، والتي ستتمكن من خلالها من إدارة تحديثاتك. | التسجيل المجاني لمؤتمر ويب | 56 دقيقة |
-| [التحديثات المستمرة المُدارة بواسطة Microsoft:  (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | سنناقش خطط Microsoft للحفاظ على تحديث نظامك بأحدث إصدار. سنغطي الجداول الزمنية ، والإيقاع للتحديثات الرئيسية والثانوية ، والإجراءات المخطط لها ، والآثار ، وما يجب عليك القيام به للحصول على أفضل النتائج. | التسجيل المجاني لمؤتمر ويب | 62 دقيقة |
 
 ## <a name="migration-and-upgrade"></a>الترقية والترحيل<a name="migration-and-upgrade"></a>
 
-| المحتوى | ‏‏الوصف‬ | التنسيق | Length |
+| المحتوى | Description | التنسيق | Length |
 |---------|-------------|--------|--------|
 | [ترقية Dynamics AX 2012 إلى تطبيقات التمويل والعمليات](/learn/paths/upgrade-ax-2012-finance-operations/) | تعرف على أكثر العناصر أهمية وأفضل الممارسات لترقية حل Dynamics AX 2012 إلى تطبيقات التمويل والعمليات. من الخطوات الاولى لاكتشاف الاختلافات الهندسية الأساسية، والشروع في عملية الترقية، وأدوات ترقية البيانات والتعليمات البرمجية، وصولاً إلى أفضل الطرق لإعادة تصميم عمليات التكامل والتحليلات وإعداد التقارير استنادًا إلى أحدث القدرات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7 ساعات |
-| [تطبيقات المالية والعمليات: الترقية من 7.x إلى 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | انضم إلينا في TechTalk التالية ، والتي سنغطي خلالها عملية ترقية 7.X إلى 8.X. سنناقش السيناريوهات والخطوات المختلفة لتنفيذ ترقية التعليمات البرمجية وترقية البيانات. سنغطي أيضًا سيناريوهات طلب التوسعة وكيفية رفعها عند الاقتضاء. الجزء 1 من 2. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
-| [AX2012 للتمويل وترقية تطبيقات العمليات (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | وسوف يوفر هذا الحديث التقني نظرة عامة حول كيفية ترقية الكود والبيانات من AX 2012 إلى Dynamics 365 for Operations. | التسجيل المجاني لمؤتمر ويب | 45 دقيقة |
+| [AX2012 إلى ترقية تطبيقات المالية والعمليات - 3 سبتمبر 2020](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | AX2012 للتمويل وترقية تطبيقات العمليات (VIR817PAL2) AX إلى 2012 تطبيقات المالية والعمليات. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 66 دقيقة |
 | [AX2009 لتمويل أدوات ترحيل التطبيقات والعمليات (VIR809PAL)](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | ستغطي هذه الجلسة الأدوات المتاحة لمساعدتك في الانتقال من AX2009 إلى التمويل والعمليات. | التسجيل المجاني لمؤتمر ويب | 55 دقيقة |
 
 ## <a name="testing"></a>اختبار<a name="testing"></a>
 
-| المحتوى | ‏‏الوصف‬ | التنسيق | Length |
+| المحتوى | Description | التنسيق | Length |
 |---------|-------------|--------|--------|
-| [Finance and Operations: مكتبة اختبار القبول (DYN650PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-acceptance-test-library-june-20-2019) | الرجاء الانضمام إلى هذا الحديث الفني للحصول على نظرة عامة حول الخيار المحلي لـ Dynamics 365 Finance ، Enterprise Edition. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
+| [المالية والعمليات: مكتبة اختبار القبول (DYN650PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-acceptance-test-library-june-20-2019) | الرجاء الانضمام إلى هذا الحديث الفني للحصول على نظرة عامة حول الخيار المحلي لـ Dynamics 365 Finance ، Enterprise Edition. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
 | [Finance and Operations: Regression Suite Automation Tool -- الخلفية & الإعداد (DYN646PAL) ](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-background-amp-setup-may-28-2019) | هذا هو أول جزء من سلسلة مكونة من جزئين حول Regression Suite Automation Testing (RSAT). في هذه الجلسة ، سنغطي كيفية مواكبة التحديثات المستمرة باستخدام الاختبار الآلي عبر RSAT. وسوف تشمل الجلسة أيضًا نقاط التعلم والتوصيات المتعلقة بإنشاء تسجيلات المهام واختبارات التنفيذ باستخدام RSAT، فضلًا عن إرشادات تفصيلية خطوطة بخطوة تتناول التثبيت والإعداد. | التسجيل المجاني لمؤتمر ويب | 70 دقيقة |
 | [Finance and Operations: Regression Suite Automation Tool -- العرض التوضيحي لاختبار Lifecycle (DYN647PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-regression-suite-automation-tool-testing-lifecycle-demo-may-29-2019) | هذا هو ثاني جزء من سلسلة مكونة من جزئين حول Regression Suite Automation Testing (RSAT). وسوف تُغطي جلسة العمل هذه عرض توضيحي للدورة الكاملة لإنشاء وحفظ تسجيلات المهام من Finance and Operation إلى مكتبة BPM في LCS، ومزامنة مكتبة BPM لإنشاء حالات الاختبار في Azure DevOps، وتجميع حالات الاختبار في مجموعات اختبار وتحميل وتنفيذ مجموعات الاختبار في RSAT. | التسجيل المجاني لمؤتمر ويب | 70 دقيقة |
-| [Finance and Operations: قياس الأداء لـ Dynamics 365 (DYN550PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-benchmark-for-dynamics-365-1-30-19) | في هذا الحديث التقني، سنصف نهجًا لإعداد وتقديم مقياس أداء على Microsoft Dynamics 365 Finance. سنقدم العملية والمفاهيم والأدوات الرئيسية قبل توضيح حالة بسيطة مع عرض توضيحي. | التسجيل المجاني لمؤتمر ويب | 68 دقيقة |
-| [Finance and Operations:  أنماط الأداء الرئيسية والأنماط المُضادة لـ  Dynamics 365 (DYN549PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-key-patterns-and-anti-patterns-for-dynamics-365-1-15-19) | في هذا الحديث التقني ، سنقدم أنماط أداء فعالة رأيناها تنفذها فرق المشروع بنجاح. سنصف أيضًا الأنماط المضادة التي يمكن أن تؤدي إلى تدهور خطير في أداء بيئة Microsoft Dynamics 365 Finance. | التسجيل المجاني لمؤتمر ويب | 58 دقيقة |
+| [المالية والعمليات: قياس الأداء لـ Dynamics 365 (DYN550PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-benchmark-for-dynamics-365-1-30-19) | في هذا الحديث التقني، سنصف نهجًا لإعداد وتقديم مقياس أداء على Microsoft Dynamics 365 Finance. سنقدم العملية والمفاهيم والأدوات الرئيسية قبل توضيح حالة بسيطة مع عرض توضيحي. | التسجيل المجاني لمؤتمر ويب | 68 دقيقة |
+| [المالية والعمليات: أنماط الأداء الرئيسية والأنماط المُضادة لـ Dynamics 365 (DYN549PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-key-patterns-and-anti-patterns-for-dynamics-365-1-15-19) | في هذا الحديث التقني ، سنقدم أنماط أداء فعالة رأيناها تنفذها فرق المشروع بنجاح. سنصف أيضًا الأنماط المضادة التي يمكن أن تؤدي إلى تدهور خطير في أداء بيئة Microsoft Dynamics 365 Finance. | التسجيل المجاني لمؤتمر ويب | 58 دقيقة |
 | [Finance and Operations: أدوات ‏‫استكشاف أخطاء الأداء وإصلاحها لـ Dynamics 365 (DYN541PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-troubleshooting-tools-for-dynamics-365-12-14-18) | في هذا الحديث التقني، سوف نعرض أدوات مختلفة يمكن استخدامها لاستكشاف مشاكل أخطاء الأداء الخاصة بتطبيق Microsoft Dynamics 365 واصلاحها. سوف تحتوي هذه الجلسة على بعض العروض التي تستند إلى السيناريو والإرشادات الأولية حول كيفية علاج مشاكل الأداء النموذجية. | التسجيل المجاني لمؤتمر ويب | 64 دقيقة |
 | [إطار عمل أتمتة المهام لإدارة البيانات (DYN447PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/task-automation-framework-for-data-management-march-3-2018) | انضم إلينا في هذه المحادثة التقنية حول إطار عمل أتمتة المهام الجديد لإدارة البيانات. تعلم كيف يسهل إطار العمل اختبار كيانات البيانات والتكاملات والتحقق من صحة البيانات الناتجة والأتمتة للمهام الأخرى في إطار عمل إدارة البيانات. | التسجيل المجاني لمؤتمر ويب | 55 دقيقة |
 | [التمويل والعمليات: إطار عمل التحقق من صحة مهام تطبيق Warehouse](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-warehouse-app-task-validation-framework-october-23-2019) | سيقدم هذا الحديث ويشرح إطار عمل التحقق من صحة مهمة تطبيق Warehouse الجديد الذي تم تصميمه للسماح بأتمتة مهام المستودعات داخل تطبيق التخزين Dynamics 365 Warehousing القياسي. يسهم إطار العمل الجديد هذا في سد الفجوة بين Regression Suite Automation Tool (RSAT) ووظائف المستودع بحيث يمكن بناء اختبارات التراجع من البداية إلى النهاية يشمل ذلك مسارات عمل Dynamics الأساسية بالإضافة إلى سيناريوهات التوزيع باستخدام وحدة المستودع المتقدمة. سوف يستعرض هذا الحديث إعداد وتكوين إطار العمل ويوضح كيف يمكن استخدامه لأتمتة عملية مستودع من خلال RSAT. | التسجيل المجاني لمؤتمر ويب | 66 دقيقة |
@@ -95,4 +90,3 @@ ms.locfileid: "9068517"
 |[اختبار MB-500: Microsoft Dynamics 365: مطور تطبيقات التمويل والعمليات](/learn/certifications/exams/mb-500) | يقوم هذا الاختبار بقياس قدرتك على إنجاز المهام التقنية التالية: هندسة الخطة وتصميم الحل؛ تطبيق أدوات المطورين؛ تصميم عناصر AOT وتطويرها؛ تطوير التعليمات البرمجية واختبارها؛ تنفيذ إعداد التقارير؛ تكامل وإدارة حلول البيانات؛ وتنفيذ الأمان وتحسين الأداء. | الاختبار، تختلف التكلفة حسب المنطقة |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

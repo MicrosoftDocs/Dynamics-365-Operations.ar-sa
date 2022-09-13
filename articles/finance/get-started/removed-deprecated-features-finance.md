@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313872"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410440"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ ms.locfileid: "9313872"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.30 من Finance
+
+### <a name="revenue-recognition"></a>إقرار الإيرادات
+
+[إقرار الإيرادات](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **سبب الإهلاك/الإزالة** |تم استبداله بوظائف محسنه ، أو [فوتره اشتراك](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة** | استمارة التقديم |
+| **خيارات النشر** | ‏‏الكل‬ |
+| **Status** | مهمله: بعد 2023 ابريل ، لن تتلقي وظيفة إقرار الإيرادات في Dynamics 365 Finance الدعم مع إصلاحات الأخطاء. سيطلب من العملاء استخدام الوظائف المحسنة ، وهي [فواتير الاشتراك](../../finance/accounts-receivable/subscription-billing-summary.md). في 2023 أكتوبر ، لن تكون ميزه التعرف علي الإيرادات متوفرة بعد الآن. سيُطلب من العملاء الانتقال إلى وظيفة فواتير الاشتراك المحسّنة.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.29 من Finance
 

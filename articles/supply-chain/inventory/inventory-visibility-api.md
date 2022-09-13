@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357631"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423585"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لـ Inventory Visibility
 
@@ -41,6 +41,8 @@ ms.locfileid: "9357631"
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | ترحيل | [تعيين/تجاوز الكميات المتاحة](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | ترحيل | [إنشاء حدث حجز واحد](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | ترحيل | [إنشاء أحداث حجز متعددة](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | ترحيل | [حدث حجز واحد](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | ترحيل | [Reverse multiple reservation events](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | ترحيل | [إنشاء تغيير فعلي مجدول](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | ترحيل | [إنشاء تغييرات فعلية مجدولة](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | ترحيل | [الاستعلام باستخدام أسلوب الترحيل](#query-with-post-method) |
@@ -56,7 +58,7 @@ ms.locfileid: "9357631"
 > 
 > يمكن لواجهة برمجة التطبيقات المجمعة إرجاع 512 سجلاً كحد أقصى لكل طلب.
 
-قدمت Microsoft مجموعة طلبات *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
+قدمت Microsoft مجموعة طلبات *ساعي بريد* الجاهزة. يمكنك استيراد هذه المجموعة إلى برنامج *ساعي البريد* باستخدام الارتباط المشترك التالي: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>البحث عن نقطة النهاية وفقًا لبيئة Lifecycle Services الخاصة بك
 
@@ -146,7 +148,7 @@ ms.locfileid: "9357631"
    - **رأس HTTP:** تضمين إصدار API. (المفتاح هو `Api-Version`، والقيمة هي `1.0`.)
    - **محتوي النص الأساسي:** تضمين طلب JSON الذي قمت بإنشاءه في الخطوة السابقة.
 
-   يجب أن تتلقى رمز المميز للوصول (`access_token`) في الاستجابة. يجب عليك استخدام هذا الرمز المميز كرمز لحامله لاستدعاء واجهة برمجة تطبيقات رؤية المخزون. فيما يلي مثال على ذلك.
+   يجب أن تتلقى رمز المميز للوصول (`access_token`) في الاستجابة. يجب عليك استخدام هذا الرمز المميز كرمز لحامله لاستدعاء واجهة برمجة تطبيقات رؤية المخزون. وفيما يلي مثال على ذلك.
 
    ```json
    {
@@ -168,9 +170,9 @@ ms.locfileid: "9357631"
 
 يلخص الجدول التالي معنى كل حقل في نص JSON.
 
-| معرف الحقل | الوصف |
+| معرف الحقل | Description |
 |---|---|
-| `id` | معرف فريد لحدث التغيير المحدد. يتم استخدام هذا المعرف للتأكد من أنه في حالة فشل الاتصال بالخدمة أثناء النشر، فلن يتم احتساب نفس الحدث مرتين في النظام إذا تم إعادة تقديمه. |
+| `id` | معرف فريد لحدث التغيير المحدد. إذا حدثت إعادة الإرسال بسبب فشل الخدمة ، فسيتم استخدام هذا المعرف لضمان عدم احتساب نفس الحدث مرتين في النظام. |
 | `organizationId` | معرّف المؤسسة المرتبطة بالحدث. يتم تعيين هذه القيمة إلى مؤسسة أو معرّف منطقة البيانات في Supply Chain Management. |
 | `productId` | معرف المنتج. |
 | `quantities` | الكمية التي يجب تغيير الكمية المتوفرة بها. على سبيل المثال، إذا تمت إضافة 10 كتب جديدة إلى الرف، ستكون هذه القيمة `quantities:{ shelf:{ received: 10 }}`. إذا تمت إزالة ثلاثة كتب من الرف أو بيعها، ستكون هذه القيمة `quantities:{ shelf:{ sold: 3 }}`. |
@@ -178,7 +180,7 @@ ms.locfileid: "9357631"
 | `dimensions` | زوج قيمة مفتاح ديناميكي. يتم تعيين القيم لبعض الأبعاد في Supply Chain Management. ومع ذلك، يمكنك أيضا إضافة أبعاد مخصصة (على سبيل المثال، _المصدر_) للإشارة إلى ما إذا كان الحدث قادما من Supply Chain Management أو نظام خارجي. |
 
 > [!NOTE]
-> تنشئ معلمتا  `SiteId` و`LocationId` [تكوين التقسيم](inventory-visibility-configuration.md#partition-configuration). بالتالي، يجب تحديدها في الأبعاد عند إنشاء أحداث التغيير الفعلي أو تحديد الكميات الفعلية أو تجاوزها أو إنشاء أحداث حجز.
+> تنشئ معلمتا  `siteId` و`locationId` [تكوين التقسيم](inventory-visibility-configuration.md#partition-configuration). بالتالي، يجب تحديدها في الأبعاد عند إنشاء أحداث التغيير الفعلي أو تحديد الكميات الفعلية أو تجاوزها أو إنشاء أحداث حجز.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>إنشاء حدث تغيير واحد متاح
 
@@ -216,14 +218,14 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ Body:
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ Body:
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ Body:
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -381,7 +383,7 @@ Body:
 
 ## <a name="create-reservation-events"></a>إنشاء أحداث الحجز
 
-لاستخدام واجهة برمجة تطبيقات *الحجز*، يجب عليك فتح ميزة الحجز وإكمال تكوين الحجز. لمزيد من المعلومات، راجع [تكوين الحجز (اختياري)](inventory-visibility-configuration.md#reservation-configuration).
+لاستخدام واجهة برمجة تطبيقات *الحجز* ، يجب عليك تشغيل ميزة الحجز وإكمال تكوين الحجز. لمزيد من المعلومات، راجع [تكوين الحجز (اختياري)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>إنشاء حدث حجز واحد
 
@@ -389,7 +391,7 @@ Body:
 
 عند استدعاء API للحجز، يمكنك التحكم في التحقق من صحة الحجز عن طريق تحديد المعلمة المنطقية `ifCheckAvailForReserv` في النص الأساسي للطلب. تعني القيمة `True` أن التحقق من الصحة مطلوب، بينما تعني القيمة `False` أن التحقق من الصحة غير مطلوب. القيمة الافتراضية هي `True`.
 
-إذا كنت ترغب في إلغاء حجز أو إبطال حجز كميات مخزون محددة، فقم بتعيين الكمية على قيمة سالبة، وقم بتعيين معلمة `ifCheckAvailForReserv` إلى `False` لتخطي عملية التحقق من الصحة.
+إذا كنت ترغب في إلغاء حجز أو إبطال حجز كميات مخزون محددة، فقم بتعيين الكمية على قيمة سالبة، وقم بتعيين معلمة `ifCheckAvailForReserv` إلى `False` لتخطي عملية التحقق من الصحة. يوجد أيضا أونريسيرفي مخصص لواجهه برمجه التطبيقات (API) للقيام بنفس الاجراء. الفرق فقط هو الطريقة التي يتم بها استدعاء APIs. من الأسهل عكس حدث حجز معين باستخدام `reservationId` بواسطة *غير متحفظ* واجهة برمجة التطبيقات. لمزيد من المعلومات ، راجع [_مقطع حدث_](#reverse-reservation-events) حجز واحد أونريسيرفي.
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ Body:
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+يوضح المثال التالي استجابه ناجحه.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>إنشاء أحداث حجز متعددة
 
-واجهة برمجة التطبيقات هذه هي إصدار مجمع من [واجهة برمجة تطبيقات الحدث الواحد](#create-one-reservation-event).
+واجهة برمجة التطبيقات هذه هي إصدار مجمع من [واجهة برمجة تطبيقات الحدث الواحد](#create-reservation-events).
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>أحداث الحجز العكسي
+
+ال *غير احتياطي* واجهة برمجة التطبيقات بمثابة عملية عكسية ل [*الحجز*](#create-reservation-events) الأحداث. ويوفر طريقه للغاء حدث حجز محدد بواسطة `reservationId` أو لتقليل كميه الحجز.
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a>عكس حدث حجز واحد
+
+وعند إنشاء عمليه حجز ، `reservationId` سيتم تضمينها في نص الاستجابة. ويجب عليك توفير نفسه `reservationId` للغاء الحجز ، وتضمين نفس `organizationId` واستخدام `dimensions` استدعاء API للحجز. وأخيرا ، قم بتحديد `OffsetQty` القيمة التي تمثل عدد الأصناف التي سيتم تحريرها من عمليه الحجز السابقة. يمكن ان يتم عكس الحجز بالبالكامل أو جزئيا بناء علي المحدد `OffsetQty`. علي سبيل المثال ، إذا *تم حجز الوحدات 100* الخاصة بالأصناف ، يمكنك تحديد `OffsetQty: 10` لأونريسيرفي *10* من المبلغ المحجوز المبدئي.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+يُظهر الكود التالي مثالاً لمحتوى الجسم.
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+يوضح الكود التالي مثالاً لهيئة استجابة ناجحة.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> في جسد الاستجابة ، متى `OffsetQty` أقل من أو يساوي كمية الحجز, `processingStatus` سيكون "*ناجح*" و `totalInvalidOffsetQtyByReservId` سيكون *0*.
+>
+> لو `OffsetQty` أكبر من المبلغ المحجوز, `processingStatus` سيكون "*partialSuccess*" و `totalInvalidOffsetQtyByReservId` سيكون الفرق بين `OffsetQty` والمبلغ المحجوز.
+>
+>على سبيل المثال ، إذا كان الحجز يحتوي على كمية *10*, و `OffsetQty` لديها قيمة *12*, `totalInvalidOffsetQtyByReservId` سيكون *2*.
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a>عكس أحداث الحجز المتعددة
+
+واجهة برمجة التطبيقات هذه هي إصدار مجمع من [واجهة برمجة تطبيقات الحدث الواحد](#reverse-one-reservation-event).
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>الاستعلام المتاح
 
-استخدم واجهة برمجة تطبيقات _الاستعلام المتاح_ لجلب بيانات المخزون الحالية الفعلية لمنتجاتك. تدعم واجهه برمجه التطبيقات حاليا الاستعلام حتى 100 صنفا فرديا حسب قيمة `ProductID`. يمكن أيضًا تحديد قيم `SiteID` و`LocationID` المتعددة في كل استعلام. ويتم تحديد الحد الأقصى على أنه `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+استخدم واجهة برمجة تطبيقات *الاستعلام المتاح* لجلب بيانات المخزون الحالية الفعلية لمنتجاتك. تدعم واجهه برمجه التطبيقات حاليا الاستعلام حتى 5000 صنفا فرديا حسب قيمة `productID`. يمكن أيضًا تحديد قيم `siteID` و`locationID` المتعددة في كل استعلام. يتم تعريف الحد الأقصى بواسطة المعادلة التالية:
+
+*NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>الاستعلام باستخدام أسلوب الترحيل
 
@@ -517,7 +629,7 @@ Body:
 - `productId` يمكن أن تحتوي على قيمة واحدة أو أكثر.. إذا كان فارغًا، فسيتم إرجاع كافة المنتجات.
 - يتم استخدام `siteId` و`locationId` للتقسيم في رؤية المخزون. يمكنك تحديد أكثر من قيمة `siteId` و`locationId` واحدة في طلب *الاستعلام المتاح‬*. في الإصدار الحالي، يجب تحديد قيم لكل من `siteId` و`locationId`.
 
-يجب أن تتبع معلمة `groupByValues` التكوين الخاص بك للفهرسة. لمزيد من المعلومات، راجع [تكوين التدرج الهرمي لفهارس المنتجات](./inventory-visibility-configuration.md#index-configuration).
+نقترح عليك استخدام `groupByValues` المعلمة لمتابعة التكوين الخاص بك للفهرسة. لمزيد من المعلومات، راجع [تكوين التدرج الهرمي لفهارس المنتجات](./inventory-visibility-configuration.md#index-configuration).
 
 تتحكم المعلمة `returnNegative` فيما إذا كانت النتائج تحتوي على إدخالات سالبة أم لا.
 
@@ -530,13 +642,13 @@ Body:
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Body:
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -577,7 +689,7 @@ Query(Url Parameters):
 هذا نموذج لعنوان URL للحصول. طلب الحصول هذا مماثل تمامًا لعينة المشاركة التي تم توفيرها مسبقًا.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>متوفر حسب التعهد

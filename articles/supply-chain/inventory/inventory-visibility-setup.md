@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306043"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388530"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>تثبيت Inventory Visibility وإعداده
 
@@ -56,7 +56,9 @@ ms.locfileid: "9306043"
 1. في الصفحة البيئة، قم بالتمرير لأسفل حتى تعثر على قسم **الوظائف الإضافية الخاصة بالبيئة** في قسم **تكامل Power Platform**. هناك، يمكنك العثور على اسم بيئة Dataverse. تأكد من أن اسم بيئة Dataverse هو الاسم الذي ترغب في استخدامه لرؤية المخزون.
 
     > [!NOTE]
-    > حاليا، يتم اعتماد بيئات Dataverse التي تم إنشاؤها باستخدام LCS فقط. إذا تم إنشاء بيئة Dataverse بطريقة أخرى (على سبيل المثال، باستخدام مركز إدارة Power Apps)، وإذا كانت مرتبطة ببيئة Supply Chain Management، فيجب عليك أولاً الاتصال بفريق منتج رؤية المخزون على [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) لإصلاح مشكلة التعيين. يمكنك بعد ذلك تثبيت رؤية المخزون.
+    > حاليا، يتم اعتماد بيئات Dataverse التي تم إنشاؤها باستخدام LCS فقط. إذا كنت Dataverse تم إنشاء البيئة بطريقة أخرى (على سبيل المثال ، باستخدام PowerApps مركز المشرف) ، وإذا كان مرتبطًا ببيئة Supply Chain Management الخاصة بك ، فيجب عليك أولاً إصلاح مشكلة التعيين قبل تثبيت الوظيفة الإضافية.
+    >
+    > من الممكن أن تكون بيئة الكتابة المزدوجة الخاصة بك مرتبطة بمثيل Dataverse بينما لم يتم إعداد LCS لتكامل Power Platform. يمكن أن يتسبب عدم تطابق الارتباط هذا في حدوث سلوك غير متوقع. نوصي بان تكون تفاصيل بيئة LCS مطابقه لما تتصل به في الكتابة المزدوجة حتى يمكن استخدام نفس الاتصال بواسطة احداث الاعمال والجداول الظاهرية والوظائف الاضافيه. راجع [ربط عدم التوافق](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) للحصول علي معلومات حول كيفيه حل مشكله التعيين. وبمجرد حل مشكله التعيين ، يمكنك الاستمرار في تثبيت رؤية المخزون.
 
 1. في قسم **الوظائف الإضافية للبيئة**، حدد **تثبيت وظيفة إضافية جديدة**.
 
@@ -140,11 +142,11 @@ ms.locfileid: "9306043"
 1. تحديد **البيئة** علي شريط التنقل
 1. حدد البيئة Dataverse البونديده ببيئة الLCS الخاصة بك.
 1. ثم انتقل إلى **الحلول** ، واحذف الحلول التالية بالترتيب التالي:
-    1. حل تثبيت لتطبيق رؤية المخزون في حلول Dynamics 365
-    1. حل لتطبيقات Dynamics 365 FNO SCM Inventory Visibility
-    1. تكوين خدمة الجرد
-    1. خدمة رؤية المخزون المستقلة
-    1. الحل الأساسي لـ Dynamics 365 FNO SCM Inventory Visibility
+    1. رؤية مخزون Dynamics 365 - مرساة
+    1. رؤية مخزون Dynamics 365 - التطبيق
+    1. رؤية مخزون Dynamics 365 - عناصر التحكم
+    1. رؤية مخزون Dynamics 365 - المكونات الإضافية
+    1. رؤية مخزون Dynamics 365 - القاعدة
 
     بعد حذف هذه الحلول، سيتم حذف البيانات المخزنة في الجداول أيضا.
 

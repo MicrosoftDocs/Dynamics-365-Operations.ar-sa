@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219083"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403640"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.25 (أبريل 2022)
 
@@ -161,7 +161,7 @@ ms.locfileid: "9219083"
 | Warehouse management | [‏‫تحديد موضع لوحة ترخيص الموقع](../warehousing/location-license-plate-positioning.md) | إلزامي |
 | Warehouse management | [خلط أبعاد المنتج في الموقع](../warehousing/location-product-dimension-mixing.md) | إلزامي |
 | Warehouse management | تعيين حقل حالة المخزون لحركة مخزون الجهاز المحمول إلى قابل للتحرير | إلزامي |
-| Warehouse management | خدمة انتقاء بند المبيعات يدويًا للمسؤول أو مستخدمين موثوقين مماثلين | إلزامي |
+| Warehouse management | [خدمة انتقاء بند المبيعات يدويًا للمسؤول أو مستخدمين موثوقين مماثلين](../warehousing/manual-order-line-picking-exception-handling.md) | إلزامي |
 | Warehouse management | [منع استخدام ألواح الترخيص المشحونة لأمر تحويل في مستودعات أخرى غير مستودع الوجهة](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | إلزامي |
 | Warehouse management | المطالبة بحل أسماء "الموقع/لوحة الترخيص" الملتبسة | إلزامي |
 | Warehouse management | [فحص الجودة](../warehousing/quality-check.md) | إلزامي |

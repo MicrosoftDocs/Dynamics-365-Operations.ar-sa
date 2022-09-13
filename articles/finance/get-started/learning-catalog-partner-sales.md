@@ -1,23 +1,23 @@
 ---
 title: كتالوج التعلّم لأدوار التسويق والمبيعات لشريك Microsoft في Dynamics 365 Finance
 description: ابحث عن كافة خيارات التدريب للأشخاص الذين يؤدون أدوار التسويق والمبيعات لشريك Microsoft الذين يعملون مع Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a53522acb89fc2b766e5b245a5b095a038d1b282
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2adacf9a3408b0cc4ee62204e50fceedf740b8fa
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067137"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424490"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>كتالوج التعلّم لأدوار التسويق والمبيعات لشريك Microsoft في Dynamics 365 Finance
 
@@ -25,11 +25,10 @@ ms.locfileid: "9067137"
 
 تم تنظيم الكتالوج التالي من خلال المعرفة الأساسية لمجالات معنية ومن أبسط المستويات إلى أكثرها تقدمًا. إذا كان المحتوى موجود بتنسيقات مُتعدة، فسوف نُعلمك بذلك، بحيث تتمكن من اختيار تنسيق التدريب الأمثل لاحتياجاتك.
 
-## <a name="get-started"></a>البدء<a name="get-started"></a>
+## <a name="get-started"></a>بدء الاستخدام<a name="get-started"></a>
 
-| المحتوى  | ‏‏الوصف  | التنسيق  | الطول    |
+| المحتوى  | Description  | التنسيق  | Length    |
 |-------------|-----------------|-------------|------------|
-| [تعرف على قيمة الأعمال الخاصة بـ Microsoft Dynamics 365و Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | هل أنت مُهتم في معرفة تطبيقات الأعمال؟ ربما لا تعرف من أين تبدأ مع تطبيقات Microsoft Dynamics 365 وPower Platform؟ تعلم كيف يمكن لإمكانات تطبيقات الأعمال مساعدتك في إحداث تحويل في شركتك. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7 ساعات |
 | [Dynamics 365 والقواعد الأساسية لـ Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | هل أنت مُهتم في معرفة تطبيقات الأعمال؟ أبدا بالمسار التعليمي هذا لمعرفة كيفية استخدام تطبيقات Dynamics 365. تعرف على مفاهمين السحابة وPower Platform وكيفية البدء في استخدام تطبيقات Dynamics 365. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 5.5 ساعات |
 | [الشروع في العمل مع تطبيقات التمويل والعمليات](/learn/paths/get-started-finance-operations/) | تعلم كيف تقدم تطبيقات التمويل والعمليات الدعم للأعمال لإدارة أنظمتها المالية العمومية ودورات عملها وسلاسل التوريد الانسيابية لتمكين الأشخاص من اتخاذ قرارات سريعة وصائبة. وكخطوة أولى في مسارك للعمل باستخدام تطبيقات التمويل والعمليات، يجب عليك التعرف على ميزاتها ووظائفها بغض النظر عن الدور المرغوب فيه. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | ساعتان |
 | [البدء في Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | يساعد Dynamics 365 Finance مستخدمي الأعمال على التكيّف بسرعة مع بيئات الأعمال المتغيرة. هذا التطبيق يوفر للشركات كل ما تحتاج إليه لمراقبة الشؤون المالية وإدارة الصناديق بمعلومات دقيقة للتخطيط المالي والتنبؤ، ويساعدها في البقاء على اطلاع دائم على أدوات التحليلات. ولأن الأمور المالية تعتبر جوهر أي عمل، فمن الضروري الاطلاع على قدرات Dynamics 365 Finance. | وحدة تعليمية عبر الإنترنت مجانية تتحدد وفقًا لقدرات المستخدم | 1 ساعة |

@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
+ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357622"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427066"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>تهيئة Commerce Scale Unit (السحابة)
 
@@ -71,10 +71,8 @@ ms.locfileid: "9357622"
 | APAC            | وسط الهند       | سعة محدودة    | يتطلب طلب اعتماد. |
 | EMEA            | غرب أوروبا         | متوفرة بشكل عام    |  ‏‫لا توجد تعليقات.‬ |
 | EMEA            | شمال أوروبا        | متوفرة بشكل عام    |  ‏‫لا توجد تعليقات.‬ |
-| EMEA            | جنوب المملكة المتحدة            | متوفرة بشكل عام |    ‏‫لا توجد تعليقات.‬                          |
+| EMEA            | جنوب المملكة المتحدة            | متوفرة بشكل عام |    لا توجد تعليقات                          |
 | EMEA            | غرب المملكة المتحدة             | متوفرة بشكل عام |    لا توجد تعليقات                          |
-| سويسرا     | شمال سويسرا   | سعة محدودة    | يتطلب طلب اعتماد. |
-| الإمارات العربية المتحدة             | شمال الإمارات العربية المتحدة           | سعة محدودة    | يتطلب طلب اعتماد. |
 
 سعة النشر الخاصة بالمناطق المحدودة السعة مقيدة للغاية. تُقيَّم طلبات النشر على أساس كل حالة على حدة. إذا كان لديك حاجة عمل ملحة للنشر في مناطق محدودة السعة، فسيمكنك تقديم طلب دعم لإضافته إلى قائمة الانتظار. لا تسمح مناطق القدرة المقيدة حاليًا بنشر Commerce Scale Unit في هذا الوقت. 
 

@@ -1,23 +1,23 @@
 ---
 title: كتالوج تعلم المسؤول لـ Dynamics 365 Finance
 description: البحث عن جميع خيارات التدريب لمسؤولي Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/23/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 811ff0eb9d13c34a5fa21014415981574833d256
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 7772de29030475c45a86f305e74a7048508887ba
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065237"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424492"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>كتالوج تعلم المسؤولين لـ Dynamics 365 Finance
 
@@ -62,20 +62,17 @@ ms.locfileid: "9065237"
 | المحتوى | ‏‏الوصف‬  | التنسيق | Length    |
 |---------|--------------|--------|-----------|
 | [ترقية Dynamics AX 2012 إلى تطبيقات التمويل والعمليات](/learn/paths/upgrade-ax-2012-finance-operations/) | تعرف على أكثر العناصر أهمية وأفضل الممارسات لترقية حل Dynamics AX 2012 إلى تطبيقات التمويل والعمليات. من الخطوات الاولى لاكتشاف الاختلافات الهندسية الأساسية، والشروع في عملية الترقية، وأدوات ترقية البيانات والتعليمات البرمجية، وصولاً إلى أفضل الطرق لإعادة تصميم عمليات التكامل والتحليلات وإعداد التقارير استنادًا إلى أحدث القدرات. | مسار تعليمي عبر الإنترنت مجاني يتحدد وفقًا لقدرات المستخدم | 7 ساعات |
-| [Finance and Operations: الترقية من 7.x إلى 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | يرجى الانضمام إلينا في TechTalk التالية، والتي سنغطي خلالها عملية ترقية 7.X إلى 8.X. سنناقش السيناريوهات والخطوات المختلفة لتنفيذ ترقية التعليمات البرمجية وترقية البيانات. سنغطي أيضًا سيناريوهات طلب التوسعة وكيفية رفعها عند الاقتضاء. | التسجيل المجاني لمؤتمر ويب | 61 دقائق |
-| [كيفية الترقية إلى 7.2 (يوليو 2017) من 7.0 (RTW)/7.1 (الإصدار 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | سنشرح في هذه الجلسة كيفية الترقية من تطبيق Dynamics 365 للتمويل والعمليات v7.0 (RTW) و v7.1 (1611) إلى الإصدار 7.2 (يوليو 2017). اجرينا تمييزًا واضحًا بين العملاء المباشرين والمشاريع الجارية (غير المباشرة بعد). | التسجيل المجاني لمؤتمر ويب | 58 دقائق |
-| [ترقية AX2012 إلى Dynamics 365 for Operations  (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | وسوف يوفر هذا الحديث التقني نظرة عامة حول كيفية ترقية الكود والبيانات من AX 2012 إلى Dynamics 365 for Operations. | التسجيل المجاني لمؤتمر ويب | 45 دقيقة |
+| [AX2012 إلى ترقية تطبيقات المالية والعمليات - 3 سبتمبر 2020](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | AX2012 للتمويل وترقية تطبيقات العمليات (VIR817PAL2) AX إلى 2012 تطبيقات المالية والعمليات. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 66 دقيقة |
 | [أداة ترحيل AX2009](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | وسوف تتناول جلسة العمل هذه الأدوات المتاحة لمساعدتك في الترحيل من AX2009 إلى D365 for Operations.  | التسجيل المجاني لمؤتمر ويب | 55 دقيقة |
 
 ## <a name="servicing"></a>الخدمة<a name="servicing"></a>
 
-| المحتوى  | ‏‏الوصف‬   | التنسيق  | Length    |
+| المحتوى  | Description   | التنسيق  | Length    |
 |----------|---------------|---------|-----------|
 | [Finance and Operations: إدارة الميزات (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | الحديث التقني المتعلق بتجربة إدارة الميزات. يوفر مساحة عمل يُمكن من خلال عرض الميزات التي تم تسليمها في كل إصدار وكيفية تمكينها وتعطيلها وجدولتها. بشكل افتراضي، تكون الميزات الجديدة متوقفة عن التشغيل. ويمكنك استخدام مساحة العمل لتشغيلها وعرض الوثائق الخاصة بها. سوف يُساعدك حضور هذا الاجتماع لمعرفة ما تم تسليمه في 10.0.3 وخططنا للإصدارات المستقبلية. | التسجيل المجاني لمؤتمر ويب | 47 دقيقة |
-| [ Finance and Operation: الخدمة، الدعم والحفاظ على الإنتاج (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | الرجاء الانضمام إلى هذا الحديث الفني للحصول على نظرة عامة حول الخيار المحلي لـ Dynamics 365 Finance ، Enterprise Edition. | التسجيل المجاني لمؤتمر ويب | 53 دقائق |
-| [Finance And Operations: التحديثات المستمرة المُدارة بواسطة Microsoft  (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | لقد بدأت وتيرة التحديث المستمر لتطبيق Finance and Operations! يُرجى الانضمام إلينا خلال هذه الساعة لمناقشة التحديثات المستمرة المُدارة بواسطة Microsoft، تتوفر تجربة المستخدم بالفعل في Lifecycle Services والتحديثات القادمة. | التسجيل المجاني لمؤتمر ويب | 61 دقيقة |
-| [التحديثات المستمرة المُدارة بواسطة Microsoft: ما الجديد (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | خلال هذه الساعة، سنشرح الجديد منذ إعلاناتنا الأولية حول التحديثات المستمرة المُدارة من Microsoft. سوف نقوم بمناقشة وتيرة التحديثات، وكيفية الاستجابة لملاحظاتكم القيمّة حول العملية، وسوف نُلقي نظرة عن كثب على تجربة مستخدم Lifecycle Services القادمة، والتي ستتمكن من خلالها من إدارة التحديثات الخاصة بك. | التسجيل المجاني لمؤتمر ويب | 56 دقيقة |
-| [التحديثات المستمرة المُدارة بواسطة Microsoft:  (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | سنناقش خطط Microsoft للحفاظ على تحديث نظامك بأحدث إصدار. سنغطي الجداول الزمنية ، والإيقاع للتحديثات الرئيسية والثانوية ، والإجراءات المخطط لها ، والآثار ، وما يجب عليك القيام به للحصول على أفضل النتائج. | التسجيل المجاني لمؤتمر ويب | 62 دقائق |
+| [ Finance and Operation: الخدمة، الدعم والحفاظ على الإنتاج (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | الرجاء الانضمام إلى هذا الحديث الفني للحصول على نظرة عامة حول الخيار المحلي لـ Dynamics 365 Finance ، Enterprise Edition. | التسجيل المجاني لمؤتمر ويب | 53 دقيقة |
+| [المالية والعمليات: التحديثات المستمرة المُدارة بواسطة Microsoft (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | لقد بدأت وتيرة التحديث المستمر لتطبيق Finance and Operations! يُرجى الانضمام إلينا خلال هذه الساعة لمناقشة التحديثات المستمرة المُدارة بواسطة Microsoft، تتوفر تجربة المستخدم بالفعل في Lifecycle Services والتحديثات القادمة. | التسجيل المجاني لمؤتمر ويب | 61 دقائق |
+| [المالية والعمليات: التحديثات المستمرة المُدارة من Microsoft - 2 أبريل 2019](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | لقد بدأت وتيرة التحديث المستمر لتطبيق Finance and Operations! يُرجى الانضمام إلينا خلال هذه الساعة لمناقشة التحديثات المستمرة المُدارة بواسطة Microsoft، تتوفر تجربة المستخدم بالفعل في Lifecycle Services والتحديثات القادمة. | الحديث التقني (ندوة عبر الإنترنت مسجلة) | 61 دقيقة |
 | [المُراقبة ومرشد التحسين وقواعد المعارف الهامة (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | سوف نقوم بمناقشة إمكانيات المراقبة وما تراقبه Microsoft لك في بيئة الإنتاج الخاصة بك، ومستشار التحسين وكيف يُمكن توسيعه وتجارب "تحديثات X++ الهامة" في LCS، وأفضل الممارسات الخاصة بخيار "قطع إنتاج التقرير" في LCS. | التسجيل المجاني لمؤتمر ويب | 40 دقيقة |
 
 ## <a name="testing"></a>اختبار<a name="testing"></a>
@@ -87,4 +84,3 @@ ms.locfileid: "9065237"
 | [Finance and Operations: أدوات ‏‫استكشاف أخطاء الأداء وإصلاحها لـ Dynamics 365 (DYN541PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-troubleshooting-tools-for-dynamics-365-12-14-18) | في هذا الحديث التقني، سوف نعرض أدوات مختلفة يمكن استخدامها لاستكشاف مشاكل أخطاء الأداء الخاصة بتطبيق Microsoft Dynamics 365 واصلاحها. سوف تحتوي هذه الجلسة على بعض العروض التي تستند إلى السيناريو والإرشادات الأولية حول كيفية علاج مشاكل الأداء النموذجية. | التسجيل المجاني لمؤتمر ويب | 64 دقائق |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
