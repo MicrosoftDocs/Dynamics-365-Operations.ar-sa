@@ -12,6 +12,8 @@
               items:
                 - name: الجديد أو التغييرات في صفحة Supply Chain Management الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: الإصدار 10.0.30 من Supply Chain Management (نوفمبر 2022)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (أكتوبر 2022)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (أغسطس 2022)
@@ -1717,8 +1719,30 @@
                   href: inventory/inventory-visibility-available-to-promise.md
                 - name: واجهات API العامة لـ Inventory Visibility
                   href: inventory/inventory-visibility-api.md
-                - name: تلميحات حول Inventory Visibility
+                - name: نصائح حول Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
+        - name: الوظيفة الإضافية Sensor Data Intelligence
+          items:
+            - name: الصفحة الرئيسية لـ Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: تشغيل Sensor Data Intelligence للنظام الخاص بك
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: نشر حل IoT على Azure
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: معلمات Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: إعداد مستشعر محاكاة للاختبار
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: سيناريو وقت تعطل الأصول
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: سيناريو صيانة الأصول
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: سيناريو حالة الجهاز
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: سيناريو جودة المنتج
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: سيناريو ‏‫تأخيرات الإنتاج‬
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: ذكاء IoT
           items:
             - name: الصفحة الرئيسية لذكاء IoT
@@ -1940,7 +1964,7 @@
                 - name: التحكم في التكاليف
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: إدارة المصروفات
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: المخزون المتاح
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: الموافقات على الفواتير
@@ -1948,11 +1972,11 @@
                 - name: فريقي
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: نظرة عامة على تطبيقات المحمول للمشاريع
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: إدخال وقت المشروع
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: اعتماد أمر الشراء
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: أوامر المبيعات
@@ -3463,9 +3487,9 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: سياسات دمج الشحنات
                   items:
-                    - name: سياسات دمج الشحنات
+                    - name: نظرة عامة على سياسات دمج الشحنات
                       href: warehousing/about-shipment-consolidation-policies.md
-                    - name: تكوين سياسات دمج الشحنات
+                    - name: تكوين نُهج دمج الشحنات
                       href: warehousing/configure-shipment-consolidation-policies.md
                     - name: السيناريو 1 - دمج الشحنات التي تم إصدارها إلى المستودع باستخدام الإصدار التلقائي لأوامر المبيعات
                       href: warehousing/consolidate-shipments-automatic.md

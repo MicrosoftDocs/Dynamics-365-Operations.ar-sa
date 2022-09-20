@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
               items:
+                - name: Human Resources 10.0.30 (البنية الأساسية المدمجة)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (البنية الأساسية المدمجة)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (البنية الأساسية المدمجة)
@@ -478,6 +480,8 @@
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: إدخال الموظفين المبسط‬
               href: stream-employee-entry.md
+            - name: تشخيص عنصر تحكم العنوان
+              href: hr-worker-header-control.md
             - name: إدخال معلومات العامل
               href: hr-personnel-enter-worker-information.md
             - name: العاملون بدون توظيف
