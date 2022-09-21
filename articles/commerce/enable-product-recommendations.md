@@ -2,7 +2,7 @@
 title: تمكين توصيات المنتجات
 description: يوضح هذا المقال كيفية عمل توصيات المنتج التي تستند إلى التعلم الآلي القائم على الذكاء الاصطناعي (AI-ML) المتوفرة لعملاء Microsoft Dynamics 365 Commerce.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892061"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460011"
 ---
 # <a name="enable-product-recommendations"></a>تمكين توصيات المنتجات
 
@@ -36,12 +36,19 @@ ms.locfileid: "8892061"
 1. التأكد من أن تكوين الهوية في Azure AD يحتوي على إدخال للتوصيات. توجد أدناه معلومات اضافيه حول كيفية تنفيذ هذا الإجراء.
 1. تأكد من أنه تمت جدولة تحديث متجر الكيانات يومياً إلى Azure Data Lake Storage Gen2. لمزيد من المعلومات، راجع [التأكد من تعيين التنفيذ التلقائي لتحديث مخزن الكيانات](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. تمكين قياسات RetailSale لمتجر الكيانات. لمعرفة المزيد عن إعداد هذه العملية، راجع [التعامل مع المقاييس](/dynamics365/ai/customer-insights/pm-measures).
+1. تاكد من ان البيئة الخاصة بك قد قامت بتكوين مناطق الخدمة وكوكينج في المناطق المعتمدة حاليا ، كما يلي:
+
+    - **مناطق الكوكينج المعتمدة:** الاتحاد الأوروبي/الولايات المصدقة/CA/AU.
+    - **مناطق خدمة معززة:** الاتحاد الأوروبي/الولايات المصدقة/CA/AU. إذا كانت منطقه الخدمات لا تطابق أحدي المناطق المعتمدة الموجودة ، ستحدد خدمه التوصيات أقرب منطقه خدمه معتمده.
 
 بعد اكتمال الخطوات المذكورة أعلاه، ستكون جاهزًا لتمكين التوصيات.
 
+> [!NOTE]
+> هناك مشكله معروفه حيث لا تظهر التوصيات بعد اكتمال الخطوات التالية. تحدث هذه المشكلة نتيجة لوجود مشكلات في تدفق البيانات في البيئة. إذا لم تظهر البيئة الخاصة بك نتائج التوصية ، فقم بتكوين البيانات البديلة لخدمه التوصيات من خلال اتباع الخطوات الموجودة في [اعداد داتافلوو بديله للحصول علي التوصيات](set-up-alternate-data-flow.md). يجب ان تكون لديك أذونات مسؤول Azure لإكمال هذه الخطوات. إذا كنت بحاجه إلى مساعده ، اتصل بوكيل FastTrack.
+
 ## <a name="azure-ad-identity-configuration"></a>تكوين الهوية في Azure AD
 
-هذه الخطوة مطلوبة فقط للعملاء الذين يقومون بتشغيل تكوين خدمة تأجير البنية التحتية (IaaS). يصبح تكوين هوية Azure AD تلقائياً للعملاء الذين يعملون على Azure Service Fabric، لكن يوصى بأن تتحقق من أنه تم تكوين الإعداد كما هو متوقع.
+هذه الخطوة مطلوبة فقط للعملاء الذين يقومون بتشغيل بنية تحتية كخدمة (IaaS). Azure AD تكوين الهوية تلقائي للعملاء الذين يعملون على Azure Service Fabricلكننا نوصي بالتحقق من تكوين الإعداد بالشكل المتوقع.
 
 ### <a name="setup"></a>الإعداد
 
@@ -94,9 +101,11 @@ ms.locfileid: "8892061"
 
 [تمكين Azure Data Lake Storage في بيئة Dynamics 365 Commerce](enable-adls-environment.md)
 
+[اعداد تدفق البيانات البديل لهذه التوصيات](set-up-alternate-data-flow.md)
+
 [تمكين التوصيات المخصصة](personalized-recommendations.md)
 
-[تمكين توصيات "تسوق منتجات تبدو مماثلة"](shop-similar-looks.md)
+[تمكين توصيات "تسوق أشكال مماثلة"](shop-similar-looks.md)
 
 [إلغاء الاشتراك في التوصيات المخصصة](personalization-gdpr.md)
 
@@ -111,6 +120,7 @@ ms.locfileid: "8892061"
 [إنشاء توصيات بواسطة بيانات العرض التوضيحي](product-recommendations-demo-data.md)
 
 [الأسئلة المتداولة حول توصيات المنتجات](faq-recommendations.md)
+
 
 
 

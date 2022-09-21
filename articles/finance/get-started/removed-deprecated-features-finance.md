@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410440"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462291"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -45,7 +45,7 @@ ms.locfileid: "9410440"
 | **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
 | **مناطق المنتجات المتأثرة** | استمارة التقديم |
 | **خيارات النشر** | ‏‏الكل‬ |
-| **Status** | مهمله: بعد 2023 ابريل ، لن تتلقي وظيفة إقرار الإيرادات في Dynamics 365 Finance الدعم مع إصلاحات الأخطاء. سيطلب من العملاء استخدام الوظائف المحسنة ، وهي [فواتير الاشتراك](../../finance/accounts-receivable/subscription-billing-summary.md). في 2023 أكتوبر ، لن تكون ميزه التعرف علي الإيرادات متوفرة بعد الآن. سيُطلب من العملاء الانتقال إلى وظيفة فواتير الاشتراك المحسّنة.|
+| **Status** | مهمله: بعد 2023 ابريل ، لن تتلقي وظيفة إقرار الإيرادات في Dynamics 365 Finance الدعم مع إصلاحات الأخطاء. سيطلب من العملاء استخدام الوظائف المحسنة ، وهي [فواتير الاشتراك](../../finance/accounts-receivable/subscription-billing-summary.md). في 2023 أكتوبر ، لن تكون ميزه التعرف علي الإيرادات متوفرة بعد الآن. سيُطلب من العملاء الانتقال إلى وظيفة فواتير الاشتراك المحسّنة. لميزه المجموعة كجزء من إقرار الإيراد، لا توجد وظيفة بديله مخططه في هذا الوقت.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.29 من Finance
 

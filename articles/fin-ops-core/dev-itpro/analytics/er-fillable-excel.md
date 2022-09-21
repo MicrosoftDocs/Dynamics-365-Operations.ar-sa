@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280913"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476804"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>تصميم تكوين لإنشاء المستندات بتنسيق Excel
 
@@ -186,6 +186,9 @@ ms.locfileid: "9280913"
 
 > [!NOTE]
 > يتم اعتبار كل صورة وشكل خاص بـ Excel مرتبطًا من الزاوية العلوية اليسرى له في خلية أو نطاق Excel معين. إذا أردت إجراء نسخ متماثل لصورة أو شكل خاص بـ Excel، فيجب عليك تكوين الخلية أو النطاق الذي يتم ربطه بالخلية أو النطاق المنسوخ.
+
+> [!TIP]
+> إذا كنت تخطط لاستخدام صوره ذات مقياس مخصص ونسبه العرض إلى الارتفاع في وقت التشغيل ، نوصي بتعيين الخيار **وضع مقياس** للصور الخاصة بمكون [ملف Excel الأصل](#excel-file-component) إلى **"نعم"** لتطبيق المقياس ونسبه العرض إلى الارتفاع كعنصر نائب لهذه الصورة في قالب Excel الذي تستخدمه.
 
 لمعرفة المزيد حول كيفية تضمين الصور والأشكال، راجع [تضمين الصور والأشكال في المستندات التي تنشئها باستخدام ER](electronic-reporting-embed-images-shapes.md).
 

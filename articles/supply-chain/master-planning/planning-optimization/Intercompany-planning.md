@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850659"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475601"
 ---
 # <a name="intercompany-planning"></a>تخطيط بين الشركات الشقيقة
 
@@ -45,8 +45,8 @@ ms.locfileid: "8850659"
 
 لاستخدام تخطيط بين الشركات الشقيقة ، يجب إعداد النظام بالطريقة التالية:
 
-1. يجب إصدار المنتجات ذات الصلة في كافة الشركات ذات الصلة. للحصول على مزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة في Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
-1. يجب ان تتم تغطيه الطلب اللاحق بواسطة عمليات الشراء من مورد لديه علاقة بين الشركات الشقيقة وابعاد المخزون الافتراضية ذات الصلة (الموقع والمستودع) علي العميل. للحصول على مزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة في Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) on Microsoft Learn.
+1. يجب إصدار المنتجات ذات الصلة في كافة الشركات ذات الصلة. لمزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. يجب ان تتم تغطيه الطلب اللاحق بواسطة عمليات الشراء من مورد لديه علاقة بين الشركات الشقيقة وابعاد المخزون الافتراضية ذات الصلة (الموقع والمستودع) علي العميل. لمزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. يجب ان تشتمل الخطة الرئيسية في شركة المراحل التمهيدية علي الطلب اللاحق المخطط ، كما يجب تحديد الشركة المرتبطة والخطة الرئيسية في الخطط اللاحقة.
 
 ## <a name="include-planned-downstream-demand"></a>تضمين المطلب اللاحق المخطط
@@ -85,6 +85,5 @@ ms.locfileid: "8850659"
 يبين الرسم التوضيحي التالي كيفيه ظهور هذا المثال علي الصفحة **تثبيت متعدد المستويات** لأمر الإنتاج المخطط.
 
 ![مثال لشركات شقيقة يتضمن ثلاث شركات.](media/IntercompanyPlanning2.png)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

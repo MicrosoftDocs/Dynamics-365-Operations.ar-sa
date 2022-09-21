@@ -2,19 +2,19 @@
 title: النطاقات في Dynamics 365 Commerce
 description: يصف هذا المقال كيفية معالجة المجالات في Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405486"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465183"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>النطاقات في Dynamics 365 Commerce
 
@@ -144,9 +144,9 @@ ms.locfileid: "9405486"
 
 - **الخيار 1** - استخدم موفر DNS لإعادة توجيه مجال apex إلى مجال "www". على سبيل المثال، يعيد fabrikam.com التوجيه إلى `www.fabrikam.com` حيث `www.fabrikam.com` يمثل سجل CNAME الذي يشير إلى مثيل Azure Front Door المستضاف في Commerce.
 
-- **الخيار 2** -إذا كان موفر DNS الخاص بك يدعم سجلات الأسماء المستعارة ، يمكنك توجيه المجال الأبي إلى نقطه نهاية الباب الامامي. ويضمن ذلك انه يتم عكس تغيير IP بواسطة نقطه نهاية الباب الامامي.
+- **الخيار 2** -إذا كان موفر DNS الخاص بك يدعم سجلات الأسماء المستعارة ، يمكنك تاشير المجال أبيكس إلى نقطه نهاية الباب الامامي ل Azure ، والتي تضمن تغيير IP بواسطة نقطه النهاية. يجب استضافه مثيل Azure Front باب بنفسك.
   
-- **الخيار 3** -إذا كان موفر DNS الخاص بك لا يدعم سجلات الأسماء المستعارة ، فيجب اعداد مثيل CDN أو الباب الامامي بنفسك لاستضافه المجال الأبي.
+- **الخيار 3** -إذا كان موفر DNS الخاص بك لا يدعم سجلات الأسماء المستعارة ، فيجب عليك تغيير موفر dns الخاص بك إلى AZURE dns واستضافه كل من AZURE dns ومثيل الباب الامامي من azure بنفسك.
 
 > [!NOTE]
 > إذا كنت تستخدم Azure Front Door، فيجب عليك أيضًا اعداد Azure DNS في نفس الاشتراك. يمكن لمجال apex المستضاف على Azure DNS الإشارة إلى Azure Front Door كسجل باسم مستعار. هذا هو الحل الوحيد، إذ يجب أن تشير مجالات apex دائمًا إلى عنوان IP.

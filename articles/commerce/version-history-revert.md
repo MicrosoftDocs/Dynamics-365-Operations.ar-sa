@@ -1,6 +1,6 @@
 ---
 title: عرض محفوظات الإصدار لإرجاع الصفحات والأجزاء
-description: توضح هذه المقالة كيفيه عرض محفوظات الإصدار الخاصة بصفحه أو جزء والعودة إلى إصدار أقدم في منشئ الموقعMicrosoft Dynamics 365 Commerce.
+description: توضح هذه المقالة كيفيه عرض محفوظات الإصدار الخاصة بصفحه أو جزء والعودة إلى إصدار أقدم في منشئ الموقع Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 06/21/2022
 ms.topic: article
@@ -9,19 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fa2ecdd9d9bc7e60b279d850573b5caa6df2c659
-ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
+ms.openlocfilehash: c4d78103a3c08ee4052290fccf6750aba7eecf4a
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183667"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474089"
 ---
 # <a name="view-version-history-to-revert-pages-and-fragments"></a>عرض محفوظات الإصدار لإرجاع الصفحات والأجزاء
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
-توضح هذه المقالة كيفيه عرض محفوظات الإصدار الخاصة بصفحه أو جزء والعودة إلى إصدار أقدم في منشئ الموقعMicrosoft Dynamics 365 Commerce.
+توضح هذه المقالة كيفيه عرض محفوظات الإصدار الخاصة بصفحه أو جزء والعودة إلى إصدار أقدم في منشئ الموقع Microsoft Dynamics 365 Commerce.
 
 يتيح لك منشئ مواقع التجارة عرض محفوظات الإصدار لصفحه أو لجزء والرجوع إلى إصدار سابق محدد لمستند إذا لزم الأمر. عندما يكون المستند مفتوحا ، يمكنك تحديد **إظهار المحفوظات** علي شريط الأوامر لفتح **مربع الحوار محفوظات** الإصدار ، حيث **تسرد علامة التبويب الإصدار** محفوظات كافة الإصدارات وحفظ الأنشطة للصفحة أو الجزء. يمكنك بعد ذلك تحديد إصدار سابق من المستند في القائمة ومعاينته واستعادته باعتباره الإصدار الحالي. يسرد **تبويب النشاط** سجل النشاط الكامل للمستند ، بما في ذلك كافة الاحداث المحفوظة والنشر وإلغاء النشر.
 

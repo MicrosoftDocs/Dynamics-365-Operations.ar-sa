@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
-ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
+ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9305212"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462347"
 ---
 # <a name="help-system"></a>نظام التعليمات
 
@@ -40,18 +40,18 @@ ms.locfileid: "9305212"
 
 ![جزء التعليمات.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-docsmicrosoftcom"></a>تعليمات حول docs.microsoft.com
+## <a name="help-on-microsoft-docs"></a>مساعدة في مستندات Microsoft
 
-الموقع docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) هو المصدر الافتراضي لوثائق المنتج للتطبيقات المذكورة في السابق. يوفر هذا الموقع الميزات التالية:
+يعد ([Microsoft Dynamics 365 وثيقة](/dynamics365/))في Microsoft Docs هو المصدر الافتراضي لوثائق المنتج للتطبيقات المدرجة سابقًا. يوفر هذا الموقع الميزات التالية:
 
 - **الوصول إلى أحدث محتوى**– يوفر الموقع لـ Microsoft طريقة أسرع وأكثر مرونةً لإنشاء وتسليم وتحديث وثائق المنتج. ولذلك، سيكون بإمكانك الوصول بسهولة إلى أحدث المعلومات التقنية.
 - **المحتوى الذي كتبه الخبراء** – المحتوى على الموقع مفتوح للمساهمات من أعضاء المجتمع من داخل شركة Microsoft ومن خارجها.
 
-يمكنك العثور على محتوى docs.microsoft.com باستخدام أي محرك بحث. للحصول على أفضل النتائج، ننصحك باستخدام البحث في الموقع، مثل **مصطلح البحث site:docs.microsoft.com dynamics 365**.
+يمكنك العثور على محتوى في Microsoft Docs باستخدام أي محرك بحث. للحصول على أفضل النتائج، ننصحك باستخدام البحث في الموقع، مثل **مصطلح البحث site:docs.microsoft.com dynamics 365**.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>الحصول على إعلام بشأن التغييرات من خلال موجز RSS
 
-للاشتراك في موجز المشاركة البسيطة للغاية (RSS) لكافة التحديثات الخاصة بالمحتوى الموجود على docs.microsoft.com من خلال تطبيقات التمويل والعمليات، استخدم الارتباط التالي:
+للاشتراك في موجز RSS لجميع التحديثات التي تم إجراؤها على المحتوى الموجود في وثائق Microsoft الفنية عبر تطبيقات المالية والعمليات ، استخدم الارتباط التالي:
 
 [موجز RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -87,7 +87,7 @@ ms.locfileid: "9305212"
 
 تم تضمين الفيديو [كيفية المساهمة في وثائق Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (مبيّن أعلاه) في قناة Microsoft Dynamics365 في YouTube.
 
-لمزيد من المعلومات، راجع [دليل مساهم المستندات](/contribute)، الذي نشره الفريق الذي قام ببناء موقع docs.microsoft.com.
+لمزيد من المعلومات ، راجع [دليل المساهم في Microsoft Docs](/contribute)، والذي تم نشره بواسطة الفريق الذي أنشأ موقع Microsoft Docs.
 
 > [!NOTE]
 > لا نقبل في الوقت الحالي غير المساهمات في المحتويات التابعة لنا باللغة الإنجليزية.
@@ -166,13 +166,13 @@ On the **System parameters** page, follow these steps:
 
 يسرد الجدول التالي مواقعنا على الويب. وتتطلب بعض المواقع التي تحتوي على العلامة النجمية (\*) بجوار الاسم قيامك بتسجيل الدخول باستخدام حساب مقترن بخطة خدمة.
 
-| الموقع | ‏‏الوصف |
+| الموقع | Description |
 |------|-------------|
-| [Docs.microsoft.com](/dynamics365/) | يستضيف هذا الموقع أو يرتبط بكافة وثائق المنتج لـ Dynamics 365. |
+| [Microsoft Dynamics 365 وثيقة](/dynamics365/) | يستضيف هذا الموقع أو يرتبط بكافة وثائق المنتج لـ Dynamics 365. |
 | [Microsoft Learn](/learn/) | هذا الموقع هو موقع التعليم الإلكتروني المجاني من Microsoft. |
 | [Microsoft DynamicsLifecycle Services ‏(LCS)](https://lcs.dynamics.com/)\* | يوفر هذا الموقع مساحة عمل تعاونية قائمة على السحابة يستطيع العملاء والشركاء استخدامها لإدارة مشاريع بدءًا من مرحلة ما قبل البيع حتى التنفيذ والعمليات. وهو مفيد في كافة مراحل التنفيذ. |
 | [مدونة الدعم](https://aka.ms/AXSupportBlog) | يوفر هذا الموقع تلميحات ونصائح ينشرها فريق دعم . |
-| [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | يستضيف هذا الموقع محتوى من الإصدارات السابقة. |
+| [الإصدارات السابقة](/previous-versions/dynamics/) | يستضيف هذا الموقع محتوى من الإصدارات السابقة. |
 | [مجتمع Dynamics](https://community.dynamics.com/) | يستضيف هذا الموقع المدونات والمنتديات ومقاطع الفيديو. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | يوفر هذا الموقع معلومات التقييم والمبيعات. |
 
@@ -180,4 +180,3 @@ On the **System parameters** page, follow these steps:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 46d42a2c2a5f8f40fc8b9693f26a182c8f2e6352
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 275759ffec470c6188f734968f4b18b641a49212
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336624"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474143"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>إرشادات النشر لعينة تكامل الطابعة المالية لإيطاليا (قديمة)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > يجب عليك اتباع الإرشادات الموجودة في هذه المقالة فقط إذا كنت تستخدم Microsoft Dynamics 365 Commerce الإصدار 10.0.28 أو إصدارا سابقا. اعتبارًا من الإصدار 10.0.29 من Commerce ، تتوفر عينة تكامل الطابعة المالية لإيطاليا في مجموعة تطوير برامج التجارة (SDK). لمزيد من المعلومات، راجع [تكوين مكونات القناة‬](./emea-ita-fpi-sample.md#configure-channel-components).

@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: da4deb37b260ffa2a68e2a36aef01965cbf098b2
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: f3429df2732d7d1ed6d2f0783a600c2b994c022b
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313791"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473867"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>عينة تكامل خدمة التسجيل المالي للنمسا
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 يقدم هذا المقال نظرة عامة على عينة التكامل المالي في النمسا في Microsoft Dynamics 365 Commerce.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afe438767efa3082c49cc56f58c8bab9206e46e0
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: ad5f843e3bafa54a961908d9ebe5ab64e619e1bc
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228557"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475512"
 ---
 # <a name="human-resources-home-page"></a>الصفحة الرئيسية للموارد البشرية
 
@@ -40,7 +40,7 @@ ms.locfileid: "9228557"
 - [إدارة التعويض](hr-compensation-overview.md)
 - [تطوير الموظفين](hr-develop-performance-management-overview.md)
 - [التعلم](hr-learning-courses.md)
-- [نظام سير العمل]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
+- [نظام سير العمل](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 تقوم الموارد البشرية بتوصيل الأشخاص وبيانات العمليات لمساعدتك على تحسين تكاليف القوي والاستفادة من موظفيك.
 
@@ -51,9 +51,10 @@ ms.locfileid: "9228557"
 ## <a name="additional-resources"></a>الموارد الإضافية
 
 ### <a name="elearning-courses"></a>دورات التعلم الإلكتروني التدريبية
-للحصول على الدورات التدريبية والتدريب عبر الإنترنت، راجع [Dynamics 365 Human Resources على Microsoft Learn](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
-### <a name="videos"></a>ملفات الفيديو
+للدورات والتدريب عبر الإنترنت ، تحقق من [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
+
+### <a name="videos"></a>مقاطع الفيديو
 
 راجع مقاطع الفيديو الإرشادية المتوفرة الآن في [قناة Microsoft Dynamics 365 YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
