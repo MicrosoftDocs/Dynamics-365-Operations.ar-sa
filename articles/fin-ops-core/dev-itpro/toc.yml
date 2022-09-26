@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.28 (أغسطس 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.27 (يوليو 2022)
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: تكوين بيئات تطوير ذات خانة واحدة
                   href: dev-tools/configure-developer-vm.md
+                - name: تأمين بيئات تطوير ذات خانة واحدة
+                  href: dev-tools/secure-developer-vm.md
                 - name: الأسئلة المتداولة حول الأجهزة الظاهرية (VM) للتطوير والإنشاء التي لا تمنح المسؤول حق الوصول
                   href: sysadmin/VMs-no-admin-access.md
                 - name: إعداد VHD القابل للتنزيل للاستخدام الأول

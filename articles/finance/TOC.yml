@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (أغسطس)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (يوليو)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: حساب ضريبة المبيعات المنسقة الكندية
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: العولمة
+        - name: Globalization Studio
           items:
+            - name: نظرة عامة على Globalization Studio
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: موارد العولمة
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: خدمات العولمة
@@ -1730,10 +1730,12 @@
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
                     - name: حساب ضريبة المبيعات والتقريب
                       href: general-ledger/sales-tax-calculation-rounding.md
-                    - name: حساب ضريبة المبيعات على بنود دفتر اليومية العامة
+                    - name: حساب ضريبة المبيعات على سطور دفتر اليومية العامة
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: حساب وتعديل ضريبة المبيعات في فاتورة المورّد
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: حل فروقات ضريبة المبيعات
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: تعديل ضريبة المبيعات عبر دفاتر اليومية العامة
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: تمكين حساب الضريبة المؤجل في دفتر اليومية
@@ -2514,7 +2516,9 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: نظام الفوترة عبر الإنترنت
                   href: localizations/emea-hun-online-invoicing.md
-                - name: تقارير ضريبة المبيعات للمجر
+                - name: إقرار ضريبة القيمة المضافة (هنغاريا)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
+                - name: تقارير ضريبة المبيعات لهنغاريا
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: نظام جمع المعلومات التجارية بين دول الاتحاد الأوروبي لهنغارية
                   href: localizations/emea-hun-intrastat.md
