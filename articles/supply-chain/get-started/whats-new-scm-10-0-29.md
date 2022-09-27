@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427864"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520740"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>إصدار أولي Dynamics 365 Supply Chain Management 10.0.29 (أكتوبر 2022)
 
@@ -35,7 +35,7 @@ ms.locfileid: "9427864"
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
 | المخزون واللوجستيات | [تخصيص عناصر WMS والاحتفاظ بها في رؤية المخزون](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | قريبًا | ممكّن بشكل افتراضي |
-| المخزون واللوجستيات | [تحميل مسبق لقوائم المخزون الفعلي الانسيابية](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | قريبًا | ممكّن بشكل افتراضي |
+| المخزون واللوجستيات | [تحميل مسبق لقوائم المخزون الفعلي الانسيابية](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [استخدام تطبيق Inventory Visibility](../inventory/inventory-visibility-power-platform.md) | تم التمكين من خلال تكوين الخدمة |
 | التنفيذ التلقائي للتوريد حسب الأمر | [التنفيذ التلقائي للتوريد حسب الأمر](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [التنفيذ التلقائي للتوريد حسب الأمر](../master-planning/make-to-order-supply-automation.md) | إدارة الميزات:<br>*التنفيذ التلقائي للتوريد حسب الأمر* |
 | التخطيط | [عرض الرؤى التفصيلية وتطبيقها لدمرب](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [نظرة عامة على تخطيط متطلبات المواد المدفوعة بالطلب](../master-planning/planning-optimization/ddmrp-overview.md) | إدارة الميزات:<br>*(إصدار أولي) DDMRP لتحسين التخطيط‬* |
 | التحكم بالإنتاج | [قم بإتاحة البضائع النهائية فعليًا قبل ترحيلها إلى دفاتر اليومية](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [قم بإتاحة البضائع النهائية فعليًا قبل ترحيلها إلى دفاتر اليومية](../production-control/deferred-posting.md) | إدارة الميزات:<br>*(إصدار أولي) جعل البضائع الجاهزة متوفرة فعليًا قبل الترحيل إلى دفاتر اليومية* |

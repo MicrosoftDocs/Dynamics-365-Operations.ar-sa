@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
-ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
+ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9403642"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542310"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>عملية إصدار تحسين التخطيط وسجل الإصدار
 
@@ -30,6 +30,8 @@ ms.locfileid: "9403642"
 تتلقى البيئات التي تستخدم تحسين التخطيط أحدث إصدار تلقائيا. لا يلزم اتخاذ أي إجراء من قبل المستخدم: يتم تحديث الخدمة تلقائيا. ومع ذلك، يتم دفع أي وظيفة كسر التغيير تلقائيا إلى بيئات. بشكل افتراضي، يتم إيقاف تشغيل أي تغييرات يتم اعتبارها فصلًا ويجب تشغيلها بشكل صريح باستخدام [إدارة الميزات](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). لذلك، لن تظهر هذه التغييرات في البيئات حتى تختار تمكينها.
 
 نظرا لعدم عرض الإشعارات عند تحديث "تحسين التخطيط" في البيئة، يمكنك مراجعة ملاحظات الإصدار في الجدول التالي لتحديد وقت إصدار التغييرات والوظائف التي أدخلتها. يعرض هذا الجدول التغييرات التي تم إصدارها لتحسين التخطيط، وما إذا كانت هذه التغييرات مقترنة بميزة من إدارة المعالم، وتاريخ الإصدار.
+
+<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
 
 | التغييرات | تفاصيل إدارة الميزات | تواريخ الإصدار |
 |---|---|---|

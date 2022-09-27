@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 06cd3929fd93861c3e2dfd73913be5dc33111263
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 600ae16a9cd83730432b75b81a1cb2f3ffae827b
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853514"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539283"
 ---
 # <a name="cost-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة التكاليف
 
@@ -38,7 +38,7 @@ ms.locfileid: "8853514"
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [الشروع في ‏‫محاسبة التكاليف‬ (التعرف)](/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[أبعاد عنصر التكلفة](cost-elements.md)  |
+|  [الشروع في ‏‫محاسبة التكاليف‬ (التعرف)](/training/modules/get-started-cost-accounting-dyn365-finance/)  |[أبعاد عنصر التكلفة](cost-elements.md)  |
 |  [التدرج الهرمي للأبعاد](dimension-hierarchy.md)  |[تحديد وحدات التحكم بالتكلفة](./tasks/define-cost-control-units.md)| 
 | [أسس التوزيع](allocation-bases.md)|[إنشاء وتعيين سياسة تخصيص التكلفة إلى وحدة التحكم في التكلفة](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [إدارة مصدر بيانات لدفتر أستاذ محاسبة التكاليف](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [معالجة وتتبع مصدر البيانات](./tasks/process-trace-source-data.md)     | 

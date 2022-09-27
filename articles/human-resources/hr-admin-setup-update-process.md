@@ -2,7 +2,7 @@
 title: تحديث العملية
 description: إن Microsoft Dynamics 365 Human Resources عبارة عن خدمة تأجير برامج (SaaS) حقيقية توفر تحديثات خدمة مستمرة بدون لمس للتغييرات في التطبيق والنظام الأساسي.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178431"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520800"
 ---
 # <a name="update-process"></a>تحديث العملية
 
 _**ينطبق علي:** الموارد البشرية في البنية التحتية المستقلة_ 
 
 > [!NOTE]
-> بدءا من 2022 يوليو ، لا يمكن توفير بيئات الموارد البشرية الجديدة علي البنية الأساسية المستقلة للموارد البشرية ، ولا يمكن إنشاء مشاريع جديده Microsoft Dynamics لخدمات دوره الحياة (LCS) عليها. يمكن للعملاء نشر بيئات الموارد البشرية على البنية التحتية للتمويل والعمليات. لمزيد من المعلومات ، راجع [توفير الموارد البشرية في البنية الأساسية للعمليات والتمويل](/hr-admin-setup-provision-fo.md) .
+> بدءا من 2022 يوليو ، لا يمكن توفير بيئات الموارد البشرية الجديدة علي البنية الأساسية المستقلة للموارد البشرية ، ولا يمكن إنشاء مشاريع جديده Microsoft Dynamics لخدمات دوره الحياة (LCS) عليها. يمكن للعملاء نشر بيئات الموارد البشرية على البنية التحتية للتمويل والعمليات. لمزيد من المعلومات ، راجع [توفير الموارد البشرية في البنية الأساسية للعمليات والتمويل](hr-admin-setup-provision-fo.md) .
 
 > [!IMPORTANT]
 > تختلف عمليه التحديث والإصلاح العاجل في البنية الأساسية للتطبيق المالي والتطبيق الخاص بالموارد البشرية عن التحديث المستقل للموارد البشرية وعمليه الإصلاح العاجل. لمزيد من المعلومات حول عملية التحديث، راجع [عملية الانتقال إلى آخر تحديث للشؤون المالية والعمليات](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). لمزيد من المعلومات حول الإصلاحات العاجلة، راجع [تنزيل التحديثات من Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 

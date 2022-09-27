@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423559"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542262"
 ---
 # <a name="configure-inventory-visibility"></a>تكوين Inventory Visibility
 
@@ -53,6 +53,7 @@ ms.locfileid: "9423559"
 |---|---|
 | *OnHandReservation* | تسمح هذه الميزة بإنشاء عمليات حجز، واستهلاك الحجوزات، و/أو كميات المخزون المحددة غير المفرج عنها باستخدام "رؤية المخزون". لمزيد من المعلومات، راجع [حجوزات رؤية المخزون](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | توفر هذه الميزة ملخص المخزون من المنتجات مع جميع الأبعاد. ستتم مزامنة بيانات ملخص المخزون دورياً من رؤية المخزون. ويكون تكرار المزامنة الافتراضي وقتا كل 15 دقيقه ، ويمكن تعيينه علي النحو الأعلى كل 5 دقائق. لمزيد من المعلومات، راجع [‏‫ملخص المخزون](inventory-visibility-power-platform.md#inventory-summary). |
+| *onHandIndexQueryPreloadBackgroundService* | تتيح هذه الميزة إمكانية التحميل المسبق للاستعلامات الموجودة في رؤية المخزون لتجميع قوائم فعلية ذات أبعاد محددة مسبقًا. ويكون تكرار المزامنة الافتراضي هو مرة كل 15 دقيقة. لمزيد من المعلومات، راجع [‏‫ملخص المخزون](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
 | *OnhandChangeSchedule* | تعمل هذه الميزة الاختيارية على تمكين جدول التغيير الفعلي والميزات المتوفرة حسب التعهد‬ (ATP). لمزيد من المعلومات، راجع [جدول تغيير رؤية المخزون المتاح والمتوفر حسب التعهد‬](inventory-visibility-available-to-promise.md). |
 | *التوزيع* | تتيح هذه الميزة الاختيارية امكانيه رؤية المخزون القدرة علي الحصول علي القدرة علي حماية المخزون (رينجفينسينج) والتحكم في البيع الزائد. لمزيد من المعلومات ، راجع [نتخصيص المخزون رؤية المخزون](inventory-visibility-allocation.md). |
 | *تمكين أصناف المستودعات في رؤية المخزون* | تتيح هذه الميزة الاختيارية "رؤية المخزون" لدعم العناصر التي تم تمكينها لعمليات إدارة المستودعات (WMS). لمزيد من المعلومات، راجع [دعم رؤية المخزون لأصناف WMS‬](inventory-visibility-whs-support.md). |
@@ -101,8 +102,8 @@ ms.locfileid: "9423559"
 | منتج | `ConfigId` |
 | التعقب | `BatchId` |
 | التعقب | `SerialId` |
-|  الموق | `LocationId` |
-|  الموق | `SiteId` |
+| الموقع | `LocationId` |
+| الموقع | `SiteId` |
 | حالة المخزون | `StatusId` |
 | خاص بالمستودع | `WMSLocationId` |
 | خاص بالمستودع | `WMSPalletId` |
@@ -325,7 +326,7 @@ ms.locfileid: "9423559"
 > فيما يلي بعض التلميحات التي يجب تذكرها عند اعداد التسلسل الهرمي للفهرس:
 >
 > - يجب عدم تعريف الأبعاد الأساسية التي تم تعريفها في تكوين القسم في تكوينات الفهرس. إذا تم تعريف بعد أساسي مره أخرى في تكوين الفهرس ، لن تتمكن من الاستعلام بواسطة هذا الفهرس.
-> - إذا كنت تحتاج فقط  الاستعلام فقط عن المخزون الذي تم تجميعه بواسطة كافة مجموعات الأبعاد، ثم إعداد فهرس مفرد يحتوي على البعد الأساسي `Empty`.
+> - إذا كنت تحتاج فقط الاستعلام فقط عن المخزون الذي تم تجميعه بواسطة كافة مجموعات الأبعاد، ثم إعداد فهرس مفرد يحتوي على البعد الأساسي `Empty`.
 
 ### <a name="example"></a>مثال
 

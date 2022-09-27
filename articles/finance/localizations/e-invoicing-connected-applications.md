@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277320"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524679"
 ---
 # <a name="connected-applications"></a>التطبيقات المتصلة
 
@@ -35,7 +35,7 @@ ms.locfileid: "9277320"
 ## <a name="create-a-connected-application"></a>إنشاء تطبيق متصل
 
 1. سجل دخولك إلى حساب RCS.
-2. في مساحة عمل **ميزات العولمة**، في قسم **البيئة**، حدد الإطار المتجانب **الفوترة الإلكترونية**.
+2. في مساحة العمل **ميزة العولمة** في قسم **‏‫الارتباطات‬ ذات الصلة‬** حدد **‏‫إعداد البيئة‬**.
 3. في صفحة **إعداد البيئة**، في جزء الإجراء، حدد **التطبيقات المتصلة**.
 4. حدد **جديد** لإنشاء تطبيق متصل.
 5. في حقل **الاسم**، أدخل اسم التطبيق المراد الاتصال به.

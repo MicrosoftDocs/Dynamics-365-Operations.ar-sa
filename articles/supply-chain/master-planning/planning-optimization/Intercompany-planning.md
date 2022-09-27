@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475601"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538555"
 ---
 # <a name="intercompany-planning"></a>تخطيط بين الشركات الشقيقة
 
@@ -45,8 +45,8 @@ ms.locfileid: "9475601"
 
 لاستخدام تخطيط بين الشركات الشقيقة ، يجب إعداد النظام بالطريقة التالية:
 
-1. يجب إصدار المنتجات ذات الصلة في كافة الشركات ذات الصلة. لمزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
-1. يجب ان تتم تغطيه الطلب اللاحق بواسطة عمليات الشراء من مورد لديه علاقة بين الشركات الشقيقة وابعاد المخزون الافتراضية ذات الصلة (الموقع والمستودع) علي العميل. لمزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. يجب إصدار المنتجات ذات الصلة في كافة الشركات ذات الصلة. لمزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. يجب ان تتم تغطيه الطلب اللاحق بواسطة عمليات الشراء من مورد لديه علاقة بين الشركات الشقيقة وابعاد المخزون الافتراضية ذات الصلة (الموقع والمستودع) علي العميل. لمزيد من المعلومات، راجع [تكوين واستخدام التجارة بين الشركات الشقيقة Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. يجب ان تشتمل الخطة الرئيسية في شركة المراحل التمهيدية علي الطلب اللاحق المخطط ، كما يجب تحديد الشركة المرتبطة والخطة الرئيسية في الخطط اللاحقة.
 
 ## <a name="include-planned-downstream-demand"></a>تضمين المطلب اللاحق المخطط
