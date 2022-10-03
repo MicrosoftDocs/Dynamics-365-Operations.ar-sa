@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 26fc6518f0b4eae815e047db1dbaadd7c56a2e67
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 6e346c6ff881d3a33743196b45247493fd19ed1d
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220638"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573241"
 ---
 # <a name="allow-edits-to-internal-data-on-general-ledger-vouchers"></a>السماح بتحرير البيانات الداخلية في إيصالات دفتر الأستاذ العام
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 
 عند ترحيل الإدخالات المحاسبية إلى دفتر الأستاذ العام ، **يتم استخدام حقل الوصف** غالبا لتخزين الملاحظات أو الوثائق الداخلية. إذا كانت المعلومات غير صحيحه ، فيمكن ان تتسبب في حدوث ارتباك وجعل إغلاق نهاية الفترة أكثر صعوبة. تتيح هذه الميزة امكانيه إصلاح الأخطاء لمدير الحسابات أو المشرف علي المحاسبة وذلك بتحرير حقل **الوصف** في الإيصالات المرحلة في دفتر الأستاذ العام.

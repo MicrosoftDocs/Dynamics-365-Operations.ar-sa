@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
-ms.openlocfilehash: 365316b204b6d76fa6ee6b2402fefee50c8ff3ef
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220637"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573268"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>ابدأ مع إضافة الفواتير الإلكترونية لفرنسا
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 توفر هذه المقالة معلومات من شأنها مساعدتك في بدء استخدام الفواتير الإلكترونية لفرنسا. وهو يرشدك عبر خطوات التكوين التي تعتمد على البلد في Regulatory Configuration Services ‏(RCS). تقوم هذه الخطوات بتكملة الخطوات الموضحة في [ابدأ مع إضافة الفواتير الإلكترونية](e-invoicing-get-started.md).
 

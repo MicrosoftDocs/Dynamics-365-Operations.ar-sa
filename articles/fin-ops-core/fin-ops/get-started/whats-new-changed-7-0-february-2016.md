@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 4cd59d5ea2ef8d280a927fd9e9fe3b9af7974d7c
+ms.sourcegitcommit: 0a5885dc792fc608ae59d0ef9b36fb61790b24de
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287069"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "9593977"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>ما الجديد أو المتغير في Dynamics AX 7.0 (فبراير 2016)
 
@@ -319,7 +319,7 @@ ms.locfileid: "9287069"
 <tr>
 <td>الوصول إلى التعليمات الإرشادية الموجهة (دلائل المهام) والمواضيع التصورية بالنقر فوق <strong>تعليمات</strong>.</td>
 <td>يشير نظام تعليمات AX 2012 إلى مواضيع HTML التي يتم تخزينها على خادم ويب محلي. يمكن للعملاء والشركاء إنشاء التعليمات الخاصة بهم.</td>
-<td>يعرض نظام التعليمات في الإصدار الحالي من Dynamics AX دلائل المهام المخزنة في ‏‫حزمة Lifecycle Services (LCS) BPM في Microsoft Dynamics. يعرض نظام التعليمات أيضًا مواضيع من موقع مستندات Microsoft. لمزيد من المعلومات، راجع <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">نظام التعليمات</a> و<a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">وإرشادات المهام الجديدة (فبراير 2016)</a>.</td>
+<td>يعرض نظام التعليمات في الإصدار الحالي من Dynamics AX دلائل المهام المخزنة في ‏‫حزمة Lifecycle Services (LCS) BPM في Microsoft Dynamics. كما يقوم نظام التعليمات بعرض الموضوعات من Microsoft Learn. لمزيد من المعلومات، راجع <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">نظام التعليمات</a> و<a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">وإرشادات المهام الجديدة (فبراير 2016)</a>.</td>
 <td>توفر دلائل المهام خبرة إرشادية تفاعلية تقودك خلال الخطوات الخاصة بمهمة أو عملية أعمال. يمكنك تحميل وتخصيص دلائل المهام التي تقدمها Microsoft. توفر هذه المقالة طريقة أسرع وأكثر مرونة لإنشاء وثائق المنتج وتقديمها وتحديثها. ولذلك، فهو يساعد على ضمان إمكانية الوصول إلى أحدث المعلومات التقنية.</td>
 </tr>
 </tbody>

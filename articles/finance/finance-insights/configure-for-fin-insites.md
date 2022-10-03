@@ -2,7 +2,7 @@
 title: تكوين Finance Insights
 description: تشرح هذه المقالة خطوات التكوين التي تتيح لنظامك إمكانية استخدام القدرات المتوفرة في Finance Insights.
 author: ShivamPandey-msft
-ms.date: 01/27/2022
+ms.date: 09/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861405"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573167"
 ---
 # <a name="configuration-for-finance-insights"></a>تكوين Finance Insights
 
@@ -39,7 +39,7 @@ ms.locfileid: "8861405"
 1. في LCS، قم بإنشاء أو تحديث بيئة Dynamics 365 Finance. تتطلب البيئة تطبيق الإصدار 10.0.21 أو إصدار أحدث.
 
     > [!NOTE]
-    > يجب أن تكون البيئة بيئة عالية التوافر (HA). (يُعرف هذا النوع من البيئة أيضًا ببيئة الطبقة 2). لمزيد من المعلومات، راجع [تخطيط البيئة](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+    > يجب أن تكون البيئة بيئة عالية التوافر (HA). (يُعرف هذا النوع من البيئة أيضًا ببيئة الطبقة 2). لمزيد من المعلومات، راجع [تخطيط البيئة](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
 
 2. إذا كنت تقوم بتكوين Finance Insights في بيئة وضع حماية، فقد تضطر إلى نسخ بيانات الإنتاج إلى تلك البيئة قبل أن تنجح التوقعات. يستخدم نموذج التنبؤ سنوات متعددة من البيانات لبناء التوقعات. لا تحتوي بيانات العرض التوضيحي لشركة Contoso على بيانات تاريخية كافية لتدريب نموذج التنبؤ بشكل مناسب. 
 
@@ -51,13 +51,16 @@ ms.locfileid: "8861405"
 
 - لديك حق الوصول بصفة **مسؤول النظام** و **مخصص النظام** في مركز إدارة Power Portal.
 - يتم تطبيق ترخيص Dynamics 365 Finance أو ترخيص مكافئ على المستخدم الذي يقوم بتثبيت الوظيفة الإضافية Finance insights.
+- يتم تسجيل تطبيقات Azure AD التالية في Azure AD.
 
-يتم تسجيل تطبيقات Azure AD التالية في Azure AD.
+    |  استمارة التقديم                             | معرف التطبيق                               |
+    |------------------------------------------|--------------------------------------|
+    | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
 
-|  استمارة التقديم                             | معرف التطبيق                               |
-|------------------------------------------|--------------------------------------|
-| Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    
+    للتحقق من تسجيل التطبيق في Azure AD ، تحقق من **قائمه كافة التطبيقات**. لمزيد من التفاصيل ، راجع [عرض تطبيقات المؤسسة](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    إذا لم يكن التطبيق مسجلا في Azure AD ، اتصل بالدعم.
+  
 ## <a name="configure-dataverse"></a>تكوين Dataverse
 
 استخدم هذه الخطوات لتكوين Dataverse لـ Finance Insights.

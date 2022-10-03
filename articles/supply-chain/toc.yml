@@ -1801,9 +1801,11 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: التخطيط الرئيسي للمنتجات التي لها فترة صلاحية محدودة
                   href: master-planning/planning-optimization/shelf-life.md
-                - name: جدولة ذات سعة لا نهائية
+                - name: الجدولة بقدرة إنتاجية غير محدودة
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: الجدولة مع تحديد الموارد بالاستناد إلى الإمكانية
+                - name: تخطيط وجدولة القدرة الإنتاجية المحدودة
+                  href: master-planning/planning-optimization/finite-capacity.md
+                - name: الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة الإنتاجية
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: التخطيط المستند إلى الأولوية
                   href: master-planning/planning-optimization/priority-based-planning.md

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2021-08-20
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 1ee354a1c3d9b45eb12eeb3a6a29f2a6d5e4c34c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 331c714663d212471b72f1558e6183452ef7f394
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846904"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573158"
 ---
 # <a name="troubleshoot-finance-insights-setup-issues"></a>استكشاف مشاكل إعداد Finance Insights وإصلاحها
 
@@ -88,10 +88,14 @@ ms.locfileid: "8846904"
 - تحقق من أنه يتم تطبيق ترخيص Dynamics 365 Finance أو الترخيص المكافئ على المستخدم الذي يقوم بتثبيت الوظيفة الإضافية.
 - تحقق من أنه يتم تسجيل تطبيق Azure AD التالي في Azure AD: 
 
-  | استمارة التقديم                  | معرف التطبيق           |
-  | ---------------------------- | ---------------- |
-  | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
+    | استمارة التقديم                  | معرف التطبيق           |
+    | ---------------------------- | ---------------- |
+    | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 | 
   
+    للتحقق من تسجيل التطبيق في Azure AD ، تحقق من **قائمه كافة التطبيقات**. لمزيد من التفاصيل ، راجع [عرض تطبيقات المؤسسة](/azure/active-directory/manage-apps/view-applications-portal).
+  
+    إذا لم يكن التطبيق مسجلا في Azure AD ، اتصل بالدعم.
+
 ## <a name="symptom-error-we-didnt-find-any-data-for-the-selected-filter-range-please-select-a-different-filter-range-and-try-again"></a>العَرَض‬‏‫: خطأ، "لم نعثر على أي بيانات لنطاق عامل التصفية المحدد. الرجاء تحديد نطاق تصفية آخر والمحاولة مره أخرى." 
 
 ### <a name="resolution"></a>القرار

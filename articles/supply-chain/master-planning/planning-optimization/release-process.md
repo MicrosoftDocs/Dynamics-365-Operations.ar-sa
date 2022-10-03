@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: da97490cb065365a0502aa82c63205d5c34da9eb
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542310"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591867"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>عملية إصدار تحسين التخطيط وسجل الإصدار
 
@@ -35,6 +35,7 @@ ms.locfileid: "9542310"
 
 | التغييرات | تفاصيل إدارة الميزات | تواريخ الإصدار |
 |---|---|---|
+| <p> دعم جدولة الموارد بقدرة محدودة. <p>تحسينات الأداء العام والجودة والاستقرار. | لا يلزم إدارة الميزات. | من 19 إلى 23 سبتمبر 2022 |
 | <p>تحسينات الأداء العام والجودة والاستقرار. | لا يلزم إدارة الميزات. | من 29 أغسطس-3 سبتمبر ، 2022 |
 | <p>تحسينات الأداء العام والجودة والاستقرار.<p>[صيانة تقويم تحسين التخطيط المركزي](../supply-chain-calendars-master-planning.md)<p>[تخطيط اقتراحات التحسين لتحسين التوريد الموجود](../action-messages.md)<p>[دعم تحسين التخطيط للتعاقد من الباطن‬‏‫](../../production-control/manage-subcontract-work-production.md) | لا يلزم إدارة الميزات. | 7 إلى 11 مارس 2022 |
 | <p>تم إضافة دعم أولية التخطيط لأوامر الإنتاج. | يتوفر مع الإصدار 10.0.25 كجزء من الميزة التي تسمى *دعم MRP المدفوع بالأولوية لتحسين التخطيط‬*. | 12 إلى 18 نوفمبر 2021 |

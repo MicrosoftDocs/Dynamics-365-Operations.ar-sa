@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387009"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589079"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>التوزيع الجماعي لمكونات الخدمة الذاتية المختومة لـ Commerce
 
@@ -47,7 +47,7 @@ ms.locfileid: "9387009"
 | -EnvironmentId | معرف البيئة. |
 | -HardwareStationAppInsightsInstrumentationKey | مفتاح أدوات AppInsights لمحطة الأجهزة. |
 | تثبيت | معلمة تحدد ما إذا كان يجب تثبيت المكون الذي يقدمه هذا المثبت. هذه المعلمة مطلوبة لإجراء تثبيت وليس لها حرف شرطة بادئة. |
-| -InstallOffline | بالنسبة لنقطة البيع الحديثة، تحدد هذه المعلمة أنه يجب أيضًا تثبيت قاعدة البيانات غير المتصلة وتكوينها. استخدم المعلمة **-SQLServerName** أيضًا. وبخلاف ذلك، سيحاول المثبت العثور على مثيل افتراضي يلبي المتطلبات الأساسية. |
+| -InstallOffline | بالنسبة لنقطة البيع الحديثة، تحدد هذه المعلمة أنه يجب أيضًا تثبيت قاعدة البيانات غير المتصلة وتكوينها. استخدم المعلمة **-SQLServerName** أيضًا. وبخلاف ذلك، سيحاول المثبت العثور على مثيل افتراضي يلبي المتطلبات الأساسية. عند استخدام Azure Active Directory ( Azure AD) المصادقة ، لن تعمل نقطه البيع بدون اتصال ، كما هو الحال عند الاتصال المباشر مطلوبا. |
 | -Port | المنفذ الذي ينبغي إقرانه بالدليل الظاهري لـ Retail Server والذي يجب أن يستخدمه هذا الدليل الظاهري. إذا تم تعيين المنفذ، فسيتم استخدام المنفذ الافتراضي، 443. |
 | -Register | معرف السجل، كما هو موضح في صفحة **السجلات** في المقر الرئيسي. |
 | -RetailServerAadClientId | معرف عميل Azure AD الذي يجب أن يستخدمه Retail Server أثناء الاتصال بالمقر الرئيسي. |
