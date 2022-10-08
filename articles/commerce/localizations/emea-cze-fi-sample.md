@@ -2,19 +2,19 @@
 title: عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬
 description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي في جمهورية التشيك في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-04-01
-ms.openlocfilehash: 3838792c0a420fb88ea9daab0a67c2e644c80681
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: de26b038009d8bf3518c67389c96aade19a0b65b
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313737"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631236"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>عينة تكامل خدمة التسجيل المالي لجمهورية التشيك‬
 
@@ -48,7 +48,7 @@ ms.locfileid: "9313737"
 - معالجه الأخطاء، مثل الخيارات التالية.
 
     - قم باعاده محاولة التسجيل المالي إذا كانت أعاده المحاولة ممكنة، كما هو الحال في حاله عدم توفر خدمه التسجيل المالي أو انها غير جاهزه أو لا تستجيب.
-    - تأجيل عملية التسجيل المالي.
+    - تأجيل التسجيل المالي.
     - يستخدم لتخطي التسجيل المالي أو وضع علامة علي الحركة كمسجله، وتضمين رموز المعلومات للتقاط سبب الفشل والمعلومات الاضافيه.
     - فحص توفر خدمه التسجيل المالي قبل فتح حركه مبيعات جديده أو إنهاء حركه مبيعات.
 
@@ -188,7 +188,7 @@ ms.locfileid: "9313737"
 
 1. [إعداد عملية التسجيل المالي](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). وكذلك قم بتسجيل الإعدادات الخاصة بعمليه التسجيل المالي [الخاصة بنموذج تكامل خدمه التسجيل المالي هذا](#set-up-the-registration-process).
 1. [تعيين إعدادات معالجة الأخطاء‬](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [تمكين التنفيذ اليدوي للتسجيل المالي المؤجل](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [تفعيل التنفيذ اليدوي للتسجيل المالي المؤجل](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [تكوين مكونات القناة](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>إعداد عملية التسجيل

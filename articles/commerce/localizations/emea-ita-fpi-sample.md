@@ -2,19 +2,19 @@
 title: عينة تكامل طابعة الضرائب المحصلة لإيطاليا
 description: يقدم هذا المقال نظرة عامة على عينة التكامل المالي لإيطاليا في Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-01
-ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6ad97e87e4114a8f2250d0ba4880b7a466b3689e
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336636"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631360"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>عينة تكامل طابعة الضرائب المحصلة لإيطاليا
 
@@ -67,7 +67,7 @@ ms.locfileid: "9336636"
 - معالجه الأخطاء، مثل الخيارات التالية:
 
     - أعد محاولة التسجيل المالي إذا كانت إعادة المحاولة ممكنة، على سبيل المثال إذا كانت الطابعة المالية غير متصلة أو غير جاهزة أو لا تستجيب أو نفد الورق من الطابعة أو حدث انحشار للورق.
-    - تأجيل عملية التسجيل المالي.
+    - تأجيل التسجيل المالي.
     - يستخدم لتخطي التسجيل المالي أو وضع علامة علي الحركة كمسجله، وتضمين رموز المعلومات للتقاط سبب الفشل والمعلومات الاضافيه.
     - تحقق من توفر الطابعة المالية قبل فتح معاملة مبيعات جديدة أو إنهاء معاملة المبيعات.
 
@@ -111,7 +111,7 @@ ms.locfileid: "9336636"
 1. [إعداد النصوص المالية للخصومات](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
 1. [تعيين إعدادات معالجة الأخطاء‬](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [إعداد التقارير المالية X/Z من نقطة البيع](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [تمكين التنفيذ اليدوي للتسجيل المالي المؤجل](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [تفعيل التنفيذ اليدوي للتسجيل المالي المؤجل](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [إعداد وظيفة إدارة معلومات العملاء في نقاط البيع](emea-ita-customer-information.md#setup).
 1. [تكوين مكونات القناة](#configure-channel-components).
 

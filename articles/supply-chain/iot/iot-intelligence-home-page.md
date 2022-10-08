@@ -1,8 +1,8 @@
 ---
-title: الصفحة الرئيسية لذكاء IoT
-description: يوفر هذا المقال ارتباطات إلى معلومات حول ذكاء IoT.
+title: تم استبدال الوظيفة الإضافية Sensor Data Intelligence حاليًا بـ ‏‫ذكاء IoT‬
+description: يوضح هذا المقال انه قد تم استبدال إيوت ذكاء الآن بواسطة معلومات بيانات المجس
 author: johanhoffmann
-ms.date: 08/04/2022
+ms.date: 09/30/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,60 +13,21 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d8b2be25abaeff7404d7f4ef3cd825a50147fef
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: a754fc44fa780a4645b9ad457f5a1e3f0bdd6365
+ms.sourcegitcommit: 073604c07116e0a87f78ab2c76cb89ae83ebba3c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228346"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9608051"
 ---
-# <a name="iot-intelligence-home-page"></a>الصفحة الرئيسية لذكاء IoT
+# <a name="iot-intelligence-now-replaced-by-sensor-data-intelligence"></a>تم استبدال الوظيفة الإضافية Sensor Data Intelligence حاليًا بـ ‏‫ذكاء IoT‬
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [iot-sdi-announcement](../../includes/iot-sdi-announcement.md)]
 
-> [!IMPORTANT]
-> تتوفر هذه الميزة في الوقت الحالي فقط في البلدان/المناطق التالية:
->
-> - الولايات المتحدة (الولايات المتحدة الامريكيه)
-> - اتحاد أوروبي (EU)
-> - أستراليا (AU)
-> - كندا (CA)
-> - المملكة المتحدة (UK)
+تم تحديث ميزة IoT Intelligence إلى الإصدار 2.0 ، وفي نفس الوقت تمت إعادة تسميتها إلى *Sensor Data Intelligence*. الإصدار الجديد متاح حاليًا كميزة معاينة لإصدار Supply Chain Management 10.0.30 أو أحدث.
 
-ذكاء IoT هو وظيفة اضافيه ل Microsoft Dynamics 365 Supply Chain Management. وهو يقوم بدمج إشارات إنترنت الأشياء (IoT) مع البيانات الموجودة في Supply Chain Management لإنتاج رؤى قابله للتنفيذ.
+تقدم ميزة Sensor Data Intelligence نموذج توزيع جديدًا حيث يتم توزيع مكونات Azure المطلوبة على اشتراك Azure الخاص بك بدلاً من إدارتها بواسطة Microsoft. يعزز هذا النموذج الجديد من قدرتك على تخصيص الميزة ودمجها مع أنظمة الجهات الخارجية. يقدم الإصدار الجديد أيضًا دعمًا لسيناريوهين جديدين لإنترنت الأشياء (IoT) لإدارة الأصول.
 
-يدعم ذكاء IoT السيناريوهات التالية:
-
-- **عمليات تاخير الإنتاج** - يقارن هذا السيناريو زمن الدورة الفعلي مع وقت الدورة المخطط. تقوم Supply Chain Management باعلامك عندما لا يكون الإنتاج في الجدول الزمني ، بحيث يمكنك التدخل لزيادة كفاءه التشغيل وتجنب تاخير الأمر.
-- **وقت التوقف للمعدات** – يقارن هذا السيناريو بين وقت الجهاز والمحددات المحددة بواسطة المستخدم. تقوم Supply Chain Management باعلامك عند تجاوز حد قطع العمل ، بحيث يمكنك القيام بإجراءات مثل أعاده جدوله أمر الإنتاج أو إنشاء أمر عمل الصيانة.
-- **جوده المنتج** – يقارن هذا السيناريو قراءات الاستشعار ، مثل الرطوبة ودرجات الحرارة ، لمقاييس الجودة المحددة من قبل المستخدم. تقوم Supply Chain Management باعلامك عند حدوث انحراف ، بحيث يمكنك التدخل للحفاظ علي معايير الجودة وتقليل المهدورات.
-
-يبين الرسم التوضيحي التالي تفاعل مركز Azure IoT وذكاء IoT وSupply Chain Management.
-
-![مركز IoT وذكاء IoT وSupply Chain Management.](media/iot_intelligence.png)
-
-<!-- KFM: hide setup info for now
-
-## Setup
-
-You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
-
-1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
-2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
-3. In Feature Management, enable the IoT Intelligence feature flag. 
-4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
-5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
-6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
-
--->
-
-## <a name="tracking-and-maintenance"></a>التتبع والصيانة
-
-- [مراقبة السيناريوهات في Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
-- [تعطيل سيناريو](iot-scenario-setup.md#disable-a-scenario)
-- [تعديل سيناريو ذكاء IoT قيد التشغيل](iot-management.md#modify-a-running-iot-intelligence-scenario)
-- [خيارات المحاكاة](iot-management.md#simulation-options)
-
+بسبب هذه التغييرات القادمة، توصي Microsoft بعدم بدء أي مشاريع جديدة بناءً على ميزة ‏‫ذكاء IoT‬ الحالية. إذا كنت مهتمًا بإضافة إمكانات IoT إلى نظامك، فننصحك بالبدء بالعمل مع نسخة الإصدار الأولي من Sensor Data Intelligence بدلاً من ذلك. لمزيد من المعلومات حول Sensor Data Intelligence وكيفية التعامل معها، راجع [الصفحة الرئيسية لـ Sensor Data Intelligence](../sensor-data-intelligence/sdi-home-page.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

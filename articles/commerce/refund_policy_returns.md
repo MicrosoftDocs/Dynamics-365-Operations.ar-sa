@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286827"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627486"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>إنشاء وتحديث سياسة للمرتجعات والمبالغ المستردة لقناة
 
@@ -36,12 +36,8 @@ ms.locfileid: "9286827"
 
 ## <a name="enable-return-policy"></a>تمكين سياسة الإرجاع
 
-لتمكين وظيفة سياسة إرجاع القناة في مركز Commerce الرئيسي، اتبع الخطوات التالية.
+تكون هذه الميزة نشطة بشكل افتراضي. يمكنك العثور عليه في **مساحة عمل أداره** الميزات عن طريق البحث عن **تمكين نهج** إرجاع القناة في قائمه أسماء الميزات.
 
-1. انتقل إلى مساحة عمل **إدارة الميزات** في Dynamics 365 Commerce.
-1. ابحث عن ميزة **تمكين سياسات إرجاع القنوات** في قائمه أسماء الميزات.
-1. حدد **تمكين الآن**.
-1. في صفحة **جدولة التوزيع**، قم بتشغيل الوظيفة **1110** (التكوين العمومي) لتوزيع تغيير الميزة.
 
 ## <a name="configure-return-policy"></a>تكوين سياسة الإرجاع
 

@@ -2,7 +2,7 @@
 title: ما الجديد Dynamics 365 Commerce والمتغير 10.0.29 (أكتوبر 2022)
 description: تصف هذه المقالة الميزات الجديدة أو المتغيرة في 10.0.29. Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 08/17/2022
+ms.date: 09/29/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
-ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
+ms.openlocfilehash: 0629228516d688abf4dcd4280d1ad676f8f35331
+ms.sourcegitcommit: ce4e56d798281258479432ad821287a1cc8e26bf
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "9475893"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9601561"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>ما الجديد أو المتغير في Dynamics 365 Commerce 10.0.29 (أكتوبر 2022)
 
@@ -39,6 +39,7 @@ ms.locfileid: "9475893"
 | التجارة الإلكترونية | دعم لمقارنه المنتجات في التجارة الكترونيه | قم بتمكين شوبيرس لمقارنه المنتجات عبر نطاق واسع من الفئات حتى يمكنهم جعل قرار الشراء الصحيح لأنفسهم. تتوفر هذه الميزة لكل من مواقع المستهلك (B2C) ومواقع B2B. | موقع البناء | 
 | بطاقات الهدايا | دعم جداول بطاقات هدايا البيع بالتجزئة لمشاركه البيانات عبر الشركات | تدعم Dynamics headquarters القدرة علي تمكين مشاركه البيانات عبر الشركة لجداول محدده في بنيه Dynamics. في هذه الميزة ، Dynamics 365 Commerce يضيف دعمًا لمشاركة البيانات عبر الشركات لجداول بطاقات هدايا البيع بالتجزئة. التالي ، يمكن الآن لبطاقة الهدايا الموجودة في أحدي الشركات ان تكون البيانات الخاصة بها مكرره بشركه أخرى في البيئة. ستتم مشاركه التغييرات التي يتم اجراؤها علي جدول بطاقة الهدايا الخاص بالشركة الاصليه إلى جدول بطاقة الهدايا الخاص بالشركة المكرر. | المطورون |
 | العولمة | [تمكين ميزات التعريب التجاري لمجموعه تطوير برامج التجارة الجديدة](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | توفر الميزة الجديدة امكانيه تمكين ميزات التعريب التجاري من Commerce headquarters باستخدام اطار العمل أو المعلمات الخاصة باداره الميزات. يتم تضمين نماذج التكامل المالي في SDK الخاص بالتجارة الجديدة ودعم التحزيم المعتمد. كما تتيح هذه الميزة امكانيه الاعتماد علي تطبيق التجارة المتجر بواسطة العملاء التجاريين العالميين.<p><p>يتضمن هذا الإصدار ميزات تعريب التجارة ونماذج التكامل المالي لـ [النمسا](../localizations/emea-aut-fi-sample.md), [الجمهورية التشيكية](../localizations/emea-cze-fi-sample.md), [فرنسا](../localizations/emea-fra-cash-registers.md), [ألمانيا](../localizations/emea-deu-fi-sample.md), [إيطاليا](../localizations/emea-ita-fpi-sample.md), [النرويج](../localizations/emea-nor-cash-registers.md), و [بولندا](../localizations/emea-pol-fpi-sample.md). | تم التمكين بواسطة المسؤول/المتخذ |
+| غير متصل | [ضغط قاعدة البيانات في وضع دون الاتصال لنقطة البيع](../dev-itpro/implementation-considerations-offline.md#important-offline-features) | تقلل هذه الميزة الجديدة احجام قواعد البيانات دون اتصال عن طريق تمكين ضغط الفهرس المؤتمت خارج نطاق ساعات [مخزن القناات](../dev-itpro/store-hours.md). | إدارة الميزات<p>*ضغط قاعدة البيانات في وضع دون الاتصال لنقطة البيع* |
 | الأداء | أزاله تبعية RTS لسيناريوهات "تحرير العميل" | التوافر العالي والأداء العالي هما توقعات افتراضيه لنقطه بيع (POS) وقناات التجارة الكترونيه. للمساعدة في الوفاء بهذه التوقعات ، لم يعد من الضروري اعتماد القناات Dynamics 365 Commerce علي الاتصالات في الوقت الحقيقي مع "Commerce headquarters" عند تحرير معلومات العميل. ويمكن لامكانيه تحرير معلومات العملاء بشكل غير متزامن للعملاء غير المتزامنين وغير المتزامنين المساعدة في تقليل المكالمات في الوقت الحقيقي لCommerce headquarters. | تم التمكين بواسطة المسؤول/المتخذ |
 
 ## <a name="feature-state-changes-in-this-release"></a>التغييرات في حالة الميزات في هذا الإصدار

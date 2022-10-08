@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
+ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887766"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9620888"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>تمكين وضع التصحيح في خدمة حساب الضرائب
 
@@ -27,7 +27,7 @@ ms.locfileid: "8887766"
 توضح هذه المقالة كيفية تمكين وضع التصحيح في خدمة حساب الضرائب لفحص المشكلات.
 
 1. أضف **&debug=vs%2CconfirmExit&** إلى عنوان URL لخادم كائن التطبيق، ثم قم بتحديث الصفحة.
-2. عندما تحدد **ضريبة المبيعات** لحساب ضريبة المبيعات، يفتح ملف يسمى **TaxServiceTroubleshootingLog.txt**. يحتوي الملف **TaxServiceTroubleshootingLog.txt** على **TaxableDocument** ومعلمة الحساب. يتم إرجاع هذه النتائج من خدمة الضرائب ومعلومات الاستثناء لاستكشاف الأخطاء وإصلاحها.
+2. عند تحديد **ضريبة** المبيعات لحساب ضريبة المبيعات ، يتم التقاط الملف النصي الذي يسمي **TaxServiceTroubleshootingLog.txt** علي الخادم تحت **c:\ AXWeb_SMBShare \temporary-file\\{%session%}\\**. يحتوي الملف **TaxServiceTroubleshootingLog.txt** على **TaxableDocument** ومعلمة الحساب. يتم إرجاع هذه النتائج من خدمة الضرائب ومعلومات الاستثناء لاستكشاف الأخطاء وإصلاحها.
 
 ## <a name="sample"></a>عينة
 

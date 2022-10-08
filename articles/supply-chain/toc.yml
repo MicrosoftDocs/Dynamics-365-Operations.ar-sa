@@ -1745,22 +1745,12 @@
               href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
             - name: سيناريو جودة المنتج
               href: sensor-data-intelligence/sdi-scenario-product-quality.md
-            - name: سيناريو ‏‫تأخيرات الإنتاج‬
+            - name: ‏‫سيناريو ‏‫تأخيرات الإنتاج‬‬
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: ذكاء IoT
           items:
-            - name: الصفحة الرئيسية لذكاء IoT
+            - name: تم استبدال الوظيفة الإضافية Sensor Data Intelligence حاليًا بـ ‏‫ذكاء IoT‬
               href: iot/iot-intelligence-home-page.md
-            - name: إعداد موارد Azure
-              href: iot/iot-azure-setup.md
-            - name: تنسيقات مخطط الرسائل لمركز IoT
-              href: iot/iot-schema-format.md
-            - name: إعداد القياسات
-              href: iot/iot-metrics-setup.md
-            - name: إعداد السيناريو
-              href: iot/iot-scenario-setup.md
-            - name: المراقبة والإدارة
-              href: iot/iot-management.md
         - name: التخطيط الرئيسي
           items:
             - name: الصفحة الرئيسية للتخطيط الرئيسي
