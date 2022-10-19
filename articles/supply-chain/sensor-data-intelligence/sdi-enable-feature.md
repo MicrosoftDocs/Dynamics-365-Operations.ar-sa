@@ -11,17 +11,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: aaf00b5ae459ae2d2a7be85360c9478049d873fd
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 536bf141d473a2886d1ca44dcf92a8febc2d12ce
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428282"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643840"
 ---
 # <a name="turn-on-sensor-data-intelligence-for-your-system"></a>قم بتشغيل Sensor Data Intelligence لنظامك
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+
+## <a name="video-instructions"></a>تعليمات الفيديو
+
+يوضح مقطع الفيديو التالي كيفية تشغيل ميزة Sensor Data Intelligence و [نشر موارد Azure المطلوبة](sdi-deploy-iot-solution-on-azure.md). يقدم القسم الآخر من هذا المقال نفس الإرشادات بتنسيق مستند إلى نص.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>الإجراء
 
 قبل أن تتمكن من استخدام Sensor Data Intelligence، يجب تشغيله لنظامك.
 

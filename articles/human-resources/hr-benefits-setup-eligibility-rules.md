@@ -2,7 +2,7 @@
 title: تكوين قواعد الأهلية وخياراتها
 description: توضح هذه المقالة كيفية تعيين قواعد الأهلية والخيارات في إدارة الميزات في Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336820"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644074"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>تكوين قواعد الأهلية وخياراتها 
 
@@ -175,6 +175,7 @@ ms.locfileid: "9336820"
    | **تجميع** | المعرف الفريد للمجموعة. |
    | **‏‏الوصف** | وصف المجموعة. |
    | **الرئيسية** | يشير إلى ما إذا كان يجب تمييز خطة من الخطط في المجموعة كخطة رئيسية. يجب تحديد الخطة الرئيسية أثناء التسجيل المفتوح كجزء من المجموعة قبل أن يتمكن مسؤول الميزات من تأكيد اختيارات ميزات الموظف. |
+   | **مطلوب**| يشير إلى ان الخطة مطلوب تحديدها لسحب إيه خطه أخرى في المجموعة. يمكن وضع علامة علي أكثر من خطه علي انها **مطلوبه**. في هذه الحالة ، يجب تحديد كافة الخطط التي تم وضع علامة عليها باعتبارها **مطلوبه** لسحب اي من الخطط في المجموعة.|
    | **صالح من التاريخ والوقت** | التاريخ والوقت الذي تصبح فيه المجموعة نشطة. |
    | **صالح حتى** | تاريخ انتهاء صلاحية المجموعة. القيمة الافتراضية هي 12/31/2154، والتي تفيد "أنه لم يتم أبدًا". |
 

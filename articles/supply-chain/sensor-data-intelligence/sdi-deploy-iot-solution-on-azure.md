@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 284aba91aa436ed1dfc02b5a93b4358ffc518017
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5026f234f1b2f38e7041098421d0261fd468db96
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428283"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643703"
 ---
 # <a name="deploy-an-iot-solution-on-azure"></a>نشر حل IoT على Azure
 
@@ -26,6 +26,14 @@ ms.locfileid: "9428283"
 تستخدم ذكاء بيانات أداه الاستشعار البيانات من أدوات الاستشعار المتصلة بها Microsoft Azure. لتمكين Azure لاسترداد البيانات من أدوات الاستشعار ومشاركتها مع Dynamics 365 Supply Chain Management ، يجب نشر حل الأشياء (IoT) علي اشتراكك في Azure. يوفر الرسم التخطيطي المعماري التالي نظره عامه حول الحل ومكوناته.
 
 ![الرسم التخطيطي المعماري لمعلومات بيانات إداة الاستشعار.](media/sdi-architecture.png "الرسم التخطيطي المعماري لمعلومات بيانات إداة الاستشعار")
+
+## <a name="video-instructions"></a>تعليمات الفيديو
+
+يوضح الفيديو التالي كيفيه [تشغيل ميزه](sdi-enable-feature.md) المعلومات الخاصة ببيانات أداه الاستشعار ونشر موارد Azure المطلوبة. يقدم القسم الآخر من هذا المقال نفس الإرشادات بتنسيق مستند إلى نص.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>الإجراء
 
 اتبع هذه الخطوات لنشر الموارد المطلوبة على Azure.
 

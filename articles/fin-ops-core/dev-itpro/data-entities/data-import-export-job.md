@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357580"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671448"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>نظرة عامة حول مهام استيراد البيانات وتصديرها
 
@@ -64,6 +64,9 @@ ms.locfileid: "9357580"
 
 ### <a name="set-the-data-format-for-the-job"></a>تعيين تنسيق البيانات للوظيفة
 عندما تقوم بتحديد كيان ما، يجب تحديد تنسيق البيانات التي سيتم تصديرها أو استيرادها. يمكنك تحديد التنسيقات باستخدام اللوحة **إعداد مصادر البيانات**. تنسيق بيانات مصدر عبارة عن مجموعة من **النوع**، و **تنسيق الملف**، و **محدد الصف**، و **محدد العمود**. هناك أيضًا سمات أخرى، ولكن هذه هي الأساسية للفهم. يسرد الجدول التالي المجموعات الصالحة.
+
+> [!NOTE]
+> لا يتوفر تنسيق ملف Excel حاليا في مساحة عمل أداره البيانات لمجموعه المجتمعات الحكومية (جكك).
 
 | تنسيق الملف            | محدد الأعمدة/الصفوف                       | نمط XML                 |
 |------------------------|--------------------------------------------|---------------------------|

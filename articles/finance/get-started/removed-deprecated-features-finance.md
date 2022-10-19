@@ -2,7 +2,7 @@
 title: ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 description: توفر هذه المقالة الميزات التي تمت إزالتها أو تلك المخطط لإزالتها من Dynamics 365 Finance.
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462291"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643784"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -32,6 +32,18 @@ ms.locfileid: "9462291"
 
 > [!NOTE]
 > يمكن العثور على معلومات مفصلة حول الكائنات في تطبيقات التمويل والعمليات في [التقارير المرجعية التقنية](/dynamics/s-e/global/axtechrefrep_61). يمكنك مقارنة إصدارات مختلفة من هذه التقارير لمعرفة المزيد حول الكائنات التي تم تغييرها أو التي تمت إزالتها من كل إصدار من تطبيقات التمويل والعمليات.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.31 من Finance
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>التكوين الاديفاكت بيمول (AT) ضمن نموذج الدفع
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **سبب الإهلاك/الإزالة** | تم استبداله بتنسيق جديد يستند إلى المشكلات ISO 20022. 001.001.09. | 
+| **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
+| **مناطق المنتجات المتأثرة**         | استمارة التقديم |
+| **خيارات النشر**              | ‏‏الكل‬ |
+| **Status**                         | مهمل: سديبريكاتي البنوك في النمسا اديكفاكت-بيمول للمدفوعات عبر الحدود ب2022 نوفمبر سيتم استبدالها بإصدار XML بالمشكلة. 001.001.09N. تمت أضافه تكوين جديد ضمن مستودع التكوين العمومي الذي يمكن المستخدمين من إكمال طلب الدفع عبر الحدود. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.30 من Finance
 

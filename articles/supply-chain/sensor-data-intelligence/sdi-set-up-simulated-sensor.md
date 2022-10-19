@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: edfa20bec7438124844f8b6afa91ca4941b6bb56
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: dc8bd020a53214abab28ec51ffc6d6be74979932
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428281"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643966"
 ---
 # <a name="set-up-a-simulated-sensor-for-testing"></a>اعداد أداه استشعار محاكيه للاختبار
 
@@ -24,6 +24,12 @@ ms.locfileid: "9428281"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 إذا كنت ترغب في اختبار معلومات بيانات الاستشعار من دون تثبيت أيه أدوات استشعار فعليه، فيمكنك استخدام خدمة *المحاكي Raspberry PI Azure IoT عبر الإنترنت* لمحاكاة إشارات الاستشعار وإرسالها إلى حل إنترنت الأشياء الخاص بك ( IoT) علي Microsoft Azure. لمزيد من المعلومات حول المحاكي، راجع [اتصال Raspberry Pi عبر الإنترنت لمركز Azure IoT (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started).
+
+## <a name="video-instructions"></a>تعليمات الفيديو
+
+يوضح الفيديو التالي كيفيه اعداد أداه استشعار محاكيه للاختبار. توفر الأقسام المتبقية في هذه المقالة نفس الإرشادات بتنسيق مستند إلى النص.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE588g6]
 
 ## <a name="create-a-device-in-azure-iot-hub"></a>إنشاء جهاز في مركز Azure IoT
 
