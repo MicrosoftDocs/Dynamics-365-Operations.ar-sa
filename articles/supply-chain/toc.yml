@@ -12,14 +12,12 @@
               items:
                 - name: الجديد أو التغييرات في صفحة Supply Chain Management الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.31 (فبراير 2022)
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: الإصدار 10.0.30 من Supply Chain Management (نوفمبر 2022)
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (أكتوبر 2022)
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: Supply Chain Management 10.0.28 (أغسطس 2022)
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: Supply Chain Management 10.0.27 (يوليو 2022)
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -1775,10 +1773,14 @@
                   href: master-planning/supply-schedule.md
                 - name: تطبيق عوامل التصفية على الخطة
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: التخطيط الرئيسي مع التنبؤ بالطلب
+                - name: التخطيط الرئيسي مع التنبؤات بالطلب
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: التخطيط الرئيسي مع التنبؤات بالتوريد
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: التخطيط الرئيسي مع اتفاقيات الشراء التجارية
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: الخطة استنادًا إلى عروض الأسعار وطلبات عروض الأسعار (RFQ)‬‬
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: معلمات التاريخ والوقت المستخدمة في تحسين التخطيط
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: حدود الأمان
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: إنشاء متغيرات المنتج المعرفة مسبقًا
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: إظهار أسماء المنتجات والأوصاف المترجمة في واجهة المستخدم
+                  href: pim/show-translated-product-info.md
                 - name: إدارة وحدات القياس
                   href: pim/tasks/manage-unit-measure.md
                 - name: تحويل وحدة القياس لكل متغير منتج
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: ‏‫العمل باستخدام توجيهات الموقع
                       href: warehousing/create-location-directive.md
+                    - name: اختبار توجيهات الموقع مع اختبارات القبول
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: تكوين عوامل تصفية المنتج لحركات المستودع
                       href: warehousing/filters-and-filter-codes.md
                     - name: حدود مخزون الموقع

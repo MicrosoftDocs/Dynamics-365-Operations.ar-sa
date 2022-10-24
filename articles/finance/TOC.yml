@@ -12,6 +12,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في صفحة Finance الرئيسية‬
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31 (يناير)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30 (نوفمبر)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (أكتوبر)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: إعداد التحقق من صحة مطابقة فاتورة‬ الحسابات الدائنة
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: حل التقاط الفواتير
+              items:
+                - name: نظرة عامة على التقاط الفواتير
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: تثبيت التقاط الفواتير
+                  href: accounts-payable/install-invoice-capture.md
+                - name: تكوين التقاط الفواتير
+                  href: accounts-payable/config-invoice-capture.md
+                - name: مجموعات تكوين التقاط الفواتير
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: قواعد تعيين التقاط الفواتير
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: مساحة عمل التقاط الفواتير
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: الإعدادات المتقدمة لالتقاط الفواتير
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: لوحة معلومات التقاط الفواتير
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: الملفات المستلمة لالتقاط الفواتير
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: التنفيذ التلقائي لفاتورة المورد
               items:
                 - name: نظرة عامة على عمليات فوترة المورد التلقائية
@@ -424,7 +446,7 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: فوترة العقد المتكررة
                   items:
-                    - name: إعداد فوترة جهة الاتصال المتكررة
+                    - name: إعداد فوترة العقد المتكررة
                       href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: إنشاء جداول الفوترة
                       href: accounts-receivable/sb-billing-schedules.md

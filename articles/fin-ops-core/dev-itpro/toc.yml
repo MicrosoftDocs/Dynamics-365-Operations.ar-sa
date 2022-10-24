@@ -14,6 +14,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في الصفحة الرئيسية لتحديثات النظام الأساسي
                   href: get-started/whats-new-home-page.md
+                - name: تحديثات النظام الأساسي للإصدار 10.0.31 (فبراير 2023)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.30 (نوفمبر 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.29 (أكتوبر 2022)
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: تعقب التغييرات في كيان
                   href: data-entities/entity-change-track.md
+                - name: السماح بتعقب التغييرات في إصدار الصف لكيان
+                  href: data-entities/rowversion-change-track.md
                 - name: البحث عن معلومات حول كيانات البيانات القياسية
                   href: data-entities/data-entities-report.md
                 - name: قوالب بيانات مع أوراق عمل متعددة
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: تمكين كيانات Dataverse الظاهرية
                   href: power-platform/enable-virtual-entities.md
+                - name: تعقب التغييرات الخاصة بالجداول الظاهرية في Dataverse
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: مداخل Power Apps مع التمويل والعمليات
                   href: power-platform/power-portal-reference.md
                 - name: الأسئلة المتداولة حول الكيانات الظاهرية لـ التمويل والعمليات

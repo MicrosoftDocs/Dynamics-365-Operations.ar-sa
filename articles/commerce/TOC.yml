@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: تحويل العملاء غير المتزامنين إلى عملاء متزامنين
               href: convert-async-to-sync.md
+            - name: تدقيق مزامنة عمليات العميل
+              href: audit-async-customer-operations.md
             - name: الأسئلة المتداولة حول وضع إنشاء عميل غير متزامن
               href: async-customer-mode-faq.md
             - name: قاعدة العملاء
@@ -1296,8 +1298,14 @@
                       href: cookie-consent-module.md
                 - name: وحدات المحادثة
                   items:
-                    - name: وحدة محادثة Commerce
+                    - name: ‏‫نظرة عامة على ميزات محادثة Commerce
+                      href: commerce-chat-overview.md
+                    - name: محادثة Commerce مع  القناة متعددة الاتجاهات لوحدة Customer Service
                       href: commerce-chat-module.md
+                    - name: محادثة Commerce مع وحدة Power Virtual Agents
+                      href: chat-module-pva.md
+                    - name: معلمات المحادثة الاستباقية لوحدة محادثة Commerce
+                      href: chat-proactive-chat-parameters.md
             - name: بحث
               items:
                 - name: نظرة عامة على الصفحة المنتقل إليها‬ للفئة الافتراضية وصفحة نتائج البحث
