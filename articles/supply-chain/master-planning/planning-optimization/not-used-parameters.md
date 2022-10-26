@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542270"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682658"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>المعلمات التي لا يستخدمها تحسين التخطيط
 
@@ -111,10 +111,8 @@ ms.locfileid: "9542270"
 
 - علامة التبويب السريعة **عام**:
 
-  - **تضمين المخزون الفعلي** – في انتظار دعم *استهلاك المخزون الفعلي*.
   - **تجاوز الفعلي** – في انتظار دعم *استهلاك المخزون الفعلي*.
   - **استهلاك المخزون الفعلي** – في انتظار دعم *استهلاك المخزون الفعلي*.
-  - **تضمين حركات المخزون** – في انتظار دعم *استهلاك المخزون الفعلي*.
   - **تضمين عروض أسعار المبيعات** – في انتظار دعم *عروض أسعار المبيعات*.
   - **تضمين طلب عروض الأسعار** – في انتظار دعم *طلبات عروض الأسعار*.
   - **استخدم تواريخ فترة الصلاحية** – في انتظار دعم *فترة الصلاحية*.
@@ -190,4 +188,3 @@ ms.locfileid: "9542270"
 
   - **قابل للتصفية** – في انتظار دعم *أكواد الإرجاع للدفعة*.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

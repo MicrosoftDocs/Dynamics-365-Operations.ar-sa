@@ -2,19 +2,19 @@
 title: محادثه تجاره مع أومنيتشانيل للوحدة النمطية لخدمه العملاء
 description: توضح هذه المقالة محادثه التجارة مع أومنيتشانيل للوحدة النمطية لخدمه العملاء في Microsoft Dynamics 365 Commerce
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473799"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690306"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>محادثه تجاره مع أومنيتشانيل للوحدة النمطية لخدمه العملاء
 
@@ -82,6 +82,9 @@ ms.locfileid: "9473799"
 1. في مربع الحوار **تحديد الوحدات** ، حدد جزء المحادثة الذي قمت بإنشائه مسبقًا ، ثم حدد **موافق**.
 1. حدد **حفظ**، وحدد **إنهاء التحرير** لإيداع الجزء، ثم حدد **نشر** لنشره.
 
+> [!NOTE]
+> للحصول علي قائمه كامله بمعلمات التكوين ، راجع [وحده المحادثة التجارية النمطية معلمات](chat-proactive-chat-parameters.md)المحادثة الاستباقية.
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>أضافه Commerce headquarters كتبويب تطبيق لأومنيتشانيل لخدمه العملاء
 
 يمكنك إضافة علامة تبويب تطبيق لCommerce headquarters في Omnichannel لخدمة العملاء. يمكن للعاملين المباشرين بعد ذلك استخدام واجهه المستخدم الخاصة بأومنيتشانيل لتجربه عميل خدمه العملاء للوصول بسهوله إلى الوحدة النمطية Dynamics 365 Commerce لخدمه العملاء والتي تحتوي علي معلومات سياقيه للعميل مع معلومات أوامر التوريد الخاصة بهم. بالاضافه إلى ذلك ، يمكن لعوامل خدمه العملاء وضع أوامر جديده وبدء المرتجعات والتحقق من معلومات حاله الطلب.
@@ -115,6 +118,9 @@ ms.locfileid: "9473799"
 1. افتح ووركستريم الذي قمت بإنشاءه لوكلاءك ، ثم ضمن **إعدادات** متقدمة ، حدد **افتراضيات** جلسات العمل.
 1. ضمن **علامات تبويب** التطبيق ، حدد **علامة التبويب** أضافه تطبيق موجود ، ثم أضف علامة التبويب التطبيق الجديد التي قمت بإنشاءها سابقا. تضمن هذه الخطوة انه ستظهر علامة التبويب التطبيق التي تقوم بتحميل Commerce headquarters في iFrame وحده نمطيه عندما يتلقى أحد الوكلاء مكالمة محادثه وارده من موقع الويب الخاص بالتجارة الكترونيه.
 
+> [!NOTE]
+> لا يمكنك تعديل قالب جلسة المحادثة الافتراضية في ووركستريم ولذلك ، قد تحتاج إلى إنشاء قالب جديد أو تكرار القالب الموجود لتحديثه. لمزيد من المعلومات، راجع [ربط القوالب بمسار العمل](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>أضافه متغيرات السياق في Dynamics 365 أومنيتشانيل لخدمه العملاء
 
 لإضافة متغيرات السياق في Dynamics 365 Omnichannel لخدمة العملاء ، اتبع هذه الخطوات.
@@ -128,3 +134,11 @@ ms.locfileid: "9473799"
 
 > [!NOTE]
 > إذا كنت ترغب في قراءه عناوين البريد الكتروني وأسماء المستخدمين المسجلين الدخول من أحدي قنوات التجارة الكترونيه ، فيمكنك أضافه البريد الكتروني **والاسم** كمتغيرات السياق الخاصة بنوع **النص** ، بالاضافه إلى **متغير** السياق **AccountNumber**.
+
+## <a name="additional-resources"></a>الموارد الإضافية
+
+[نظره عامه حول ميزات المحادثة التجارية](commerce-chat-overview.md)
+
+[التجارة الدردشة مع Power Virtual Agents وحدة](chat-module-pva.md)
+
+[وحده دردشة التجارة ، محددات المحادثة الاستباقية](chat-proactive-chat-parameters.md)

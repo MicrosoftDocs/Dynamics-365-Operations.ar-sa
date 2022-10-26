@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-08-02
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7a8327552d9e6c38721fdac9ee1795e61f90f329
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: ee767a5d7c3dca2681861802ae42d7a07217c54d
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266475"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689330"
 ---
 # <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>قم بإتاحة البضائع النهائية فعليًا قبل ترحيلها إلى دفاتر اليومية
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 عندما يقوم أحد العمال بالإبلاغ عن صنف مصنع كمنته ، يقوم النظام بتسجيله كما هو متاح للمعالجة الفعلية الإضافيه (مثل الشحنة أو مهجور). اثناء هذه العملية ، يتم ترحيل دفتر يوميه واحد أو أكثر أيضا (مثل التقرير كدفتر يوميه منتهي ، ودفتر يوميه قائمه الانتقاء ، ودفتر يوميه بطاقة المسار). إذا كنت ترغب في جعل الأصناف متوفرة فعليا قبل معالجه كافة عمليات الترحيل ، فيمكنك اعداد النظام لتأجيل عمليات ترحيل دفتر اليومية. تتم أداره الترحيلات المؤجلة بعد ذلك بواسطة أحدي مهام المجموعة التي ستقوم بمعالجه عمليات الترحيل علي انها موارد النظام التي تسمح بها.
 

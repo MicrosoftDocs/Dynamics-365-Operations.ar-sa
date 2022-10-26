@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428273"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690011"
 ---
 # <a name="the-production-delays-scenario"></a>سيناريو تاخير الإنتاج
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 يقوم سيناريو *تأخيرات الإنتاج* بإنشاء إخطار إذا كان صافي الإنتاج أقل من قيمة حد معينة. في هذا السيناريو، سيتم إرسال رسالة *خروج* إلى مركز IoT Microsoft Azure لكل صنف تم إنتاجه. في Dynamics 365 Supply Chain Management ، يتم حساب تأخير الأمر استنادًا إلى مقدار الوقت المجدول لتشغيل أمر الإنتاج، وعدد الأصناف التي يجب إنتاجها، ومقدار الوقت الذي تم خلاله تشغيل المهمة وعدد إشارات *الخروج* التي تم استلامها. يتم إنشاء إخطار بالتأخير إذا كان عدد إشارات *الخروج* للمهمة أقل من قيمة الحد.
 

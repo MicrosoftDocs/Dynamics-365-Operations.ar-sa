@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334854"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682496"
 ---
 # <a name="engineering-change-management-overview"></a>نظرة عامة حول إدارة التغيير الهندسي
 
@@ -73,6 +73,9 @@ ms.locfileid: "9334854"
 1. يجب مزامنة قاعدة البيانات للتأكد من تحديث مفاتيح التكوين بشكل صحيح لعكس تغييراتك. نفذ إحدى الخطوات التالية بالاستناد إلى نوع البيئة التي تعمل عليها:
     - **بالنسبة لبيئات المستوى 1 (التطوير)**: افتح مشروعك في Microsoft Visual Studio ثم حدد **Dynamics 365 \> مزامنة قاعدة البيانات \> مزامنة**.
     - **بالنسبة للبيئات 2 (وأعلى)**: تتم مزامنة قاعدة البيانات بشكل تلقائي بعد إدخال البيئة إلى وضع الصيانة وإخراجها منه، بحيث يمكنك تخطي هذه الخطوة.
+
+> [!NOTE]
+> لاستخدام أداره تغيير الهندسة ، يجب تعيين *كل من تسلسل أرقام شجره المواد وتسلسل أرقام المعادلات (إذا كنت تستخدم الصيغ) علي ' تلقائي* ' في الصفحة ' تسلسلات **رقميه**.
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>تشغيل ميزات إدارة التغييرات الهندسية الإضافية
 

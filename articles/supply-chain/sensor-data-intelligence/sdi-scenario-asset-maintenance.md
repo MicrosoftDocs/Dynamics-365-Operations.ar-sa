@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644047"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689390"
 ---
 # <a name="the-asset-maintenance-scenario"></a>سيناريو صيانة الأصول
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 يتيح لك سيناريو *صيانة الأصول* استخدام بيانات أداه الاستشعار لإعداد سجلات العدادات. تتعقب سجلات العدادات استخدام أصل الجهاز وتستخدم كمدخلات لإنشاء جدول الصيانة الخاصة بأصل الجهاز.
 
@@ -115,6 +116,9 @@ ms.locfileid: "9644047"
 1. انتقل إلى **إدارة الأصول \> الأصول \> جميع الأصول**.
 1. ابحث عن الأصل الذي تريد فحصه وحدده. (إذا كنت تستخدم بيانات العرض التوضيحي التي قمت بإعدادها مسبقًا في هذه المقالة، فحدد *AK-101*.)
 1. في جزء الإجراءات، في علامة التبويب **الأصل** في المجموعة **الوقائية** حدد **العدادات** لفتح صفحة سجلات العداد الخاصة بالأصل *AK-101*.
+
+> [!NOTE]
+> يتم تكوين سجلات العدادات بشكل افتراضي ليتم ادراج كل ثلاث ساعات ، وهو ما يعني انه سيتم تجميع بيانات الاستشعار عند ذلك الفاصل الزمني. يمكنك تغيير الفاصل الزمني عن طريق تحرير الاستعلام في مكون Azure Stream Analytics.
 
 ### <a name="generate-maintenance-work-orders"></a>إنشاء أوامر عمل الصيانة
 

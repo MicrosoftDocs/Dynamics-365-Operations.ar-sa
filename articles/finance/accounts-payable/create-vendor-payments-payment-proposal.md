@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b868db915385a8433845e810cf169f1bf1686e3d
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845363"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682862"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>إنشاء مدفوعات المورد باستخدام مقترح دفع
 
@@ -111,7 +111,7 @@ ms.locfileid: "8845363"
 -   تنشيط حقل **التحكم في البُعد** من دون أي تعريف إضافي للأبعاد. سيتم إنشاء مقترح الدفع من دون مراعاة الأبعاد. لا ترث الحركة المنشأة أي أبعاد من الإدخال المطبق.
 -   تنشيط حقل **التحكم في البُعد** وتمكين الأبعاد الإضافية. يمكنك الآن تعريف كيفية نسخ الأبعاد إلى دفتر اليومية. على سبيل المثال: • قم بتحديد خانة الاختيار **BusinessUnit** لإنشاء مقترح دفع لكل وحدة أعمال لطريقة الدفع، • قم بتحديد خانة الاختيارة **CostCenter** لإنشاء مقترح دفع لكل مركز تكلفة لطريقة الدفع.
 
-> [[!NOTE]
+>[!NOTE]
 > إذا حددت أكثر من بُعد في الخيار الثالث، فسيتم إنشاء مقترح دفع لمجموعة الأبعاد.
 
 #### <a name="bank-account-selection"></a>تحديد الحساب البنكي

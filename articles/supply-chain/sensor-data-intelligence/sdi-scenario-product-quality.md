@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 8c4808ea3a0389c2a8699f0e11ea154705a6916d
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: c0f1c57251234921779f67faf61d47cdde119e64
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428274"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690038"
 ---
 # <a name="the-product-quality-scenario"></a>سيناريو جوده المنتج
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 في سيناريو *جودة المنتج* ، يتم اعداد أداه استشعار لقياس جوده مجموعه منتجات في صالة الإنتاج. إذا وقع القياس خارج حد معين للمنتج، يظهر إخطار في لوحه معلومات المشرف. علي سبيل المثال، تقوم أداه الاستشعار بقياس رطوبة منتج غذائي يخرج من خط الإنتاج. إذا كان القياس خارج قيمه الحد الأدنى أو الحد الأقصى المسموح بها لرطوبة المنتج، يتم إنشاء إخطار.
 

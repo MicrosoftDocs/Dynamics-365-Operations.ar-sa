@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186635"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689478"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>نظرة عامة على تخطيط متطلبات المواد حسب الطلب (DDMRP)
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 لسنوات، استخدمت الشركات تخطيط متطلبات المواد (MRP) كنظام لحساب المواد والمكونات المطلوبة لتصنيع منتج. ومع ذلك، فقد تغيرت سلاسل التوريد الآن. تتميز الأجزاء بفترات زمنية أطول نظرًا لأنه يتم الحصول عليها بشكل متزايد من الخارج. لذا، أبلغت العديد من الشركات عن معاناتها من نفاد المخزون أو زيادة المخزون، لأنها لا تعرف حجم المخزون. هناك أيضًا المزيد من تقلبات السوق (في بعض الأحيان توقعات غير دقيقة)، ويطلب العملاء المنتجات في وقت قصير. لذلك، هناك نقص في سلسلة التوريد في جميع أنحاء العالم. بالإضافة إلى ذلك، غالبًا ما توفر أدوات تخطيط موارد المؤسسات (MRP) للمخططين آلاف الإجراءات للقيام بها. لذا، من الصعب معرفة ما يجب التركيز عليه. غالبًا ما يكون الحل للعديد من هذه المشكلات هو التبديل إلى تخطيط متطلبات المواد حسب الطلب (DDMRP).
 

@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429113"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689176"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>معاينة الإصدار 10.0.30 من Dynamics 365 Supply Chain Management (نوفمبر 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>ما الجديد أو المتغير في الإصدار 10.0.30 من Dynamics 365 Supply Chain Management (نوفمبر 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-يصف هذا المقال الميزات الجديدة أو المتغيرة في إصدار المعاينة 10.0.30 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1362، وهو يتوفر وفق الجدول التالي:
+يصف هذا المقالا الميزات الجديدة أو المتغيرة في إصدار 10.0.30 من Microsoft Dynamics 365 Supply Chain Management. رقم بنية هذا الإصدار هي 10.0.1362، وهو يتوفر وفق الجدول التالي:
 
 - **معاينة الإصدار:** سبتمبر 2022
 - **التوفر العام للإصدار (تحديث ذاتي):** أكتوبر 2022
@@ -35,7 +34,7 @@ ms.locfileid: "9429113"
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
 | التصنيع | [مراقبه المعدات باستخدام معلومات الاستشعار لمستشعر](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [الصفحة الرئيسية لذكاء بيانات الاستشعار](../sensor-data-intelligence/sdi-home-page.md) | إدارة الميزات:<br>*الوظيفة الإضافية Sensor Data Intelligence (إصدار أولي)* |
-| Warehouse management | عمليات الالتفاف متعدد المستويات لتطبيق Warehouse Management للأجهزة المحمولة <!-- KFM: Add link when RP updates --> | [تكوين منحنيات للخطوات في عناصر قائمه الجهاز المحمول](../warehousing/warehouse-app-detours.md) | إدارة الميزات:<br>*عمليات الالتفاف متعدد المستويات لتطبيق Warehouse Management للأجهزة المحمولة* |
+| Warehouse management | [تحويلات متعددة المستويات لتطبيق جوال إدارة المستودعات](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [تكوين منحنيات للخطوات في عناصر قائمه الجهاز المحمول](../warehousing/warehouse-app-detours.md) | إدارة الميزات:<br>*عمليات الالتفاف متعدد المستويات لتطبيق Warehouse Management للأجهزة المحمولة* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>تحسينات الميزات المضمنة في هذا الإصدار
 
@@ -52,7 +51,7 @@ ms.locfileid: "9429113"
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>تحديثات النظام الأساسي لتطبيقات التمويل والعمليات
 
-يتضمن الإصدار 10.0.30 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.30 من تطبيقات التمويل والعمليات (نوفمبر 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md). <!--KFM: Confirm link -->
+يتضمن الإصدار 10.0.30 من Microsoft Dynamics 365 Supply Chain Management تحديثات النظام الأساسي. لمعرفة المزيد، راجع [تحديثات النظام الأساسي للإصدار 10.0.30 من تطبيقات التمويل والعمليات (نوفمبر 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
 ### <a name="bug-fixes"></a>إصلاح الأخطاء
 

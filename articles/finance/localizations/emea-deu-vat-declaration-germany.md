@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269393"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689450"
 ---
 # <a name="vat-declaration-germany"></a>إقرار ضريبة القيمة المضافة (ألمانيا)
 
@@ -198,7 +198,8 @@ ms.locfileid: "9269393"
 
    تتم طباعة هذا التنسيق عند تشغيل التقرير **الإبلاغ بضريبة المبيعات لفترة التسوية**. كما تتم طباعته أيضًا عند تحديد **طباعة** في الصفحة **مدفوعات ضريبة المبيعات**.
 
-4. في الصفحة **هيئات الضرائب**، حدد هيئه الضرائب، ثم في الحقل **تخطيط التقرير**، حدد **افتراضي**.
+4. إذا كان من الضروري الإبلاغ عن التصحيحات ، فمن **المقطع تقرير** خاص ، قم **بتضمين التصحيحات** علي **نعم**.
+5. في الصفحة **هيئات الضرائب** ، حدد هيئه الضرائب، ثم في الحقل **تخطيط التقرير** ، حدد **افتراضي**.
 
 إذا كنت تقوم بتكوين إقرار ضريبة القيمة المضافة في كيان قانوني يحتوي على [تسجيلات ضريبة القيمة المضافة متعددة](emea-reporting-for-multiple-vat-registrations.md)، اتبع الخطوات التالية:
 

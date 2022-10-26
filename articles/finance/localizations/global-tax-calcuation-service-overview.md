@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: cafc4c7089e0c042fc65c1e3fd21f8f1e930b785
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465156"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689874"
 ---
 # <a name="tax-calculation-overview"></a>نظره عامة على حساب الضريبة
 
@@ -74,6 +74,7 @@ ms.locfileid: "9465156"
 
 | Finance أو إصدار Supply Chain Management | إصدار تكوين الضريبة               |
 | --------------- | --------------------------------------- |
+| 10.0.31         | تكوين احتساب الضريبة 40.56.240 |
 | 10.0.30         | تكوين احتساب الضريبة 40.55.239 |
 | 10.0.29         | تكوين احتساب الضريبة 40.55.236 |
 | 10.0.28         | تكوين احتساب الضريبة 40.54.234 |
