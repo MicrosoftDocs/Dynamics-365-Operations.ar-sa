@@ -12,7 +12,7 @@
               items:
                 - name: الجديد أو التغييرات في صفحة Supply Chain Management الرئيسية
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31 (فبراير 2022)
+                - name: Supply Chain Management 10.0.31 (فبراير 2023)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: الإصدار 10.0.30 من Supply Chain Management (نوفمبر 2022)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: شهادة بلد المنشأ فيما يتعلق بالاتفاقية بين الولايات المتحدة والمكسيك وكندا
               href: transportation/usmca-certification-of-origin.md
+            - name: فواتير تجارية
+              href: transportation/commercial-invoice.md
             - name: إنشاء بوليصة شحن
               href: transportation/create-bill-of-lading.md
             - name: تخطيط مسارات نقل الشحن
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: تعبئة حاويات الشحن
                       href: warehousing/packing-containers.md
+                    - name: طباعة تسميات الحاويات
+                      href: warehousing/print-container-labels.md
                     - name: أعمال التعبئة لحزم الحاويات الخارجية ومعالجة الشحنات
                       href: warehousing/packing-work.md
+                    - name: تعبئة الحاويات باستخدام تطبيق Warehouse Management للأجهزة المحمولة
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: ‏‫سيناريو كمثال‬ - تعبئة الحاويات باستخدام تطبيق Warehouse Management للأجهزة المحمولة
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: إعداد إعادة توزيع الأصناف للانتقاء القصير
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: تسلسل العمل الموجه بواسطة النظام
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: تجميع النظام في قائمة عمل مفتوحة
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: تخطيط توجيه المستند لبطاقات لوحات الترخيص
+                    - name: تخطيطات تسميات توجيه المستندات
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: الأكواد الشريطية GS1 ورموز الاستجابة السريعة (QR)
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: ترقية عمليات إدارة المستودعات من Microsoft Dynamics AX 2012 إلى التمويل والعمليات
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: بيانات تتبع استخدام التخزين في المستودع‬
+              items:
+                - name: تمكين بيانات تتبع استخدام التخزين في المستودع‬ باستخدام Application Insights
+                  href: warehousing/application-insights-warehousing.md
+                - name: مراقبة استخدام الجهاز المحمول وأدائه
+                  href: warehousing/application-insights-wma.md
         - name: تطوير Supply Chain Management
           items:
             - name: دليل تطوير عنصر تحكم جانت

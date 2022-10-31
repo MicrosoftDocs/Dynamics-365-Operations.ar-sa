@@ -10,18 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: الميزات ‏‫الجديدة أو المتغيرة في Human Resources
               items:
+                - name: Human Resources 10.0.31 (البنية الأساسية المدمجة)
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: Human Resources 10.0.30 (البنية الأساسية المدمجة)
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (البنية الأساسية المدمجة)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (البنية الأساسية المدمجة)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Human Resources 10.0.27 (البنية الأساسية المدمجة)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: Human Resources 10.0.26 (البنية الأساسية المدمجة)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: Human Resources 10.0.25 (البنية الأساسية المدمجة)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: ما الجديد في Dynamics 365 Human Resources (مستقل)
                   items:
                     - name: ما الجديد في أرشيف عام 2021 لـ Dynamics 365 Human Resources (مستقل)
@@ -718,6 +714,8 @@
               href: hr-develop-create-performance-review.md
         - name: التعلم
           items:
+            - name: نظرة عامة على الدورة التدريبية
+              href: hr-course-overview.md
             - name: إعداد الدورات التدريبية
               href: hr-learning-courses.md
             - name: نظرة عامة على الاستبيانات

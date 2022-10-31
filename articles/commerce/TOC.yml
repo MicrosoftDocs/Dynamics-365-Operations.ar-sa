@@ -12,6 +12,8 @@
               items:
                 - name: الميزات الجديدة أو المتغيرة في صفحة Commerce الرئيسية
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.31 (فبراير 2023)
+                  href: get-started/whats-new-commerce-10-0-31.md
                 - name: Commerce 10.0.30 (نوفمبر 2022)
                   href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (أكتوبر 2022)
@@ -568,6 +570,8 @@
                       href: call-center-refund-payments.md
                     - name: إعداد بطاقة الائتمان وتفويضها والتقاطها
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?context=/dynamics365/context/commerce
+                    - name: تقييد استخدام الرمز المميز للدفع
+                      href: dev-itpro/limit-token-usage.md
                     - name: تكوين الفئات النقدية لنقطة البيع
                       href: cash-denominations.md
                     - name: تكوين معالجة بطاقة الائتمان
@@ -1236,6 +1240,8 @@
                       href: cart-icon-module.md
                     - name: وحدة السداد مع الخروج
                       href: add-checkout-module.md
+                    - name: الرموز المرجعية لخطأ وحدة السداد مع الخروج
+                      href: checkout-module-error-codes.md
                     - name: وحدة للدفع
                       href: payment-module.md
                     - name: وحدة عنوان الشحن

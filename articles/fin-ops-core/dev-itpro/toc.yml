@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: تحديثات النظام الأساسي للإصدار 10.0.29 (أكتوبر 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: تحديثات النظام الأساسي للإصدار 10.0.28 (أغسطس 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: الميزات التي تمت إزالتها أو إهمالها
               items:
                 - name: الصفحة الرئيسية للميزات التي تمت إزالتها أو إهمالها
@@ -1605,7 +1603,11 @@
             - name: تقرير أكواد التراخيص ومفاتيح التكوين
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: مشاركة البيانات عبر الشركة
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: الجداول المدعومة لمشاركة البيانات
+              href: sysadmin/drs-srs-tables.md
+            - name: مشاركة البيانات للمطورين
+              href: sysadmin/drs-srs-dev.md
             - name: وضع الصيانة
               href: sysadmin/maintenance-mode.md
             - name: حسابات النظام المكونة مسبقًا
