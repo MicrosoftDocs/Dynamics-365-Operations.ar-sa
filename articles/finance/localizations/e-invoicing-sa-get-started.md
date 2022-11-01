@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.21
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 794a691272c2cb9a2a07d35db0257344d5628b9b
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: 319e04b790fbb5a2319fc5613bca7caa361fda68
+ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9324029"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709205"
 ---
 # <a name="get-started-with-electronic-invoicing-for-saudi-arabia"></a>الشروع في العمل مع الفوترة الإلكترونية للمملكة العربية السعودية
 
@@ -69,7 +69,7 @@ ms.locfileid: "9324029"
 
 8. في علامة التبويب **عمليات الإعداد**، حدد **تحرير** للتكوين المحدد. 
 9. في قسم **مسار المعالجة**، قم بتشغيل خيار **تصدير النتيجة** لخيار **تحويل المستند**.
-10. في Key Vault، أنشئ شهادات لمعرفات طوابع التشفير (CSID). لمزيد من المعلومات، راجع [شهادات العملاء والأسرار](e-invoicing-customer-certificates-secrets.md).
+10. في Key Vault، أنشئ شهادات وأسرار لمعرفات طوابع التشفير (CSID). لمزيد من المعلومات، راجع [شهادات العملاء والأسرار](e-invoicing-customer-certificates-secrets.md).
 
     > [!NOTE]
     > بناءً على مكانك في عملية [الإعداد](#onboarding)، قم بإنشاء CSID الامتثال (CCSID) أو CSID الإنتاج (PCSID).
@@ -98,6 +98,8 @@ ms.locfileid: "9324029"
     4. في حقل **القيمة**، حدد **تخليص الفواتير** لفواتير الضرائب أو **إعداد تقارير الفواتير** للفواتير المبسطة.
     5. حدد **اسم الشهادة**.
     6. في حقل **القيمة**، حدد **CCSID** أو **PCSID**، اعتمادًا على مكانك في [عملية الإعداد](#onboarding).
+    7. حدد اسم **الاسم السري**.
+    8. في حقل **القيمة**، حدد **CCSIDSecret** أو **PCSIDSecret**، حسب مكانك في عملية الإعداد. 
 
 19. كرر الخطوات من 13 إلى 17 لإعداد ميزة **فاتورة المشروع** و **فاتورة البيع بالتجزئة المبسطة**. 
 19. إكمال ونشر ونشر ميزة **الفاتورة الإلكترونيه السعودية (SA)** إلى بيئة الخدمة. لمزيد من المعلومات، راجع [نشر ميزة الفوترة الإلكترونية في بيئة الخدمة](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment).

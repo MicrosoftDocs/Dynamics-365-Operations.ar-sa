@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 171b9f1dcb1d4ece63bc0beeb71f45b9f8ae7bba
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220509"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708773"
 ---
 # <a name="pack-containers-for-shipment"></a>حزم الحاويات للشحن
 
@@ -34,7 +34,9 @@ ms.locfileid: "9220509"
 - [التأكيد والتحويل](confirm-and-transfer.md)
 - [تعيين ابعاد مختلفه للتعبئة والتخزين](packing-vs-storage-dimensions.md)
 - [اعمال التعبئة لحزم الحاويات الخارجية ومعالجه شحنات](packing-work.md)
-<!-- KFM: Add link to upcoming topic when available (10.0.31): [Manual packing on the Warehouse management mobile app](manual-packing-on-the-warehouse-management-mobile-app.md) -->
+- [تعبئة الحاويات باستخدام تطبيق Warehouse Management للأجهزة المحمولة](warehouse-app-packing-containers.md)
+- [سيناريو مثال - تعبئة الحاويات باستخدام تطبيق Warehouse Management للأجهزة المحمولة](warehouse-app-pack-containers-scenario.md)
+- [طباعة تسميات الحاوية](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>اعداد المستودع الخاص بك لاستخدام عمليات التعبئة اليدوية
 

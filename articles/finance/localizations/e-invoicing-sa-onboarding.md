@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.28
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 312b0d001cdadc17746a623761eb613faaca98e0
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: b1c49f5aa621c9f9a353676f76eac87b0a97abb2
+ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474085"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709197"
 ---
 # <a name="electronic-invoicing-onboarding-in-saudi-arabia"></a>إعداد الفواتير الإلكترونية في المملكة العربية السعودية
 
@@ -82,6 +82,7 @@ ms.locfileid: "9474085"
     businessCategory=Industry
     ```
 
+6. احفظ الملف في نفس الموقع الموجود عليه البرنامج النصي بالاسم، **csr_config.txt**.
 6. في ملف التكوين، قم بتحديث قيمة **عنوان البريد الإلكتروني** والبيانات المحددة التالية.
 
     | الكود              | ‏‏الوصف‬ | المواصفات |
@@ -103,7 +104,7 @@ ms.locfileid: "9474085"
     > [!NOTE]
     > معلمة **كلمة المرور** اختيارية ويمكن حذفها. إذا تم تضمينها، فستحتوي الشهادة التي تم إنشاؤها على كلمة المرور المحددة.
 
-8. يتم استلام CCSID كملف شهادة بتنسيق PFX. احفظ ملف شهادة CCSID هذا في مخزن المفاتيح من Microsoft Azure. لمزيد من المعلومات، راجع [شهادات العملاء والأسرار](e-invoicing-customer-certificates-secrets.md).
+8. يتم استلام CCSID كملف شهادة باسم "CCSID.pfx"، ويتم حفظ سر CCSID كملف نصي باسم "CCSIDSecret.txt". احفظ ملف شهادة CCSID هذا في شهادة key vault Microsoft Azure واحفظ السر في Microsoft Azure key vault secret. لمزيد من المعلومات، راجع [شهادات وأسرار العميل](e-invoicing-customer-certificates-secrets.md).
 9. قم بتكوين إعداد الميزة ذات الصلة في ميزة **الفوترة الإلكترونية للفاتورة الإلكترونية في المملكة العربية السعودية (SA)**، وقم بالرجوع إلى شهادة CCSID التي قمت بحفظها في خزنة المفاتيح. سيتم استخدام الشهادة للتواصل مع بوابة الفواتير الإلكترونية ZATCA.
 
 ### <a name="compliance-check"></a>الاختيار الامتثال
@@ -156,9 +157,11 @@ ms.locfileid: "9474085"
 1. استخدم برنامج Windows PowerShell النصي التالي للحصول على CCSID وPCSID.
 
     ```powershell
+    #Saudi Arabian electronic invoice onboarding script
+    #Version 1.1
     param($action, $otp, $csrconfig, $password)
     $env:path = $env:path + ";C:\Program Files\Git\usr\bin"
-    
+
     if ($action -eq "getComplianceCSID")
     {
         if (-not (Test-Path -Path $csrconfig))
@@ -192,16 +195,16 @@ ms.locfileid: "9474085"
         $postHeader = @{
                "Accept"="application/json"
                "OTP"=$otp
-               "Content-Type"="application/json"}
+               "Content-Type"="application/json"
+               "Accept-Version"="V2"}
 
         try
         {
-            #Change URL to Zatca production URL when officially onboarding
-            $response = Invoke-WebRequest -Uri 'https://gw-apic-gov.gazt.gov.sa/e-invoicing/developer-portal/compliance' -Method POST -Body $postParams -Headers $postHeader 
+            $response = Invoke-WebRequest -Uri 'https://gw-apic-gov.gazt.gov.sa/e-invoicing/core/compliance' -Method POST -Body $postParams -Headers $postHeader 
         }
         catch
         {
-            Write-Host "Zatca service communication error:"
+            Write-Host "`nZatca service communication error:"
             Write-Host $_.Exception.Message 
             Write-Host "Please make sure the OTP code in script parameter and Serial Number (SN) in configuration file are valid."
             Write-Host "The process of obtaining a Compliance CSID (CCSID) is interrupted."
@@ -216,23 +219,30 @@ ms.locfileid: "9474085"
             $requestId | Out-File -FilePath .\requestId.txt -Encoding utf8 -NoNewline
 
             $CCSIDbase64 = $response.binarySecurityToken
-            Write-Host "Compliance CSID received from Zatca:"
+            Write-Host "`nCompliance CSID received from Zatca:"
             Write-Host $CCSIDbase64
             $CCSID = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($CCSIDbase64))
             $CCSIDCertString = "-----BEGIN CERTIFICATE-----`n" + $CCSID + "`n" + "-----END CERTIFICATE-----"
 
+            $CCSIDSecret = $response.secret
+            Write-Host "`nCompliance CSID secret received from Zatca:"
+            Write-Host $CCSIDSecret
+
             $CCSIDStringFileName = "CCSIDString.txt"
+            $CCSIDSecretFileName = "CCSIDSecret.txt"
             $CCSIDCertFileName = "CCSID.pem"
             $CCSIDFolderPath = Get-Location
             $CCSIDCertFilePath = Join-Path $CCSIDFolderPath $CCSIDCertFileName
             $CCSIDStringFilePath = Join-Path $CCSIDFolderPath $CCSIDStringFileName
+            $CCSIDSecretFilePath = Join-Path $CCSIDFolderPath $CCSIDSecretFileName
 
             $Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding $False
             [System.IO.File]::WriteAllLines($CCSIDCertFilePath, $CCSIDCertString, $Utf8NoBomEncoding)
             [System.IO.File]::WriteAllLines($CCSIDStringFilePath, $CCSIDbase64, $Utf8NoBomEncoding)
+            [System.IO.File]::WriteAllLines($CCSIDSecretFilePath, $CCSIDSecret, $Utf8NoBomEncoding)
 
             openssl pkcs12 -inkey privatekey.pem -in CCSID.pem -export -passout pass:$password -out CCSID.pfx
-            Write-Host "Certificate is saved to CCSID.pfx file."
+            Write-Host "`nCertificate is saved to CCSID.pfx file and secret is saved to CCSIDSecret.txt file."
             Write-Host "The process of obtaining a Compliance CSID (CCSID) is complete, please process the compliance check and do not delete or move any created files before getting PCSID."
         }
 
@@ -249,32 +259,43 @@ ms.locfileid: "9474085"
         {
             throw "'CCSIDString.txt' file is missing, please make sure you're running the script in the same location where the results of getting the CCSID are stored."
         }
+        if (-not (Test-Path -Path CCSIDSecret.txt))
+        {
+            throw "'CCSIDSecret.txt' file is missing, please make sure you're running the script in the same location where the results of getting the CCSID are stored."
+        }
 
         $requestId = Get-Content -path requestId.txt -Raw
         $requestId = $requestId -replace "`n",""
         $requestId = $requestId -replace "`r",""
-        Write-Host "Request ID for PCSID is:" $requestId
+        Write-Host "Request ID is:" $requestId
         $CCSID = Get-Content -path CCSIDString.txt -Raw
         $CCSID = $CCSID -replace "`n",""
         $CCSID = $CCSID -replace "`r",""
-        Write-Host "Compliance CSID received from Zatca:"
+        Write-Host "`nCompliance CSID read locally:"
         Write-Host $CCSID
+        $CCSIDSecretString = Get-Content -path CCSIDSecret.txt -Raw
+        $CCSIDSecretString = $CCSIDSecretString -replace "`n",""
+        $CCSIDSecretString = $CCSIDSecretString -replace "`r",""
+        Write-Host "`nCompliance CSID secret read locally:"
+        Write-Host $CCSIDSecretString
+        $AuthTokenString = $CCSID + ":" + $CCSIDSecretString
+        $BasicAuthToken = "Basic " + [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($AuthTokenString))
 
         #Init request for Production CSID (PCSID)
         $postParams = @{"compliance_request_id"=$requestId} | ConvertTo-Json
         $postHeader = @{
                "Accept"="application/json"
-               "currentCCSID"=$CCSID
-               "Content-Type"="application/json"}
+               "Authorization"=$BasicAuthToken
+               "Content-Type"="application/json"
+               "Accept-Version"="V2"}
 
         try
         {
-            #Change URL to Zatca production URL when officially onboarding
-            $response = Invoke-WebRequest -Uri 'https://gw-apic-gov.gazt.gov.sa/e-invoicing/developer-portal/production/csids' -Method POST -Body $postParams -Headers $postHeader
+            $response = Invoke-WebRequest -Uri 'https://gw-apic-gov.gazt.gov.sa/e-invoicing/core/production/csids' -Method POST -Body $postParams -Headers $postHeader
         }
         catch
         {
-            Write-Host "Zatca service communication error:"
+            Write-Host "`nZatca service communication error:"
             Write-Host $_.Exception.Message 
             Write-Host "Please make sure the compliance check process has been done before obtaining a Production CSID (PCSID)."
             Write-Host "The process of obtaining a Production CSID (PCSID) is interrupted."
@@ -284,33 +305,40 @@ ms.locfileid: "9474085"
         {
             $response = $response | ConvertFrom-Json
             $PCSIDbase64 = $response.binarySecurityToken
-            Write-Host "Production CSID received from Zatca:"
+            Write-Host "`nProduction CSID received from Zatca:"
             Write-Host $PCSIDbase64
 
             $PCSID = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($PCSIDbase64))
             $PCSIDCertString = "-----BEGIN CERTIFICATE-----`n" + $PCSID + "`n" + "-----END CERTIFICATE-----"
 
+            $PCSIDSecret = $response.secret
+            Write-Host "`nProduction CSID secret received from Zatca:"
+            Write-Host $PCSIDSecret
+
             $PCSIDCertFileName = "PCSID.pem"
-            $PCSIDCertFilePath = Get-Location
-            $PCSIDCertFilePath = Join-Path $PCSIDCertFilePath $PCSIDCertFileName
+            $PCSIDSecretFileName = "PCSIDSecret.txt"
+            $PCSIDFolderPath = Get-Location
+            $PCSIDCertFilePath = Join-Path $PCSIDFolderPath $PCSIDCertFileName
+            $PCSIDSecretFilePath = Join-Path $PCSIDFolderPath $PCSIDSecretFileName
 
             $Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding $False
             [System.IO.File]::WriteAllLines($PCSIDCertFilePath, $PCSIDCertString, $Utf8NoBomEncoding)
+            [System.IO.File]::WriteAllLines($PCSIDSecretFilePath, $PCSIDSecret, $Utf8NoBomEncoding)
 
             # Sandbox API will get error: openssl : No certificate matches private key
             openssl pkcs12 -inkey privatekey.pem -in PCSID.pem -export -passout pass:$password -out PCSID.pfx
 
             if (Test-Path -Path PCSID.pfx)
             {
-                Write-Host "Certificate is saved to PCSID.pfx file."
+                Write-Host "`nCertificate is saved to PCSID.pfx file and secret is saved to PCSIDSecret.txt file."
                 Write-Host "The process of obtaining a Production CSID (PCSID) is complete."
             }
             else
             {
-                Write-Host "The process of obtaining a Production CSID (PCSID) is interrupted."
+                Write-Host "`nThe process of obtaining a Production CSID (PCSID) is interrupted."
             }
         }
-    } 
+    }
     ```
 
 2. احفظ ملف شهادة .pfx الناتج الذي تم استلامه في خزنة المفاتيح.

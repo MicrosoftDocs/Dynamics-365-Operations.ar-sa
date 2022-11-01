@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336534"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714687"
 ---
 # <a name="usmca-certification-of-origin"></a>شهادة الأصل USMCA
 
@@ -57,7 +58,7 @@ ms.locfileid: "9336534"
 لطباعه مستند شهادة أصل USMCA لأحدي الشحنات ، قم بما يلي:
 
 1. قم بأحد الإجراءين التاليين:
-    - انتقل إلى **أداره النقل > شحنات > كافة الشحنات** وحدد الشحنة التي ترغب في طباعه المستند لها.
+    - انتقل إلى **إدارة النقل \> التخطيط \> الشحنات \> جميع الشحنات** وحدد الشحنة التي تريد طباعة المستند لها.
     - افتح صفحه **تفاصيل الشحن** الخاصة بالشحنة التي ترغب في طباعه المستند لها (هناك طرق عديده للحصول عليها هنا ، بما في ذلك من صفحه **كافة الشحنات**).
 1. في جزء الاجراء ، افتح علامة التبويب **الشحنات**، ثم من مجموعه **الطباعة**، حدد **شهادة أصل USMCA**.
 1. يتم فتح مربع الحوار **الشهادة أو الأصل**. قم بالإعدادات الموضحة في الأقسام الفرعية التالية ثم حدد **موافق** لإنشاء المستند.

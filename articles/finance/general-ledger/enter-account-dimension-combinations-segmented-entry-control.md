@@ -2,7 +2,7 @@
 title: إدخال مجموعات الحسابات والأبعاد (عنصر تحكم في الإدخال المقسم)
 description: توضح هذه المقالة كيفية إدخال مجموعات الحسابات والأبعاد أو حسابات دفتر الأستاذ. يُشار في أغلب الأحيان إلى تجربة الإدخال بعنصر التحكم في الإدخال المقسم.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bbe36bc42ca501cf3ff48aa4951a3959ea8056a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fca993294327e6742a11203255a187f8456e2921
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861347"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715264"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>إدخال مجموعات الحسابات والأبعاد (عنصر تحكم في الإدخال المقسم)
 

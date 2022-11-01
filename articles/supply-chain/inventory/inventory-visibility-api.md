@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423585"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719305"
 ---
 # <a name="inventory-visibility-public-apis"></a>واجهات API العامة لـ Inventory Visibility
 
@@ -47,6 +47,7 @@ ms.locfileid: "9423585"
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | ترحيل | [إنشاء تغييرات فعلية مجدولة](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | ترحيل | [الاستعلام باستخدام أسلوب الترحيل](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | إحضار | [الاستعلام باستخدام أسلوب الحصول](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/exactquery | ترحيل | [الاستعلام الدقيق باستخدام أسلوب الترحيل](#exact-query-with-post-method) |
 | /api/environment/{environmentId}/allocation/allocate | ترحيل | [إنشاء حدث تخصيص واحد](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/unallocate | ترحيل | [إنشاء حدث إلغاء تخصيص واحد](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/reallocate | ترحيل | [إنشاء حدث إعادة تخصيص واحد](inventory-visibility-allocation.md#using-allocation-api) |
@@ -690,6 +691,80 @@ Query(Url Parameters):
 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
+```
+
+### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>الاستعلام الدقيق باستخدام أسلوب الترحيل
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+في الجزء الأساسي من هذا الطلب، تُعد المعلمة `dimensionDataSource` معلمة اختيارية. إذا لم يتم تعيينه، فسوف تتم معاملة `dimensions` في `filters` بصفتها *أبعاد أساسية*. توجد أربعة حقول مطلوبه لـ `filters`: `organizationId`، و`productId`، و`dimensions`، و`values`.
+
+- يجب أن يحتوي `organizationId` قيمة واحدة فقط ، لكنها لا تزال مجموعة.
+- `productId` يمكن أن تحتوي على قيمة واحدة أو أكثر.. إذا كان فارغًا، فسيتم إرجاع كافة المنتجات.
+- في المصفوفة `dimensions`، مطلوب `siteId` و`locationId` ولكن يمكن أن يظهر مع العناصر الأخرى بأي ترتيب.
+- يمكن أن تحتوي `values` على واحد أو أكثر من مجموعات القيم المميزة المقابلة لـ `dimensions`.
+
+ستتم إضافة `dimensions` في `filters` تلقائيًا إلى `groupByValues`.
+
+تتحكم المعلمة `returnNegative` فيما إذا كانت النتائج تحتوي على إدخالات سالبة أم لا.
+
+يظهر المثال التالي نموذج محتوى النص الأساسي.
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "dimensions": ["siteId", "locationId", "colorId"],
+        "values" : [
+            ["iv_postman_site", "iv_postman_location", "red"],
+            ["iv_postman_site", "iv_postman_location", "blue"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
+```
+
+يوضح المثال التالي كيفية الاستعلام عن جميع المنتجات في مواقع وأماكن متعددة.
+
+```json
+{
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": [],
+        "dimensions": ["siteId", "locationId"],
+        "values" : [
+            ["iv_postman_site_1", "iv_postman_location_1"],
+            ["iv_postman_site_2", "iv_postman_location_2"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
 ```
 
 ## <a name="available-to-promise"></a>متوفر حسب التعهد

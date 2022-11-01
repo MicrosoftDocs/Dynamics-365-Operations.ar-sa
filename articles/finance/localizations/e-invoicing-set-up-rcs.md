@@ -2,7 +2,7 @@
 title: إعداد Regulatory configuration service (RCS)
 description: تشرح هذه المقالة كيفية إعداد Regulatory Configuration Service‏ (RCS).
 author: gionoder
-ms.date: 02/09/2022
+ms.date: 10/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 63a4f77d6e80133947dff678cef3885167ec55be
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 32ced98925ee66e02f0b073b4acbd586666ac20c
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9285776"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710771"
 ---
 # <a name="set-up-regulatory-configuration-service-rcs"></a>إعداد Regulatory configuration service (RCS)
 
@@ -39,7 +39,16 @@ ms.locfileid: "9285776"
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>إعداد المعلمات لتكامل RCS باستخدام الفوترة الإلكترونية
 
 1. في مساحة عمل **ميزات العولمة**، في قسم **الإعدادات ذات الصلة**، حدد **معلمات التقارير الإلكترونية**.
-2. في علامة التبويب **الفوترة الإلكترونية**، في حقل **عنوان URI لنقطة نهاية الخدمة**، أدخل نقطة نهاية الخدمة المناسبة لجغرافية Microsoft Azure، كما هو موضح في الجدول التالي.
+2. في المرة الأولى التي تقوم فيها بإعداد المعلمات، ستتم مطالبتك بالاتصال بـ Life Cycle Services (LCS). حدد **انقر هنا للاتصال بـ Lifecycle Services**، وبعد إنشاء الاتصال، حدد **موافق**.
+
+    > [!IMPORTANT]
+    > في البلدان أو المناطق التي يتم فيها فرض إقامة البيانات، وإذا تم توفير RCS في منطقة مختلفة حيث يتم توفير LCS، فقد تتلقى رسالة خطأ الاتصال التالية في RCS: "لم يتم العثور على مورد HTTP يطابق URI للطلب". حدد **موافق**. قد تتلقى رسالة خطأ أخرى في RCS: "فشل إنشاء الرمز المميز للمستخدم لـ Dynamics Lifecycle services نيابةً عن المستخدم (). يُرجى الاتصال بمسؤول النظام".
+    >  
+    > يحدث ذلك لأن LCS هي خدمة عالمية ويتم توفيرها في منطقة الولايات المتحدة. بسبب سياسة إقامة البيانات، يتعذر على RCS من منطقتك الحالية الاتصال بـ LCS. في ظل هذه الظروف، هناك حلان محتملان:
+    > - احذف RCS من منطقتك الحالية وأعد إنشائه في منطقة الولايات المتحدة.
+    > - تجاهل الأخطاء وتابع إعداد الفواتير الإلكترونية. لا تؤثر هذه الأخطاء على وظيفة الفوترة الإلكترونية.
+
+3. في علامة التبويب **الفوترة الإلكترونية**، في حقل **عنوان URI لنقطة نهاية الخدمة**، أدخل نقطة نهاية الخدمة المناسبة لجغرافية Microsoft Azure، كما هو موضح في الجدول التالي.
 
     | منطقة Azure الجغرافية لمركز البيانات | عنوان URI لنقطة نهاية الخدمة |
     |----------------------------|----------------------|
@@ -55,8 +64,10 @@ ms.locfileid: "9285776"
     | كندا                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | فرنسا                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | الهند                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | النرويج                     | <p>`https://gw.no-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | جنوب أفريقيا               | <p>`https://gw.za-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-3. تأكد من أنه تم تعيين حقل **معرف التطبيق** إلى **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. هذه القيمة هي قيمة ثابتة. تاكد من إدخال معرف فريد عمومي (GUID) فقط، وان القيمة التي لا تتضمن إيه رموز أخرى، مثل المسافات أو الفاصلات أو الفترات أو علامات الاقتباس.
+3. راجع الحقل **معرف التطبيق**، وأدخل القيمة الثابتة **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. تاكد من إدخال معرف فريد عمومي (GUID) فقط، وان القيمة التي لا تتضمن إيه رموز أخرى، مثل المسافات أو الفاصلات أو الفترات أو علامات الاقتباس.
 4. في حقل **معرف بيئة LCS**، أدخل معرف بيئة Microsoft Dynamics ‏Lifecycle Services ‏(LCS). هذه القيمة هي المرجع إلى بيئة Finance أو Supply Chain Management التي ستستخدمها مع خدمة الفوترة الإلكترونية. للحصول علي المعرف الخاص بك، قم بتسجيل الدخول إلى [LCS](https://lcs.dynamics.com/)، ثم افتح مشروعك، ثم في علامة التبويب **إدارة البيئة**، في قسم **تفاصيل البيئة**، ابحث في حقل **معرف البيئة**.
 
     > [!IMPORTANT]

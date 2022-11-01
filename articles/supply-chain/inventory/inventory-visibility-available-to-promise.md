@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856182"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719281"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>جداول التغيير الفعلية لرؤية المخزون والمتوفرة حسب التعهد
 
@@ -205,6 +205,7 @@ ms.locfileid: "8856182"
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | يمكنك إنشاء أحداث تغيير متعددة. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | الاستعلام باستخدام الأسلوب `POST`. |
 | `/api/environment/{environmentId}/onhand` | `GET` | الاستعلام باستخدام الأسلوب `GET`. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | الاستعلام الدقيق باستخدام الأسلوب `POST`. |
 
 لمزيد من المعلومات، راجع [واجهات برمجة التطبيقات العامة لرؤية المخزون](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ Body:
 > [!NOTE]
 > بغض النظر عما إذا كانت المعلمة `returnNegative`معينه إلى *true* أو *false* في النص الأساسي للطلب، فسوف تتضمن النتيجة قيمًا سالبه عند الاستعلام عن التغييرات الفعلية المجدولة ونتائج ATP. سيتم تضمين هذه القيم السالبة لأنه في حالة جدولة أوامر الطلب فقط، أو إذا كانت كميات التوريد أقل من كميات الطلب، فإن كميات التغيير المجدولة الفعلية ستكون سالبة. إذا لم تكن القيم السالبة متضمنة، فقد تكون النتائج محيرة. لمزيد من المعلومات حول هذا الخيار وكيف يعمل مع أنواع أخرى من الاستعلامات، راجع [واجهات برمجة التطبيقات العامة لرؤية المخزون](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>الاستعلام باستخدام الأسلوب POST
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-يوضح المثال التالي كيفية إنشاء النص الأساسي للطلب الذي يمكن إرساله إلى رؤية المخزون باستخدام الأسلوب`POST`.
+يوضح المثال التالي كيفية إنشاء النص الأساسي لطلب استعلام فهرس يمكن إرساله إلى رؤية المخزون باستخدام طريقة `POST`.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Body:
 }
 ```
 
-### <a name="get-method-example"></a>مثال لأسلوب GET
+### <a name="query-by-using-the-get-method"></a>الاستعلام باستخدام الأسلوب GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-يوضح المثال التالي كيفية إنشاء طلب URL كطلب `GET`.
+يوضح المثال التالي كيفية إنشاء عنوان URL لطلب استعلام فهرس كطلب `GET`.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 نتيجة الطلب `GET` هي نفسها نتيجة الطلب `POST` في المثال السابق.
 
+### <a name="exact-query-by-using-the-post-method"></a>الاستعلام الدقيق باستخدام الأسلوب POST
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+يوضح المثال التالي كيفية إنشاء النص الأساسي لطلب استعلام دقيق يمكن إرساله إلى رؤية المخزون باستخدام طريقة `POST`.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>مثال على نتيجة الاستعلام
 
-قد ينتج عن كلا المثالين السابقين للاستعلام الرد التالي. في هذا المثال، تم تكوين النظام بالإعدادات التالية:
+قد ينتج عن أي من أمثلة الاستعلام السابقة الرد التالي. في هذا المثال، تم تكوين النظام بالإعدادات التالية:
 
 - **مقياس ATP المحسوب:** *iv.onhand = pos.inbound – pos.outbound*
 - **فترة الجدولة:** *7*
