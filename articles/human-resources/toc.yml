@@ -4,6 +4,18 @@
       items:
         - name: صفحة Dynamics 365 Human Resources الرئيسية
           href: index.md
+        - name: دمج البنية التحتية لـ Human Resources
+          items:
+            - name: ‏‫نظرة عامة حول دمج البنية التحتية لـ Human Resources
+              href: hr-infrastructure-merge.md
+            - name: ترحيل عميل البنية التحتية لـ Human Resources
+              href: hr-cust-migration.md
+            - name: الأسئلة المتداولة حول دمج البنية التحتية لـ Human Resources
+              href: hr-infrastructure-merge-faq.md
+            - name: الأسئلة المتداولة بخصوص ترحيل عميل Human Resources
+              href: customer-migration.md
+            - name: المشاكل المعروفة حول دمج البنية التحتية لـ Human Resources
+              href: hr-migration-issues.md
         - name: ما الجديد أو المتغير
           items:
             - name: الجديد أو المتغير في تطبيقات التمويل والعمليات
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: الأسئلة المتداولة حول العرض المباشر
                   href: hr-admin-go-live-faq.md
-                - name: الأسئلة المتداولة حول دمج البنية التحتية لـ Human Resources
-                  href: hr-infrastructure-merge-faq.md
-                - name: الأسئلة المتداولة بخصوص ترحيل عميل Human Resources
-                  href: customer-migration.md
                 - name: موارد الوثائق
                   items:
                     - name: نظام التعليمات

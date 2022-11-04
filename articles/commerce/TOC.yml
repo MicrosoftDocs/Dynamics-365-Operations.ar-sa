@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: تحديث مكدس تكنولوجيا Commerce داخل المتجر (مستند تقني)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: التنفيذ واستكشاف الأخطاء وإصلاحها في Commerce
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: نشر كتالوج متجر عبر الإنترنت
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: محتوى Retail Channel Performance Power BI
@@ -396,12 +394,16 @@
                   items:
                     - name: تطبيق Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: قدرات تطبيق Store Commerce
+                      href: store-commerce-capabilities.md
                     - name: تطبيق Store Commerce لأنظمة الأجهزة المحمولة
                       href: dev-itpro/store-commerce-mobile.md
                     - name: ترحيل Modern POS لـ Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: إرشادات تطبيق إدارة الأجهزة
                       href: implementation-considerations-devices.md
+                    - name: التنفيذ واستكشاف الأخطاء وإصلاحها في Commerce
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: الاختيار بين Store Commerce وCloud POS
                       href: MPOS-or-CPOS.md
                     - name: عمليات نقطة البيع (POS) أثناء الاتصال وعدم الاتصال

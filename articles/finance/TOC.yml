@@ -692,20 +692,14 @@
               items:
                 - name: عملية إعداد التسوية البنكية المتقدمة
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: إعداد عملية استيراد التسوية البنكية المتقدمة
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: إعداد عملية استيراد التسوية البنكية المتقدمة باستخدام التقارير الإلكترونية
                   href: accounts-payable/import-bai2-er.md
                 - name: إعداد قواعد مطابقة التسوية البنكية
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: تسوية كشوف الحسابات البنكية باستخدام التسوية البنكية المتقدمة
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: الاستيراد المتقدم للتسوية البنكية MT940 - ترقية كيان بيانات مركب
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: نظرة عامة على التسوية البنكية المتقدمة
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: استكشاف الأخطاء وإصلاحها لاستيراد ملفات كشوف الحساب البنكية
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: تحديث الكيان المركب لدفتر يومية البنك‬
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: محاسبة التكاليف
