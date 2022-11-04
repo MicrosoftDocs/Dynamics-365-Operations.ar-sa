@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: إعداد سياسات للتدرج الهرمي لفئات التدبير
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: تقييم مخاطر التوريد‬
+              items:
+                - name: نظرة عامة على تقييم مخاطر التوريد
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: تكوين تقييم مخاطر التوريد
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: مساحة عمل قابلة للتنفيذ لاكتشاف مخاطر المورّدين ومعالجتها
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: تقارير Power BI حول تحليل المخاطر وتصنيف الأداء
+                  href: procurement/supply-risk-assessment-reports.md
             - name: إيصالات استلام المنتجات والفوترة
               items:
                 - name: إيصال استلام المنتجات في مقابل أوامر الشراء

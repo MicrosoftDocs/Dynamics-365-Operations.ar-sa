@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: الأسئلة المتداولة حول النشر
                       href: deployment/deploymentFAQ.md
+                    - name: ترحيل بيئة
+                      href: deployment/geo-to-geo-migrations.md
                     - name: المشكلات المعروفة المتعلقة بنشر الخدمة الذاتية
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: عمليات الصيانة لعمليات النشر
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: تحديث بيئة
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: ترحيل بيئة
+                      href: deployment/geo-to-geo-migrations.md
                     - name: استكشاف الأخطاء وإصلاحها في البيئات التي تم نشرها عبر الخدمة الذاتية للنشر
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: الأسئلة المتداولة حول الصيانة المخططة في البيئات ذاتية الخدمة
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: إعداد مشروع
               href: lifecycle-services/project-onboarding.md
+            - name: إدارة ترحيل المشروع
+              href: lifecycle-services/project-migration-manager.md
             - name: أداة تقدير الاشتراك
               href: lifecycle-services/subscription-estimator.md
             - name: تكوين الأمان
