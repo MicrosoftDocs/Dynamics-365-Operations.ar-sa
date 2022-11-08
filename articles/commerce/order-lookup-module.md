@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281444"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734232"
 ---
 # <a name="order-lookup-module"></a>الوحدة النمطية للبحث عن الأوامر
 
@@ -44,6 +44,12 @@ ms.locfileid: "9281444"
 ## <a name="add-an-order-lookup-module-to-a-page"></a>إضافة وحدة نمطية للبحث عن الأوامر في صفحة
 
 يمكن إضافة الوحدة النمطية للبحث عن الأوامر إلى النص الأساسي لأي صفحة من مواقع التجارة الإلكترونية. إذا كنت ترغب في استخدام الوحدة النمطية للبحث عن الأوامر لتمكين البحث عن الأوامر لعمليات السداد مع الخروج للضيف، فتأكد من إضافتها إلى صفحة لا تتطلب تسجيل دخول المستخدم. للعثور على إعداد **طلب تسجيل الدخول؟** للصفحة في منشئ موقع التجارة، حدد فتحة **الصفحة الافتراضية (مطلوبة)**، وانظر أسفل الجزء الأيمن.
+
+
+> [!NOTE]
+> لتمكين ميزة البحث عن الأوامر، تأكد من تمكين مفتاح **عروض الأسعار** ضمن **تكوين الترخيص** > **مفاتيح التكوين**.
+>
+> ![يجب تمكين تكوين مفتاح ترخيص عروض الأسعار](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

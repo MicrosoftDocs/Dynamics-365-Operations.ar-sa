@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0624c251646110644a8a72658a6dd6f8d319c57f
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869452"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734284"
 ---
 # <a name="recall-order-operation-in-pos"></a>إعادة استدعاء عملية الأمر في نقطة البيع
 
@@ -65,5 +65,11 @@ ms.locfileid: "8869452"
 ## <a name="add-notifications-to-the-recall-order-operation"></a>إضافة إخطارات لعملية استدعاء أمر
 
 في الإصدار 10.0.18 والإصدارات الأحدث، يمكنك تكوين إخطارات نقطة البيع وتنبيهات اللوحات المباشرة لعملية **استدعاء الأمر** عند الرغبة في ذلك. لمزيد من المعلومات، راجع [إظهار إخطارات الأمر في نقطة البيع (POS)](notifications-pos.md).  
+
+> [!NOTE]
+> لتمكين ميزة البحث عن الأوامر، تأكد من تمكين مفتاح **عروض الأسعار** ضمن **تكوين الترخيص** > **مفاتيح التكوين**.
+>
+> ![يجب تمكين تكوين مفتاح ترخيص عروض الأسعار](./media/Quotations_License_Key_Configuration.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

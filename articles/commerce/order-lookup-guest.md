@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 757e83887e318dd6aa54106fb78305f1d94e0f90
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286881"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734231"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>تمكين البحث عن الأوامر لعمليات السداد مع الخروج للضيف
 
@@ -73,6 +73,11 @@ ms.locfileid: "9286881"
 بالنسبة لرسائل البريد الإلكتروني ذات الصلة بالأمر، يمكنك توفير ارتباط أو زر ينقل العملاء إلى صفحة تفاصيل الأوامر للوصول إلى الأوامر الخاصة بهم. لإضافة هذا الارتباط أو الزر، قم بإنشاء ارتباط تشعبي HTML يشير إلى صفحة تفاصيل الطلب على موقع التجارة الإلكترونية، وقم بتمرير مُعرف تأكيد الأمر وعنوان البريد الإلكتروني للعميل كمعلمات URL، كما هو موضح في المثال التالي.
 
 `<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
+
+> [!NOTE]
+> لتمكين ميزة البحث عن الأوامر، تأكد من تمكين مفتاح **عروض الأسعار** ضمن **تكوين الترخيص** > **مفاتيح التكوين**.
+>
+>![يجب تمكين تكوين مفتاح ترخيص عروض الأسعار](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
