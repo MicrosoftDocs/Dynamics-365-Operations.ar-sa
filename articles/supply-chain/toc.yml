@@ -384,7 +384,7 @@
                       href: ../finance/localizations/rus-goods-transit-vendor.md?context=/dynamics365/context/supply-chain
         - name: المخطط المختلط الموزع
           items:
-            - name: قدرة وحدة القياس متوقفة مؤقتًا حاليًا للعملاء الجدد
+            - name: قدرة وحدة القياس متوقفة لـ Supply Chain Management مؤقتًا حاليًا
               href: cloud-edge/cloud-edge-landing-page.md
         - name: إدارة الأصول
           items:
@@ -1753,36 +1753,54 @@
           items:
             - name: الصفحة الرئيسية للتخطيط الرئيسي
               href: master-planning/master-planning-home-page.md
-            - name: الانتقال إلى تحسين التخطيط‬ للتخطيط الرئيسي
-              href: master-planning/new-master-planning-engine.md
-            - name: تحسين التخطيط
+            - name: بدء التخطيط الرئيسي‬
+              href: master-planning/planning-optimization/get-started.md
+            - name: بنية نظام التخطيط الرئيسي
+              href: master-planning/master-planning-architecture.md
+            - name: إدارة التخطيط الرئيسي
               items:
-                - name: نظرة عامة على تحسين التخطيط‬
-                  href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: بدء تحسين التخطيط
-                  href: master-planning/planning-optimization/get-started.md
                 - name: عملية إصدار تحسين التخطيط وسجل الإصدار
                   href: master-planning/planning-optimization/release-process.md
-                - name: تحليل ملاءمة تحسين التخطيط
-                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: الاختلافات بين التخطيط الرئيسي المضمن وتحسين التخطيط
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: المعلمات غير المستخدمة في تحسين التخطيط
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: جدول التوريد
-                  href: master-planning/supply-schedule.md
-                - name: تطبيق عوامل التصفية على الخطة
-                  href: master-planning/planning-optimization/plan-filters.md
+                - name: استكشاف أخطاء تحسين التخطيط وإصلاحها
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: حل رسالة الخطأ محرك الجدولة "تعذر العثور على قدرة كافية"
+                  href: master-planning/not-enough-capacity-error-resolution.md
+                - name: إلغاء وظيفة تخطيط
+                  href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: قابلية توسعة تحسين التخطيط‬
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: عرض سجلات التخطيط ومحفوظات الخطط
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: معلمات التاريخ والوقت المستخدمة في تحسين التخطيط
+                  href: master-planning/planning-optimization/date-time-used.md
+            - name: تكوين التخطيط الرئيسي
+              items:
+                - name: التأخيرات
+                  href: master-planning/delays.md
+                - name: استخدام التتبع لعملية تحديد إجمالي المكونات المطلوبة‬
+                  href: master-planning/trace-explosion.md
+                - name: التنفيذ التلقائي للتوريد حسب الأمر
+                  href: master-planning/make-to-order-supply-automation.md
+                - name: الأيام السالبة والأيام السالبة الديناميكية
+                  href: master-planning/more-about-dynamic-negative-days.md
+                - name: التقويمات والتخطيط الرئيسي
+                  href: master-planning/supply-chain-calendars-master-planning.md
+                - name: إنشاء جدول لموقع
+                  href: master-planning/tasks/create-schedule-site.md
+                - name: إنشاء خطة لموقع
+                  href: master-planning/tasks/create-plan-site.md
                 - name: التخطيط الرئيسي مع التنبؤات بالطلب
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: التخطيط الرئيسي مع التنبؤات بالتوريد
                   href: master-planning/planning-optimization/supply-forecast.md
+                - name: جدول التوريد
+                  href: master-planning/supply-schedule.md
+                - name: تشغيل التخطيط لمجموعة فرعية من الأصناف
+                  href: master-planning/planning-optimization/plan-filters.md
                 - name: التخطيط الرئيسي مع اتفاقيات الشراء التجارية
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: الخطة استنادًا إلى عروض الأسعار وطلبات عروض الأسعار (RFQ)‬‬
                   href: master-planning/planning-optimization/quotation-planning.md
-                - name: معلمات التاريخ والوقت المستخدمة في تحسين التخطيط
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: حدود الأمان
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: التسامح مع التأخير (الأيام السالبة)
@@ -1799,55 +1817,21 @@
                   href: master-planning/planning-optimization/finite-capacity.md
                 - name: الجدولة باستخدام تحديد المورد بالاستناد إلى القدرة الإنتاجية
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: التخطيط المستند إلى الأولوية
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: تخطيط متطلبات المواد حسب الطلب (DDMRP)
-                  items:
-                    - name: نظرة عامة حول DDMRP
-                      href: master-planning/planning-optimization/ddmrp-overview.md
-                    - name: قم بتشغيل ميزة DDMRP للنظام الخاص بك
-                      href: master-planning/planning-optimization/ddmrp-enable.md
-                    - name: موضع المخزون
-                      href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
-                    - name: ملفات تعريف المخزن المؤقت ومستوياته
-                      href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
-                    - name: التخطيط حسب الطلب
-                      href: master-planning/planning-optimization/ddmrp-planning.md
-                    - name: التنفيذ البصري والتعاوني
-                      href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-                - name: علامات المخزون مع تحسين التخطيط
+                - name: وضع علامات على المخزون‬
                   href: master-planning/planning-optimization/marking.md
                 - name: التخطيط بين الشركات الشقيقة
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: استبعاد منتجات ذات حالات دورة حياة منتج معينة
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: أساليب التزويد وتعديل الكمية
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: حدود وقت التغطية
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: صافي المتطلبات ومعلومات تثبيت السعر مع تحسين التخطيط
+                - name: ‏‫صافي المتطلبات ومعلومات تثبيت السعر
                   href: master-planning/planning-optimization/net-requirements.md
-                - name: الموافقة على الأوامر المخططة
-                  href: master-planning/planning-optimization/approved-planned-order.md
-                - name: تأكيد الأوامر المخططة
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: تم تبسيط الأوامر المخططة
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: التخطيط بالكميات الحالية السالبة
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: عرض سجلات التخطيط ومحفوظات الخطط
-                  href: master-planning/planning-optimization/plan-history-logs.md
-                - name: إلغاء وظيفة تخطيط
-                  href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: رسائل الإجراءات
-                  href: master-planning/action-messages.md
                 - name: حساب تواريخ تسليم أوامر المبيعات باستخدام CTP
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
-                - name: استكشاف أخطاء تحسين التخطيط وإصلاحها
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: قابلية توسعة تحسين التخطيط‬
-                  href: master-planning/planning-optimization/extensibility.md
-            - name: الخطط الرئيسية
+            - name: إعداد الخطط الرئيسية
               items:
                 - name: نظرة عامة على الخطط الرئيسية
                   href: master-planning/master-plans.md
@@ -1855,74 +1839,60 @@
                   href: master-planning/master-planning-setup.md
                 - name: معالج إعداد التخطيط الرئيسي
                   href: master-planning/master-planning-setup-wizard.md
+                - name: إنشاء خطة مقيدة
+                  href: master-planning/tasks/constrained-plan.md
+            - name: إعداد استراتيجيات التزويد
+              items:
                 - name: إعدادات التغطية
                   href: master-planning/coverage-settings.md
                 - name: تحديد قواعد تغطية للأصناف
                   href: master-planning/tasks/define-coverage-rules-items.md
-                - name: إنشاء خطة مقيدة
-                  href: master-planning/tasks/constrained-plan.md
-                - name: إنشاء خطة مادية للمنتجات المساعدة
-                  href: master-planning/tasks/create-material-plan-co-products.md
-                - name: الاحتفاظ بالأوامر المخططة
-                  href: master-planning/maintain-planned-orders.md
+                - name: مصدر المنتجات والمواد من موردين متعددين
+                  href: master-planning/source-from-multiple-vendors.md
+                - name: التخطيط المستند إلى الأولوية
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: أساليب التزويد وتعديل الكمية
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+            - name: الخطط الرئيسية ووظائف المواقع المتعددة
+              items:
+                - name: نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة
+                  href: master-planning/master-plan-multisite-functionality.md
+                - name: التخطيط الرئيسي لتغطية الموقع، المستودع إلزامي
+                  href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
+                - name: التخطيط الرئيسي لتغطية الموقع، المستودع غير إلزامي
+                  href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
+                - name: التخطيط الرئيسي لتغطية الموقع والمستودع، المستودع إلزامي
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
+                - name: التخطيط الرئيسي لتغطية الموقع والمستودع، المستودع غير إلزامي
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
+                - name: تحديد إصدار BOM
+                  href: master-planning/master-plan-bom-version-determined.md
+                - name: تحديد إجمالي المكونات المطلوبة‬ لإصدار BOM
+                  href: master-planning/master-plan-explosion-bom-version.md
+            - name: المخزون الاحتياطي
+              items:
                 - name: استيفاء المخزون الاحتياطي للأصناف
                   href: master-planning/safety-stock-replenishment.md
                 - name: استخدام دفتر يومية المخزون الاحتياطي لتحديث الحد الأدنى للتغطية للأصناف
                   href: master-planning/safety-stock-journal.md
-                - name: التأخيرات
-                  href: master-planning/delays.md
-                - name: إلغاء وظيفة تخطيط رئيسية
-                  href: master-planning/cancel-master-planning-job.md
-                - name: استخدام التتبع لعملية تحديد إجمالي المكونات المطلوبة‬
-                  href: master-planning/trace-explosion.md
-                - name: مراقبة تشغيل التخطيط الرئيسي
-                  href: master-planning/tasks/monitor-master-planning-run.md
-                - name: إنشاء جدول لموقع
-                  href: master-planning/tasks/create-schedule-site.md
-                - name: إنشاء خطة لموقع
-                  href: master-planning/tasks/create-plan-site.md
-                - name: التقويمات والتخطيط الرئيسي
-                  href: master-planning/supply-chain-calendars-master-planning.md
-                - name: حل رسالة الخطأ محرك الجدولة "تعذر العثور على قدرة كافية"
-                  href: master-planning/not-enough-capacity-error-resolution.md
-                - name: تحسين أداء التخطيط الرئيسي
-                  href: master-planning/master-planning-performance.md
-                - name: تحسين أداء محرك الجدولة
-                  href: master-planning/scheduling-engine-performance.md
-                - name: الخطط الرئيسية ووظائف المواقع المتعددة
-                  items:
-                    - name: نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة
-                      href: master-planning/master-plan-multisite-functionality.md
-                    - name: التخطيط الرئيسي لتغطية الموقع، المستودع إلزامي
-                      href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
-                    - name: التخطيط الرئيسي لتغطية الموقع، المستودع غير إلزامي
-                      href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
-                    - name: التخطيط الرئيسي لتغطية الموقع والمستودع، المستودع إلزامي
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
-                    - name: التخطيط الرئيسي لتغطية الموقع والمستودع، المستودع غير إلزامي
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: تحديد إصدار BOM
-                      href: master-planning/master-plan-bom-version-determined.md
-                    - name: تحديد إجمالي المكونات المطلوبة‬ لإصدار BOM
-                      href: master-planning/master-plan-explosion-bom-version.md
-                - name: الأيام السالبة والأيام السالبة الديناميكية
-                  href: master-planning/more-about-dynamic-negative-days.md
-                - name: إنشاء خطة بين الشركات الشقيقة
-                  href: master-planning/tasks/create-intercompany-plan.md
-                - name: إظهار مطلب مخطط صادر بين الشركات الشقيقة
-                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: صافي المتطلبات ومعلومات تثبيت السعر مع التخطيط الرئيسي المضمن
-                  href: master-planning/net-requirements-built-in-master-planning.md
-                - name: التنفيذ التلقائي للتوريد حسب الأمر
-                  href: master-planning/make-to-order-supply-automation.md
+            - name: إدارة الأوامر المخططة
+              items:
+                - name: الاحتفاظ بالأوامر المخططة
+                  href: master-planning/maintain-planned-orders.md
+                - name: عرض الأوامر المخططة وإدارتها والموافقة عليها
+                  href: master-planning/planning-optimization/approved-planned-order.md
+                - name: تأكيد الأوامر المخططة
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: تم تبسيط الأوامر المخططة
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: رسائل الإجراءات
+                  href: master-planning/action-messages.md
             - name: تنبؤ
               items:
-                - name: التنبؤ بالطلب والتوريد
-                  items:
-                    - name: التنبؤات بالمخزون
-                      href: master-planning/inventory-forecast.md
-                    - name: 'دليل: تعديل التنبؤ بالطلب يدويًا'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: التنبؤات بالمخزون
+                  href: master-planning/inventory-forecast.md
+                - name: 'دليل: تعديل التنبؤ بالطلب يدويًا'
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
                 - name: التنبؤ بالطلب
                   items:
                     - name: نظرة عامة على التنبؤ بالطلب‬
@@ -1943,10 +1913,50 @@
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: 'دليل: إنشاء تنبؤ أساسي'
                       href: master-planning/tasks/create-baseline-forecast.md
-                - name: التخطيط الرئيسي مع التنبؤ
-                  items:
-                    - name: طرق خفض التنبؤ
-                      href: master-planning/reduction-keys.md
+                - name: طرق خفض التنبؤ
+                  href: master-planning/reduction-keys.md
+            - name: تخطيط متطلبات المواد حسب الطلب (DDMRP)
+              items:
+                - name: نظرة عامة حول DDMRP
+                  href: master-planning/planning-optimization/ddmrp-overview.md
+                - name: قم بتشغيل ميزة DDMRP للنظام الخاص بك
+                  href: master-planning/planning-optimization/ddmrp-enable.md
+                - name: موضع المخزون
+                  href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
+                - name: ملفات تعريف المخزن المؤقت ومستوياته
+                  href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
+                - name: التخطيط حسب الطلب
+                  href: master-planning/planning-optimization/ddmrp-planning.md
+                - name: التنفيذ البصري والتعاوني
+                  href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+            - name: محرك التخطيط المهمل
+              items:
+                - name: نظرة عامة على محرك التخطيط المهمل
+                  href: master-planning/deprecated-master-planning-overview.md
+                - name: الانتقال إلى تحسين التخطيط‬ للتخطيط الرئيسي
+                  href: master-planning/new-master-planning-engine.md
+                - name: المعلمات غير المستخدمة في تحسين التخطيط
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: الاختلافات بين محرك التخطيط الرئيسي المهمل وتحسين التخطيط
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: تحليل ملاءمة تحسين التخطيط
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: تحسين أداء التخطيط الرئيسي
+                  href: master-planning/master-planning-performance.md
+                - name: تحسين أداء محرك الجدولة
+                  href: master-planning/scheduling-engine-performance.md
+                - name: إنشاء خطة بين الشركات الشقيقة
+                  href: master-planning/tasks/create-intercompany-plan.md
+                - name: إظهار مطلب مخطط صادر بين الشركات الشقيقة
+                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
+                - name: مراقبة تشغيل التخطيط الرئيسي
+                  href: master-planning/tasks/monitor-master-planning-run.md
+                - name: صافي المتطلبات ومعلومات تثبيت السعر مع محرك التخطيط المهمل
+                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: إنشاء خطة مادية للمنتجات المساعدة
+                  href: master-planning/tasks/create-material-plan-co-products.md
+                - name: إلغاء وظيفة تم إنشاؤها باستخدام محرك التخطيط الرئيسي المهمل
+                  href: master-planning/cancel-master-planning-job.md
         - name: تطبيق الأجهزة المحمولة
           items:
             - name: الصفحة الرئيسية لتطبيق الأجهزة المحمولة
