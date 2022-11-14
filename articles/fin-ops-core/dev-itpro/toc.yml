@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: واصفات اللغة والإعدادات المحلية عبر المنتج والتعليمات
                   href: help/language-locale.md
-                - name: التوسيع والتخصيص والتعاون في التعليمات
+                - name: التوسيع والتعاون في التعليمات
                   href: help/contributor-guide.md
             - name: الخدمات الإقليمية لتطبيقات التمويل والعمليات
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: إدارة الوصول إلى طابعات الشبكة عبر الكيانات القانونية
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: المراقبة وبيانات تتبع باستخدام Application Insights
+              items:
+                - name: نظرة عامة
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: الأمان
               items:
                 - name: أمان يستند إلى الدور
