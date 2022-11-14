@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: نسخ جدول فوترة
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: تقسيم العميل بجدول فوترة
+                      href: accounts-receivable/sb-customer-split.md
                     - name: ميزات جدول الفوترة
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: الفوترة الجزئية
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: مساحة عمل إقفال الفترة المالية
                   href: general-ledger/financial-period-close-workspace.md
+                - name: تحسين إقفال نهاية السنة
+                  href: general-ledger/optimize-year-end-close.md
                 - name: إقفال نهاية السنة
                   href: general-ledger/year-end-close.md
                 - name: إقفال السنة المالية
