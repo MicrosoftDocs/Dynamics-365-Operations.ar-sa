@@ -538,10 +538,14 @@
                       href: ../human-resources/hr-personnel-create-mass-hire-project.md
                 - name: طلبات التعيين (البنية الأساسية المدمجة)
                   items:
-                    - name: تعيين المرشحين للوظائف
+                    - name: توظيف المرشحين للوظائف
                       href: hr-personnel-recruit.md
         - name: إدارة المهام
-          href: hr-task-mgmt.md
+          items:
+            - name: نظرة عامة
+              href: hr-task-mgmt.md
+            - name: ترقية إدارة المهام
+              href: hr-task-update.md
         - name: الإجازة والغياب
           items:
             - name: نظرة عامة
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: إدارة توصيات العامل
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: تنمية الموارد البشرية
+    - name: تنمية Human Resources
       items:
         - name: نظرة عامة
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: الحقول المخصصة
           href: hr-developer-custom-fields.md
+        - name: التطوير والتخصيص
+          items:
+            - name: التعداد الأساسي للنوع
+              href: enum-exten.md
         - name: إعداد تكامل البينات
           items:
             - name: اختيار تقنية تكامل بيانات
