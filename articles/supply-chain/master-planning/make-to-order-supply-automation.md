@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220508"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740184"
 ---
 # <a name="make-to-order-supply-automation"></a>التنفيذ التلقائي للتوريد حسب الأمر
 
@@ -32,12 +32,6 @@ ms.locfileid: "9220508"
 - تعزيز تدفق المعلومات بين الشركات الشقيقة. يتم تحديث أوامر الشراء بحيث تتضمن حقولا لطريقه التسليم وشروط التسليم ورقم الصنف الخارجي. يضمن هذا التغيير ان المعلومات التفصيلية للطلب يمكن ان تتدفق مع تزويد الشركة.
 
 توضح هذه المقالة كيفية إعداد كل تحسين واستخدامه.
-
-> [!NOTE]
-> يتم تطبيق كافة التحسينات الموضحة في هذه المقالة علي الانظمه التي تستخدم التخطيط الرئيسي المضمن. يتم اعتماد التحسينات التاليتين أيضا بواسطة الوظيفة الاضافيه لتحسين التخطيط ل Microsoft Dynamics 365 Supply Chain Management:
->
-> - تفاوت التاخير في الخطط الرئيسية
-> - التحكم في تسلسل تثبيت السعر المستخدم اثناء التخطيط الرئيسي
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>تشغيل ميزه التنفيذ التلقائي لتقديم طلب الشراء
 
@@ -73,7 +67,7 @@ ms.locfileid: "9220508"
 
 هذه الخيارات متاحة أيضًا في **حقل علامة التحديث** على **التحديث القياسي** الخاص ب **معلمات التخطيط الرئيسي** صفحة, حيث تحدد التحديد الافتراضي **التأكيد** لصندوق المحادثة.
 
-لمزيد من المعلومات، راجع [تعليم المخزون مع التخطيط الأمثل](planning-optimization/marking.md).
+لمزيد من المعلومات، راجع [‏‫علامات المخزون](planning-optimization/marking.md).
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>تعيين تفاوت التاخير (الأيام السالبة) في مستوي الخطة الرئيسية
 

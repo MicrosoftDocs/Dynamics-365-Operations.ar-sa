@@ -2,23 +2,23 @@
 title: تكوين إدارة المهام
 description: يوضح هذا المقال كيفية تكوين ميزات إدارة المهام في Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282751"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746052"
 ---
 # <a name="configure-task-management"></a>تكوين إدارة المهام
 
@@ -80,7 +80,11 @@ ms.locfileid: "9282751"
 
 ![عمليه إدارة المهام في صفحة عمليات POS.](media/HQ-POS-Tasks-Notifications.png)
 
-لمزيد من المعلومات حول كيفية تكوين إخطارات نقاط البيع، راجع [‏‫إظهار إخطارات الأوامر في نقطة البيع (POS)](notifications-pos.md).
+لمزيد من المعلومات حول كيفية تكوين إخطارات نقاط البيع، ارجع إلى المقال [‏‫إظهار إخطارات الأوامر في نقطة البيع (POS)](notifications-pos.md).
+
+> [!NOTE]
+> عندما تقوم بحفظ التغيرات الخاصة بك، سيتم عرض رسالة التحديز التالية: **لن يتم تمكين معلمة العملية في مصمم شريط الأزرار لمُعرف عملية يساوي 4000 أو أقل. إذا كنت بصدد إنشاء عملية مخصصة وتريد تمرير المعلمة من مصمم شريط الأزرار، فاستخدم مُعرف عملية أكبر من 4000..** حدد **إغلاق** لإغلاق مربع الحوار.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>تكوين لوحة المهام على الصفحة الرئيسية لتطبيق نقطه البيع
 

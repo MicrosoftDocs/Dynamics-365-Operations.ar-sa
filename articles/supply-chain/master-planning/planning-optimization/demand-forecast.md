@@ -1,6 +1,6 @@
 ---
 title: التخطيط الرئيسي مع تنبؤات الطلب
-description: يوضح هذا المقال كيفيه تضمين تنبؤات الطلب اثناء التخطيط الرئيسي مع تحسين التخطيط.
+description: يوضح هذا المقال كيفية تضمين تنبؤات الطلب أثناء التخطيط الرئيسي.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878979"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739773"
 ---
-# <a name="master-planning-with-demand-forecasts"></a>التخطيط الرئيسي مع تنبؤات الطلب
+# <a name="master-planning-with-demand-forecasts"></a>التخطيط الرئيسي مع التنبؤات بالطلب
 
 [!include [banner](../../includes/banner.md)]
 
-يمكنك استخدام التنبؤ بالطلب مع تحسين التخطيط بالنسبة لحساب الطلب المتوقع في التخطيط الرئيسي الخاص بك. يمكنك إنشاء تنبؤ طلب يدويا أو استيراده أو إنشاؤه باستخدام وظيفة التنبؤ بالطلب في Microsoft Dynamics 365 Supply Chain Management. لمزيد من المعلومات حول التنبؤ بالطلب ، راجع [نظره عامه حول التنبؤ بالطلب](../introduction-demand-forecasting.md).
+يمكنك استخدام التنبؤ بالطلب لحساب الطلب المتوقع في التخطيط الرئيسي الخاص بك. يمكنك إنشاء تنبؤ طلب يدويا أو استيراده أو إنشاؤه باستخدام وظيفة التنبؤ بالطلب في Microsoft Dynamics 365 Supply Chain Management. لمزيد من المعلومات حول التنبؤ بالطلب ، راجع [نظره عامه حول التنبؤ بالطلب](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > تخطيط التنبؤ المنفصل غير مدعوم مع تحسين التخطيط. لذلك، لا يكون لاعداد **خطه التنبؤ الحالي** في الصفحة **معلمات التخطيط الرئيسية** اي تاثير عند استخدام تحسين أداء التخطيط.
@@ -50,7 +50,7 @@ ms.locfileid: "8878979"
     - **الفترة الزمنيه للتنبؤ** – إذا قمت بتعيين خيار **خطه التنبؤ** إلى *نعم*، حدد عدد الأيام (بدءا من تاريخ اليوم) التي يجب تطبيق التنبؤ بالطلب عليها.
 
     > [!IMPORTANT]
-    > إعداد **تخطيط التنبؤ** غير مدعوم مع تحسين التخطيط.
+    > إعداد **خطة التنبؤ** غير مدعوم مع تحسين التخطيط.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>اعداد مجموعة تغطية لتضمين التنبؤ بالطلب
 

@@ -2,7 +2,7 @@
 title: ‏‫وضع شروط دفع العميل‬
 description: يعرّف هذا الإجراء إعداد خصم نقدي وتاريخ استحقاق.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065697"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752766"
 ---
 # <a name="establish-customer-payment-terms"></a>‏‫وضع شروط دفع العميل‬
 
@@ -34,7 +34,11 @@ ms.locfileid: "9065697"
 6. في الحقل **يوم من الشهر**، أدخل تاريخًا. يجب إدخال التاريخ كرقم "10"' وليس "العاشر". 
 7. انقر فوق **حفظ**.
 8. قم بإغلاق الصفحة.
-9. انتقل إلى **جزء التنقل > الوحدات النمطية > الحسابات المدينة > إعداد المدفوعات‬ > شروط الدفع‬‬**.
+9. انتقل إلى **جزء التنقل > الوحدات النمطية > الحسابات المدينة > إعداد المدفوعات‬ > شروط الدفع‬‬**. 
+
+>[!NOTE] 
+>إذا كانت **شروط الدفع** هي **النقد**، فإن حقل **الدفع النقدي** الموجود في الصفحة **شروط الدفع** يجب أن تكون **لا**.
+
 10. انقر فوق **جديد**. **تُستخدم شروط الدفع** تعريف الطريقة التي سيتم بها حساب تواريخ الاستحقاق. يتم إعداد تاريخ الخصم النقدي في صفحة منفصلة. 
 11. في الحقل **شروط الدفع**، أدخل معرفًا.
 12. في الحقل **الوصف**، أدخل وصفًا.

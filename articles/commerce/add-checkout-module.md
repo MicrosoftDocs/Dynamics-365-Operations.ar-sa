@@ -2,7 +2,7 @@
 title: وحدة السداد مع الخروج
 description: يوضح هذا المقال كيفية إضافة الوحدة النمطية للسداد مع الخروج إلى صفحة، وتعيين الخصائص المطلوبة.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280464"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746215"
 ---
 # <a name="checkout-module"></a>وحدة السداد مع الخروج
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 يوضح هذا المقال كيفية إضافة الوحدة النمطية للسداد مع الخروج إلى صفحة، وتعيين الخصائص المطلوبة.
 
@@ -105,13 +106,15 @@ ms.locfileid: "9280464"
 1. قم بإنشاء قالب يستخدم جزء السداد مع الخروج جديد.
 1. قم بإنشاء صفحة السداد مع الخروج التي تستخدم القالب الجديد.
 
+> [ملاحظة] عند استخدام تخويل دفع مفرد كما هو موضح في [‏‫المدفوعات المحسنة في عملية السداد مع الخروج على واجهة المتجر‬](./dev-itpro/enhanced-sca.md)، في القسم **معلومات السداد مع الخروج‬** في صفحة سداد مع الخروج، قم بتأكيد أنه تم وضع حاوية قسم الخروج مع السداد آخرًا. ويضمن ذلك أن جميع المعلومات المطلوبة بواسطة صفحة سداد مع الخروج السابقة لإجراءات السداد مع الخروج للمدفوعات النهائية وإكمال الأوامر. 
+
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[الوحدة النمطية لعربة التسوق](add-cart-module.md)
+[وحدة عربة التسوق](add-cart-module.md)
 
-[وحدة أيقونة عربة التسوق](cart-icon-module.md)
+[وحدة رمز عربة التسوق](cart-icon-module.md)
 
-[الوحدة النمطية للدفع](payment-module.md)
+[وحدة للدفع](payment-module.md)
 
 [الوحدة النمطية لعنوان الشحن](ship-address-module.md)
 

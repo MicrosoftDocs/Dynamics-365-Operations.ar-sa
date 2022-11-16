@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 421f17402a2f3b37a9ccce9d747e2c0ec865ee39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d7035a7034d084a9bec453557694ce7f29ad347
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854460"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740361"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>ما الجديد أو المتغير في Dynamics 365 Supply Chain Management 10.0.9 (أبريل 2020)
 
@@ -73,7 +73,7 @@ ms.locfileid: "8854460"
 
 - [تأكيد الطلبات المخططة بطريقة متوازية‬‏‫](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - لمزيد من المعلومات، راجع [تأكيد الأوامر المخططة](../master-planning/planning-optimization/planned-order-firming.md) والفيديو [تحسينات أداء MRP وإمكانية الاستخدام](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 
-- [تحسين التخطيط للتوزيع‬‏‫](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - لمزيد من المعلومات، راجع [نظرة عامة على تحسين التخطيط‬‬](../master-planning/planning-optimization/planning-optimization-overview.md).
+- [تحسين التخطيط للتوزيع‬‏‫](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - لمزيد من المعلومات، راجع [الصفحة الرئيسي للتخطيط الرئيسي](../master-planning/master-planning-home-page.md).
 
 - [تحسينات اتفاقية الشراء](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - لمزيد من المعلومات، راجع [اتفاقيات الشراء](../procurement/purchase-agreements.md).
 

@@ -2,22 +2,22 @@
 title: مزامنة إدارة المهام بين Microsoft Teams ونقطة بيع Dynamics 365 Commerce
 description: يصف هذا المقال كيفية مزامنة إدارة المهام بين Microsoft Teams ونقطة بيع Dynamics 365 Commerce (POS).
 author: gvrmohanreddy
-ms.date: 02/17/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f7a26f1625ca9414a43f895ff37f697d573a36aa
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f339ae031f11ad850dab47f84bc9823cf6776e74
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268264"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746087"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>مزامنة إدارة المهام بين Microsoft Teams ونقطة بيع Dynamics 365 Commerce
 
@@ -30,6 +30,21 @@ ms.locfileid: "9268264"
 نظرًا لاستخدام Planner كمستودع للمهام في Teams، يجب أن يكون هناك ارتباط بين Teams وDynamics 365 Commerce. يتم إنشاء هذا الارتباط باستخدام معرف خطة معين لفريق متجر معين.
 
 توضح الإجراءات التالية كيفية إعداد مزامنة إدارة المهام بين تطبيقي نقطة البيع (POS) وTeams.
+
+## <a name="link-pos-and-teams-for-task-management"></a>ربط نقطة البيع وTeams لإدارة المهام
+
+لربط نقطة البيع وتطبيقات Microsoft Teams لإدارة المهام في إدارة Commerce، اتبع هذه الخطوات.
+
+> [!NOTE]
+> قبل محاولة دمج إدارة المهام مع Teams، تأكد من تمكين تكامل [Dynamics 365 Commerce و Microsoft Teams](enable-teams-integration.md). 
+
+1. انتقل إلى **Retail وCommerce \> إدارة المهام \> تكامل المهام مع Microsoft Teams**.
+1. في جزء الإجراءات، حدد **تحرير**.
+1. قم بتعيين خيار **تمكين تكامل إدارة المهام** إلى **نعم**.
+1. في جزء الإجراءات، حدد **حفظ**.
+1. في جزء الإجراء، حدد **إعداد إدارة المهام**. يجب أن تتلقى إخطارًا يشير إلى أنه جاري إنشاء وظيفة دفعية تحمل الاسم **توفير Teams**.
+1. انتقل إلى **إدارة النظام \> الاستعلامات \> وظائف الدفعات**، وابحث عن الوظيفة الأحدث التي تشتمل على وصف **توفير Teams**. انتظر حتى انتهاء تشغيل هذه الوظيفة.
+1. قم بتشغيل **وظيفة CDX رقم 1070** لنشر معرف الخطة ومراجع المتجر إلى خادم Retail.
 
 ## <a name="publish-a-test-task-list-in-teams"></a>نشر قائمة مهام الاختبار في Teams
 
@@ -50,20 +65,8 @@ ms.locfileid: "9268264"
 
 لمزيد من المعلومات، راجع [نشر قوائم المهام لإنشاء وتعقب العمل في مؤسستك](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df).
 
-## <a name="link-pos-and-teams-for-task-management"></a>ربط نقطة البيع وTeams لإدارة المهام
-
-لربط نقطة البيع وتطبيقات Microsoft Teams لإدارة المهام في إدارة Commerce، اتبع هذه الخطوات.
-
 > [!NOTE]
-> قبل محاولة دمج إدارة المهام مع Microsoft Teams، تأكد من تمكين تكامل [Dynamics 365 Commerce وMicrosoft Teams](enable-teams-integration.md). 
-
-1. انتقل إلى **Retail وCommerce \> إدارة المهام \> تكامل المهام مع Microsoft Teams**.
-1. في جزء الإجراءات، حدد **تحرير**.
-1. قم بتعيين خيار **تمكين تكامل إدارة المهام** إلى **نعم**.
-1. في جزء الإجراءات، حدد **حفظ**.
-1. في جزء الإجراء، حدد **إعداد إدارة المهام**. يجب أن تتلقى إعلامًا يشير إلى أنه جاري إنشاء وظيفة دفعة تحمل الاسم **توفير Teams**.
-1. انتقل إلى **إدارة النظام \> الاستعلامات \> وظائف الدفعات**، وابحث عن الوظيفة الأحدث التي تشتمل على وصف **توفير Teams**. انتظر حتى انتهاء تشغيل هذه الوظيفة.
-1. قم بتشغيل **وظيفة CDX رقم 1070** لنشر معرف الخطة ومراجع المتجر إلى خادم Retail.
+> بعد أن يتم نشر قائمة المهام بنجاح في Teams، سيتم عرض المهام في نقطة البيع. ثم يجب على مديري نقاط البيع والصرافين تشغيل تسجيل دخول Azure AD في نقطة البيع. لمزيد من المعلومات، راجع المقال [تمكين مصادقة Azure Active Directory لتسجيل دخول نقطة البيع](aad-pos-logon.md). 
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

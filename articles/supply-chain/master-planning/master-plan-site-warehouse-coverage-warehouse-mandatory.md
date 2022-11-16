@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a823d32ca24278154032a1cba3edea847d692e4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adcb2d41ff70714b6bc9c28f3e23ce95f5292f2e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844856"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740049"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>التخطيط الرئيسي لتغطية الموقع والمستودع، المستودع إلزامي
 
@@ -47,15 +47,11 @@ ms.locfileid: "8844856"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة](master-plan-multisite-functionality.md)
-
-[التخطيط الرئيسي لتغطية الموقع، المستودع إلزامي](master-plan-site-coverage-warehouse-mandatory.md)
-
-[التخطيط الرئيسي لتغطية الموقع، المستودع غير إلزامي](master-plan-site-coverage-warehouse-not-mandatory.md)
-
-[التخطيط الرئيسي لتغطية الموقع والمستودع، المستودع غير إلزامي](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-
-[تحديد إصدار BOM](master-plan-bom-version-determined.md)
+- [نظرة عامة على التخطيط الرئيسي ووظائف المواقع المتعددة](master-plan-multisite-functionality.md)
+- [التخطيط الرئيسي لتغطية الموقع، المستودع إلزامي](master-plan-site-coverage-warehouse-mandatory.md)
+- [التخطيط الرئيسي لتغطية الموقع، المستودع غير إلزامي](master-plan-site-coverage-warehouse-not-mandatory.md)
+- [التخطيط الرئيسي لتغطية الموقع والمستودع، المستودع غير إلزامي](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+- [تحديد إصدار BOM](master-plan-bom-version-determined.md)
 
 
 

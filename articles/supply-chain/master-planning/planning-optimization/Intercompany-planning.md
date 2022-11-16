@@ -1,6 +1,6 @@
 ---
 title: التخطيط بين الشركات الشقيقة
-description: يوضح هذا المقال التخطيط بين الشركات الشقيقة ويوضح كيفيه تكوين التخطيط بين الشركات الشقيقة بتحسين التخطيط في Microsoft Dynamics 365 Supply Chain Management.
+description: يوضح هذا المقال التخطيط بين الشركات الشقيقة ويوضح كيفية تكوين التخطيط بين الشركات الشقيقة في Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
-ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
+ms.openlocfilehash: 3d1c82aa3810b37b06b9d9157e73588fc1727348
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9538555"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740022"
 ---
-# <a name="intercompany-planning"></a>تخطيط بين الشركات الشقيقة
+# <a name="intercompany-planning"></a>التخطيط بين الشركات الشقيقة
 
 [!include [banner](../../includes/banner.md)]
 
 بالنسبة لبعض المؤسسات ، تعتمد عمليات التجهيزات علي كيانات قانونيه أخرى (الشركات) في المؤسسة. تتم معالجه هذه العمليات باستخدام المبيعات والمشتريات بين الشركات الشقيقة ، نظرا لان كل كيان قانوني يحتوي علي دليل حسابات منفصل.
 
-يوضح هذا المقال التخطيط بين الشركات الشقيقة ويوضح كيفيه تكوين التخطيط بين الشركات الشقيقة بتحسين التخطيط في Microsoft Dynamics 365 Supply Chain Management.
+يوضح هذا المقال التخطيط بين الشركات الشقيقة ويوضح كيفية تكوين التخطيط بين الشركات الشقيقة في Microsoft Dynamics 365 Supply Chain Management.
 
 يستخدم هذا المقال الشروط الهامه التالية للشركات الشقيقة:
 

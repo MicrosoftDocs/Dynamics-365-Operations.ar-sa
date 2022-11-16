@@ -1,6 +1,6 @@
 ---
 title: عرض سجلات التخطيط ومحفوظات الخطط
-description: يوضح هذا المقال كيفيه عرض تاريخ مهام التخطيط التي يتم تشغيلها بواسطة وظيفة تحسين التخطيط.
+description: يوضح هذا المقال كيفية عرض تاريخ وظائف التخطيط.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863929"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740921"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>عرض سجلات التخطيط ومحفوظات الخطط
 
 [!include [banner](../../includes/banner.md)]
 
-يوضح هذا المقال كيفيه عرض تاريخ مهام التخطيط التي يتم تشغيلها بواسطة وظيفة تحسين التخطيط في Microsoft Dynamics 365 Supply Chain Management.
+يوضح هذا المقال كيفية عرض تاريخ وظائف التخطيط في Microsoft Dynamics 365 Supply Chain Management.
 
 لعرض محفوظات أحدي الخطط ، افتح الخطة من خلال الانتقال **التخطيط الرئيسي** \> **إعداد**\> **خطط** \> **الخطط الرئيسية** وتحديد **المحفوظات**. تسرد المحفوظات كافة الوظائف الخاصة بالخطة المحددة. تشتمل القائمة على المهام المكتملة والنشطة.
 
@@ -47,14 +47,6 @@ ms.locfileid: "8863929"
     - إذا كنت تستخدم النموذج القديم: في جزء الإجراءات، في علامة التبويب **مهام المجموعة**، حدد **سجل**.
 
 1. حدد **تفاصيل الرسالة** لفتح جزء **تفاصيل الرسالة**، حيث يمكنك عرض كافة التحذيرات والأخطاء التي تم التقاطها أثناء المعالجة.
-
-## <a name="related-resources"></a>الموارد ذات الصلة
-
-- [نظرة عامة على تحسين التخطيط‬](planning-optimization-overview.md)
-- [بدء تحسين التخطيط](get-started.md)
-- [تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
-- [تطبيق عوامل تصفية على خطة](plan-filters.md)
-- [إلغاء وظيفة تخطيط](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

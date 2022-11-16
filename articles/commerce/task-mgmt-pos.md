@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 22a71fe66042a9ad189fd6a83a2666dfa64d35d0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 595a51eba1d0cd432d4f4de9405bf9f30a1ae00c
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281986"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746025"
 ---
 # <a name="task-management-in-pos"></a>إدارة المهام في نقطة البيع
 
@@ -36,6 +36,7 @@ ms.locfileid: "9281986"
 - **حاله المهمة** – تغيير حالة المهام المحددة.
 - **عامل التصفية** - افتراضيا، يتم عرض المهام النشطة فقط. ومع ذلك، بتطبيق عوامل التصفية، يمكن للمديرين عرض كافة المهام، حتى المهام التي تم إكمالها أو إلغاؤها.
 - **مهمة جديدة** – قم بإنشاء مهمة ضمن قائمة مهام موجودة أو إنشاء مهمة ذات هدف مفرد.
+- **تحرير المهمة** – تحرير تفاصيل مهمة.
 
 يمكن لعمال المتاجر تنفيذ عمليات المهام التالية في تطبيق نقطه البيع باستخدام الأزرار الموجودة على شريط الأوامر:
 

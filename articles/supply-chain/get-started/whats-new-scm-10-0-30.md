@@ -2,7 +2,7 @@
 title: ما الجديد أو المتغير في الإصدار 10.0.30 من Dynamics 365 Supply Chain Management (نوفمبر 2022)
 description: يصف هذا المقال الميزات الجديدة أو المتغيرة في 10.0.30. Microsoft Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714788"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748454"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>ما الجديد أو المتغير في الإصدار 10.0.30 من Dynamics 365 Supply Chain Management (نوفمبر 2022)
 
@@ -33,6 +33,7 @@ ms.locfileid: "9714788"
 
 | منطقة الميزة | الميزة | معلومات إضافية | تم التمكين بواسطة |
 |---|---|---|---|
+| المخزون واللوجستيات | [تتبع الكميات المحجوزة بشكل مبدئي داخل التوزيعات](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [تخصيص المخزون لرؤية المخزون](../inventory/inventory-visibility-allocation.md) |  تم التمكين من خلال [تكوين الخدمة](../inventory/inventory-visibility-configuration.md) |
 | التصنيع | [مراقبه المعدات باستخدام معلومات الاستشعار لمستشعر](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [الصفحة الرئيسية لذكاء بيانات الاستشعار](../sensor-data-intelligence/sdi-home-page.md) | إدارة الميزات:<br>*الوظيفة الإضافية Sensor Data Intelligence (إصدار أولي)* |
 | Warehouse management | [تحويلات متعددة المستويات لتطبيق جوال إدارة المستودعات](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [تكوين منحنيات للخطوات في عناصر قائمه الجهاز المحمول](../warehousing/warehouse-app-detours.md) | إدارة الميزات:<br>*عمليات الالتفاف متعدد المستويات لتطبيق Warehouse Management للأجهزة المحمولة* |
 

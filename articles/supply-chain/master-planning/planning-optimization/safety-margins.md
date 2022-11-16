@@ -1,6 +1,6 @@
 ---
 title: حدود الأمان
-description: يصف هذا المقال كيفيه استخدام هوامش الأمان مع الوظيفة الإضافية تحسين التخطيط لـ Microsoft Dynamics 365 Supply Chain Management.
+description: يوضح هذا المقال كيفية عمل الحدود الأمنة أثناء التخطيط الرئيسي.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335184"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740431"
 ---
 # <a name="safety-margins"></a>حدود الأمان
 
 [!include [banner](../../includes/banner.md)]
 
-يصف هذا المقال كيفيه استخدام هوامش الأمان مع الوظيفة الإضافية تحسين التخطيط لـ Microsoft Dynamics 365 Supply Chain Management.
+يوضح هذا المقال كيفية عمل الحدود الأمنة أثناء التخطيط الرئيسي.
 
 ## <a name="safety-margins-overview"></a>نظره عامة حول هوامش الأمان
 
@@ -165,12 +165,5 @@ ms.locfileid: "9335184"
 على سبيل المثال، وقت إنتاج الصنف هو من يوم واحد وهامش الاستلام من ثلاثة أيام. يتم تعيين أمر مبيعات لهذا الصنف على أنه مطلوب اليوم. وفي هذه الحالة، يتم حساب التأخير باعتباره *وقت الإنتاج* + *هامش الاستلام* = أربعة أيام. وبالتالي، إذا كان اليوم هو 14 أغسطس، فإن فترة تأخير من أربعة أيام تُنتج التسليم في 18 أغسطس. يبين الرسم التوضيحي التالي هذا المثال.
 
 ![مثال تأخير الحساب.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>الموارد الإضافية
-
-[بدء تحسين التخطيط](get-started.md)
-
-[تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

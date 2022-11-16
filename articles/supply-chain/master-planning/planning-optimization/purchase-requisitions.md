@@ -1,6 +1,6 @@
 ---
 title: طلبات الشراء
-description: يوضح هذا المقال كيفيه دعم طلبات الشراء في تحسين أداء التخطيط.
+description: يوضح هذا المقال طلبات الشراء.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867887"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740674"
 ---
 # <a name="purchase-requisitions"></a>طلبات الشراء
 
@@ -59,7 +59,7 @@ ms.locfileid: "8867887"
 1. كرر الخطوتين 2 و 3 لكل خطة رئيسية اضافيه حيث تريد تعيين الحد الزمني للطلبات المعتمدة.
 
 > [!IMPORTANT]
-> **قريبا:** الطلبات المعتمدة لم يتم اعتماد حدود الوقت لتحسين التخطيط. وحتى يتم دعمها، سيتم تجاهل كافة القيم التي تقوم بإدخالها في الحقل **الحد الزمني للطلبات المعتمدة (الأيام)**.
+> ‏‫الحدود الزمنية للطلبات الموافَق عليها‬ غير مدعومة لتحسين التخطيط. وحتى يتم دعمها، سيتم تجاهل كافة القيم التي تقوم بإدخالها في الحقل **الحد الزمني للطلبات المعتمدة (الأيام)**.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>التوريد المستقل، بغض النظر عن كود التغطية
 

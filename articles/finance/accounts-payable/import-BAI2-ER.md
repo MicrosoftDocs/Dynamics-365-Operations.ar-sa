@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 46a50f4b00125656fc185ad569b94eeef00dc3c3
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
+ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337556"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752710"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>قم بإعداد استيراد التسوية البنكية المتقدمة باستخدام التقارير الإلكترونية
 
@@ -34,7 +34,7 @@ ms.locfileid: "9337556"
 2. على الإطار المتجانب لموفر تكوين **Microsoft**، حدد **المستودعات**.
 3. حدد **العمومي**، ثم حدد **فتح**.
 4. إذا كان يجب إنشاء اتصال بالمستودع، فحدد الارتباط الأزرق في مربع الحوار.
-5. في قائمة التكوين، ابحث عن **نموذج كشف حساب بنكي \> نموذج كشف حساب بنكي من BAI2**.
+5. في قائمة التكوين، ابحث عن **نموذج تسوية كشف حساب بنكي متقدم \> تنسيق ABR BAI2**..
 6. حدد تنسيق **BAI2**.
 7. في علامة التبويب السريعة **إصدارات**، حدد أحدث إصدار، ثم حدد **استيراد**.
 

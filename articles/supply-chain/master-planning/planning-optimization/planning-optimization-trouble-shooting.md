@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f078fda02a11eb2073738d59b45f81698b707653
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37c38ab9cec8ae3c9d4decf8043b43ea2251083e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889508"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739719"
 ---
 # <a name="troubleshoot-planning-optimization"></a>استكشاف أخطاء تحسين التخطيط وإصلاحها 
 
@@ -37,13 +37,13 @@ ms.locfileid: "8889508"
 
 ## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a>فشل تخطيط الوظائف الدفعية عند تمكين تحسين أداء التخطيط
 
-عند تمكين تحسين التخطيط، يتم تعطيل مشغل التخطيط الرئيسي المضمن تلقائيًا. تفشل الوظائف الدفعة للتخطيط الرئيسي التي تم إنشاؤها لمحرك تخطيط Supply Chain Management المضمن إذا تم تشغيلها أثناء تكمين تحسين أداء التخطيط. قد تتلقي رسالة خطأ مثل *هذه العملية أطلقت عملية تخطيط رئيسي غير مدعومة عند تمكين تحسين التخطيط*.
+عند تمكين تحسين التخطيط، يتم تعطيل محرك التخطيط الرئيسي المهمل تلقائيًا. تفشل الوظائف الدفعية للتخطيط الرئيسي التي تم إنشاؤها لمحرك التخطيط الرئيسي المهمل إذا تم تشغيلها أثناء تمكين تحسين التخطيط. قد تتلقي رسالة خطأ مثل *هذه العملية أطلقت عملية تخطيط رئيسي غير مدعومة عند تمكين تحسين التخطيط*.
 
-**الإصلاح**: قم بإلغاء كافة الوظائف الدفعية للتخطيط الرئيسي التي تم إنشاؤها لمحرك تخطيط Supply Chain Management المضمن.
+**الإصلاح**: قم بإلغاء كافة الوظائف الدفعية للتخطيط الرئيسي التي تم إنشاؤها لمحرك التخطيط الرئيسي المهمل.
 
 ## <a name="planning-optimization-results-are-different-from-earlier-results"></a>تختلف نتائج تحسين التخطيط عن النتائج السابقة
 
-تختلف نتائج تحسين التخطيط عن تصميم التخطيط الرئيسي المضمن في بعض المناطق. ويمكن أيضًا أن يحدث ذلك بسبب الميزات المعلقة.
+يختلف تحسين التخطيط عن تصميم محرك التخطيط الرئيسي المهمل في بعض المناطق. ويمكن أيضًا أن يحدث ذلك بسبب الميزات المعلقة.
 
 **الإصلاح** : قم بتشغيل تحليل ملاءمة تحسين التخطيط ، ثم قم بتحليل النتائج في حين الرجوع إلى الوثائق ذات الصلة لفهم التأثير. لمزيد من المعلومات، راجع [تحليل ملائمة تحسين التخطيط](planning-optimization-fit-analysis.md).
 
@@ -63,9 +63,8 @@ ms.locfileid: "8889508"
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
-[بدء تحسين التخطيط](get-started.md)
-
-[تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
+- [الشروع في العمل مع التخطيط الرئيسي](get-started.md)
+- [تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

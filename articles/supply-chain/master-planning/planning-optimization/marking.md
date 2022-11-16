@@ -1,6 +1,6 @@
 ---
-title: علامات المخزون مع تحسين التخطيط
-description: يوفر هذا المقال معلومات حول الخيارات المتاحة لتمييز المخزون في الأوامر المؤكدة عند استخدام تحسين التخطيط.
+title: علامات على المخزون
+description: يوفر هذا المقال معلومات حول الخيارات المتاحة لوضع علامات على المخزون في الأوامر المؤكدة.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219926"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740566"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>علامات المخزون مع تحسين التخطيط
+# <a name="inventory-marking"></a>علامات على المخزون
 
 [!include [banner](../../includes/banner.md)]
 
-يوفر هذا المقال معلومات حول الخيارات المتاحة لتمييز المخزون في الأوامر المؤكدة عند استخدام تحسين التخطيط.
+يوفر هذا المقال معلومات حول الخيارات المتاحة لوضع علامات على المخزون في الأوامر المؤكدة.
 
 تستخدم *العلامة* لربط التوريد والطلب. وهو يمثل *تثبيت* السعر، والذي يشير إلى الطريقة التي يتوقع بها التخطيط الرئيسي تغطيه الطلب. من وجهه لعرض التخطيط ، فان الفرق الأساسي هو ان وضع العلامة يعد أكثر نهائيه من تثبيت السعر.
 

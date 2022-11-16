@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f5f1f2c8e3e43e36d837ebf989422b0dca7819d6
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900930"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741166"
 ---
 # <a name="cancel-a-planning-job"></a>إلغاء وظيفة تخطيط
 
@@ -29,8 +29,7 @@ ms.locfileid: "8900930"
 
 في Microsoft Dynamics 365 Supply Chain Management، يمكنك إلغاء وظيفة تخطيط نشطة تستخدم وظيفة تحسين التخطيط. عندما تقوم بتحديد **إلغاء** في مربع الحوار عند تشغيل مهمة تحسين التخطيط مباشرة من واجهة المستخدم (غير موجودة في الخلفية)، فلن يؤدي ذلك إلى إلغاء مهمة تحسين التخطيط. حتى إذا تلقيت تحذيرًا مثل "تم إلغاء العملية"، فإنك ستظل بحاجة إلى استخدام الخطوات التالية لإلغاء مهمة تخطيط بتحسين التخطيط.
 
-
-لإلغاء وظيفة تخطيط نشطة، اتبع الخطوات التالية. 
+لإلغاء وظيفة تخطيط نشطة، اتبع الخطوات التالية.
 
 > [!NOTE]
 > يمكن إلغاء الوظائف النشطة فقط.
@@ -45,18 +44,6 @@ ms.locfileid: "8900930"
 
 > [!NOTE]
 > لرؤية تغييرات الحالة، يجب تحديث الصفحة بتحديد الزر **تحديث**.
-
-## <a name="additional-resources"></a>الموارد الإضافية
-
-[نظرة عامة على تحسين التخطيط‬](planning-optimization-overview.md)
-
-[بدء تحسين التخطيط](get-started.md)
-
-[تحليل ملاءمة تحسين التخطيط](planning-optimization-fit-analysis.md)
-
-[عرض سجل محفوظات الخطط والتخطيط](plan-history-logs.md)
-
-[تطبيق عوامل تصفية على خطة](plan-filters.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
