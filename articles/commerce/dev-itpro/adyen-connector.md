@@ -2,7 +2,7 @@
 title: نظرة عامة على Dynamics 365 Payment Connector لـ Adyen
 description: يوفر هذا المقال نظرة عامة على موصل دفع Microsoft Dynamics 365لـ Adyen.
 author: rassadi
-ms.date: 10/27/2022
+ms.date: 11/16/2022
 ms.topic: overview
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -12,13 +12,12 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 931fc69cda8daa2e06b6f1155fbf0369fd2bca55
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728299"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9784982"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>نظرة عامة على Dynamics 365 Payment Connector لـ Adyen
 
@@ -97,6 +96,11 @@ ms.locfileid: "9728299"
 ### <a name="supported-payment-terminals"></a>الوحدات الطرفية للدفع المدعومة
 يستفيد موصل دفع Dynamics 365 لـ Adyen من [واجهة برمجة التطبيقات الوحدات الطرفية لدفع Adyen](https://www.adyen.com/blog/introducing-the-terminal-api) التشخيصية للجهاز. وهو يدعم كافة الوحدات الطرفية للدفع التي تدعمها واجهة برمجة التطبيقات (API) هذه. للحصول على قائمة كاملة بالوحدات الطرفية للدفع المدعومة، قم بزيارة [الوحدات الطرفية لنقطة بيع Adyen](https://www.adyen.com/pos-payments/terminals).
 
+يصف الفيديو التالي قدرات الوحدة الطرفية لدفع Castles SE1 بنظام Android.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bKeM]
+
 ### <a name="supported-payment-instruments"></a>أدوات الدفع المدعومة
 
 #### <a name="supported-debit-and-credit-cards"></a>البطاقات المدينة والدائنة المدعومة
@@ -134,7 +138,7 @@ ms.locfileid: "9728299"
 | ديسكفر | Android Pay | ✔ |  |  |
 | ديسكفر | Apple Pay | ✔ |  |  |
 | ديسكفر | Samsung Pay | ✔ |  |  |
-| بطاقة دينرز  ماستر كارد | قياسي | ✔ | ✔ | ✔ |
+| بطاقة دينرز ماستر كارد | قياسي | ✔ | ✔ | ✔ |
 | Dineromail | قياسي | ✔ | ✔ | ✔ |
 | JCB | قياسي | ✔ | ✔ | ✔ |
 | Union Pay\* | قياسي | ✔ |  |  |

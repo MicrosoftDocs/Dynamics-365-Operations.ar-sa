@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8811d4a43dba05e63b270893600a622527834901
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9ba11a561f320a7f4e787e4fe3f4e6f4fb88bbfb
+ms.sourcegitcommit: ca73177dedf40df16860eaf88b1c701c61992028
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982917"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9754100"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>نظرة عامة على تكوين المنتجات المستند إلى الأبعاد
 
@@ -74,7 +74,7 @@ ms.locfileid: "7982917"
 
 يتم استخدام تقنية التكوين المستندة إلى بعد بشكل أفضل للمنتجات ذات التغير المحدود ومجموعة حجم ونمط ولون المنتج القياسي، ويكون التكوين غير صالح لتحديد متغير منتج معين. يمكن أن يكون مثالاً على ذلك الدراجات مع ارتفاع الإطار وحجم العجلات وأنواع الفرامل والتروس المختلفة.
 
-### <a name="next-step"></a>الخطوة التالية 
+### <a name="next-step"></a><a name="sequence"></a>الخطوة التالية
 
 يتم سرد دلائل المهام الثمانية التالية بحسب الترتيب التي يجب عليك اتباعه لإكمالها. 
 

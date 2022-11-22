@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733428"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760352"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>ترحيل عميل Dynamics 365 Human Resources
 
@@ -38,13 +38,12 @@ ms.locfileid: "9733428"
 
 ### <a name="dataverse-environment-backup-sandbox"></a>النسخ الاحتياطي لبيئة Dataverse (بيئة الاختبار المعزولة)
 
-1. اختياريًا ولكنه مستحسن: قم بتحديث بيئة وضع حماية Human Resources الموجودة باستخدام نسخة من بيئة تشغيل Human Resources.
-2. [قم بإنشاء بيئة Dataverse جديدة](/power-platform/admin/create-environment#create-an-environment-with-a-database) باستخدام مركز إدارة Power Platform.
+ - اختياريًا ولكنه مستحسن: قم بتحديث بيئة وضع حماية Human Resources الموجودة باستخدام نسخة من بيئة تشغيل Human Resources.
+ - قم بإنشاء بيئة Dataverse جديدة باستخدام مركز مسؤول Power Platform.
+ - قم بنسخ بيئة Dataverse الموجودة، المرتبطة بتطبيق Human Resources المستقل، إلى البيئة التي قمت بإنشائها في الخطوة السابقة.
 
-    > [!NOTE]
-    > عند إضافة قاعدة بيانات، تأكد من تعيين خيار **تمكين تطبيقات Dynamics 365** إلى **نعم**.
-
-3. [قم بنسخ بيئة Dataverse الموجودة](/power-platform/admin/copy-environment)، المرتبطة بتطبيق Human Resources المستقل، إلى البيئة التي قمت بإنشائها في الخطوة السابقة.
+> [!NOTE]
+> عند إضافة قاعدة بيانات، تأكد من تعيين خيار **تمكين تطبيقات Dynamics 365** إلى **نعم**. للحصول على معلومات مفصلة، راجع [إعداد بيئة Power Platform ](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>سعة Dataverse
 
@@ -89,9 +88,9 @@ ms.locfileid: "9733428"
 #### <a name="prepare-a-power-platform-environment"></a>إعداد بيئة Power Platform
 
 > [!NOTE]
-> هذه الخطوة قابلة للتطبيق فقط لترحيل بيئة وضع الحماية. عند ترحيل بيئة التشغيل، سيتم تحويل بيئة مركز إدارة Power Platform الموجودة التي تم إرفاقها ببيئة التشغيل.
+> هذه الخطوة قابلة للتطبيق فقط لترحيل بيئة وضع الحماية. عند ترحيل بيئة التشغيل، سيتم تحويل بيئة مركز إدارة Power Platform الموجودة التي تم إرفاقها ببيئة التشغيل. عند إضافة قاعدة بيانات، تأكد من تعيين زر **تمكين تطبيقات Dynamics 365** إلى **نعم**. 
 
-- في مركز مسؤولي Power Platform، [قم بإنشاء بيئة Power platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) لاستخدامها في ترحيل بيئة وضع الحماية، أو حدد بيئة موجودة.
+- في مركز مسؤولي Power Platform، [قم بإنشاء بيئة باستخدام قاعدة بيانات](/power-platform/admin/create-environment#create-an-environment-with-a-database) لاستخدامها في ترحيل بيئة وضع الحماية، أو حدد بيئة موجودة.
 - [انسخ بيئة](/power-platform/admin/copy-environment) لتحديث بيئة Power Platform المستخدمة للتعيين.
 
 #### <a name="migrate-the-sandbox-environment"></a>ترحيل بيئة وضع الحماية

@@ -2,7 +2,7 @@
 title: إعادة تقييم العملة في شركة تجميع
 description: تصف هذه المقالة كيفية إعادة تقييم العملة في شركة دمج.
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888993"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779652"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>إعادة تقييم العملة في شركة تجميع
 
@@ -39,20 +39,20 @@ ms.locfileid: "8888993"
 ## <a name="original-transactions"></a>الحركات الأصلية
 ### <a name="cash-receipt-transactions-in-usmf"></a>حركات إيصال استلام النقدية في USMF
 
-| التاريخ       | حساب دفتر الأستاذ               | عملة | المبلغ |
+| التاريخ       | حساب دفتر الأستاذ               | عملة | ‏‏المقدار |
 |------------|------------------------------|----------|--------|
-| 10/11/2015 | 110110 – نقد                | دولار أمريكي      | 500    |
-| 10/11/2015 | 130100 – الحسابات المدينة | دولار أمريكي      | -500   |
+| بتاريخ 10/11/2020 | 110110 – نقد                | دولار أمريكي      | 500    |
+| بتاريخ 10/11/2020 | 130100 – الحسابات المدينة | دولار أمريكي      | -500   |
 
 ## <a name="exchange-rates"></a>أسعار الصرف
 
-| من العملة | إلى العملة | تاريخ البدء | سعر الصرف |
+| من العملة | للعملة | تاريخ البدء | سعر الصرف |
 |---------------|-------------|------------|---------------|
-| يورو           | دولار أمريكي         | 10/1/2015  | 200           |
-| يورو           | دولار أمريكي         | 11/1/2015  | 150           |
-| يورو           | دولار أمريكي         | 12/1/2012  | 100           |
+| EUR           | دولار أمريكي         | بتاريخ 10/1/2020  | 200           |
+| EUR           | دولار أمريكي         | بتاريخ 11/1/2020  | 150           |
+| EUR           | دولار أمريكي         | بتاريخ 12/1/2017  | 100           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>إجراء التجميع لأكتوبر 2015
+## <a name="perform-the-consolidation-for-october-2020"></a>إجراء التجميع لأكتوبر 2020
 ### <a name="balances-in-the-consolidation-company"></a>الأرصدة في الشركة المجمعة
 
 | حساب دفتر الأستاذ | عملة | المبلغ | الحساب    |
@@ -60,7 +60,7 @@ ms.locfileid: "8888993"
 | 110110         | يورو      | 250    | 500 دولار أمريكي × 50%  |
 | 130100         | يورو      | -250   | -500 USD × 50% |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>إجراء إعادة تقييم العملة للحسابات من 1 تشرين الأول/أكتوبر 2015 حتى 30 تشرين الثاني/نوفمبر عام 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>إجراء إعادة تقييم العملة للحسابات من 1 تشرين الأول/أكتوبر 2020 حتى 30 تشرين الثاني/نوفمبر عام 2020
 ### <a name="balances-in-the-consolidation-company"></a>الأرصدة في الشركة المجمعة
 
 | حساب دفتر الأستاذ | عملة | المبلغ  | الحساب                        |
@@ -72,7 +72,7 @@ ms.locfileid: "8888993"
 
 سوف تشاهد حركات إضافية للعملات المشمولة بالتقرير.
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>إجراء إعادة تقييم العملة للحسابات من 1 تشرين الأول/أكتوبر 2015 حتى 31 تشرين الأول/ديسمبر عام 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>إجراء إعادة تقييم العملة للحسابات من 1 تشرين الأول/أكتوبر 2020 حتى 31 تشرين الأول/ديسمبر عام 2020
 ### <a name="balances-in-the-consolidation-company"></a>الأرصدة في الشركة المجمعة
 
 | حساب دفتر الأستاذ | عملة | المبلغ  | الحساب                                          |

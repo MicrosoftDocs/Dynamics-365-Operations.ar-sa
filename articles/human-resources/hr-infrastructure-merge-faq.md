@@ -2,7 +2,7 @@
 title: أسئلة شائعة حول دمج البنية الأساسية لـ Dynamics 365 Human Resources
 description: تجيب هذه المقالة عن الأسئلة المتداولة عن دمج البنية الأساسية لتطبيق Microsoft Dynamics 365 Human Resources وتطبيقات التمويل والعمليات.
 author: twheeloc
-ms.date: 09/13/2021
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32698d887b4d228ded588984b09068e3e2fef9a4
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 7325231718d7387450391b16b2866f9a2c05bdc4
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702057"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779625"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>أسئلة شائعة حول دمج البنية الأساسية لـ Dynamics 365 Human Resources
 
@@ -36,7 +36,7 @@ ms.locfileid: "9702057"
 
 ## <a name="value-and-benefits-of-the-infrastructure-merge"></a>قيمة وفوائد دمج البنية الأساسية
 
-### <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>ما هو دمج البنية الأساسية لـ Dynamics 365 Human Resources؟
+### <a name="what-is-the-dynamics-365-human-resources-infrastructure-merge"></a>ما هو دمج البنية الأساسية لـ Dynamics 365 Human Resources ؟
 
 توجد حاليًا مجموعتان منفصلتان من إمكانات الموارد البشرية في بنيتين أساسيتين مختلفتين في Dynamics 365:
 
@@ -95,7 +95,7 @@ ms.locfileid: "9702057"
 
 ### <a name="will-ceridian-integrations-with-dynamics-365-human-resources-be-available-after-the-infrastructure-merge-is-completed"></a>هل تكامل Ceridian مع Dynamics 365 Human Resources سيكون متاح بعد اكتمال دمج البنية التحتية؟
 
-يعمل Ceridian على إنشاء تكامل V2 معDynamics 365 Human Resources الاستفادة من واجهات برمجه تطبيقات الرواتب. لن يتم ترحيل التكامل المستند إلى الملفات الموجود حاليًا في Dynamics 365 Human Resources إلى البنية الأساسية لتطبيقات التمويل والعمليات. لمزيد من المعلومات، راجع [مقدمة لواجهة برمجة تطبيقات كشف الرواتب](./hr-admin-integration-payroll-api-introduction.md).
+يعمل Ceridian على إنشاء تكامل V2 مع Dynamics 365 Human Resources الاستفادة من واجهات برمجه تطبيقات الرواتب. لن يتم ترحيل التكامل المستند إلى الملفات الموجود حاليًا في Dynamics 365 Human Resources إلى البنية الأساسية لتطبيقات التمويل والعمليات. لمزيد من المعلومات، راجع [مقدمة لواجهة برمجة تطبيقات كشف الرواتب](./hr-admin-integration-payroll-api-introduction.md).
 
 ### <a name="will-applicant-tracking-or-onboardingoffboarding-of-employees-functionality-be-included"></a>هل سيتم تضمين تعقب مقدم الطلب ام إلحاق/إلغاء إلحاق وظيفة الموظف ؟
 
@@ -103,8 +103,8 @@ ms.locfileid: "9702057"
 
 تتضمن وظيفة الموارد البشرية الموجودة حاليا في البنية الأساسية للعمليات والتمويل بعض وظائف أداره التوظيف غير الموجودة في Dynamics 365 Human Resources عند اكتمال دمج البنية التحتية، ستكون هذه الوظيفة متاحة لجميع عملاء الموارد البشرية. توفر هذه الوظيفة وظيفة أتس خفيفة. ومع ذلك ، لا تخطط لتوسيع هذه الوظيفة في المستقبل. يمكن للعملاء الذين يحتاجون وظائف متقدمة الاستفادة من عمليات تكامل أتس الشريك. لمزيد من المعلومات حول واجهات برمجة تطبيقات تكامل ATS، راجع [مقدمة واجهة برمجة تطبيقات تكامل نظام تتبع مقدم الطلب](./hr-admin-integration-ats-api-introduction.md).
 
-### <a name="will-the-dynamics-ax-2012-upgrade-tools-be-used-to-upgrade-the-hr-module-in-ax-2012-to-the-dynamics-365-human-resources-app"></a>هل Dynamics AXتستخدم أدوات الترقية لعام 2012 لترقية وحدة الموارد البشرية في AX 2012 إلى Dynamics 365 Human Resources التطبيق?
+### <a name="will-the-dynamics-ax-2012-upgrade-tools-be-used-to-upgrade-the-hr-module-in-ax-2012-to-the-dynamics-365-human-resources-app"></a>هل Dynamics AX تستخدم أدوات الترقية لعام 2012 لترقية وحدة الموارد البشرية في AX 2012 إلى Dynamics 365 Human Resources التطبيق؟
 
 نعم. حدث من Dynamics AX إلى 2012 Dynamics 365 Human Resources سيتبع نفس مسار الترقية والأدوات المستخدمة للترقية إلى أحدث إصدار من تطبيقات عمليات Dynamics 365 الأخرى ، مثل Dynamics 365 Finance أو Dynamics 365 Supply Chain Management.
 
-لمزيد من المعلومات حول الترحيل إلى البنية الأساسية للعمليات والتمويل ، راجع [الاسئلة المتداولة ](./customer-migration.md) حول ترحيل عميل الموارد البشرية.
+لمزيد من المعلومات حول الترحيل إلى البنية الأساسية للعمليات والتمويل، راجع [الاسئلة المتداولة](./customer-migration.md) حول ترحيل عميل الموارد البشرية.

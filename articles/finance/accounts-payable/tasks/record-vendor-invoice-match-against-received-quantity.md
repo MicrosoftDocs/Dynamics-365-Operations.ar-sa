@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: debf8ca47666252633e67e2592acd5a4e4122403
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109908"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778661"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>تسجيل فاتورة المورّد ومطابقتها بالكمية المستلمة
 
@@ -32,7 +32,7 @@ ms.locfileid: "8109908"
 
 
 ## <a name="create-a-purchase-order"></a>إنشاء أمر شراء
-1. انتقل إلى "كافة أوامر الشراء".
+1. انتقل إلى **كافة أوامر الشراء**.
 2. انقر فوق **جديد**.
 3. في الحقل **حساب المورّد‬**، انقر فوق زر القائمة المنسدلة لفتح البحث.
 4. في حقل **حساب المورّد**، اكتب قيمة.

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713660"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775289"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>إنشاء دفتر يومية شطب لعميل
 
@@ -48,22 +48,22 @@ ms.locfileid: "8713660"
 7. انتقل إلى **جزء التنقل > الوحدات النمطية > دفتر الأستاذ العام > إدخالات دفتر اليومية > دفاتر اليومية العامة‬**.
 8. حدد رقم دُفعة دفتر اليومية لدفتر اليومية الذي يحتوي على الشطب الخاص بك. يتم إنشاء بند واحد لعكس رصيد العميل. يتم إنشاء بند واحد أو أكثر لترحيل الشطب إلى حساب الشطب.  
 9. قم بإغلاق الصفحة.
-10. قم بإغلاق الصفحة.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>شطب الحركات من نموذج التحصيلات
+
+## <a name="write-off-transactions-from-the-collections-page"></a>شطب الحركات من صفحة التحصيلات
 1. انتقل إلى **التحصيلات والائتمان > التحصيلات > الأرصدة المتقادمة**.
 2. حدد اسم العميل الذي تريد شطب الحركات الخاصة به. على سبيل المثال، حدد Cave Wholesales (US-004).
 3. ضع علامة على الصف للحركة الأولى.
 4. ضع علامة على الصف للحركة الثانية.
 5. انقر فوق **شطب**.
-6. في الحقل **تعليق على السبب‬**، اكتب "ديون مشكوك في تحصيلها".
+6. في الحقل **تعليق على السبب‬** اكتب "ديون مشكوك في تحصيلها".
 7. انقر فوق **موافق**.
 8. قم بإغلاق الصفحة.
 9. قم بإغلاق الصفحة.
 10. انتقل إلى **دفتر الأستاذ العام > إدخالات دفتر اليومية > دفاتر اليومية العامة**‬.
 11. حدد رقم دُفعة دفتر اليومية لدفتر اليومية الذي يحتوي على الشطب الخاص بك. يتم إنشاء بند واحد لعكس رصيد العميل. يتم إنشاء بند واحد أو أكثر لترحيل الشطب إلى حساب الشطب.  
 12. قم بإغلاق الصفحة.
-13. قم بإغلاق الصفحة.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>شطب فاتورة من صفحة فواتير العملاء المفتوحة
 1. انتقل إلى **جزء التنقل > الوحدات النمطية > الحسابات المدينة > الفواتير > فواتير العملاء المفتوحة‬**.
