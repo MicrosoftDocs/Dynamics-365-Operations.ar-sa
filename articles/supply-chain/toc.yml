@@ -3395,6 +3395,8 @@
           items:
             - name: نظرة عامة على إدارة المستودعات
               href: warehousing/warehouse-management-overview.md
+            - name: الشروع في العمل مع إعداد وحدة ‏‫إدارة المستودعات
+              href: warehousing/get-started-with-setting-up-module.md
             - name: عمليات المستودعات الواردة
               items:
                 - name: تعامل المستودع مع الأحمال الواردة لأوامر الشراء

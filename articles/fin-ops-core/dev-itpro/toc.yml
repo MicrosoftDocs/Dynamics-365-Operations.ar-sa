@@ -1652,6 +1652,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: تعيين مستخدمين إلى أدوار أمان
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: مجموعات Active Directory Security
+                  href: sysadmin/active-directory-security-group.md
                 - name: استيراد تكوين أمان مخصص أو تصديره باستخدام إدارة البيانات
                   href: sysadmin/import-export-customized-security.md
                 - name: ‏‫تشخيصات الأمان‬ لتسجيلات المهام

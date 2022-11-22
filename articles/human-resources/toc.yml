@@ -302,11 +302,13 @@
                       href: hr-admin-troubleshooting-integration.md
             - name: إعداد Human Resources
               items:
-                - name: تكوين معلمات Human Resources
+                - name: تكوين معلمات ‏‫الموارد البشرية‬
                   href: hr-setup-parameters.md
-                - name: تكوين المعلمات المشتركة لـ Human resources
+                - name: تكوين المعلمات المشتركة ‏‫للموارد البشرية‬
                   href: hr-setup-shared-parameters.md
-                - name: إعداد تدفقات عمل Human resource
+                - name: تقييد الوصول إلى العاملين بالكيان القانوني
+                  href: hr-advanced-security.md
+                - name: 'إعداد تدفقات عمل الموارد البشرية '
                   href: hr-workflow-manage-employee-information.md
                 - name: فهم حقول التاريخ والوقت
                   href: hr-setup-date-time-fields.md
@@ -848,6 +850,8 @@
               href: hr-admin-integration-common-data-service.md
             - name: تكوين جداول Dataverse الظاهرية
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: الأمان لعمليات تكامل الجداول الظاهرية
+              href: hr-security-config.md
             - name: تكوين التكامل مع Finance
               href: hr-admin-integration-finance.md
             - name: إنشاء ارتباطات Human Resources إلى بيئة أخرى

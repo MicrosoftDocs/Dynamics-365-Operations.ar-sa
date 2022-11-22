@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: الوعي بين تسوية دفتر الأستاذ وإقفال نهاية السنة
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: التشغيل التلقائي لتسويات دفاتر الأستاذ
+                  href: general-ledger/auto-settle.md
                 - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: أرصدة حسابات دفتر الأستاذ العام
