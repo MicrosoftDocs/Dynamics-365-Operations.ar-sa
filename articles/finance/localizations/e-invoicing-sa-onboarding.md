@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.28
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: b1c49f5aa621c9f9a353676f76eac87b0a97abb2
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: d24596a6573de87600217c3d7f29c5b8d1e92649
+ms.sourcegitcommit: 24b5e76f4250f22a0f02700f1358fd3885132ced
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709197"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9810680"
 ---
 # <a name="electronic-invoicing-onboarding-in-saudi-arabia"></a>إعداد الفواتير الإلكترونية في المملكة العربية السعودية
 
@@ -72,7 +72,7 @@ ms.locfileid: "9709197"
     basicConstraints = CA:FALSE
     keyUsage = digitalSignature, nonRepudiation, keyEncipherment
     [req_ext]
-    certificateTemplateName = ASN1:PRINTABLESTRING:TSTZATCACodeSigning
+    certificateTemplateName = ASN1:PRINTABLESTRING:ZATCA-Code-Signing
     subjectAltName = dirName:alt_names
     [alt_names]
     SN=1-TST|2-TST|3-ed22f1d8-e6a2-1118-9b58-d9a8f11e445f
@@ -113,7 +113,7 @@ ms.locfileid: "9709197"
 
 تاكد من ان كافة أنواع فواتير العينات التي تم تكوينها في ملف تكوين طلب شهادة (CSR) تم إرسالها بنجاح إلى زاتكا. استخدم العملية القياسية لإصدار الفواتير الإلكترونية. لمزيد من التفاصيل، راجع [إصدار الفواتير الإلكترونية في Finance and Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md).
 
-استخدم الميزة و **"الأرابيان زاتكا التحقق من التوافق (SA)"** في ركس واتبع [خطوات قسم](e-invoicing-sa-get-started.md#country-specific-configuration-for-the-saudi-arabian-electronic-invoice-sa-electronic-invoicing-feature) التكوين الخاص بالبلد باستخدام CSIDات التوافق التي حصلت عليها.
+استخدم الميزة و **"الأرابيان زاتكا التحقق من التوافق (SA)"** في ركس واتبع [خطوات قسم](e-invoicing-sa-get-started.md) التكوين الخاص بالبلد باستخدام CSIDات التوافق التي حصلت عليها.
 
 بعد إكمال فحوصات التوافق بنجاح ، استخدم برنامج PowerShell النصي للحصول علي عمليه الإنتاج (ارجع إلى برنامج نصي علي بواردينج).
 

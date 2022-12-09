@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9725628"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788502"
 ---
 # <a name="store-commerce-app-capabilities"></a>قدرات تطبيق Store Commerce
 
@@ -41,7 +41,7 @@ ms.locfileid: "9725628"
 
 | القدرة | ‏‏الوصف‬ | الوثائق | محتوى إضافي |
 |---|---|---|---|
-| عوامل نماذج متعددة | يتم دعم تطبيق Store Commerce على العديد من عوامل نماذج الأجهزة، مثل أجهزه الكمبيوتر والأجهزة اللوحية والأجهزة المحمولة. وتقوم واجهة المستخدم (UI) المستجيبة بتمكين التخطيط ليتم تلقائيًا تغيير حجمه وضبطه وفق حجم الشاشة. | [التكوينات المرئية](pos-screen-layouts.md) | |
+| عوامل نماذج متعددة | يتم دعم تطبيق Store Commerce على العديد من عوامل نماذج الأجهزة، مثل أجهزه الكمبيوتر والأجهزة اللوحية والأجهزة المحمولة. وتقوم واجهة المستخدم (UI) المستجيبة بتمكين التخطيط ليتم تلقائيًا تغيير حجمه وضبطه وفق حجم الشاشة. | [التكوينات المرئية](pos-screen-layouts.md) |  |
 | عبر الأنظمة الأساسية | تطبيق Store Commerce مدعوم على الويب وأنظمة Windows وiOS وAndroid الأساسية. | [الأنظمة الأساسية](dev-itpro/hybridapp.md) | |
 | علامة تجارية | يتيح لك مصمم الشاشة تخصيص تخطيطات الشاشة لتفي بمتطلبات الأعمال الخاصة بك. بالإضافة إلى ذلك، يمكن إنشاء السمات والتخطيطات والألوان والصور استنادًا إلى أدوار الموظفين ويمكن بعد ذلك مشاركتها عبر المستخدمين لتناسق العلامة التجارية وسهوله الاستخدام. | [التكوينات المرئية](pos-screen-layouts.md) | [الفيديو](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | المخطط | يتم دعم تخطيطات المتجر المختلفة، استنادًا إلى توفر الشبكة. | <p>[المخطط](dev-itpro/retail-modern-pos-architecture.md)</p><p>[مخطط معلومات رسومية](dev-itpro/retail-in-store-topology.md)</p> | |
@@ -77,7 +77,7 @@ ms.locfileid: "9725628"
 | البحث عن منتج | يمكن البحث عن منتجات حسب الاسم، وتحسين عمليات البحث باستخدام سمات المنتج مثل العلامة التجارية والسعر والمادة. يتم تشغيل هذه القدرة بواسطة خدمة Azure Cognitive Search. | [البحث المشغل في السحابة](cloud-powered-search-overview.md) | |
 | صفحة تفاصيل المنتج‬ | يمكن أن تتضمن صفحات تفاصيل المنتج الثري الصور والوصف وسمات المنتج والمنتجات الموصى بها. يتم تشغيل التوصيات بواسطة خدمة التوصيات. | | |
 | مقارنة المنتجات | يمكن مقارنة منتجات متعددة، ومساعدة العملاء على اختيار منتج واحد وإضافته إلى حركة. | | |
-| ممر لا نهاية له | يمكن البحث بسهولة في المخزون في المتاجر الأخرى، وإنشاء الأوامر. | [بحث في المخزون](pos-inventory-lookup-operation.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| ممر لا نهاية له | يمكن البحث بسهولة في المخزون في المتاجر الأخرى، وإنشاء الأوامر. | [بحث في المخزون](pos-inventory-lookup-operation.md) | <p>[حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | التوصيات | البيع الإضافي والبيع التكميلي للمنتجات باستخدام خدمة التوصيات. تستخدم هذه الخدمة تقنية حاصلة على براءة اختراع لاقتراح التوصيات، وذلك استنادًا إلى اتجاهات الشراء، وخصائص مثل ما وصل مؤخرًا، والمظهر المشابه والأعلى مبيعًا. تتوفر هذه التوصيات في صفحات تفاصيل المنتج وصفحة **تفاصيل العميل** وصفحة **الحركات**. | [التوصيات](product-recommendations.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>علاقة العملاء
@@ -88,8 +88,8 @@ ms.locfileid: "9725628"
 | سمات العملاء | يمكّن إطار عمل سمات العميل من التقاط البيانات الإضافية المتعلقة بالعميل بناء على متطلبات الأعمال. | [السمات](dev-itpro/customer-attributes.md) | |
 | صفحة تفاصيل العميل | توفر صفحة تفاصيل العميل الثرية عرض قناة متعددة الاتجاهات لتفاعلات العميل عبر كافة القنوات. وتتضمن هذه التفاعلات عمليات الشراء وقوائم الأمنيات ونقاط الولاء. | | |
 | البحث عن العملاء المشغل في السحابة | يمكن البحث عن العملاء حسب الاسم ورقم الهاتف وعنوان البريد الإلكتروني وبطاقة الولاء والعنوان وما إلى ذلك. | [البحث المشغل في السحابة](pos-search-improvements.md#customer-search) | |
-| الولاء والمكافآت | يمكن للعملاء ربط برامج الولاء والحصول على نقاط الولاء واسترجاعها عبر القنوات. | [الولاء](set-up-customer-loyalty-program.md) | |
-| قاعدة العملاء | يمكن إدارة العملاء الأساسيين باستخدام دفتر عميل، وتعقب الأنشطة والملاحظات في ملف تعريف العميل. يتيح تكامل Dynamics 365 Customer Insights لموظفي المتجر الحصول على رموز حول الإجراء الأفضل التالي لكل عميل. | [قاعدة العملاء](clienteling-overview.md#activities-and-notes) | |
+| الولاء والمكافآت | يمكن للعملاء ربط برامج الولاء والحصول على نقاط الولاء واسترجاعها عبر القنوات. | [الولاء](set-up-customer-loyalty-program.md) | [الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| قاعدة العملاء | يمكن إدارة العملاء الأساسيين باستخدام دفتر عميل، وتعقب الأنشطة والملاحظات في ملف تعريف العميل. يتيح تكامل Dynamics 365 Customer Insights لموظفي المتجر الحصول على رموز حول الإجراء الأفضل التالي لكل عميل. | [قاعدة العملاء](clienteling-overview.md#activities-and-notes) | [الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>التسعير والخصومات
 
@@ -132,8 +132,8 @@ ms.locfileid: "9725628"
 | سمات الأوامر | يمكّن إطار عمل سمة الأمر من التقاط المعلومات الإضافية المتعلقة بالأمر بناء على متطلبات الأعمال. | [السمات](dev-itpro/order-attributes.md) | |
 | تسليم مباشر | يمكن تمييز الأصناف للتسليم المباشر بواسطة أحد الموردين إلى عنوان العميل. يُعرف التسليم المباشر أيضًا بالشحن المباشر. | [تسليم مباشر](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | عرض الأسعار | يمكن لموظفي المتجر إنشاء عروض أسعار للعملاء، كما يمكنهم تحديد سعر خاص وخصومات يدوية وتاريخ صلاحية عرض الأسعار. | [عرض الأسعار](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| التنفيذ | يمكن أن تقوم المتاجر بانتقاء الأوامر وتعبئتها وشحنها. يمكن إضافة إيصال تعبئة إلى الحزم الجاهزة للشحن. | [التنفيذ](order-fulfillment-overview.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| إدارة الأمر الموزع | يدعم تطبيق Store Commerce تحسين تنفيذ الأمر الذكي حيث يمكن تكوين إستراتيجيات العمل استنادًا إلى طبيعة العمل ونوع العميل وأصل الأمر وطريقة تسليم الأمر. | [نموذج كائن المستند](dom.md) | |
+| التنفيذ | يمكن أن تقوم المتاجر بانتقاء الأوامر وتعبئتها وشحنها. يمكن إضافة إيصال تعبئة إلى الحزم الجاهزة للشحن. | [التنفيذ](order-fulfillment-overview.md) | <p>[حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[الفيديو](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| إدارة الأمر الموزع | يدعم تطبيق Store Commerce تحسين تنفيذ الأمر الذكي حيث يمكن تكوين إستراتيجيات العمل استنادًا إلى طبيعة العمل ونوع العميل وأصل الأمر وطريقة تسليم الأمر. | [نموذج كائن المستند](dom.md) | [الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>إدارة المخزون
 
@@ -141,12 +141,12 @@ ms.locfileid: "9725628"
 |---|---|---|---|
 | توزيع المشتريات | تسهيل توزيع المخزون المتوفر من مركز توزيع إلى متاجر أو مستودعات متعددة. | [توزيع المشتريات](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | توزيع البضائع | تسهيل توزيع المخزون في أوامر الشراء الواردة إلى متاجر أو مستودعات متعددة. | [توزيع البضائع](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| المخزون الوارد | استلام المخزون من مورد عبر أمر شراء أو من مستودع آخر باستخدام أمر تحويل. إنشاء أمر شراء وارد أو طلب أمر تحويل. | [وارد](pos-inbound-inventory-operation.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| المخزون الصادر | شحن المخزون إلى مستودع آخر بواسطة أمر تحويل، وإنشاء طلب أمر تحويل صادر. | [صادر](pos-outbound-inventory-operation.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| بحث في المخزون | فحص المخزون الفعلي للمنتجات عبر المتاجر والمستودعات، وفحص المخزون المتوفر حسب التعهد (ATP) حسب التواريخ المستقبلية. | [بحث في المخزون](pos-inventory-lookup-operation.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| تسوية المخزون | تعديل المخزون داخل أو خارج مستودع متجر لتلبية متطلبات العمل المحددة بدون استخدام عملية بيع أو إيصال أو إعادة الجرد. | [تسوية المخزون](work-with-store-inventory.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| عمليات جرد المخزون | جرد المخزون الفعلي، وتعديل مخزون محاسبة النظام ليطابقه. | [الجرد](work-with-store-inventory.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| حركة المخزون | نقل المخزون بين المواقع في أحد المتاجر. | [الحركة](work-with-store-inventory.md) | [حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| المخزون الوارد | استلام المخزون من مورد عبر أمر شراء أو من مستودع آخر باستخدام أمر تحويل. إنشاء أمر شراء وارد أو طلب أمر تحويل. | [وارد](pos-inbound-inventory-operation.md) | <p>[حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| المخزون الصادر | شحن المخزون إلى مستودع آخر بواسطة أمر تحويل، وإنشاء طلب أمر تحويل صادر. | [صادر](pos-outbound-inventory-operation.md) | <p>[حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| بحث في المخزون | فحص المخزون الفعلي للمنتجات عبر المتاجر والمستودعات، وفحص المخزون المتوفر حسب التعهد (ATP) حسب التواريخ المستقبلية. | [بحث في المخزون](pos-inventory-lookup-operation.md) | <p>[حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| تسوية المخزون | تعديل المخزون داخل أو خارج مستودع متجر لتلبية متطلبات العمل المحددة بدون استخدام عملية بيع أو إيصال أو إعادة الجرد. | [تسوية المخزون](work-with-store-inventory.md) | <p>[حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| عمليات جرد المخزون | جرد المخزون الفعلي، وتعديل مخزون محاسبة النظام ليطابقه. | [الجرد](work-with-store-inventory.md) | <p>[حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| حركة المخزون | نقل المخزون بين المواقع في أحد المتاجر. | [الحركة](work-with-store-inventory.md) | <p>[حديث فني](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[الفيديو](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>الماليات
 

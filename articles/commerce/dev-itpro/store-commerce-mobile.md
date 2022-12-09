@@ -2,32 +2,33 @@
 title: التطبيق Store Commerce للانظمه المحمولة
 description: توضح هذه المقالة كيفيه البدء في استخدام تطبيق Store Commerce Microsoft Dynamics 365 Commerce ل Android و iOS.
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9642331"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815773"
 ---
 # <a name="store-commerce-app-for-mobile-platforms"></a>التطبيق Store Commerce للانظمه المحمولة
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 توضح هذه المقالة كيفيه البدء في استخدام تطبيق Store Commerce Microsoft Dynamics 365 Commerce ل Android و iOS.
 
-تقوم تطبيقات الهاتف Dynamics 365 Commerce الجوال الخاصة Android ب و iOS باجراء عمليه نشر أجهزه البيع بالبالكامل (POS) لبيئة البيع بالتجزئة مباشره والبسيطة. تقدم تطبيقات الاجهزه المحمولة الخاصة Store Commerce كافة القدرات والمزايا الخاصة بالتطبيق التجاري المتجر ل Windows [علي عوامل الهاتف والشكل اللوحي](store-commerce.md). يمكن تثبيت تطبيقات المحمول Store Commerce مباشره من مخازن تطبيقات Apple , Google Play ، ولا تتطلب ان يقوم المطور بإنشاء حزمه تطبيق جديده لنشرها أو تحديثها. 
+تقوم تطبيقات الهاتف Dynamics 365 Commerce الجوال الخاصة Android ب و iOS باجراء عمليه نشر أجهزه البيع بالبالكامل (POS) لبيئة البيع بالتجزئة مباشره والبسيطة. توفر تطبيقات Store Commerce للهاتف المحمول جميع إمكانيات ومزايا [تطبيق Store Commerce لنظام Windows](store-commerce.md)، وتعمل بشكل جيد على مجموعة واسعة من iOS وهواتف Android وأجهزة الكمبيوتر اللوحية. يمكن تثبيت تطبيقات المحمول Store Commerce مباشره من مخازن تطبيقات Apple , Google Play ، ولا تتطلب ان يقوم المطور بإنشاء حزمه تطبيق جديده لنشرها أو تحديثها. 
 
 تحتفظ تطبيقات الاجهزه المحمولة Store Commerce بالتماثل الوظيفي الكامل مع التطبيقات المختلطة الحالية. بالاضافه إلى ذلك ، فان Store Commerce ب iOS يتضمن دعما لمحطه الاجهزه المخصصة ، بحيث يمكن لأجهزه iOS الاتصال بالوحدات الطرفية للدفع عبر الشبكة ، وطابعات الاستلام ، والادراج النقدية دون الحاجة إلى نشر محطه الاجهزه المشتركة. 
 
 > [!IMPORTANT]
-> تطبيقات Store Commerce الخاصة ب Windows و Android و iOS هي الجيل التالي من تطبيقات Dynamics 365 Commerce نقطه البيع. سيتم إهمال تطبيق retail POS الحديث (مبوس) الحالي والتطبيقات [المختلطة الخاصة بالهاتف](hybridapp.md) الجوال في شهر أكتوبر 2023. توصي Microsoft باستخدام Store Commerce أو retail POS (CPOS) لكافة عمليات نشر نقطه البيع الجديدة. يجب ان يخطط العملاء الموجودين للترحيل من التطبيق المختلط للبيع بالتجزئة Store Commerce. لمزيد من المعلومات حول الجدول الديبريكيشن لمبوس والتطبيقات المختلطة للبيع بالتجزئة ، راجع [موديرنيزينج Dynamics 365 Commerce مكدس](https://www.microsoft.com/download/details.aspx?id=103896) التقنية في المتجر. 
+> تطبيقات Store Commerce الخاصة ب Windows و Android و iOS هي الجيل التالي من تطبيقات Dynamics 365 Commerce لنقاط البيع. تقدم تطبيقات Store Commerce العديد من التحسينات على سابقاتها مع الحفاظ على تكافؤ الوظائف والميزات بشكل كامل. ستقوم Microsoft بإيقاف تطبيقات MPOS وAndroid وiOS Retail POS hybrid في أواخر عام 2023، وتوصي باستخدام Store Commerce أو Cloud POS (CPOS) لجميع عمليات نشر نقاط البيع الجديدة. يجب أن يخطط العملاء الموجودين للترحيل من التطبيقات المختلطة للبيع بالتجزئة Store Commerce. لمزيد من المعلومات، راجع [ترحيل نقاط البيع الحديثة إلى Store Commerce](pos-extension/migrate-mpos-store-commerce.md). 
 
 ## <a name="app-architecture"></a>هندسة التطبيق
 
@@ -51,7 +52,7 @@ ms.locfileid: "9642331"
 يمكنك تثبيت تطبيقات الجوال اStore Commerceمباشره من متجر Google Play أو متجر تطبيقات Apple. 
 
 - [تطبيق Store Commerce لـ Android](https://aka.ms/storecommerceandroid)
-- تطبيق Store Commerce ل iOS (يتوفر قريبا)
+- [تطبيق Store Commerce لـ iOS](https://aka.ms/storecommerceios)
 
 يمكن أيضا تحميل حزم التطبيق Android (أبك) و Apple app (إيبا) من مكتبه الأصول المشتركة في Lifecycle Services Microsoft Dynamics. 
 

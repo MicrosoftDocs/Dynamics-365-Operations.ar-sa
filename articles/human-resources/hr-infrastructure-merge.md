@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f79ef3ed5db7583eb44b99e49c010778ce8524d1
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: e68b28bfde35b51605aa0b653265da6261b69a90
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733429"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819232"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge"></a>دمج بنية Dynamics 365 Human Resources الأساسية 
 
@@ -83,13 +83,14 @@ ms.locfileid: "9733429"
 
 - البيانات:
 
-    - التكوينات
+    - تكوينات
     - أدوار الأمان (بما في ذلك الأدوار المخصصة)
-    - عمليات سير العمل
+    - مهام سير العمل (بما في ذلك الإخطارات)
     - عمليات التخصيص وطرق العرض المحفوظة
     - الحركات
     - الحقول المخصصة
-    - المرفقات
+    - مرفقات
+    - التنبيهات
 
 - إدارة البيانات - إحضار قاعدة بياناتك الخاصة (BYOD).
 - إدارة الميزات - تمكين/تعطيل الميزات.

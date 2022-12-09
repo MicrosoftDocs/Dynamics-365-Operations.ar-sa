@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cdfd8db68647623e2b5f1b9eca93b57776e1bfe9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 84f1190301e67b49535530f85784561b2e51a2df
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067020"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812149"
 ---
 # <a name="manage-leave-requests-in-teams"></a>إدارة طلبات الإجازة في Teams
 
@@ -158,7 +158,7 @@ ms.locfileid: "9067020"
 | it-IT | الإيطالية (إيطاليا) |
 | nl-NL | الهولندية (هولندا) |
 | pt-BR | البرتغالية (البرازيل) |
-| tr-TR | التركية (تركيا) |
+| tr-TR | التركية (Türkiye) |
 | zh-CN | الصينية (المبسطة) |
 
 ## <a name="troubleshooting"></a>استكشاف الأخطاء وإصلاحها

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 0987ae1e9cfbb1e2d2a957a5fd1ad82257292c0a
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779870"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804091"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>إعداد ملفات تعريف الترحيل والتسهيلات البنكية لخطابات الضمان
 
@@ -58,7 +58,7 @@ ms.locfileid: "9779870"
 10. في حقل **مجموعة التسهيلات**، انقر فوق زر القائمة المنسدلة لفتح البحث.
 11. في القائمة، قم بالبحث عن السجل المطلوب وحدده.
 12. في القائمة، انقر فوق الارتباط في الصف المحدد.
-13. في حقل **طبيعة التسهيل، حدد خيارًا.
+13. في حقل **طبيعة التسهيل**، حدد خيارًا.
 14. انقر فوق **حفظ**.
 15. قم بإغلاق الصفحة.
 

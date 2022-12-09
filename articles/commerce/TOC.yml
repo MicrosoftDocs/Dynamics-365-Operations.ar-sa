@@ -1011,7 +1011,23 @@
                 - name: تحميل عناوين URL لإعادة التوجيه‬ بشكل مجمع
                   href: upload-bulk-redirects.md
                 - name: إعداد مستأجر متاجرة عمل-مستهلك في Commerce
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: إعداد مستأجر B2C
+                      href: set-up-B2C-tenant.md
+                    - name: إنشاء أو ربط مستأجر Azure AD B2C موجود
+                      href: create-link-aad-b2c-tenant.md
+                    - name: إنشاء تطبيق B2C
+                      href: create-b2c-app.md
+                    - name: إنشاء سياسات تدفق المستخدم
+                      href: create-user-flow-policies.md
+                    - name: إضافة موفري الهوية الاجتماعية
+                      href: add-social-identity-providers.md
+                    - name: تحديث Commerce headquarters بواسطة معلومات Azure AD B2C
+                      href: update-hq-aad-b2c-info.md
+                    - name: تكوين مستأجر B2C في منشئ موقع
+                      href: config-b2c-tenant-site-builder.md
+                    - name: معلومات B2C إضافية
+                      href: additional-b2c-info.md
                 - name: إعداد صفحات مخصصة لعمليات تسجيل دخول المستخدمين
                   href: custom-pages-user-logins.md
                 - name: تمكين الربط التلقائي لسجلات الهوية بحسابات العملاء
@@ -1570,6 +1586,8 @@
               items:
                 - name: إنشاء شفرات الاستجابة السريعة وطباعتها على الإيصالات للمملكة العربية السعودية
                   href: localizations/emea-sau-qr-code.md
+                - name: إنشاء وتقديم فواتير إلكترونية مبسطة للمملكة العربية السعودية
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: السويد
               items:
                 - name: وظيفة آلة تسجيل المدفوعات النقدية
@@ -2984,17 +3002,17 @@
                   href: troubleshoot/store-commerce-extensions.md
             - name: معالجة الأوامر
               items:
-                - name: يجب أن يكون نوع الدفع خطأ في بطاقة الائتمان
+                - name: خطأ نوع الدفع يجب أن يكون بطاقة ائتمان
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: حساب الضرائب على الأوامر عبر الإنترنت بشكل غير صحيح
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: خطأ مزامنة الأمر المرتبط بخدمة الدفع الافتراضية
+                - name: مشكلات مزامنة الأوامر غير المتزامنة
                   href: troubleshoot/synchronization-error.md
             - name: معالجة المدفوعات
               items:
                 - name: تم رفض المبلغ المسترد على أمر الإرجاع
                   href: troubleshoot/refund-declined.md
-                - name: تم احتساب الرسوم القابلة للاسترداد بشكل خاطئ بناءً على الكمية التي تم إرجاعها
+                - name: يتم احتساب الرسوم القابلة للاسترداد بشكل خاطئ بناءً على الكمية التي تم إرجاعها
                   href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Dynamics 365 Payment Connector لـ Adyen
                   items:

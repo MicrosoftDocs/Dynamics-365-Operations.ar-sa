@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872257"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806365"
 ---
 # <a name="recruiting-request"></a>طلب التوظيف
 
@@ -68,7 +68,7 @@ ms.locfileid: "8872257"
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ ms.locfileid: "8872257"
 | **الحالة**<br>mshr_status<br>مجموعة خيارات *RecruitingRequestStatus* | قراءة/كتابة<br>مطلوب<br> | يشير إلى حالة طلب التعيين. |
 | **‏‏الوصف**<br>mshr_description<br>*سلسلة* | قراءة/كتابة<br>مطلوب | وصف الطلب. |
 | **معرف موقع طلب التعيين**<br>mshr_recruitingrequestlocationid<br>*سلسلة* | قراءة/كتابة<br>اختياري | المعرف الفريد القابل للقراءة من قبل المستخدم لموقع الوظيفة المقترن بهذا الطلب. |
-| **قيمة معرف موقع التعيين**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | للقراءة فقط<br>اختياري<br>المفتاح الخارجي: mshr_hcmrecruitingrequestlocationentityid للكيان mshr_hcmrecruitingrequestlocationentity | قيمة معرف GUID منشأة بواسطة النظام لتحديد موقع طلب التعيين المحدد للطلب. |
+| **قيمة معرف موقع التعيين**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | للقراءة فقط<br>اختياري<br>المفتاح الخارجي: mshr_hcmrecruitingrequestlocationentityid للكيان mshr_hcmrecruitingrequestlocationentity | قيمة معرف GUID منشأة بواسطة النظام لتحديد موقع طلب التعيين المحدد للطلب. |
 | **التعليقات**<br>mshr_comments<br>*سلسلة* | قراءة/كتابة<br>اختياري | تعليقات حول الطلب للاستخدام من قِبل مديري التوظيف ومسؤولي التوظيف. |
 | **معرف الوظيفة**<br>mshr_jobid<br>*سلسلة* | الكتابة مرة واحدة<br>مطلوب |   المعرف الفريد القابل للقراءة من قبل المستخدم للوظيفة التي تشاركها جميع المناصب المقترنة بهذا الطلب. |
 | **قيمة معرف الوظيفة**<br>_mshr_fk_job_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>المفتاح الخارجي: mshr_hcmjobentityid للكيان mshr_hcmjobentity | المعرف الفريد المنشأة بواسطة النظام للوظيفة التي تشاركها جميع المناصب المقترنة بطلب التعيين. |

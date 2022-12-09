@@ -570,6 +570,8 @@
               href: hr-leave-and-absence-suspend-leave.md
             - name: طلب إذن غياب
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: إنشاء إجازة غياب مفتوحة النهاية
+              href: hr-create-open-leave-absence.md
             - name: إدارة إجازة الموظف
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: عرض تحليلات الإجازة والغياب
