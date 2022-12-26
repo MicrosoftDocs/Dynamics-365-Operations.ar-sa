@@ -32,6 +32,8 @@
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: ما الجديد في Dynamics 365 Human Resources (مستقل)
                   items:
+                    - name: ما الجديد في Dynamics 365 Human Resources (مستقل) ديسمبر 2022
+                      href: hr-whats-new-2022-12-12.md
                     - name: ما الجديد في أرشيف عام 2021 لـ Dynamics 365 Human Resources (مستقل)
                       href: hr-admin-whats-new.md
                     - name: 29 نوفمبر 2021
@@ -110,6 +112,8 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: ‏‫الأسئلة المتداولة حول الجداول الظاهرية في ‬‏‫Human Resources‬‏‫
                   href: hr-admin-virtual-entity-faq.md
+                - name: تكوين التكامل مع Dataverse
+                  href: hr-dataverse-integration.md
                 - name: تكوين التكامل مع Finance
                   href: hr-admin-integration-finance.md
                 - name: تكوين التكامل مع Dayforce
@@ -528,9 +532,9 @@
                       href: ../fin-ops-core/fin-ops/hr/tasks/develop-open-job-requisition.md
                     - name: إعداد المناصب
                       href: ../human-resources/hr-personnel-set-up-positions.md
-                    - name: توظيف مرشحين من خلال التوظيف
+                    - name: توظيف مرشحين من خلال التعيين
                       href: ../fin-ops-core/fin-ops/hr/tasks/hire-candidate-through-recruiting.md
-                    - name: توظيف موظفين موجودين من خلال التعيين
+                    - name: توظيف موظف موجود من خلال التعيين
                       href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
                     - name: تحديد أدوات اختيار المرشحين ونشرها
                       href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md

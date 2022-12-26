@@ -1422,6 +1422,8 @@
               href: set-up-rfm-analysis.md
             - name: إعداد Microsoft Clarity في Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: إعداد Operational Insights
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: نظرة عامة على Globalization Studio
@@ -3054,8 +3056,14 @@
                   href: troubleshoot/email-not-sent-when-new-customer-created.md
             - name: استكشاف أخطاء SDK وإصلاحها
               items:
-                - name: إعداد بيئة تطوير التجارة الإلكترونية للتصحيح في مقابل الجهاز الظاهري لـ Retail Server من المستوى 1
+                - name: إعداد بيئة تطوير التجارة الإلكترونية للتصحيح في مقابل الجهاز الظاهري (VM) لـ Retail Server من المستوى 1
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: ماليات المتاجر
+              items:
+                - name: مشاكل تتعلق بتسوية البيانات في تقرير Z
+                  href: troubleshoot/z-report-issues.md
+                - name: أخطاء ترحيل كشف الحساب بسبب عدم توفر المخزون أو تعارضات في التحديث
+                  href: troubleshoot/inventory-errors-posting.md
     - name: تطوير تطبيقات التمويل والعمليات وإدارتها
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

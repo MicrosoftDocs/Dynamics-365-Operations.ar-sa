@@ -1168,6 +1168,8 @@
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: التقرير الإلكتروني لملف المراجعة القياسي للضريبة (SAF-T)
                   href: general-ledger/standard-audit-file.md
+                - name: استعلام حول تسوية دفتر الأستاذ
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: إقفال نهاية الفترة
               items:
                 - name: إقفال دفتر الأستاذ العام في نهاية الفترة
@@ -1187,8 +1189,20 @@
                 - name: تسويات دفتر الأستاذ
                   href: general-ledger/ledger-settlements.md
                 - name: الوعي بين تسوية دفتر الأستاذ وإقفال نهاية السنة
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
-                - name: التشغيل التلقائي لتسويات دفاتر الأستاذ
+                  items:
+                    - name: الوعي بين تسوية دفتر الأستاذ وإقفال نهاية السنة
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: التحضير للوعي بين تسوية دفتر الأستاذ قبل إقفال نهاية السنة
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: التحضير للوعي بين تسوية دفتر الأستاذ بعد إقفال نهاية السنة
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: ميزة الوعي بين تسوية دفتر الأستاذ وعملة التقارير خارج الرصيد
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: ميزة الوعي بين تسوية دفتر الأستاذ قبل إقفال نهاية السنة باستخدام نافذة الاستعلام
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: ميزة الوعي بين تسوية دفتر الأستاذ بعد إقفال نهاية السنة باستخدام نافذة الاستعلام
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
+                - name: التشغيل التلقائي لتسويات دفتر الأستاذ
                   href: general-ledger/auto-settle.md
                 - name: إعادة تقييم العملة الأجنبية لدفتر الأستاذ العام
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
