@@ -2,7 +2,7 @@
 title: ترحيل عملاء Dynamics 365 Human Resources إلى البنية الأساسية للتمويل والعمليات؟
 description: توضح هذه المقالة ترحيل عميل Microsoft Dynamics 365 Human Resources إلى البنية الأساسية للتمويل والعمليات‬.
 author: twheeloc
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
-ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
+ms.openlocfilehash: ab9680c2d1caa08c15aed325f4153aac6eae63c3
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "9760352"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831710"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>ترحيل عميل Dynamics 365 Human Resources
 
@@ -43,7 +43,7 @@ ms.locfileid: "9760352"
  - قم بنسخ بيئة Dataverse الموجودة، المرتبطة بتطبيق Human Resources المستقل، إلى البيئة التي قمت بإنشائها في الخطوة السابقة.
 
 > [!NOTE]
-> عند إضافة قاعدة بيانات، تأكد من تعيين خيار **تمكين تطبيقات Dynamics 365** إلى **نعم**. للحصول على معلومات مفصلة، راجع [إعداد بيئة Power Platform ](hr-cust-migration.md#prepare-a-power-platform-environment)
+> عند إضافة قاعدة بيانات، تأكد من تعيين خيار **تمكين تطبيقات Dynamics 365** إلى **نعم**. للحصول على معلومات مفصلة، راجع [إعداد بيئة Power Platform ](hr-cust-migration.md#prepare-a-power-platform-environment).
 
 ### <a name="dataverse-capacity"></a>سعة Dataverse
 
@@ -67,7 +67,7 @@ ms.locfileid: "9760352"
 7. حدد خانة الاختيار لقبول البنود والشروط.
 8. حدد **إنشاء**.
 
-بعد إنشاء مشروع Lifecycle Services جديد، اتبع الخطوات التالية لإعداده وتكوينه.
+بعد إنشاء مشروع Lifecycle Services جديد، اتبع الخطوات التالية لإعداد المشروع وتكوينه.
 
 1. حدد **إلحاق المشروع** لإكمال عملية إلحاق المشروع. لمزيد من المعلومات، راجع [إعداد المشروع](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md).
 
@@ -158,6 +158,7 @@ ms.locfileid: "9760352"
 
 - يجب إكمال أداة تقدير الاشتراك.
 - يجب إكمال [تقييم جاهزية البدء الفوري](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md).
+- يجب أن يكون للمستخدم الذي يقوم ببدء ترحيل الإنتاج في Lifecycle services دور مسؤول النظام في Power Platform. 
 
 #### <a name="migrate-the-production-environment"></a>ترحيل بيئة التشغيل
 

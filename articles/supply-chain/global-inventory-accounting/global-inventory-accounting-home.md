@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e7f919b28f6d0c8cd830ecfab4608be50b684c8e
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: fd9877365977694ca29f4d9116bcae45360306d5
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135439"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843616"
 ---
 # <a name="global-inventory-accounting-home-page"></a>الصفحة الرئيسية لمحاسبة المخزون العالمي
 
@@ -40,11 +40,17 @@ ms.locfileid: "9135439"
 
 محاسبة المخزون العالمي متوفرة حاليًا في المناطق الجغرافية التالية في Azure:
 
-- الولايات المتحدة
-- أوروبا
-- المملكة المتحدة
 - أستراليا
 - كندا
+- الصين
+- أوروبا
+- فرنسا
+- النرويج
+- جنوب أفريقيا
+- سويسرا
+- الإمارات العربية المتحدة
+- المملكة المتحدة
+- الولايات المتحدة
 
 إذا حاولت تثبيت الوظيفة الإضافية جغرافية من منطقه أخرى، فسيعمل Microsoft Dynamics Lifecycle Services (LCS) على إظهار رسالة بأن هذه المنطقة الجغرافية غير مدعومة. لا تدعم محاسبة المخزون العالمي عمليات النشر المحلية لـ Supply Chain Management.
 

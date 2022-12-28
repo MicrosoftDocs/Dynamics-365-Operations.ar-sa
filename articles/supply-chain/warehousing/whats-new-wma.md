@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 61d3ebc85d3c3d20bb17acd7364adc04cd2f3f94
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764229"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843670"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>الجديد أو المتغير في تطبيق Warehouse Management للأجهزة المحمولة
 
 [!include [banner](../includes/banner.md)]
 
 يسرد هذا المقال الميزات الجديدة والتحسينات والمشكلات المعروفة لكل إصدار تم إصداره من تطبيق Warehouse Management للأجهزة لـ Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20390"></a>الإصدار 2.0.39.0
+
+يقدم هذا الإصدار الميزات الجديدة والإصلاحات والتحسينات التالية:
+- الاستقرار المتزايد. 
+- لن يتم فرز الحقول الخاصة بالصفحة **مخصص** بعد الآن تلقائيًا استنادًا إلى الأولوية الخاصة بها وإعدادات الأولوية الفرعية.  
+- يستخدم التطبيق الآن إعدادات الأولوية والأولوية الفرعية لكل حقل لتعريف الحقل الأساسي للصفحة. يتم عرض الحقل الرئيسي في عنوان الخطوة. 
+- تم إصلاح مشكلة عدم الإخفاء من لوحة المفاتيح الناعمة في Android
+- تم إصلاح مشكلة انتقال زيادة أو نقصان الكمية إلى قيمه خاطئة عند الفتح في تدفق‬ *الحركة*. 
+- تم إصلاح مشكلة عدم توسيط القيمة الدوارة للقراءة فقط بشكل صحيح. 
+- تم إصلاح مشكلة عند عدم فتح صفحات ويب من صفحة **حول** . 
+- تأخذ سمة اللون *التلقائي* المظهر الافتراضي (فاتح أو داكن) استنادًا إلى مجموعة السمات الموجودة في نظام التشغيل الخاص بالجهاز المحمول.
 
 ## <a name="version-20370"></a>الإصدار 2.0.37.0
 

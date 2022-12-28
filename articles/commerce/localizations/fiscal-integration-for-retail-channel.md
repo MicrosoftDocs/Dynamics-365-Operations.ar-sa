@@ -2,19 +2,19 @@
 title: نظرة عامة على التكامل المالي لقنوات Commerce
 description: يوفر هذا المقال نظرة عامة حول قدرات التكامل المالي المتوفرة في Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 10/04/2022
+ms.date: 12/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
-ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
+ms.openlocfilehash: 3f1b555a016a56cc41ab397e3708f20482f25f09
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "9631226"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831848"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>نظرة عامة على التكامل المالي لقنوات Commerce
 
@@ -134,7 +134,7 @@ ms.locfileid: "9631226"
 - **إلغاء** – إذا حدد المشغل هذا الزر، تلغي نقطة البيع الإجراء الأخير (على سبيل المثال، لا يُضاف أحد العناصر إلى حركة جديدة).
 
 > [!NOTE]
-> يتم تشغيل فحص السلامة فقط إذا كانت العملية الحالية تحتاج إلى تسجيل مالي، وإذا تم تعطيل المعلمة **المتابعة مع وجود الخطأ‬** للخطوة الحالية من عملية التسجيل المالي. للحصول على مزيد من التفاصيل، راجع [تعيين إعدادات معالجة الأخطاء](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+> يتم تشغيل فحص الصحة فقط إذا كانت العملية الحالية تحتاج إلى تسجيل مالي، وإذا تم تعطيل المعلمة **المتابعة مع وجود الخطأ‬** للخطوة الحالية من عملية التسجيل المالي. للحصول على مزيد من التفاصيل، راجع [تعيين إعدادات معالجة الأخطاء](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>تخزين الاستجابة المالية في الحركة المالية
 
@@ -172,19 +172,17 @@ ms.locfileid: "9631226"
 - [نموذج تكامل وحدة التحكم للسويد](./emea-swe-fi-sample.md)
 - [عينة تكامل خدمة التسجيل المالي لألمانيا](./emea-deu-fi-sample.md)
 - [عينة تكامل طابعة الضرائب المحصلة لروسيا](./rus-fpi-sample.md)
+- [عينة التوقيع الرقمي الخاص بالنرويج](./emea-nor-cash-registers.md)
 
 يتم أيضا تطبيق وظيفة التكامل المالي التالية باستخدام إطار عمل التكامل المالي، ولكنها متوفرة خارج الصندوق ولا يتم تضمينها في Commerce SDK:
 
 - [التسجيل المالي للبرازيل](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
 - [التوقيع الرقمي الخاص بفرنسا](./emea-fra-cash-registers.md)
 
-تتوفر أيضًا وظيفة التكامل المالي التالية في Commerce SDK ولكنها لا تستفيد حاليًا من إطار عمل التكامل المالي. تم التخطيط لعملية ترحيل هذه الوظيفة إلى إطار عمل التكامل المالي لتحديثات لاحقة.
-
-- [التوقيع الرقمي الخاص بالنرويج‬](./emea-nor-cash-registers.md)
-
 لا تستخدم وظيفة التكامل المالي القديمة التالية المتاحة في Commerce SDK إطار عمل التكامل المالي، وسوف تُهمل في التحديثات اللاحقة:
 
 - [نموذج تكامل وحدة التحكم للسويد (قديم)](./retail-sdk-control-unit-sample.md)
 - [التوقيع الرقمي الخاص بفرنسا (قديم)](./emea-fra-deployment.md)
+- [التوقيع الرقمي الخاص بالنرويج (قديم)](./emea-nor-loc-deployment-guidelines.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: مراقبة الأشخاص
 description: توضح هذه المقالة كيان مراقبة الشخص لـ Dynamics 365 Human Resources.
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9b2bbda8f8191f592462f4fbd1902e7274cf7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3c316e0381f4d407ed7c4c39b5949717b71477bd
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907629"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831880"
 ---
 # <a name="person-screening"></a>مراقبة الأشخاص
 
@@ -44,6 +44,7 @@ ms.locfileid: "8907629"
     "mshr_status": Int,
     "mshr_partynumber": "String",
     "mshr_screeningtypeid": "String",
+    "_mshr_fk_screeningtype_id_value": "Guid",
     "mshr_primaryfield": "String",
     "_mshr_fk_person_id_value": "Guid",
     "mshr_hcmpersonscreeningentityid": "Guid",
@@ -53,17 +54,19 @@ ms.locfileid: "8907629"
 
 ## <a name="properties"></a>الخصائص
 
-| الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | الوصف |
+| الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | ‏‏الوصف‬ |
 | --- | --- | --- |
-| **معرف كيان مراقبة الشخص**<br>mshr_hcmpersonscreeningentityid<br>*GUID* | للقراءة فقط<br>مطلوب<br>منشأ بواسطة النظام | المعرف الأساسي الفريد لسجل مراقبة الشخص. |
-| **رقم الطرف**<br>mshr_partynumber<br>*سلسلة* | قراءة/كتابة<br>مطلوب | رقم الطرف (الشخص) المقترن بالمرشح. |
-| **قيمة معرف الشخص**<br>_mshr_fk_person_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>المفتاح الخارجي: mshr_dirpersonentityid لـ mshr_dirpersonentity | المعرف الفريد المنشأ بواسطة النظام لسجل كيان الطرف (الشخص). |
+| **الملاحظات**<br>mshr_note<br>*سلسلة* | قراءة/كتابة<br>اختياري | ملاحظات للاستخدام من جانب مسؤولي التعيين ومدراء التوظيف. |
+| **مطلوب من**<br>mshr_requiredby<br>*Datetime* | قراءة/كتابة<br>اختياري | التاريخ المطلوب فيه إكمال عملية المراقبة. |
+| **الحالة**<br>mshr_status<br>*مجموعة خيارات mshr_hcmcompletionstatus*|قراءة/كتابة<br>مرجو | يوفر حالة المرشح لعملية المراقبة. |
+| **رقم الطرف**<br>mshr_partynumber<br>*سلسلة* | قراءة/كتابة<br>مرجو | رقم الطرف (الشخص) المقترن بالمرشح. |
 | **معرف نوع المراقبة**<br>mshr_screeningtypeid<br>*سلسلة* | قراءة/كتابة<br>مطلوب<br>المفتاح الخارجي: ScreeningType | معرف نوع المراقبة المحدد في الموارد البشرية. |
 | **قيمة معرف نوع المراقبة**<br>_mshr_fk_screeningtype_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>المفتاح الخارجي: mshr_hcmscreeningtypeentityid لـ mshr_hcmscreeningtypeentity | معرف فريد منشأ بواسطة النظام لسجل نوع المراقبة في الكيان المقترن. |
-| **مطلوب من**<br>mshr_requiredby<br>*Datetime* | قراءة/كتابة<br>اختياري | التاريخ المطلوب فيه إكمال عملية المراقبة. |
-| **الحالة**<br>mshr_status<br>*مجموعة خيارات mshr_hcmcompletionstatus*<br>قراءة/كتابة<br>مطلوب | يوفر حالة المرشح لعملية المراقبة. |
+| **الحقل الأساسي**<br>mshr_primaryfield<br>*سلسلة* |  للقراءة فقط<br>مرجو | حقل المطلوب استخدامه كمعرف لسجل الكيان. |
+| **قيمة معرف الشخص**<br>_mshr_fk_person_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>المفتاح الخارجي: mshr_dirpersonentityid لـ mshr_dirpersonentity | المعرف الفريد المنشأ بواسطة النظام لسجل كيان الطرف (الشخص). |
+| **معرف كيان مراقبة الشخص**<br>mshr_hcmpersonscreeningentityid<br>*GUID* | للقراءة فقط<br>مطلوب<br>منشأ بواسطة النظام| المعرف الأساسي الفريد لسجل مراقبة الشخص. |
 | **تاريخ الإكمال**<br>mshr_completeddate<br>*Datetime* | قراءة/كتابة<br>اختياري | تاريخ اكتمال عملية المراقبة. |
-| **الملاحظات**<br>mshr_note<br>*سلسلة* | قراءة/كتابة<br>اختياري | ملاحظات للاستخدام من جانب مسؤولي التعيين ومدراء التوظيف. |
+
 
 ## <a name="see-also"></a>راجع أيضًا
 

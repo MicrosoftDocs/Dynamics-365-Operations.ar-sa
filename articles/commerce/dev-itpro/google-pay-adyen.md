@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c3f049946c66fcd8560f7c08a4cb2beab0dcd5b2
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: cdf950fc7b3720543d93e108d4e3c3c2ab254e09
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9115021"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838381"
 ---
 # <a name="configure-google-pay-with-adyen"></a>تكوين دفع Google بأديين
 
@@ -90,11 +90,6 @@ Dynamics 365 Commerce يقدم تكاملا جاهزا لدفع Google عند ا
 
 1. بعد الانتهاء من اعداد خصائص الموصل ، قم بتشغيل **مهمة جدوله توزيع 1070 (تكوين** القناة).
 
-## <a name="configure-commerce-pos-for-google-pay"></a>تهيئة Commerce POS لـ Google Pay
-
-يستخدم تكوين نقطه البيع اعداد حقل الخدمة **EFT الخاص** بملف تعريف الأجهزة لأديين الخاصة بموصل الدفع Dynamics 365. للحصول على معلومات حول كيفية تكوين خدمة تحويل الأموال الإلكتروني (EFT) لـ Dynamics 365 Payment Connector for Adyen في Commerce headquarters، راجع [اعداد قسم](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile) ملف تعريف أجهزه DYNAMICS 365 POS.
-
-يقوم تعيين المعالج لموصل أديين بالتقاط أنواع بطاقات المحفظة التي يستخدمها Google الراتب في محطه POS الطرفية.
 
 ### <a name="use-the-payment-express-module-with-google-pay"></a>استخدم وحدة الدفع السريع مع Google Pay
 
@@ -223,6 +218,12 @@ Dynamics 365 Commerce يقدم تكاملا جاهزا لدفع Google عند ا
 تستخدم وحدة الدفع أيضًا وحدة خيارات التسليم عندما يتم تقديم أوضاع التسليم أثناء الخروج. لمزيد من المعلومات، راجع [وحدة خيارات التسليم‬](../delivery-options-module.md).
 
 يتم عرض أوضاع التسليم بمجرد اضافتها إلى **قائمه طرق التسليم** في المتجر الموجود علي الإنترنت.
+
+## <a name="configure-commerce-pos-for-google-pay"></a>تهيئة Commerce POS لـ Google Pay
+
+يستخدم تكوين نقطه البيع اعداد حقل الخدمة **EFT الخاص** بملف تعريف الأجهزة لأديين الخاصة بموصل الدفع Dynamics 365. للحصول على معلومات حول كيفية تكوين خدمة تحويل الأموال الإلكتروني (EFT) لـ Dynamics 365 Payment Connector for Adyen في Commerce headquarters، راجع [إعداد قسم ملف تعريف أجهزة Dynamics 365 POS](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+يقوم تعيين المعالج لموصل أديين بالتقاط أنواع بطاقات المحفظة التي يستخدمها Google الراتب في محطه POS الطرفية.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 
