@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.28
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: d24596a6573de87600217c3d7f29c5b8d1e92649
-ms.sourcegitcommit: 24b5e76f4250f22a0f02700f1358fd3885132ced
+ms.openlocfilehash: f24101e587add54dd5f4f3edc193680319a0caa2
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "9810680"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843813"
 ---
 # <a name="electronic-invoicing-onboarding-in-saudi-arabia"></a>إعداد الفواتير الإلكترونية في المملكة العربية السعودية
 
@@ -105,7 +105,7 @@ ms.locfileid: "9810680"
     > معلمة **كلمة المرور** اختيارية ويمكن حذفها. إذا تم تضمينها، فستحتوي الشهادة التي تم إنشاؤها على كلمة المرور المحددة.
 
 8. يتم استلام CCSID كملف شهادة باسم "CCSID.pfx"، ويتم حفظ سر CCSID كملف نصي باسم "CCSIDSecret.txt". احفظ ملف شهادة CCSID هذا في شهادة key vault Microsoft Azure واحفظ السر في Microsoft Azure key vault secret. لمزيد من المعلومات، راجع [شهادات وأسرار العميل](e-invoicing-customer-certificates-secrets.md).
-9. قم بتكوين إعداد الميزة ذات الصلة في ميزة **الفوترة الإلكترونية للفاتورة الإلكترونية في المملكة العربية السعودية (SA)**، وقم بالرجوع إلى شهادة CCSID التي قمت بحفظها في خزنة المفاتيح. سيتم استخدام الشهادة للتواصل مع بوابة الفواتير الإلكترونية ZATCA.
+9. قم بتكوين إعداد الميزة ذات الصلة في ميزة الفوترة الإلكترونية **نموذج توافق ZATCA في المملكة العربية السعودية (SA)**، وقم بالرجوع إلى شهادة CCSID التي قمت بحفظها في خزنة المفاتيح. سيتم استخدام الشهادة للتواصل مع بوابة الفواتير الإلكترونية ZATCA.
 
 ### <a name="compliance-check"></a>الاختيار الامتثال
 

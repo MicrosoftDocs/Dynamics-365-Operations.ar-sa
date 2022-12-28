@@ -2,7 +2,7 @@
 title: شهادة الشخص
 description: توضح هذه المقالة كيان شهادة الشخص لـ Dynamics 365 Human Resources.
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3c3be061cb8a18a19729932352c82ff3b787000
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f9d5a8c83d9714a4d10dec16e66ab87b794b074
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897911"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887307"
 ---
 # <a name="person-certificate"></a>شهادة الشخص
 
@@ -53,17 +53,20 @@ ms.locfileid: "8897911"
 
 ## <a name="properties"></a>الخصائص
 
-| الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | الوصف |
+| الخاصية<br>**الاسم الفعلي**<br>**_النوع_** | استخدام | ‏‏الوصف‬ |
 | --- | --- | --- |
-| **معرف كيان شهادة الشخص**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | للقراءة فقط<br>مطلوب | معرف فريد منشأ بواسطة النظام لسجل كيان شهادة الشخص. |
-| **رقم الطرف**<br>mshr_partynumber<br>*سلسلة* | قراءة/كتابة<br>مطلوب | معرف الطرف (الشخص) للمرشح. |
-| **قيمة معرف الشخص**<br>_mshr_fk_person_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>المفتاح الخارجي: mshr_dirpersonentityid لـ mshr_dirpersonentity | المعرف الفريد المنشأ بواسطة النظام لسجل كيان الطرف (الشخص). |
 | **معرف نوع الشهادة**<br>mshr_certificatetypeid<br>*سلسلة* | قراءة/كتابة<br>مطلوب |  معرف نوع الشهادة المحدد في الموارد البشرية. |
-| **قيمة معرف نوع الشهادة**<br>_mshr_fk_certificatetype_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>المفتاح الخارجي: mshr_hcmcertificatetypeentityid لـ mshr_hcmcertificatetypeentity | معرف فريد منشأ بواسطة النظام لنوع الشهادة في الكيان المقترن. |
-| **تاريخ البدء**<br>mshr_startdate<br>*Datetime* | قراءة/كتابة<br>مطلوب | التاريخ الذي تم فيه إصدار الشهادة. |
+| **تاريخ البدء**<br>mshr_startdate<br>*Datetime* | قراءة/كتابة<br>مرجو | التاريخ الذي تم فيه إصدار الشهادة. |
 | **تاريخ النهاية**<br>mshr_enddate<br>*Datetime* | قراءة/كتابة<br>اختياري | التاريخ الذي ستنتهي فيه الشهادة. |
 | **الملاحظات**<br>mshr_notes<br>*سلسلة* | قراءة/كتابة<br>اختياري | ملاحظات للاستخدام من جانب مسؤولي التعيين ومدراء التوظيف. |
-| **الحقل الأساسي**<br>mshr_primaryfield<br>*سلسلة* | للقراءة فقط<br>مطلوب |  حقل المطلوب استخدامه كمعرف لسجل الكيان. مجموعة رقم الطرف ومعرف نوع الشهادة وتاريخ البدء. |
+| **رقم الطرف**<br>mshr_partynumber<br>*سلسلة* | قراءة/كتابة<br>مرجو | معرف الطرف (الشخص) للمرشح. |
+| **الحقل الأساسي**<br>mshr_primaryfield<br>*سلسلة* | للقراءة فقط<br>مرجو |  حقل المطلوب استخدامه كمعرف لسجل الكيان. مجموعة رقم الطرف ومعرف نوع الشهادة وتاريخ البدء. |
+| **قيمة معرف نوع الشهادة**<br>_mshr_fk_certificatetype_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>المفتاح الخارجي: mshr_hcmcertificatetypeentityid لـ mshr_hcmcertificatetypeentity | معرف فريد منشأ بواسطة النظام لنوع الشهادة في الكيان المقترن. |
+| **قيمة معرف الشخص**<br>_mshr_fk_person_id_value<br>*GUID* | للقراءة فقط<br>مطلوب<br>المفتاح الخارجي: mshr_dirpersonentityid لـ mshr_dirpersonentity | المعرف الفريد المنشأ بواسطة النظام لسجل كيان الطرف (الشخص). |
+| **معرف كيان شهادة الشخص**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | للقراءة فقط<br>مطلوب | معرف فريد منشأ بواسطة النظام لسجل كيان شهادة الشخص. |
+
+
+
 
 ## <a name="see-also"></a>راجع أيضًا
 

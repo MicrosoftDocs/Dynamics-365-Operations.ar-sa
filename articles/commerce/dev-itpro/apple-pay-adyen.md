@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: 0949b9d7a4b181605d43956932b4fc095940bd64
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 896847cee696e221b2114f7f28a0b56e73fc911b
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780346"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838219"
 ---
 # <a name="set-up-apple-pay-with-adyen-in-dynamics-365-commerce"></a>إعداد دفع Apple Pay مع Adyen في Dynamics 365 Commerce
 
@@ -102,13 +102,6 @@ Dynamics 365 Commerce يقدم تكاملا جاهزا لدفع Apple Pay عند
 
 1. بعد إدخال معلومات التاجر، قم بتشغيل مهمة جدولة توزيع تكوين القناة **1070**.
 
-## <a name="configure-commerce-pos-for-apple-pay"></a>تهيئة Commerce POS لـ Apple Pay
-
-يستخدم تكوين نقطه البيع تكوين حقل الخدمة **EFT الخاص** بملف تعريف الأجهزة لـ Adyen الخاصة بموصل الدفع Dynamics 365. في Commerce headquarters، قم بتكوين خدمة التحويل الإلكتروني لـ Dynamics 365 Payment Connector for Adyen كما هو موضح في [إعداد قسم ملف تعريف أجهزة Dynamics 365 POS](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-تأكد من إضافة **ApplePay** إلى قائمة أنواع العطاءات في حقل **أنواع العطاءات المدعومة**. استخدم الفاصلة المنقوطة (؛) لفصل أنواع العطاء في القائمة.
-
-سيعمل تعيين المعالج لموصل Adyen على التقاط أنواع بطاقات المحفظة التي تستخدمها Apple Pay في محطة POS.
 
 ### <a name="configure-content-security-policies-in-site-builder"></a>تكوين سياسات أمان المحتوى في منشئ الموقع
 
@@ -138,6 +131,14 @@ Dynamics 365 Commerce يقدم تكاملا جاهزا لدفع Apple Pay عند
 يظهر زر الدفع **Apple Pay** فقط على أجهزة Apple Pay المدعومة (متصفحات iPhones, iPads وSafari التي تدعم Apple Pay). إذا كان المستخدم لا يستخدم أحد هذه الأجهزة، فسيتم إخفاء زر الدفع **Apple Pay** عن العرض.
 
 عندما يحدد المستخدم زر الدفع **Apple Pay**، يظهر مربع حوار **Apple Pay**. هناك، يمكن للمستخدم المصادقة على جهاز Apple Pay أو متصفحه. يظهر مربع الحوار **Apple Pay** ملخصا لمبلغ الأمر وطريقة الدفع التي قام المستخدم بتكوينها مقابل محفظه Apple الخاصة بهم. ويمكن للمستخدم مراجعة هذه التفاصيل ثم تحديد **الدفع** لإكمال الدفع. بعد إكمال عملية الدفع، يتم توجيه المستخدم إلى صفحة الموقع **الطلب اكتمل** التي تعرض ملخص أمر مفصل للحركة المكتملة.
+
+## <a name="configure-commerce-pos-for-apple-pay"></a>تهيئة Commerce POS لـ Apple Pay
+
+يستخدم تكوين نقطه البيع تكوين حقل الخدمة **EFT الخاص** بملف تعريف الأجهزة لـ Adyen الخاصة بموصل الدفع Dynamics 365. في Commerce headquarters، قم بتكوين خدمة التحويل الإلكتروني لـ Dynamics 365 Payment Connector for Adyen كما هو موضح في [إعداد ملف تعريف أجهزة Dynamics 365 POS](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+تأكد من إضافة **ApplePay** إلى قائمة أنواع العطاءات في حقل **أنواع العطاءات المدعومة**. استخدم الفاصلة المنقوطة (؛) لفصل أنواع العطاء في القائمة.
+
+سيعمل تعيين المعالج لموصل Adyen على التقاط أنواع بطاقات المحفظة التي تستخدمها Apple Pay في محطة POS.
 
 ## <a name="additional-resources"></a>الموارد الإضافية
 

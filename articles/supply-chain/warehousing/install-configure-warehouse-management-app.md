@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714748"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838462"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>تثبيت تطبيق Warehouse Management للأجهزة المحمولة وتوصيله
 
@@ -58,10 +58,10 @@ ms.locfileid: "9714748"
 
 كبديل للتثبيت من متجر تطبيقات، يمكنك بدلاً من ذلك تنزيل التطبيق من مركز تطبيقات Microsoft. يوفر مركز التطبيقات حزم قابلة للتثبيت يمكنك بها القيام بالتحميل الجانبي. بالإضافة إلى الإصدار الحالي، يسمح لك مركز التطبيقات أيضًا بتنزيل الإصدارات السابقة وقد يوفر إصدارات معاينة بالميزات القادمة التي يمكنك تجربتها. لتنزيل الإصدارات الحالية أو السابقة أو معاينة الإصدارات الخاصة بتطبيق الأجهزة المحمولة لـ Warehouse Management من مركز تطبيقات Microsoft، استخدم أحد الارتباطات التالية:
 
-- **Windows (UWP):** [Warehouse Management (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [Warehouse Management (Windows)](https://aka.ms/wma-windows-official-release)  
     للحصول على إرشادات حول كيفية تثبيت حزمة تم تنزيلها على جهاز Windows ثم إعداد الشهادات المطلوبة، راجع [تثبيت بنية من مركز التطبيقات](/appcenter/distribution/installation).
 
-- **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [Warehouse Management (Android)](https://aka.ms/wma-android-official-release)  
     إذا قمت بتنزيل إصدار أولي، فإنه يلزم بضع خطوات إضافية لتثبيته. للحصول علي تفاصيل، راجع [اختبار تطبيقات Android ](/appcenter/distribution/testers/testing-android).
 
 للحصول على معلومات حول كيفية تثبيت إصدار تم تنزيله من مركز التطبيقات، راجع [تثبيت إصدار](/appcenter/distribution/installation).

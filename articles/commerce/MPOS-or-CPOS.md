@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e1092c0c5c49c6a99dd441c75f545fc831c0b03
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276444"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831546"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>الاختيار بين Store Commerce وCloud POS
 
@@ -71,7 +71,7 @@ ms.locfileid: "9276444"
 |----------------------------|---------------------|-------------------|-------------------|
 | Store Commerce لنظام Windows | المجموعة أو وحدة قياس متجر البيع بالتجزئة       | ‏‏نعم‬               | ‏‏نعم‬               |
 | Store Commerce لنظام Android | المجموعة أو وحدة قياس متجر البيع بالتجزئة       | لا                | ‏‏نعم‬               |
-| Store Commerce لنظام iOS     | المجموعة أو وحدة قياس متجر البيع بالتجزئة       | لا                | لا                |
+| Store Commerce لنظام iOS     | المجموعة أو وحدة قياس متجر البيع بالتجزئة       | لا                | ‏‏نعم‬               |
 | نقطة بيع المجموعة‬                  | المجموعة أو وحدة قياس متجر البيع بالتجزئة       | لا                | لا                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
@@ -90,7 +90,7 @@ ms.locfileid: "9276444"
 |----------------------------|----------------|---------------------|--------------------|
 | Store Commerce لنظام Windows | ‏‏نعم‬            | ‏‏نعم‬                 | ‏‏نعم‬                |
 | Store Commerce لنظام Android | لا             | ‏‏نعم‬                 | ‏‏نعم‬                |
-| Store Commerce لنظام iOS     | لا             | لا                  | ‏‏نعم‬                |
+| Store Commerce لنظام iOS     | لا             | ‏‏نعم‬                 | ‏‏نعم‬                |
 | نقطة بيع المجموعة‬                  | لا             | لا                  | ‏‏نعم‬                |
 
 لمزيد من المعلومات حول كيفية تثبيت محطات الأجهزة، راجع [تكوين وتثبيت محطة أجهزة البيع بالتجزئة](retail-hardware-station-configuration-installation.md).

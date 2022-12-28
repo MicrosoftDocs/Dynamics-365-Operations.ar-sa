@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c173057b8e1357790e780469c5806afb857be62a
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893254"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838307"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>رموز التصنيف الوطني لشحن السيارات (NMFC)
 
@@ -57,7 +57,7 @@ ms.locfileid: "8893254"
 
 يوضح المثال التالي كيفية إعداد رمزي NMFC مختلفين يمكن استخدامهما مع منتجات مختلفة.
 
-1. انتقل إلى **إدارة المستودعات \> الإعداد \> المخزون \> رمز NMFC**.
+1. انتقل إلى **Warehouse management \> الإعداد \> المخزون \> رموز NMFC** أو **إدارة النقل \> الإعداد \> معايير النقل \> رموز NMFC**.
 1. في جزء الإجراء، حدد **جديد**.
 1. في البند الجديد، قم بتعيين القيم التالية:
 

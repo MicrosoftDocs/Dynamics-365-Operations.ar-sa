@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 25d13aa26565e5753b87c843b43cf46f8276b642
+ms.sourcegitcommit: 6c05bcd27e6ee72f01cb66e2cfd1e929e0365830
 ms.translationtype: HT
 ms.contentlocale: ar-SA
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643784"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9854069"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>ميزات تمت إزالتها أو إهمالها في Dynamics 365 Finance
 
@@ -124,11 +124,10 @@ ms.locfileid: "9643784"
 | **خيارات النشر**              | ‏‏الكل‬ |
 | **Status**                         | ‏‫مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لتنسيق التقارير الإلكترونية (ER) **إقرار ضريبة القيمة المضافة (AT)** ضمن **نموذج إقرار ضريبة القيمة المضافة**. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار XML لضريبة القيمة المضافة (AT)** و **إقرار ضريبة القيمة المضافة Excel (AT)** الجديدة ضمن نموذج **إقرار الضريبة**. |
 
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>إقرار ELSTER لألمانيا (تصميم يستند إلى أكواد التقارير)
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes-electronic-tax-declaration-log-menu-item-and-page-electronic-tax-declaration-setup-menu-item-and-page-german-report-layout-taxreport_de-ssrs-format"></a>إقرار ELSTER لألمانيا (التصميم الذي يستند إلى أكواد التقارير)، \"سجل إقرارات الضريبة الإلكترونية‬\" عنصر القائمة والصفحة، \"‏‫إعداد إقرار الضريبة الإلكترونية\" عنصر القائمة والصفحة، ‏‫تنسيق النموذج التخطيطي للتقرير الألماني (TaxReport_DE) SSRS
 
 [كشف حساب ضريبة القيمة المضافة](../localizations/emea-de-vat-declaration.md)</br>
 [إعداد إقرار الضريبة الإلكترونية لألمانيا](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[الإرسال الإلكتروني لإقرار ضريبة القيمة المضافة (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -136,9 +135,9 @@ ms.locfileid: "9643784"
 | **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
 | **مناطق المنتجات المتأثرة**         | استمارة التقديم |
 | **خيارات النشر**              | ‏‏الكل‬ |
-| **Status**                         | ‏‫مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لتنسيقات التقارير الإلكترونية (ER) لـ **Elster (DE)** و **نموذج Elster**. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار XML لضريبة القيمة المضافة (DE)** و **إقرار ضريبة القيمة المضافة Excel (DE)** الجديدة ضمن نموذج **إقرار الضريبة**. |
+| **Status**                         | ‏‫مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لتنسيق التقارير الإلكترونية (ER) لـ **Elster (DE)** و **نموذج Elster**. يتم تقديم تنسيقات ER **إقرار XML لضريبة القيمة المضافة (DE)** و **إقرار ضريبة القيمة المضافة Excel (DE)** الجديدة ضمن نموذج **إقرار الضريبة**. ولن نقوم كذلك بدعم عنصر القائمة وصفحة **الضريبة** \> **الإقرارات** \> **ضريبة المبيعات** \> **سجل إقرارات الضريبة الإلكترونية**، عنصر القائمة وصفحة **الضريبة** \> **الإعداد** \> **ضريبة المبيعات** \> **إعداد إقرار الضريبة الإلكترونية**، عنصر القائمة وصفحة **الضريبة** \> **الإعداد** \> **ضريبة المبيعات** \> **شهادات الضريبة الإلكترونية**، وتنسيق النموذج التخطيطي للتقرير الألماني (TaxReport\_DE) لخدمات تقارير SQL Server‬ (SSRS). يتم دعم عملية إصدار تقارير ضريبة القيمة المضافة في ألمانيا في وظيفة [الرسائل الإلكترونية](../general-ledger/electronic-messaging.md) . لمزيد من المعلومات، راجع [إقرار ضريبة القيمة المضافة لألمانيا](../localizations/emea-deu-vat-declaration-germany.md). |
 
-### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>إقرار OB لهولندا (تصميم يستند إلى أكواد التقارير)
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes-electronic-ob-declaration-menu-item-and-page-dutch-report-layout-taxreport_nl-ssrs-format"></a>إقرار OB لهولندا (التصميم استنادًا إلى أكواد التقارير)، عنصر قائمة وصفحة \"‏‫إقرار OB الإلكتروني‬\"، تنسيق مخطط التقرير الهولندي (TaxReport_NL) SSRS
 
 [إقرار OB](../localizations/emea-nl-vat-declaration.md)
 
@@ -148,7 +147,7 @@ ms.locfileid: "9643784"
 | **هل تم الاستبدال بميزة أخرى؟**   | ‏‏نعم‬ |
 | **مناطق المنتجات المتأثرة**         | استمارة التقديم |
 | **خيارات النشر**              | ‏‏الكل‬ |
-| **Status**                         | ‏‫مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لتنسيق التقارير الإلكترونية (ER) **إقرار OB (NL)** و **نموذج إقرار OB**. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار XML لضريبة القيمة المضافة (NL)** و **إقرار ضريبة القيمة المضافة Excel (NL)** الجديدة ضمن نموذج **إقرار الضريبة**. |
+| **Status**                         | ‏‫مهمل: بحلول 1 ديسمبر، 2021، لن نقوم بعد الآن بتقديم الدعم لتنسيق **إقرار OB (هولندا)** إعداد التقارير الإلكترونية (ER) و **نموذج إقرار OB‬**. يتم تقديم تنسيقات التقارير الإلكترونية (ER) **إقرار XML لضريبة القيمة المضافة (NL)** و **إقرار ضريبة القيمة المضافة Excel (NL)** الجديدة ضمن نموذج **إقرار الضريبة**. ولن ندعم أيضًا صنف قائمة وصفحة **الضريبة** \> **الإقرارات** \> **ضريبة المبيعات** \> **‏‫إقرار OB الإلكتروني‬**، وتنسيق مخطط التقرير الهولندي (TaxReport_NL) SSRS. يتم دعم عملية إصدار تقارير ضريبة القيمة المضافة في هولندا في وظيفة [الرسائل الإلكترونية](../general-ledger/electronic-messaging.md) . لمزيد من المعلومات، راجع [إقرار ضريبة القيمة المضافة لهولندا](../localizations/emea-nl-vat-declaration-netherlands.md). |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>ميزات تمت إزالتها أو إهمالها في الإصدار 10.0.20 من Finance
 
