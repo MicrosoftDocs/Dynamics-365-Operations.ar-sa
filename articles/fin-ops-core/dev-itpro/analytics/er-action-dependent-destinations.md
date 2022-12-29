@@ -20,7 +20,7 @@ ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: ar-SA
 ms.lasthandoff: 12/13/2022
-ms.locfileid: "6762238"
+ms.locfileid: "9843787"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>تكوين وجهات ER المعتمدة علي الاجراء
 
